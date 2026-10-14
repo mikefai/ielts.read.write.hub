@@ -1,0 +1,318 @@
+{
+  "task1-chart": {
+    "title": "Task 1: Bar chart and line graph reports",
+    "summary": "The examiner is testing whether you can select and report the key features, not copy the data. A clear overview, accurate figures and sensible comparisons are what move you from Band 6 to 7 and beyond.",
+    "steps": [
+      "Read the title, axes, units and time frame first. Write down what is measured (for example percentage of commuters, thousand visitors) and the dates, because these decide your tense and your paraphrase.",
+      "Scan for the single biggest movement or difference: the highest and lowest items, the steepest rise or fall, any crossing point. Mark two or three of these only; everything else is secondary.",
+      "Decide your grouping before writing: by trend (those that rose versus those that fell), by rank (leaders versus the rest) or by time (before and after a turning point). Each body paragraph needs one logical group.",
+      "Draft the overview in your head as two sentences with no numbers: the main trend or difference, then a contrast or stand-out item. If you cannot say it without figures, you have not yet selected the key features.",
+      "Pick the figures that prove your overview (start, end, peak, trough, biggest gap) and ignore the rest. Check units and the direction of each change before you write a single number."
+    ],
+    "structure": [
+      { "paragraph": "Introduction", "purpose": "Show what the visual contains in your own words, in one sentence, with no opinion or data.", "sentences": ["Paraphrase: change the verb (shows to compares or illustrates), the measure (number to figure or proportion) and the time phrase, but keep the facts identical."] },
+      { "paragraph": "Overview", "purpose": "Give the reader the main story so the detail that follows has a frame. This is the paragraph examiners look for first.", "sentences": ["Overview: main feature: the largest trend or difference, with no numbers.", "Overview: second feature: a contrast, a second trend or a stand-out item, still without detailed figures."] },
+      { "paragraph": "Body 1", "purpose": "Report the first logical group of data with selected, accurate figures and at least one comparison.", "sentences": ["Topic sentence: name the group and its main direction.", "Key figures: exact start and end values with units for the main item.", "Comparison: set it against another item with whereas, while or a comparative form.", "Trend detail: add the shape of the change, such as a peak, steady rise or sharp fall."] },
+      { "paragraph": "Body 2", "purpose": "Report the remaining group, linking back to Body 1 so the report reads as one piece, not two lists.", "sentences": ["Topic sentence: introduce the second group and how it differs from the first.", "Key figures: exact values with units for its main item.", "Comparison: contrast with the first group or another item in this one.", "Closing detail: one further notable point, for instance a rank change; no conclusion is needed."] }
+    ],
+    "timing": [
+      { "minutes": 3, "what": "Analyse the visual, choose the overview features and decide the grouping" },
+      { "minutes": 14, "what": "Write: introduction and overview first (4 minutes), then two body paragraphs" },
+      { "minutes": 3, "what": "Check units, figures, tenses, and that the overview contains no numbers" }
+    ],
+    "pitfalls": [
+      "Writing no overview, or burying it in the last paragraph. Task Achievement is capped at around Band 5 without a clear overview, because you have not shown you can see the whole picture.",
+      "Listing every figure item by item. This reads as copying the chart, produces a flat list and fails the instruction to select main features, which limits both Task Achievement and Coherence.",
+      "Giving reasons or opinions (the council must have invested in cycling). The task is to report, and invented causes are unsupported information that examiners penalise.",
+      "Misreading units or mixing up values, such as writing 6 per cent as 6 thousand. Inaccurate data is a Task Achievement error, however good the language is.",
+      "Using one tense or one trend verb throughout (rose, rose, rose). A narrow range of vocabulary and structures caps Lexical Resource and Grammatical Range at Band 6.",
+      "Copying the question wording in the introduction. Copied words are not counted towards your assessment, and they signal limited paraphrasing ability."
+    ],
+    "language": [
+      { "use": "Trend verbs and nouns", "phrases": ["rose steadily to", "climbed sharply", "dipped slightly before recovering", "peaked at", "a marked decline in", "levelled off at"] },
+      { "use": "Approximation and precision", "phrases": ["just over a quarter", "approximately 40 per cent", "well under half", "roughly double", "marginally higher than", "a little short of"] },
+      { "use": "Comparison and contrast", "phrases": ["whereas", "while", "by contrast", "twice as high as", "considerably lower than", "the gap between X and Y narrowed"] },
+      { "use": "Overview and highlighting", "phrases": ["Overall,", "The most striking feature is that", "It is noticeable that", "The most dramatic change was", "X remained the most popular throughout", "In contrast to the general trend,"] },
+      { "use": "Sequencing time", "phrases": ["Over the period", "By 2020", "Having peaked in 2019,", "Thereafter", "In the following two years", "From 2017 to 2019"] }
+    ],
+    "band8": [
+      "Task Achievement: the overview is a genuine synthesis (main trend plus a significant contrast), and every figure in the body supports it. At Band 7 the overview is present but the body lists data without ranking importance.",
+      "Task Achievement: data are grouped by meaning (for example those that rose against those that fell) rather than in the order of the legend. Band 8 shows selection; Band 7 often reports everything once.",
+      "Coherence and Cohesion: each body paragraph has a topic sentence, and the second links back to the first with a contrast or reference so the report reads as one argument, not a series of facts.",
+      "Lexical Resource: varied, precise trend vocabulary and approximation (a marginal rise, just under a fifth), with no repeated verbs and no loose words such as 'big' or 'a lot'.",
+      "Grammatical Range and Accuracy: a mix of comparative structures, participle clauses (Having peaked at 95, attendance fell...) and relative clauses, with figures, units and prepositions all accurate."
+    ]
+  },
+  "task1-process": {
+    "title": "Task 1: Process diagrams",
+    "summary": "The examiner is testing whether you can describe a sequence accurately and completely, using sequencing language and the passive voice, while still giving an overview of the whole process.",
+    "steps": [
+      "Identify whether the diagram is a natural cycle or a manufacturing process, whether it is linear or cyclical, and where it starts and ends. The overview depends on this.",
+      "Number every stage and note the inputs, the action and the output at each one. Missing a stage is a Task Achievement error, so count carefully.",
+      "Decide how to group the stages into two or three phases (preparation, transformation, finishing). Each body paragraph should cover one phase, not a random half of the numbers.",
+      "Note which stages need the passive (most do, because the agent is a machine) and which tools, materials or equipment are named, so you reuse the exact labels accurately.",
+      "Plan the overview: the total number of stages, the start and end points, and one feature such as 'linear', 'cyclical' or 'dominated by mechanical treatment'."
+    ],
+    "structure": [
+      { "paragraph": "Introduction", "purpose": "Say what the diagram shows and the process it describes, in your own words.", "sentences": ["Paraphrase: use 'illustrates' or 'outlines', the number of stages, and the start and end points; replace stages and produce with synonyms."] },
+      { "paragraph": "Overview", "purpose": "Summarise the process as a whole without describing any single step.", "sentences": ["Overview: main feature: the process is linear or cyclical, with a clear start and end.", "Overview: second feature: how the stages divide into phases, for example preparation then formation."] },
+      { "paragraph": "Body 1", "purpose": "Describe the first phase in order, with the passive and a different sequencing word at each step.", "sentences": ["Topic sentence: name the phase and its purpose.", "Key figures: the first one or two stages in order, with inputs and actions.", "Comparison: distinguish between stages, using whereas or while, or show how one step prepares the next.", "Trend detail: the method or equipment used and why, if the diagram shows it."] },
+      { "paragraph": "Body 2", "purpose": "Describe the remaining stages to the final product, ending clearly.", "sentences": ["Topic sentence: name the second phase.", "Key figures: the next stages in order with materials and results.", "Comparison: contrast the roles of two stages in this phase.", "Closing detail: the final stage and the end product."] }
+    ],
+    "timing": [
+      { "minutes": 3, "what": "Number the stages, find start and end, decide the two phases" },
+      { "minutes": 14, "what": "Write: introduction and overview (4 minutes), then two body paragraphs following the order exactly" },
+      { "minutes": 3, "what": "Check no stage is missing, passive forms, and sequencing words are varied" }
+    ],
+    "pitfalls": [
+      "Leaving out a stage or reordering stages. Process accuracy is the core of Task Achievement, and the examiner will check the sequence against the diagram.",
+      "Using only 'then' as a linker. Repetitive sequencing words keep Coherence and Cohesion at Band 6, and mechanical 'first, second, third' lists look rehearsed.",
+      "Writing in the active voice with 'they' or 'people' when the diagram shows machines or natural processes. This changes the meaning and weakens Grammatical Range.",
+      "Giving no overview, or writing an overview that simply repeats the first stage. Examiners need to see that you understand the process as a whole.",
+      "Adding information not on the diagram, such as why the recycling matters. It is irrelevant, and unsupported content costs Task Achievement.",
+      "Describing every minor detail, such as every label on a machine. Group related steps and focus on what changes the material."
+    ],
+    "language": [
+      { "use": "Sequencing", "phrases": ["The process begins with", "Once this is complete,", "After that,", "This is followed by", "Subsequently,", "At the final stage,"] },
+      { "use": "Passive forms", "phrases": ["is collected and sorted", "is then heated to", "are removed by", "is spread across", "is wound onto", "is dispatched to"] },
+      { "use": "Purpose and result", "phrases": ["in order to", "so that", "which allows", "thereby ensuring", "which results in", "to prevent"] },
+      { "use": "Simultaneity and contrast", "phrases": ["Meanwhile,", "At the same time,", "whereas", "while", "As this happens,", "Before"] },
+      { "use": "Overview", "phrases": ["Overall, the process is linear", "There are six main stages", "The process can be divided into two phases", "from raw materials to the finished product", "a continuous cycle", "ends with"] }
+    ],
+    "band8": [
+      "Task Achievement: all stages are present in the correct order, grouped into phases, and the overview names the shape of the process. Band 7 often covers every stage but without a phase structure.",
+      "Coherence and Cohesion: sequencing language is varied and precise (once, following this, at this point) and reference words connect stages, instead of a repeated 'then'.",
+      "Lexical Resource: technical vocabulary from the diagram is paraphrased accurately (screened, filtered out; heated rollers, heated cylinders) and collocations are natural.",
+      "Grammatical Range and Accuracy: accurate passives in several tenses and forms, with participle clauses and relative clauses (which is then dried) joining stages smoothly, with no error in verb agreement."
+    ]
+  },
+  "opinion": {
+    "title": "Task 2: Opinion (to what extent do you agree or disagree?)",
+    "summary": "The examiner is testing whether you take and sustain a clear position on the exact statement given, support it with developed reasons, and show control of argument and language. A consistent, nuanced position is the biggest lever at Band 7 and above.",
+    "steps": [
+      "Underline the command phrase ('To what extent do you agree or disagree?') and the key claim. This question wants a position on this statement, not a general essay on the topic.",
+      "Break the statement into its parts: the group, the action and any limiting words (such as 'even those unrelated'). Each limiting word is something you must address, not ignore.",
+      "Decide your position in 60 seconds: fully agree, fully disagree or partly agree. If partly, state exactly which part you accept and which you reject, so the position stays clear.",
+      "Choose two reasons that directly prove your position. For each, find a specific example (a field, a country, a type of person) and a result. Ideas you cannot develop in four sentences should be dropped.",
+      "Decide the role of Body 2: a second reason, or a counter-argument that you concede and then limit. Check that your thesis and your plan do not contradict each other."
+    ],
+    "structure": [
+      { "paragraph": "Introduction", "purpose": "Frame the debate and commit to one clear position that answers the question as asked.", "sentences": ["Background: paraphrase the topic neutrally, without copying the question.", "Thesis: state your position with the question's key terms and your main reasons.", "Outline: signal what each body paragraph will cover (optional)."] },
+      { "paragraph": "Body 1", "purpose": "Present your strongest reason fully, so it reads as proven and not just asserted.", "sentences": ["Topic sentence: one main idea that supports your position.", "Explanation: explain why or how the idea holds.", "Example: a specific, believable case.", "Result or effect: what the example proves for the question."] },
+      { "paragraph": "Body 2", "purpose": "Add a second reason or deal with the strongest opposing point, and show it does not undermine your position.", "sentences": ["Topic sentence: second reason or concession.", "Explanation: develop the logic.", "Example: a precise illustration.", "Link: tie back to the question or limit the counter-argument."] },
+      { "paragraph": "Conclusion", "purpose": "Confirm that your answer is consistent from start to finish, without new ideas.", "sentences": ["Summary: restate position and two reasons in new words.", "Final judgement: a short statement of the overall implication."] }
+    ],
+    "timing": [
+      { "minutes": 5, "what": "Plan: underline command words, choose position, two reasons with examples" },
+      { "minutes": 30, "what": "Write: introduction (4), body 1 (9), body 2 (9), conclusion (3), buffer (5)" },
+      { "minutes": 5, "what": "Check: position consistent in thesis and conclusion, word count over 250, articles, agreement, spelling" }
+    ],
+    "pitfalls": [
+      "Memorised or copied introductions. Examiners recognise templates, and copied words are discounted. It also tends to produce a generic thesis that does not answer the actual statement, reducing Task Response.",
+      "An unclear or shifting position, such as agreeing in the introduction and arguing the other side in the conclusion. Task Response needs a position that is clear throughout.",
+      "Answering only part of the statement. If it says 'even unrelated subjects', you must deal with that limit; ignoring it is a partial answer and limits Task Response to Band 5, where the task is only partially addressed.",
+      "Undeveloped ideas: a topic sentence and one generic example. Band 7 needs a reason that is extended and supported; a list of reasons with no development stays at Band 5 or 6.",
+      "Vague, unlikely examples ('some people say', 'in a country') that prove nothing. Specific, plausible cases are what make an argument credible.",
+      "Informal or over-emphatic language (a lot of, very very important, definitely 100 per cent). It reduces precision in Lexical Resource and sounds subjective in an academic essay.",
+      "Mechanical linking ('Firstly, Secondly, In addition, Moreover'). Overused connectors break Coherence and Cohesion, because ideas should be linked by logic and reference, not signposts."
+    ],
+    "language": [
+      { "use": "Stating a position", "phrases": ["In my view,", "I firmly believe that", "I am largely in agreement with", "I would argue that", "I agree only to a limited extent that", "It seems to me that"] },
+      { "use": "Giving reasons and consequences", "phrases": ["This is largely because", "as a result", "which in turn", "thereby enabling", "this explains why", "consequently"] },
+      { "use": "Giving examples", "phrases": ["a case in point is", "for instance,", "A graduate who ..., for example,", "This can be seen in", "Take, for example,", "evidence from ... suggests"] },
+      { "use": "Concession and contrast", "phrases": ["Admittedly,", "Although it is true that", "Nevertheless,", "This is not to say that", "Despite this,", "On the other hand,"] },
+      { "use": "Hedging and precision", "phrases": ["tends to", "is likely to", "in many cases", "may well", "to a large extent", "largely"] },
+      { "use": "Concluding", "phrases": ["In summary,", "Taken together,", "On balance,", "For these reasons,", "Ultimately,", "It follows that"] }
+    ],
+    "band8": [
+      "Task Response: the position is nuanced and stated precisely (for example 'largely agree, with one qualification') and every paragraph, including the conclusion, serves it. At Band 7 the position is clear but ideas can drift.",
+      "Task Response: ideas are developed to a result or implication, so each example is explained as evidence, rather than only mentioned. Band 7 gives good ideas that stop after the example.",
+      "Coherence and Cohesion: progression is logical and cohesion is invisible: pronouns, substitution and topic-sentence links carry the argument, with few mechanical connectors.",
+      "Lexical Resource: precise, natural collocations (transferable skills, narrow specialisation) with little repetition of the question's words and rare, correct less common vocabulary.",
+      "Grammatical Range and Accuracy: most sentences are error-free, with a deliberate mix of conditionals, concessions, relative clauses and passives, and hedged claims.",
+      "Argument quality: a counter-argument is acknowledged and answered inside the essay, which shows evaluation rather than a one-sided list."
+    ]
+  },
+  "discussion": {
+    "title": "Task 2: Discussion (discuss both views and give your opinion)",
+    "summary": "The examiner is testing three things at once: do you present both views fairly, do you give your own opinion, and is that opinion clear and consistent? Missing either view or the opinion is a partial answer.",
+    "steps": [
+      "Underline 'Discuss both views' and 'give your own opinion'. These are two separate tasks, and you will be marked on both.",
+      "Write View A and View B in a few words each, so you know exactly what each side claims (for example, roads versus public transport).",
+      "Decide your own opinion before writing: which view you support, or whether you hold a balanced position. State it in the introduction and confirm it in the conclusion.",
+      "For each view, choose the strongest argument and a specific example. Give the view you reject a fair and credible case; a caricature is a weak argument and loses marks.",
+      "Decide where the opinion lives: usually in the thesis and conclusion, and woven into the body of the view you support. Check that it never contradicts either."
+    ],
+    "structure": [
+      { "paragraph": "Introduction", "purpose": "Show you understand the debate, and declare your opinion so the reader reads the rest in context.", "sentences": ["Background: paraphrase the debate neutrally.", "Thesis: signal both views and state your own opinion.", "Outline: what each paragraph will do (optional)."] },
+      { "paragraph": "Body 1", "purpose": "Present View A fairly and fully, as its supporters would argue it.", "sentences": ["Topic sentence: the view and its main claim.", "Explanation: why its supporters believe it.", "Example: a specific case where it works.", "Result or effect: what that shows, including its limit if relevant."] },
+      { "paragraph": "Body 2", "purpose": "Present View B and show why you find it stronger (or why you hold a balanced view).", "sentences": ["Topic sentence: the contrast with View A, using a concession marker.", "Explanation: why this view holds.", "Example: a specific case.", "Result or effect: what follows, which supports your opinion."] },
+      { "paragraph": "Conclusion", "purpose": "Weigh the two views and restate your opinion without adding new arguments.", "sentences": ["Summary: acknowledge both views and the key difference between them.", "Final judgement: your opinion, in new words."] }
+    ],
+    "timing": [
+      { "minutes": 5, "what": "Plan: sum up both views, decide opinion, one reason and example for each view" },
+      { "minutes": 30, "what": "Write: introduction (4), body 1 (9), body 2 (9), conclusion (3), buffer (5)" },
+      { "minutes": 5, "what": "Check: both views covered, opinion visible in introduction and conclusion, no new ideas in conclusion" }
+    ],
+    "pitfalls": [
+      "Describing only one view in depth, or giving one view a single sentence. Task Response needs both views to be discussed fully and fairly.",
+      "Forgetting to give an opinion, or hiding it in the final line only. The question asks for it directly, so omission is a partial answer capped at Band 5 to 6.",
+      "An opinion that contradicts the body (arguing strongly for roads and then concluding for public transport). A position that is not consistent damages Task Response and Coherence.",
+      "A weak, strawman case for the view you reject. Examiners reward a balanced discussion; an unfair one reads as one-sided.",
+      "Treating the question as 'which is better' with no nuance. At higher bands, you can qualify the opinion (public transport first, roads where no alternative exists).",
+      "Vague examples ('in some countries'). Specific, plausible cases give credibility and are a mark of a Band 7 or 8 answer.",
+      "Repeating the same linking word to open both bodies. Use contrast markers with a purpose and vary how the paragraphs begin."
+    ],
+    "language": [
+      { "use": "Presenting a view", "phrases": ["Supporters of ... argue that", "Proponents contend that", "It is often claimed that", "Those in favour of ... point out that", "The case for ... rests on", "Advocates of ... emphasise"] },
+      { "use": "Stating an opinion", "phrases": ["In my opinion,", "I believe that", "I find the second view more persuasive because", "I side with", "On balance, I favour", "I would argue that"] },
+      { "use": "Contrast and concession", "phrases": ["However,", "Nevertheless,", "Admittedly,", "Whereas", "That said,", "Even so,"] },
+      { "use": "Evidence and examples", "phrases": ["In one mid-sized European city,", "A case in point is", "For example,", "Evidence from ... shows", "This is illustrated by", "Where ... has been introduced,"] },
+      { "use": "Cause and effect", "phrases": ["which in turn", "as a result", "thereby reducing", "this leads to", "consequently", "contributes to"] },
+      { "use": "Concluding", "phrases": ["In conclusion,", "Although both approaches have merit,", "On balance,", "For this reason,", "Taking everything into account,", "Ultimately,"] }
+    ],
+    "band8": [
+      "Task Response: both views are given equal intellectual weight with their own best argument, and the opinion emerges from the weighing, not just announced. At Band 7 the second view is often thinner.",
+      "Task Response: the opinion is nuanced and conditional (invest in transit, use roads selectively), which shows judgement rather than a binary choice.",
+      "Coherence and Cohesion: the two bodies mirror each other in structure, and contrast markers and reference words make the comparison clear without mechanical signposts.",
+      "Lexical Resource: neutral reporting verbs (contend, maintain, point out) and precise topic vocabulary (congestion, modal shift, commuters) replace repeated 'think' and 'good'.",
+      "Grammatical Range and Accuracy: concession structures (While some argue ..., I believe ...), participles and relative clauses are accurate and varied, with few errors."
+    ]
+  },
+  "problem-solution": {
+    "title": "Task 2: Problem and solution (causes and solutions)",
+    "summary": "The examiner is testing whether you answer every part (causes or problems, and solutions) with ideas that match each other. Solutions must be realistic, specific and linked to the causes you identified.",
+    "steps": [
+      "Underline each question word: 'what are the main causes' and 'what solutions could be introduced'. This is two tasks, and both need roughly equal development.",
+      "Identify the exact problem in the prompt (less physical activity) and its direction, so your causes explain that trend and not a different one.",
+      "List three or four causes quickly, then choose the one or two that are most significant and that you can link directly to a solution. Quality of development beats quantity.",
+      "For each solution, name who acts (government, employers, schools) and how it works. A solution without an agent or mechanism is only a wish.",
+      "Check the match: each solution should clearly respond to a cause you wrote about. Mark the connections in your plan before you start writing."
+    ],
+    "structure": [
+      { "paragraph": "Introduction", "purpose": "Set up the problem and promise a structured answer to both parts.", "sentences": ["Background: paraphrase the trend in neutral terms.", "Thesis: signal the causes and your main solutions.", "Outline: say how the essay is organised (optional)."] },
+      { "paragraph": "Body 1", "purpose": "Explain the most significant cause or causes in depth, with evidence and consequences.", "sentences": ["Topic sentence: the main cause.", "Explanation: how it produces the problem.", "Example: a specific, plausible situation.", "Result or effect: the consequence for people or society."] },
+      { "paragraph": "Body 2", "purpose": "Offer practical solutions that respond directly to the causes, showing who acts and how.", "sentences": ["Topic sentence: the main solution, with its link to the cause.", "Explanation: how it works.", "Example: where it has worked or could work.", "Result or effect: a complementary measure or its outcome."] },
+      { "paragraph": "Conclusion", "purpose": "Pull causes and solutions together and show why action matters.", "sentences": ["Summary: restate the cause and the solution in new words.", "Final judgement: the implication or priority."] }
+    ],
+    "timing": [
+      { "minutes": 5, "what": "Plan: identify the parts, select main causes, match each with a solution, add examples" },
+      { "minutes": 30, "what": "Write: introduction (4), causes (9), solutions (9), conclusion (3), buffer (5)" },
+      { "minutes": 5, "what": "Check: both parts answered, solutions match causes, word count, grammar" }
+    ],
+    "pitfalls": [
+      "Answering only causes, or only solutions, or giving a one-sentence solution. Both parts of the question must be developed, or Task Response is limited to Band 5.",
+      "Solutions that do not match the causes you identified. Examiners read this as weak logic, damaging Task Response and Coherence.",
+      "Unrealistic or vague solutions ('the government should do something', 'everyone should exercise more'). Specific, workable measures with an agent are expected.",
+      "Listing four or five causes in one sentence each. That is undeveloped; two well-explained causes score higher than five named ones.",
+      "Blaming people with moral language (lazy, selfish). It is subjective and informal, and it reduces the academic tone required.",
+      "Confusing cause and effect (listing obesity as a cause of inactivity), which signals poor control of ideas.",
+      "A conclusion that adds new solutions. The conclusion should only summarise."
+    ],
+    "language": [
+      { "use": "Describing causes", "phrases": ["is largely attributable to", "stems from", "can be traced back to", "a major contributing factor is", "is driven by", "owes much to"] },
+      { "use": "Describing effects", "phrases": ["which contributes to", "this leads to", "resulting in", "as a consequence,", "with the effect that", "gives rise to"] },
+      { "use": "Proposing solutions", "phrases": ["One practical solution is to", "Governments could address this by", "A more effective approach would be to", "This could be tackled by", "Employers can complement this by", "Measures such as ... would"] },
+      { "use": "Hedging and modality", "phrases": ["would probably", "is likely to", "could go a long way towards", "may help to", "tend to", "in many cases"] },
+      { "use": "Examples", "phrases": ["In many suburban areas, for instance,", "Where ... have been built,", "Cities such as ...", "A case in point is", "For example,", "This has been seen in"] },
+      { "use": "Concluding", "phrases": ["In short,", "To sum up,", "Without such measures,", "It follows that", "For this reason,", "Ultimately,"] }
+    ],
+    "band8": [
+      "Task Response: solutions are explicitly linked to causes with a clear mechanism (redesign towns, so walking becomes realistic), and feasibility is acknowledged. Band 7 offers sound but generic solutions.",
+      "Task Response: ideas are developed through to consequences, and at least one claim is hedged or qualified to show judgement.",
+      "Coherence and Cohesion: the essay is organised problem to solution with clear signalling, and each paragraph ends with a result that leads into the next.",
+      "Lexical Resource: topic-specific, precise vocabulary (sedentary occupations, active travel, segregated cycle lanes) rather than common words (not moving, bike roads).",
+      "Grammatical Range and Accuracy: complex sentences including conditionals, passives and noun phrases are used accurately for cause and effect, with few slips."
+    ]
+  },
+  "two-part": {
+    "title": "Task 2: Two-part question",
+    "summary": "The examiner is testing whether you answer two different questions separately and fully. The challenge is balance: each question needs its own developed paragraph, and the thesis must answer both.",
+    "steps": [
+      "Underline both questions and identify their types: one may ask for reasons ('Why...?') and the other for a judgement ('Should...?'). Each demands a different kind of paragraph.",
+      "Write a short answer to each question first. If a short answer to the second question is 'No, not all', you have your thesis.",
+      "Check that the two answers fit together logically, because the essay should read as one argument and not two unrelated mini-essays.",
+      "Plan one body paragraph per question, with a main idea, an explanation and an example. Give them roughly equal length.",
+      "Check what is not asked: a two-part question does not ask for advantages and disadvantages or for a general discussion of the topic."
+    ],
+    "structure": [
+      { "paragraph": "Introduction", "purpose": "Show that you will answer both questions, and give a short answer to each.", "sentences": ["Background: paraphrase the topic neutrally.", "Thesis: answer both questions briefly.", "Outline: say that you will deal with the first question and then the second."] },
+      { "paragraph": "Body 1", "purpose": "Answer the first question fully with one main reason, explained and exemplified.", "sentences": ["Topic sentence: the first and most important reason.", "Explanation: how it works.", "Example: a believable person or situation.", "Result or effect: why it matters."] },
+      { "paragraph": "Body 2", "purpose": "Answer the second question with a clear judgement, supported and qualified.", "sentences": ["Topic sentence: your answer to the second question with a concession.", "Explanation: the key reasons.", "Example: an illustration.", "Link: the fairer or more practical alternative."] },
+      { "paragraph": "Conclusion", "purpose": "Confirm both answers and show how they connect.", "sentences": ["Summary: the answer to each question in new words.", "Final judgement: a recommendation or implication."] }
+    ],
+    "timing": [
+      { "minutes": 5, "what": "Plan: separate the questions, short answer to each, one example per body paragraph" },
+      { "minutes": 30, "what": "Write: introduction (4), question one (9), question two (9), conclusion (3), buffer (5)" },
+      { "minutes": 5, "what": "Check: both questions answered equally, thesis matches conclusion, grammar and word count" }
+    ],
+    "pitfalls": [
+      "Answering only one question fully, or giving the second a few lines. Both questions are marked, and a partial response is limited to Band 5 or 6 in Task Response.",
+      "Writing a general essay about the topic (the history of remote work) instead of answering the specific questions asked.",
+      "Producing two separate essays that do not connect. The essay should read as a single, coherent line of thought.",
+      "Not giving a clear answer to a 'Should...?' question. Sitting on the fence without stating a position leaves Task Response unclear.",
+      "Developing only one question with an example and leaving the other as a generalisation. Undeveloped parts limit the band.",
+      "Switching person or register in the second paragraph (you should...), which affects tone and cohesion."
+    ],
+    "language": [
+      { "use": "Explaining reasons", "phrases": ["The first reason is", "A major factor is", "This is largely because", "People tend to value", "This is mainly due to", "One of the main attractions is"] },
+      { "use": "Giving a judgement", "phrases": ["In my view, employers should not", "I do not believe that", "It would be unwise to", "A blanket policy would", "It would be fairer to", "This would overlook"] },
+      { "use": "Concession and contrast", "phrases": ["However,", "While this is true,", "Admittedly,", "Nevertheless,", "that said", "On the other hand,"] },
+      { "use": "Examples", "phrases": ["A parent who ..., for instance,", "Take, for example,", "A junior analyst who ..., for example,", "This is illustrated by", "In nursing, for example,", "Consider"] },
+      { "use": "Linking the two answers", "phrases": ["For this reason,", "Therefore,", "In light of this,", "This suggests that", "It follows that", "Taken together,"] },
+      { "use": "Concluding", "phrases": ["In summary,", "To conclude,", "On balance,", "Employers should therefore", "In short,", "All things considered,"] }
+    ],
+    "band8": [
+      "Task Response: both questions get equally developed, specific answers, and the second answer is qualified rather than absolute (remote work where it suits the role), which shows judgement.",
+      "Coherence and Cohesion: the thesis, the two bodies and the conclusion follow the order of the questions, and the final sentence of Body 2 links the two answers together.",
+      "Lexical Resource: precise, topic-appropriate collocations (caring responsibilities, retain experienced staff, informal relationships) avoid repeating the words of the prompt.",
+      "Grammatical Range and Accuracy: relative clauses, modal verbs for recommendation and concessive clauses (While newer staff ...) used accurately and naturally throughout.",
+      "Argument quality: the example in each paragraph is concrete and its consequence is stated, so the reasoning is shown rather than assumed."
+    ]
+  },
+  "advantages": {
+    "title": "Task 2: Advantages and disadvantages",
+    "summary": "The examiner is testing whether you give a balanced, developed treatment of both sides and read the exact wording of the question: some versions also ask whether advantages outweigh disadvantages, which requires a judgement.",
+    "steps": [
+      "Underline 'advantages and disadvantages' and check the end of the question. If it adds 'Do the advantages outweigh the disadvantages?', you must give a judgement; if not, a balanced conclusion is enough.",
+      "Define the development precisely (here: AI screening applications and answering customer questions), so your points stay on this specific use and not on technology in general.",
+      "Brainstorm two or three points on each side, then select the strongest one or two for each. Choose points that can be developed with a believable example.",
+      "Decide the balance: equal weight, or one side stronger. Your conclusion should reflect that balance rather than contradict the body.",
+      "Plan the sentence flow in each body paragraph: point, explanation, example, effect. Check the example is specific to the development."
+    ],
+    "structure": [
+      { "paragraph": "Introduction", "purpose": "Frame the development and signal that you will weigh both sides.", "sentences": ["Background: paraphrase the development neutrally.", "Thesis: name the main advantage and the main disadvantage in precise terms.", "Outline: say the order you will treat them (optional)."] },
+      { "paragraph": "Body 1", "purpose": "Develop the strongest advantage so that it is convincing and specific.", "sentences": ["Topic sentence: the main advantage.", "Explanation: how it works.", "Example: a realistic case.", "Result or effect: the benefit to people or organisations."] },
+      { "paragraph": "Body 2", "purpose": "Develop the strongest disadvantage with equal depth, starting with a clear contrast.", "sentences": ["Topic sentence: with 'however' or similar.", "Explanation: how the risk arises.", "Example: a realistic case.", "Result or effect: the consequence, including a possible remedy."] },
+      { "paragraph": "Conclusion", "purpose": "Weigh the two sides and give a balanced, reasoned judgement.", "sentences": ["Summary: the two main points in new words.", "Final judgement: a recommendation or verdict."] }
+    ],
+    "timing": [
+      { "minutes": 5, "what": "Plan: check the exact question, choose one strong point per side with an example" },
+      { "minutes": 30, "what": "Write: introduction (4), advantages (9), disadvantages (9), conclusion (3), buffer (5)" },
+      { "minutes": 5, "what": "Check: both sides balanced, judgement present if asked, grammar and word count" }
+    ],
+    "pitfalls": [
+      "Writing about only one side, or giving the second side a single sentence. The question asks for both, so imbalance caps Task Response.",
+      "Ignoring a final 'outweigh' question. If it is asked, a conclusion without a judgement is a partial answer.",
+      "Writing about technology in general rather than the specific development named in the question. Off-topic ideas lose Task Response marks.",
+      "Listing points with no explanation ('It is faster. It is cheaper. It is easier'). Short assertions are undeveloped and read as Band 5 to 6.",
+      "Using 'advantage' and 'disadvantage' as the only vocabulary. Limited range of vocabulary caps Lexical Resource.",
+      "Contradictory conclusions: weighing the disadvantages as serious in the body and then claiming advantages clearly outweigh them. Coherence and consistency are lost."
+    ],
+    "language": [
+      { "use": "Presenting advantages", "phrases": ["The most obvious advantage is", "A significant benefit is", "offers clear gains in", "makes it possible to", "has the potential to", "brings valuable improvements in"] },
+      { "use": "Presenting disadvantages", "phrases": ["However, there are risks,", "A major drawback is", "raises concerns about", "carries the danger that", "can undermine", "at the expense of"] },
+      { "use": "Cause and consequence", "phrases": ["As a result,", "which in turn", "so that", "thereby", "This means that", "consequently"] },
+      { "use": "Hedging", "phrases": ["may well", "can", "tends to", "is likely to", "in some cases", "not always"] },
+      { "use": "Balancing and concluding", "phrases": ["On balance,", "Although ... , ...", "Weighing up", "In conclusion,", "therefore", "provided that"] },
+      { "use": "Examples", "phrases": ["for instance,", "A retail company ..., for example,", "A candidate who ..., for example,", "Consider", "such as", "This can be seen when"] }
+    ],
+    "band8": [
+      "Task Response: both sides are developed to a consequence, and a final judgement is balanced and conditional (use as assistants, with oversight), showing evaluation instead of repetition.",
+      "Coherence and Cohesion: the shift from advantages to disadvantages is signalled clearly and each body paragraph ends with its effect, so the essay builds a balanced argument.",
+      "Lexical Resource: precise vocabulary (screen candidates, historical data, human oversight, erode trust) with natural collocations and no repetition of 'advantage' and 'disadvantage'.",
+      "Grammatical Range and Accuracy: subordinate clauses of reason and concession, conditionals and passives used accurately, with a mix of simple and complex sentences.",
+      "Argument quality: the disadvantage includes a realistic remedy or limit, which shows critical thinking beyond listing."
+    ]
+  }
+}

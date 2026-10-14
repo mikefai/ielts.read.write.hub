@@ -1,0 +1,146 @@
+{
+  "id": "w1-bar",
+  "task": 1,
+  "title": "Commuting modes in Eastbrook",
+  "prompt": "The bar chart shows the percentage of commuters who used five different modes of transport to travel to work in the city of Eastbrook in 2010 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "chart": {
+    "kind": "bar",
+    "title": "Percentage of commuters by main mode of transport, Eastbrook, 2010 and 2020",
+    "unit": "%",
+    "labels": [
+      "Car",
+      "Bus",
+      "Rail",
+      "Cycling",
+      "Walking"
+    ],
+    "series": [
+      {
+        "name": "2010",
+        "values": [
+          52,
+          21,
+          8,
+          6,
+          13
+        ]
+      },
+      {
+        "name": "2020",
+        "values": [
+          38,
+          17,
+          14,
+          19,
+          12
+        ]
+      }
+    ]
+  },
+  "model": {
+    "paragraphs": [
+      {
+        "name": "Introduction",
+        "sentences": [
+          {
+            "role": "paraphrase",
+            "text": "The bar chart compares the share of commuters using five transport modes to get to work in Eastbrook in 2010 and 2020.",
+            "why": "Paraphrases the chart without copying: \"compares\" replaces \"shows\", \"share of commuters\" replaces \"percentage\", and \"ways to get to work\" replaces \"travel to work\". It earns Task Achievement and shows lexical flexibility, with no data."
+          }
+        ]
+      },
+      {
+        "name": "Overview",
+        "sentences": [
+          {
+            "role": "overview-main",
+            "text": "Overall, the car remained the most popular way to commute in both years, although its share fell considerably over the decade.",
+            "why": "A clear overview of the main trend: \"Overall\" signals it, \"remained the most popular\" gives the stable leader, and \"although\" adds the contrast. It meets the key Task Achievement requirement without using any numbers."
+          },
+          {
+            "role": "overview-second",
+            "text": "The most notable development was cycling, which more than tripled and overtook bus travel to become the second most popular mode.",
+            "why": "The second overview feature selects the standout change. \"More than tripled\" is an accurate approximate comparison, and \"overtook bus travel\" shows a rank change. It demonstrates selection, the core of Task Achievement."
+          }
+        ]
+      },
+      {
+        "name": "Body 1",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "Car and bus travel, the two most common options in 2010, both declined.",
+            "why": "A topic sentence that groups the data by direction of change. The apposition \"the two most common options in 2010\" and \"both declined\" frame the paragraph, earning Coherence and Cohesion before any figures appear."
+          },
+          {
+            "role": "key-figures",
+            "text": "Car commuting accounted for 52 per cent of journeys in 2010, while buses carried 21 per cent.",
+            "why": "Gives exact starting figures with correct units. \"Accounted for\" and \"carried\" are varied verbs for share, and \"while\" links the two modes in one sentence. This supports Lexical Resource and gives accurate data."
+          },
+          {
+            "role": "comparison",
+            "text": "By 2020, the car share had fallen to 38 per cent, whereas bus use had dropped to 17 per cent.",
+            "why": "\"By 2020\" marks the time shift, and \"whereas\" contrasts two different falls within one sentence. Past perfect-style \"had fallen\" and \"had dropped\" show control of tense. Earns Grammatical Range and comparison marks."
+          },
+          {
+            "role": "trend-detail",
+            "text": "The decline in bus use was smaller, at only four percentage points.",
+            "why": "A short comparative sentence that interprets the numbers: \"smaller\" compares the two falls and \"only four percentage points\" quantifies it correctly. Percentage points (not per cent) show precise, accurate handling of data."
+          }
+        ]
+      },
+      {
+        "name": "Body 2",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "Alternatives to driving grew in popularity, with rail and cycling both increasing their shares.",
+            "why": "A topic sentence for the second group. \"Alternatives to driving\" is a precise, grouping phrase, and \"with rail and cycling both increasing\" previews the contents. It gives Coherence and keeps the report organised by meaning."
+          },
+          {
+            "role": "key-figures",
+            "text": "Cycling rose from 6 per cent to 19 per cent, the largest increase of any mode.",
+            "why": "Selects the most important change: \"the largest increase of any mode\" is a superlative that ranks the data and links to the overview. Exact before-and-after figures give accuracy, with \"rose from ... to ...\" as a precise trend structure."
+          },
+          {
+            "role": "comparison",
+            "text": "Whereas walking declined slightly, from 13 per cent to 12 per cent, rail rose from 8 per cent to 14 per cent.",
+            "why": "A contrast sentence using \"Whereas\" at the start to join a small decline with a rise. It handles the exception (walking) without a separate paragraph, showing grammatical range and efficient selection of data."
+          },
+          {
+            "role": "closing-detail",
+            "text": "By 2020, rail had also overtaken walking, which had become the least common mode.",
+            "why": "Closing detail based on a ranking change: \"overtaken\" and \"least common\" add a final comparison across the data. It completes the report without a conclusion, and reinforces Task Achievement with a rank insight."
+          }
+        ]
+      }
+    ]
+  },
+  "guide": "task1-chart",
+  "analysis": [
+    "The instruction is \"Summarise the information by selecting and reporting the main features, and make comparisons where relevant\". Selecting means you must leave some data out; reporting every bar is a Task Achievement weakness.",
+    "What must be covered: the change in each of the five modes between 2010 and 2020, an overview of the main trend, and comparisons between modes (which fell, which rose, which now rank higher).",
+    "Paraphrase for the introduction: \"bar chart shows\" becomes compares or illustrates; \"percentage of commuters\" becomes the share or proportion of people travelling to work; \"modes of transport\" becomes ways of commuting; \"between 2010 and 2020\" becomes over the decade.",
+    "Key features to select: the car is still first but falls sharply (52 to 38); cycling more than triples (6 to 19), the largest rise; rail grows (8 to 14); bus and walking change little.",
+    "Group by direction of change, not by the legend order: Body 1 for the two declining main modes (car, bus), Body 2 for the modes that rose (cycling, rail) with walking as the exception.",
+    "The chart does not ask you to explain why commuting changed or to predict the future. Do not mention cost, policy or the environment; only report what the data show."
+  ],
+  "plan": [
+    {
+      "paragraph": "Introduction",
+      "idea": "Paraphrase only: compares the share of commuters using five modes of transport in Eastbrook in 2010 and 2020. No data and no opinion."
+    },
+    {
+      "paragraph": "Overview",
+      "idea": "Main feature: car still the most popular in both years but its share fell considerably. Second feature: cycling more than tripled and overtook the bus to become second. No figures."
+    },
+    {
+      "paragraph": "Body 1",
+      "idea": "Declining modes. Car 52 to 38 per cent, bus 21 to 17 per cent. Contrast the large car fall with the small four-point bus fall."
+    },
+    {
+      "paragraph": "Body 2",
+      "idea": "Rising modes. Cycling 6 to 19 per cent (biggest rise), rail 8 to 14 per cent. Walking edged down from 13 to 12 and rail overtook it, leaving walking the least common."
+    }
+  ]
+}

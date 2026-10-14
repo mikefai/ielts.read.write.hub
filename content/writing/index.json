@@ -1,0 +1,10 @@
+[
+  { "id": "w1-bar", "task": 1, "dir": "task1", "title": "Bar chart", "blurb": "Compare two years across categories." },
+  { "id": "w1-line", "task": 1, "dir": "task1", "title": "Line graph", "blurb": "Describe trends and where lines cross." },
+  { "id": "w1-process", "task": 1, "dir": "task1", "title": "Process", "blurb": "Explain the stages in order." },
+  { "id": "w2-opinion", "task": 2, "dir": "task2", "title": "Opinion essay", "blurb": "Agree or disagree, with a clear position." },
+  { "id": "w2-discussion", "task": 2, "dir": "task2", "title": "Discussion essay", "blurb": "Weigh both views, then give yours." },
+  { "id": "w2-problem-solution", "task": 2, "dir": "task2", "title": "Problem and solution", "blurb": "Explain causes and propose fixes." },
+  { "id": "w2-two-part", "task": 2, "dir": "task2", "title": "Two-part question", "blurb": "Answer each question in its own paragraph." },
+  { "id": "w2-advantages", "task": 2, "dir": "task2", "title": "Advantages and disadvantages", "blurb": "Weigh both sides and judge." }
+]

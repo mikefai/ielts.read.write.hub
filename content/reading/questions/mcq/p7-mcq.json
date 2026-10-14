@@ -1,0 +1,80 @@
+{
+  "id": "p7-mcq",
+  "type": "mcq",
+  "passageId": "p7",
+  "instructions": "Choose the correct letter, A, B, C or D.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "What is the writer's main purpose in the opening paragraph?",
+      "options": [
+        "To list the costs of closing city centres",
+        "To describe how city planning has changed over time",
+        "To argue for a particular policy approach",
+        "To report the findings of air-quality surveys"
+      ],
+      "answer": "To argue for a particular policy approach",
+      "evidence": {
+        "paragraph": "A",
+        "quote": "argue that the benefits of restriction outweigh its costs"
+      },
+      "step": 1,
+      "how": "Read the opening paragraph and identify the writer's first-person verbs, which often announce purpose. Compare each option with what the paragraph does, not only with its topic.",
+      "again": "Test each option against the closing phrase about how restrictions should be introduced, which narrows the purpose. The trap is an option describing content the paragraph mentions, such as the costs, which is a topic rather than the writer's purpose."
+    },
+    {
+      "id": "q2",
+      "prompt": "According to the writer, what is the strongest reason for restricting traffic?",
+      "options": [
+        "Greater footfall in shops",
+        "Improved public health",
+        "Exemptions for blue badge holders",
+        "Voluntary measures that avoid legal battles"
+      ],
+      "answer": "Improved public health",
+      "evidence": {
+        "paragraph": "B",
+        "quote": "The most persuasive argument for pedestrianisation concerns public health"
+      },
+      "step": 2,
+      "how": "Find the superlative phrase in paragraph B that introduces the writer's ranking. Identify which reason receives that ranking and ignore reasons mentioned only as secondary points.",
+      "again": "Check the other options against the writer's ranking; footfall and exemptions appear later in the article as secondary points. The trap is that greater footfall is a real benefit the writer discusses, but it is not labelled the most persuasive."
+    },
+    {
+      "id": "q3",
+      "prompt": "What does the writer say about early studies of retail?",
+      "options": [
+        "Shopkeepers expected a fall in custom that did not usually materialise",
+        "They expected footfall to fall permanently in every city",
+        "Visitors on foot spend more on leisure than drivers",
+        "Planners consulted businesses before the change"
+      ],
+      "answer": "Shopkeepers expected a fall in custom that did not usually materialise",
+      "evidence": {
+        "paragraph": "C",
+        "quote": "Early studies often found that shopkeepers feared a drop in custom"
+      },
+      "step": 4,
+      "how": "Locate early studies in paragraph C and identify what those studies reported. Then find the connective introducing later evidence, which marks the shift from the earlier finding.",
+      "again": "Make sure you pick the finding of the early studies, not the later surveys that contradicted them. The trap is the option about leisure spending, which is true in paragraph C but describes visitors rather than the studies."
+    },
+    {
+      "id": "q4",
+      "prompt": "How does the writer respond to the objection about elderly and disabled residents?",
+      "options": [
+        "The writer rejects it entirely",
+        "The writer thinks it outweighs every other argument",
+        "The writer considers it a reason to abandon restriction altogether",
+        "The writer accepts it but thinks it can be addressed"
+      ],
+      "answer": "The writer accepts it but thinks it can be addressed",
+      "evidence": {
+        "paragraph": "D",
+        "quote": "I accept this objection, and I believe any scheme that ignores it deserves criticism"
+      },
+      "step": 4,
+      "how": "Find the objection about elderly and disabled residents in paragraph D and read the writer's reaction to it. Look for a concessive connective after the concession to identify the overall stance.",
+      "again": "Test the two distractors that reject or overrate the objection against the paragraph's last sentence, which says the objection points to a flaw in implementation. The trap is an option that accepts the objection but then goes too far in the opposite direction."
+    }
+  ]
+}

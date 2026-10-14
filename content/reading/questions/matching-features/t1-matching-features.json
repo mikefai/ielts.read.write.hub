@@ -1,0 +1,98 @@
+{
+  "id": "t1-matching-features",
+  "type": "matching-features",
+  "passageId": "t1-p2",
+  "instructions": "Look at the following statements and the list of people below. Match each statement with the correct person. NB You may use any letter more than once.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "The unpleasantness of boredom helps to steer people towards options they have not tried before.",
+      "answer": "Dr Rana Haddad",
+      "options": [
+        "Dr Ilse Brandt",
+        "Professor Kofi Mensah",
+        "Dr Rana Haddad",
+        "Professor Tobias Wren"
+      ],
+      "evidence": {
+        "paragraph": "E",
+        "quote": "biases people specifically towards novelty"
+      },
+      "step": 4,
+      "how": "Underline unpleasantness and options they have not tried, then scan the paragraphs that give each researcher’s own view for a claim about what boredom makes people do. Consider the purpose attributed to the feeling.",
+      "again": "Several researchers discuss what boredom is; only one assigns it a function that points people towards the new. Check that the position is the researcher’s own interpretation, not just an experiment she describes."
+    },
+    {
+      "id": "q2",
+      "prompt": "A person may feel bored amid plenty of noise and activity.",
+      "answer": "Dr Ilse Brandt",
+      "options": [
+        "Dr Ilse Brandt",
+        "Professor Kofi Mensah",
+        "Dr Rana Haddad",
+        "Professor Tobias Wren"
+      ],
+      "evidence": {
+        "paragraph": "B",
+        "quote": "people are frequently bored in busy surroundings"
+      },
+      "step": 3,
+      "how": "Underline bored and plenty of activity, then look at the early researcher paragraphs for examples of crowded or busy settings. Expect synonyms for noise and activity in the original.",
+      "again": "The example of lengthy conferences and crowded airport lounges belongs to the attention researcher. A later researcher disputes that attention is the whole story, so do not assign the claim to someone who only partly agrees."
+    },
+    {
+      "id": "q3",
+      "prompt": "Whether an unchanging task proves wearisome depends on whether the person grasps its purpose.",
+      "answer": "Professor Kofi Mensah",
+      "options": [
+        "Dr Ilse Brandt",
+        "Professor Kofi Mensah",
+        "Dr Rana Haddad",
+        "Professor Tobias Wren"
+      ],
+      "evidence": {
+        "paragraph": "C",
+        "quote": "wearisome to one person and absorbing to another"
+      },
+      "step": 4,
+      "how": "Underline unchanging task and grasps its purpose, and scan for a researcher who gives an example of a repetitive job. Match grasps its purpose with a phrase about understanding what something is for.",
+      "again": "The cataloguing example links the experience of a repetitive job to understanding. Compare it with the claim that attention alone decides: that earlier view is the one this researcher questions."
+    },
+    {
+      "id": "q4",
+      "prompt": "Evidence drawn from what participants do is a weak basis for claims about what they feel.",
+      "answer": "Professor Tobias Wren",
+      "options": [
+        "Dr Ilse Brandt",
+        "Professor Kofi Mensah",
+        "Dr Rana Haddad",
+        "Professor Tobias Wren"
+      ],
+      "evidence": {
+        "paragraph": "F",
+        "quote": "Wren is equally wary of inferring inner states from behaviour"
+      },
+      "step": 4,
+      "how": "Underline what participants do and what they feel, and scan for a researcher who questions the step from observation to conclusion. The original uses behaviour and inner states for these ideas.",
+      "again": "The researcher who ran the clip experiment draws conclusions from choices made on a tablet; the methods specialist doubts that such choices show anything about feelings. Do not confuse the author of a result with its critic."
+    },
+    {
+      "id": "q5",
+      "prompt": "Explaining how an experience operates is not the same as identifying what brings it about.",
+      "answer": "Professor Kofi Mensah",
+      "options": [
+        "Dr Ilse Brandt",
+        "Professor Kofi Mensah",
+        "Dr Rana Haddad",
+        "Professor Tobias Wren"
+      ],
+      "evidence": {
+        "paragraph": "C",
+        "quote": "he cautions researchers against mistaking a mechanism for a cause"
+      },
+      "step": 5,
+      "how": "Underline how an experience operates and what brings it about, and look for a researcher who separates description from explanation. Expect mechanism and cause as the paraphrased pair.",
+      "again": "This researcher criticises an account for describing operation without giving a reason. Check that the statement concerns the relationship between mechanism and cause and not the use of measurement, which belongs to a different researcher."
+    }
+  ]
+}

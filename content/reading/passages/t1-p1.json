@@ -1,0 +1,35 @@
+{
+  "id": "t1-p1",
+  "title": "Indigo: The Colour That Built a Commerce",
+  "band": 7.5,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Few dyestuffs have shaped commerce as profoundly as indigo, a blue colouring matter extracted from the leaves of plants in the genus Indigofera, which thrive in warm and humid climates. Its chemistry is peculiar, since the living leaf contains no blue at all: the pigment develops from a colourless precursor only when the crushed foliage has been steeped in water and subsequently exposed to air. For centuries European dyers relied instead on woad, a temperate relative of the mustard family that yields the same molecule in far lower concentrations, so that many times more plant material was needed to achieve a comparable depth of shade. Indigo was therefore valued not merely for its beauty but for its efficiency, and its arrival in northern ports during the sixteenth century provoked considerable alarm among woad growers, some of whom persuaded local authorities to prohibit the imported dye."
+    },
+    {
+      "label": "B",
+      "text": "The extraction process, though simple in principle, demanded considerable skill in practice. On plantations in the Caribbean and the Carolinas, as on estates in the Indian subcontinent, harvested stems were packed into a steeping vat and held down with heavy timber for roughly a day, during which fermentation released a yellowish liquor. This was drained into a second vat, where labourers beat it with paddles or turning wheels until oxygen converted it into blue flecks that gradually sank as sludge. The sludge was then boiled, strained through cloth, pressed and cut into cubes, which were dried slowly in shade because direct sunlight was believed to crack them. Overseers assessed quality by floating a fragment on water: the lighter the cube, the purer the product was assumed to be."
+    },
+    {
+      "label": "C",
+      "text": "A surviving account book from the Calloway dye-works, a modest enterprise in the English Midlands, shows how the material was handled at the far end of the commercial chain. Between 1783 and 1790 the firm purchased some forty chests of indigo, and the ledger suggests that each chest, once ground and dissolved in a vat together with stale urine and bran, was sufficient to colour an astonishing length of woollen cloth. Dyers did not simply dip a fabric once. Because the dissolved dye is yellowish-green and turns blue only on contact with air, the cloth was immersed, lifted out and left to oxidise, and the cycle was repeated as many as a dozen times to build a deep navy. The vat itself had to be kept in a steady and mildly alkaline state, a delicate responsibility entrusted to a senior dyer who, according to the entries, was paid half as much again as the weavers."
+    },
+    {
+      "label": "D",
+      "text": "The commercial consequences were substantial and, in moral terms, deeply troubling. Because plantation indigo was labour-intensive and its manufacture unhealthy, owing to the fumes of fermenting vats and the constant risk of fever from standing water, the trade became entangled with coerced labour in several regions. In the Indian subcontinent, tenant farmers were pressed by European planters to cultivate the crop in place of food grains, usually on terms that left them chronically indebted; the resentment this produced culminated in protests that historians regard as among the more significant episodes of rural resistance in the colonial period. Merchants, by contrast, prospered. Indigo functioned almost as a form of currency in some ports, and its price fluctuated so sharply that speculation in the commodity ruined as many fortunes as it created."
+    },
+    {
+      "label": "E",
+      "text": "Indigo's dominance was nevertheless destined to end. In the closing decades of the nineteenth century, chemists in Germany worked out the molecular structure of the pigment and, devised a manufacturing route that could compete commercially with the plantations. Synthetic indigo was cheaper, more uniform in strength and independent of weather, harvests and distant labour; buyers who had previously been obliged to test each consignment for adulteration could now specify a precise percentage of pure dye. Within a few decades the acreage devoted to the plant in the Indian subcontinent had contracted dramatically, and landowners who had once regarded the crop as a reliable source of income were left with idle vats and unpaid debts. The episode is frequently cited as an early example of a natural commodity being displaced by an industrial substitute."
+    },
+    {
+      "label": "F",
+      "text": "Yet the natural dye never disappeared entirely. Its devotees maintain that the plant-derived product contains minor companion compounds, notably a reddish molecule known as indirubin, which impart a subtly different tone and allow the colour to fade with greater grace. Whether this difference is perceptible outside a laboratory is disputed. What is beyond dispute is the importance of indigo to denim. In the traditional construction of that fabric, only the warp threads are dyed, while the weft remains white, and because the pigment lies on the surface of each fibre rather than penetrating its core, abrasion gradually exposes the pale interior. This characteristic, which in other textiles would be regarded as a serious defect, became the principal attraction of the garment, and wearers have long prized the individual patterns of wear that a particular body produces."
+    },
+    {
+      "label": "G",
+      "text": "In recent years a small but determined revival has taken place. In Japan, craftspeople continue to prepare sukumo, a material made by composting indigo leaves for several months until they ferment into a rich, earthy substance that is then used to charge the dye vat. Their motives are partly environmental: synthetic production depends on petrochemical feedstocks and on strongly reducing chemicals whose effluent requires careful treatment, and some manufacturers are consequently investigating bacterial fermentation as a cleaner alternative. Whether such efforts will alter the economics of the trade remains uncertain. At present, naturally dyed cloth commands a premium precisely because it is scarce, and scarcity, as the history of this pigment repeatedly demonstrates, can be as powerful a commercial force as utility."
+    }
+  ]
+}

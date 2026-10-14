@@ -1,0 +1,20 @@
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; color: var(--ink); font: 17px/1.6 var(--sans); background-color: var(--bg);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .08 0 0 0 0 .13 0 0 0 0 .24 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E"); }
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 28px 20px 80px; }
+.back { font-weight: 700; text-decoration: none; letter-spacing: .02em; } .back:hover { color: var(--accent); }
+.card { background: var(--paper); border: 1px solid var(--line); border-radius: var(--r); padding: 22px; box-shadow: var(--shadow); }
+.btn { font: 700 1rem var(--sans); background: var(--ink); color: var(--paper); border: 2px solid var(--ink); border-radius: 999px; padding: 11px 24px; cursor: pointer; text-decoration: none; display: inline-block; transition: transform .15s, background .15s, color .15s; }
+.btn:hover { background: var(--accent); border-color: var(--accent); transform: translateY(-2px); }
+.btn.ghost { background: transparent; color: var(--ink); } .btn.ghost:hover { color: var(--paper); }
+.muted { color: var(--muted); }
+mark { background: linear-gradient(transparent 12%, var(--mark) 12%); color: inherit; padding: 0 2px; }
+@keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+.rise > * { animation: rise .6s cubic-bezier(.2, .7, .2, 1) both; }
+.rise > *:nth-child(2) { animation-delay: .08s; } .rise > *:nth-child(3) { animation-delay: .16s; }
+.rise > *:nth-child(4) { animation-delay: .24s; } .rise > *:nth-child(5) { animation-delay: .32s; } .rise > *:nth-child(n+6) { animation-delay: .4s; }
+@media (prefers-reduced-motion: reduce) { .rise > * { animation: none; } html { scroll-behavior: auto; } }
+@media (max-width: 700px) { .split { grid-template-columns: 1fr !important; } body { font-size: 16px; } }

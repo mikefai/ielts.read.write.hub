@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Young+Serif&display=swap');
+:root {
+  --bg: #f3ede1; --paper: #fbf8f1; --ink: #14213d; --muted: #5d6477; --line: #d9cfbb;
+  --accent: #d9441e; --ok: #1f7a4d; --bad: #c0261c; --mark: #ffd84d;
+  --display: "Young Serif", Georgia, serif; --serif: "Newsreader", Georgia, serif; --sans: "Figtree", system-ui, sans-serif;
+  --r: 14px; --shadow: 0 1px 0 #fff inset, 0 10px 30px -14px rgba(20, 33, 61, .35);
+  color-scheme: light;
+}

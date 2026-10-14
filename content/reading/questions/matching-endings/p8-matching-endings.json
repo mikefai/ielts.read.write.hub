@@ -1,0 +1,113 @@
+{
+  "id": "p8-matching-endings",
+  "type": "matching-endings",
+  "passageId": "p8",
+  "instructions": "Complete each sentence with the correct ending from the list. There are two more endings than you need.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "Dr Hanna Voss held that the principal contribution of lichens is...",
+      "options": [
+        "chemical dissolution of minerals at the contact zone",
+        "mechanical fragmentation of rock during the early stages",
+        "the nitrogen fixed by cyanobacteria rather than any weathering mechanism",
+        "governed by the local climate rather than by any single mechanism",
+        "longitudinal monitoring of sites from first colonisation onwards",
+        "a single universal model that explains every regional pattern",
+        "the arrival of mosses that replace lichens after the first decade"
+      ],
+      "answer": "chemical dissolution of minerals at the contact zone",
+      "evidence": {
+        "paragraph": "B",
+        "quote": "oxalic acid secreted by the fungal partner dissolves minerals"
+      },
+      "step": 3,
+      "how": "Find the researcher's paragraph and locate the main claim about lichens. Match the stem's key term, principal, to the phrase the researcher presents as dominant, then compare the endings.",
+      "again": "Test the mechanical ending against Voss's paragraph: she explicitly dismisses mechanical pressure, so it is the reverse of her view. The trap is that two endings name real processes, and only the word dominant in the stem settles which one she held."
+    },
+    {
+      "id": "q2",
+      "prompt": "Professor Tomas Ardelean contended that the main driver in the early stages is...",
+      "options": [
+        "chemical dissolution of minerals at the contact zone",
+        "mechanical fragmentation of rock during the early stages",
+        "the nitrogen fixed by cyanobacteria rather than any weathering mechanism",
+        "governed by the local climate rather than by any single mechanism",
+        "longitudinal monitoring of sites from first colonisation onwards",
+        "a single universal model that explains every regional pattern",
+        "the arrival of mosses that replace lichens after the first decade"
+      ],
+      "answer": "mechanical fragmentation of rock during the early stages",
+      "evidence": {
+        "paragraph": "C",
+        "quote": "mechanical fragmentation is the principal driver during the early stages"
+      },
+      "step": 3,
+      "how": "Go to paragraph C and find the phrase early stages. Identify the process the researcher names as the driver in that phase, and match it to the ending naming the same phase.",
+      "again": "Test the chemical ending: Ardelean says chemistry becomes significant only after fine particles build up, so it is not the early driver. The trap is that the chemical ending also mentions the contact zone, a phrase from the rival view, which the stem does not ask about."
+    },
+    {
+      "id": "q3",
+      "prompt": "Dr Mirela Okonkwo suggested that the decisive factor in colonisation is...",
+      "options": [
+        "chemical dissolution of minerals at the contact zone",
+        "mechanical fragmentation of rock during the early stages",
+        "the nitrogen fixed by cyanobacteria rather than any weathering mechanism",
+        "governed by the local climate rather than by any single mechanism",
+        "longitudinal monitoring of sites from first colonisation onwards",
+        "a single universal model that explains every regional pattern",
+        "the arrival of mosses that replace lichens after the first decade"
+      ],
+      "answer": "the nitrogen fixed by cyanobacteria rather than any weathering mechanism",
+      "evidence": {
+        "paragraph": "D",
+        "quote": "this nitrogen, rather than any weathering mechanism, determines which communities can establish"
+      },
+      "step": 4,
+      "how": "Scan paragraph D for a claim about what decides settlement. Match the stem's word decisive to the factor the researcher names, and check how it is set against other factors.",
+      "again": "Test the climate ending: Okonkwo does not link her claim to climate, which is Lang's idea. The trap is that the word rather in both the stem and the ending hides a contrast, so confirm the ending names what she promotes, not what she rejects."
+    },
+    {
+      "id": "q4",
+      "prompt": "Professor Idris Lang argued that the relative importance of weathering and fixation is...",
+      "options": [
+        "chemical dissolution of minerals at the contact zone",
+        "mechanical fragmentation of rock during the early stages",
+        "the nitrogen fixed by cyanobacteria rather than any weathering mechanism",
+        "governed by the local climate rather than by any single mechanism",
+        "longitudinal monitoring of sites from first colonisation onwards",
+        "a single universal model that explains every regional pattern",
+        "the arrival of mosses that replace lichens after the first decade"
+      ],
+      "answer": "governed by the local climate rather than by any single mechanism",
+      "evidence": {
+        "paragraph": "E",
+        "quote": "the relative importance of weathering and fixation depends on climate"
+      },
+      "step": 4,
+      "how": "Find the synthesis in paragraph E and identify what the researcher says controls the balance between processes. Match the stem's verb to the condition named in the paragraph.",
+      "again": "Test the universal-model distractor: Lang explicitly says a single universal model is unlikely to succeed, so it contradicts him. The trap is that the phrase single universal model appears in his paragraph, so a careless reader may match it to the stem."
+    },
+    {
+      "id": "q5",
+      "prompt": "The closing paragraph stated that future research requires...",
+      "options": [
+        "chemical dissolution of minerals at the contact zone",
+        "mechanical fragmentation of rock during the early stages",
+        "the nitrogen fixed by cyanobacteria rather than any weathering mechanism",
+        "governed by the local climate rather than by any single mechanism",
+        "longitudinal monitoring of sites from first colonisation onwards",
+        "a single universal model that explains every regional pattern",
+        "the arrival of mosses that replace lichens after the first decade"
+      ],
+      "answer": "longitudinal monitoring of sites from first colonisation onwards",
+      "evidence": {
+        "paragraph": "F",
+        "quote": "Future progress will require longitudinal monitoring of sites"
+      },
+      "step": 5,
+      "how": "Locate the final paragraph before the measurement section and find the sentence beginning with future progress. Match the verb require to the noun phrase it introduces.",
+      "again": "Test the moss ending, which is a plausible future topic but absent from the text. The trap is that the closing paragraph also mentions the difficulty of research, so a difficulty-based ending could look right without naming the requirement."
+    }
+  ]
+}

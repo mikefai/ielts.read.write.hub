@@ -1,0 +1,123 @@
+{
+  "id": "w2-problem-solution",
+  "task": 2,
+  "essayType": "Problem and solution (causes and solutions)",
+  "title": "Declining physical activity",
+  "prompt": "Many people in modern societies do less physical activity than previous generations, which is contributing to a rise in health problems. What are the main causes of this trend, and what solutions could be introduced?",
+  "model": {
+    "paragraphs": [
+      {
+        "name": "Introduction",
+        "sentences": [
+          {
+            "role": "background",
+            "text": "Across many countries, people spend longer sitting at desks, in cars and in front of screens than they did a generation ago.",
+            "why": "Neutral background that frames the trend through three concrete places: \"desks, cars and screens\". The contrast with \"a generation ago\" paraphrases \"previous generations\" and sets the topic, supporting Lexical Resource and Task Response."
+          },
+          {
+            "role": "thesis",
+            "text": "This shift has several causes, and I believe the most effective solutions combine changes to urban design with support in the workplace.",
+            "why": "A thesis that previews both parts: \"several causes\" and \"most effective solutions\". It names the two solution types, which sets up a logical match with the causes and shows organised, precise planning for Task Response."
+          },
+          {
+            "role": "outline",
+            "text": "This essay will examine the main causes of inactivity and then suggest two practical responses.",
+            "why": "The outline states the order of the essay in two steps. \"Causes ... then ... two practical responses\" is a clear roadmap, and \"practical\" signals a realistic approach, which supports Coherence and Cohesion."
+          }
+        ]
+      },
+      {
+        "name": "Body 1",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "The most significant cause is the growing dependence on cars and sedentary jobs, which removes everyday movement from people's lives.",
+            "why": "A topic sentence naming the main cause and its effect: \"removes everyday movement\". \"Most significant\" ranks the cause, and the noun phrase \"dependence on cars and sedentary jobs\" is precise, supporting Lexical Resource."
+          },
+          {
+            "role": "explanation",
+            "text": "When short journeys are made by car, and office work involves hours of sitting, the body receives far less exercise than it would from walking or manual labour.",
+            "why": "Explains the mechanism with a contrast between sitting and \"walking or manual labour\". The \"When ... and ...\" clause structure sets up the condition, and \"far less exercise\" quantifies the result, giving range."
+          },
+          {
+            "role": "example",
+            "text": "In many suburban areas, for instance, shops and schools are too far away to reach on foot, so residents drive even for brief errands.",
+            "why": "A relevant, familiar example: suburbs where \"shops and schools are too far\". \"Even for brief errands\" shows how deep the dependence is, and \"for instance\" signals the example, supporting believable development."
+          },
+          {
+            "role": "effect",
+            "text": "Over time, this lack of movement contributes to obesity, heart disease and weaker bone health.",
+            "why": "The effect sentence lists health outcomes tied back to the question. \"Over time\" gives a time frame and \"contributes to\" is a measured cause verb, avoiding overclaiming. It closes the paragraph with a clear consequence."
+          }
+        ]
+      },
+      {
+        "name": "Body 2",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "One practical solution is to redesign towns so that walking and cycling are safer and more convenient.",
+            "why": "A topic sentence that links directly to the cause: \"redesign towns\" answers car dependence. \"Safer and more convenient\" gives the two conditions for success, so the solution has an aim, supporting Task Response."
+          },
+          {
+            "role": "explanation",
+            "text": "Protected cycle lanes, well-lit pavements and local services within walking distance make active travel a realistic choice rather than an occasional one.",
+            "why": "Explains how the design works with a triple list of features, and \"a realistic choice rather than an occasional one\" contrasts types of behaviour. It shows the mechanism, not only the measure."
+          },
+          {
+            "role": "example",
+            "text": "Where segregated cycle routes have been built in several European cities, cycling has grown noticeably among commuters.",
+            "why": "Provides evidence of effectiveness: \"segregated cycle routes ... several European cities\" and \"grown noticeably\". The adverbial \"Where ...\" clause is a conditional-like structure and the hedge is accurate, supporting credibility."
+          },
+          {
+            "role": "effect",
+            "text": "Employers can complement this by offering standing desks, walking meetings and incentives for active travel, which encourage movement during the working day.",
+            "why": "The second solution is added with \"complement\", showing how the measures work together. Listing \"standing desks, walking meetings and incentives\" is concrete, and the final relative clause explains the purpose."
+          }
+        ]
+      },
+      {
+        "name": "Conclusion",
+        "sentences": [
+          {
+            "role": "summary",
+            "text": "In short, inactivity stems largely from car-based lifestyles and sedentary work, and it can be reduced through better urban planning and workplace policies.",
+            "why": "The conclusion restates both causes and both solutions in new words: \"stems largely from\" and \"better urban planning and workplace policies\". It confirms that the solutions match the causes, giving Coherence and a full answer."
+          },
+          {
+            "role": "judgement",
+            "text": "Without such changes, the health burden of inactivity will continue to grow, so these measures should be treated as a priority.",
+            "why": "A final judgement that gives a consequence of inaction with \"Without such changes\". \"Health burden\" is a precise collocation and \"priority\" gives an action, so it closes the essay without introducing new ideas."
+          }
+        ]
+      }
+    ]
+  },
+  "guide": "problem-solution",
+  "analysis": [
+    "The question words are \"what are the main causes\" and \"what solutions could be introduced\". Two separate answers are required, so each needs its own developed paragraph.",
+    "The problem is declining physical activity linked to health problems. Causes must explain why people move less, not simply restate the health consequences, and solutions must reduce inactivity.",
+    "Paraphrase in the introduction: \"do less physical activity\" becomes lead more sedentary lives; \"previous generations\" becomes a generation ago; \"rise in health problems\" becomes growing health risks.",
+    "Choose one main cause and link it to a solution: car dependence and sedentary jobs lead to town redesign and workplace measures. This match is what examiners reward at Band 7 and above.",
+    "Solutions need an agent and a mechanism: local authorities building cycle lanes, and employers offering standing desks and incentives. \"People should exercise more\" is not a solution.",
+    "The question is not asking for a history of lifestyle change or a discussion of whether inactivity is the individual's fault. Keep to causes and solutions."
+  ],
+  "plan": [
+    {
+      "paragraph": "Introduction",
+      "idea": "People sit for longer than a generation ago. Thesis: several causes, and the best solutions combine urban design with workplace support."
+    },
+    {
+      "paragraph": "Body 1",
+      "idea": "Main cause: dependence on cars and sedentary jobs removes everyday movement. Example: suburbs where shops and schools are too far to walk. Result: obesity, heart disease, weaker bones."
+    },
+    {
+      "paragraph": "Body 2",
+      "idea": "Solution 1: redesign towns with protected cycle lanes, lit pavements and local services; evidence from European cities. Solution 2: employers add standing desks, walking meetings and incentives."
+    },
+    {
+      "paragraph": "Conclusion",
+      "idea": "Inactivity stems from car-based lifestyles and sedentary work and can be reduced by planning and workplace policy; without change the health burden will grow."
+    }
+  ]
+}

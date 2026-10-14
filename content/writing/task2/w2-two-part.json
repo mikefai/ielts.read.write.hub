@@ -1,0 +1,123 @@
+{
+  "id": "w2-two-part",
+  "task": 2,
+  "essayType": "Two-part question",
+  "title": "Working from home",
+  "prompt": "Why do many people now prefer to work from home rather than in an office? Should employers allow all staff to work remotely?",
+  "model": {
+    "paragraphs": [
+      {
+        "name": "Introduction",
+        "sentences": [
+          {
+            "role": "background",
+            "text": "Remote working has become common in many sectors, and it is now a central question for managers planning the future of their organisations.",
+            "why": "Neutral background that places the topic in a managerial context. \"Central question for managers\" frames the second question without answering it, and \"remote working\" is a natural paraphrase, supporting Lexical Resource."
+          },
+          {
+            "role": "thesis",
+            "text": "People value remote work mainly for its flexibility and lower costs, but I believe employers should not allow every employee to work from home by default.",
+            "why": "A thesis that answers both questions in one sentence. \"Mainly for its flexibility and lower costs\" answers Question 1 and \"should not allow every employee\" answers Question 2, meeting Task Response fully with a clear stance."
+          },
+          {
+            "role": "outline",
+            "text": "This essay will explain the main reasons for the preference and then assess whether a blanket policy is sensible.",
+            "why": "The outline separates the two questions in order using \"first\" and \"then assess\". It promises a full answer to both parts, supporting Coherence and Cohesion, and \"blanket policy\" is an apt noun phrase."
+          }
+        ]
+      },
+      {
+        "name": "Body 1",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "The first reason people prefer home working is the flexibility it offers, particularly for those with caring responsibilities.",
+            "why": "A topic sentence for Question 1 that names the main reason and a specific group, \"caring responsibilities\". \"The first reason\" signals sequence, and the noun phrase is precise, supporting Task Response and Lexical Resource."
+          },
+          {
+            "role": "explanation",
+            "text": "Being able to start and finish work at suitable times, without a daily commute, allows employees to balance professional and family demands more easily.",
+            "why": "Explains the mechanism with \"without a daily commute\" as a clear causal step. The gerund subject \"Being able to\" and the verb \"balance\" show grammatical range, and the clause links flexibility to family demands logically."
+          },
+          {
+            "role": "example",
+            "text": "A parent who collects a child from school, for instance, may be able to complete the working day without an exhausting journey.",
+            "why": "A concrete example centred on one person: \"a parent who collects a child\". The relative clause and \"exhausting journey\" make it vivid, and \"may be able\" is a sensible hedge, giving credible development."
+          },
+          {
+            "role": "effect",
+            "text": "This flexibility can reduce stress and improve job satisfaction, which in turn helps retain experienced staff.",
+            "why": "The effect sentence moves from stress to satisfaction to retention, with \"which in turn\" showing the chain. It converts a personal example into an organisational benefit relevant to employers, supporting Task Response."
+          }
+        ]
+      },
+      {
+        "name": "Body 2",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "However, a policy that allows every employee to work remotely would overlook important differences between jobs and individuals.",
+            "why": "A contrast topic sentence for Question 2: \"However\" turns the argument, and \"overlook important differences\" explains why a blanket rule is flawed. The conditional \"would\" suits a hypothetical policy."
+          },
+          {
+            "role": "explanation",
+            "text": "Some roles, such as nursing, manufacturing and retail, require a physical presence, while newer staff often benefit from being in an office to learn from colleagues.",
+            "why": "Lists job types that require presence (nursing, manufacturing, retail) and then adds a contrasting group, newer staff, with \"while\". This gives two distinct reasons within one explanation, showing breadth and range."
+          },
+          {
+            "role": "example",
+            "text": "A junior analyst who works only from home, for example, may find it harder to build the informal relationships that lead to promotion.",
+            "why": "The example is a \"junior analyst\" who misses informal relationships, which is specific and ties to promotion. \"Only from home\" is a precise condition, and the example directly supports the claim about newer staff."
+          },
+          {
+            "role": "link",
+            "text": "Therefore, a flexible system based on individual needs and job roles would be fairer than a universal rule.",
+            "why": "The link sentence draws the conclusion from the example: \"Therefore\" marks the logical result and \"fairer\" is an evaluative adjective. It proposes a flexible alternative, which shows judgement and supports Task Response."
+          }
+        ]
+      },
+      {
+        "name": "Conclusion",
+        "sentences": [
+          {
+            "role": "summary",
+            "text": "In summary, home working offers real advantages in flexibility and wellbeing, but these benefits depend on the nature of the job and the employee.",
+            "why": "The conclusion restates both answers in new words: \"real advantages\" for Question 1, and \"depend on the nature of the job\" for Question 2. It matches the thesis and keeps the position consistent."
+          },
+          {
+            "role": "judgement",
+            "text": "Employers should therefore allow remote work where it suits both the role and the team, rather than adopting a single policy for everyone.",
+            "why": "A final recommendation answering \"should\" with a qualified yes: \"where it suits both the role and the team\". It contrasts with \"a single policy\", closing on the limit of universal rules without new ideas."
+          }
+        ]
+      }
+    ]
+  },
+  "guide": "two-part",
+  "analysis": [
+    "There are two separate questions: \"Why do many people now prefer to work from home?\" (a reasons question) and \"Should employers allow all staff to work remotely?\" (a judgement question). Each needs its own paragraph.",
+    "Question 2 contains \"all staff\", which limits the claim. A strong answer notices that \"all\" is the key word and responds to it directly instead of discussing remote work in general.",
+    "Paraphrase in the introduction: \"work from home\" becomes remote working or home-based work; \"rather than in an office\" becomes instead of commuting to a workplace; \"employers allow all staff\" becomes a blanket remote policy.",
+    "Position: people prefer home working for flexibility and lower costs, but a universal policy is unwise. The two answers fit together, since the reasons for preference depend on personal circumstances and job type.",
+    "The question does not ask for advantages and disadvantages of remote work in general, or for a history of the trend. Avoid drifting into both-sides discussion.",
+    "Give both parts roughly equal space, and use one example per paragraph: a parent for Question 1 and a junior analyst for Question 2."
+  ],
+  "plan": [
+    {
+      "paragraph": "Introduction",
+      "idea": "Remote work is now common. Thesis: people value flexibility and lower costs, but employers should not allow every employee to work from home by default."
+    },
+    {
+      "paragraph": "Body 1",
+      "idea": "Why: flexibility, especially for carers, without a commute. Example: a parent collecting a child from school. Result: lower stress, higher job satisfaction, better retention of experienced staff."
+    },
+    {
+      "paragraph": "Body 2",
+      "idea": "Should: not for all staff. Nursing, manufacturing and retail need presence; newer staff learn in offices. Example: a junior analyst missing informal relationships. Link: a flexible system by role is fairer."
+    },
+    {
+      "paragraph": "Conclusion",
+      "idea": "Home working has real advantages for flexibility and wellbeing, but these depend on the job; employers should allow it where it suits role and team."
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "w2-advantages",
+  "task": 2,
+  "essayType": "Advantages and disadvantages",
+  "title": "AI in recruitment and customer service",
+  "prompt": "Many organisations now use artificial intelligence to screen job applications and answer customer enquiries. What are the advantages and disadvantages of this development?",
+  "model": {
+    "paragraphs": [
+      {
+        "name": "Introduction",
+        "sentences": [
+          {
+            "role": "background",
+            "text": "Artificial intelligence is increasingly used in business to handle routine tasks such as screening applications and responding to customer questions.",
+            "why": "Neutral background that paraphrases the development: \"increasingly used\" and \"routine tasks\" describe the trend, and the examples after \"such as\" keep the focus specific. It supports Lexical Resource and Task Response without taking a position."
+          },
+          {
+            "role": "thesis",
+            "text": "This development offers clear gains in speed and consistency, although it also raises concerns about fairness and the loss of human judgement.",
+            "why": "A thesis that names a main advantage and a main disadvantage, so both sides are previewed. \"Clear gains\" and \"raises concerns\" are balanced collocations, and \"although\" structures the contrast, meeting Task Response."
+          },
+          {
+            "role": "outline",
+            "text": "This essay will discuss the main advantages first, followed by the disadvantages, before offering a balanced conclusion.",
+            "why": "The outline gives the order: advantages first, then disadvantages, then a balanced conclusion. It is clear and short, and \"balanced\" tells the reader the essay will weigh both sides, supporting Coherence and Cohesion."
+          }
+        ]
+      },
+      {
+        "name": "Body 1",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "The most obvious advantage is efficiency, since automated systems can process thousands of applications or enquiries far faster than people.",
+            "why": "A topic sentence naming the main advantage and justifying it with \"since\". \"Far faster than people\" is a comparison, and \"thousands of applications or enquiries\" links back to both uses, as the question requires."
+          },
+          {
+            "role": "explanation",
+            "text": "A recruitment tool can filter candidates against clearly defined criteria in minutes, which reduces the workload for human managers and shortens hiring timelines.",
+            "why": "Explains how it works with a concrete process: \"filter candidates against clearly defined criteria in minutes\". The relative clause, \"which reduces the workload\", gives a result, and \"shortens hiring timelines\" is a precise collocation."
+          },
+          {
+            "role": "example",
+            "text": "A retail company receiving tens of thousands of applications each year, for instance, could use software to identify those who meet essential requirements.",
+            "why": "A realistic example with a figure-like detail, \"tens of thousands of applications\". The conditional \"could use software\" is a sensible hedge, and \"essential requirements\" is specific, so the case feels believable."
+          },
+          {
+            "role": "effect",
+            "text": "As a result, staff can devote more time to interviews and to complex customer issues that require empathy.",
+            "why": "The effect sentence shows what humans gain: time for \"interviews\" and \"complex customer issues that require empathy\". \"As a result\" signals consequence and the relative clause adds depth, converting efficiency into value."
+          }
+        ]
+      },
+      {
+        "name": "Body 2",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "However, these systems also carry risks, particularly where decisions affect people's livelihoods.",
+            "why": "A contrast topic sentence: \"However\" shifts to the disadvantage, and \"particularly where decisions affect people's livelihoods\" limits and sharpens it. The noun \"risks\" is neutral and academic, supporting Task Response."
+          },
+          {
+            "role": "explanation",
+            "text": "An algorithm learns from historical data, so if past hiring decisions were biased, it may repeat those patterns and exclude qualified candidates without anyone noticing.",
+            "why": "Explains the mechanism of bias in one conditional chain: learns from data, so if past decisions were biased, it repeats patterns. \"Without anyone noticing\" adds a specific danger, showing depth of reasoning and grammatical range."
+          },
+          {
+            "role": "example",
+            "text": "A candidate with an unconventional career history, for example, might be rejected by a program that favours traditional job titles.",
+            "why": "A specific example: \"unconventional career history\" rejected by a program that \"favours traditional job titles\". The contrast is vivid and relates directly to screening, showing a credible case that illustrates the point."
+          },
+          {
+            "role": "effect",
+            "text": "Customers may also feel frustrated when automated chatbots cannot resolve problems, which can damage trust in the brand. Clear routes to a human agent can prevent this, but such options are not always offered.",
+            "why": "Adds the customer-service side so both uses are covered, and the final clause adds a remedy: \"clear routes to a human agent\". This shows critical thinking by noting a fix and its limit, which lifts the answer."
+          }
+        ]
+      },
+      {
+        "name": "Conclusion",
+        "sentences": [
+          {
+            "role": "summary",
+            "text": "In conclusion, artificial intelligence brings valuable gains in speed and consistency, but its drawbacks in fairness and personal service are significant.",
+            "why": "The conclusion restates both sides in new words: \"valuable gains in speed and consistency\" against \"drawbacks in fairness and personal service\". \"But\" and \"significant\" show balance without adding new ideas, supporting Task Response."
+          },
+          {
+            "role": "judgement",
+            "text": "Organisations should therefore use these tools as assistants, with human oversight for decisions that affect people directly.",
+            "why": "A final judgement offering a practical recommendation: \"assistants\" and \"human oversight\" summarise the balance. \"Therefore\" connects it to the preceding summary, and the focus on \"decisions that affect people directly\" is precise."
+          }
+        ]
+      }
+    ]
+  },
+  "guide": "advantages",
+  "analysis": [
+    "The question asks \"What are the advantages and disadvantages of this development?\" It does not ask for a judgement on which outweighs the other, so a balanced conclusion is enough; do not add an unrequested verdict as the main point.",
+    "The development is specific: organisations using AI to screen job applications and answer customer enquiries. Keep your points tied to these two uses and not to AI in general.",
+    "Paraphrase in the introduction: \"artificial intelligence\" becomes automated systems or AI tools; \"screen job applications\" becomes filter candidates; \"answer customer enquiries\" becomes handle routine customer service.",
+    "Select one main advantage (efficiency and the time it frees for humans) and one main disadvantage (bias and loss of human judgement), each developed with an example and an effect.",
+    "Equal development for both sides: each body paragraph should have the same four-step sequence of topic, explanation, example and effect.",
+    "The question does not ask you to predict the future of AI or to discuss unemployment in general. Stay with screening and customer service."
+  ],
+  "plan": [
+    {
+      "paragraph": "Introduction",
+      "idea": "AI handles routine business tasks. Thesis: clear gains in speed and consistency, but concerns about fairness and loss of human judgement."
+    },
+    {
+      "paragraph": "Body 1",
+      "idea": "Advantage: efficiency. Software filters candidates in minutes against set criteria. Example: a retailer with tens of thousands of applications. Result: staff spend time on interviews and complex, empathetic cases."
+    },
+    {
+      "paragraph": "Body 2",
+      "idea": "Disadvantage: bias and impersonality. Algorithms repeat historical bias; unconventional careers are rejected. Chatbots frustrate customers. Remedy: clear routes to a human agent."
+    },
+    {
+      "paragraph": "Conclusion",
+      "idea": "Gains in speed and consistency are valuable but fairness and personal service drawbacks are significant; use AI as an assistant with human oversight."
+    }
+  ]
+}

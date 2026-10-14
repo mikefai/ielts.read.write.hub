@@ -1,0 +1,80 @@
+{
+  "id": "t1-mcq",
+  "type": "mcq",
+  "passageId": "t1-p3",
+  "instructions": "Choose the correct letter, A, B, C or D.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "What is the writer’s main purpose in the first paragraph?",
+      "options": [
+        "To explain why historic buildings are lost more often than before",
+        "To outline a growing trend and signal a measured reservation about it",
+        "To argue that modern restorers are more skilful than their predecessors",
+        "To claim that the public is indifferent to the loss of ruins"
+      ],
+      "answer": "To outline a growing trend and signal a measured reservation about it",
+      "evidence": {
+        "paragraph": "A",
+        "quote": "the enthusiasm for reconstruction is more problematic than it appears"
+      },
+      "step": 1,
+      "how": "Read paragraph A as a whole and note what it does in its opening, middle and closing sentences. Underline the writer’s first-person statement, since it usually announces the purpose of an introduction.",
+      "again": "Test each option against the full paragraph, not one sentence. Options about causes of loss, restorer skill and public indifference each pick up a detail but misstate the purpose, which is to introduce a trend and express a cautious doubt."
+    },
+    {
+      "id": "q2",
+      "prompt": "What does the writer say about the arguments in favour of reconstruction?",
+      "options": [
+        "They are mostly driven by financial self-interest",
+        "They disregard the wishes of the communities affected",
+        "They are weaker than they were in earlier generations",
+        "They are sincerely held but may not prove what is claimed"
+      ],
+      "answer": "They are sincerely held but may not prove what is claimed",
+      "evidence": {
+        "paragraph": "B",
+        "quote": "My doubt is whether they establish what their proponents believe they establish"
+      },
+      "step": 3,
+      "how": "Focus on paragraph B and read how the writer introduces and closes the discussion of the case in favour. Underline the writer’s own attitude words rather than the arguments themselves.",
+      "again": "Check the last two sentences, where the writer states both a courtesy and a reservation. Options about self-interest and ignoring communities exaggerate what is said, and the option about earlier generations is not discussed at all."
+    },
+    {
+      "id": "q3",
+      "prompt": "According to the writer, why does authenticity matter to visitors?",
+      "options": [
+        "Their enjoyment partly rests on a belief about what they are seeing",
+        "They are generally able to distinguish original fabric from replica",
+        "They have been taught to value conservation charters",
+        "They consider craftsmanship more important than appearance"
+      ],
+      "answer": "Their enjoyment partly rests on a belief about what they are seeing",
+      "evidence": {
+        "paragraph": "C",
+        "quote": "arguably depends upon our belief that it is what it claims to be"
+      },
+      "step": 3,
+      "how": "Find the sentence in paragraph C that concerns visitors and pleasure. Underline the reason the writer gives for why the distinction matters, noting the hedging word that qualifies the claim.",
+      "again": "Visitors are said to be unable to see the difference, which rules out the option about distinguishing replica. Charters are discussed in the previous sentences about material, and craftsmanship appears only as a concession at the end."
+    },
+    {
+      "id": "q4",
+      "prompt": "What does the writer suggest about digital models in paragraph F?",
+      "options": [
+        "They should replace physical conservation altogether",
+        "They are cheaper but less accurate than physical rebuilding",
+        "They may sometimes represent the past more honestly than rebuilding",
+        "They are rejected by defenders of reconstruction on principle"
+      ],
+      "answer": "They may sometimes represent the past more honestly than rebuilding",
+      "evidence": {
+        "paragraph": "F",
+        "quote": "may in many cases offer a more truthful kind of recovery than any physical rebuilding"
+      },
+      "step": 4,
+      "how": "Locate the final sentence of paragraph F, which mentions digital models. Underline the qualifying words and the comparison, then check each option for claims that go beyond what the writer actually proposes.",
+      "again": "Notice the cautious phrasing may in many cases. Options claiming replacement or a rejection by defenders are stronger or unmentioned, and the cheaper-but-less-accurate option reverses the comparison of truthfulness made in the sentence."
+    }
+  ]
+}

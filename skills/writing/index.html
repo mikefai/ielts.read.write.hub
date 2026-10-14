@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Writing · IELTS Study Hub</title>
+<link rel="stylesheet" href="../../assets/core/tokens.css"><link rel="stylesheet" href="../../assets/core/base.css"><link rel="stylesheet" href="../../assets/hub.css"></head>
+<body><div class="wrap"><p><a class="back" href="../../index.html">&larr; Hub</a></p>
+<header class="mast rise"><p class="kicker">Skill 02</p><h1>Write it <em>sentence by sentence.</em></h1>
+<p>60 minutes, two tasks. Build each answer one sentence at a time, then compare with a model.</p></header>
+<h2 class="section-title">Task 1 &middot; Report (150+ words, 20 min)</h2><ol id="t1" class="toc rise"></ol>
+<h2 class="section-title">Task 2 &middot; Essay (250+ words, 40 min)</h2><ol id="t2" class="toc rise"></ol></div>
+<script type="module">
+const list = await (await fetch('../../content/writing/index.json')).json();
+const row = (t, i) => `<li><a style="--c:#1d3a8a" href="task/?id=${t.id}"><span class="n">${String(i + 1).padStart(2, '0')}</span><span><h3>${t.title}</h3><p>${t.blurb}</p></span><span class="acc">Task ${t.task}</span></a></li>`;
+for (const n of [1, 2]) document.getElementById('t' + n).innerHTML = list.filter(t => t.task === n).map(row).join('');
+</script></body></html>
+

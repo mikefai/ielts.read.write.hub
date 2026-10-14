@@ -1,0 +1,54 @@
+{
+  "id": "t1",
+  "title": "Practice Test 1",
+  "minutes": 60,
+  "passages": [
+    {
+      "passageId": "t1-p1",
+      "groups": [
+        {
+          "type": "notes-completion",
+          "setId": "t1-notes-completion"
+        },
+        {
+          "type": "tfng",
+          "setId": "t1-tfng"
+        }
+      ]
+    },
+    {
+      "passageId": "t1-p2",
+      "groups": [
+        {
+          "type": "matching-information",
+          "setId": "t1-matching-information"
+        },
+        {
+          "type": "summary-completion",
+          "setId": "t1-summary-completion"
+        },
+        {
+          "type": "matching-features",
+          "setId": "t1-matching-features"
+        }
+      ]
+    },
+    {
+      "passageId": "t1-p3",
+      "groups": [
+        {
+          "type": "mcq",
+          "setId": "t1-mcq"
+        },
+        {
+          "type": "summary-wordbank",
+          "setId": "t1-summary-wordbank"
+        },
+        {
+          "type": "ynng",
+          "setId": "t1-ynng"
+        }
+      ]
+    }
+  ]
+}

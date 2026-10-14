@@ -1,0 +1,146 @@
+{
+  "id": "p7-matching-headings",
+  "type": "matching-headings",
+  "passageId": "p7",
+  "instructions": "Choose the correct heading for each paragraph from the list of headings. There are more headings than paragraphs.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "Paragraph B",
+      "options": [
+        "Why drivers deserve compensation for lost parking",
+        "Health gains that justify restricting traffic",
+        "Why retailers have little reason to worry",
+        "Protecting access for people with mobility needs",
+        "Shared costs imposed by private driving",
+        "Why voluntary schemes can outperform legal restrictions",
+        "Which objections carry real weight in practice",
+        "Rising prices that residents may face after closures",
+        "A balanced verdict on implementation and outcomes"
+      ],
+      "answer": "Health gains that justify restricting traffic",
+      "evidence": {
+        "paragraph": "B",
+        "quote": "The most persuasive argument for pedestrianisation concerns public health"
+      },
+      "step": 3,
+      "how": "Read the first two sentences of paragraph B for the main claim, then check whether the rest of the paragraph develops it. Compare each heading with the whole paragraph, not one sentence.",
+      "again": "Test the heading about voluntary schemes against the paragraph: it appears in the last sentence as support for the main claim, not as the topic. The trap is that a heading can match a late supporting detail while missing that the paragraph's subject is the health benefit."
+    },
+    {
+      "id": "q2",
+      "prompt": "Paragraph C",
+      "options": [
+        "Why drivers deserve compensation for lost parking",
+        "Health gains that justify restricting traffic",
+        "Why retailers have little reason to worry",
+        "Protecting access for people with mobility needs",
+        "Shared costs imposed by private driving",
+        "Why voluntary schemes can outperform legal restrictions",
+        "Which objections carry real weight in practice",
+        "Rising prices that residents may face after closures",
+        "A balanced verdict on implementation and outcomes"
+      ],
+      "answer": "Why retailers have little reason to worry",
+      "evidence": {
+        "paragraph": "C",
+        "quote": "The claim that pedestrianisation harms shops is, in my view, largely mistaken"
+      },
+      "step": 3,
+      "how": "Read the opening sentence of paragraph C for the writer's view, then check whether later sentences support or qualify it. Choose the heading that covers the paragraph as a whole.",
+      "again": "Check whether the paragraph's last sentence about planners is the main idea or an explanation of the failure; it explains why the view arose, so it supports the main idea. The trap is the heading about planners or communication, which captures a minor point."
+    },
+    {
+      "id": "q3",
+      "prompt": "Paragraph D",
+      "options": [
+        "Why drivers deserve compensation for lost parking",
+        "Health gains that justify restricting traffic",
+        "Why retailers have little reason to worry",
+        "Protecting access for people with mobility needs",
+        "Shared costs imposed by private driving",
+        "Why voluntary schemes can outperform legal restrictions",
+        "Which objections carry real weight in practice",
+        "Rising prices that residents may face after closures",
+        "A balanced verdict on implementation and outcomes"
+      ],
+      "answer": "Protecting access for people with mobility needs",
+      "evidence": {
+        "paragraph": "D",
+        "quote": "Elderly people, disabled residents and tradespeople carrying heavy equipment"
+      },
+      "step": 3,
+      "how": "Identify the group of people named in the first sentence of paragraph D, then find the writer's response to them. Decide whether a heading names the problem, the proposed remedy or both.",
+      "again": "Test the heading about objections that carry weight: the paragraph does discuss an objection, but it concludes that the objection points to a flaw in implementation. The trap is picking the objections heading because the paragraph contains the word objection several times."
+    },
+    {
+      "id": "q4",
+      "prompt": "Paragraph E",
+      "options": [
+        "Why drivers deserve compensation for lost parking",
+        "Health gains that justify restricting traffic",
+        "Why retailers have little reason to worry",
+        "Protecting access for people with mobility needs",
+        "Shared costs imposed by private driving",
+        "Why voluntary schemes can outperform legal restrictions",
+        "Which objections carry real weight in practice",
+        "Rising prices that residents may face after closures",
+        "A balanced verdict on implementation and outcomes"
+      ],
+      "answer": "Shared costs imposed by private driving",
+      "evidence": {
+        "paragraph": "E",
+        "quote": "Driving through a dense historic centre imposes costs on everyone else"
+      },
+      "step": 3,
+      "how": "Find the sentence rejecting an argument in paragraph E and identify what the writer says about costs. Check which idea recurs across the paragraph rather than relying on one phrase.",
+      "again": "Test the heading about compensation: the paragraph rejects the unfairness argument, so compensation is a related theme but not the main idea. The trap is that the heading names drivers, who are the subject of the sentence, while the main idea concerns the costs they impose."
+    },
+    {
+      "id": "q5",
+      "prompt": "Paragraph F",
+      "options": [
+        "Why drivers deserve compensation for lost parking",
+        "Health gains that justify restricting traffic",
+        "Why retailers have little reason to worry",
+        "Protecting access for people with mobility needs",
+        "Shared costs imposed by private driving",
+        "Why voluntary schemes can outperform legal restrictions",
+        "Which objections carry real weight in practice",
+        "Rising prices that residents may face after closures",
+        "A balanced verdict on implementation and outcomes"
+      ],
+      "answer": "Which objections carry real weight in practice",
+      "evidence": {
+        "paragraph": "F",
+        "quote": "Nevertheless, some objections are stronger than others"
+      },
+      "step": 4,
+      "how": "Read the first sentence of paragraph F for the signal of a shift, then note which points are dismissed and which are accepted. The heading must cover both sides of that movement.",
+      "again": "Test the prices heading: the paragraph dismisses the price argument, so it is a minor point rather than the main idea. The trap is that the price argument is the first example in the paragraph, which tempts you to use it as the main idea."
+    },
+    {
+      "id": "q6",
+      "prompt": "Paragraph G",
+      "options": [
+        "Why drivers deserve compensation for lost parking",
+        "Health gains that justify restricting traffic",
+        "Why retailers have little reason to worry",
+        "Protecting access for people with mobility needs",
+        "Shared costs imposed by private driving",
+        "Why voluntary schemes can outperform legal restrictions",
+        "Which objections carry real weight in practice",
+        "Rising prices that residents may face after closures",
+        "A balanced verdict on implementation and outcomes"
+      ],
+      "answer": "A balanced verdict on implementation and outcomes",
+      "evidence": {
+        "paragraph": "G",
+        "quote": "well-designed pedestrianisation offers substantial benefits to health, commerce and civic life"
+      },
+      "step": 4,
+      "how": "Locate the concluding paragraph G and note the balance between recommendation and admitted uncertainty. Test each heading against the full range of ideas, including what the writer concedes.",
+      "again": "Test the health heading against the conclusion: health is one of three benefits named, so it is too narrow for the whole paragraph. The trap is that the paragraph's first sentence lists health first, which makes a health-only heading tempting but incomplete."
+    }
+  ]
+}

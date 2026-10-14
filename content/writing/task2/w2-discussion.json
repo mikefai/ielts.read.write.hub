@@ -1,0 +1,123 @@
+{
+  "id": "w2-discussion",
+  "task": 2,
+  "essayType": "Discussion (both views and opinion)",
+  "title": "Roads or public transport",
+  "prompt": "Some people think that governments should spend public money on building new roads, while others believe that investment should go to public transport. Discuss both views and give your own opinion.",
+  "model": {
+    "paragraphs": [
+      {
+        "name": "Introduction",
+        "sentences": [
+          {
+            "role": "background",
+            "text": "Transport planning is one of the most contested areas of public spending, particularly in growing cities where demand for mobility rises every year.",
+            "why": "Neutral background that sets the debate without taking a side. \"Most contested areas\" and \"demand for mobility rises\" frame the issue with academic vocabulary, supporting Lexical Resource and avoiding any copying from the question."
+          },
+          {
+            "role": "thesis",
+            "text": "While some argue that road expansion meets the needs of drivers, I believe that public transport deserves greater investment.",
+            "why": "A concession thesis that covers both views and the opinion in one sentence. \"While some argue\" presents View A, and \"I believe\" with \"deserves greater investment\" states the position, meeting every part of Task Response."
+          },
+          {
+            "role": "outline",
+            "text": "This essay will consider the case for each option before explaining why public transport offers the stronger long-term return.",
+            "why": "The outline previews fair treatment of both options before the opinion. \"The case for each option\" promises balance, and \"stronger long-term return\" gives a criterion for judging, which supports Coherence and a planned argument."
+          }
+        ]
+      },
+      {
+        "name": "Body 1",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "Supporters of road building argue that new routes relieve congestion and support economic activity.",
+            "why": "A topic sentence that attributes the view to its supporters and gives two reasons: \"relieve congestion and support economic activity\". The reporting verb \"argue\" keeps the tone objective, supporting Task Response."
+          },
+          {
+            "role": "explanation",
+            "text": "Improved roads reduce journey times for commercial vehicles and private motorists, which can make it easier for businesses to reach customers and suppliers.",
+            "why": "Explains the mechanism with a causal chain from shorter journeys to business access. \"Commercial vehicles and private motorists\" is a precise pair, and \"which can make it easier\" hedges sensibly for Lexical Resource."
+          },
+          {
+            "role": "example",
+            "text": "In rural regions in many countries, a new bypass has allowed farmers to transport produce to markets more quickly and at lower cost.",
+            "why": "A concrete rural example, \"a new bypass ... farmers ... markets\", that suits View A. It limits the generalisation with \"in rural regions\", which demonstrates specific, believable evidence and fair presentation of the opposing view."
+          },
+          {
+            "role": "effect",
+            "text": "Such projects can therefore be justified when they connect communities that have few alternatives.",
+            "why": "The effect sentence turns the example into a conditional verdict: \"can therefore be justified when\" accepts the view in a limited context. It shows evaluation and sets up your later preference without contradicting it."
+          }
+        ]
+      },
+      {
+        "name": "Body 2",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "However, public transport offers benefits that roads cannot easily provide, particularly in dense urban areas.",
+            "why": "A contrast topic sentence: \"However\" signals the shift, and \"benefits that roads cannot easily provide\" states the claim. \"Particularly in dense urban areas\" limits it to a context, giving precision for Task Response."
+          },
+          {
+            "role": "explanation",
+            "text": "A reliable bus or rail network moves far more people per lane than a road, and it reduces the number of cars competing for limited space.",
+            "why": "Explains with a comparison: \"far more people per lane\" quantifies the efficiency of transit. The coordinated clause, \"and it reduces the number of cars\", adds a second mechanism, showing clear logic and range of structure."
+          },
+          {
+            "role": "example",
+            "text": "In one mid-sized European city, the opening of a fast tram line led many commuters to leave their cars at home for daily journeys.",
+            "why": "An example from a \"mid-sized European city\" with a tram line. Naming the type of place and vehicle makes it credible, and \"led many commuters to leave their cars\" shows the consequence, supporting development."
+          },
+          {
+            "role": "effect",
+            "text": "Lower traffic volumes also cut emissions and improve air quality for residents, which benefits public health. Over time, the city also saw a measurable reduction in peak-hour congestion on its main arterial roads.",
+            "why": "Extends the effect in two sentences: emissions and air quality, then public health and long-term congestion data. The \"which benefits public health\" clause and \"measurable reduction\" add depth and precise vocabulary."
+          }
+        ]
+      },
+      {
+        "name": "Conclusion",
+        "sentences": [
+          {
+            "role": "summary",
+            "text": "In conclusion, both options have merit, but road building tends to address short-term demand while transit shapes how a city grows.",
+            "why": "The conclusion weighs both options with a clear contrast between \"short-term demand\" and \"how a city grows\". Opening with \"both options have merit\" shows balance, and it repeats the argument in new words."
+          },
+          {
+            "role": "judgement",
+            "text": "For this reason, I believe governments should prioritise public transport, using roads selectively where no alternative exists.",
+            "why": "The final judgement states the opinion plainly and qualifies it: \"prioritise\" and \"using roads selectively\" show nuance. It matches the thesis exactly, giving a consistent position and no new ideas."
+          }
+        ]
+      }
+    ]
+  },
+  "guide": "discussion",
+  "analysis": [
+    "The instruction is \"Discuss both views and give your own opinion\". That is three jobs: explain View A (roads), explain View B (public transport), and state your own opinion clearly.",
+    "Both views must be treated fairly and in comparable depth; the view you reject still needs its strongest argument. An opinion with no discussion, or discussion without an opinion, is a partial answer.",
+    "Paraphrase in the introduction: \"spend public money\" becomes allocate public funds; \"building new roads\" becomes expanding road networks; \"investment should go to public transport\" becomes funding buses, trams and trains.",
+    "Position: public transport deserves priority, but roads have a role in rural areas with few alternatives. State this in the thesis, then keep it consistent in the body and conclusion.",
+    "The question does not ask you to explain how to pay for either option or to discuss private cars in general. Stay on the choice of public spending.",
+    "Plan View A with a rural example and View B with an urban example, so the contrast between contexts supports your nuanced opinion."
+  ],
+  "plan": [
+    {
+      "paragraph": "Introduction",
+      "idea": "Transport planning is contested as cities grow. Thesis: although some argue road expansion meets drivers' needs, public transport deserves greater investment."
+    },
+    {
+      "paragraph": "Body 1",
+      "idea": "View A: roads relieve congestion and support the economy. Faster freight and journeys. Example: a rural bypass helps farmers reach markets. Result: justified where communities have few alternatives."
+    },
+    {
+      "paragraph": "Body 2",
+      "idea": "View B: transit moves more people per lane in dense cities. Example: a fast tram line in a European city took cars off the road. Result: lower emissions, better air quality, less peak congestion."
+    },
+    {
+      "paragraph": "Conclusion",
+      "idea": "Roads meet short-term demand; transit shapes how a city grows. Governments should prioritise public transport and use roads selectively."
+    }
+  ]
+}

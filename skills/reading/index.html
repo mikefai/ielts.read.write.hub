@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reading · IELTS Study Hub</title>
+<link rel="stylesheet" href="../../assets/core/tokens.css"><link rel="stylesheet" href="../../assets/core/base.css"><link rel="stylesheet" href="../../assets/hub.css"></head>
+<body><div class="wrap"><p><a class="back" href="../../index.html">&larr; Hub</a></p>
+<header class="mast rise"><p class="kicker">Skill 01</p><h1>Read. <em>Locate.</em> Prove.</h1>
+<p>60 minutes, 3 passages, 40 questions in the real test. Pick a question type to practise.</p></header>
+<section class="skills rise" style="margin-bottom:28px"><a class="skill" style="--c:#d9441e" href="test/?id=t1"><span class="num">40</span><div><h3>Full test</h3><p>3 passages &middot; 40 questions &middot; 60 minutes, built like the real exam</p></div><span class="go" aria-hidden="true">&rarr;</span></a></section>
+<ol id="tiles" class="toc rise"></ol></div>
+<script type="module">
+import { TYPES } from './engine/types.js';
+import { getProgress } from '../../assets/core/store.js';
+const at = getProgress().attempts;
+document.getElementById('tiles').innerHTML = TYPES.map((t, i) => {
+  const a = at.filter(x => x.type === t.id), sc = a.reduce((s, x) => s + x.score, 0), tot = a.reduce((s, x) => s + x.total, 0);
+  return `<li><a style="--c:${t.accent}" href="types/${t.id}/"><span class="n">${String(i + 1).padStart(2, '0')}</span><span><h3>${t.title}</h3><p>${t.blurb}</p></span><span class="acc">${tot ? Math.round(100 * sc / tot) + '% accuracy' : 'Not attempted'}</span></a></li>`;
+}).join('');
+</script></body></html>
+

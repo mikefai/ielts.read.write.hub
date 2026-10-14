@@ -1,0 +1,123 @@
+{
+  "id": "w2-opinion",
+  "task": 2,
+  "essayType": "Opinion (agree/disagree)",
+  "title": "Breadth or specialisation at university",
+  "prompt": "Some people believe that university students should study a wide range of subjects, even those unrelated to their chosen degree. To what extent do you agree or disagree?",
+  "model": {
+    "paragraphs": [
+      {
+        "name": "Introduction",
+        "sentences": [
+          {
+            "role": "background",
+            "text": "Universities are increasingly debating how far students should be allowed to specialise in a single field, or whether they should study a broader curriculum.",
+            "why": "Neutral background that paraphrases the topic without copying the question: \"specialise in a single field\" and \"broader curriculum\" restate the statement. It earns Lexical Resource and avoids a stance too early, using \"how far\" for fluency."
+          },
+          {
+            "role": "thesis",
+            "text": "In my view, students benefit most from a broad programme, because it develops transferable skills and prepares them for a changing job market.",
+            "why": "A clear, committed thesis that answers \"to what extent\": \"In my view\" and \"benefit most\" state a position, and \"because\" previews two reasons. It earns Task Response and uses key terms with \"transferable skills\"."
+          },
+          {
+            "role": "outline",
+            "text": "This essay will examine the value of transferable skills and intellectual curiosity before explaining why specialisation still has its place.",
+            "why": "The outline sentence names the two reasons and the concession in order, which gives the reader a roadmap. \"Before explaining\" signals the structure, supporting Coherence and Cohesion, and it hints at balance."
+          }
+        ]
+      },
+      {
+        "name": "Body 1",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "The most important reason for studying a broad range of subjects is that it develops transferable skills.",
+            "why": "A topic sentence that ranks the reason: \"most important\" signals priority. It states the single idea of the paragraph and repeats the key term \"transferable skills\", giving the paragraph a clear focus for Coherence."
+          },
+          {
+            "role": "explanation",
+            "text": "Subjects such as history, statistics and philosophy train students to analyse evidence, communicate clearly and solve unfamiliar problems, abilities that employers across many sectors value.",
+            "why": "Explains why with named disciplines and three specific skills, then adds a reduced relative clause, \"abilities that employers ... value\". Concrete nouns and a parallel list earn Lexical Resource and Task Response development."
+          },
+          {
+            "role": "example",
+            "text": "For instance, a biology graduate who has also taken courses in economics is often better placed to work in healthcare management, where scientific knowledge and financial judgement are both required.",
+            "why": "The example is specific and shows how breadth matters in practice: \"biology graduate ... economics ... healthcare management\". The comparative \"better placed\" and the relative clause show range, and the case is believable."
+          },
+          {
+            "role": "effect",
+            "text": "Such flexibility means that graduates are less likely to be left behind when their chosen industry changes.",
+            "why": "The effect sentence states the consequence of the example. \"Such flexibility\" is a reference noun phrase that links back, and \"left behind\" is an idiomatic collocation. It completes the idea and earns Coherence and development."
+          }
+        ]
+      },
+      {
+        "name": "Body 2",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "A second benefit is that a wider curriculum encourages intellectual curiosity, which can lead students to discover interests they would otherwise never pursue.",
+            "why": "A topic sentence for the second reason with a relative clause giving its consequence: \"which can lead students to discover interests\". \"A second benefit\" signals the sequence, and modal \"can\" is a sensible hedge."
+          },
+          {
+            "role": "explanation",
+            "text": "Many students arrive at university with a narrow idea of their future career, and early exposure to other disciplines can reshape those plans.",
+            "why": "Explains with a contrast between a \"narrow idea\" at entry and \"early exposure\" later. The parallel structure is clear, and \"reshape those plans\" is a precise verb choice that develops the point logically."
+          },
+          {
+            "role": "example",
+            "text": "A student who takes a music theory module alongside an engineering degree, for example, may find that both fields share useful ways of thinking about patterns and structure.",
+            "why": "The example offers a creative, concrete link between music theory and engineering. \"May find\" is a hedge, and \"patterns and structure\" is a precise shared concept, which gives credibility and Lexical Resource."
+          },
+          {
+            "role": "link",
+            "text": "Nevertheless, this argument must be balanced against the needs of students who already know their vocation and want focused training from the start.",
+            "why": "This link sentence concedes the counter-argument: \"Nevertheless\" signals contrast and \"must be balanced against\" shows evaluation. It answers \"to what extent\" by recognising limits, which lifts Task Response from Band 7 toward 8."
+          }
+        ]
+      },
+      {
+        "name": "Conclusion",
+        "sentences": [
+          {
+            "role": "summary",
+            "text": "In summary, a broad curriculum equips students with transferable skills and encourages the curiosity that leads to richer careers.",
+            "why": "The conclusion restates the position and both reasons in new words (\"equips\", \"richer careers\"), without copying the introduction. It confirms a consistent stance, which earns Task Response and Lexical Resource through paraphrase."
+          },
+          {
+            "role": "judgement",
+            "text": "Although specialisation has its place, I believe that a wider education better serves both students and society.",
+            "why": "A short, final judgement that repeats the position with a concession: \"Although specialisation has its place\" shows balance, and \"both students and society\" widens the implication. No new idea, so Coherence stays intact."
+          }
+        ]
+      }
+    ]
+  },
+  "guide": "opinion",
+  "analysis": [
+    "The command is \"To what extent do you agree or disagree?\". You are asked for your position on one statement, so a clear stance (fully, mostly or partly) must appear in the introduction and stay constant.",
+    "The statement contains three parts to address: students should study a wide range of subjects, even those unrelated to their degree, and this applies to university students specifically. Do not drift to school education.",
+    "Paraphrase in the introduction: \"wide range of subjects\" becomes a broad curriculum or breadth of study; \"unrelated to their chosen degree\" becomes outside their main field; \"university students\" becomes undergraduates.",
+    "Position: agree, with a qualification. Reasons: transferable skills for a changing job market, and intellectual curiosity. Acknowledge that some students need focused training, which limits but does not reverse your view.",
+    "The question does not ask for a description of the university system, a comparison of countries, or a discussion of both views equally. This is an opinion essay, not a discussion essay.",
+    "Develop each reason fully with an explanation, a specific example and a consequence. Two well-developed reasons are worth more than four listed ones."
+  ],
+  "plan": [
+    {
+      "paragraph": "Introduction",
+      "idea": "Background on specialisation versus breadth. Thesis: students benefit most from a broad programme because it builds transferable skills and prepares them for a changing job market."
+    },
+    {
+      "paragraph": "Body 1",
+      "idea": "Transferable skills. Humanities, statistics and philosophy train analysis and communication. Example: a biology graduate with economics is suited to healthcare management. Result: flexibility when industries change."
+    },
+    {
+      "paragraph": "Body 2",
+      "idea": "Intellectual curiosity. Early exposure reshapes narrow career plans. Example: music theory alongside engineering reveals shared thinking about patterns. Then concede that students with a clear vocation need focused training."
+    },
+    {
+      "paragraph": "Conclusion",
+      "idea": "Restate that breadth gives transferable skills and curiosity; specialisation has a place, but a wider education serves students and society better."
+    }
+  ]
+}

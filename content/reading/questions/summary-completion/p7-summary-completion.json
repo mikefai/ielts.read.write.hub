@@ -1,0 +1,86 @@
+{
+  "id": "p7-summary-completion",
+  "type": "summary-completion",
+  "passageId": "p7",
+  "instructions": "Complete each sentence with NO MORE THAN TWO WORDS from the passage.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "Traffic-related ____ from cars contribute to lung illness, especially in children.",
+      "answer": "exhaust",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "B",
+        "quote": "Vehicle exhaust contributes significantly to respiratory illness"
+      },
+      "step": 2,
+      "how": "Go to the health argument in paragraph B and find the sentence about respiratory illness. The gap names what comes from vehicles, so look at the subject of the verb contributes.",
+      "again": "Check whether you wrote emissions, which the gap does not require, or exhaust, which is the exact word. The trap is that the word emissions is a common synonym and would be marked wrong for this item."
+    },
+    {
+      "id": "q2",
+      "prompt": "Several closed centres recorded falls of 20 to 40 per cent in ____ within four years.",
+      "answer": "nitrogen dioxide",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "B",
+        "quote": "have recorded falls of between 20 and 40 per cent in nitrogen dioxide"
+      },
+      "step": 3,
+      "how": "Scan paragraph B for the figures 20 and 40 and read the noun phrase after per cent in. Keep every word of the term and check that it sits in the same sentence.",
+      "again": "Make sure the figures match the same sentence; the paragraph gives the range only once. The trap is that the statement about four years is in the same sentence and tempts you to give a time period instead."
+    },
+    {
+      "id": "q3",
+      "prompt": "Visitors who walk tend to ____ and spend more on leisure.",
+      "answer": "linger longer",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "C",
+        "quote": "Visitors on foot tend to linger longer"
+      },
+      "step": 4,
+      "how": "Find paragraph C's discussion of footfall and spending. The gap is a verb phrase describing how pedestrians behave, so look for a verb of staying with a comparative adverb.",
+      "again": "Check the spelling and that both words are included; the answer is a repeated comparative. The trap is the word spend, which appears in the same sentence but is the second action, not the gap."
+    },
+    {
+      "id": "q4",
+      "prompt": "Exemptions for ____ holders can address most difficulties.",
+      "answer": "blue badge",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "D",
+        "quote": "exemptions for blue badge holders and frequent public transport services"
+      },
+      "step": 4,
+      "how": "Scan paragraph D for exemptions in the sentence offering solutions. The gap is a two-word category, so read the words between exemptions and the noun holders.",
+      "again": "Confirm you have both words; holders alone is not the full answer. The trap is that public transport services is also an exemption-related solution in the same clause, but it is not the word the gap asks for."
+    },
+    {
+      "id": "q5",
+      "prompt": "The access objection reveals a weakness in the ____ of schemes, not a reason to abandon restriction.",
+      "answer": "implementation",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "D",
+        "quote": "The objection therefore points to a flaw in implementation"
+      },
+      "step": 5,
+      "how": "Locate the sentence in paragraph D where the writer draws a conclusion from the objection. The gap is a noun meaning the way a policy is carried out.",
+      "again": "Check that you did not write design or planning, which are plausible synonyms but not the author's word. The trap is the word restriction in the gap clause, which is the thing not to abandon, not the answer."
+    },
+    {
+      "id": "q6",
+      "prompt": "The writer warns that the costs of ____ are rising faster than the costs of change.",
+      "answer": "inaction",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "G",
+        "quote": "the costs of inaction are rising faster than the costs of change"
+      },
+      "step": 5,
+      "how": "Find the concluding paragraph G, which opens with a summary phrase. The gap is a noun in the writer's comparison, so look for the word describing doing nothing that the writer sets against change.",
+      "again": "Test whether the word inaction fits both occurrences of costs; the sentence has the word costs twice, which tempts you to copy change. The trap is the word change, which appears in the sentence but is the other side of the comparison."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "t1-p2",
+  "title": "The Uses of Boredom",
+  "band": 7.5,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Boredom has rarely been taken seriously. For much of the twentieth century it was treated by psychologists as a trivial by-product of other conditions, such as depression or fatigue, and was studied chiefly in relation to industrial monotony, where its practical consequences, notably errors and absenteeism, were of obvious interest to employers. Only in recent decades has it attracted sustained attention in its own right, and the result has been less a consensus than a proliferation of rival accounts. Researchers agree that boredom is unpleasant, that it is widespread and that it is associated with a restless wish to be doing something else; they disagree about almost everything beyond that, including whether it should be classed as an emotion, a cognitive state or merely a symptom. Four contemporary researchers, each working in a different tradition, illustrate the range of opinion."
+    },
+    {
+      "label": "B",
+      "text": "Dr Ilse Brandt, who directs an attention laboratory at the University of Halvorsen, regards boredom as essentially a failure of attentional engagement. In her view, the common assumption that boredom results from too little stimulation is mistaken, because people are frequently bored in busy surroundings, such as lengthy conferences or crowded airport lounges, while others remain perfectly content in near silence. What matters, she argues, is whether the demands of a situation match the attentional resources that a person is able, or permitted, to deploy. When they fall short, attention seeks purchase and finds none; when they greatly exceed capacity, a similar disengagement may follow. Brandt therefore predicts that boredom can be relieved by altering the task rather than by adding distraction, a claim that her experiments on varying the pace of repetitive work have broadly supported."
+    },
+    {
+      "label": "C",
+      "text": "Professor Kofi Mensah, a psychologist with a background in philosophy, is unpersuaded that attention alone can account for the experience. He points out that the same repetitive task, such as cataloguing documents, can be wearisome to one person and absorbing to another who understands what the catalogue is for. Boredom, he suggests, arises when activity seems to lack significance, a condition he describes as a deficit of meaning rather than of stimulation. Mensah does not deny that attention is involved; his objection is that Brandt's account describes how boredom operates without explaining why it arises when it does. An attentional lapse, in his opinion, is more plausibly a consequence of perceived pointlessness than its origin, and he cautions researchers against mistaking a mechanism for a cause."
+    },
+    {
+      "label": "D",
+      "text": "The most ambitious attempt to test such claims is a study by Dr Rana Haddad, whose own position is that boredom should be understood as a motivational signal rather than a mere unpleasantness. She reasons that an organism which tolerated unrewarding circumstances indefinitely would forgo valuable opportunities, and that the discomfort of boredom therefore serves to pull attention towards alternatives. To investigate this idea, Haddad recruited 120 undergraduates and divided them into two groups. The first spent twenty minutes copying columns of numbers, a task chosen because earlier pilot work had shown it to be reliably tedious; the second spent the same time on an absorbing set of puzzles. Both groups were then seated in front of a tablet that offered forty short film clips, of which some were identical to clips shown in advance and others were entirely new."
+    },
+    {
+      "label": "E",
+      "text": "The results, according to Haddad, were striking. Participants who had copied numbers sampled a significantly wider range of clips, abandoning familiar ones quickly, and were more likely to choose unfamiliar material even when a preview had suggested that it would be less enjoyable. The puzzle group, by contrast, tended to stay with whatever they had begun. Haddad interprets this as evidence that boredom does not simply create a hunger for stimulation, as popular wisdom supposes, but biases people specifically towards novelty. She concedes, however, that the experimental setting was artificial: genuine exploration usually carries costs, whereas pressing a button on a tablet carries none, and it is therefore difficult to say how far the findings would survive outside the laboratory."
+    },
+    {
+      "label": "F",
+      "text": "Professor Tobias Wren, a specialist in research methods, is the most sceptical of the four. He does not dispute that the experiments described above were carefully conducted, but he doubts that they measure what they claim to measure. The word boredom, he observes, is applied in everyday speech and in questionnaires to a loose family of states, including apathy, frustration and mild anxiety, which may have little in common beyond a shared label. Participants asked to rate their boredom may therefore be reporting quite different things. Wren is equally wary of inferring inner states from behaviour: a person who switches rapidly between film clips may be restless, curious or simply uncertain about the instructions, and nothing in the pattern of clicks distinguishes these possibilities. Until researchers can identify physiological markers that reliably accompany the feeling, he argues, theories of its function will remain speculative."
+    },
+    {
+      "label": "G",
+      "text": "None of the four positions is easily dismissed, and they are less incompatible than their proponents sometimes imply. A task that is poorly matched to a person's abilities, as Brandt describes, might well strike that person as pointless, as Mensah proposes, and the resulting discomfort might then drive a search for alternatives of the kind Haddad observed. Wren's reservations nonetheless apply to all three, and they suggest that progress may depend on better measurement rather than on further theory. The practical stakes are considerable. If boredom is a symptom of poorly designed work, teachers and managers should look to the structure of tasks; if it is a signal to explore, suppressing it with constant distraction may prove counterproductive; and if the term conceals several distinct states, then well-meant remedies may help some people while merely irritating others."
+    }
+  ]
+}

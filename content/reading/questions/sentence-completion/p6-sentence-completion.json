@@ -1,0 +1,73 @@
+{
+  "id": "p6-sentence-completion",
+  "type": "sentence-completion",
+  "passageId": "p6",
+  "instructions": "Complete each sentence with NO MORE THAN TWO WORDS from the passage.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "Glass, unlike paper, can be reshaped ____ without losing quality.",
+      "answer": "almost indefinitely",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "A",
+        "quote": "can be melted and reshaped almost indefinitely"
+      },
+      "step": 2,
+      "how": "Scan paragraph A for the contrast with paper and the adverb describing the length of reshaping. The gap follows the verb, so the required word class is an adverb or adverb phrase.",
+      "again": "Check whether your answer keeps the qualifier almost; dropping it changes the meaning from unlimited to effectively unlimited. The trap is the single word indefinitely, which is correct only with almost in front of it."
+    },
+    {
+      "id": "q2",
+      "prompt": "A few ceramic fragments can ____ the finished bottle.",
+      "answer": "weaken",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "B",
+        "quote": "inclusions that weaken the finished bottle"
+      },
+      "step": 3,
+      "how": "Find the paragraph about ceramics in B and identify the verb linking fragments to the finished product. Expect a verb describing damage, and check the grammar of the gap before choosing.",
+      "again": "Test the alternatives by putting each into the sentence; a verb like melt or leave would be grammatical but would not fit the text. The trap is the word inclusions, which is a noun, and the word leave, which describes the fragments staying in the glass."
+    },
+    {
+      "id": "q3",
+      "prompt": "The cullet is heated to roughly ____ degrees Celsius.",
+      "answer": "1,500",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "C",
+        "quote": "heated in a furnace to roughly 1,500 degrees Celsius"
+      },
+      "step": 4,
+      "how": "Locate the stage describing heating in paragraph C and read the number before the unit. The gap needs a figure written exactly as printed, including any comma.",
+      "again": "Make sure you do not copy a figure from another stage; several numbers would fit the grammar. The trap is that the passage gives no other temperature here, so a value you know from general chemistry would be wrong."
+    },
+    {
+      "id": "q4",
+      "prompt": "Compared with raw sand, cullet becomes molten at a ____ temperature.",
+      "answer": "lower",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "D",
+        "quote": "Cullet melts at a lower temperature than raw sand"
+      },
+      "step": 4,
+      "how": "Find the comparison with raw sand in paragraph D and locate the comparative adjective describing melting temperature. Check the form of the adjective that the sentence frame requires.",
+      "again": "Test whether higher would make the sentence contradict the paragraph, which it does. The trap is the idea of heat that feels intuitive but reverses the relationship the author gives for cullet versus raw sand."
+    },
+    {
+      "id": "q5",
+      "prompt": "Some governments have set up ____ schemes that pay consumers back for returned bottles.",
+      "answer": "deposit",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "E",
+        "quote": "Governments have responded by introducing deposit schemes"
+      },
+      "step": 4,
+      "how": "Go to paragraph E and find the sentence about governments. The gap modifies schemes, so look for the single adjective the author uses for the payment held against returned containers.",
+      "again": "Confirm the single word and not the phrase refund, which is a near synonym in the clause. The trap is the word refund, which appears in the sentence, but the answer must be the word the author uses for the scheme."
+    }
+  ]
+}

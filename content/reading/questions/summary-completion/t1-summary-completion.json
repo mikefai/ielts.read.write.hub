@@ -1,0 +1,57 @@
+{
+  "id": "t1-summary-completion",
+  "type": "summary-completion",
+  "passageId": "t1-p2",
+  "instructions": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+  "wordLimit": 1,
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "Haddad regards boredom as a motivational signal whose discomfort draws attention towards ____.",
+      "answer": "alternatives",
+      "evidence": {
+        "paragraph": "D",
+        "quote": "serves to pull attention towards alternatives"
+      },
+      "step": 2,
+      "how": "Begin at the paragraph introducing Haddad and find where she explains what the discomfort of boredom is for. Underline signal and attention in the summary and read the end of that sentence.",
+      "again": "The gap follows the word towards, so look for what attention is pulled to. Check that your word is plural and comes from the sentence about her reasoning, not from the later description of the clips."
+    },
+    {
+      "id": "q2",
+      "prompt": "In her study, one group of undergraduates spent twenty minutes copying columns of ____, a task found tedious in pilot work.",
+      "answer": "numbers",
+      "evidence": {
+        "paragraph": "D",
+        "quote": "copying columns of numbers, a task chosen because earlier pilot work"
+      },
+      "step": 2,
+      "how": "Find the description of the two groups in the same paragraph. Underline twenty minutes and copying, and look for what the first group was asked to copy.",
+      "again": "The second group did something different, so make sure you took the item from the description of the first group. The words copying columns of lead directly to the noun required."
+    },
+    {
+      "id": "q3",
+      "prompt": "Afterwards every participant was given a tablet offering forty short film ____, some of them already seen.",
+      "answer": "clips",
+      "evidence": {
+        "paragraph": "D",
+        "quote": "a tablet that offered forty short film clips"
+      },
+      "step": 2,
+      "how": "Read the final sentence of the paragraph describing the design. Underline tablet and forty, and notice that the gap follows the words short film.",
+      "again": "The noun is repeated later in the next paragraph, so confirm that you copied it in the form used where the tablet is first described. Plural form is required to fit the summary."
+    },
+    {
+      "id": "q4",
+      "prompt": "Bored participants favoured unfamiliar material even when a ____ had suggested it would be less enjoyable.",
+      "answer": "preview",
+      "evidence": {
+        "paragraph": "E",
+        "quote": "even when a preview had suggested that it would be less enjoyable"
+      },
+      "step": 3,
+      "how": "Move to the paragraph reporting results and find the sentence about unfamiliar material. Underline less enjoyable and look at the words that come directly before had suggested.",
+      "again": "Check the subject of the verb suggested: it is whatever gave participants advance information about a clip. The noun is singular and follows the article a, which confirms it in the sentence."
+    }
+  ]
+}

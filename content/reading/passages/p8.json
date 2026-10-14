@@ -1,0 +1,35 @@
+{
+  "id": "p8",
+  "title": "Lichens and the Making of Soil",
+  "band": 8.5,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Soil is often described as inert material, yet its origins lie in a slow and intricate partnership between rock and living organisms. Crustose lichens, which bond so tightly to bare stone that they cannot be peeled away without fragmenting the surface, have long been regarded as pioneers of this process. Their presence is conspicuous on glaciated outcrops and volcanic deposits, where organic matter is almost absent. Scholars have debated whether lichens actively weather the substrate or merely occupy surfaces already fractured by temperature cycles, and the disagreement carries consequences for how ecologists model the emergence of terrestrial ecosystems over millennia. Such questions matter because the rate at which bare rock becomes habitable determines when plants can colonise a landscape. Ecologists therefore treat the matter as more than an academic dispute, since it shapes their models of carbon storage."
+    },
+    {
+      "label": "B",
+      "text": "Dr Hanna Voss argued that the dominant contribution of lichens is chemical rather than physical. In her account, oxalic acid secreted by the fungal partner dissolves minerals at the contact zone, releasing calcium, iron and phosphorus that later colonists can absorb. She maintained that the process is measurable within a few decades, and she dismissed the suggestion that mechanical pressure from hyphae plays a comparable role. Her experiments were small, but they revealed a consistent depletion of mineral surfaces beneath thalli compared with adjacent bare controls. Her account also assumes that the acids remain concentrated at the contact zone, an assumption that critics have questioned in several field settings. Her reply was that the concentration gradient is steep enough to justify the assumption."
+    },
+    {
+      "label": "C",
+      "text": "Professor Tomas Ardelean disagreed with this emphasis. He contended that fungal hyphae penetrate microscopic fissures and gradually widen them through turgor-driven expansion and repeated cycles of wetting and drying. On his reading, mechanical fragmentation is the principal driver during the early stages, and chemical dissolution becomes significant only once fine particles have accumulated. Ardelean supported this position with field photographs and micro-tomographic scans, which he considered more convincing than bulk chemical assays that could not separate lichen-derived acids from background leaching. Ardelean's position thus implies that the early stages of pedogenesis are largely physical, a view that sits uneasily with the chemical emphasis of the previous account. He accepted that the two processes eventually interact."
+    },
+    {
+      "label": "D",
+      "text": "Dr Mirela Okonkwo focused instead on biological inputs. She observed that cyanobacterial partners within some lichen species fix atmospheric nitrogen, supplying a nutrient that is scarce on fresh rock. Okonkwo suggested that this nitrogen, rather than any weathering mechanism, determines which communities can establish themselves and how quickly organic layers accumulate. Her critics replied that nitrogen fixation rates vary so widely between sites that they cannot by themselves account for the broad regional patterns observed in the field. Her framework thus locates the origin of soil in biological supply rather than in the rock itself, a shift that some geologists found difficult to accept. She conceded that her data came from a limited number of sites."
+    },
+    {
+      "label": "E",
+      "text": "Professor Idris Lang proposed a synthesis intended to reconcile these positions. He argued that the relative importance of weathering and fixation depends on climate, so a single universal model is unlikely to succeed. In humid temperate regions, Lang believed, chemical processes and nutrient supply dominate, whereas in arid zones mechanical fracture matters more because moisture is rarely sufficient for sustained solution. His framework has been criticised for its flexibility, yet supporters note that it accommodates contradictory field observations without invoking ad hoc exceptions. Lang's approach has the merit of recognising that the same organism may behave differently under contrasting environmental conditions. Critics nonetheless argue that a framework able to accommodate every observation may explain very little."
+    },
+    {
+      "label": "F",
+      "text": "The debate has produced a more nuanced picture of pedogenesis than existed a generation ago. Few researchers now claim that any single mechanism explains the emergence of soil on bare rock. Instead, attention has turned to how interactions among weathering, nutrient input and community succession vary across landscapes. Future progress will require longitudinal monitoring of sites where pioneering communities can be tracked from first colonisation, an undertaking that is expensive, slow and therefore rarely attempted with the rigour it deserves. Few of the studies that have followed this path have yet produced results that the wider community regards as conclusive. The field remains divided on which sites are most informative."
+    },
+    {
+      "label": "G",
+      "text": "A further complication concerns measurement. Bulk chemical assays, which dominated the early literature, average over millimetres of rock and therefore blur the microscale contacts where dissolution is supposed to occur. Newer techniques, including synchrotron X-ray mapping and isotopic tracing of carbon and nitrogen, allow researchers to link particular hyphal structures to specific mineral changes. One study of granite outcrops in Scandinavia found that roughly a third of the calcium previously attributed to lichen acids had in fact been released by rainwater alone. If such findings are widely replicated, the apparent role of biological acids will shrink considerably. These refinements do not resolve the dispute, but they make it clear that earlier estimates of lichen-driven weathering may have been exaggerated. Several researchers now argue that the field should revisit its most cited figures before drawing broader conclusions."
+    }
+  ]
+}

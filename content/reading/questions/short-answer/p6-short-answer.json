@@ -1,0 +1,73 @@
+{
+  "id": "p6-short-answer",
+  "type": "short-answer",
+  "passageId": "p6",
+  "instructions": "Answer the questions. Write NO MORE THAN THREE WORDS from the passage for each answer.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "What do supporters say recycling glass conserves?",
+      "answer": "raw materials",
+      "wordLimit": 3,
+      "evidence": {
+        "paragraph": "A",
+        "quote": "recycling glass conserves raw materials such as sand"
+      },
+      "step": 2,
+      "how": "Find the paragraph presenting the case for recycling and locate the phrase supporters argue. The question asks for the object of a verb, so note the general category before any examples.",
+      "again": "Make sure you give the category rather than one of its examples such as sand or soda ash. The trap is naming sand, which is in the same list, when the question asks for the broader term."
+    },
+    {
+      "id": "q2",
+      "prompt": "What do some councils ask residents to do with their containers?",
+      "answer": "rinse their containers",
+      "wordLimit": 3,
+      "evidence": {
+        "paragraph": "B",
+        "quote": "some councils ask residents to rinse their containers"
+      },
+      "step": 3,
+      "how": "Scan paragraph B for councils and identify the first action they request. Stop before any second request joined by a conjunction, and keep the response within three words.",
+      "again": "Check whether you included the lids request; the question asks for the first action only. The trap is the second instruction about lids, which is joined to the first by and, so stop at the verb phrase."
+    },
+    {
+      "id": "q3",
+      "prompt": "What have some plants invested in?",
+      "answer": "electric furnaces",
+      "wordLimit": 3,
+      "evidence": {
+        "paragraph": "D",
+        "quote": "Some plants have invested in electric furnaces that run on renewable power"
+      },
+      "step": 4,
+      "how": "Search paragraph D for the verb invested and identify its object. Stop before the relative clause describing the source of power, since that clause describes rather than names the object.",
+      "again": "Test whether renewable power would be accepted; it describes the furnaces, not the investment. The trap is the description run on renewable power, which appears in the same clause but is not the thing invested in."
+    },
+    {
+      "id": "q4",
+      "prompt": "Which costs are described as a large share of the total?",
+      "answer": "collection and transport",
+      "wordLimit": 3,
+      "evidence": {
+        "paragraph": "E",
+        "quote": "Collection and transport account for a large share of total costs"
+      },
+      "step": 4,
+      "how": "Scan paragraph E for the phrase large share and find its subject. Include every noun joined by a conjunction in that subject, and check that the response fits the word limit.",
+      "again": "Confirm that the answer names both items; giving only collection would be incomplete. The trap is the next sentence about the value of recovered glass, which talks about costs too but refers to a different factor."
+    },
+    {
+      "id": "q5",
+      "prompt": "Which facilities may find it harder to benefit from new sorting equipment?",
+      "answer": "small facilities",
+      "wordLimit": 3,
+      "evidence": {
+        "paragraph": "F",
+        "quote": "Whether the benefits will reach small facilities is less clear"
+      },
+      "step": 5,
+      "how": "Go to the final section of paragraph F about sorting technology and locate the words clear or unclear. The question asks for the group the statement is about, so find the noun it modifies.",
+      "again": "Check that the answer identifies facilities, not the equipment or the benefits. The trap is the cost clause about equipment being expensive, which explains the doubt but is not the group named."
+    }
+  ]
+}

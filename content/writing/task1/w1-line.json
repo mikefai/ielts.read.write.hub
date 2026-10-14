@@ -1,0 +1,155 @@
+{
+  "id": "w1-line",
+  "task": 1,
+  "title": "Museum visitors in Northport",
+  "prompt": "The line graph shows the number of annual visitors to three museums in the city of Northport between 2017 and 2022. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "chart": {
+    "kind": "line",
+    "title": "Annual visitors to three museums, Northport, 2017 to 2022",
+    "unit": "thousand visitors",
+    "labels": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "series": [
+      {
+        "name": "Art Gallery",
+        "values": [
+          90,
+          92,
+          95,
+          40,
+          70,
+          85
+        ]
+      },
+      {
+        "name": "Science Centre",
+        "values": [
+          60,
+          75,
+          88,
+          35,
+          80,
+          105
+        ]
+      },
+      {
+        "name": "Maritime Museum",
+        "values": [
+          50,
+          52,
+          55,
+          20,
+          35,
+          45
+        ]
+      }
+    ]
+  },
+  "model": {
+    "paragraphs": [
+      {
+        "name": "Introduction",
+        "sentences": [
+          {
+            "role": "paraphrase",
+            "text": "The line graph shows the number of annual visitors to three museums in Northport between 2017 and 2022.",
+            "why": "Paraphrases the graph prompt by changing the verb pattern only slightly while keeping facts unchanged. It meets Task Achievement by stating what, where and when, with no opinion, though its vocabulary range is deliberately modest."
+          }
+        ]
+      },
+      {
+        "name": "Overview",
+        "sentences": [
+          {
+            "role": "overview-main",
+            "text": "Overall, all three museums suffered a sharp fall in visitors in 2020 before recovering over the following two years.",
+            "why": "An overview that identifies the shared pattern across all three lines: \"sharp fall\" then \"recovering over the following two years\". The time-ordered structure and absence of numbers fulfils the key Task Achievement requirement."
+          },
+          {
+            "role": "overview-second",
+            "text": "The Science Centre overtook the Art Gallery in 2021 and ended the period as the most visited venue.",
+            "why": "The second overview point highlights the crossing of two lines. \"Overtook\" and \"ended the period as the most visited\" give a rank change and an endpoint, showing selection and comparison without detailed figures."
+          }
+        ]
+      },
+      {
+        "name": "Body 1",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "The Art Gallery attracted the most visitors from 2017 to 2020, peaking in 2019.",
+            "why": "Topic sentence for the first body: it names the museum, states its relative position in the early years and adds a \"peaking in 2019\" detail. The participle phrase gives Grammatical Range and clear Coherence."
+          },
+          {
+            "role": "key-figures",
+            "text": "Its attendance rose from 90 thousand in 2017 to 95 thousand in 2019 before falling to 40 thousand in 2020.",
+            "why": "Gives start, peak and trough in one flowing sentence. \"Rose from ... to ... before falling to\" is an accurate trend structure, and \"thousand\" is correctly used as the unit. It supports accuracy and lexical range."
+          },
+          {
+            "role": "comparison",
+            "text": "Whereas it recovered to 70 thousand in 2021, the Science Centre had already drawn ahead with 80 thousand visitors.",
+            "why": "Brings in a comparison between museums at a single point. \"Whereas\" sets up the contrast, and \"had already drawn ahead\" uses the past perfect to show that the Science Centre was ahead earlier, earning Grammatical Range."
+          },
+          {
+            "role": "trend-detail",
+            "text": "Attendance at the Art Gallery then climbed steadily, reaching 85 thousand by 2022.",
+            "why": "Completes the Art Gallery story in time order. \"Then climbed steadily\" gives the shape of the recovery, \"reaching\" gives the end value, and the participle avoids repeating \"and it reached\". Good control of trend language."
+          }
+        ]
+      },
+      {
+        "name": "Body 2",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "The Science Centre showed the most dramatic recovery after 2020.",
+            "why": "A topic sentence evaluating the Science Centre: \"most dramatic recovery\" is a clear selection of what matters most. It signals the focus of the paragraph and makes the report comparative, supporting Coherence."
+          },
+          {
+            "role": "key-figures",
+            "text": "Its visitor numbers dropped to 35 thousand in 2020 and then climbed to 105 thousand by 2022, the highest figure on the graph.",
+            "why": "Packs a trough and an endpoint into one sentence with \"dropped to ... and then climbed to\". The apposition \"the highest figure on the graph\" ranks the data and links back to the overview, earning accuracy and cohesion."
+          },
+          {
+            "role": "comparison",
+            "text": "Meanwhile, the Maritime Museum remained the least visited venue in every year, although it too recovered from 20 thousand to 45 thousand.",
+            "why": "A comparison sentence that closes the report. \"Meanwhile\" shifts to the third museum, \"least visited in every year\" generalises the data, and \"although\" adds the recovery figures, giving range of structure."
+          }
+        ]
+      }
+    ]
+  },
+  "guide": "task1-chart",
+  "analysis": [
+    "The instruction is \"Summarise the information by selecting and reporting the main features, and make comparisons where relevant\". With three lines and six years, you must compare the museums, not narrate each year.",
+    "What must be covered: the pattern of each museum from 2017 to 2022, the common dip in 2020, the recovery, and the change in rank between the Art Gallery and the Science Centre.",
+    "Paraphrase: \"line graph shows\" becomes illustrates; \"number of annual visitors\" becomes yearly attendance or visitor numbers; \"three museums\" becomes three venues; \"between 2017 and 2022\" becomes over the six-year period.",
+    "Key features: all three fell in 2020 (Art Gallery 95 to 40, Science Centre 88 to 35, Maritime 55 to 20); the Science Centre recovered fastest and finished highest at 105; the Maritime Museum was always the lowest.",
+    "Group by museum rank: the Art Gallery as the leader until 2020, then the Science Centre as the strongest recovery, with the Maritime Museum as a brief comparison at the end.",
+    "Do not explain the 2020 fall (for example the pandemic) because the graph does not say so, and do not predict visitors after 2022."
+  ],
+  "plan": [
+    {
+      "paragraph": "Introduction",
+      "idea": "Paraphrase: the line graph illustrates the number of yearly visitors to three Northport museums from 2017 to 2022. No data."
+    },
+    {
+      "paragraph": "Overview",
+      "idea": "All three museums fell sharply in 2020 and then recovered. The Science Centre overtook the Art Gallery in 2021 and finished as the most visited."
+    },
+    {
+      "paragraph": "Body 1",
+      "idea": "Art Gallery: highest 2017 to 2020, 90 to 95 thousand, drop to 40 in 2020, recovery to 70 then 85. Contrast with the Science Centre drawing ahead at 80 in 2021."
+    },
+    {
+      "paragraph": "Body 2",
+      "idea": "Science Centre: 35 in 2020 to 105 in 2022, the highest on the graph. Maritime Museum lowest throughout, 20 to 45 thousand."
+    }
+  ]
+}

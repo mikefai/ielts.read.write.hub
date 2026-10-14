@@ -1,0 +1,80 @@
+{
+  "id": "p7-ynng",
+  "type": "ynng",
+  "passageId": "p7",
+  "instructions": "Do the following statements reflect the claims of the writer? Write YES, NO or NOT GIVEN.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "The author thinks the advantages of limiting car use exceed the downsides.",
+      "answer": "YES",
+      "evidence": {
+        "paragraph": "A",
+        "quote": "argue that the benefits of restriction outweigh its costs"
+      },
+      "step": 3,
+      "how": "Find the first-person sentence in paragraph A where the writer states a judgement about the policy. Match the statement's wording to the author's verb and noun pairs, and check any condition attached.",
+      "again": "Check the qualifier provided the policy is designed with care, which the writer attaches. The trap is that the statement drops this condition, but the claim is still the writer's own, so YES holds."
+    },
+    {
+      "id": "q2",
+      "prompt": "Voluntary schemes typically produce pollution cuts equal to those of legally binding restrictions.",
+      "answer": "NO",
+      "evidence": {
+        "paragraph": "B",
+        "quote": "voluntary schemes have rarely produced comparable results"
+      },
+      "step": 4,
+      "how": "Scan paragraph B for voluntary schemes and read the sentence comparing them with other measures. Test the general word in the statement against the frequency word the author uses.",
+      "again": "Test whether the writer says the schemes never work or only that they rarely match; the author gives rarely, which contradicts typically. The trap is the phrase it seems unlikely, a hedge that shows the writer's confidence in the contrast."
+    },
+    {
+      "id": "q3",
+      "prompt": "The writer considers the belief that closures damage shops to be mostly inaccurate.",
+      "answer": "YES",
+      "evidence": {
+        "paragraph": "C",
+        "quote": "The claim that pedestrianisation harms shops is, in my view, largely mistaken"
+      },
+      "step": 4,
+      "how": "Read the opening sentence of paragraph C, where the writer gives a personal opinion about shops. Check whether the belief in the statement is the one the writer holds or one that others held.",
+      "again": "Confirm that the writer's view applies to the claim, not to the shopkeepers who held it. The trap is the phrase early studies, which describes the shopkeepers' fears and might look like the writer's own position."
+    },
+    {
+      "id": "q4",
+      "prompt": "Schemes can safely disregard concerns raised by residents with limited mobility.",
+      "answer": "NO",
+      "evidence": {
+        "paragraph": "D",
+        "quote": "any scheme that ignores it deserves criticism"
+      },
+      "step": 4,
+      "how": "Find the objection about people who cannot walk in paragraph D and read the writer's evaluation of it. Decide whether the statement's claim about ignoring concerns fits that evaluation.",
+      "again": "Test whether the writer says the schemes should or should not disregard; the writer says ignoring the objection deserves criticism. The trap is the later clause about exemptions, which is a remedy, not a licence to ignore."
+    },
+    {
+      "id": "q5",
+      "prompt": "Most drivers who enter historic centres do so for shopping.",
+      "answer": "NOT GIVEN",
+      "evidence": {
+        "paragraph": "E",
+        "quote": "Driving through a dense historic centre imposes costs on everyone else"
+      },
+      "step": 5,
+      "how": "Scan paragraph E for drivers and centres and list everything the writer says about drivers. Check whether the motive in the statement is discussed, since the paragraph focuses on another aspect of driving.",
+      "again": "Test the statement against the paragraph's main focus on costs; a purpose claim is not addressed. The trap is that the statement is about drivers entering centres, a topic the paragraph does discuss, so it looks covered when the motive is absent."
+    },
+    {
+      "id": "q6",
+      "prompt": "Electric buses are cheaper to run than diesel buses.",
+      "answer": "NOT GIVEN",
+      "evidence": {
+        "paragraph": "F",
+        "quote": "A scheme that offers reliable buses, cycle routes and loading windows"
+      },
+      "step": 5,
+      "how": "Find the paragraph listing alternatives to closure and identify the transport options it names. Check whether any running cost is compared, since naming a vehicle type alone is not a comparison.",
+      "again": "Note that the paragraph mentions reliable buses but not the fuel or power used, so the comparison is absent. The trap is a plausible technical claim about transport that is close to the text's list but was never addressed by the writer."
+    }
+  ]
+}

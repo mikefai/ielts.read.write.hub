@@ -1,0 +1,124 @@
+{
+  "id": "w1-process",
+  "task": 1,
+  "title": "Making recycled paper",
+  "prompt": "The diagram illustrates the stages involved in producing recycled paper at a mill. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "chart": {
+    "kind": "process",
+    "title": "Stages in producing recycled paper at a mill",
+    "stages": [
+      "Waste paper is collected and sorted by grade.",
+      "The paper is mixed with water and chemicals to form a pulp.",
+      "Ink and other contaminants are removed through screening and flotation.",
+      "The pulp is spread across a moving mesh to form a continuous sheet.",
+      "The sheet passes over heated rollers, which dry it.",
+      "The finished paper is wound onto reels and dispatched."
+    ]
+  },
+  "model": {
+    "paragraphs": [
+      {
+        "name": "Introduction",
+        "sentences": [
+          {
+            "role": "paraphrase",
+            "text": "The diagram illustrates the six stages involved in producing recycled paper at a mill, from the collection of waste to the dispatch of the finished product.",
+            "why": "Paraphrases the diagram title and adds the number of stages and the start and end points. \"From ... to ...\" previews the whole process, earning Task Achievement and showing lexical flexibility with \"dispatch of the finished product\"."
+          }
+        ]
+      },
+      {
+        "name": "Overview",
+        "sentences": [
+          {
+            "role": "overview-main",
+            "text": "Overall, the process is linear, beginning with the collection of waste paper and ending with the dispatch of finished reels.",
+            "why": "The first overview sentence names the shape of the process (\"linear\") and its start and end points. It gives the reader the whole picture before details, which is the key Task Achievement requirement for a process."
+          },
+          {
+            "role": "overview-second",
+            "text": "The first three stages concern the preparation of the waste, whereas the final three focus on forming and drying the sheet.",
+            "why": "The second overview sentence divides the process into two phases using \"whereas\", with \"first three\" and \"final three\" for accuracy. This grouping gives Coherence and helps the body paragraphs follow a clear organisation."
+          }
+        ]
+      },
+      {
+        "name": "Body 1",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "The early stages are concerned with cleaning the material before it is turned into pulp.",
+            "why": "A topic sentence for the first phase that states its purpose in a passive-adjacent structure, \"are concerned with cleaning\". It frames the next sentences, earning Coherence and using the abstract noun \"material\" accurately."
+          },
+          {
+            "role": "key-figures",
+            "text": "Waste paper is first sorted by grade, then mixed with water and chemicals to form a pulp.",
+            "why": "Describes the first two stages in order with \"first\" and \"then\" as sequencing words. The passive \"is sorted\" and \"mixed\" is correct, and \"to form a pulp\" expresses purpose, giving Grammatical Range."
+          },
+          {
+            "role": "comparison",
+            "text": "Whereas the first two stages prepare the raw material, the third stage removes ink and other contaminants.",
+            "why": "Contrasts the function of the first two stages with the third using \"Whereas\". It adds interpretation (preparing raw material versus removing contaminants) rather than only listing, which improves Coherence and range."
+          },
+          {
+            "role": "trend-detail",
+            "text": "Screening and flotation are used to take out the ink, which is essential for producing clean paper.",
+            "why": "Explains the method (screening and flotation) and its purpose in a relative clause, \"which is essential for producing clean paper\". The detail shows accurate use of the diagram label and the relative clause shows range."
+          }
+        ]
+      },
+      {
+        "name": "Body 2",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "The latter stages transform the pulp into a finished product.",
+            "why": "A topic sentence for the second phase: \"transform the pulp into a finished product\" summarises what the stages achieve. It links to the overview and uses a strong verb, supporting Lexical Resource and cohesion."
+          },
+          {
+            "role": "key-figures",
+            "text": "The pulp is spread across a moving mesh to form a continuous sheet, which is then dried on heated rollers.",
+            "why": "Joins stages four and five in one sentence with a relative clause and the passive: \"which is then dried\". \"Continuous sheet\" and \"moving mesh\" reuse diagram vocabulary accurately, supporting Task Achievement and Grammatical Range."
+          },
+          {
+            "role": "comparison",
+            "text": "While the mesh stage shapes the paper, the drying stage fixes its final form.",
+            "why": "Compares the roles of two stages using \"While\", one shaping and one fixing. This goes beyond listing and satisfies the instruction to make comparisons, showing a precise understanding of the process and range of structure."
+          },
+          {
+            "role": "closing-detail",
+            "text": "Finally, the paper is wound onto reels and dispatched to customers.",
+            "why": "The final stage uses \"Finally\" as a sequencing marker and two passive verbs joined by \"and\". It closes the process clearly at the end point, completing Task Achievement and rounding off the report without a conclusion."
+          }
+        ]
+      }
+    ]
+  },
+  "guide": "task1-process",
+  "analysis": [
+    "The instruction is \"Summarise the information by selecting and reporting the main features, and make comparisons where relevant\". For a process, this means describing every stage in order, grouped into phases, and comparing the roles of stages.",
+    "What must be covered: all six stages in the correct order, the start and end points, and the purpose of each phase. Leaving out screening or drying would be a Task Achievement error.",
+    "Paraphrase: \"diagram illustrates\" can stay as shows or outlines; \"stages involved in producing\" becomes steps in the manufacture of; \"recycled paper at a mill\" becomes paper made from waste at a mill.",
+    "Overview features: the process is linear and one-directional, runs from waste collection to dispatch of reels, and splits into preparation (stages 1 to 3) and forming and finishing (stages 4 to 6).",
+    "Use the passive voice almost throughout because machines and materials are the focus, and vary sequencing words (first, then, once, followed by, finally).",
+    "Do not add information such as why recycling matters or what happens to the paper after dispatch. The question asks only about the process shown."
+  ],
+  "plan": [
+    {
+      "paragraph": "Introduction",
+      "idea": "Paraphrase: the diagram outlines six stages in making recycled paper at a mill, from collecting waste to dispatching the finished product."
+    },
+    {
+      "paragraph": "Overview",
+      "idea": "The process is linear, starting with waste paper collection and ending with dispatch of reels. First three stages prepare the waste, last three form and dry the sheet."
+    },
+    {
+      "paragraph": "Body 1",
+      "idea": "Stages 1 to 3: sort by grade, mix with water and chemicals into pulp, then remove ink and contaminants by screening and flotation."
+    },
+    {
+      "paragraph": "Body 2",
+      "idea": "Stages 4 to 6: pulp spread onto moving mesh to form a sheet, dried on heated rollers, wound onto reels and dispatched."
+    }
+  ]
+}

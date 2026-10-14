@@ -1,0 +1,146 @@
+{
+  "id": "t1-summary-wordbank",
+  "type": "summary-wordbank",
+  "passageId": "t1-p3",
+  "instructions": "Complete the summary using the list of words, A-I, below.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "Rebuilding a historic structure obliges its sponsors to ____ one phase of its development as the authentic one.",
+      "answer": "select",
+      "options": [
+        "abandon",
+        "ancient",
+        "convenient",
+        "demolition",
+        "innocent",
+        "maintenance",
+        "select",
+        "sufficient",
+        "tidy"
+      ],
+      "evidence": {
+        "paragraph": "D",
+        "quote": "To rebuild it is to select one of these phases as the true building"
+      },
+      "step": 3,
+      "how": "Read the start of the second difficulty in paragraph D. Decide which kind of word the gap needs, a verb, and which action the writer says rebuilding requires of sponsors.",
+      "again": "Test each verb in the list by placing it in the sentence and checking it against the writer’s claim. A verb of leaving or discarding does not fit, because the sentence concerns choosing one phase as the true one."
+    },
+    {
+      "id": "q2",
+      "prompt": "That decision is seldom ____, since it usually favours the period considered most impressive or patriotic.",
+      "answer": "innocent",
+      "options": [
+        "abandon",
+        "ancient",
+        "convenient",
+        "demolition",
+        "innocent",
+        "maintenance",
+        "select",
+        "sufficient",
+        "tidy"
+      ],
+      "evidence": {
+        "paragraph": "D",
+        "quote": "The choice is rarely innocent"
+      },
+      "step": 3,
+      "how": "Find the short sentence after the description of how phases are chosen. Decide that the gap needs an adjective, then match the writer’s judgement about the choice with a word from the list.",
+      "again": "The adjective must fit seldom and agree with the claim that the choice favours certain periods. A word describing age does not describe a decision, and a noun cannot stand after the verb is."
+    },
+    {
+      "id": "q3",
+      "prompt": "The accumulated changes that made the building interesting are reduced to a single, ____ image.",
+      "answer": "tidy",
+      "options": [
+        "abandon",
+        "ancient",
+        "convenient",
+        "demolition",
+        "innocent",
+        "maintenance",
+        "select",
+        "sufficient",
+        "tidy"
+      ],
+      "evidence": {
+        "paragraph": "D",
+        "quote": "flattened into a single, tidy image"
+      },
+      "step": 3,
+      "how": "Locate the sentence about accumulated change in paragraph D. Decide the gap needs an adjective describing the image that results, and test the candidates for meaning as well as grammar.",
+      "again": "The adjective should contrast with the long accumulation of change. Check that a word meaning very old would conflict with the idea of a simplified, flattened result."
+    },
+    {
+      "id": "q4",
+      "prompt": "Spectacular rebuilding may deprive the routine ____ of surviving buildings of funds.",
+      "answer": "maintenance",
+      "options": [
+        "abandon",
+        "ancient",
+        "convenient",
+        "demolition",
+        "innocent",
+        "maintenance",
+        "select",
+        "sufficient",
+        "tidy"
+      ],
+      "evidence": {
+        "paragraph": "E",
+        "quote": "money withheld from the unglamorous maintenance of surviving buildings"
+      },
+      "step": 3,
+      "how": "Move to paragraph E and find the discussion of resources. The gap is preceded by an adjective and followed by of, so decide which noun from the list can be the object of deprive.",
+      "again": "Of the nouns in the list, one concerns destruction and cannot be funded as routine care. Read the second sentence of paragraph E to confirm which noun refers to looking after existing buildings."
+    },
+    {
+      "id": "q5",
+      "prompt": "Such projects can also be politically ____ for governments wishing to show continuity with a chosen past.",
+      "answer": "convenient",
+      "options": [
+        "abandon",
+        "ancient",
+        "convenient",
+        "demolition",
+        "innocent",
+        "maintenance",
+        "select",
+        "sufficient",
+        "tidy"
+      ],
+      "evidence": {
+        "paragraph": "E",
+        "quote": "Reconstruction projects also tend to be politically convenient"
+      },
+      "step": 3,
+      "how": "Read the sentence that opens the political point in paragraph E. The gap follows politically, so decide which adjective from the list describes how governments find such projects.",
+      "again": "Check meaning against the rest of the sentence about asserting continuity. An adjective meaning blameless fits the earlier gap in this summary and cannot be reused, so consider which remaining adjective suits governments’ purposes."
+    },
+    {
+      "id": "q6",
+      "prompt": "Economic benefits may be genuine without being ____ to justify restoration on their own.",
+      "answer": "sufficient",
+      "options": [
+        "abandon",
+        "ancient",
+        "convenient",
+        "demolition",
+        "innocent",
+        "maintenance",
+        "select",
+        "sufficient",
+        "tidy"
+      ],
+      "evidence": {
+        "paragraph": "E",
+        "quote": "may therefore be real without being sufficient"
+      },
+      "step": 3,
+      "how": "Find the last sentence of paragraph E, where the writer returns to the economic argument. The gap is followed by to, so decide which adjective from the list can take an infinitive.",
+      "again": "The writer concedes the benefits are real but denies they are enough. Check that your word expresses adequacy and that it was not already used for a different sentence in the summary."
+    }
+  ]
+}

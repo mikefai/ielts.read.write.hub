@@ -1,0 +1,56 @@
+{
+  "id": "t1-ynng",
+  "type": "ynng",
+  "passageId": "t1-p3",
+  "instructions": "Do the following statements agree with the views of the writer in the passage? Write YES if the statement agrees with the views of the writer, NO if the statement contradicts the views of the writer, or NOT GIVEN if it is impossible to say what the writer thinks about this.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "Modern surveying technology has made rebuilding a more appealing prospect.",
+      "answer": "YES",
+      "evidence": {
+        "paragraph": "A",
+        "quote": "it has been made far more attractive by digital survey techniques"
+      },
+      "step": 2,
+      "how": "Find the sentence in paragraph A that explains why the impulse has intensified. Underline technology and more appealing, and expect the writer’s own explanation to use synonyms for both.",
+      "again": "The writer states this as a fact, with no hedging, so the statement matches the writer’s view. Check that you matched surveying technology to digital survey techniques and appealing to attractive."
+    },
+    {
+      "id": "q2",
+      "prompt": "Most communities that lose a major building eventually decide to rebuild it.",
+      "answer": "NOT GIVEN",
+      "evidence": {
+        "paragraph": "B",
+        "quote": "rebuilding can be an act of collective recovery"
+      },
+      "step": 4,
+      "how": "Look in paragraph B for what the writer says about communities and loss. Underline most communities and eventually decide, and check whether the writer reports how often rebuilding actually happens.",
+      "again": "The writer describes why a community might feel injured and what rebuilding can mean, but never says how many communities go on to rebuild. A statement about frequency cannot be judged from a discussion of motives."
+    },
+    {
+      "id": "q3",
+      "prompt": "The writer considers the income that reconstruction generates enough to justify restoring a cathedral.",
+      "answer": "NO",
+      "evidence": {
+        "paragraph": "E",
+        "quote": "cannot, I think, be the whole case for restoring a cathedral"
+      },
+      "step": 4,
+      "how": "Find where the writer returns to the economic benefits in paragraph E. Underline income and enough to justify, and read the last sentence for the writer’s own judgement.",
+      "again": "The writer grants that the benefits are real but denies that they suffice, and explicitly says they cannot be the whole case. The statement attributes the opposite conclusion, so check the hedge I think before deciding."
+    },
+    {
+      "id": "q4",
+      "prompt": "The writer believes that restorers should avoid interventions which later generations would be unable to undo.",
+      "answer": "YES",
+      "evidence": {
+        "paragraph": "F",
+        "quote": "designed so that they could be removed by later generations who judge differently"
+      },
+      "step": 4,
+      "how": "Look at the recommendations the writer makes in paragraph F. Underline avoid and unable to undo, and expect the writer to express the same preference in positive terms, using a word such as removed.",
+      "again": "The writer proposes interventions that can be removed later, which is the same preference stated positively. Check that you recognised the negative wording in the statement as equivalent to the positive wording in the passage."
+    }
+  ]
+}

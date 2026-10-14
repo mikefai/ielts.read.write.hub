@@ -1,0 +1,80 @@
+{
+  "id": "p6-tfng",
+  "type": "tfng",
+  "passageId": "p6",
+  "instructions": "Do the following statements agree with the information in the passage? Write TRUE, FALSE or NOT GIVEN.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "Paper can be reprocessed indefinitely, whereas glass gradually deteriorates after a few cycles.",
+      "answer": "FALSE",
+      "evidence": {
+        "paragraph": "A",
+        "quote": "Unlike paper, whose fibres shorten each time it is reprocessed"
+      },
+      "step": 4,
+      "how": "Underline paper and glass, then find the comparison in paragraph A that contrasts them. Read both halves of the comparison, including the word unlike, and paraphrase each property before judging the statement.",
+      "again": "Check whether the text says glass has a limit at all; it does not. The trap is a reversed comparison: the statement gives paper the unlimited property that the text gives to glass."
+    },
+    {
+      "id": "q2",
+      "prompt": "Some residents throw glass away with ordinary rubbish because they are unclear about what is accepted.",
+      "answer": "TRUE",
+      "evidence": {
+        "paragraph": "B",
+        "quote": "Households often put glass into general waste because they are unsure"
+      },
+      "step": 2,
+      "how": "Scan paragraph B for residents, glass and rubbish, which the text paraphrases as households and general waste. Check the quantifier in the statement against the frequency word the author uses.",
+      "again": "If you doubt it, test whether the text says all residents or only some. The statement says some, which the word often supports. The trap is the word frequently in the same paragraph, which describes broken fragments, not glass in general."
+    },
+    {
+      "id": "q3",
+      "prompt": "Bottles are sorted by colour using air jets during the first stage.",
+      "answer": "FALSE",
+      "evidence": {
+        "paragraph": "C",
+        "quote": "In the first stage, collected bottles and jars are sorted by colour"
+      },
+      "step": 3,
+      "how": "Find the numbered stage list in paragraph C and identify the stage the statement describes. Then check which technique the text assigns to that stage, reading neighbouring stages carefully.",
+      "again": "Read the second stage carefully, since the air jets appear there along with magnets and screens. The trap is that the statement correctly names the sorting by colour but attaches the wrong method from a neighbouring stage."
+    },
+    {
+      "id": "q4",
+      "prompt": "Electric furnaces are cheaper to build than gas-fired ones.",
+      "answer": "NOT GIVEN",
+      "evidence": {
+        "paragraph": "D",
+        "quote": "Some plants have invested in electric furnaces that run on renewable power"
+      },
+      "step": 3,
+      "how": "Locate furnaces in paragraph D and note which properties the author discusses for electric furnaces. Ask whether the economic property in the statement is measured, compared or mentioned in that paragraph.",
+      "again": "Test the statement against the link the text makes between electric furnaces and carbon footprint; that is a different property. The trap is a plausible economic claim that sits close to the topic but which the author never compares."
+    },
+    {
+      "id": "q5",
+      "prompt": "In certain countries, deposit schemes recover more than nine in ten containers.",
+      "answer": "TRUE",
+      "evidence": {
+        "paragraph": "E",
+        "quote": "Such schemes achieve return rates above 90 per cent in some countries"
+      },
+      "step": 4,
+      "how": "Scan paragraph E for deposit schemes and convert the percentage in the statement into a figure you can compare. Note any qualifier in the original sentence and check that the statement covers it.",
+      "again": "Make sure the statement does not overclaim: the text says some countries, and the statement says certain countries, which is equivalent. The trap is the word above, which in the original means over ninety per cent, so nine in ten still counts as TRUE."
+    },
+    {
+      "id": "q6",
+      "prompt": "Glass recycling rates are highest in Scandinavia.",
+      "answer": "NOT GIVEN",
+      "evidence": {
+        "paragraph": "F",
+        "quote": "Pilot projects in two European cities have, however, shown"
+      },
+      "step": 4,
+      "how": "Search paragraph F for the country or region named in the statement, then look for any ranking or comparison of rates. Check whether the paragraph's examples are placed within a named geographic area.",
+      "again": "Compare the statement with the pilot cities mentioned; they are not identified as Scandinavian, so do not assume a link. The trap is a regional claim that is plausible for a European topic but which the text never supports or contradicts."
+    }
+  ]
+}

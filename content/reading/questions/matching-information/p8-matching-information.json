@@ -1,0 +1,134 @@
+{
+  "id": "p8-matching-information",
+  "type": "matching-information",
+  "passageId": "p8",
+  "instructions": "Which paragraph contains the following information? Write the correct letter, A-G. Some letters may be used more than once.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "a view that physical wedging by fungal filaments dominates the first phase of rock breakdown",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "answer": "C",
+      "evidence": {
+        "paragraph": "C",
+        "quote": "mechanical fragmentation is the principal driver during the early stages"
+      },
+      "step": 3,
+      "how": "Scan for the physical breakdown of rock by fungal threads, paraphrased as wedging and fragmentation. Identify which paragraph attributes this view to a named researcher and note the time qualifier early.",
+      "again": "Test paragraph B, which also involves fungal action, against the statement: B is about chemical dissolution, not physical breakdown. The trap is that both B and C discuss the same organism and the same rock, so only the mechanism decides."
+    },
+    {
+      "id": "q2",
+      "prompt": "an assertion that observable mineral changes can be detected in a matter of decades",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "answer": "B",
+      "evidence": {
+        "paragraph": "B",
+        "quote": "She maintained that the process is measurable within a few decades"
+      },
+      "step": 3,
+      "how": "Look for a timescale in the statement, then scan for expressions of time such as a few decades. Note whether the view is attributed to one researcher rather than presented as general.",
+      "again": "Check whether any other paragraph gives a timescale; if not, the claim belongs only to the researcher who maintained it. The trap is the word measurable, which appears in B, and a paragraph on experimental method may use similar wording about detection."
+    },
+    {
+      "id": "q3",
+      "prompt": "bacterial symbionts that capture airborne nitrogen within certain lichens",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "answer": "D",
+      "evidence": {
+        "paragraph": "D",
+        "quote": "She observed that cyanobacterial partners within some lichen species fix atmospheric nitrogen"
+      },
+      "step": 4,
+      "how": "Find the paragraph mentioning nitrogen and organisms living in lichens, paraphrased as bacterial symbionts. Identify whether the passage presents the claim or a response to it.",
+      "again": "Test whether nitrogen appears in another paragraph as a nutrient argument; it appears in D and is also mentioned in critics' replies. The trap is the nitrogen argument in paragraph D, which the critics rebut, so check whether the statement describes the claim or the rebuttal."
+    },
+    {
+      "id": "q4",
+      "prompt": "a framework in which the role of each process varies with regional weather",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "answer": "E",
+      "evidence": {
+        "paragraph": "E",
+        "quote": "He argued that the relative importance of weathering and fixation depends on climate"
+      },
+      "step": 4,
+      "how": "Scan for a model linking the importance of processes to regional conditions, expressed as local weather. Check which paragraph names a synthesis proposed by a professor.",
+      "again": "Check paragraph F, which says no single mechanism explains soil formation, since it could be mistaken for a synthesis. The trap is that F describes the general state of the debate, while E names a specific framework that makes the role depend on climate."
+    },
+    {
+      "id": "q5",
+      "prompt": "a remark that long-term tracking of new colonies is seldom carried out",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "answer": "F",
+      "evidence": {
+        "paragraph": "F",
+        "quote": "Future progress will require longitudinal monitoring of sites"
+      },
+      "step": 5,
+      "how": "Search the later paragraphs for comments on how often long-term research is carried out, paraphrased as seldom. Separate a remark about frequency from one about methods.",
+      "again": "Test paragraph G, which also discusses methods, against the statement: G is about measurement techniques, not about how often long-term studies are done. The trap is that G is the other methodological paragraph, so the word method may send you there incorrectly."
+    },
+    {
+      "id": "q6",
+      "prompt": "an account in which experimental plots showed less mineral material beneath vegetation than on bare comparison areas",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "answer": "B",
+      "evidence": {
+        "paragraph": "B",
+        "quote": "a consistent depletion of mineral surfaces beneath thalli"
+      },
+      "step": 4,
+      "how": "Scan for experiments with a comparison group, where vegetation is paraphrased and bare ground serves as the control. Locate the paragraph describing the measured loss of mineral material.",
+      "again": "Test paragraph G, which discusses bulk assays and rainwater, against the statement; G is about flaws in measurement, not about the plot comparison. The trap is that G also mentions mineral release, but its point is that rain caused some of the release."
+    }
+  ]
+}

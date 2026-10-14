@@ -1,0 +1,73 @@
+{
+  "id": "p6-diagram-labelling",
+  "type": "diagram-labelling",
+  "passageId": "p6",
+  "instructions": "Complete the labels in the process diagram. Write NO MORE THAN TWO WORDS from the passage for each answer.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "Stage 1: bottles and jars are sorted by ____",
+      "answer": "colour",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "C",
+        "quote": "In the first stage, collected bottles and jars are sorted by colour"
+      },
+      "step": 4,
+      "how": "Find the first stage in paragraph C and underline the verb describing how the bottles are handled. The label asks for a single noun naming the property used, so look past the reason clause that follows.",
+      "again": "Confirm that the sorting property is the one named in the stage, not the reason given afterwards. The trap is the reason clause about mixed cullet, which explains why sorting matters but names no property."
+    },
+    {
+      "id": "q2",
+      "prompt": "Stage 2: lids and labels are taken out with ____",
+      "answer": "magnets",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "C",
+        "quote": "are removed using magnets, air jets and screens"
+      },
+      "step": 4,
+      "how": "Locate the second stage in paragraph C and list the tools mentioned there. Match each tool to the items named in the label, then choose the tool that the label's items are taken out with.",
+      "again": "Check the list order: magnets, air jets and screens are all methods, but only one is linked by the author to metal items. The trap is choosing air jets because they are listed second and the diagram label asks for the first tool."
+    },
+    {
+      "id": "q3",
+      "prompt": "Stage 3: glass is broken into fragments called ____",
+      "answer": "cullet",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "C",
+        "quote": "in which clean glass is broken into small fragments known as cullet"
+      },
+      "step": 3,
+      "how": "Scan paragraph C for the third stage, which describes crushing, and find the term introduced with a defining phrase. The label asks for the name rather than the description, so read the definition closely.",
+      "again": "The term is defined in the sentence itself, so test any other noun by asking whether the text calls it fragments. The trap is the word fragments, which appears in the sentence but is only the description, not the name."
+    },
+    {
+      "id": "q4",
+      "prompt": "Stage 4: broken glass is melted in a ____",
+      "answer": "furnace",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "C",
+        "quote": "when the cullet is heated in a furnace to roughly 1,500 degrees Celsius"
+      },
+      "step": 4,
+      "how": "Go to the fourth stage in paragraph C and identify the vessel where heating takes place. Copy the noun exactly and ignore any numerical detail placed in the same clause.",
+      "again": "Verify that the noun is the vessel, not the temperature given after it. The trap is the number 1,500 degrees, which is in the same sentence and could be mistakenly entered as the answer."
+    },
+    {
+      "id": "q5",
+      "prompt": "Stage 5: the molten glass is poured into ____",
+      "answer": "moulds",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "C",
+        "quote": "Finally, the molten material is poured into moulds and cooled"
+      },
+      "step": 5,
+      "how": "Read the final sentence of paragraph C and find the receiving shape for the poured material. Use the word finally to locate it, and do not take the verb describing what follows.",
+      "again": "Check that the answer is the receiving shape, not the cooling step that follows. The trap is the verb cooled, which is in the same sentence and describes what happens after pouring rather than where the glass goes."
+    }
+  ]
+}

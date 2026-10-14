@@ -1,0 +1,80 @@
+{
+  "id": "t1-tfng",
+  "type": "tfng",
+  "passageId": "t1-p1",
+  "instructions": "Do the following statements agree with the information given in the passage? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "European dyers began using indigo because woad harvests had become unreliable.",
+      "answer": "NOT GIVEN",
+      "evidence": {
+        "paragraph": "A",
+        "quote": "Indigo was therefore valued not merely for its beauty but for its efficiency"
+      },
+      "step": 4,
+      "how": "Underline dyers, began using and the cause given in the statement, then read the end of paragraph A to see what reasons the writer actually offers for the new dye being adopted.",
+      "again": "The passage names beauty and efficiency as the attractions of the imported dye but says nothing about the condition of woad harvests. A plausible cause that the text never mentions cannot be confirmed or denied; do not supply it from general knowledge."
+    },
+    {
+      "id": "q2",
+      "prompt": "A number of woad cultivators lobbied officials to outlaw the foreign dye.",
+      "answer": "TRUE",
+      "evidence": {
+        "paragraph": "A",
+        "quote": "some of whom persuaded local authorities to prohibit the imported dye"
+      },
+      "step": 3,
+      "how": "Find what woad growers did when indigo reached northern ports. Underline cultivators, officials and outlaw, and expect each to be replaced by a synonym or a different grammatical form in the text.",
+      "again": "Match growers with cultivators, authorities with officials and prohibit with outlaw. The statement says a number, which fits some of them, so there is no conflict with the quantity. Accepting the synonyms is the whole task here."
+    },
+    {
+      "id": "q3",
+      "prompt": "Overseers regarded a cube that sank quickly in water as evidence of high quality.",
+      "answer": "FALSE",
+      "evidence": {
+        "paragraph": "B",
+        "quote": "the lighter the cube, the purer the product was assumed to be"
+      },
+      "step": 4,
+      "how": "Scan paragraph B for the quality test performed by overseers. Underline the behaviour in water and the quality judgement in the statement, then read precisely which behaviour the text links with purity.",
+      "again": "Compare sank with floated, and heavy with light. The text links purity with the cube that stays light, so the statement attaches the quality to the wrong behaviour. Reversed comparisons like this are a common source of FALSE items."
+    },
+    {
+      "id": "q4",
+      "prompt": "The Calloway employee who supervised the vat received higher pay than the weavers.",
+      "answer": "TRUE",
+      "evidence": {
+        "paragraph": "C",
+        "quote": "was paid half as much again as the weavers"
+      },
+      "step": 3,
+      "how": "Locate the Calloway ledger in paragraph C and find the sentence about the person responsible for the vat. Underline supervised and higher pay, and look for a ratio or comparison of wages in the text.",
+      "again": "Work out what half as much again means in terms of pay: more than the weavers received. Check that the person described as senior dyer is the same one the statement calls the supervisor of the vat."
+    },
+    {
+      "id": "q5",
+      "prompt": "European planters generally offered Indian tenant farmers comfortable financial terms for growing the crop.",
+      "answer": "FALSE",
+      "evidence": {
+        "paragraph": "D",
+        "quote": "usually on terms that left them chronically indebted"
+      },
+      "step": 4,
+      "how": "Find the sentence in paragraph D about tenant farmers and planters. Underline generally and comfortable financial terms, then read the phrase the writer uses to describe the terms on which the crop was grown.",
+      "again": "The writer states what the terms usually produced for the farmers. Comfortable terms and chronic debt cannot both describe the same arrangement, so one detail in the statement is directly at odds with the text."
+    },
+    {
+      "id": "q6",
+      "prompt": "The sukumo technique demands less labour than the vat method used on plantations.",
+      "answer": "NOT GIVEN",
+      "evidence": {
+        "paragraph": "G",
+        "quote": "a material made by composting indigo leaves for several months"
+      },
+      "step": 5,
+      "how": "Find sukumo in paragraph G and read what is said about how it is made. Underline less labour in the statement, then search both paragraph G and paragraph B for any comparison of the effort involved.",
+      "again": "Paragraph G describes the duration and nature of the composting but never compares the work involved with plantation methods. A comparison of effort that is never made cannot be judged, even if slow composting suggests it might be lighter."
+    }
+  ]
+}

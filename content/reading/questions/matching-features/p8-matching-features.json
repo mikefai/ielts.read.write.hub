@@ -1,0 +1,98 @@
+{
+  "id": "p8-matching-features",
+  "type": "matching-features",
+  "passageId": "p8",
+  "instructions": "Match each statement with the researcher who held that view. Some names may be used more than once.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "Fungal acids are the main agent that breaks down rock minerals.",
+      "options": [
+        "Dr Hanna Voss",
+        "Professor Tomas Ardelean",
+        "Dr Mirela Okonkwo",
+        "Professor Idris Lang"
+      ],
+      "answer": "Dr Hanna Voss",
+      "evidence": {
+        "paragraph": "B",
+        "quote": "oxalic acid secreted by the fungal partner dissolves minerals"
+      },
+      "step": 3,
+      "how": "Underline the central idea in the statement, then scan every paragraph that names a researcher and note how each one frames that idea.",
+      "again": "Test Ardelean's paragraph, which discusses acids, against the statement: he treats acids as significant only later and rejects their unique role. The trap is that acid is mentioned for two researchers, so only the claim about dominance and the first phase decides the match."
+    },
+    {
+      "id": "q2",
+      "prompt": "Physical penetration by fungal filaments dominates the first phase, with chemistry becoming important later.",
+      "options": [
+        "Dr Hanna Voss",
+        "Professor Tomas Ardelean",
+        "Dr Mirela Okonkwo",
+        "Professor Idris Lang"
+      ],
+      "answer": "Professor Tomas Ardelean",
+      "evidence": {
+        "paragraph": "C",
+        "quote": "mechanical fragmentation is the principal driver during the early stages"
+      },
+      "step": 3,
+      "how": "Mark the sequence or ranking the statement implies, then compare how each named researcher orders or weights the same factors.",
+      "again": "Check Voss's paragraph for the reverse sequence, since she emphasises chemistry as dominant and measurable early on. The trap is the phrase chemical dissolution, which appears in Voss's paragraph, tempting a chemical-first match that the statement rules out."
+    },
+    {
+      "id": "q3",
+      "prompt": "A shortage of usable nitrogen on bare stone decides which species can settle.",
+      "options": [
+        "Dr Hanna Voss",
+        "Professor Tomas Ardelean",
+        "Dr Mirela Okonkwo",
+        "Professor Idris Lang"
+      ],
+      "answer": "Dr Mirela Okonkwo",
+      "evidence": {
+        "paragraph": "D",
+        "quote": "this nitrogen, rather than any weathering mechanism, determines which communities can establish"
+      },
+      "step": 4,
+      "how": "Identify the key term in the statement and find each place the passage discusses it, noting which researcher is associated with each discussion.",
+      "again": "Test Lang's paragraph, which mentions nutrient supply in humid regions, against the statement; Lang makes nutrient supply climate-dependent rather than decisive. The trap is that Lang also discusses nutrient supply, so the word decides and the claim of universal determination must both match."
+    },
+    {
+      "id": "q4",
+      "prompt": "The relative weight of each process varies with the local climate.",
+      "options": [
+        "Dr Hanna Voss",
+        "Professor Tomas Ardelean",
+        "Dr Mirela Okonkwo",
+        "Professor Idris Lang"
+      ],
+      "answer": "Professor Idris Lang",
+      "evidence": {
+        "paragraph": "E",
+        "quote": "He argued that the relative importance of weathering and fixation depends on climate"
+      },
+      "step": 4,
+      "how": "Underline the claim and any strength words in it, then compare the strength of each researcher's position before matching.",
+      "again": "Check that no other researcher claims climate matters; the rest focus on a single mechanism. The trap is the phrase local climate, which the critics of the nitrogen view may mention in passing, so confirm whose claim it is."
+    },
+    {
+      "id": "q5",
+      "prompt": "Experiments by this scientist were small but found repeated mineral loss under lichen.",
+      "options": [
+        "Dr Hanna Voss",
+        "Professor Tomas Ardelean",
+        "Dr Mirela Okonkwo",
+        "Professor Idris Lang"
+      ],
+      "answer": "Dr Hanna Voss",
+      "evidence": {
+        "paragraph": "B",
+        "quote": "Her experiments were small, but they revealed a consistent depletion of mineral surfaces"
+      },
+      "step": 5,
+      "how": "Paraphrase the statement in your own words, then read each researcher's paragraph for a matching idea, ignoring names that appear only in passing.",
+      "again": "Test Ardelean's paragraph, which discusses field photographs and micro-tomographic scans rather than experiments, against the statement. The trap is that Ardelean criticises bulk assays, which might suggest he ran chemical experiments, but he did not."
+    }
+  ]
+}
