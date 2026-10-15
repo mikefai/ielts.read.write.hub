@@ -1,0 +1,724 @@
+{
+  "id": "s10",
+  "title": "Speaking Mock 10",
+  "part1": {
+    "topics": [
+      {
+        "name": "Shopping",
+        "questions": [
+          {
+            "q": "How often do you go shopping?",
+            "model": "Roughly once a week, usually at weekends. I tend to do a big grocery run on Saturday morning, and I only browse for clothes when something catches my eye. Honestly, I'd rather get in and out quickly than wander around the shopping centre for hours.",
+            "vocab": [
+              {
+                "word": "grocery run",
+                "band": 7,
+                "meaning": "a trip to buy food and household basics",
+                "example": "I do a quick grocery run every Thursday after work."
+              },
+              {
+                "word": "catches my eye",
+                "band": 7,
+                "meaning": "attracts my attention",
+                "example": "If a jacket catches my eye, I always check the price tag first."
+              },
+              {
+                "word": "get in and out",
+                "band": 7,
+                "meaning": "do something quickly and leave",
+                "example": "We tried to get in and out of the supermarket before the queues built up."
+              },
+              {
+                "word": "wander around",
+                "band": 7,
+                "meaning": "walk without a fixed plan",
+                "example": "Tourists love to wander around the old market on Sunday mornings."
+              }
+            ],
+            "phrases": [
+              "Roughly once a week, usually ...",
+              "I tend to ..., and I only ... when ...",
+              "Honestly, I'd rather ... than ..."
+            ]
+          },
+          {
+            "q": "Do you prefer shopping online or in shops?",
+            "model": "Online is hard to beat for everyday items, because I can compare prices in seconds. For clothes, though, I like to try things on in person, since sizes vary so much and sending parcels back is a real chore.",
+            "vocab": [
+              {
+                "word": "hard to beat",
+                "band": 8,
+                "meaning": "so good that nothing else is better",
+                "example": "For speed and choice, online shopping is hard to beat these days."
+              },
+              {
+                "word": "compare prices",
+                "band": 7,
+                "meaning": "look at how much different shops charge for the same thing",
+                "example": "I always compare prices on three websites before I buy a laptop."
+              },
+              {
+                "word": "try things on",
+                "band": 7,
+                "meaning": "wear clothes in a shop to check the fit",
+                "example": "It is a good idea to try things on before you pay."
+              },
+              {
+                "word": "a real chore",
+                "band": 8,
+                "meaning": "a boring job you have to do",
+                "example": "Queuing at the post office is a real chore on a Monday."
+              }
+            ],
+            "phrases": [
+              "... is hard to beat for ..., because I can ...",
+              "For ..., though, I like to ..., since ...",
+              "... is a real chore."
+            ]
+          },
+          {
+            "q": "Tell me about a shop you like going to.",
+            "model": "There's a small independent bookshop near my flat that I adore. It has a cosy atmosphere, and the owner always recommends hidden gems I'd never find myself. I pop in most Fridays, and I rarely leave empty-handed, which is dangerous for my bank balance.",
+            "vocab": [
+              {
+                "word": "cosy atmosphere",
+                "band": 7,
+                "meaning": "a warm, friendly and relaxed feeling in a place",
+                "example": "The café has a cosy atmosphere, especially when it rains outside."
+              },
+              {
+                "word": "hidden gems",
+                "band": 8,
+                "meaning": "wonderful things that few people know about",
+                "example": "The island is full of hidden gems that tourists never discover."
+              },
+              {
+                "word": "pop in",
+                "band": 7,
+                "meaning": "visit somewhere briefly",
+                "example": "I sometimes pop in to see my aunt on the way home."
+              },
+              {
+                "word": "leave empty-handed",
+                "band": 8,
+                "meaning": "go away without buying or getting anything",
+                "example": "It is hard to leave empty-handed when every stall is selling something tempting."
+              }
+            ],
+            "phrases": [
+              "There's a small ... near ... that I ...",
+              "It has a ..., and the owner always ...",
+              "I pop in most ..., and I rarely ..."
+            ]
+          },
+          {
+            "q": "Did you enjoy shopping when you were younger?",
+            "model": "Not really. As a teenager I found it a drag to tag along while my mother bought school uniforms. Nowadays I'm much keener, mainly because I earn my own money and can finally pick things that suit my taste, rather than whatever was on sale.",
+            "vocab": [
+              {
+                "word": "a drag",
+                "band": 8,
+                "meaning": "something boring and tiring",
+                "example": "Waiting two hours for the bus was a drag."
+              },
+              {
+                "word": "tag along",
+                "band": 8,
+                "meaning": "go with someone when you are not really needed",
+                "example": "My little brother always wants to tag along when I meet my friends."
+              },
+              {
+                "word": "suit my taste",
+                "band": 7,
+                "meaning": "match what I personally like",
+                "example": "Modern art galleries do not really suit my taste, I'm afraid."
+              },
+              {
+                "word": "on sale",
+                "band": 7,
+                "meaning": "being sold at a lower price than usual",
+                "example": "Winter coats are on sale at half price this weekend."
+              }
+            ],
+            "phrases": [
+              "Not really. As a teenager I found it ...",
+              "Nowadays I'm much keener, mainly because ...",
+              "... rather than whatever was ..."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Money",
+        "questions": [
+          {
+            "q": "Do you find it easy to save money?",
+            "model": "Not always, I'm afraid. I try to put aside a little every month, but small treats like coffee and snacks add up quickly. Setting up an automatic transfer has helped, because I can't spend what I never see in my account.",
+            "vocab": [
+              {
+                "word": "put aside",
+                "band": 7,
+                "meaning": "keep money separately for later",
+                "example": "She tries to put aside ten percent of her salary each month."
+              },
+              {
+                "word": "small treats",
+                "band": 7,
+                "meaning": "little things you buy to reward yourself",
+                "example": "Small treats like a cake on Friday keep me motivated."
+              },
+              {
+                "word": "add up",
+                "band": 7,
+                "meaning": "grow into a large total over time",
+                "example": "Those daily bus fares really add up by the end of the year."
+              },
+              {
+                "word": "automatic transfer",
+                "band": 8,
+                "meaning": "a regular payment into another account that happens by itself",
+                "example": "An automatic transfer moves my savings out of my account on payday."
+              }
+            ],
+            "phrases": [
+              "Not always, I'm afraid. I try to ..., but ...",
+              "... has helped, because I can't ...",
+              "Small ... add up quickly."
+            ]
+          },
+          {
+            "q": "What do you usually spend your money on?",
+            "model": "Mostly the essentials, like rent, bills and groceries, which swallow up around half my salary. Whatever is left goes on eating out with friends and the odd gadget. I'm trying to be more careful, but I do have a weakness for new trainers.",
+            "vocab": [
+              {
+                "word": "swallow up",
+                "band": 8,
+                "meaning": "use up a large amount of money or time",
+                "example": "Rent and travel swallow up most of my monthly income."
+              },
+              {
+                "word": "the essentials",
+                "band": 7,
+                "meaning": "the basic things you must pay for",
+                "example": "After paying for the essentials, there is very little left."
+              },
+              {
+                "word": "eating out",
+                "band": 7,
+                "meaning": "having meals in restaurants or cafés",
+                "example": "Eating out every night would ruin any student budget."
+              },
+              {
+                "word": "have a weakness for",
+                "band": 8,
+                "meaning": "find it hard to resist something",
+                "example": "I have a weakness for chocolate, especially the dark kind."
+              }
+            ],
+            "phrases": [
+              "Mostly the ..., like ..., which ...",
+              "Whatever is left goes on ...",
+              "I do have a weakness for ..."
+            ]
+          },
+          {
+            "q": "Did you receive pocket money as a child?",
+            "model": "Yes, a small amount every Sunday. My parents wanted me to learn the value of money, so I had to budget for any sweets or comics I wanted. I often blew it all in one go, but I soon learnt to make it last.",
+            "vocab": [
+              {
+                "word": "learn the value of money",
+                "band": 8,
+                "meaning": "understand how hard money is to earn and how to use it wisely",
+                "example": "Part-time jobs help teenagers learn the value of money."
+              },
+              {
+                "word": "budget for",
+                "band": 7,
+                "meaning": "plan how much money to spend on something",
+                "example": "We have to budget for a holiday every single year."
+              },
+              {
+                "word": "blew it all",
+                "band": 8,
+                "meaning": "spent all of it quickly and carelessly",
+                "example": "He got his bonus and blew it all on a weekend away."
+              },
+              {
+                "word": "make it last",
+                "band": 7,
+                "meaning": "use something carefully so it does not run out",
+                "example": "Her pay is small, so she has to make it last until Friday."
+              }
+            ],
+            "phrases": [
+              "Yes, a small amount every ...",
+              "My parents wanted me to ..., so I had to ...",
+              "I often ..., but I soon learnt to ..."
+            ]
+          },
+          {
+            "q": "Do you think young people today are good at managing money?",
+            "model": "Some are, but many struggle. Social media pushes them to keep up with the latest trends, and credit cards make it dangerously easy to live beyond their means. I think schools should teach basic budgeting, because it's a skill that pays off for life.",
+            "vocab": [
+              {
+                "word": "keep up with",
+                "band": 7,
+                "meaning": "stay at the same level as other people or things",
+                "example": "It is hard to keep up with friends who earn more than you."
+              },
+              {
+                "word": "latest trends",
+                "band": 7,
+                "meaning": "the newest popular styles or ideas",
+                "example": "Teenagers often spend a fortune on the latest trends."
+              },
+              {
+                "word": "live beyond their means",
+                "band": 8,
+                "meaning": "spend more money than you earn",
+                "example": "Many families live beyond their means and end up in debt."
+              },
+              {
+                "word": "pays off",
+                "band": 7,
+                "meaning": "brings a good result in the end",
+                "example": "Learning to save early really pays off later in life."
+              }
+            ],
+            "phrases": [
+              "Some are, but many struggle. ... pushes them to ...",
+              "... make it dangerously easy to ...",
+              "I think schools should ..., because it's a skill that ..."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Advertisements",
+        "questions": [
+          {
+            "q": "Do you pay attention to advertisements?",
+            "model": "Not much, to be honest. I tend to scroll straight past them or skip them as soon as the button appears. The only ones that grab my attention are witty, short videos with a clever twist, because they feel more like entertainment than a hard sell.",
+            "vocab": [
+              {
+                "word": "scroll straight past",
+                "band": 7,
+                "meaning": "move quickly down a screen without stopping to look",
+                "example": "Most people scroll straight past adverts on their phones."
+              },
+              {
+                "word": "grab my attention",
+                "band": 7,
+                "meaning": "make me notice and look at something",
+                "example": "A bright poster on the station wall grabbed my attention yesterday."
+              },
+              {
+                "word": "hard sell",
+                "band": 8,
+                "meaning": "an aggressive way of pushing someone to buy",
+                "example": "The salesman's hard sell made me leave the shop quickly."
+              },
+              {
+                "word": "witty",
+                "band": 8,
+                "meaning": "clever and amusing in a quick way",
+                "example": "Her witty replies made the whole interview enjoyable to watch."
+              }
+            ],
+            "phrases": [
+              "Not much, to be honest. I tend to ...",
+              "The only ones that ... are ..., because ...",
+              "They feel more like ... than a ..."
+            ]
+          },
+          {
+            "q": "What kinds of adverts do you see most often?",
+            "model": "Mostly online ones, I'd say. Sponsored posts from influencers pop up constantly on my feed, and personalised ads follow me around after I've searched for anything. It can feel slightly intrusive, as if my phone is listening to every word I say.",
+            "vocab": [
+              {
+                "word": "sponsored posts",
+                "band": 8,
+                "meaning": "social media content that a company has paid for",
+                "example": "Sponsored posts are often hard to tell apart from normal ones."
+              },
+              {
+                "word": "pop up",
+                "band": 7,
+                "meaning": "suddenly appear on a screen",
+                "example": "Annoying messages pop up whenever I open that website."
+              },
+              {
+                "word": "personalised ads",
+                "band": 8,
+                "meaning": "adverts chosen to match your own interests and searches",
+                "example": "Personalised ads always seem to know exactly what I want."
+              },
+              {
+                "word": "follow me around",
+                "band": 7,
+                "meaning": "appear everywhere I go online",
+                "example": "Shoes I looked at once now follow me around every website."
+              }
+            ],
+            "phrases": [
+              "Mostly ... ones, I'd say.",
+              "... pop up constantly on ..., and ... follow me around after ...",
+              "It can feel slightly ..., as if ..."
+            ]
+          },
+          {
+            "q": "Has an advert ever made you buy something?",
+            "model": "Yes, once. A sports brand released a moving advert about perseverance, and I got carried away and bought a pair of running shoes that same evening. They turned out to be overpriced, so it was an impulse buy I regretted.",
+            "vocab": [
+              {
+                "word": "carried away",
+                "band": 7,
+                "meaning": "so excited that you act without thinking",
+                "example": "I got carried away at the sale and bought three coats."
+              },
+              {
+                "word": "impulse buy",
+                "band": 8,
+                "meaning": "something bought suddenly without planning",
+                "example": "That expensive lamp was a pure impulse buy at the airport."
+              },
+              {
+                "word": "turned out to be",
+                "band": 7,
+                "meaning": "proved to be, after all",
+                "example": "The cheap hotel turned out to be wonderful and very quiet."
+              },
+              {
+                "word": "overpriced",
+                "band": 7,
+                "meaning": "costing more than it is really worth",
+                "example": "Cinema snacks are always overpriced, but everyone still buys them."
+              }
+            ],
+            "phrases": [
+              "Yes, once. A ... released a ..., and I got carried away and ...",
+              "They turned out to be ..., so it was ...",
+              "... I regretted."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "part2": {
+    "cue": {
+      "topic": "Describe something expensive that you bought",
+      "bullets": [
+        "what it was",
+        "when and where you bought it",
+        "why it was so expensive",
+        "and explain whether you think it was worth the money"
+      ],
+      "prepSeconds": 60,
+      "talkSeconds": 120
+    },
+    "model": "I'd like to talk about the most expensive thing I've ever bought, which is a professional camera. For years I'd been taking photos on my phone, but after my cousin Tomasz showed me his portraits, I was determined to get serious about photography. I bought it two summers ago from a specialist shop in the city centre, after I had saved up for almost eight months. It cost nearly three months' rent, so it was by far my biggest purchase. It's a state-of-the-art mirrorless model with a fast lens and brilliant low-light performance. The price was so high because you're paying for the sensor quality and the lens, rather than just the brand name. I'll admit I had to think twice before handing over my card, and for a couple of days afterwards I suffered from buyer's remorse, wondering whether I had been reckless. Money used to burn a hole in my pocket, so saving for months on end felt completely out of character. However, those doubts vanished as soon as I took the camera to the coast and captured the sunrise over the cliffs. Since then I've sold a few prints and covered part of the cost. Looking back, it has been worth every penny, because it turned a casual hobby into a real passion, and I now have a skill that will stay with me for life.",
+    "vocab": [
+      {
+        "word": "saved up for",
+        "band": 7,
+        "meaning": "kept money aside over time in order to buy something",
+        "example": "He saved up for two years before buying his first car."
+      },
+      {
+        "word": "state-of-the-art",
+        "band": 8,
+        "meaning": "using the newest and most advanced technology",
+        "example": "The new hospital has state-of-the-art equipment in every ward."
+      },
+      {
+        "word": "think twice",
+        "band": 7,
+        "meaning": "consider carefully before deciding",
+        "example": "You should think twice before lending money to a stranger."
+      },
+      {
+        "word": "buyer's remorse",
+        "band": 9,
+        "meaning": "regret you feel after spending money on something",
+        "example": "I felt buyer's remorse the moment I carried the sofa home."
+      },
+      {
+        "word": "burn a hole in my pocket",
+        "band": 9,
+        "meaning": "make me want to spend money immediately",
+        "example": "My first salary seemed to burn a hole in my pocket."
+      },
+      {
+        "word": "worth every penny",
+        "band": 8,
+        "meaning": "completely good value for the money spent",
+        "example": "The holiday was expensive, but worth every penny in the end."
+      }
+    ],
+    "phrases": [
+      "I'd like to talk about",
+      "after I had saved up for",
+      "I'll admit I had to",
+      "However, those doubts vanished as soon as",
+      "Looking back, it has been"
+    ],
+    "structure": [
+      "Introduce what you bought and why you wanted it",
+      "Say when and where you bought it",
+      "Explain why it was so expensive and how you paid for it",
+      "Describe how you felt before and after the purchase",
+      "Finish with whether it was worth the money and what you learned"
+    ],
+    "roundingOff": {
+      "q": "Do you think people spend too much money on things they do not need?",
+      "model": "Honestly, yes, many do. It's easy to get swept up in sales and end up with a cupboard full of things gathering dust. I try to ask myself whether I'll still use something in six months, and I'd rather save than splurge on gadgets.",
+      "vocab": [
+        {
+          "word": "swept up in",
+          "band": 8,
+          "meaning": "become so involved in something that you lose control",
+          "example": "Shoppers get swept up in the excitement of a big sale."
+        },
+        {
+          "word": "end up with",
+          "band": 7,
+          "meaning": "finally have something, often by accident",
+          "example": "We always end up with far too much food at festivals."
+        },
+        {
+          "word": "gathering dust",
+          "band": 8,
+          "meaning": "not being used for a long time",
+          "example": "My exercise bike has been gathering dust since February."
+        },
+        {
+          "word": "splurge on",
+          "band": 8,
+          "meaning": "spend a lot of money on something unnecessary",
+          "example": "She decided to splurge on a designer bag for her birthday."
+        }
+      ],
+      "phrases": [
+        "Honestly, yes, many do. It's easy to ...",
+        "I try to ask myself whether ...",
+        "I'd rather ... than ..."
+      ]
+    }
+  },
+  "part3": {
+    "theme": "Consumerism and advertising",
+    "questions": [
+      {
+        "q": "Why do people buy things they do not really need?",
+        "model": "I think a lot of it comes down to emotion rather than logic. Shopping gives people an instant buzz, and when everyone around them owns the latest gadget, they feel pressure to keep up appearances. Marketers exploit this by creating a sense of urgency with limited-time offers. In my view, we often confuse wants with needs, and only later realise that the thrill fades quickly. Learning to pause before paying could help people avoid a lot of unnecessary spending.",
+        "vocab": [
+          {
+            "word": "instant buzz",
+            "band": 8,
+            "meaning": "a quick feeling of excitement",
+            "example": "Winning the game gave the whole team an instant buzz."
+          },
+          {
+            "word": "keep up appearances",
+            "band": 8,
+            "meaning": "pretend to be wealthier or more successful than you are",
+            "example": "Some families overspend just to keep up appearances in the neighbourhood."
+          },
+          {
+            "word": "sense of urgency",
+            "band": 8,
+            "meaning": "a feeling that you must act immediately",
+            "example": "Countdown timers on websites create a sense of urgency."
+          },
+          {
+            "word": "limited-time offers",
+            "band": 7,
+            "meaning": "special deals that end after a short period",
+            "example": "Limited-time offers make shoppers panic and buy more than planned."
+          }
+        ],
+        "phrases": [
+          "I think a lot of it comes down to ... rather than ...",
+          "Marketers exploit this by ...",
+          "In my view, we often confuse ... with ..."
+        ]
+      },
+      {
+        "q": "To what extent does advertising influence what people buy?",
+        "model": "To a large extent, I'd say it shapes our choices, often without us noticing. Catchy slogans and celebrity endorsements build brand loyalty over many years, so people reach for familiar names automatically. That said, consumers are becoming savvier, and many now read reviews before purchasing. So advertising can plant an idea, but I believe the final decision still rests with the buyer, particularly when money is tight. Ultimately, smart shoppers weigh up the evidence rather than trusting a catchy tune.",
+        "vocab": [
+          {
+            "word": "celebrity endorsements",
+            "band": 8,
+            "meaning": "famous people publicly supporting a product",
+            "example": "Celebrity endorsements make even ordinary trainers seem special."
+          },
+          {
+            "word": "brand loyalty",
+            "band": 8,
+            "meaning": "the habit of always buying the same company's products",
+            "example": "Brand loyalty keeps customers returning even when prices rise."
+          },
+          {
+            "word": "plant an idea",
+            "band": 8,
+            "meaning": "cause someone to start thinking about something",
+            "example": "One short advert can plant an idea in a viewer's mind."
+          },
+          {
+            "word": "money is tight",
+            "band": 7,
+            "meaning": "there is very little money to spend",
+            "example": "When money is tight, people check every single price carefully."
+          }
+        ],
+        "phrases": [
+          "To a large extent, I'd say ..., often without ...",
+          "That said, consumers are becoming ..., and many now ...",
+          "So ... can ..., but I believe the final decision still rests with ..."
+        ]
+      },
+      {
+        "q": "Should advertising aimed at children be banned?",
+        "model": "Personally, I think there should be strict limits. Young children cannot tell the difference between entertainment and persuasion, so they end up pestering their parents for toys. Several countries already restrict junk food adverts during children's programmes, and the results have been encouraging. Of course, parents have a role to play as well, but regulation creates a level playing field and protects the most vulnerable viewers from aggressive marketing. In the long run, that protection would benefit families as well.",
+        "vocab": [
+          {
+            "word": "pestering their parents",
+            "band": 8,
+            "meaning": "repeatedly asking their parents for something until they give in",
+            "example": "Children keep pestering their parents for the newest games console."
+          },
+          {
+            "word": "level playing field",
+            "band": 8,
+            "meaning": "a fair situation where everyone has the same chance",
+            "example": "Rules on advertising create a level playing field for small businesses."
+          },
+          {
+            "word": "aggressive marketing",
+            "band": 8,
+            "meaning": "very forceful methods of selling a product",
+            "example": "Aggressive marketing of sugary drinks worries many doctors."
+          },
+          {
+            "word": "have a role to play",
+            "band": 7,
+            "meaning": "be partly responsible for dealing with something",
+            "example": "Teachers also have a role to play in explaining adverts."
+          }
+        ],
+        "phrases": [
+          "Personally, I think there should be ...",
+          "Several countries already ..., and the results have been ...",
+          "Of course, ... have a role to play as well, but ..."
+        ]
+      },
+      {
+        "q": "What might be the environmental consequences of a consumer culture?",
+        "model": "Quite serious ones, I'm afraid. A throwaway culture means that clothes, phones and furniture are discarded long before they wear out, and that fills landfill sites at an alarming rate. Producing all those goods also drains natural resources and increases carbon emissions. On a positive note, secondhand markets and repair cafés are gaining ground, which suggests that attitudes may be shifting towards more sustainable habits. Personally, I believe manufacturers should design longer-lasting products.",
+        "vocab": [
+          {
+            "word": "throwaway culture",
+            "band": 8,
+            "meaning": "a society that quickly discards things instead of repairing them",
+            "example": "A throwaway culture produces mountains of rubbish every single week."
+          },
+          {
+            "word": "at an alarming rate",
+            "band": 7,
+            "meaning": "so fast that it causes worry",
+            "example": "Plastic waste is piling up at an alarming rate in the oceans."
+          },
+          {
+            "word": "drains natural resources",
+            "band": 8,
+            "meaning": "uses up water, minerals and other supplies from nature",
+            "example": "Mass production drains natural resources faster than they can recover."
+          },
+          {
+            "word": "gaining ground",
+            "band": 8,
+            "meaning": "becoming more popular or accepted",
+            "example": "Electric cars are gaining ground in most European cities."
+          }
+        ],
+        "phrases": [
+          "Quite serious ones, I'm afraid. A ... means that ...",
+          "... also drains ... and increases ...",
+          "On a positive note, ... are gaining ground, which suggests that ..."
+        ]
+      },
+      {
+        "q": "How far do you agree that influencers are more persuasive than traditional adverts?",
+        "model": "I'd say influencers are more persuasive for younger audiences, mainly because they come across as relatable rather than polished. Viewers feel they know them personally, so a recommendation feels like advice from a friend. The downside is that sponsorship isn't always disclosed, which can mislead followers. Traditional adverts still reach older generations and build brand recognition, so both will coexist, although the balance is tilting towards online platforms. In my experience, trust is what ultimately decides who wins.",
+        "vocab": [
+          {
+            "word": "come across as",
+            "band": 7,
+            "meaning": "give a particular impression to other people",
+            "example": "He comes across as confident, even when he feels nervous."
+          },
+          {
+            "word": "mislead followers",
+            "band": 7,
+            "meaning": "give people a false idea",
+            "example": "Hidden payments can mislead followers about an honest opinion."
+          },
+          {
+            "word": "brand recognition",
+            "band": 8,
+            "meaning": "how easily people identify a company or its logo",
+            "example": "Constant television exposure builds brand recognition very quickly."
+          },
+          {
+            "word": "the balance is tilting",
+            "band": 8,
+            "meaning": "the situation is slowly changing in one direction",
+            "example": "In shopping, the balance is tilting from high streets to screens."
+          }
+        ],
+        "phrases": [
+          "I'd say ... are more persuasive for ..., mainly because they ...",
+          "The downside is that ..., which can ...",
+          "... will coexist, although the balance is tilting towards ..."
+        ]
+      },
+      {
+        "q": "Do you think people will buy less in the future?",
+        "model": "I'd like to think so, though I'm not convinced. Younger generations are more eco-conscious and prefer experiences to possessions, which could curb excessive spending. On the other hand, one-click payment and next-day delivery make buying so effortless that restraint is difficult. Unless governments encourage sustainable consumption through taxes or labelling, I suspect we will carry on shopping as much as ever. Time will tell, but I remain cautiously optimistic about the next generation.",
+        "vocab": [
+          {
+            "word": "eco-conscious",
+            "band": 8,
+            "meaning": "caring about protecting the environment",
+            "example": "Eco-conscious shoppers often choose products with less packaging."
+          },
+          {
+            "word": "curb excessive spending",
+            "band": 8,
+            "meaning": "limit spending that goes beyond what is reasonable",
+            "example": "Strict credit limits can help to curb excessive spending."
+          },
+          {
+            "word": "one-click payment",
+            "band": 7,
+            "meaning": "a way of buying that needs only a single press",
+            "example": "One-click payment tempts customers to buy without any reflection."
+          },
+          {
+            "word": "sustainable consumption",
+            "band": 9,
+            "meaning": "buying and using things in a way that protects the planet",
+            "example": "Schools should teach pupils about sustainable consumption from an early age."
+          }
+        ],
+        "phrases": [
+          "I'd like to think so, though I'm not convinced.",
+          "On the other hand, ... make buying so ... that ...",
+          "Unless governments ..., I suspect we will ..."
+        ]
+      }
+    ]
+  }
+}

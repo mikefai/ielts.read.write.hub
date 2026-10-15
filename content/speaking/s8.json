@@ -1,0 +1,319 @@
+{
+  "id": "s8",
+  "title": "Speaking Mock 8",
+  "part1": {
+    "topics": [
+      {
+        "name": "Exercise",
+        "questions": [
+          {
+            "q": "How often do you exercise?",
+            "model": "I try to work out three times a week, usually early in the morning before the city wakes up. I mostly go jogging along the river, and I often hit the gym on Saturdays. It keeps me in shape and clears my head before a long day.",
+            "vocab": [
+              { "word": "work out", "band": 7, "meaning": "do physical exercise to stay fit", "example": "My brother likes to work out at the gym before breakfast." },
+              { "word": "hit the gym", "band": 8, "meaning": "go to a gym to exercise", "example": "After a stressful week I like to hit the gym and burn off some energy." },
+              { "word": "in shape", "band": 7, "meaning": "physically fit and healthy", "example": "She runs every morning to stay in shape for the marathon." },
+              { "word": "clears my head", "band": 8, "meaning": "helps me think clearly and feel calmer", "example": "A long walk by the sea always clears my head after a difficult meeting." }
+            ],
+            "phrases": [
+              "I try to ... a few times a week, usually ...",
+              "I mostly ..., and I often ...",
+              "It keeps me ... and clears my head before ..."
+            ]
+          },
+          {
+            "q": "What sports or physical activities did you do at school?",
+            "model": "At school I was on the basketball team, and we trained twice a week after lessons. I wasn't the most talented player, but I made up for it with sheer enthusiasm. Team sports taught me to be a good sport and to cope with losing gracefully.",
+            "vocab": [
+              { "word": "made up for", "band": 7, "meaning": "balanced a weakness with something else", "example": "He made up for his lack of experience by working extremely hard." },
+              { "word": "sheer enthusiasm", "band": 8, "meaning": "nothing but strong, energetic excitement", "example": "The team won the match through sheer enthusiasm and teamwork." },
+              { "word": "a good sport", "band": 8, "meaning": "a person who accepts defeat or teasing cheerfully", "example": "Even after losing the final, she was a good sport and congratulated everyone." },
+              { "word": "cope with", "band": 7, "meaning": "deal successfully with a difficult situation", "example": "Young players must learn to cope with disappointment as well as success." }
+            ],
+            "phrases": [
+              "At school I was on the ... team, and we ...",
+              "I wasn't the most ... player, but I made up for it with ...",
+              "... taught me to ... and to cope with ..."
+            ]
+          },
+          {
+            "q": "Do you think it's easy for people to find time to exercise?",
+            "model": "Not really, especially for office workers who are tied to their desks all day. Many people end up too exhausted to do anything after work. Still, even a brisk walk at lunchtime is better than nothing, so I think it's mostly a question of priorities.",
+            "vocab": [
+              { "word": "tied to their desks", "band": 8, "meaning": "unable to leave the office because of constant work", "example": "Accountants are often tied to their desks during the tax season." },
+              { "word": "end up", "band": 7, "meaning": "finally be in a particular state or situation", "example": "If I skip lunch, I usually end up eating too many biscuits later." },
+              { "word": "brisk walk", "band": 7, "meaning": "a quick, energetic walk", "example": "A brisk walk around the block wakes me up better than coffee." },
+              { "word": "better than nothing", "band": 7, "meaning": "not ideal, but still worth doing", "example": "Ten minutes of stretching each morning is better than nothing at all." }
+            ],
+            "phrases": [
+              "Not really, especially for ... who are ...",
+              "Many people end up too ... to ...",
+              "Still, even ... is better than nothing, so I think it's mostly a question of ..."
+            ]
+          },
+          {
+            "q": "Is there a new sport you would like to try in the future?",
+            "model": "I've always fancied having a go at rock climbing. It looks like a fantastic full-body workout, and it demands real mental focus too. I'm hoping to sign up for a beginners' course next summer, as long as I can find a reasonably priced indoor wall nearby.",
+            "vocab": [
+              { "word": "having a go at", "band": 7, "meaning": "trying something for the first time", "example": "We plan on having a go at paddle boarding during our holiday." },
+              { "word": "full-body workout", "band": 8, "meaning": "exercise that uses most of the muscles in the body", "example": "Swimming is a full-body workout that is gentle on your knees." },
+              { "word": "mental focus", "band": 8, "meaning": "the ability to concentrate your mind on one thing", "example": "Chess requires a great deal of mental focus over several hours." },
+              { "word": "sign up for", "band": 7, "meaning": "officially join a course or activity", "example": "I'm going to sign up for a cooking class this autumn." }
+            ],
+            "phrases": [
+              "I've always fancied having a go at ...",
+              "It looks like a fantastic ..., and it demands real ... too.",
+              "I'm hoping to sign up for ... next ..., as long as ..."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Health",
+        "questions": [
+          {
+            "q": "What do you do to stay healthy?",
+            "model": "I try to get a good night's sleep and eat plenty of fresh fruit and vegetables. I also steer clear of fast food, apart from the odd treat at weekends. Staying hydrated is another habit of mine, so I always carry a water bottle around with me.",
+            "vocab": [
+              { "word": "get a good night's sleep", "band": 7, "meaning": "sleep well and for long enough", "example": "It is hard to focus at work if you can't get a good night's sleep." },
+              { "word": "steer clear of", "band": 8, "meaning": "deliberately avoid something harmful", "example": "My doctor advised me to steer clear of salty snacks." },
+              { "word": "the odd treat", "band": 8, "meaning": "an occasional small indulgence", "example": "Everyone deserves the odd treat, even when they are on a diet." },
+              { "word": "staying hydrated", "band": 7, "meaning": "drinking enough water to keep the body working well", "example": "Staying hydrated is vital when you exercise in hot weather." }
+            ],
+            "phrases": [
+              "I try to ... and eat plenty of ...",
+              "I also steer clear of ..., apart from the odd ...",
+              "... is another habit of mine, so I always ..."
+            ]
+          },
+          {
+            "q": "Have you ever been seriously ill or injured?",
+            "model": "Yes, I broke my ankle playing football two years ago. I was on crutches for six weeks, and it took ages to get back on my feet. The experience taught me not to take my health for granted, and I always warm up properly now.",
+            "vocab": [
+              { "word": "on crutches", "band": 7, "meaning": "walking with sticks that support an injured leg", "example": "He spent the whole school trip on crutches after twisting his knee." },
+              { "word": "get back on my feet", "band": 8, "meaning": "recover and return to normal life", "example": "It took her a few months to get back on her feet after the operation." },
+              { "word": "take my health for granted", "band": 8, "meaning": "forget how valuable good health is", "example": "Young people often take their health for granted until something goes wrong." },
+              { "word": "warm up", "band": 7, "meaning": "prepare your muscles with gentle exercise before sport", "example": "Always warm up for ten minutes before you start running." }
+            ],
+            "phrases": [
+              "Yes, I ... a couple of years ago.",
+              "It took ages to get back on my feet.",
+              "The experience taught me not to ..., and I always ... now."
+            ]
+          },
+          {
+            "q": "Do you think people in your country are healthier than they used to be?",
+            "model": "In some ways, yes. People are far more aware of the dangers of smoking, and gyms are springing up everywhere. On the flip side, long working hours and processed snacks mean many younger people lead a sedentary lifestyle, so I'd say the picture is mixed.",
+            "vocab": [
+              { "word": "springing up", "band": 8, "meaning": "appearing quickly in large numbers", "example": "New coffee shops are springing up on every corner of the high street." },
+              { "word": "on the flip side", "band": 8, "meaning": "looking at the opposite point of view", "example": "Fast delivery is great, but on the flip side, it creates a lot of packaging waste." },
+              { "word": "processed snacks", "band": 7, "meaning": "factory-made food that is often high in sugar or salt", "example": "Processed snacks are convenient but rarely contain much real nutrition." },
+              { "word": "sedentary lifestyle", "band": 9, "meaning": "a way of living with very little physical movement", "example": "A sedentary lifestyle can lead to back pain and heart problems." }
+            ],
+            "phrases": [
+              "In some ways, yes. People are far more aware of ...",
+              "On the flip side, ... mean many ...",
+              "... so I'd say the picture is mixed."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hobbies",
+        "questions": [
+          {
+            "q": "What do you like to do in your spare time?",
+            "model": "I'm quite into photography at the moment. At weekends I wander around the old quarter with my camera, looking for interesting street scenes. It's a great way to switch off from work, and I often lose track of time when I'm absorbed in it.",
+            "vocab": [
+              { "word": "quite into", "band": 7, "meaning": "fairly interested in or keen on something", "example": "My flatmate is quite into baking sourdough bread these days." },
+              { "word": "switch off", "band": 7, "meaning": "stop thinking about work or worries", "example": "I find it hard to switch off when I have an exam coming up." },
+              { "word": "lose track of time", "band": 8, "meaning": "become so absorbed that you forget how long has passed", "example": "I always lose track of time when I'm playing the guitar." },
+              { "word": "absorbed in", "band": 8, "meaning": "giving all your attention to something", "example": "The children were completely absorbed in their jigsaw puzzle." }
+            ],
+            "phrases": [
+              "I'm quite into ... at the moment.",
+              "At weekends I ..., looking for ...",
+              "It's a great way to switch off from ..., and I often lose track of time when ..."
+            ]
+          },
+          {
+            "q": "Did you have different hobbies when you were younger?",
+            "model": "Definitely. As a child I was crazy about collecting stamps, and I would spend hours sorting them into albums. Eventually I grew out of it once I discovered video games, though I still keep the collection in a drawer for sentimental reasons.",
+            "vocab": [
+              { "word": "crazy about", "band": 7, "meaning": "extremely enthusiastic about something", "example": "My little cousin is crazy about dinosaurs and trains." },
+              { "word": "spend hours", "band": 7, "meaning": "use a very long time doing something", "example": "I used to spend hours drawing cartoons in my notebook." },
+              { "word": "grew out of", "band": 8, "meaning": "stopped enjoying something as you became older", "example": "He grew out of his superhero phase around the age of twelve." },
+              { "word": "for sentimental reasons", "band": 8, "meaning": "because something has emotional value for you", "example": "She keeps her old school bag for sentimental reasons, not because it's useful." }
+            ],
+            "phrases": [
+              "Definitely. As a child I was crazy about ...",
+              "I would spend hours ...",
+              "Eventually I grew out of it once I ..., though I still ... for sentimental reasons."
+            ]
+          },
+          {
+            "q": "Would you like to take up a new hobby?",
+            "model": "Yes, I'd love to take up pottery. A colleague showed me her handmade bowls, and I was blown away by how elegant they were. I think working with clay would be a lovely way to unwind, and it would give me something to show for my free time.",
+            "vocab": [
+              { "word": "take up", "band": 7, "meaning": "start doing a new activity regularly", "example": "My uncle decided to take up golf after he retired." },
+              { "word": "blown away", "band": 8, "meaning": "extremely impressed by something", "example": "We were blown away by the quality of the street musicians in Prague." },
+              { "word": "unwind", "band": 7, "meaning": "relax after a period of work or tension", "example": "A hot bath is my favourite way to unwind on Friday evenings." },
+              { "word": "something to show for", "band": 9, "meaning": "a visible result that proves your time was well spent", "example": "After a year of lessons, I finally have something to show for my effort." }
+            ],
+            "phrases": [
+              "Yes, I'd love to take up ...",
+              "... showed me ..., and I was blown away by ...",
+              "It would be a lovely way to unwind, and it would give me something to show for ..."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "part2": {
+    "cue": {
+      "topic": "Describe a time when you were very busy",
+      "bullets": [
+        "when it was",
+        "what you had to do",
+        "why you were so busy",
+        "and explain how you felt about it afterwards"
+      ],
+      "prepSeconds": 60,
+      "talkSeconds": 120
+    },
+    "model": "I'd like to talk about the month before my final exams at university, which was easily the busiest period of my life. It happened last May, when I had a dissertation deadline, three exams and a part-time job at a café all at once. On top of that, I had agreed to help organise a charity fundraiser for our student society. My supervisor, Dr Hargreaves, warned me that I was spreading myself too thin, but I stubbornly believed I could handle everything. For weeks I was running around like a headless chicken, getting up at six and rarely getting to bed before one. I lived on coffee and cereal bars, and I barely saw my friends. The reason I was so swamped was partly my own fault, because I'd left the dissertation until the last minute. Eventually I drew up a strict timetable, turned my phone off while studying and learned to say no to extra shifts. That finally got me back on track. Looking back, it was exhausting but strangely satisfying. When I handed in the dissertation with an hour to spare, I felt a huge wave of relief, and the fundraiser raised more than we had expected. I was burnt out for a few days afterwards, but that experience taught me to plan ahead, and I haven't left anything to the last minute since.",
+    "vocab": [
+      { "word": "on top of that", "band": 7, "meaning": "in addition to what has already been mentioned", "example": "The flight was delayed, and on top of that, they lost my luggage." },
+      { "word": "spreading myself too thin", "band": 8, "meaning": "trying to do so many things that none is done well", "example": "She admitted she was spreading herself too thin by joining four clubs at once." },
+      { "word": "running around like a headless chicken", "band": 9, "meaning": "rushing about in a disorganised and panicked way", "example": "On the morning of the wedding we were all running around like headless chickens." },
+      { "word": "swamped", "band": 8, "meaning": "overwhelmed by having far too much to do", "example": "The help desk was swamped with calls after the website crashed." },
+      { "word": "back on track", "band": 7, "meaning": "progressing well again after a problem", "example": "A few quiet weeks helped the project get back on track." },
+      { "word": "burnt out", "band": 8, "meaning": "completely exhausted from working too hard for too long", "example": "Many nurses feel burnt out after years of night shifts." }
+    ],
+    "phrases": [
+      "I'd like to talk about",
+      "It happened when",
+      "On top of that,",
+      "Looking back,",
+      "that experience taught me to"
+    ],
+    "structure": [
+      "Introduce the busy period and when it happened",
+      "List the main tasks and commitments you had to manage",
+      "Explain why you ended up so busy (the cause)",
+      "Describe how you coped and what you changed",
+      "Finish with how you felt afterwards and what you learned"
+    ],
+    "roundingOff": {
+      "q": "Do you think young people today are busier than their parents were?",
+      "model": "I think so, yes. Young people juggle studies, part-time jobs and a constant stream of online messages, whereas my parents' generation could clock off once they got home. That said, my dad worked long hours, so I'd say we are simply busy in a different way.",
+      "vocab": [
+        { "word": "juggle", "band": 8, "meaning": "try to manage several different responsibilities at once", "example": "Many single parents juggle two jobs and childcare every day." },
+        { "word": "a constant stream of", "band": 8, "meaning": "a never-ending flow of something", "example": "The office receives a constant stream of visitors on Mondays." },
+        { "word": "clock off", "band": 7, "meaning": "finish work for the day", "example": "Most of my colleagues clock off at five and head straight home." },
+        { "word": "long hours", "band": 7, "meaning": "a working day that lasts much longer than usual", "example": "Junior doctors often work long hours with very little sleep." }
+      ],
+      "phrases": [
+        "I think so, yes. Young people ...",
+        "..., whereas my parents' generation could ...",
+        "That said, ..., so I'd say we are simply busy in a different way."
+      ]
+    }
+  },
+  "part3": {
+    "theme": "Work-life balance and stress",
+    "questions": [
+      {
+        "q": "Why do some people find it so hard to switch off from work?",
+        "model": "I think technology is the main culprit. Smartphones mean that emails and messages follow us home, so the boundary between the office and our personal lives has become blurred. Some people also feel pressure to prove their commitment, so they stay online out of fear of falling behind. Personally, I believe the real issue is a culture that rewards being constantly available. Unless workers learn to set boundaries, they will keep working around the clock and end up exhausted.",
+        "vocab": [
+          { "word": "the main culprit", "band": 8, "meaning": "the chief cause of a problem", "example": "Sugary drinks are often named as the main culprit behind rising obesity." },
+          { "word": "prove their commitment", "band": 8, "meaning": "show that they are serious and dedicated to their job", "example": "New employees often work late to prove their commitment to the firm." },
+          { "word": "set boundaries", "band": 7, "meaning": "decide clearly what you will and will not accept", "example": "It is healthy to set boundaries with clients who call at midnight." },
+          { "word": "around the clock", "band": 7, "meaning": "all day and all night without stopping", "example": "Emergency services operate around the clock throughout the festival." }
+        ],
+        "phrases": [
+          "I think ... is the main culprit.",
+          "Some people also feel pressure to ..., so they ...",
+          "Unless workers learn to ..., they will keep ... and end up ..."
+        ]
+      },
+      {
+        "q": "To what extent is stress a bigger problem now than it was in the past?",
+        "model": "To a large extent, yes, although it is hard to measure. Our grandparents faced hardship, but they rarely had to cope with constant notifications and job insecurity. Today the cost of living keeps rising, and many people are under enormous pressure to perform. On the other hand, we now talk about mental health far more openly, which reduces the stigma. So perhaps stress is not necessarily worse, but it is certainly more visible.",
+        "vocab": [
+          { "word": "job insecurity", "band": 8, "meaning": "the worry that you might lose your job at any time", "example": "Job insecurity affects workers in industries that rely on temporary contracts." },
+          { "word": "cost of living", "band": 7, "meaning": "the amount of money needed for basic daily expenses", "example": "The cost of living in big cities has soared over the last decade." },
+          { "word": "under enormous pressure", "band": 8, "meaning": "facing very strong demands that cause stress", "example": "Students are under enormous pressure to achieve top grades these days." },
+          { "word": "reduces the stigma", "band": 9, "meaning": "makes a subject less shameful in the eyes of society", "example": "Celebrity openness about therapy reduces the stigma around asking for help." }
+        ],
+        "phrases": [
+          "To a large extent, yes, although ...",
+          "... faced hardship, but they rarely had to cope with ...",
+          "So perhaps ... is not necessarily worse, but it is certainly more ..."
+        ]
+      },
+      {
+        "q": "Should employers be required by law to limit the hours their staff work?",
+        "model": "In my view, yes, at least for certain professions. Doctors and lorry drivers working excessive hours put lives at risk, so a legal cap is justified. However, rigid rules could frustrate people who enjoy their jobs or want to earn overtime. A sensible compromise would be a weekly maximum with some flexibility, together with penalties for companies that pressure staff to work unpaid extra hours. Without such protection, workers could easily be taken advantage of.",
+        "vocab": [
+          { "word": "excessive hours", "band": 8, "meaning": "far more working time than is reasonable or safe", "example": "Excessive hours in the kitchen drove many chefs to quit the profession." },
+          { "word": "put lives at risk", "band": 8, "meaning": "make people's safety uncertain or in danger", "example": "Tired pilots can put lives at risk if they miss a warning." },
+          { "word": "earn overtime", "band": 7, "meaning": "get extra pay for working beyond normal hours", "example": "Factory staff can earn overtime during the busy winter months." },
+          { "word": "a sensible compromise", "band": 8, "meaning": "a reasonable agreement where both sides give something up", "example": "Starting at ten and finishing at six was a sensible compromise for everyone." }
+        ],
+        "phrases": [
+          "In my view, yes, at least for ...",
+          "However, rigid rules could frustrate people who ...",
+          "A sensible compromise would be ..., together with ..."
+        ]
+      },
+      {
+        "q": "What might companies do to help employees maintain a healthy work-life balance?",
+        "model": "Firms could start by offering flexible schedules, so that parents and carers can fit work around family commitments. Generous annual leave also helps staff recharge, and managers should lead by example by actually taking their holidays. Some companies run wellbeing workshops, which are a nice gesture, but they achieve little if employees are still buried under unrealistic workloads. Real change begins with realistic targets and a culture of trust, because staff who feel respected are usually more productive anyway.",
+        "vocab": [
+          { "word": "flexible schedules", "band": 7, "meaning": "working hours that can be adjusted to suit the employee", "example": "Flexible schedules allow staff to avoid the rush-hour traffic." },
+          { "word": "lead by example", "band": 8, "meaning": "behave in the way you want others to behave", "example": "Good captains lead by example and train as hard as anyone." },
+          { "word": "unrealistic workloads", "band": 8, "meaning": "amounts of work that nobody could reasonably finish", "example": "Unrealistic workloads leave teachers marking papers until midnight." },
+          { "word": "recharge", "band": 7, "meaning": "rest so that you regain your energy", "example": "A week by the coast was exactly what I needed to recharge." }
+        ],
+        "phrases": [
+          "Firms could start by offering ..., so that ...",
+          "... also helps staff ..., and managers should lead by example by ...",
+          "Real change begins with ... and a culture of ..."
+        ]
+      },
+      {
+        "q": "How far does working from home help or harm people's work-life balance?",
+        "model": "It depends on the individual. Working from home removes the commute and gives people more control over their day, which can be a real boon for parents. However, when your living room doubles as an office, it becomes tough to draw a line between work and rest. Many remote workers find themselves answering emails late at night. I think the arrangement works best when it is combined with clear working hours and an occasional day in the office.",
+        "vocab": [
+          { "word": "a real boon", "band": 9, "meaning": "something that is very helpful and beneficial", "example": "Fast broadband has been a real boon for small rural businesses." },
+          { "word": "doubles as", "band": 8, "meaning": "has a second use in addition to its main one", "example": "Our kitchen table doubles as a desk during the week." },
+          { "word": "draw a line between", "band": 8, "meaning": "make a clear separation between two things", "example": "It's important to draw a line between friendship and business." },
+          { "word": "remote workers", "band": 7, "meaning": "employees who do their jobs away from a company office", "example": "Remote workers often meet in cafés to avoid feeling isolated." }
+        ],
+        "phrases": [
+          "It depends on the individual. ... can be a real boon for ...",
+          "However, when ... doubles as ..., it becomes tough to ...",
+          "I think the arrangement works best when it is combined with ..."
+        ]
+      },
+      {
+        "q": "Is it better to have a well-paid but demanding job, or a modest job with plenty of free time?",
+        "model": "Personally, I would opt for the modest job. A high salary is tempting, but it often comes at the expense of health and relationships, and no amount of money can buy back lost time. Having said that, I understand that people with big financial commitments, such as a mortgage, may have little choice. In the long run, though, I believe a satisfying life depends on striking a balance between ambition and contentment.",
+        "vocab": [
+          { "word": "opt for", "band": 7, "meaning": "choose one option over others", "example": "Most students opt for cheaper accommodation outside the city centre." },
+          { "word": "at the expense of", "band": 8, "meaning": "causing harm or loss to something else", "example": "Success at the expense of your family is rarely worth it." },
+          { "word": "financial commitments", "band": 8, "meaning": "regular payments such as rent or loans that you must make", "example": "Young couples with heavy financial commitments often can't afford to quit." },
+          { "word": "striking a balance", "band": 8, "meaning": "finding a fair middle point between two things", "example": "Striking a balance between saving and spending is harder than it sounds." }
+        ],
+        "phrases": [
+          "Personally, I would opt for ...",
+          "..., but it often comes at the expense of ...",
+          "In the long run, though, I believe ... depends on striking a balance between ... and ..."
+        ]
+      }
+    ]
+  }
+}

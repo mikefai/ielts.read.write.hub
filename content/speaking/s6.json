@@ -1,0 +1,334 @@
+{
+  "id": "s6",
+  "title": "Speaking Mock 6",
+  "part1": {
+    "topics": [
+      {
+        "name": "Family",
+        "questions": [
+          {
+            "q": "Do you come from a large or a small family?",
+            "model": "I come from a close-knit family of five: my parents, my two brothers and me. We used to squabble over the television all the time, but we have always been on the same wavelength. Nowadays we live in different cities, yet we still keep in touch through a group chat every day.",
+            "vocab": [
+              { "word": "close-knit", "band": 8, "meaning": "having strong, loving bonds between members", "example": "She grew up in a close-knit village where everybody helped one another." },
+              { "word": "squabble over", "band": 8, "meaning": "argue about something small and unimportant", "example": "The twins used to squabble over who sat next to the window." },
+              { "word": "on the same wavelength", "band": 9, "meaning": "thinking in a very similar way to someone", "example": "My best friend and I are always on the same wavelength about films." },
+              { "word": "keep in touch", "band": 7, "meaning": "stay in regular contact with someone", "example": "It is easy to keep in touch with relatives abroad these days." }
+            ],
+            "phrases": [
+              "I come from a ... family of ...",
+              "We used to ... all the time, but we have always been ...",
+              "Nowadays we ..., yet we still ..."
+            ]
+          },
+          {
+            "q": "How much time do you spend with your family?",
+            "model": "Honestly, not as much as I would like. During the week I am tied up with work, so we mostly see each other at dinner. At weekends, though, we make a point of doing something together, such as a barbecue or a trip to the countryside. Quality time with them helps me recharge my batteries.",
+            "vocab": [
+              { "word": "tied up with", "band": 8, "meaning": "very busy dealing with something", "example": "I am tied up with meetings until late on Thursday afternoon." },
+              { "word": "make a point of", "band": 8, "meaning": "deliberately make sure you do something", "example": "We make a point of eating breakfast together every Sunday morning." },
+              { "word": "quality time", "band": 7, "meaning": "time spent giving full attention to people you care about", "example": "Parents who work long hours often struggle to find quality time." },
+              { "word": "recharge my batteries", "band": 8, "meaning": "rest so that you feel energetic again", "example": "A quiet weekend by the sea always helps me recharge my batteries." }
+            ],
+            "phrases": [
+              "Honestly, not as much as I would like.",
+              "During the week I am ..., so we mostly ...",
+              "At weekends, though, we make a point of ..."
+            ]
+          },
+          {
+            "q": "Who are you closest to in your family?",
+            "model": "Without a doubt, my mother. She is the person I turn to whenever I have a problem, because she is a great listener and never judges me. We also share the same sense of humour, so we can spend hours chatting over a cup of tea. I suppose she is my rock.",
+            "vocab": [
+              { "word": "turn to", "band": 7, "meaning": "go to someone for help or advice", "example": "Whenever I feel stressed, I turn to my older sister." },
+              { "word": "a great listener", "band": 8, "meaning": "someone who pays careful attention when others talk", "example": "My grandfather is a great listener and never interrupts anyone." },
+              { "word": "sense of humour", "band": 7, "meaning": "the ability to find things funny", "example": "He has a dry sense of humour that makes everybody laugh." },
+              { "word": "my rock", "band": 9, "meaning": "the person who gives me steady support in hard times", "example": "After my father passed away, my aunt became my rock." }
+            ],
+            "phrases": [
+              "Without a doubt, my ... She is the person I turn to whenever ...",
+              "We also share the same ..., so we can spend hours ...",
+              "I suppose she is my ..."
+            ]
+          },
+          {
+            "q": "Do you think family life will change in the future?",
+            "model": "I think so, yes. More couples are choosing to have fewer children, and many young people are moving away for work, so extended families are living further apart. On the other hand, video calls make it easier to stay connected, so I expect families will find new ways to bond rather than drift apart.",
+            "vocab": [
+              { "word": "moving away", "band": 7, "meaning": "leaving a place to live somewhere else", "example": "Many graduates are moving away from small towns to find better jobs." },
+              { "word": "extended families", "band": 8, "meaning": "families that include grandparents, aunts, uncles and cousins", "example": "Extended families often share one house in the countryside." },
+              { "word": "stay connected", "band": 7, "meaning": "keep a regular link with other people", "example": "Social media helps old classmates stay connected across the globe." },
+              { "word": "drift apart", "band": 8, "meaning": "slowly become less close over time", "example": "Friends can easily drift apart when they live in different countries." }
+            ],
+            "phrases": [
+              "I think so, yes. More ... are ..., and many ... are ...",
+              "On the other hand, ... make it easier to ...",
+              "I expect ... will find new ways to ... rather than ..."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cooking",
+        "questions": [
+          {
+            "q": "Do you often cook for yourself?",
+            "model": "Yes, most evenings. I find it far healthier than ordering takeaway, and it is a great way to unwind after a long day. I usually whip up something simple, like stir-fried vegetables with rice, because I do not have much spare time. It is also much easier on my wallet.",
+            "vocab": [
+              { "word": "whip up", "band": 8, "meaning": "prepare a meal quickly and without fuss", "example": "She can whip up a tasty omelette in under five minutes." },
+              { "word": "easier on my wallet", "band": 8, "meaning": "cheaper and less costly for me", "example": "Cooking at home is much easier on my wallet than eating out." },
+              { "word": "spare time", "band": 7, "meaning": "time when you are free from work or duties", "example": "I spend most of my spare time experimenting with new recipes." },
+              { "word": "stir-fried", "band": 7, "meaning": "cooked quickly in a hot pan while stirring", "example": "Stir-fried noodles are my go-to dinner when I am exhausted." }
+            ],
+            "phrases": [
+              "Yes, most evenings. I find it far ... than ...",
+              "I usually whip up something ..., like ..., because ...",
+              "It is also much easier on my ..."
+            ]
+          },
+          {
+            "q": "Who taught you how to cook?",
+            "model": "My grandmother, mainly. I used to hang around the kitchen as a child, watching her chop and stir, and eventually she let me lend a hand. She never used measuring spoons; everything was done by eye. I picked up most of my basic skills from her, and I still follow her recipes today.",
+            "vocab": [
+              { "word": "hang around", "band": 7, "meaning": "spend time in a place without doing much", "example": "My cousins like to hang around the stalls at the night market." },
+              { "word": "lend a hand", "band": 7, "meaning": "help someone with a task", "example": "Could you lend a hand with the washing up, please?" },
+              { "word": "by eye", "band": 8, "meaning": "estimated without measuring exactly", "example": "He added the salt by eye and the soup still tasted perfect." },
+              { "word": "picked up", "band": 7, "meaning": "learned something informally without formal lessons", "example": "She picked up a few Spanish phrases while travelling around Mexico." }
+            ],
+            "phrases": [
+              "My ..., mainly. I used to hang around ... as a child, watching ...",
+              "Eventually she let me lend a hand.",
+              "I picked up most of my ... from her, and I still ... today."
+            ]
+          },
+          {
+            "q": "Have you ever cooked something that went wrong?",
+            "model": "Oh, plenty of times. Once I tried to bake a birthday cake for my sister, but I forgot the sugar, so it came out bland and as hard as a rock. We had a good laugh about it, and I bought a cake instead. It taught me to read the recipe carefully.",
+            "vocab": [
+              { "word": "came out", "band": 7, "meaning": "turned out a certain way at the end", "example": "My first loaf of bread came out much flatter than I expected." },
+              { "word": "bland", "band": 7, "meaning": "having very little taste", "example": "Boiled chicken without any herbs or spices can taste rather bland." },
+              { "word": "as hard as a rock", "band": 8, "meaning": "extremely hard and solid", "example": "The biscuits were as hard as a rock after I baked them too long." },
+              { "word": "had a good laugh", "band": 7, "meaning": "found something very funny together", "example": "We had a good laugh about the burnt toast over breakfast." }
+            ],
+            "phrases": [
+              "Oh, plenty of times. Once I tried to ..., but I forgot ...",
+              "We had a good laugh about it, and I ...",
+              "It taught me to ... carefully."
+            ]
+          },
+          {
+            "q": "Would you like to cook more in the future?",
+            "model": "Yes, I would. I would love to master a few traditional dishes from different regions, because I think cooking is a valuable life skill. Once my schedule is less hectic, I am planning to sign up for a weekend class, so I can impress my friends at dinner parties.",
+            "vocab": [
+              { "word": "traditional dishes", "band": 7, "meaning": "meals that have been cooked in a region for many generations", "example": "Traditional dishes from the north often use smoked fish and potatoes." },
+              { "word": "life skill", "band": 8, "meaning": "a practical ability that is useful in everyday adult life", "example": "Managing a monthly budget is a life skill every student needs." },
+              { "word": "hectic", "band": 8, "meaning": "extremely busy and full of activity", "example": "The week before the wedding was absolutely hectic for everyone." },
+              { "word": "sign up for", "band": 7, "meaning": "officially join a course or activity", "example": "I decided to sign up for an evening pottery course." }
+            ],
+            "phrases": [
+              "Yes, I would. I would love to master ...",
+              "Once my schedule is less ..., I am planning to ...",
+              "..., so I can impress my friends at ..."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sleep",
+        "questions": [
+          {
+            "q": "How many hours of sleep do you usually get?",
+            "model": "About seven hours on weeknights, which is just about enough for me. I tend to go to bed around eleven and get up at dawn, but at weekends I like to sleep in and catch up on rest. If I manage less than six hours, I am completely drained the next day.",
+            "vocab": [
+              { "word": "just about enough", "band": 7, "meaning": "barely sufficient but acceptable", "example": "Six hours of study a day is just about enough to pass." },
+              { "word": "sleep in", "band": 7, "meaning": "stay in bed later than usual in the morning", "example": "On rainy Sundays I love to sleep in until ten." },
+              { "word": "catch up on rest", "band": 8, "meaning": "sleep extra to make up for earlier tiredness", "example": "After exams, students usually need a week to catch up on rest." },
+              { "word": "drained", "band": 8, "meaning": "completely without energy", "example": "She felt drained after the long flight and the early meeting." }
+            ],
+            "phrases": [
+              "About ... hours on weeknights, which is just about enough for me.",
+              "I tend to ..., but at weekends I like to ...",
+              "If I manage less than ..., I am completely ... the next day."
+            ]
+          },
+          {
+            "q": "Do you ever have trouble sleeping?",
+            "model": "Occasionally, yes, especially before exams or big deadlines. I end up tossing and turning for hours with my mind racing. What usually helps is switching off my phone an hour earlier and reading a few pages, which makes it much easier to drift off.",
+            "vocab": [
+              { "word": "tossing and turning", "band": 8, "meaning": "moving restlessly in bed unable to sleep", "example": "I spent the whole night tossing and turning because of the heat." },
+              { "word": "mind racing", "band": 8, "meaning": "thoughts moving very fast so you cannot relax", "example": "With my mind racing about tomorrow's interview, I could not relax." },
+              { "word": "switching off", "band": 7, "meaning": "turning a device off or stopping thinking about work", "example": "Switching off your laptop early gives your brain time to rest." },
+              { "word": "drift off", "band": 8, "meaning": "slowly fall asleep", "example": "I usually drift off within ten minutes of lying down." }
+            ],
+            "phrases": [
+              "Occasionally, yes, especially before ...",
+              "I end up ... for hours with my mind racing.",
+              "What usually helps is ..., which makes it much easier to ..."
+            ]
+          },
+          {
+            "q": "Did you sleep better when you were younger?",
+            "model": "Yes, I think so. As a child I slept like a log, even when my brothers were noisy. Nowadays stress and screen time keep me awake, and I often feel groggy in the morning. I suppose I should get into a proper bedtime routine, as it would make a real difference.",
+            "vocab": [
+              { "word": "slept like a log", "band": 8, "meaning": "slept very deeply without waking up", "example": "After the hike, we all slept like a log in the tents." },
+              { "word": "keep me awake", "band": 7, "meaning": "prevent me from falling asleep", "example": "Noisy neighbours often keep me awake until after midnight." },
+              { "word": "groggy", "band": 8, "meaning": "weak and slow because you have not slept well", "example": "I always feel groggy when I wake up in the middle of the night." },
+              { "word": "bedtime routine", "band": 7, "meaning": "the same set of habits you follow before going to sleep", "example": "A calm bedtime routine helps young children settle down quickly." }
+            ],
+            "phrases": [
+              "Yes, I think so. As a child I ..., even when ...",
+              "Nowadays ... keep me awake, and I often feel ...",
+              "I suppose I should get into a proper ..., as it would make a real difference."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "part2": {
+    "cue": {
+      "topic": "Describe a skill you would like to learn",
+      "bullets": [
+        "what the skill is",
+        "why you want to learn it",
+        "how you would go about learning it",
+        "and explain how it would benefit you"
+      ],
+      "prepSeconds": 60,
+      "talkSeconds": 120
+    },
+    "model": "I'd like to talk about a skill I have been dreaming of learning for years, which is playing the piano. The idea first came to me when I visited my aunt Beatriz in Seville two summers ago. She has an old upright piano in her living room, and every evening after dinner she would play slow, beautiful melodies while the whole family sat around listening. I was completely mesmerised, and I felt a little envious because I can't even read music. Ever since then, I have wanted to do the same for the people I love. The main reason is that I'd like a creative outlet. My job involves staring at spreadsheets all day, so I think music would be a wonderful way to switch off and express myself. As for how I'd go about it, I am planning to join weekly lessons at a small music school near my flat, and I will practise for half an hour every morning before work. I know it won't be easy at first, because my fingers will probably feel clumsy and progress will be painfully slow, but I am prepared to stick with it. In the long run, I believe it would sharpen my memory, reduce my stress and give me a real sense of achievement. And honestly, nothing would make me prouder than playing a piece for my aunt next summer.",
+    "vocab": [
+      { "word": "mesmerised", "band": 8, "meaning": "so fascinated that you cannot look or listen to anything else", "example": "The children sat mesmerised as the magician pulled a rabbit from his hat." },
+      { "word": "creative outlet", "band": 8, "meaning": "an activity that lets you express your imagination", "example": "Painting at weekends gives me a creative outlet after stressful weeks." },
+      { "word": "switch off", "band": 7, "meaning": "stop thinking about work and relax completely", "example": "It is hard to switch off when your phone keeps buzzing." },
+      { "word": "painfully slow", "band": 8, "meaning": "frustratingly slow, almost unbearably so", "example": "Progress in the first month of learning Japanese felt painfully slow." },
+      { "word": "stick with it", "band": 7, "meaning": "continue doing something even when it is hard", "example": "If you stick with it, the guitar gets easier every week." },
+      { "word": "sense of achievement", "band": 8, "meaning": "the proud feeling of having completed something worthwhile", "example": "Finishing the marathon gave her a huge sense of achievement." }
+    ],
+    "phrases": [
+      "I'd like to talk about",
+      "The idea first came to me when",
+      "Ever since then",
+      "As for how I'd go about it",
+      "In the long run"
+    ],
+    "structure": [
+      "Name the skill and explain when the idea first came to you",
+      "Say why you want to learn it and what draws you to it",
+      "Describe how you would go about learning it (lessons, practice routine)",
+      "Mention the likely difficulties and how you would deal with them",
+      "Explain the benefits and finish with a personal goal"
+    ],
+    "roundingOff": {
+      "q": "Do you think it is easier for children to learn new skills than adults?",
+      "model": "Generally, yes. Children are like sponges, absorbing information with little effort, and they are not afraid of making mistakes. Adults, on the other hand, tend to be self-conscious and short of time. That said, I believe grown-ups make up for it with discipline and a clear purpose, so it is never too late to pick up something new.",
+      "vocab": [
+        { "word": "like sponges", "band": 8, "meaning": "absorbing new information very quickly", "example": "Toddlers are like sponges when they start hearing new words." },
+        { "word": "self-conscious", "band": 8, "meaning": "nervous about how other people see you", "example": "Many adults feel self-conscious when they speak a foreign language." },
+        { "word": "make up for", "band": 7, "meaning": "balance a disadvantage with a strength", "example": "Her enthusiasm easily makes up for her lack of experience." },
+        { "word": "never too late", "band": 7, "meaning": "possible at any age or point in life", "example": "It is never too late to start learning the violin." }
+      ],
+      "phrases": [
+        "Generally, yes. Children are like ..., ...",
+        "Adults, on the other hand, tend to be ...",
+        "That said, I believe ... make up for it with ..., so it is never too late to ..."
+      ]
+    }
+  },
+  "part3": {
+    "theme": "Learning new skills and lifelong learning",
+    "questions": [
+      {
+        "q": "Why do some people find it hard to learn new skills as they get older?",
+        "model": "I think it mostly comes down to confidence and habit. Older people are often set in their ways, and they worry about looking foolish in front of younger classmates. They also juggle work and family, so there is little energy left for study. However, I don't believe age itself is the barrier. With patience and a supportive teacher, adults can master new abilities just as effectively. In my view, the real obstacle is the fear of failure, not a lack of ability.",
+        "vocab": [
+          { "word": "comes down to", "band": 7, "meaning": "is mainly decided by a particular factor", "example": "Staying fit usually comes down to regular habits, not expensive gyms." },
+          { "word": "set in their ways", "band": 8, "meaning": "unwilling to change long-held habits", "example": "My uncle is set in his ways and refuses to use a smartphone." },
+          { "word": "juggle work and family", "band": 8, "meaning": "manage the demands of a job and home life together", "example": "Many parents juggle work and family without any help at all." },
+          { "word": "fear of failure", "band": 7, "meaning": "anxiety about not succeeding", "example": "Fear of failure stops many talented people from trying something new." }
+        ],
+        "phrases": [
+          "I think it mostly comes down to ...",
+          "They also ..., so there is little ... left for ...",
+          "In my view, the real obstacle is ..., not ..."
+        ]
+      },
+      {
+        "q": "To what extent can online courses replace traditional classroom learning?",
+        "model": "To a certain extent, they can. Online courses are flexible, affordable and allow learners to study at their own pace from anywhere in the world. Nevertheless, they cannot fully replace face-to-face teaching, because many students need direct feedback and the motivation that comes from sharing a room with classmates. Personally, I believe a blended approach is ideal, with theory delivered online and practical sessions held in person. That way, learners enjoy the best of both worlds.",
+        "vocab": [
+          { "word": "at their own pace", "band": 7, "meaning": "at a speed that suits each individual", "example": "Online lessons let busy adults progress at their own pace." },
+          { "word": "direct feedback", "band": 7, "meaning": "immediate comments from a teacher about your work", "example": "Direct feedback helps students correct their mistakes much faster." },
+          { "word": "blended approach", "band": 8, "meaning": "a method combining online and in-person teaching", "example": "The university adopted a blended approach after the pandemic ended." },
+          { "word": "the best of both worlds", "band": 8, "meaning": "the advantages of two different options together", "example": "Working from home twice a week gives you the best of both worlds." }
+        ],
+        "phrases": [
+          "To a certain extent, they can. ... are flexible, ... and allow ...",
+          "Nevertheless, they cannot fully replace ..., because ...",
+          "Personally, I believe a ... approach is ideal, with ..."
+        ]
+      },
+      {
+        "q": "Should employers pay for their staff to receive further training?",
+        "model": "I strongly believe they should, because it is a sound investment. Well-trained employees are more productive and more likely to stay with the company, which saves money on recruitment. Furthermore, workers who feel valued tend to be far more loyal. Admittedly, small businesses may struggle to cover the cost, so the government could offer tax incentives to lighten the load. Overall, everyone gains when companies support professional development, including customers who receive a better service.",
+        "vocab": [
+          { "word": "sound investment", "band": 8, "meaning": "a sensible use of money that will bring future benefits", "example": "Buying quality tools is a sound investment for any carpenter." },
+          { "word": "tax incentives", "band": 8, "meaning": "reductions in tax that encourage a particular action", "example": "Tax incentives encourage firms to install solar panels on their roofs." },
+          { "word": "lighten the load", "band": 8, "meaning": "make a heavy burden easier to carry", "example": "Hiring an assistant would lighten the load for our manager." },
+          { "word": "professional development", "band": 7, "meaning": "training that helps you improve at your job", "example": "The firm gives every employee a day a month for professional development." }
+        ],
+        "phrases": [
+          "I strongly believe they should, because it is a ...",
+          "Admittedly, ... may struggle to ..., so ... could ...",
+          "Overall, everyone gains when ..., including ..."
+        ]
+      },
+      {
+        "q": "What might happen to society if people stopped learning after leaving school?",
+        "model": "Society would almost certainly stagnate. Technology is advancing so rapidly that skills quickly become out of date, so workers who stop learning would soon fall behind and struggle to find jobs. Innovation would slow down as well, because new ideas depend on curious minds. On a personal level, people might lose their sense of purpose and become less open-minded. For these reasons, I think we should treat education as a lifelong journey rather than something that ends at eighteen.",
+        "vocab": [
+          { "word": "out of date", "band": 7, "meaning": "no longer modern or useful", "example": "Textbooks become out of date quickly in the field of medicine." },
+          { "word": "fall behind", "band": 7, "meaning": "fail to keep up with others or with change", "example": "Companies that ignore new technology soon fall behind their rivals." },
+          { "word": "sense of purpose", "band": 8, "meaning": "a feeling that your life has meaning and direction", "example": "Retired people often find a sense of purpose through volunteering." },
+          { "word": "lifelong journey", "band": 8, "meaning": "a process that continues throughout a person's whole life", "example": "Learning is a lifelong journey rather than a short race." }
+        ],
+        "phrases": [
+          "... would almost certainly ...",
+          "..., so workers who ... would soon ... and struggle to ...",
+          "For these reasons, I think we should treat ... as ... rather than ..."
+        ]
+      },
+      {
+        "q": "Which skills do you think will be most valuable for young people in the future?",
+        "model": "I would say adaptability and digital literacy will be crucial. Since many of today's jobs may be automated, young people will need to retrain several times during their careers. Alongside technical know-how, soft skills such as teamwork and critical thinking will set candidates apart, because machines cannot easily copy them. In my opinion, schools should therefore focus less on memorising facts and more on teaching students how to learn independently.",
+        "vocab": [
+          { "word": "digital literacy", "band": 8, "meaning": "the ability to use technology and online tools confidently", "example": "Digital literacy is now as basic as reading and writing." },
+          { "word": "soft skills", "band": 7, "meaning": "personal abilities such as communication and teamwork", "example": "Employers often value soft skills more than technical knowledge." },
+          { "word": "critical thinking", "band": 7, "meaning": "the ability to analyse information and judge it carefully", "example": "Critical thinking helps students spot misleading stories online." },
+          { "word": "set candidates apart", "band": 8, "meaning": "make some applicants noticeably better than the others", "example": "A year abroad can set candidates apart in a competitive interview." }
+        ],
+        "phrases": [
+          "I would say ... and ... will be crucial.",
+          "Alongside ..., ... such as ... will set ... apart, because ...",
+          "In my opinion, schools should therefore focus less on ... and more on ..."
+        ]
+      },
+      {
+        "q": "How far is practical experience more useful than formal qualifications?",
+        "model": "It depends on the field. In careers like surgery or engineering, formal qualifications are non-negotiable because mistakes can be extremely costly. In creative industries, however, a strong portfolio often speaks louder than a certificate. Personally, I think hands-on experience teaches things no textbook can, such as working under pressure. Even so, qualifications open doors in the first place, so the ideal situation is to gain both side by side, learning on the job while studying.",
+        "vocab": [
+          { "word": "non-negotiable", "band": 8, "meaning": "absolutely required and not open to discussion", "example": "Safety checks are non-negotiable in the aviation industry." },
+          { "word": "speaks louder than", "band": 8, "meaning": "is more convincing than something else", "example": "In this trade, a good reputation speaks louder than any diploma." },
+          { "word": "hands-on experience", "band": 7, "meaning": "knowledge gained by actually doing the work yourself", "example": "Hands-on experience in a kitchen taught him more than any lecture." },
+          { "word": "learning on the job", "band": 7, "meaning": "gaining skills while actually doing the work", "example": "Learning on the job helped her feel confident within a few months." }
+        ],
+        "phrases": [
+          "It depends on the field. In ..., ... are non-negotiable because ...",
+          "In ..., however, a strong ... often speaks louder than ...",
+          "Even so, ... open doors in the first place, so the ideal situation is to ..."
+        ]
+      }
+    ]
+  }
+}

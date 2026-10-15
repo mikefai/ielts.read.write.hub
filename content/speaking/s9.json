@@ -1,0 +1,725 @@
+{
+  "id": "s9",
+  "title": "Speaking Mock 9",
+  "part1": {
+    "topics": [
+      {
+        "name": "Pets",
+        "questions": [
+          {
+            "q": "Do you have a pet, or have you ever had one?",
+            "model": "Yes, we had a ginger cat called Mango for about ten years. He was a bundle of energy as a kitten, and he soon became part of the family. Sadly, he passed away last spring, and the house felt strangely empty without him.",
+            "vocab": [
+              {
+                "word": "a bundle of energy",
+                "band": 8,
+                "meaning": "a person or animal that is always lively and active",
+                "example": "My nephew is a bundle of energy and never sits still for a minute."
+              },
+              {
+                "word": "part of the family",
+                "band": 7,
+                "meaning": "treated and loved like a real family member",
+                "example": "Our old dog is part of the family and always sleeps beside the fire."
+              },
+              {
+                "word": "passed away",
+                "band": 7,
+                "meaning": "died (a gentle, polite way to say it)",
+                "example": "My grandfather passed away peacefully in his sleep two winters ago."
+              },
+              {
+                "word": "strangely empty",
+                "band": 8,
+                "meaning": "quiet and lonely in an unusual way, as if something is missing",
+                "example": "The classroom felt strangely empty after all the students had left."
+              }
+            ],
+            "phrases": [
+              "Yes, we had a ... called ... for about ...",
+              "He was a ... as a ..., and he soon became ...",
+              "Sadly, he ... last ..., and the house felt ... without him."
+            ]
+          },
+          {
+            "q": "Why do some people like keeping pets?",
+            "model": "I think pets provide companionship, especially for people who live alone. Looking after an animal also gives you a sense of purpose, because it depends on you every day. My neighbour is retired, and her dog gets her out of the house for long walks, which keeps her active and cheerful.",
+            "vocab": [
+              {
+                "word": "provide companionship",
+                "band": 8,
+                "meaning": "give someone company so that they feel less lonely",
+                "example": "A parrot can provide companionship for an elderly person living by herself."
+              },
+              {
+                "word": "looking after",
+                "band": 7,
+                "meaning": "taking care of someone or something",
+                "example": "Looking after a puppy takes far more patience than most people expect."
+              },
+              {
+                "word": "sense of purpose",
+                "band": 8,
+                "meaning": "a feeling that your life has meaning and direction",
+                "example": "Volunteering at the shelter gave him a real sense of purpose after retirement."
+              },
+              {
+                "word": "gets her out of the house",
+                "band": 7,
+                "meaning": "makes her leave home and go outside",
+                "example": "A morning jog gets me out of the house even when it is cold."
+              }
+            ],
+            "phrases": [
+              "I think ... provide ..., especially for people who ...",
+              "... also gives you a sense of ..., because it depends on you ...",
+              "My ... is retired, and her ... gets her out of the house for ..., which keeps her ... and cheerful."
+            ]
+          },
+          {
+            "q": "Is it fair to keep a large pet in a small flat?",
+            "model": "Not really, to be honest. Big dogs need plenty of room to run around, and they get restless if they are cooped up all day. A smaller animal, such as a rabbit or a goldfish, is far more suitable, as long as you clean its home regularly.",
+            "vocab": [
+              {
+                "word": "plenty of room",
+                "band": 7,
+                "meaning": "more than enough space",
+                "example": "The garden has plenty of room for the children to play football."
+              },
+              {
+                "word": "cooped up",
+                "band": 8,
+                "meaning": "kept inside a small space for too long",
+                "example": "I hate being cooped up in the office on a sunny afternoon."
+              },
+              {
+                "word": "restless",
+                "band": 8,
+                "meaning": "unable to stay still or relax because you are bored or worried",
+                "example": "The audience grew restless during the long and tedious speech."
+              },
+              {
+                "word": "as long as",
+                "band": 7,
+                "meaning": "on the condition that",
+                "example": "You can borrow my bike as long as you bring it back tonight."
+              }
+            ],
+            "phrases": [
+              "Not really, to be honest. ... need plenty of room to ...",
+              "... get restless if they are cooped up ...",
+              "A smaller ..., such as ..., is far more suitable, as long as ..."
+            ]
+          },
+          {
+            "q": "Would you like to get a pet in the future?",
+            "model": "Yes, I'd love to adopt a rescue dog once I have a garden. So many animals end up in shelters through no fault of their own, and I'd like to give one a second chance. I just need to make sure I have enough time to take care of it properly.",
+            "vocab": [
+              {
+                "word": "adopt a rescue dog",
+                "band": 8,
+                "meaning": "take a dog from a shelter into your home permanently",
+                "example": "My cousin decided to adopt a rescue dog instead of buying a puppy."
+              },
+              {
+                "word": "end up",
+                "band": 7,
+                "meaning": "finally be in a particular place or situation",
+                "example": "Lost cats often end up at the animal shelter near the station."
+              },
+              {
+                "word": "through no fault of their own",
+                "band": 8,
+                "meaning": "not because of anything they did wrong",
+                "example": "Many families lose their homes through no fault of their own during a recession."
+              },
+              {
+                "word": "a second chance",
+                "band": 7,
+                "meaning": "another opportunity to succeed after a failure",
+                "example": "Everyone deserves a second chance to make a fresh start."
+              }
+            ],
+            "phrases": [
+              "Yes, I'd love to ... once I have ...",
+              "So many ... end up in ... through no fault of their own.",
+              "I just need to make sure I have enough time to ..."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nature",
+        "questions": [
+          {
+            "q": "Do you often spend time in nature?",
+            "model": "Not as often as I'd like, but I try to escape the city on weekends. There's a lovely forest trail about an hour away, and I find a long walk there clears my head. Being surrounded by greenery is the perfect antidote to a stressful week.",
+            "vocab": [
+              {
+                "word": "escape the city",
+                "band": 7,
+                "meaning": "leave the busy city for a while",
+                "example": "Many Londoners escape the city every Friday evening to visit the coast."
+              },
+              {
+                "word": "clears my head",
+                "band": 8,
+                "meaning": "helps me stop worrying and think calmly",
+                "example": "A brisk walk by the river always clears my head before an exam."
+              },
+              {
+                "word": "surrounded by greenery",
+                "band": 8,
+                "meaning": "having trees and plants all around you",
+                "example": "I feel calm whenever I am surrounded by greenery and birdsong."
+              },
+              {
+                "word": "perfect antidote to",
+                "band": 9,
+                "meaning": "something that works very well against an unpleasant feeling",
+                "example": "Gardening is the perfect antidote to long hours spent staring at a screen."
+              }
+            ],
+            "phrases": [
+              "Not as often as I'd like, but I try to ... on weekends.",
+              "I find a long walk there ...",
+              "Being surrounded by ... is the perfect antidote to ..."
+            ]
+          },
+          {
+            "q": "What did you do outdoors when you were a child?",
+            "model": "I spent most of my summers at my grandparents' farm, climbing trees and splashing about in the stream. We'd stay out until sunset, and nobody worried where we were. Looking back, it was a carefree childhood, and I'm grateful I grew up so close to the countryside.",
+            "vocab": [
+              {
+                "word": "splashing about",
+                "band": 8,
+                "meaning": "playing in water in a noisy, cheerful way",
+                "example": "The toddlers were splashing about in the paddling pool all afternoon."
+              },
+              {
+                "word": "stay out",
+                "band": 7,
+                "meaning": "remain outside the house, especially until late",
+                "example": "We were allowed to stay out until dark during the holidays."
+              },
+              {
+                "word": "carefree childhood",
+                "band": 8,
+                "meaning": "a happy early life with no worries",
+                "example": "He often talks about his carefree childhood in a small fishing village."
+              },
+              {
+                "word": "grew up",
+                "band": 7,
+                "meaning": "spent your childhood and became an adult in a place",
+                "example": "She grew up in a mountain village with no shops at all."
+              }
+            ],
+            "phrases": [
+              "I spent most of my summers at ..., climbing ... and ...",
+              "We'd stay out until ..., and nobody worried ...",
+              "Looking back, it was a carefree ..., and I'm grateful ..."
+            ]
+          },
+          {
+            "q": "Do you think people spend enough time outdoors these days?",
+            "model": "No, I don't think so. Most people are glued to their screens, and many work long hours in offices with barely any daylight. It's a shame, because fresh air and exercise do wonders for your mood. Perhaps cities should create more green spaces so that residents can unwind after work.",
+            "vocab": [
+              {
+                "word": "glued to their screens",
+                "band": 8,
+                "meaning": "unable to stop looking at phones or computers",
+                "example": "Teenagers are often glued to their screens even during family meals."
+              },
+              {
+                "word": "do wonders for",
+                "band": 8,
+                "meaning": "have a very positive effect on",
+                "example": "A good night's sleep can do wonders for your concentration."
+              },
+              {
+                "word": "green spaces",
+                "band": 7,
+                "meaning": "parks and areas of grass or trees in a town",
+                "example": "The council plans to add more green spaces near the housing estates."
+              },
+              {
+                "word": "unwind",
+                "band": 7,
+                "meaning": "relax after a period of work or stress",
+                "example": "I like to unwind with a long bath and some quiet music."
+              }
+            ],
+            "phrases": [
+              "No, I don't think so. Most people are ...",
+              "It's a shame, because ... do wonders for ...",
+              "Perhaps cities should create more ... so that residents can ..."
+            ]
+          },
+          {
+            "q": "Would you like to live closer to nature one day?",
+            "model": "Yes, at some point. I'd love a small house on the edge of a village, within reach of hills and a river. The air would be cleaner, and life would move at a slower pace. The only drawback is that I'd miss the buzz of the city.",
+            "vocab": [
+              {
+                "word": "on the edge of",
+                "band": 7,
+                "meaning": "just inside the outer limit of a place",
+                "example": "Their cottage stands on the edge of a quiet forest."
+              },
+              {
+                "word": "within reach of",
+                "band": 8,
+                "meaning": "close enough to get to easily",
+                "example": "We chose a flat within reach of the station and the shops."
+              },
+              {
+                "word": "move at a slower pace",
+                "band": 8,
+                "meaning": "happen more calmly and less hurriedly",
+                "example": "Life seems to move at a slower pace once you leave the capital."
+              },
+              {
+                "word": "the buzz of the city",
+                "band": 8,
+                "meaning": "the lively, exciting atmosphere of a busy city",
+                "example": "Some people could never give up the buzz of the city for country life."
+              }
+            ],
+            "phrases": [
+              "Yes, at some point. I'd love a ... on the edge of ...",
+              "The air would be ..., and life would move at ...",
+              "The only drawback is that I'd miss ..."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Photographs",
+        "questions": [
+          {
+            "q": "Do you like taking photographs?",
+            "model": "Yes, I do, mostly on my phone. I like to capture everyday moments, such as a street scene or a colourful sunset, and I often snap a few shots when I'm travelling. It's a lovely way to hold on to memories that would otherwise fade.",
+            "vocab": [
+              {
+                "word": "capture everyday moments",
+                "band": 8,
+                "meaning": "record small ordinary events in a photo",
+                "example": "Good photographers capture everyday moments that most of us walk past."
+              },
+              {
+                "word": "street scene",
+                "band": 7,
+                "meaning": "a view of ordinary life outdoors in a town",
+                "example": "The painting shows a lively street scene in an old market town."
+              },
+              {
+                "word": "snap a few shots",
+                "band": 8,
+                "meaning": "quickly take several photographs",
+                "example": "Tourists stopped to snap a few shots of the famous bridge."
+              },
+              {
+                "word": "hold on to memories",
+                "band": 7,
+                "meaning": "keep memories alive and not forget them",
+                "example": "Old letters help my grandmother hold on to memories of her youth."
+              }
+            ],
+            "phrases": [
+              "Yes, I do, mostly on my ... I like to capture ...",
+              "I often snap a few shots when I'm ...",
+              "It's a lovely way to hold on to ... that would otherwise ..."
+            ]
+          },
+          {
+            "q": "Do you remember the last photo you took?",
+            "model": "Yes, it was a shot of my friends laughing at a barbecue last Saturday. Everyone was caught off guard, so the expressions look completely natural. I prefer candid pictures like that to posed ones, because they show people's genuine personalities.",
+            "vocab": [
+              {
+                "word": "caught off guard",
+                "band": 8,
+                "meaning": "surprised when you were not ready",
+                "example": "The question caught him off guard, and he had no answer prepared."
+              },
+              {
+                "word": "look completely natural",
+                "band": 7,
+                "meaning": "seem relaxed and not forced",
+                "example": "Her smiles look completely natural because she had no idea we were filming."
+              },
+              {
+                "word": "candid pictures",
+                "band": 8,
+                "meaning": "unposed photos taken when people are not paying attention",
+                "example": "Wedding guests often love candid pictures more than the formal portraits."
+              },
+              {
+                "word": "genuine",
+                "band": 7,
+                "meaning": "real and sincere, not pretending",
+                "example": "She gave a genuine smile when she saw her old friends."
+              }
+            ],
+            "phrases": [
+              "Yes, it was a shot of ... last ...",
+              "Everyone was caught off guard, so ... look completely natural.",
+              "I prefer ... like that to ..., because they show ..."
+            ]
+          },
+          {
+            "q": "Do you prefer printing photos or keeping them on your phone?",
+            "model": "I keep most of them on my phone, since it's so convenient to scroll through thousands of pictures. However, I print my favourites, because a physical copy feels more special. Besides, I always back up my files, since phones can break, and I would hate to lose precious memories.",
+            "vocab": [
+              {
+                "word": "scroll through",
+                "band": 7,
+                "meaning": "look quickly through a long list on a screen",
+                "example": "I scroll through the news on my phone every morning on the train."
+              },
+              {
+                "word": "physical copy",
+                "band": 8,
+                "meaning": "a real printed version you can hold in your hands",
+                "example": "Some readers still prefer a physical copy of the newspaper."
+              },
+              {
+                "word": "back up",
+                "band": 7,
+                "meaning": "save an extra copy of files in case something goes wrong",
+                "example": "Remember to back up your essay before you close the laptop."
+              },
+              {
+                "word": "precious memories",
+                "band": 7,
+                "meaning": "memories that are extremely valuable to you",
+                "example": "The old album is full of precious memories from our family holidays."
+              }
+            ],
+            "phrases": [
+              "I keep most of them on ..., since it's so ... to ...",
+              "However, I print my favourites, because a ... feels more ...",
+              "Besides, I always ..., since ..., and I would hate to lose ..."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "part2": {
+    "cue": {
+      "topic": "Describe a place in nature that you enjoyed visiting",
+      "bullets": [
+        "where the place is",
+        "when you went there and who you went with",
+        "what you did there",
+        "and explain why you enjoyed visiting it"
+      ],
+      "prepSeconds": 60,
+      "talkSeconds": 120
+    },
+    "model": "I'd like to talk about a lovely day I spent at Ullswater, a long, narrow lake in the Lake District in the north of England. I went there last August with my cousin Priya and two university friends, and we had been looking forward to it for weeks. We set off at dawn and drove for nearly four hours, passing rolling hills dotted with sheep. When we finally arrived, the water was so still that the mountains were reflected perfectly in it. It took my breath away. I had never seen such a calm, beautiful scene. Once we had spread out our picnic by the shore, we hired a small rowing boat and drifted out to the middle of the lake. Later we hiked up a steep path to a viewpoint, where we could see for miles in every direction. Priya, who is a keen photographer, spent ages trying to capture the light as it broke through the clouds. The reason I enjoyed it so much is that everything felt peaceful and far from the hustle and bustle of my daily life. There was no traffic and no phone signal, so we simply talked and laughed. By the time we headed home, I felt completely recharged. That trip reminded me how much I need to get back to nature, and we have already planned to return next summer.",
+    "vocab": [
+      {
+        "word": "set off",
+        "band": 7,
+        "meaning": "begin a journey",
+        "example": "We set off before sunrise to avoid the holiday traffic."
+      },
+      {
+        "word": "rolling hills",
+        "band": 7,
+        "meaning": "gently rising and falling green countryside",
+        "example": "The train passes through miles of rolling hills and quiet farms."
+      },
+      {
+        "word": "dotted with",
+        "band": 8,
+        "meaning": "covered here and there with small things",
+        "example": "The beach was dotted with colourful umbrellas by lunchtime."
+      },
+      {
+        "word": "took my breath away",
+        "band": 8,
+        "meaning": "amazed me so much that I could not speak",
+        "example": "The view from the summit literally took my breath away."
+      },
+      {
+        "word": "hustle and bustle",
+        "band": 8,
+        "meaning": "the noisy, busy activity of a crowded place",
+        "example": "I enjoy escaping the hustle and bustle of the city centre."
+      },
+      {
+        "word": "completely recharged",
+        "band": 8,
+        "meaning": "full of energy again after resting",
+        "example": "After a week in the mountains, I felt completely recharged for work."
+      }
+    ],
+    "phrases": [
+      "I'd like to talk about",
+      "We set off ... and",
+      "It took my breath away.",
+      "The reason I enjoyed it so much is that",
+      "That trip reminded me how much"
+    ],
+    "structure": [
+      "Introduce the place and where it is",
+      "Say when you went and who you went with",
+      "Describe the journey and your first impression",
+      "Explain what you did there, step by step",
+      "Say why you enjoyed it and how you felt afterwards",
+      "Finish with what the trip taught you or your future plans"
+    ],
+    "roundingOff": {
+      "q": "Would you like to go back there one day?",
+      "model": "Absolutely. I'd love to return in autumn, when the leaves turn golden and the crowds thin out. Next time I'd like to stay overnight in a small cabin, so I could wake up to the sunrise over the water and explore the quieter trails at my own pace.",
+      "vocab": [
+        {
+          "word": "thin out",
+          "band": 8,
+          "meaning": "become fewer in number",
+          "example": "The crowds thin out once the summer holidays are over."
+        },
+        {
+          "word": "stay overnight",
+          "band": 7,
+          "meaning": "spend the night somewhere",
+          "example": "We decided to stay overnight at a farmhouse near the beach."
+        },
+        {
+          "word": "wake up to",
+          "band": 7,
+          "meaning": "open your eyes in the morning and see or hear something",
+          "example": "I love to wake up to the sound of birdsong."
+        },
+        {
+          "word": "at my own pace",
+          "band": 7,
+          "meaning": "as quickly or slowly as I choose",
+          "example": "I prefer to study at my own pace rather than in a class."
+        }
+      ],
+      "phrases": [
+        "Absolutely. I'd love to ... in ..., when ...",
+        "Next time I'd like to ..., so I could ...",
+        "... and explore ... at my own pace."
+      ]
+    }
+  },
+  "part3": {
+    "theme": "The environment and conservation",
+    "questions": [
+      {
+        "q": "Why do you think some people show little concern for the environment?",
+        "model": "I think many people feel the problem is too big for them to solve, so they simply look the other way. Others are preoccupied with making ends meet, and protecting nature seems like a luxury. In addition, the damage is often gradual, which makes it easy to ignore. Personally, I believe education and clearer information about the consequences could raise awareness and turn indifference into action. Until that changes, progress will stay slow.",
+        "vocab": [
+          {
+            "word": "look the other way",
+            "band": 8,
+            "meaning": "deliberately ignore a problem",
+            "example": "Officials who look the other way allow illegal dumping to continue."
+          },
+          {
+            "word": "preoccupied with",
+            "band": 8,
+            "meaning": "so busy thinking about one thing that you ignore others",
+            "example": "Commuters are often preoccupied with deadlines and rarely notice pollution."
+          },
+          {
+            "word": "making ends meet",
+            "band": 8,
+            "meaning": "earning just enough money to pay for basic needs",
+            "example": "Many families are preoccupied with making ends meet, so recycling is not a priority."
+          },
+          {
+            "word": "raise awareness",
+            "band": 7,
+            "meaning": "help more people understand a problem",
+            "example": "Documentaries can raise awareness of how plastic harms marine life."
+          }
+        ],
+        "phrases": [
+          "I think many people feel ..., so they simply ...",
+          "Others are preoccupied with ..., and ... seems like a luxury.",
+          "Personally, I believe ... could raise awareness and ..."
+        ]
+      },
+      {
+        "q": "To what extent should individuals, rather than governments, be responsible for protecting the environment?",
+        "model": "To a certain extent, but I'd say governments carry the greater burden. Individuals can recycle and cut down on waste, yet only legislation can force large factories to curb their emissions. Without strict regulations, businesses tend to put profit first. That said, personal choices add up, and consumer pressure can push companies towards greener practices. So I think real progress needs both levels working together. Honestly, neither side can succeed entirely alone.",
+        "vocab": [
+          {
+            "word": "curb their emissions",
+            "band": 8,
+            "meaning": "limit the amount of harmful gas they release",
+            "example": "Cities are introducing charges to make drivers curb their emissions."
+          },
+          {
+            "word": "strict regulations",
+            "band": 7,
+            "meaning": "firm official rules that must be obeyed",
+            "example": "Strict regulations have cleaned up the rivers around the old factories."
+          },
+          {
+            "word": "put profit first",
+            "band": 8,
+            "meaning": "care more about making money than about anything else",
+            "example": "Some firms put profit first and ignore the damage they cause."
+          },
+          {
+            "word": "add up",
+            "band": 7,
+            "meaning": "gradually become a large total",
+            "example": "Small savings add up over the course of a whole year."
+          }
+        ],
+        "phrases": [
+          "To a certain extent, but I'd say ... carry the greater burden.",
+          "Without strict ..., businesses tend to ...",
+          "That said, personal choices add up, and ..."
+        ]
+      },
+      {
+        "q": "Should wildlife reserves and national parks receive more funding?",
+        "model": "Yes, I firmly believe they should. Many species are on the brink of extinction because their habitats are shrinking, and protected areas give them a fighting chance. Parks also draw tourists, so the investment often pays for itself. However, funding alone is not enough; rangers need proper training, and local communities must benefit, otherwise people will resent the restrictions. Personally, I would rather see taxes fund these places than luxury projects.",
+        "vocab": [
+          {
+            "word": "on the brink of extinction",
+            "band": 9,
+            "meaning": "very close to disappearing forever",
+            "example": "Several rare frogs are on the brink of extinction because of drought."
+          },
+          {
+            "word": "protected areas",
+            "band": 7,
+            "meaning": "places where law prevents damage to nature",
+            "example": "Protected areas have helped the number of tigers slowly recover."
+          },
+          {
+            "word": "fighting chance",
+            "band": 8,
+            "meaning": "a small but real opportunity to succeed",
+            "example": "Early treatment gave the injured eagle a fighting chance of survival."
+          },
+          {
+            "word": "pays for itself",
+            "band": 8,
+            "meaning": "earns back as much money as it costs",
+            "example": "A good cycling network pays for itself through healthier citizens."
+          }
+        ],
+        "phrases": [
+          "Yes, I firmly believe they should. Many ... are on the brink of ...",
+          "... give them a fighting chance.",
+          "However, funding alone is not enough; ... need ..."
+        ]
+      },
+      {
+        "q": "What might happen if we fail to tackle climate change in the coming decades?",
+        "model": "The consequences could be severe. Rising sea levels may swallow low-lying coastal cities, and droughts and floods could wipe out entire harvests. This would trigger food shortages and force millions to leave their homes. It's a sobering thought, which is why I think governments must act decisively now rather than leave the problem to future generations. Sadly, the poorest countries would suffer first, even though they contribute least to the problem.",
+        "vocab": [
+          {
+            "word": "rising sea levels",
+            "band": 8,
+            "meaning": "the ocean getting higher over time",
+            "example": "Rising sea levels already threaten several small island nations."
+          },
+          {
+            "word": "wipe out",
+            "band": 8,
+            "meaning": "destroy completely",
+            "example": "A single severe frost can wipe out a farmer's entire apple crop."
+          },
+          {
+            "word": "food shortages",
+            "band": 7,
+            "meaning": "times when there is not enough food for people",
+            "example": "Food shortages led to rising prices and protests in the capital."
+          },
+          {
+            "word": "sobering thought",
+            "band": 8,
+            "meaning": "an idea that makes you feel serious and worried",
+            "example": "It is a sobering thought that glaciers could vanish within decades."
+          }
+        ],
+        "phrases": [
+          "The consequences could be severe. ... may swallow ..., and ...",
+          "This would trigger ... and force ...",
+          "It's a sobering thought, which is why I think ... must act ..."
+        ]
+      },
+      {
+        "q": "How far can technology be relied upon to solve environmental problems?",
+        "model": "Technology can certainly help, but it is no silver bullet. Renewable energy, such as solar and wind power, is already reducing our dependence on fossil fuels, and electric vehicles are becoming mainstream. On the other hand, relying solely on innovation may encourage people to carry on consuming as before. In my view, we need to combine new technology with genuine changes in lifestyle. Otherwise, we risk postponing difficult decisions. That balance is the only realistic path forward.",
+        "vocab": [
+          {
+            "word": "silver bullet",
+            "band": 8,
+            "meaning": "a simple solution that fixes a complicated problem",
+            "example": "Nobody should expect a silver bullet for plastic pollution."
+          },
+          {
+            "word": "renewable energy",
+            "band": 7,
+            "meaning": "power from sources that do not run out, such as wind",
+            "example": "Renewable energy now supplies a third of the country's electricity."
+          },
+          {
+            "word": "dependence on fossil fuels",
+            "band": 8,
+            "meaning": "needing coal, oil and gas for most of our power",
+            "example": "Reducing our dependence on fossil fuels will take at least two decades."
+          },
+          {
+            "word": "changes in lifestyle",
+            "band": 7,
+            "meaning": "alterations to how people live and behave day to day",
+            "example": "Eating less meat is one of the easiest changes in lifestyle to make."
+          }
+        ],
+        "phrases": [
+          "Technology can certainly help, but it is no silver bullet.",
+          "On the other hand, relying solely on ... may encourage people to ...",
+          "In my view, we need to combine ... with genuine ..."
+        ]
+      },
+      {
+        "q": "Is it right to ask people to pay more tax to protect the environment?",
+        "model": "I think it is reasonable, provided the money is spent transparently. Environmental damage costs everyone in the long run, so it makes sense for us all to contribute. For example, a small levy on plastic bags has dramatically reduced litter in many countries. However, the burden should fall mainly on heavy polluters rather than low-income families who are already struggling. Transparency would help citizens trust the system and accept the cost.",
+        "vocab": [
+          {
+            "word": "in the long run",
+            "band": 7,
+            "meaning": "over a long period of time, eventually",
+            "example": "Cheap shoes can cost more in the long run because they wear out fast."
+          },
+          {
+            "word": "a small levy",
+            "band": 8,
+            "meaning": "a modest extra charge added by the government",
+            "example": "A small levy on disposable cups encouraged people to bring their own."
+          },
+          {
+            "word": "heavy polluters",
+            "band": 8,
+            "meaning": "companies or people that cause a lot of pollution",
+            "example": "Heavy polluters should pay for cleaning the rivers they contaminate."
+          },
+          {
+            "word": "low-income families",
+            "band": 7,
+            "meaning": "households that earn very little money",
+            "example": "Low-income families spend a large share of their wages on energy bills."
+          }
+        ],
+        "phrases": [
+          "I think it is reasonable, provided ...",
+          "... costs everyone in the long run, so it makes sense for us all to ...",
+          "However, the burden should fall mainly on ... rather than ..."
+        ]
+      }
+    ]
+  }
+}

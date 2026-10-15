@@ -1,0 +1,724 @@
+{
+  "id": "s13",
+  "title": "Speaking Mock 13",
+  "part1": {
+    "topics": [
+      {
+        "name": "Weekends",
+        "questions": [
+          {
+            "q": "What do you usually do at weekends?",
+            "model": "Saturdays are for catching up on chores and meeting friends, while I keep Sundays free to unwind. Last weekend we hiked up a nearby hill and had a picnic at the top. It's a lovely change of pace from my hectic weekdays, and I always feel recharged afterwards.",
+            "vocab": [
+              {
+                "word": "catching up on",
+                "band": 7,
+                "meaning": "doing things you did not have time to do earlier",
+                "example": "I spend Saturday mornings catching up on emails and laundry."
+              },
+              {
+                "word": "unwind",
+                "band": 7,
+                "meaning": "relax and stop feeling stressed",
+                "example": "A long walk by the river helps me unwind after work."
+              },
+              {
+                "word": "change of pace",
+                "band": 8,
+                "meaning": "a pleasant difference from your usual routine",
+                "example": "Visiting my cousins in the village is a welcome change of pace."
+              },
+              {
+                "word": "feel recharged",
+                "band": 8,
+                "meaning": "feel full of energy again after resting",
+                "example": "A quiet weekend away always makes me feel recharged for Monday."
+              }
+            ],
+            "phrases": [
+              "Saturdays are for ... while I keep Sundays free to ...",
+              "Last weekend we ...",
+              "It's a lovely change of pace from ..."
+            ]
+          },
+          {
+            "q": "Do you prefer spending weekends alone or with other people?",
+            "model": "It depends on my week. After a draining few days at work, I crave some peace and quiet, so I might read at home on my own. But by Sunday I'm usually itching to see people, and nothing beats a long lunch with close friends. I suppose I like a healthy mix of both.",
+            "vocab": [
+              {
+                "word": "draining",
+                "band": 8,
+                "meaning": "making you feel extremely tired",
+                "example": "Looking after three small children all day can be draining."
+              },
+              {
+                "word": "peace and quiet",
+                "band": 7,
+                "meaning": "a calm situation without noise or interruption",
+                "example": "I just want some peace and quiet when I get home."
+              },
+              {
+                "word": "itching to",
+                "band": 8,
+                "meaning": "very eager to do something",
+                "example": "After weeks of rain, we were itching to get outside."
+              },
+              {
+                "word": "nothing beats",
+                "band": 8,
+                "meaning": "there is no better thing than",
+                "example": "Nothing beats a hot bath after a long run in the cold."
+              }
+            ],
+            "phrases": [
+              "It depends on my week. After ..., I crave ...",
+              "By Sunday I'm usually itching to ...",
+              "Nothing beats ... with close friends."
+            ]
+          },
+          {
+            "q": "Is there anything you wish you could do more at weekends?",
+            "model": "I'd love to travel more, to be honest. Most weekends I'm tied up with errands and family commitments, so I rarely get the chance to explore somewhere new. If I could, I'd take a spontaneous day trip to the coast, just to get away from it all for a few hours.",
+            "vocab": [
+              {
+                "word": "tied up with",
+                "band": 8,
+                "meaning": "very busy with something",
+                "example": "I'm tied up with university projects until the end of the month."
+              },
+              {
+                "word": "family commitments",
+                "band": 7,
+                "meaning": "duties and promises involving your relatives",
+                "example": "Family commitments make it hard for her to travel in summer."
+              },
+              {
+                "word": "get the chance to",
+                "band": 7,
+                "meaning": "have the opportunity to do something",
+                "example": "I hope I get the chance to visit Japan next year."
+              },
+              {
+                "word": "get away from it all",
+                "band": 8,
+                "meaning": "escape from your normal busy life for a while",
+                "example": "We rented a cabin by the lake to get away from it all."
+              }
+            ],
+            "phrases": [
+              "I'd love to ... more, to be honest.",
+              "Most weekends I'm tied up with ..., so I rarely ...",
+              "If I could, I'd take a ... just to ..."
+            ]
+          },
+          {
+            "q": "How did you spend your weekends when you were a child?",
+            "model": "We used to pile into the car and visit my grandparents in the countryside. I'd spend hours climbing trees and chasing chickens with my cousins, completely carefree. Looking back, those weekends gave me some of my fondest memories, and I still miss the smell of my grandmother's kitchen.",
+            "vocab": [
+              {
+                "word": "pile into",
+                "band": 8,
+                "meaning": "get into a vehicle in a crowded, untidy way",
+                "example": "All six of us would pile into my uncle's tiny van."
+              },
+              {
+                "word": "spend hours",
+                "band": 7,
+                "meaning": "use a long time doing one activity",
+                "example": "My brother can spend hours building models of old ships."
+              },
+              {
+                "word": "fondest memories",
+                "band": 8,
+                "meaning": "the happiest and most loved things you remember",
+                "example": "Summer camp gave me some of my fondest memories of school."
+              },
+              {
+                "word": "carefree",
+                "band": 7,
+                "meaning": "free from worry or responsibility",
+                "example": "Those were carefree days, with no homework and no deadlines."
+              }
+            ],
+            "phrases": [
+              "We used to ... and ...",
+              "I'd spend hours ... with my ...",
+              "Looking back, those weekends gave me ..."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "News",
+        "questions": [
+          {
+            "q": "How do you usually get your news?",
+            "model": "Mostly through a news app on my phone. I get breaking news alerts during the day and skim the headlines on my commute. If a story catches my eye, I'll read it in more detail in the evening. It's quick, free and keeps me up to date with what's going on.",
+            "vocab": [
+              {
+                "word": "breaking news",
+                "band": 7,
+                "meaning": "very recent news reported as it happens",
+                "example": "The channel interrupted the film to report some breaking news."
+              },
+              {
+                "word": "skim the headlines",
+                "band": 8,
+                "meaning": "read only the main titles quickly",
+                "example": "I usually skim the headlines before my first lecture starts."
+              },
+              {
+                "word": "catches my eye",
+                "band": 7,
+                "meaning": "attracts my attention",
+                "example": "Only articles about health ever catch my eye on that website."
+              },
+              {
+                "word": "up to date",
+                "band": 7,
+                "meaning": "having the latest information",
+                "example": "Reading the paper daily keeps my father up to date on politics."
+              }
+            ],
+            "phrases": [
+              "Mostly through ...",
+              "If a story catches my eye, I'll ...",
+              "It keeps me up to date with ..."
+            ]
+          },
+          {
+            "q": "Do you trust the news you read online?",
+            "model": "Not entirely. There's so much fake news out there that I double-check anything that sounds too good to be true, usually by looking at a reputable source. Headlines are often designed to grab attention, so I try to take them with a pinch of salt until I've read the whole article.",
+            "vocab": [
+              {
+                "word": "fake news",
+                "band": 7,
+                "meaning": "false stories made to look like real reports",
+                "example": "Fake news spread quickly during the last election campaign."
+              },
+              {
+                "word": "double-check",
+                "band": 7,
+                "meaning": "make sure something is correct by checking again",
+                "example": "Always double-check the dates before you book the tickets."
+              },
+              {
+                "word": "reputable source",
+                "band": 8,
+                "meaning": "a person or organisation known to be reliable",
+                "example": "A reputable source such as a university report is far safer to quote."
+              },
+              {
+                "word": "with a pinch of salt",
+                "band": 8,
+                "meaning": "not believing something completely",
+                "example": "You should take online reviews with a pinch of salt."
+              }
+            ],
+            "phrases": [
+              "Not entirely. There's so much ... that I ...",
+              "... usually by looking at ...",
+              "I try to take them with a pinch of salt until ..."
+            ]
+          },
+          {
+            "q": "Is there any kind of news you try to avoid?",
+            "model": "Yes, I steer clear of celebrity gossip because it's such a waste of time. I'd also rather not dwell on gloomy stories about disasters, as they leave me feeling anxious. I prefer news about science and technology, which is far more uplifting and gives me something worth talking about.",
+            "vocab": [
+              {
+                "word": "steer clear of",
+                "band": 8,
+                "meaning": "deliberately avoid something",
+                "example": "I steer clear of heated arguments about politics at family dinners."
+              },
+              {
+                "word": "celebrity gossip",
+                "band": 7,
+                "meaning": "talk or stories about the private lives of famous people",
+                "example": "My flatmate reads celebrity gossip on the bus every morning."
+              },
+              {
+                "word": "dwell on",
+                "band": 8,
+                "meaning": "keep thinking or talking about something unpleasant",
+                "example": "It is unhealthy to dwell on mistakes you cannot undo."
+              },
+              {
+                "word": "uplifting",
+                "band": 8,
+                "meaning": "making you feel more cheerful and hopeful",
+                "example": "The charity run was an uplifting day for the whole town."
+              }
+            ],
+            "phrases": [
+              "Yes, I steer clear of ... because ...",
+              "I'd also rather not dwell on ...",
+              "I prefer news about ..., which is far more ..."
+            ]
+          },
+          {
+            "q": "Do young people in your country follow the news closely?",
+            "model": "Not really, I'd say. Most of my friends get their information from social media feeds, so they only see snippets rather than the full picture. Some switch off completely because the news is so negative. I think that's a pity, since staying informed is part of being a responsible citizen.",
+            "vocab": [
+              {
+                "word": "social media feeds",
+                "band": 7,
+                "meaning": "the stream of posts you see on social networks",
+                "example": "Her social media feeds are full of recipes and travel photos."
+              },
+              {
+                "word": "the full picture",
+                "band": 8,
+                "meaning": "a complete understanding of a situation",
+                "example": "One short video rarely gives you the full picture of a conflict."
+              },
+              {
+                "word": "switch off",
+                "band": 7,
+                "meaning": "stop paying attention to something",
+                "example": "I switch off whenever the discussion turns to football statistics."
+              },
+              {
+                "word": "responsible citizen",
+                "band": 8,
+                "meaning": "a member of society who behaves in a caring, sensible way",
+                "example": "A responsible citizen votes and respects the rules of the community."
+              }
+            ],
+            "phrases": [
+              "Not really, I'd say. Most of my friends ...",
+              "... rather than the full picture.",
+              "I think that's a pity, since ..."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Memory",
+        "questions": [
+          {
+            "q": "Would you say you have a good memory?",
+            "model": "Mixed, really. I'm hopeless with names, but I can remember the smallest details of conversations. I rely on reminders on my phone, otherwise things slip my mind. My sister, on the other hand, has a memory like an elephant and never forgets a birthday.",
+            "vocab": [
+              {
+                "word": "hopeless with names",
+                "band": 8,
+                "meaning": "very bad at remembering what people are called",
+                "example": "I'm hopeless with names, so I write them down after meetings."
+              },
+              {
+                "word": "rely on",
+                "band": 7,
+                "meaning": "depend on something to help you",
+                "example": "Many students rely on alarms to wake up for early classes."
+              },
+              {
+                "word": "slip my mind",
+                "band": 8,
+                "meaning": "be forgotten without you intending it",
+                "example": "The dentist appointment completely slipped my mind yesterday."
+              },
+              {
+                "word": "memory like an elephant",
+                "band": 9,
+                "meaning": "an excellent ability to remember things for a long time",
+                "example": "My grandfather has a memory like an elephant when it comes to football scores."
+              }
+            ],
+            "phrases": [
+              "Mixed, really. I'm hopeless with ..., but I can ...",
+              "Otherwise things slip my mind.",
+              "My sister, on the other hand, has ..."
+            ]
+          },
+          {
+            "q": "What do you do to help yourself remember things?",
+            "model": "I jot down everything in a notebook, from shopping lists to deadlines. For exams I used to make colourful flashcards and repeat the key points out loud until they sink in. It sounds old-fashioned, but writing by hand helps information stick in my head.",
+            "vocab": [
+              {
+                "word": "jot down",
+                "band": 7,
+                "meaning": "write something quickly in a short form",
+                "example": "Let me jot down your number before I forget it."
+              },
+              {
+                "word": "flashcards",
+                "band": 7,
+                "meaning": "small cards with a question on one side and an answer on the other",
+                "example": "Learning vocabulary with flashcards on the train works well for me."
+              },
+              {
+                "word": "sink in",
+                "band": 8,
+                "meaning": "become fully understood or accepted",
+                "example": "It took a few days for the exam result to sink in."
+              },
+              {
+                "word": "stick in my head",
+                "band": 8,
+                "meaning": "be remembered easily",
+                "example": "Songs with catchy choruses always stick in my head for days."
+              }
+            ],
+            "phrases": [
+              "I jot down everything in ..., from ... to ...",
+              "I used to make ... and repeat ... until they sink in.",
+              "It sounds old-fashioned, but ..."
+            ]
+          },
+          {
+            "q": "Is there a place or an object that brings back memories for you?",
+            "model": "Definitely my old school bag, which I still keep in the attic. Whenever I open it, the smell of pencils and leather takes me back to my first day of primary school. It brings back a flood of memories, and I'm sentimental enough that I can't bring myself to throw it away.",
+            "vocab": [
+              {
+                "word": "takes me back to",
+                "band": 7,
+                "meaning": "makes me remember a time in the past",
+                "example": "That old song takes me back to my teenage summers."
+              },
+              {
+                "word": "flood of memories",
+                "band": 8,
+                "meaning": "many memories coming into your mind at the same time",
+                "example": "Walking into my old classroom brought a flood of memories."
+              },
+              {
+                "word": "sentimental",
+                "band": 8,
+                "meaning": "influenced by feelings of love or nostalgia",
+                "example": "She is sentimental about anything her late father owned."
+              },
+              {
+                "word": "can't bring myself to",
+                "band": 8,
+                "meaning": "be unable to make yourself do something",
+                "example": "I can't bring myself to sell my grandfather's watch."
+              }
+            ],
+            "phrases": [
+              "Definitely my old ..., which I still keep in ...",
+              "Whenever I ..., the smell of ... takes me back to ...",
+              "I'm sentimental enough that I can't bring myself to ..."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "part2": {
+    "cue": {
+      "topic": "Describe a decision you made that changed your life",
+      "bullets": [
+        "what the decision was",
+        "when and why you made it",
+        "how you made up your mind",
+        "and explain how it changed your life"
+      ],
+      "prepSeconds": 60,
+      "talkSeconds": 120
+    },
+    "model": "I'd like to talk about the decision I made three years ago to quit my secure job at a bank and retrain as a physiotherapist. At the time I was twenty-six and earning a decent salary, but I dreaded Monday mornings and felt stuck in a rut. The turning point came when I badly injured my knee playing football. My physiotherapist, a patient woman called Priya, had me back on my feet in just three months, and I was deeply impressed by how much she loved her work. For weeks I weighed up the pros and cons. Leaving a stable income was a huge leap of faith, especially as my parents were worried I would regret it. I talked it over with Priya and with my older brother, who told me to follow my heart, and in the end I took the plunge and handed in my notice. It wasn't easy. I had to dip into my savings, live in a tiny rented room and study late into the night. Even so, I never doubted my choice. Today I work at a busy sports clinic, and seeing a patient walk without pain is incredibly fulfilling. The decision completely changed my life, because I'm now doing something meaningful rather than simply paying the bills. Looking back, I'm so glad I didn't play it safe, and I'd encourage anyone in a similar position to be brave.",
+    "vocab": [
+      {
+        "word": "stuck in a rut",
+        "band": 8,
+        "meaning": "living a boring routine that never changes",
+        "example": "After ten years in the same office, he felt stuck in a rut."
+      },
+      {
+        "word": "turning point",
+        "band": 7,
+        "meaning": "the moment when an important change begins",
+        "example": "Winning that debate was the turning point in her confidence."
+      },
+      {
+        "word": "weighed up the pros and cons",
+        "band": 8,
+        "meaning": "carefully compared the good and bad sides of a choice",
+        "example": "We weighed up the pros and cons before buying a flat."
+      },
+      {
+        "word": "leap of faith",
+        "band": 8,
+        "meaning": "a brave step taken without being sure of the result",
+        "example": "Opening his own cafe was a real leap of faith."
+      },
+      {
+        "word": "took the plunge",
+        "band": 8,
+        "meaning": "finally decided to do something risky or important",
+        "example": "After years of talking about it, they took the plunge and moved abroad."
+      },
+      {
+        "word": "dip into my savings",
+        "band": 8,
+        "meaning": "use some of the money you have saved",
+        "example": "We had to dip into our savings to repair the roof."
+      }
+    ],
+    "phrases": [
+      "I'd like to talk about the decision I made ...",
+      "The turning point came when ...",
+      "In the end I took the plunge and ...",
+      "Even so, I never doubted ...",
+      "Looking back, I'm so glad I ..."
+    ],
+    "structure": [
+      "Introduce the decision and when you made it",
+      "Explain your situation before and why you wanted a change",
+      "Describe how you made up your mind (people you talked to, doubts you had)",
+      "Explain the difficulties you faced after deciding",
+      "Describe how your life is different now and how you feel about the choice"
+    ],
+    "roundingOff": {
+      "q": "Do you think it is wise to make big decisions quickly?",
+      "model": "Generally not. Major choices deserve careful thought, so I'd advise sleeping on it before committing. That said, overthinking can lead to missed opportunities, so there's a fine line. In my case, a few weeks of reflection and honest advice from loved ones struck the right balance.",
+      "vocab": [
+        {
+          "word": "sleeping on it",
+          "band": 8,
+          "meaning": "waiting until the next day before deciding",
+          "example": "I'm sleeping on it and I'll give you my answer tomorrow."
+        },
+        {
+          "word": "missed opportunities",
+          "band": 7,
+          "meaning": "chances that were not taken advantage of",
+          "example": "Shyness has caused her several missed opportunities at work."
+        },
+        {
+          "word": "a fine line",
+          "band": 8,
+          "meaning": "a very small difference between two things",
+          "example": "There is a fine line between confidence and arrogance."
+        },
+        {
+          "word": "struck the right balance",
+          "band": 8,
+          "meaning": "found a good middle position between two things",
+          "example": "The new timetable struck the right balance between study and rest."
+        }
+      ],
+      "phrases": [
+        "Generally not. ... deserve careful thought, so ...",
+        "That said, ... can lead to ...",
+        "In my case, a few weeks of ... struck the right balance."
+      ]
+    }
+  },
+  "part3": {
+    "theme": "Decision-making, risk and change",
+    "questions": [
+      {
+        "q": "Why do some people find it hard to make important decisions?",
+        "model": "I think fear of failure is the main reason. When the stakes are high, people worry about making the wrong call and being judged by others, so they put things off indefinitely. Having too many options can also be paralysing, because every choice means giving something up. Personally, I believe breaking a big decision into smaller steps makes it far less daunting. It also helps to talk things through with someone you trust.",
+        "vocab": [
+          {
+            "word": "fear of failure",
+            "band": 7,
+            "meaning": "worry that you will not succeed",
+            "example": "Fear of failure stops many talented people from applying."
+          },
+          {
+            "word": "the stakes are high",
+            "band": 8,
+            "meaning": "there is a lot to win or lose",
+            "example": "In final exams, the stakes are high for every student."
+          },
+          {
+            "word": "put things off",
+            "band": 7,
+            "meaning": "delay doing something until later",
+            "example": "I tend to put things off when a task feels overwhelming."
+          },
+          {
+            "word": "talk things through",
+            "band": 7,
+            "meaning": "discuss a problem fully to understand it",
+            "example": "Couples should talk things through before moving to a new city."
+          }
+        ],
+        "phrases": [
+          "I think ... is the main reason. When ..., people worry about ...",
+          "Having too many options can also be ...",
+          "It also helps to talk things through with ..."
+        ]
+      },
+      {
+        "q": "To what extent should people take risks in their careers?",
+        "model": "To a fair extent, I'd say, provided the risk is calculated. Playing it safe may guarantee a steady income, but it can also leave people stagnating in jobs they have outgrown. Taking a chance on a new field often pays off in the long run, as long as you have a financial cushion to fall back on. However, reckless gambles with no plan are rarely wise. The key is to weigh the potential rewards against what you could realistically lose.",
+        "vocab": [
+          {
+            "word": "playing it safe",
+            "band": 8,
+            "meaning": "avoiding risks and choosing the secure option",
+            "example": "Playing it safe will never make you a famous artist."
+          },
+          {
+            "word": "pays off in the long run",
+            "band": 8,
+            "meaning": "brings a good result after a long time",
+            "example": "Learning a second language pays off in the long run."
+          },
+          {
+            "word": "financial cushion",
+            "band": 8,
+            "meaning": "savings that protect you if money problems arise",
+            "example": "A financial cushion lets you survive a few months without income."
+          },
+          {
+            "word": "fall back on",
+            "band": 8,
+            "meaning": "use something as a safe alternative if plans fail",
+            "example": "It helps to have a second skill to fall back on."
+          }
+        ],
+        "phrases": [
+          "To a fair extent, I'd say, provided ...",
+          "... often pays off in the long run, as long as ...",
+          "The key is to weigh ... against ..."
+        ]
+      },
+      {
+        "q": "Should young people be encouraged to follow their passions or to choose stable careers?",
+        "model": "Ideally a bit of both. Passion keeps people motivated through tough times, but passion alone rarely pays the rent, so a realistic plan matters. I'd encourage young people to explore their interests while they build marketable skills, so that they have more than one string to their bow. Parents sometimes push their children towards secure professions, which is understandable, yet forcing someone into a career they dislike can lead to burnout. Ultimately, the decision should belong to the individual.",
+        "vocab": [
+          {
+            "word": "pays the rent",
+            "band": 7,
+            "meaning": "earns enough money for basic living costs",
+            "example": "Painting is my passion, but teaching pays the rent."
+          },
+          {
+            "word": "marketable skills",
+            "band": 8,
+            "meaning": "abilities that employers are willing to pay for",
+            "example": "Coding is one of the most marketable skills among graduates."
+          },
+          {
+            "word": "string to their bow",
+            "band": 9,
+            "meaning": "an extra skill or option you can use",
+            "example": "Speaking Mandarin is another string to their bow in business."
+          },
+          {
+            "word": "lead to burnout",
+            "band": 8,
+            "meaning": "cause total physical and mental exhaustion",
+            "example": "Working seventy hours a week will eventually lead to burnout."
+          }
+        ],
+        "phrases": [
+          "Ideally a bit of both. ... keeps people motivated, but ...",
+          "I'd encourage young people to ... while they ...",
+          "Ultimately, the decision should belong to ..."
+        ]
+      },
+      {
+        "q": "What might be the consequences of living in a society that changes so quickly?",
+        "model": "Rapid change brings both opportunities and strains. On the plus side, new technologies create jobs and make daily life easier. On the downside, older workers may struggle to keep pace, and traditional communities can lose their identity. People may also feel overwhelmed when nothing stays the same for long. I think governments need to cushion the impact by funding retraining schemes and protecting cultural heritage, so that nobody gets left behind.",
+        "vocab": [
+          {
+            "word": "keep pace",
+            "band": 7,
+            "meaning": "stay level with others who are moving or developing fast",
+            "example": "Small shops often cannot keep pace with online retailers."
+          },
+          {
+            "word": "cushion the impact",
+            "band": 8,
+            "meaning": "make the harmful effects of something less severe",
+            "example": "Subsidies can cushion the impact of rising energy prices."
+          },
+          {
+            "word": "retraining schemes",
+            "band": 8,
+            "meaning": "programmes that teach workers new skills for new jobs",
+            "example": "Retraining schemes helped many miners find work in the tech sector."
+          },
+          {
+            "word": "gets left behind",
+            "band": 7,
+            "meaning": "fails to progress as quickly as others",
+            "example": "Nobody should be allowed to get left behind while the economy grows."
+          }
+        ],
+        "phrases": [
+          "Rapid change brings both ... and ... On the plus side, ...",
+          "On the downside, ... may struggle to ...",
+          "I think governments need to ... by funding ..., so that ..."
+        ]
+      },
+      {
+        "q": "Do you think people today are more or less afraid of change than in the past?",
+        "model": "Probably less, at least among younger generations. People used to stay in one town and one job for life, whereas today changing careers or moving abroad is almost the norm. Social media also exposes us to different lifestyles, which makes alternatives feel within reach. That said, uncertainty about the economy leaves many people clinging to what they know. So the fear hasn't vanished; it has simply shifted from change itself to the cost of getting it wrong.",
+        "vocab": [
+          {
+            "word": "almost the norm",
+            "band": 7,
+            "meaning": "nearly standard or usual behaviour",
+            "example": "Working from home is almost the norm in many companies now."
+          },
+          {
+            "word": "within reach",
+            "band": 7,
+            "meaning": "possible to achieve or obtain",
+            "example": "With a scholarship, a degree abroad is suddenly within reach."
+          },
+          {
+            "word": "clinging to",
+            "band": 8,
+            "meaning": "holding on tightly to something familiar",
+            "example": "Some villagers are clinging to old traditions in the face of modern life."
+          },
+          {
+            "word": "shifted from",
+            "band": 8,
+            "meaning": "moved or changed away from one thing to another",
+            "example": "Public concern has shifted from unemployment to the cost of housing."
+          }
+        ],
+        "phrases": [
+          "Probably less, at least among ... People used to ..., whereas today ...",
+          "That said, uncertainty about ... leaves many people ...",
+          "So the fear hasn't vanished; it has simply ..."
+        ]
+      },
+      {
+        "q": "How far do you agree that making mistakes is essential for personal growth?",
+        "model": "I agree to a large extent. Mistakes force us to reflect and adapt, and many of my most valuable lessons came from getting things wrong. Successful entrepreneurs often describe early failures as stepping stones rather than disasters. However, some errors, such as medical blunders, carry serious consequences, so the idea doesn't apply everywhere. In everyday life, though, I think learning from experience builds resilience and a healthier attitude to risk over time.",
+        "vocab": [
+          {
+            "word": "to a large extent",
+            "band": 7,
+            "meaning": "mostly, but not completely",
+            "example": "The project succeeded to a large extent thanks to its volunteers."
+          },
+          {
+            "word": "stepping stones",
+            "band": 8,
+            "meaning": "steps that help you reach a bigger goal",
+            "example": "Part-time jobs can be useful stepping stones towards a career."
+          },
+          {
+            "word": "builds resilience",
+            "band": 7,
+            "meaning": "helps people recover well from difficulties",
+            "example": "Playing team sports builds resilience in teenagers who lose matches."
+          },
+          {
+            "word": "carry serious consequences",
+            "band": 7,
+            "meaning": "lead to very bad results",
+            "example": "Breaking safety rules on a building site can carry serious consequences."
+          }
+        ],
+        "phrases": [
+          "I agree to a large extent. ... force us to ...",
+          "... often describe early failures as ... rather than ...",
+          "In everyday life, though, I think ... builds ..."
+        ]
+      }
+    ]
+  }
+}

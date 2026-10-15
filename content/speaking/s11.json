@@ -1,0 +1,725 @@
+{
+  "id": "s11",
+  "title": "Speaking Mock 11",
+  "part1": {
+    "topics": [
+      {
+        "name": "Languages",
+        "questions": [
+          {
+            "q": "Which languages can you speak?",
+            "model": "Apart from my mother tongue, I speak English and a little French. I picked up English at school, but I only became fluent after a year abroad. My French is rusty, to be honest, so I can get by in a café, but not much more.",
+            "vocab": [
+              {
+                "word": "mother tongue",
+                "band": 7,
+                "meaning": "the first language you learn as a child",
+                "example": "My mother tongue is Vietnamese, but I use English at work."
+              },
+              {
+                "word": "picked up",
+                "band": 7,
+                "meaning": "learned something gradually without formal study",
+                "example": "He picked up some Spanish while travelling around Peru last summer."
+              },
+              {
+                "word": "get by",
+                "band": 7,
+                "meaning": "manage with just enough knowledge or money",
+                "example": "I can get by in German when I order food or ask directions."
+              },
+              {
+                "word": "rusty",
+                "band": 8,
+                "meaning": "not as good as before because you have not practised",
+                "example": "My piano skills are rusty after ten years without lessons."
+              }
+            ],
+            "phrases": [
+              "Apart from my ..., I speak ...",
+              "I picked up ... at ..., but I only became ... after ...",
+              "My ... is rusty, to be honest, so I can get by in ..."
+            ]
+          },
+          {
+            "q": "Why did you start learning English?",
+            "model": "Mainly for my career. Most of the best jobs in my field require strong English, so it was a real door opener. I also wanted to follow my favourite series without subtitles, which gave me extra motivation to keep going whenever the grammar started to get me down.",
+            "vocab": [
+              {
+                "word": "door opener",
+                "band": 8,
+                "meaning": "something that gives you new opportunities",
+                "example": "A degree from abroad can be a real door opener for graduates."
+              },
+              {
+                "word": "extra motivation",
+                "band": 7,
+                "meaning": "an additional reason that makes you want to try harder",
+                "example": "Seeing my friends improve gave me extra motivation to practise more."
+              },
+              {
+                "word": "keep going",
+                "band": 7,
+                "meaning": "continue doing something even when it is hard",
+                "example": "It is tough to keep going when progress feels painfully slow."
+              },
+              {
+                "word": "get me down",
+                "band": 7,
+                "meaning": "make me feel sad or discouraged",
+                "example": "Long winters in the north really get me down every year."
+              }
+            ],
+            "phrases": [
+              "Mainly for ... Most of the best ... require ...",
+              "It was a real door opener.",
+              "... gave me extra motivation to keep going whenever ..."
+            ]
+          },
+          {
+            "q": "What do you find hardest about learning a new language?",
+            "model": "Pronunciation, definitely, because some sounds simply don't exist in my language. I also struggle to hold a conversation at natural speed, as native speakers tend to run their words together. Still, I try not to be too hard on myself, since making mistakes is part of the process.",
+            "vocab": [
+              {
+                "word": "hold a conversation",
+                "band": 7,
+                "meaning": "talk with someone for a reasonable length of time",
+                "example": "After six months of lessons, she could hold a conversation with taxi drivers."
+              },
+              {
+                "word": "native speakers",
+                "band": 7,
+                "meaning": "people who learned the language from birth",
+                "example": "Listening to native speakers on podcasts has sharpened my ear for rhythm."
+              },
+              {
+                "word": "at natural speed",
+                "band": 7,
+                "meaning": "as fast as people normally talk",
+                "example": "Films are difficult at first because the actors speak at natural speed."
+              },
+              {
+                "word": "hard on myself",
+                "band": 8,
+                "meaning": "too critical of my own mistakes",
+                "example": "You should not be so hard on yourself when you forget a word."
+              }
+            ],
+            "phrases": [
+              "... definitely, because ...",
+              "I also struggle to ... at natural speed, as ...",
+              "Still, I try not to be too hard on myself, since ..."
+            ]
+          },
+          {
+            "q": "Would you like to learn another language in the future?",
+            "model": "Yes, I'd love to learn Japanese one day. I've been fascinated by the culture ever since I watched anime as a teenager, and I think it would be a great challenge. Right now I'm too busy, but I'm hoping to sign up for evening classes next year.",
+            "vocab": [
+              {
+                "word": "fascinated by",
+                "band": 8,
+                "meaning": "extremely interested in something",
+                "example": "Children are often fascinated by the stars and the planets."
+              },
+              {
+                "word": "ever since",
+                "band": 7,
+                "meaning": "continuously from a time in the past until now",
+                "example": "I have wanted to visit Kyoto ever since I saw that documentary."
+              },
+              {
+                "word": "sign up for",
+                "band": 7,
+                "meaning": "officially join a course or activity",
+                "example": "My brother wants to sign up for a cooking course this autumn."
+              },
+              {
+                "word": "evening classes",
+                "band": 7,
+                "meaning": "lessons held after the working day",
+                "example": "Evening classes are ideal for people with full-time jobs."
+              }
+            ],
+            "phrases": [
+              "Yes, I'd love to learn ... one day.",
+              "I've been fascinated by ... ever since ...",
+              "I'm hoping to sign up for ... next year."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Art",
+        "questions": [
+          {
+            "q": "Do you like visiting art galleries?",
+            "model": "Yes, I do, though I don't go as often as I'd like. I find it relaxing to wander around at my own pace and let the paintings speak for themselves. Last spring I saw a wonderful exhibition of local painters, and it was well worth the ticket price.",
+            "vocab": [
+              {
+                "word": "wander around",
+                "band": 7,
+                "meaning": "walk slowly without a fixed plan",
+                "example": "We spent the afternoon wandering around the old market with no plan."
+              },
+              {
+                "word": "at my own pace",
+                "band": 7,
+                "meaning": "as fast or as slowly as I choose",
+                "example": "I prefer to study at my own pace rather than in a rush."
+              },
+              {
+                "word": "speak for themselves",
+                "band": 8,
+                "meaning": "be so clear or impressive that no explanation is needed",
+                "example": "His results speak for themselves, so he deserves the promotion."
+              },
+              {
+                "word": "well worth",
+                "band": 7,
+                "meaning": "definitely deserving the time or money spent",
+                "example": "The view from the top of the tower is well worth the climb."
+              }
+            ],
+            "phrases": [
+              "I find it relaxing to ... at my own pace and ...",
+              "Last spring I saw ..., and it was well worth ...",
+              "Yes, I do, though I don't ... as often as I'd like."
+            ]
+          },
+          {
+            "q": "Did you draw or paint when you were a child?",
+            "model": "Yes, all the time. I was always doodling on my school notebooks, much to my teacher's annoyance. My aunt, who is a professional illustrator, gave me my first set of watercolours, and I spent whole afternoons lost in my own little world. I wish I had kept it up.",
+            "vocab": [
+              {
+                "word": "doodling on",
+                "band": 7,
+                "meaning": "drawing casually while thinking about something else",
+                "example": "He spent the whole lecture doodling on the back of his handout."
+              },
+              {
+                "word": "set of watercolours",
+                "band": 7,
+                "meaning": "a box of paints mixed with water",
+                "example": "She bought a small set of watercolours for her birthday trip."
+              },
+              {
+                "word": "lost in my own little world",
+                "band": 8,
+                "meaning": "so absorbed that you ignore everything around you",
+                "example": "When she reads, she gets lost in her own little world."
+              },
+              {
+                "word": "kept it up",
+                "band": 7,
+                "meaning": "continued doing something regularly",
+                "example": "I started jogging in January and somehow kept it up all year."
+              }
+            ],
+            "phrases": [
+              "Yes, all the time. I was always ...",
+              "... gave me my first ..., and I spent whole afternoons ...",
+              "I wish I had kept it up."
+            ]
+          },
+          {
+            "q": "Is there any artwork in your home?",
+            "model": "A few pieces, yes. The one that stands out is a large print of a mountain landscape hanging above our sofa, which my parents brought back from a trip. It adds a splash of colour to the room, and it's a great conversation starter whenever guests come round.",
+            "vocab": [
+              {
+                "word": "stands out",
+                "band": 7,
+                "meaning": "is easy to notice because it is different or special",
+                "example": "Her red coat really stands out in a crowd of grey suits."
+              },
+              {
+                "word": "brought back",
+                "band": 7,
+                "meaning": "returned home carrying something from a trip",
+                "example": "He brought back a handmade bowl from his holiday in Morocco."
+              },
+              {
+                "word": "splash of colour",
+                "band": 8,
+                "meaning": "a small bright area that makes a place livelier",
+                "example": "A vase of yellow flowers adds a splash of colour to the kitchen."
+              },
+              {
+                "word": "conversation starter",
+                "band": 8,
+                "meaning": "something that easily gets people talking",
+                "example": "An unusual painting is always a good conversation starter at parties."
+              }
+            ],
+            "phrases": [
+              "A few pieces, yes. The one that stands out is ...",
+              "... which my parents brought back from ...",
+              "It adds a splash of colour to ..., and it's a great conversation starter whenever ..."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Films",
+        "questions": [
+          {
+            "q": "How often do you watch films?",
+            "model": "Probably once or twice a week, usually on Friday nights when I'm done with work. I like to put my feet up with a bowl of popcorn and just switch off. During exam season I cut back, but otherwise a good film is the highlight of my week.",
+            "vocab": [
+              {
+                "word": "put my feet up",
+                "band": 7,
+                "meaning": "relax, especially by sitting or lying down",
+                "example": "After a long shift I just want to put my feet up and rest."
+              },
+              {
+                "word": "switch off",
+                "band": 7,
+                "meaning": "stop thinking about work or worries",
+                "example": "It takes me an hour to switch off after a busy day."
+              },
+              {
+                "word": "cut back",
+                "band": 7,
+                "meaning": "reduce the amount you do or use",
+                "example": "I had to cut back on coffee because it kept me awake."
+              },
+              {
+                "word": "the highlight of my week",
+                "band": 8,
+                "meaning": "the best and most enjoyable part of my week",
+                "example": "Sunday lunch with my grandparents is the highlight of my week."
+              }
+            ],
+            "phrases": [
+              "Probably once or twice a week, usually on ...",
+              "I like to put my feet up with ... and just switch off.",
+              "During ... I cut back, but otherwise ... is the highlight of my week."
+            ]
+          },
+          {
+            "q": "Do you prefer watching films at home or at the cinema?",
+            "model": "For big blockbusters, I'd go to the cinema every time because the huge screen and booming sound really draw you in. But for everyday viewing, I stay in. It's cheaper, and I can pause whenever I like, which makes it far more flexible, especially when I'm on a tight budget.",
+            "vocab": [
+              {
+                "word": "big blockbusters",
+                "band": 7,
+                "meaning": "very expensive, popular films with lots of action",
+                "example": "Big blockbusters usually come out in the summer holidays."
+              },
+              {
+                "word": "draw you in",
+                "band": 8,
+                "meaning": "capture your attention so completely that you feel part of it",
+                "example": "A strong opening scene can draw you in within minutes."
+              },
+              {
+                "word": "stay in",
+                "band": 7,
+                "meaning": "remain at home instead of going out",
+                "example": "On rainy evenings we usually stay in and order a pizza."
+              },
+              {
+                "word": "on a tight budget",
+                "band": 8,
+                "meaning": "having very little money to spend",
+                "example": "Students on a tight budget often cook their own meals."
+              }
+            ],
+            "phrases": [
+              "For ..., I'd go to the cinema every time because ...",
+              "But for everyday viewing, I stay in. It's cheaper, and ...",
+              "..., especially when I'm on a tight budget."
+            ]
+          },
+          {
+            "q": "What kind of films do you like?",
+            "model": "I'm a sucker for thrillers with a clever twist at the end. I love trying to work out who did it before the characters do, and a good plot twist leaves me on the edge of my seat. Romantic comedies are a bit too predictable for me, to be honest.",
+            "vocab": [
+              {
+                "word": "a sucker for",
+                "band": 8,
+                "meaning": "someone who cannot resist a particular thing",
+                "example": "I'm a sucker for old black-and-white detective stories."
+              },
+              {
+                "word": "work out",
+                "band": 7,
+                "meaning": "find the answer by thinking carefully",
+                "example": "It took the class ten minutes to work out the puzzle."
+              },
+              {
+                "word": "plot twist",
+                "band": 7,
+                "meaning": "a sudden, surprising change in a story",
+                "example": "The plot twist in the final scene caught the whole audience off guard."
+              },
+              {
+                "word": "on the edge of my seat",
+                "band": 8,
+                "meaning": "extremely excited and eager to see what happens next",
+                "example": "The last ten minutes of the match had me on the edge of my seat."
+              }
+            ],
+            "phrases": [
+              "I'm a sucker for ... with ...",
+              "I love trying to work out ... before ...",
+              "... leaves me on the edge of my seat."
+            ]
+          },
+          {
+            "q": "Who do you usually watch films with?",
+            "model": "Mostly with my flatmates. We take turns choosing the film, which keeps things fair, and we usually end up debating the ending afterwards over a late-night snack. Every now and then I go to the cinema with my cousin, who has a weakness for animated films.",
+            "vocab": [
+              {
+                "word": "take turns",
+                "band": 7,
+                "meaning": "do something one after another so everyone has a chance",
+                "example": "The children take turns to choose the bedtime story."
+              },
+              {
+                "word": "end up",
+                "band": 7,
+                "meaning": "finally be in a situation, often without planning it",
+                "example": "We always end up talking until midnight whenever she visits."
+              },
+              {
+                "word": "every now and then",
+                "band": 7,
+                "meaning": "occasionally, but not very often",
+                "example": "Every now and then we cook a big meal for the whole street."
+              },
+              {
+                "word": "weakness for",
+                "band": 8,
+                "meaning": "a strong liking for something you find hard to resist",
+                "example": "My father has a weakness for sweet pastries and strong coffee."
+              }
+            ],
+            "phrases": [
+              "Mostly with my ... We take turns ...",
+              "We usually end up ... afterwards over ...",
+              "Every now and then I go to ... with my ..., who has a weakness for ..."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "part2": {
+    "cue": {
+      "topic": "Describe a film that made a strong impression on you",
+      "bullets": [
+        "what the film was called and what it was about",
+        "when and where you watched it",
+        "who you watched it with",
+        "and explain why it made such a strong impression on you"
+      ],
+      "prepSeconds": 60,
+      "talkSeconds": 120
+    },
+    "model": "I'd like to talk about an animated film called Coco, which I watched about three years ago and still think about today. It follows a young Mexican boy named Miguel, who dreams of becoming a musician even though his family has banned music for generations. One night he ends up in the Land of the Dead, where he uncovers the truth about his great-great-grandfather. I watched it at a small neighbourhood cinema with my younger cousin, Farah. To be honest, I only agreed to go because she begged me, and I expected a lighthearted cartoon. I was completely wrong. About halfway through, the story took a turn I did not see coming, and by the end I was fighting back tears, while Farah was sobbing quietly beside me. What struck me most was the way the film deals with memory and family. The idea that people live on as long as someone remembers them really stayed with me. The music was stunning as well, and the vibrant colours made every scene a feast for the eyes. Afterwards, Farah and I sat in the car park for ages, talking about our grandparents. It reminded me how precious those relationships are, so I phoned my grandmother that very evening. Looking back, it was more than just entertainment. It was a gentle push to cherish the people I love, and that is why it made such a lasting impression.",
+    "vocab": [
+      {
+        "word": "fighting back tears",
+        "band": 8,
+        "meaning": "trying hard not to cry",
+        "example": "She sat fighting back tears during the emotional farewell scene."
+      },
+      {
+        "word": "took a turn",
+        "band": 8,
+        "meaning": "changed direction in an unexpected way",
+        "example": "The conversation suddenly took a turn when he mentioned his illness."
+      },
+      {
+        "word": "stayed with me",
+        "band": 7,
+        "meaning": "remained in my mind for a long time",
+        "example": "The opening song stayed with me for weeks afterwards."
+      },
+      {
+        "word": "a feast for the eyes",
+        "band": 9,
+        "meaning": "something wonderful to look at",
+        "example": "The garden in full bloom was a feast for the eyes."
+      },
+      {
+        "word": "live on",
+        "band": 7,
+        "meaning": "continue to exist in memory after death",
+        "example": "Great writers live on through the stories they leave behind."
+      },
+      {
+        "word": "lasting impression",
+        "band": 8,
+        "meaning": "a strong effect that is remembered for years",
+        "example": "Her kindness made a lasting impression on everyone in the office."
+      }
+    ],
+    "phrases": [
+      "I'd like to talk about",
+      "I only agreed to go because",
+      "What struck me most was",
+      "I did not see coming",
+      "It reminded me how",
+      "Looking back,"
+    ],
+    "structure": [
+      "Introduce the film and when you saw it",
+      "Summarise the story and the main characters briefly",
+      "Explain where you watched it and who you watched it with",
+      "Describe the moment or scene that affected you most",
+      "Explain why it made such a strong impression and what you took from it"
+    ],
+    "roundingOff": {
+      "q": "Do you think films can change the way people think?",
+      "model": "Absolutely, in my view. A powerful film can make you see a problem from a completely different angle and get you talking about it for days. Documentaries on climate change, for instance, have helped shape public opinion and even influenced government policy, so I'd say cinema is a real force for change.",
+      "vocab": [
+        {
+          "word": "completely different angle",
+          "band": 7,
+          "meaning": "a totally new way of looking at an issue",
+          "example": "Talking to locals gave me a completely different angle on the story."
+        },
+        {
+          "word": "get you talking",
+          "band": 7,
+          "meaning": "make you start a discussion",
+          "example": "A controversial headline will always get you talking at the dinner table."
+        },
+        {
+          "word": "shape public opinion",
+          "band": 8,
+          "meaning": "influence what ordinary people believe",
+          "example": "Newspapers have long tried to shape public opinion on big issues."
+        },
+        {
+          "word": "a force for change",
+          "band": 8,
+          "meaning": "something with the power to make society different",
+          "example": "Young voters can be a force for change in local elections."
+        }
+      ],
+      "phrases": [
+        "Absolutely, in my view.",
+        "... can make you see ... from a completely different angle.",
+        "..., so I'd say ... is a real force for change."
+      ]
+    }
+  },
+  "part3": {
+    "theme": "Media and entertainment",
+    "questions": [
+      {
+        "q": "Why do so many people nowadays prefer streaming services to traditional television?",
+        "model": "I think it mainly comes down to convenience. Streaming platforms let viewers watch whatever they like, whenever they like, instead of being tied to a fixed schedule. They also offer a vast library of content at a reasonable monthly price, which is hard to beat. On the other hand, endless choice can lead to decision fatigue, and I know people who spend an hour scrolling before giving up. Personally, I still enjoy live broadcasts for big sporting events.",
+        "vocab": [
+          {
+            "word": "fixed schedule",
+            "band": 7,
+            "meaning": "set times that cannot be changed",
+            "example": "Working from home means I no longer follow a fixed schedule."
+          },
+          {
+            "word": "vast library of content",
+            "band": 8,
+            "meaning": "a very large collection of films and programmes",
+            "example": "The museum's website has a vast library of content for teachers."
+          },
+          {
+            "word": "hard to beat",
+            "band": 7,
+            "meaning": "so good that it is difficult to find anything better",
+            "example": "For value, a family ticket is hard to beat."
+          },
+          {
+            "word": "decision fatigue",
+            "band": 9,
+            "meaning": "tiredness caused by having to make too many choices",
+            "example": "Shopping for hours leaves me with decision fatigue and an empty wallet."
+          }
+        ],
+        "phrases": [
+          "I think it mainly comes down to ...",
+          "They also offer ... at a reasonable monthly price, which is hard to beat.",
+          "On the other hand, endless choice can lead to ..."
+        ]
+      },
+      {
+        "q": "To what extent does the media influence what young people think and how they behave?",
+        "model": "To a large extent, I would say it does. Young people spend hours online, so the influencers and shows they follow shape their tastes, their fashion and even their opinions. A great deal of content sets unrealistic beauty standards, which can damage self-esteem. That said, teenagers aren't passive, and many are quite sceptical. In my view, media literacy lessons at school would help them avoid being swept along by every passing trend.",
+        "vocab": [
+          {
+            "word": "unrealistic beauty standards",
+            "band": 8,
+            "meaning": "ideas about appearance that almost nobody can match",
+            "example": "Advertising often promotes unrealistic beauty standards that make people feel inadequate."
+          },
+          {
+            "word": "damage self-esteem",
+            "band": 8,
+            "meaning": "make a person feel less confident about themselves",
+            "example": "Constant online comparison can damage self-esteem in teenagers."
+          },
+          {
+            "word": "media literacy",
+            "band": 9,
+            "meaning": "the ability to question and understand what media tells you",
+            "example": "Media literacy helps students spot fake news before sharing it."
+          },
+          {
+            "word": "swept along by",
+            "band": 8,
+            "meaning": "carried away by a strong trend or feeling",
+            "example": "Many shoppers get swept along by the excitement of a sale."
+          }
+        ],
+        "phrases": [
+          "To a large extent, I would say it does.",
+          "A great deal of content ..., which can ...",
+          "In my view, ... would help them avoid being swept along by ..."
+        ]
+      },
+      {
+        "q": "Should governments control violent content in films and video games?",
+        "model": "I believe some regulation is necessary, particularly to protect young children. Age ratings already help parents decide what is suitable, but they are often ignored online. Repeated exposure to graphic violence may make aggression seem normal, so parents also need to talk openly with their children about what they watch. However, I wouldn't want governments to go too far, since heavy-handed censorship can restrict creative freedom. A sensible compromise is clear labelling combined with strict enforcement on platforms aimed at minors.",
+        "vocab": [
+          {
+            "word": "age ratings",
+            "band": 7,
+            "meaning": "official labels showing who a film is suitable for",
+            "example": "Age ratings on games are there to guide parents."
+          },
+          {
+            "word": "graphic violence",
+            "band": 8,
+            "meaning": "very detailed and realistic scenes of fighting or injury",
+            "example": "The film was criticised for its graphic violence in the opening scene."
+          },
+          {
+            "word": "heavy-handed censorship",
+            "band": 9,
+            "meaning": "harsh official control over what people may see",
+            "example": "Heavy-handed censorship often pushes people to look for banned material elsewhere."
+          },
+          {
+            "word": "creative freedom",
+            "band": 7,
+            "meaning": "the right of artists to express ideas as they wish",
+            "example": "Directors fight hard to protect their creative freedom."
+          }
+        ],
+        "phrases": [
+          "I believe some regulation is necessary, particularly to ...",
+          "However, I wouldn't want governments to go too far, since ...",
+          "A sensible compromise is ... combined with ..."
+        ]
+      },
+      {
+        "q": "What might be the consequences of celebrities having so much influence over the public?",
+        "model": "One risk is that fans blindly copy whatever their idols do. When a famous face endorses a product, people often trust it without checking the facts, which advertisers can exploit. On the flip side, celebrities can use their fame for good by raising awareness of important causes, such as mental health. So the real issue is whether they act responsibly. I'd argue they should be held to a higher standard because so many people look up to them.",
+        "vocab": [
+          {
+            "word": "endorses a product",
+            "band": 8,
+            "meaning": "publicly says that a product is good, usually for payment",
+            "example": "A footballer who endorses a product can double its sales overnight."
+          },
+          {
+            "word": "raising awareness",
+            "band": 7,
+            "meaning": "helping more people to know about a problem",
+            "example": "The campaign succeeded in raising awareness of plastic pollution."
+          },
+          {
+            "word": "look up to",
+            "band": 7,
+            "meaning": "admire and respect someone",
+            "example": "Young players look up to successful athletes in their city."
+          },
+          {
+            "word": "held to a higher standard",
+            "band": 8,
+            "meaning": "expected to behave better than ordinary people",
+            "example": "Public figures should be held to a higher standard of honesty."
+          }
+        ],
+        "phrases": [
+          "One risk is that ...",
+          "On the flip side, ... can use their ... for good by ...",
+          "I'd argue they should be held to a higher standard because ..."
+        ]
+      },
+      {
+        "q": "How far do you agree that cinemas will eventually be replaced by home streaming?",
+        "model": "I don't think cinemas will disappear completely, but they will have to adapt. Home streaming is cheaper and more comfortable, so many people no longer see the point of queuing for tickets. Even so, nothing quite matches the atmosphere of watching a premiere on the big screen with a crowd. I suspect cinemas will survive by offering something special, such as immersive screens and live events. In other words, they will move upmarket rather than vanish.",
+        "vocab": [
+          {
+            "word": "see the point of",
+            "band": 7,
+            "meaning": "understand the purpose or benefit of doing something",
+            "example": "Some drivers don't see the point of paying for parking in the city centre."
+          },
+          {
+            "word": "nothing quite matches",
+            "band": 8,
+            "meaning": "there is no real equal to something",
+            "example": "Nothing quite matches the feeling of finishing a long hike."
+          },
+          {
+            "word": "on the big screen",
+            "band": 7,
+            "meaning": "in a cinema rather than on a small device",
+            "example": "Epic adventure stories look far better on the big screen."
+          },
+          {
+            "word": "move upmarket",
+            "band": 8,
+            "meaning": "change to offer more expensive, higher-quality products",
+            "example": "Several high-street cafés have moved upmarket to attract wealthier customers."
+          }
+        ],
+        "phrases": [
+          "I don't think ... will disappear completely, but they will have to adapt.",
+          "Even so, nothing quite matches ...",
+          "In other words, they will ... rather than ..."
+        ]
+      },
+      {
+        "q": "Do you think entertainment should aim to educate as well as amuse?",
+        "model": "Ideally, both. People mainly watch films and series to unwind, so purely escapist entertainment has its place. However, the most memorable stories often teach us something without feeling like a lecture. Historical dramas, for example, can bring the past to life in a way textbooks rarely manage. I think the best producers strike a balance, offering a gripping plot while quietly broadening the audience's outlook. If viewers learn something by accident, that is a bonus.",
+        "vocab": [
+          {
+            "word": "has its place",
+            "band": 7,
+            "meaning": "is useful or acceptable in the right situation",
+            "example": "A light comedy has its place after a stressful week."
+          },
+          {
+            "word": "bring the past to life",
+            "band": 8,
+            "meaning": "make history feel real and vivid",
+            "example": "Costumes and music help bring the past to life for young viewers."
+          },
+          {
+            "word": "strike a balance",
+            "band": 7,
+            "meaning": "find a fair middle position between two things",
+            "example": "It is hard to strike a balance between work and leisure."
+          },
+          {
+            "word": "gripping plot",
+            "band": 7,
+            "meaning": "a story so exciting that you cannot stop following it",
+            "example": "A gripping plot kept the whole audience silent until the final scene."
+          }
+        ],
+        "phrases": [
+          "Ideally, both. People mainly ... to unwind, so ... has its place.",
+          "... can bring the past to life in a way ... rarely manage.",
+          "I think the best ... strike a balance, offering ... while ..."
+        ]
+      }
+    ]
+  }
+}

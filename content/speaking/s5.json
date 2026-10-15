@@ -1,0 +1,724 @@
+{
+  "id": "s5",
+  "title": "Speaking Mock 5",
+  "part1": {
+    "topics": [
+      {
+        "name": "Friends",
+        "questions": [
+          {
+            "q": "How often do you see your close friends?",
+            "model": "Usually once or twice a week. We tend to hang out at a café near my flat, and when exams get busy we just keep in touch online. Honestly, even a quick chat helps me unwind, so I make a point of seeing them whenever I can.",
+            "vocab": [
+              {
+                "word": "hang out",
+                "band": 7,
+                "meaning": "spend relaxed free time with someone",
+                "example": "My cousins and I usually hang out at the beach on Sundays."
+              },
+              {
+                "word": "keep in touch",
+                "band": 7,
+                "meaning": "stay in contact with someone regularly",
+                "example": "It is easy to keep in touch with old classmates through group chats."
+              },
+              {
+                "word": "unwind",
+                "band": 7,
+                "meaning": "relax after a busy or stressful time",
+                "example": "Listening to jazz is the best way for me to unwind."
+              },
+              {
+                "word": "make a point of",
+                "band": 8,
+                "meaning": "deliberately do something because it matters",
+                "example": "I make a point of calling my best friend every single Friday."
+              }
+            ],
+            "phrases": [
+              "Usually once or twice a week. We tend to ...",
+              "When ... gets busy, we just ...",
+              "I make a point of ... whenever I can."
+            ]
+          },
+          {
+            "q": "What do you like to do with your friends?",
+            "model": "We're all keen on hiking, so most weekends we head for the hills with a packed lunch. It's a great way to let off steam after a busy week, and we always end up laughing about something silly. Occasionally we just stay in and cook together.",
+            "vocab": [
+              {
+                "word": "keen on",
+                "band": 7,
+                "meaning": "very interested in or enthusiastic about something",
+                "example": "My brother is keen on photography and carries his camera everywhere."
+              },
+              {
+                "word": "head for",
+                "band": 7,
+                "meaning": "go in the direction of a place",
+                "example": "As soon as lessons finish, the students head for the canteen."
+              },
+              {
+                "word": "let off steam",
+                "band": 8,
+                "meaning": "get rid of stress or energy by doing something active",
+                "example": "Playing football is how I let off steam after a hard exam."
+              },
+              {
+                "word": "end up",
+                "band": 7,
+                "meaning": "finally be in a situation without having planned it",
+                "example": "We planned a short walk but ended up climbing the whole mountain."
+              }
+            ],
+            "phrases": [
+              "We're all keen on ..., so most weekends we ...",
+              "It's a great way to let off steam after ...",
+              "We always end up ... about something silly."
+            ]
+          },
+          {
+            "q": "Do you prefer having a few close friends or many casual friends?",
+            "model": "I'd rather have a handful of close friends. I find it hard to open up to people I barely know, whereas my best mates know me inside out. It's a case of quality over quantity for me, and I trust those friendships completely.",
+            "vocab": [
+              {
+                "word": "a handful of",
+                "band": 7,
+                "meaning": "a small number of people or things",
+                "example": "A handful of guests stayed behind to help us tidy up."
+              },
+              {
+                "word": "open up",
+                "band": 7,
+                "meaning": "start talking honestly about your feelings",
+                "example": "It took him months to open up about his problems at work."
+              },
+              {
+                "word": "inside out",
+                "band": 8,
+                "meaning": "extremely well, with every detail",
+                "example": "She has read that novel so often that she knows it inside out."
+              },
+              {
+                "word": "quality over quantity",
+                "band": 8,
+                "meaning": "the idea that a few good things are better than many poor ones",
+                "example": "When buying shoes, I always choose quality over quantity."
+              }
+            ],
+            "phrases": [
+              "I'd rather have a handful of ...",
+              "I find it hard to open up to ..., whereas ...",
+              "It's a case of quality over quantity for me."
+            ]
+          },
+          {
+            "q": "Have you ever lost touch with a friend from your childhood?",
+            "model": "Yes, sadly. My best friend from primary school moved abroad when we were twelve, and over the years we simply drifted apart. We were inseparable back then. Last year I tracked down her profile on social media, and we've been back in touch ever since.",
+            "vocab": [
+              {
+                "word": "drifted apart",
+                "band": 8,
+                "meaning": "slowly became less close over time",
+                "example": "After university, the two old friends drifted apart without any argument."
+              },
+              {
+                "word": "inseparable",
+                "band": 8,
+                "meaning": "always together and extremely close",
+                "example": "As toddlers, the twins were inseparable and shared every toy."
+              },
+              {
+                "word": "tracked down",
+                "band": 8,
+                "meaning": "found someone or something after searching carefully",
+                "example": "The police finally tracked down the owner of the missing wallet."
+              },
+              {
+                "word": "back in touch",
+                "band": 7,
+                "meaning": "in contact again after a long gap",
+                "example": "I got back in touch with my old tutor through an email."
+              }
+            ],
+            "phrases": [
+              "Yes, sadly. My ... moved ... when we were ...",
+              "Over the years we simply ...",
+              "Last year I ..., and we've been ... ever since."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Clothes",
+        "questions": [
+          {
+            "q": "What kind of clothes do you usually wear?",
+            "model": "Most days I go for smart-casual outfits, like jeans with a plain shirt. I want to look presentable for classes without being uncomfortable. I wouldn't say I'm fashion-conscious, though; I tend to stick to neutral colours that go with everything.",
+            "vocab": [
+              {
+                "word": "look presentable",
+                "band": 8,
+                "meaning": "appear neat and suitable for other people to see",
+                "example": "He ironed his shirt to look presentable at the interview."
+              },
+              {
+                "word": "fashion-conscious",
+                "band": 8,
+                "meaning": "very interested in the latest styles",
+                "example": "My sister is so fashion-conscious that she follows every new trend."
+              },
+              {
+                "word": "stick to",
+                "band": 7,
+                "meaning": "continue using the same thing and not change",
+                "example": "I always stick to the same brand because the sizes fit me."
+              },
+              {
+                "word": "go with",
+                "band": 7,
+                "meaning": "match well with something else",
+                "example": "That red scarf will go with your dark winter coat."
+              }
+            ],
+            "phrases": [
+              "Most days I go for ..., like ...",
+              "I wouldn't say I'm ..., though.",
+              "I tend to stick to ... that go with everything."
+            ]
+          },
+          {
+            "q": "Do you prefer wearing comfortable or fashionable clothes?",
+            "model": "Comfort wins every time for me. Fashionable pieces can be a pain to wear all day, especially tight shoes. I'd rather throw on a hoodie than suffer for the sake of style, and I feel far more at ease when I'm not trying to impress anyone.",
+            "vocab": [
+              {
+                "word": "a pain",
+                "band": 7,
+                "meaning": "something that is annoying and tiresome",
+                "example": "Ironing twenty shirts every week is a pain for anyone."
+              },
+              {
+                "word": "throw on",
+                "band": 7,
+                "meaning": "put on clothes quickly without much thought",
+                "example": "I just threw on a jumper and ran out to catch the bus."
+              },
+              {
+                "word": "for the sake of",
+                "band": 8,
+                "meaning": "in order to get or keep something",
+                "example": "Nobody should risk their health for the sake of looking slim."
+              },
+              {
+                "word": "at ease",
+                "band": 7,
+                "meaning": "relaxed and not worried or embarrassed",
+                "example": "The friendly waiter quickly made every nervous guest feel at ease."
+              }
+            ],
+            "phrases": [
+              "Comfort wins every time for me.",
+              "I'd rather ... than suffer for the sake of ...",
+              "I feel far more at ease when ..."
+            ]
+          },
+          {
+            "q": "Where do you usually buy your clothes?",
+            "model": "Mostly from high-street shops near my university, because they have sales all year round. I also browse second-hand stalls at the weekend, where you can pick up a bargain for next to nothing. Online shopping is quicker, but I can't tell whether something will fit properly.",
+            "vocab": [
+              {
+                "word": "high-street shops",
+                "band": 7,
+                "meaning": "ordinary shops found in the main shopping area of a town",
+                "example": "Many high-street shops have closed because of online competition."
+              },
+              {
+                "word": "all year round",
+                "band": 7,
+                "meaning": "during every month of the year",
+                "example": "Tourists visit the old harbour all year round, not only in summer."
+              },
+              {
+                "word": "pick up a bargain",
+                "band": 8,
+                "meaning": "buy something good at a very low price",
+                "example": "You can pick up a bargain at the market just before closing."
+              },
+              {
+                "word": "next to nothing",
+                "band": 8,
+                "meaning": "almost no money at all",
+                "example": "She bought the vintage coat for next to nothing at a jumble sale."
+              }
+            ],
+            "phrases": [
+              "Mostly from ..., because they have ...",
+              "I also browse ..., where you can ...",
+              "... is quicker, but I can't tell whether ..."
+            ]
+          },
+          {
+            "q": "Do you think people judge others by what they wear?",
+            "model": "Unfortunately, yes. First impressions count, and a person's outfit often sends a message before they say a word. I try not to judge a book by its cover, but I'll admit I sometimes assume things. Dressing well can open doors, particularly at job interviews.",
+            "vocab": [
+              {
+                "word": "first impressions count",
+                "band": 8,
+                "meaning": "the way you appear when you meet someone is very influential",
+                "example": "In a job interview, first impressions count more than people admit."
+              },
+              {
+                "word": "sends a message",
+                "band": 7,
+                "meaning": "communicates an idea without using words",
+                "example": "A tidy desk sends a message that you take your job seriously."
+              },
+              {
+                "word": "judge a book by its cover",
+                "band": 8,
+                "meaning": "form an opinion of someone only from their appearance",
+                "example": "Never judge a book by its cover; the quiet man was a famous author."
+              },
+              {
+                "word": "open doors",
+                "band": 8,
+                "meaning": "create new opportunities for someone",
+                "example": "A good degree can open doors in almost any career."
+              }
+            ],
+            "phrases": [
+              "Unfortunately, yes. First impressions count, and ...",
+              "I try not to ..., but I'll admit I sometimes ...",
+              "... can open doors, particularly at ..."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Time management",
+        "questions": [
+          {
+            "q": "Are you good at managing your time?",
+            "model": "On the whole, yes, though it took me a while to get the hang of it. I plan my week on Sunday evenings and tick off tasks as I go, which keeps me on track. I used to leave everything until the last minute, and it was seriously stressful.",
+            "vocab": [
+              {
+                "word": "get the hang of",
+                "band": 7,
+                "meaning": "learn how to do something after some practice",
+                "example": "It took a week to get the hang of the new software."
+              },
+              {
+                "word": "tick off",
+                "band": 7,
+                "meaning": "mark a task on a list as completed",
+                "example": "I love the feeling when I tick off the last item on my list."
+              },
+              {
+                "word": "on track",
+                "band": 7,
+                "meaning": "progressing as planned toward a goal",
+                "example": "The project is on track to finish before the end of May."
+              },
+              {
+                "word": "the last minute",
+                "band": 7,
+                "meaning": "the final moment before a deadline",
+                "example": "He booked his flight at the last minute and paid double."
+              }
+            ],
+            "phrases": [
+              "On the whole, yes, though it took me a while to ...",
+              "I plan my week on ... and ... as I go.",
+              "I used to leave everything until ..., and it was ..."
+            ]
+          },
+          {
+            "q": "What do you do when you have too much to do?",
+            "model": "I make a list and prioritise the urgent things first. If I'm snowed under, I ask a classmate to lend a hand or put off the less pressing tasks until the weekend. Staying calm is the key, because panicking only makes me waste even more time.",
+            "vocab": [
+              {
+                "word": "prioritise",
+                "band": 7,
+                "meaning": "decide which things are most important and do them first",
+                "example": "Good managers prioritise tasks according to their deadlines."
+              },
+              {
+                "word": "snowed under",
+                "band": 8,
+                "meaning": "having far more work than you can easily manage",
+                "example": "Our office is snowed under with orders before the holidays."
+              },
+              {
+                "word": "lend a hand",
+                "band": 7,
+                "meaning": "help someone with a task",
+                "example": "Could you lend a hand with these boxes, please?"
+              },
+              {
+                "word": "put off",
+                "band": 7,
+                "meaning": "delay doing something until later",
+                "example": "Stop trying to put off your homework until midnight."
+              }
+            ],
+            "phrases": [
+              "I make a list and prioritise ...",
+              "If I'm snowed under, I ask ... to lend a hand.",
+              "Staying calm is the key, because ..."
+            ]
+          },
+          {
+            "q": "Would you like to be better at planning your time in the future?",
+            "model": "Definitely. I'd love to cut down on the hours I lose scrolling on my phone, because they really add up. Next term I'm planning to try time-blocking, so I can set aside proper time for studying and still have a breather in the evenings.",
+            "vocab": [
+              {
+                "word": "cut down on",
+                "band": 7,
+                "meaning": "reduce the amount of something you do or use",
+                "example": "I am trying to cut down on the time I spend gaming."
+              },
+              {
+                "word": "add up",
+                "band": 7,
+                "meaning": "gradually increase to a large total",
+                "example": "Small daily delays add up to hours of lost time every month."
+              },
+              {
+                "word": "set aside",
+                "band": 7,
+                "meaning": "keep time or money for a particular purpose",
+                "example": "She sets aside an hour each morning for reading."
+              },
+              {
+                "word": "have a breather",
+                "band": 8,
+                "meaning": "take a short rest during a busy time",
+                "example": "Let's have a breather before we start the second chapter."
+              }
+            ],
+            "phrases": [
+              "Next term I'm planning to try ...",
+              "I'd love to cut down on ..., because they really add up.",
+              "... so I can set aside proper time for ..."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "part2": {
+    "cue": {
+      "topic": "Describe a person you admire",
+      "bullets": [
+        "who this person is",
+        "how you know them",
+        "what they have achieved",
+        "and explain why you admire them"
+      ],
+      "prepSeconds": 60,
+      "talkSeconds": 120
+    },
+    "model": "I'd like to talk about my aunt, Farida, whom I've admired for as long as I can remember. She is in her late forties and runs a small bakery in my hometown, which she built up from scratch. A few years ago she was made redundant from a bank, and the whole family assumed she would simply look for another office job. Instead, she took out a modest loan, rented a tiny shop and started baking bread and pastries at four every morning. At first almost nobody came in, and she lost money for months. Even so, she never gave up. Slowly, thanks to word of mouth, the queue began to stretch out of the door, and today she employs six local people. What I admire most is her ability to bounce back from setbacks. I once saw her drop an entire tray of cakes before a big order, yet she just laughed and started again. She is also very down-to-earth, always chatting to customers by name and giving free loaves to elderly neighbours who live alone. I know her because she practically helped raise me, and she taught me to bake my first loaf when I was ten. To me, she leads by example. She showed me that hard work and patience can turn a setback into an opportunity, and that is why I look up to her so much.",
+    "vocab": [
+      {
+        "word": "from scratch",
+        "band": 7,
+        "meaning": "starting with nothing, with no earlier preparation",
+        "example": "They built their online business from scratch in a small spare room."
+      },
+      {
+        "word": "made redundant",
+        "band": 8,
+        "meaning": "told to leave a job because the employer no longer needs the role",
+        "example": "Hundreds of workers were made redundant when the factory closed."
+      },
+      {
+        "word": "word of mouth",
+        "band": 8,
+        "meaning": "information spread by people talking to each other",
+        "example": "The tiny restaurant became famous purely through word of mouth."
+      },
+      {
+        "word": "bounce back",
+        "band": 8,
+        "meaning": "recover quickly after a failure or difficulty",
+        "example": "Great athletes always bounce back from a painful defeat."
+      },
+      {
+        "word": "down-to-earth",
+        "band": 8,
+        "meaning": "practical, sensible and not arrogant",
+        "example": "Despite her fame, the singer is wonderfully down-to-earth and polite."
+      },
+      {
+        "word": "leads by example",
+        "band": 9,
+        "meaning": "shows others how to behave by behaving that way herself",
+        "example": "A good captain leads by example and never skips training."
+      }
+    ],
+    "phrases": [
+      "I'd like to talk about ..., whom I've admired for ...",
+      "A few years ago ..., and the whole family assumed ...",
+      "Even so, ... never gave up.",
+      "What I admire most is ...",
+      "To me, ... That is why I look up to ..."
+    ],
+    "structure": [
+      "Introduce the person and say how long you have admired them",
+      "Explain how you know them and what they do",
+      "Describe what they have achieved and the difficulties they overcame",
+      "Give a specific moment that shows their character",
+      "Finish by explaining why they inspire you"
+    ],
+    "roundingOff": {
+      "q": "Would you like to become like this person in the future?",
+      "model": "Absolutely. I'd love to model myself on her when it comes to perseverance. Her story taught me to see a failure as a stepping stone rather than the end of the road, so I hope to follow in her footsteps and start my own venture one day.",
+      "vocab": [
+        {
+          "word": "model myself on",
+          "band": 8,
+          "meaning": "copy the behaviour or qualities of someone you respect",
+          "example": "Many young chefs model themselves on famous television cooks."
+        },
+        {
+          "word": "stepping stone",
+          "band": 8,
+          "meaning": "a step that helps you reach a bigger goal",
+          "example": "This part-time job is a stepping stone to a career in journalism."
+        },
+        {
+          "word": "follow in her footsteps",
+          "band": 8,
+          "meaning": "do the same job or achieve what someone before you did",
+          "example": "He wants to follow in his mother's footsteps and become a surgeon."
+        },
+        {
+          "word": "end of the road",
+          "band": 8,
+          "meaning": "the point where something can no longer continue",
+          "example": "Losing the match felt like the end of the road for the team."
+        }
+      ],
+      "phrases": [
+        "Absolutely. I'd love to model myself on ... when it comes to ...",
+        "... taught me to see ... as a stepping stone.",
+        "I hope to follow in ... footsteps and ..."
+      ]
+    }
+  },
+  "part3": {
+    "theme": "Role models and success",
+    "questions": [
+      {
+        "q": "Why do young people often look up to celebrities rather than ordinary people?",
+        "model": "I think it mainly comes down to visibility. Celebrities are everywhere on screens, so teenagers feel they know them personally, whereas ordinary heroes rarely make the headlines. There is also a glamorous image that is hard to resist, and it makes success look effortless. However, this can give young people unrealistic expectations. Personally, I'd like the media to shine a spotlight on teachers, nurses and entrepreneurs, because their achievements are far more relatable.",
+        "vocab": [
+          {
+            "word": "comes down to",
+            "band": 7,
+            "meaning": "is mainly decided by a particular factor",
+            "example": "Winning a debate often comes down to preparation and confidence."
+          },
+          {
+            "word": "make the headlines",
+            "band": 8,
+            "meaning": "be reported prominently in the news",
+            "example": "Local heroes rarely make the headlines unless something dramatic happens."
+          },
+          {
+            "word": "hard to resist",
+            "band": 7,
+            "meaning": "very tempting and difficult to say no to",
+            "example": "Fresh bread from that bakery is hard to resist on cold mornings."
+          },
+          {
+            "word": "shine a spotlight on",
+            "band": 8,
+            "meaning": "draw public attention to a person or issue",
+            "example": "The documentary shines a spotlight on the problem of plastic waste."
+          }
+        ],
+        "phrases": [
+          "I think it mainly comes down to ...",
+          "..., so teenagers feel ..., whereas ordinary heroes rarely ...",
+          "Personally, I'd like the media to shine a spotlight on ..."
+        ]
+      },
+      {
+        "q": "To what extent is success measured by money?",
+        "model": "To a certain extent, money matters, because financial security gives people freedom and peace of mind. However, I'd argue it is a poor yardstick on its own. Someone can be rolling in money yet feel empty, while a teacher who inspires hundreds of pupils may lead a deeply fulfilling life. In my view, success is about reaching your own goals and having a positive impact on others, rather than chasing a bigger salary.",
+        "vocab": [
+          {
+            "word": "financial security",
+            "band": 7,
+            "meaning": "having enough steady money to avoid worry",
+            "example": "A permanent contract offers financial security for a young family."
+          },
+          {
+            "word": "peace of mind",
+            "band": 7,
+            "meaning": "a calm feeling because you are not worried",
+            "example": "Good insurance gives travellers real peace of mind abroad."
+          },
+          {
+            "word": "yardstick",
+            "band": 9,
+            "meaning": "a standard used to judge how good something is",
+            "example": "Exam results are not the only yardstick of a student's ability."
+          },
+          {
+            "word": "rolling in money",
+            "band": 8,
+            "meaning": "extremely rich",
+            "example": "They seem to be rolling in money since the company went public."
+          }
+        ],
+        "phrases": [
+          "To a certain extent, money matters, because ...",
+          "However, I'd argue it is a poor yardstick on its own.",
+          "In my view, success is about ..., rather than ..."
+        ]
+      },
+      {
+        "q": "Should parents or schools be responsible for providing role models?",
+        "model": "I think it should be a joint effort. Parents shape a child's values from the very beginning, so their everyday behaviour sets the tone at home. Schools, meanwhile, can help pupils broaden their horizons by inviting inspiring guests, such as local scientists or athletes, to speak to pupils. Ideally the two should work hand in hand. Otherwise, children may pick up their ideas of success from whatever is trending online, which could lead them astray.",
+        "vocab": [
+          {
+            "word": "sets the tone",
+            "band": 8,
+            "meaning": "establishes the general attitude or atmosphere",
+            "example": "A cheerful manager sets the tone for the whole team."
+          },
+          {
+            "word": "broaden their horizons",
+            "band": 8,
+            "meaning": "help them experience new ideas and places",
+            "example": "Travelling abroad can really broaden their horizons as teenagers."
+          },
+          {
+            "word": "hand in hand",
+            "band": 8,
+            "meaning": "closely together and connected",
+            "example": "Good teaching and strong parental support go hand in hand."
+          },
+          {
+            "word": "pick up",
+            "band": 7,
+            "meaning": "learn something casually without formal teaching",
+            "example": "Children pick up bad habits very quickly from adults around them."
+          }
+        ],
+        "phrases": [
+          "I think it should be a joint effort. ... shape ..., so ...",
+          "Ideally the two should work hand in hand.",
+          "Otherwise, children may pick up ... from ..."
+        ]
+      },
+      {
+        "q": "What might be the drawbacks of having a role model?",
+        "model": "The main danger is putting someone on a pedestal. If you idolise a person, you may ignore their flaws and be bitterly disappointed when they let you down. Some people also copy a role model's career path exactly, which can stop them from finding their own way. A healthier approach is to take inspiration from certain qualities, such as resilience or generosity, while still learning to think for yourself. That balance keeps admiration healthy.",
+        "vocab": [
+          {
+            "word": "on a pedestal",
+            "band": 8,
+            "meaning": "admired so much that you ignore their faults",
+            "example": "Fans often put their favourite singers on a pedestal."
+          },
+          {
+            "word": "let you down",
+            "band": 7,
+            "meaning": "disappoint you by failing to do what you expected",
+            "example": "My team let me down by missing the deadline again."
+          },
+          {
+            "word": "take inspiration from",
+            "band": 8,
+            "meaning": "use someone or something as a source of new ideas",
+            "example": "Many designers take inspiration from nature and old buildings."
+          },
+          {
+            "word": "think for yourself",
+            "band": 7,
+            "meaning": "form your own opinions rather than copy others",
+            "example": "Teachers should encourage pupils to think for themselves in class."
+          }
+        ],
+        "phrases": [
+          "The main danger is putting someone on a pedestal.",
+          "If you idolise ..., you may ... and be disappointed when ...",
+          "A healthier approach is to take inspiration from ..."
+        ]
+      },
+      {
+        "q": "How far do you agree that talent matters more than hard work?",
+        "model": "I only partly agree. Natural ability gives some people a head start, but it fizzles out without effort. Plenty of gifted students never fulfil their potential because they coast through school, while determined classmates overtake them through sheer persistence. Behind every medal there are years of gruelling training. So, while talent may open the door, it is hard work that keeps you in the room, and I'd say success is mostly perseverance.",
+        "vocab": [
+          {
+            "word": "a head start",
+            "band": 8,
+            "meaning": "an early advantage over other people",
+            "example": "Learning to swim early gave her a head start in triathlons."
+          },
+          {
+            "word": "fulfil their potential",
+            "band": 8,
+            "meaning": "become as successful as their abilities allow",
+            "example": "Good mentors help young artists fulfil their potential."
+          },
+          {
+            "word": "coast through",
+            "band": 9,
+            "meaning": "succeed without making much effort",
+            "example": "Some students coast through the first year and then struggle."
+          },
+          {
+            "word": "sheer persistence",
+            "band": 8,
+            "meaning": "nothing but continued determination",
+            "example": "He won the contract through sheer persistence rather than special talent."
+          }
+        ],
+        "phrases": [
+          "I only partly agree. ... gives some people a head start, but ...",
+          "Plenty of ... never ... because they ...",
+          "So, while ... may open the door, it is ... that keeps you in the room."
+        ]
+      },
+      {
+        "q": "Do you think social media influencers make good role models?",
+        "model": "Some do, but many don't. The positive ones use their large following to raise awareness of causes or to share practical skills. The problem is that most feeds are carefully curated, so followers see a polished, unrealistic version of life, and that can damage self-esteem. Besides, influencers are often paid to promote products, so their motives are not always sincere. I'd advise young people to take everything online with a pinch of salt.",
+        "vocab": [
+          {
+            "word": "raise awareness of",
+            "band": 7,
+            "meaning": "make more people notice and understand an issue",
+            "example": "The campaign aims to raise awareness of mental health among teenagers."
+          },
+          {
+            "word": "carefully curated",
+            "band": 9,
+            "meaning": "selected and arranged with great care to create an image",
+            "example": "Her carefully curated photos hide how messy her flat really is."
+          },
+          {
+            "word": "self-esteem",
+            "band": 7,
+            "meaning": "confidence in your own value and abilities",
+            "example": "Constant comparison with others can badly harm a teenager's self-esteem."
+          },
+          {
+            "word": "with a pinch of salt",
+            "band": 8,
+            "meaning": "without fully believing it",
+            "example": "You should always read online reviews with a pinch of salt."
+          }
+        ],
+        "phrases": [
+          "Some do, but many don't. The positive ones use ... to ...",
+          "The problem is that most ... are carefully curated, so ...",
+          "I'd advise young people to take ... with a pinch of salt."
+        ]
+      }
+    ]
+  }
+}

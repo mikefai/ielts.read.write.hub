@@ -1,0 +1,320 @@
+{
+  "id": "s4",
+  "title": "Speaking Mock 4",
+  "part1": {
+    "topics": [
+      {
+        "name": "Neighbours",
+        "questions": [
+          {
+            "q": "Do you know your neighbours well?",
+            "model": "Not really, to be honest. We exchange pleasantries in the lift and I know their names, but that's about it. Everyone keeps odd hours, so we rarely bump into each other. I'd like to get to know them better, though.",
+            "vocab": [
+              { "word": "exchange pleasantries", "band": 8, "meaning": "say polite, friendly things without having a real conversation", "example": "We only exchange pleasantries about the weather whenever we meet on the stairs." },
+              { "word": "keeps odd hours", "band": 8, "meaning": "has an unusual, irregular daily schedule", "example": "My flatmate keeps odd hours because she works nights at the hospital." },
+              { "word": "bump into", "band": 7, "meaning": "meet someone by chance", "example": "I bumped into an old school friend at the supermarket yesterday." },
+              { "word": "get to know", "band": 7, "meaning": "gradually become familiar with someone", "example": "It takes a few months to really get to know new colleagues." }
+            ],
+            "phrases": [
+              "Not really, to be honest. We ... but that's about it.",
+              "Everyone ..., so we rarely ...",
+              "I'd like to ... , though."
+            ]
+          },
+          {
+            "q": "What do you like or dislike about your neighbours?",
+            "model": "What I appreciate most is that they're quiet and considerate. They never play loud music late at night, and they once took in a parcel for me. The only downside is the noisy dog downstairs, which barks non-stop, but I can live with it.",
+            "vocab": [
+              { "word": "considerate", "band": 7, "meaning": "careful not to bother or upset other people", "example": "A considerate neighbour will always warn you before throwing a party." },
+              { "word": "took in", "band": 7, "meaning": "accepted and kept something safely for someone else", "example": "The postman left the box with Mrs Chen, who took in all our deliveries." },
+              { "word": "the only downside", "band": 8, "meaning": "the single disadvantage of an otherwise good situation", "example": "The only downside of living by the station is the early morning noise." },
+              { "word": "live with it", "band": 7, "meaning": "accept a problem because you cannot change it", "example": "The pipes rattle at night, but we have learnt to live with it." }
+            ],
+            "phrases": [
+              "What I appreciate most is that they're ...",
+              "They never ..., and they once ...",
+              "The only downside is ..., but I can live with it."
+            ]
+          },
+          {
+            "q": "Do you think neighbours should help each other?",
+            "model": "Definitely, within reason. If someone is elderly or has just moved in, a helping hand goes a long way. I'd happily water a neighbour's plants while they're away, and I hope they'd do the same for me when I travel next year.",
+            "vocab": [
+              { "word": "within reason", "band": 8, "meaning": "as long as the request is sensible and not too much", "example": "You can borrow my tools, within reason, as long as you return them." },
+              { "word": "a helping hand", "band": 7, "meaning": "some practical help given to someone", "example": "She offered a helping hand when we were carrying boxes upstairs." },
+              { "word": "goes a long way", "band": 8, "meaning": "has a very positive effect even though it is small", "example": "A warm smile in the corridor goes a long way towards making people feel welcome." },
+              { "word": "just moved in", "band": 7, "meaning": "recently arrived to live in a new home", "example": "The family that just moved in next door seem very friendly." }
+            ],
+            "phrases": [
+              "Definitely, within reason. If someone ..., a ... goes a long way.",
+              "I'd happily ... while they're away.",
+              "I hope they'd do the same for me when ..."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sports",
+        "questions": [
+          {
+            "q": "Do you play any sports?",
+            "model": "I play five-a-side football on Thursday evenings with some colleagues. It's a great way to let off steam after work, and it keeps me in shape. We're not exactly professionals, but we take it seriously enough to want to win every match.",
+            "vocab": [
+              { "word": "five-a-side", "band": 8, "meaning": "a small version of football with five players in each team", "example": "Our office organises a five-a-side tournament every spring." },
+              { "word": "let off steam", "band": 8, "meaning": "get rid of stress or energy through activity", "example": "Going for a long run helps me let off steam after exams." },
+              { "word": "in shape", "band": 7, "meaning": "physically fit and healthy", "example": "She swims every morning to stay in shape for the marathon." },
+              { "word": "take it seriously", "band": 7, "meaning": "treat something as important and give it full effort", "example": "My brother takes cycling seriously and trains six days a week." }
+            ],
+            "phrases": [
+              "I play ... on ... with ...",
+              "It's a great way to let off steam after ...",
+              "We're not exactly ..., but we take it seriously enough to ..."
+            ]
+          },
+          {
+            "q": "Did you do much sport at school?",
+            "model": "Yes, we had physical education lessons twice a week, and I was on the school swimming team. I wasn't the fastest, but I was dead keen and trained every morning. Looking back, it taught me discipline and how to cope with losing a race.",
+            "vocab": [
+              { "word": "physical education", "band": 7, "meaning": "school lessons in which students do sport and exercise", "example": "Physical education was always my favourite lesson on a rainy Friday." },
+              { "word": "dead keen", "band": 8, "meaning": "extremely enthusiastic about something", "example": "He was dead keen on tennis and practised until it got dark." },
+              { "word": "taught me discipline", "band": 8, "meaning": "showed me how to control myself and work regularly", "example": "Learning the violin taught me discipline and a lot of patience." },
+              { "word": "cope with", "band": 7, "meaning": "manage a difficult situation successfully", "example": "Young players must learn to cope with pressure before big matches." }
+            ],
+            "phrases": [
+              "Yes, we had ... twice a week, and I was on ...",
+              "I wasn't the ..., but I was dead keen and ...",
+              "Looking back, it taught me ... and how to cope with ..."
+            ]
+          },
+          {
+            "q": "Do you prefer watching sport or playing it?",
+            "model": "Playing, hands down. Watching a match on TV is fine, but it can't beat the adrenaline of actually being on the pitch. That said, I'll gladly tune in to the big tournaments with friends, as the atmosphere is infectious.",
+            "vocab": [
+              { "word": "hands down", "band": 8, "meaning": "without any doubt, by a clear margin", "example": "Hands down, that was the best concert I have ever attended." },
+              { "word": "adrenaline", "band": 8, "meaning": "the rush of excitement you feel during something thrilling", "example": "The adrenaline kept her going even though she was exhausted." },
+              { "word": "on the pitch", "band": 7, "meaning": "on the field where a match is played", "example": "The crowd cheered as the players walked on the pitch together." },
+              { "word": "tune in", "band": 7, "meaning": "watch or listen to a broadcast", "example": "Millions of fans tune in every four years for the World Cup." }
+            ],
+            "phrases": [
+              "Playing, hands down. Watching ... is fine, but it can't beat ...",
+              "That said, I'll gladly ... with friends.",
+              "... as the atmosphere is ..."
+            ]
+          },
+          {
+            "q": "Would you like to try a new sport in the future?",
+            "model": "Yes, I've always fancied trying rock climbing. There's an indoor wall opening near my flat next month, so I'm planning to sign up for a taster session. I'm a bit nervous about heights, but pushing myself out of my comfort zone would be good fun.",
+            "vocab": [
+              { "word": "always fancied", "band": 8, "meaning": "have wanted to try something for a long time", "example": "I have always fancied learning to surf on a proper beach." },
+              { "word": "sign up for", "band": 7, "meaning": "officially join a class, course or activity", "example": "Why don't you sign up for the beginners' yoga class with me?" },
+              { "word": "out of my comfort zone", "band": 8, "meaning": "in a situation that feels unfamiliar and a little uncomfortable", "example": "Speaking in front of a hundred people was well out of my comfort zone." },
+              { "word": "pushing myself", "band": 7, "meaning": "making myself work harder or try something difficult", "example": "I keep pushing myself to run a little further each week." }
+            ],
+            "phrases": [
+              "Yes, I've always fancied trying ...",
+              "..., so I'm planning to sign up for ...",
+              "I'm a bit nervous about ..., but pushing myself out of my comfort zone would be ..."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Holidays",
+        "questions": [
+          {
+            "q": "Where do you usually go on holiday?",
+            "model": "We usually head to the coast, as my parents have a soft spot for a quiet seaside town in the south. It's off the beaten track, so there are hardly any crowds. I spend the days swimming and reading, which is exactly what I need to recharge my batteries.",
+            "vocab": [
+              { "word": "head to", "band": 7, "meaning": "travel towards a particular place", "example": "Every August half of the city seems to head to the mountains." },
+              { "word": "a soft spot for", "band": 8, "meaning": "a special fondness for someone or something", "example": "I have a soft spot for small towns with old cinemas." },
+              { "word": "off the beaten track", "band": 8, "meaning": "away from the usual tourist places", "example": "We found a wonderful little cafe off the beaten track in Lisbon." },
+              { "word": "recharge my batteries", "band": 8, "meaning": "rest so that I feel full of energy again", "example": "A week of doing nothing is the best way to recharge my batteries." }
+            ],
+            "phrases": [
+              "We usually head to ..., as my parents have a soft spot for ...",
+              "It's off the beaten track, so there are hardly any ...",
+              "I spend the days ..., which is exactly what I need to ..."
+            ]
+          },
+          {
+            "q": "Do you prefer holidays at home or abroad?",
+            "model": "Abroad, mostly, because I love experiencing a different culture first-hand. Last summer we went to Portugal and I picked up a few words of the language. Still, a staycation can be a lifesaver when money is tight, and there are plenty of hidden gems close to home.",
+            "vocab": [
+              { "word": "picked up", "band": 7, "meaning": "learnt something informally without formal study", "example": "He picked up some Italian simply by chatting to the shopkeepers." },
+              { "word": "staycation", "band": 8, "meaning": "a holiday spent at home or close to home", "example": "We could not afford a flight, so we planned a staycation instead." },
+              { "word": "money is tight", "band": 8, "meaning": "there is very little spare money available", "example": "Money is tight this month, so we are skipping the weekend break." },
+              { "word": "hidden gems", "band": 8, "meaning": "wonderful places that most people do not know about", "example": "This region is full of hidden gems that guidebooks usually miss." }
+            ],
+            "phrases": [
+              "Abroad, mostly, because I love experiencing ...",
+              "Last summer we went to ... and I picked up ...",
+              "Still, a ... can be a lifesaver when ..."
+            ]
+          },
+          {
+            "q": "Where would you like to go on your next holiday?",
+            "model": "I'm dying to visit Japan, particularly Kyoto during cherry blossom season. I've been saving up for a couple of years, and I'd like to spend two weeks exploring the temples and sampling the street food. It would be the trip of a lifetime.",
+            "vocab": [
+              { "word": "dying to", "band": 8, "meaning": "extremely eager to do something", "example": "I'm dying to see the northern lights before I turn thirty." },
+              { "word": "saving up", "band": 7, "meaning": "keeping money aside to buy something later", "example": "She has been saving up for a camping trip across Canada." },
+              { "word": "street food", "band": 7, "meaning": "cheap meals sold from stalls or carts outdoors", "example": "The best street food in town is sold near the old market." },
+              { "word": "trip of a lifetime", "band": 8, "meaning": "a journey so special you may never repeat it", "example": "Their honeymoon safari was truly the trip of a lifetime." }
+            ],
+            "phrases": [
+              "I'm dying to visit ..., particularly ... during ...",
+              "I've been saving up for ..., and I'd like to spend ...",
+              "It would be the trip of a lifetime."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "part2": {
+    "cue": {
+      "topic": "Describe a memorable journey you have made",
+      "bullets": [
+        "where you went",
+        "how you travelled",
+        "who you went with",
+        "and explain why it was so memorable"
+      ],
+      "prepSeconds": 60,
+      "talkSeconds": 120
+    },
+    "model": "I'd like to talk about a train journey I made across Vietnam two summers ago, from Hanoi down to Ho Chi Minh City. I travelled with my cousin Priya, who had always dreamed of seeing the country from a train window, so we booked a sleeper cabin and set off early one morning in July. The trip took almost two days, and we stopped in Hue and Da Nang along the way. What made it so memorable was the scenery. The line runs along the coast in places, so we were gazing out at turquoise water and sweeping rice fields for hours on end. Halfway through, we got chatting to an elderly couple who shared their home-made snacks with us and taught us a few phrases in Vietnamese. That was a real highlight. Of course, it wasn't all smooth sailing. The air conditioning broke down in the middle of the night, and we were stuck in a stuffy compartment until dawn. Looking back, though, it only added to the adventure, and we still laugh about it. I'd say the journey was memorable because it was so far removed from my normal routine. Instead of rushing from one landmark to the next, we simply slowed down and soaked up the atmosphere. It made me realise that sometimes the journey matters more than the destination, and I've been keen to travel by rail ever since.",
+    "vocab": [
+      { "word": "set off", "band": 7, "meaning": "begin a journey", "example": "We set off at dawn to avoid the heavy motorway traffic." },
+      { "word": "for hours on end", "band": 8, "meaning": "continuously for a very long time", "example": "The children played on the beach for hours on end without complaining." },
+      { "word": "got chatting to", "band": 8, "meaning": "began a friendly, relaxed conversation with someone", "example": "I got chatting to a pilot while waiting at the departure gate." },
+      { "word": "smooth sailing", "band": 8, "meaning": "progress without any problems or difficulties", "example": "After the first week, the project was pretty much smooth sailing." },
+      { "word": "far removed from", "band": 9, "meaning": "very different from something", "example": "Life on the island is far removed from the stress of the city." },
+      { "word": "soaked up the atmosphere", "band": 9, "meaning": "fully enjoyed the feeling and mood of a place", "example": "We soaked up the atmosphere of the night market until midnight." }
+    ],
+    "phrases": [
+      "I'd like to talk about",
+      "What made it so memorable was",
+      "Of course, it wasn't all",
+      "Looking back, though,",
+      "It made me realise that"
+    ],
+    "structure": [
+      "Introduce the journey (where you went, when, and how you travelled)",
+      "Say who you travelled with and why you chose this trip",
+      "Describe the best moments along the way in order",
+      "Mention one problem or surprise and how you dealt with it",
+      "Explain why it was memorable and how you felt",
+      "Finish with what you learnt or how it changed your attitude to travel"
+    ],
+    "roundingOff": {
+      "q": "Do you think you will make a similar journey in the future?",
+      "model": "Definitely. I'm already planning a rail trip through Europe next summer, hopping between a few capitals with an Interrail pass. I think it's the best way to see a place at your own pace, and I'd happily trade a quick flight for a slower, more scenic ride.",
+      "vocab": [
+        { "word": "rail trip", "band": 7, "meaning": "a journey made by train", "example": "A rail trip through the Alps is high on my wish list." },
+        { "word": "hopping between", "band": 8, "meaning": "moving quickly from one place to another", "example": "We spent a week hopping between small islands by ferry." },
+        { "word": "at your own pace", "band": 7, "meaning": "as quickly or slowly as you personally prefer", "example": "Independent travel lets you explore at your own pace without any schedule." },
+        { "word": "scenic ride", "band": 8, "meaning": "a journey with beautiful views along the way", "example": "The coastal bus is a scenic ride that takes about two hours." }
+      ],
+      "phrases": [
+        "Definitely. I'm already planning ...",
+        "I think it's the best way to ... at your own pace.",
+        "I'd happily trade ... for ..."
+      ]
+    }
+  },
+  "part3": {
+    "theme": "Travel and tourism",
+    "questions": [
+      {
+        "q": "Why do so many people like to travel abroad nowadays?",
+        "model": "Mainly because travel has become far more accessible. Budget airlines and online booking have brought prices down, so a weekend abroad is within reach for many families. Beyond that, people crave new experiences and want to broaden their horizons, particularly after spending most of the week at a desk. Personally, I think seeing other cultures makes us more open-minded, although it's worth noting that some people simply travel for the photos.",
+        "vocab": [
+          { "word": "budget airlines", "band": 7, "meaning": "companies that sell very cheap flights with few extras", "example": "Budget airlines have made short city breaks affordable for students." },
+          { "word": "within reach", "band": 8, "meaning": "possible to achieve or afford", "example": "A university degree is now within reach for many more families." },
+          { "word": "broaden their horizons", "band": 8, "meaning": "experience new things and widen their knowledge", "example": "Studying overseas helps young people broaden their horizons in many ways." },
+          { "word": "open-minded", "band": 7, "meaning": "willing to accept new ideas and different ways of life", "example": "Travelling alone made her far more open-minded about other lifestyles." }
+        ],
+        "phrases": [
+          "Mainly because ... has become far more accessible.",
+          "Beyond that, people crave ... and want to ...",
+          "Personally, I think ... makes us more ..., although it's worth noting that ..."
+        ]
+      },
+      {
+        "q": "To what extent does tourism benefit the local economy?",
+        "model": "To a large extent, I'd say. Tourism creates jobs in hotels, restaurants and transport, and it injects money into smaller towns that might otherwise struggle. However, the benefits are not always shared fairly, because big chains often take most of the profits abroad. In my view, governments should encourage visitors to use locally owned businesses, so that the money stays in the community and residents genuinely benefit from the visitors who arrive.",
+        "vocab": [
+          { "word": "creates jobs", "band": 7, "meaning": "makes new employment available for people", "example": "A new factory creates jobs for hundreds of young people in the area." },
+          { "word": "injects money into", "band": 8, "meaning": "brings a large amount of money into a place or business", "example": "The festival injects money into the town every single summer." },
+          { "word": "take most of the profits", "band": 8, "meaning": "keep the largest part of the money earned", "example": "Large companies often take most of the profits from local farmers' hard work." },
+          { "word": "locally owned businesses", "band": 8, "meaning": "shops and firms run by people from the area", "example": "Locally owned businesses keep more of the money circulating in the neighbourhood." }
+        ],
+        "phrases": [
+          "To a large extent, I'd say. ... creates ..., and it ...",
+          "However, the benefits are not always shared fairly, because ...",
+          "In my view, governments should encourage ..., so that ..."
+        ]
+      },
+      {
+        "q": "What might be the negative effects of mass tourism on popular destinations?",
+        "model": "Overcrowding is the obvious one. Places like Venice are overrun with visitors, which pushes up rents and forces local people out of their own neighbourhoods. There is also the environmental cost, as litter and emissions can damage fragile coastlines. Some argue that tourists spoil the very places they come to admire. I'd say the solution is to limit numbers and charge entry fees, so that the damage is kept in check and the money funds conservation.",
+        "vocab": [
+          { "word": "overrun with", "band": 8, "meaning": "filled with too many people or things", "example": "The old square was overrun with tour groups by ten in the morning." },
+          { "word": "pushes up rents", "band": 8, "meaning": "causes the price of renting homes to rise", "example": "Demand from visitors pushes up rents in the historic centre." },
+          { "word": "fragile coastlines", "band": 8, "meaning": "seaside areas that are easily damaged", "example": "Rising numbers of boats are harming the fragile coastlines of the island." },
+          { "word": "kept in check", "band": 8, "meaning": "controlled so that it does not become too serious", "example": "Pollution must be kept in check if the beaches are to survive." }
+        ],
+        "phrases": [
+          "Overcrowding is the obvious one. Places like ... are overrun with ...",
+          "There is also the environmental cost, as ... can damage ...",
+          "I'd say the solution is to ..., so that the damage is kept in check."
+        ]
+      },
+      {
+        "q": "Should governments do more to protect historical sites from damage by visitors?",
+        "model": "Yes, I believe they should, because these places are irreplaceable. Once an ancient carving is worn away, no amount of money can bring it back. Governments could introduce timed tickets, ban flash photography and fund proper restoration work. Admittedly, that costs money, but heritage is part of a nation's identity, and future generations deserve to see it. In the long run, protecting these sites also keeps tourism alive, which benefits everyone.",
+        "vocab": [
+          { "word": "worn away", "band": 7, "meaning": "slowly damaged and removed by constant rubbing or weather", "example": "The stone steps have been worn away by centuries of footsteps." },
+          { "word": "timed tickets", "band": 8, "meaning": "entry passes that allow visitors in at a fixed hour", "example": "Timed tickets stop the gallery from getting overcrowded at midday." },
+          { "word": "restoration work", "band": 8, "meaning": "repairs that return an old building to its original state", "example": "Restoration work on the cathedral roof will take at least five years." },
+          { "word": "in the long run", "band": 7, "meaning": "over a long period of time in the future", "example": "Cheap repairs cost far more in the long run than proper ones." }
+        ],
+        "phrases": [
+          "Yes, I believe they should, because these places are ...",
+          "Governments could introduce ..., ban ... and fund ...",
+          "Admittedly, that costs money, but ... deserve to ..."
+        ]
+      },
+      {
+        "q": "What might travel look like in fifty years' time?",
+        "model": "It's hard to predict, but I suspect it will be greener and more automated. Electric planes and high-speed rail could cut emissions dramatically, while virtual reality might let people explore a destination before they even book. Space tourism may become a reality for the very wealthy too, though I doubt it will ever go mainstream. What I hope is that travel remains about real human encounters rather than just ticking off landmarks.",
+        "vocab": [
+          { "word": "high-speed rail", "band": 8, "meaning": "very fast trains that connect distant cities", "example": "High-speed rail has made day trips between major cities completely realistic." },
+          { "word": "cut emissions", "band": 8, "meaning": "reduce the harmful gases released into the air", "example": "Airlines are under pressure to cut emissions as quickly as possible." },
+          { "word": "go mainstream", "band": 8, "meaning": "become accepted and common among ordinary people", "example": "Electric cars have finally started to go mainstream in many countries." },
+          { "word": "ticking off", "band": 7, "meaning": "marking things as done on a list", "example": "Some tourists spend the whole trip ticking off famous sights from a list." }
+        ],
+        "phrases": [
+          "It's hard to predict, but I suspect it will be ...",
+          "... could cut emissions dramatically, while ... might let people ...",
+          "What I hope is that ... remains about ... rather than just ..."
+        ]
+      },
+      {
+        "q": "Would you say independent travel is better than going on a package tour?",
+        "model": "It depends on the traveller. Package tours are stress-free because everything is arranged, which suits families and first-time visitors. On the other hand, independent travel gives you the freedom to wander off and follow your curiosity. Personally, I'd go for the latter, since the unplanned moments are usually the best ones, although I'd book the first night's accommodation just to avoid arriving with nowhere to stay. Either way, the best trips leave room for surprises.",
+        "vocab": [
+          { "word": "package tours", "band": 7, "meaning": "holidays where transport, hotels and activities are arranged for you", "example": "Package tours are popular with older travellers who dislike planning." },
+          { "word": "stress-free", "band": 7, "meaning": "without worry or difficulty", "example": "Booking everything through one agency made the trip completely stress-free." },
+          { "word": "wander off", "band": 8, "meaning": "walk away from the planned route without a fixed aim", "example": "I love to wander off and discover quiet back streets." },
+          { "word": "go for", "band": 7, "meaning": "choose a particular option", "example": "When it comes to dessert, I always go for something chocolatey." }
+        ],
+        "phrases": [
+          "It depends on the traveller. ... are ... because ...",
+          "On the other hand, ... gives you the freedom to ...",
+          "Personally, I'd go for the latter, since ..."
+        ]
+      }
+    ]
+  }
+}
