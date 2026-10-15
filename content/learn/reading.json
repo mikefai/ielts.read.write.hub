@@ -4,9 +4,9 @@
     "title": "Start here: how IELTS Reading works",
     "what": "The Reading test has 3 passages and 40 questions. You get 60 minutes in total. There is no extra time to copy your answers, so you must write them on the answer sheet as you go. This note gives you one method that works for every question type.",
     "steps": [
-      { "do": "Skim the passage for about one minute. Note what each paragraph is about, and label them A, B, C.", "why": "A quick map means you know where to look later, so you do not read everything twice." },
+      { "do": "Skim the passage for one minute. Note the paragraph letters and what each is about. If a paragraph has no letter, label it yourself.", "why": "A quick map means you know where to look later, so you do not read everything twice." },
       { "do": "Read the question and underline the keywords: names, numbers, dates and unusual nouns.", "why": "These words usually stay the same in the passage, so they are easy to spot." },
-      { "do": "Predict the paraphrase. Think of other ways to say the important words in the question.", "why": "The passage rarely uses the same words as the question. Knowing synonyms helps you find the right sentence." },
+      { "do": "Predict the paraphrase (the same idea in different words). Think of other ways to say the important words.", "why": "The passage rarely uses the same words as the question. Knowing synonyms helps you find the right sentence." },
       { "do": "Find the keyword or its paraphrase in the passage. Then read the sentence before and after it.", "why": "The answer is often next to the keyword, not on it. One extra sentence stops careless mistakes." },
       { "do": "Confirm your answer. Point to the exact words in the passage that prove it.", "why": "If you cannot point to a line, you are guessing. A guess from memory or opinion is often wrong." },
       { "do": "Spend about 20 minutes on each passage. Move on when a question takes too long, and come back later.", "why": "Each passage has the same number of marks. One hard question must not steal time from easy ones." },
@@ -114,14 +114,14 @@
       "Stopping at the first keyword. The writer may change their view later with 'however'. Read the whole paragraph."
     ],
     "example": {
-      "text": "Many people say that working from home is always better for staff. The writer disagrees. Working from home suits some jobs, but teams often solve problems faster when they meet in person. Some companies now ask staff to visit the office twice a week.",
+      "text": "Many people say that working from home is always better for staff. In the writer's view, offices still matter. Working from home suits some jobs, but teams often solve problems faster when they meet in person. Some companies now ask staff to visit the office twice a week.",
       "question": "The writer thinks working from home is better for every worker. (Yes / No / Not Given)",
       "answer": "No",
-      "evidence": "The writer disagrees",
+      "evidence": "In the writer's view, offices still matter",
       "walk": [
         "Keywords: working from home, better, every worker.",
         "The statement is about the writer's view, so we look for the writer.",
-        "The text says 'The writer disagrees' with the idea that home working is always better.",
+        "The text says 'In the writer's view, offices still matter' and that home working only suits some jobs. That is the opposite of 'better for every worker'.",
         "So the answer is No. The opinion at the start ('Many people say...') belongs to other people, not the writer."
       ]
     },
@@ -155,7 +155,7 @@
       "Wrong options are often true but not asked. They are real facts from the passage, but they do not answer this question.",
       "Another common wrong option is half right: the first half matches the passage but the second half is wrong. Read the whole option.",
       "Be careful with options that are too extreme, with words like 'always', 'all' or 'never'. The passage rarely says things that strongly.",
-      "For choosing several answers, the answers come in passage order but you may write them in any order."
+      "When you pick two or three answers, the order you write them does not matter."
     ],
     "traps": [
       "Choosing an option because it contains words copied from the passage. Copied words are often a trick. Check the meaning instead.",
@@ -185,6 +185,306 @@
       "Can I give a reason for every option I crossed out?",
       "Does my answer match the meaning of the passage, not only the words?",
       "Did I choose exactly the number of answers the question asks for?"
+    ]
+  },
+  {
+    "id": "short-answer",
+    "title": "Short-answer questions",
+    "what": "You get a question and write a short answer from the passage. The instructions give a word limit, such as NO MORE THAN THREE WORDS. Your answer must come from the passage and stay inside that limit.",
+    "steps": [
+      { "do": "Read the word limit in the instructions first. Write it at the top of the page if that helps.", "why": "An answer over the limit gets no mark, even if the idea is right." },
+      { "do": "Read the question. Look at the question word: who, when, where, what or how many.", "why": "The question word tells you what kind of answer to look for." },
+      { "do": "Underline the keywords in the question, such as names, places and unusual nouns.", "why": "These words usually stay the same in the passage, so they are easy to find." },
+      { "do": "Find the keywords in the passage. Questions follow the order of the passage, so keep moving forward.", "why": "This keeps your search short and stops you reading the text twice." },
+      { "do": "Read the sentence around the keywords. Find the word or words that answer the question.", "why": "The answer is often next to the keyword, not on it." },
+      { "do": "Copy the answer exactly as it is written. Do not change the form of any word.", "why": "Changing 'teacher' to 'teachers' can lose the mark." },
+      { "do": "Count your words and check the limit. Check your spelling against the passage.", "why": "A wrong spelling or one word too many gets no mark." }
+    ],
+    "tricks": [
+      "Match the question word to the answer type. Who is a person, when is a date or time, where is a place, and how many is a number.",
+      "A number counts as one word. '1952' is one word, and 'twenty' is one word.",
+      "Often you can use the question's own words to start your answer. The passage then gives only the missing part.",
+      "If your answer is longer than the limit, cut small words. Keep the key noun, for example 'the old stone bridge' can be 'stone bridge'."
+    ],
+    "traps": [
+      "Going over the word limit. 'NO MORE THAN TWO WORDS' means three words is wrong, so cut it down.",
+      "Changing the word. Copy the form in the passage, not the form you think sounds better.",
+      "Writing an answer of the wrong type, such as a place when the question asks 'when'. Check the question word again.",
+      "Choosing a keyword match that answers a different question. Read the whole sentence before you copy anything."
+    ],
+    "example": {
+      "text": "The harbour museum opened in 1998. It holds more than 300 old maps and models of ships. Visitors can join a guided tour every Saturday morning. Entry is free for children under twelve.",
+      "question": "When can visitors join a guided tour? Write NO MORE THAN TWO WORDS.",
+      "answer": "Saturday morning",
+      "evidence": "every Saturday morning",
+      "walk": [
+        "The word limit is two words. The question word 'when' asks for a day or time.",
+        "Keywords: guided tour. They appear in the third sentence.",
+        "The text says 'every Saturday morning'. That is three words, which is over the limit.",
+        "Cut the small word 'every'. 'Saturday morning' is two words, copied exactly, so it is correct."
+      ]
+    },
+    "signals": [
+      { "word": "who", "means": "Look for a person or group, such as a name, a job or 'the researchers'." },
+      { "word": "when", "means": "Look for a date, a year, a day or a time of day." },
+      { "word": "where", "means": "Look for a place, such as a town, a country or 'the north coast'." },
+      { "word": "how many, how much", "means": "Look for a number or an amount. A number counts as one word." }
+    ],
+    "checklist": [
+      "Did I read the word limit before I wrote my answer?",
+      "Does my answer match the question word (who, when, where, how many)?",
+      "Did I copy the words exactly and check the spelling?",
+      "Did I count the words and stay inside the limit?"
+    ]
+  },
+  {
+    "id": "sentence-completion",
+    "title": "Sentence completion",
+    "what": "You get sentences with a gap. You fill each gap with words from the passage, inside the word limit. The finished sentence must make sense and have correct grammar.",
+    "steps": [
+      { "do": "Read the word limit in the instructions first, for example NO MORE THAN TWO WORDS.", "why": "An answer over the limit gets no mark." },
+      { "do": "Read the sentence with the gap. Ask what kind of word fits: a noun, a verb, an adjective or a number.", "why": "Grammar tells you the word type, so you know what to look for." },
+      { "do": "Underline the keywords in the sentence. Find them in the passage. Answers follow the order of the passage.", "why": "The keywords take you to the right place without reading everything." },
+      { "do": "Read the passage sentence around the keywords. It says the same idea in different words.", "why": "The sentence in the question is a paraphrase (the same idea in different words) of the passage." },
+      { "do": "Copy the missing word or words exactly from the passage.", "why": "The test marks the exact words and the exact spelling." },
+      { "do": "Put your answer in the gap and read the whole sentence. Check grammar and meaning.", "why": "If the sentence sounds wrong, your answer is probably wrong." },
+      { "do": "Count the words and check the limit.", "why": "One word too many loses the mark." }
+    ],
+    "tricks": [
+      "Look at the words just before and after the gap. 'A' or 'the' before the gap usually means a noun comes next.",
+      "The answers follow the order of the passage. The answer to question 8 is after the answer to question 7.",
+      "Read the finished sentence out loud in your head. A correct answer sounds natural.",
+      "If the gap is after 'is' or 'are', check whether a plural noun or a verb fits."
+    ],
+    "traps": [
+      "Writing an answer that does not fit the grammar, such as a verb where a noun is needed. Check the word type again.",
+      "Changing the form of the word. Copy it from the passage, even if another form seems better.",
+      "Going over the word limit. Take out small words such as 'the' and 'of' only if they are not part of the answer.",
+      "Choosing the first matching keyword. Read the sentence around it to be sure it answers this gap."
+    ],
+    "example": {
+      "text": "Bees are important for farms. They carry pollen from one flower to another, which helps crops to grow. Without bees, farmers would need to move pollen by hand. This is slow and costs much more money.",
+      "question": "Bees help crops to grow by carrying ______ between flowers. Write ONE WORD ONLY.",
+      "answer": "pollen",
+      "evidence": "carry pollen from one flower to another",
+      "walk": [
+        "The word limit is one word. The gap comes after 'carrying', so a noun fits.",
+        "Keywords: bees, carry, flowers. They appear in the second sentence.",
+        "The text says 'carry pollen from one flower to another'. The word after 'carry' is 'pollen'.",
+        "Check: 'Bees help crops to grow by carrying pollen between flowers' is correct. The answer is pollen."
+      ]
+    },
+    "signals": [
+      { "word": "a, an, the before the gap", "means": "A noun or an adjective comes next. If it is 'a' or 'an', the answer starts with a single, countable thing." },
+      { "word": "to before the gap", "means": "A verb usually comes next, for example 'to grow'." },
+      { "word": "is, are, was before the gap", "means": "A noun, an adjective or a verb ending in -ing can follow. Check which one makes sense." },
+      { "word": "of, in, on before the gap", "means": "A noun or a noun group usually follows." }
+    ],
+    "checklist": [
+      "Did I check the word limit?",
+      "Does my answer fit the grammar of the sentence?",
+      "Did I copy the word exactly from the passage?",
+      "Does the whole sentence make sense when I read it again?"
+    ]
+  },
+  {
+    "id": "summary-completion",
+    "title": "Summary completion (words from the passage)",
+    "what": "You get a short summary of part of the passage, with gaps. You fill each gap with words from the passage, inside the word limit. The summary uses different words from the passage, so you must match the meaning.",
+    "steps": [
+      { "do": "Read the word limit in the instructions first.", "why": "An answer over the limit gets no mark." },
+      { "do": "Read the whole summary once, ignoring the gaps. Find the topic and the main idea.", "why": "You understand the story before you search, so the gaps make more sense." },
+      { "do": "Find which part of the passage the summary covers. Use the title and the keywords to find it.", "why": "The summary often covers only one or two paragraphs, so you do not need the whole text." },
+      { "do": "Read each gap sentence. Decide the word type that fits: a noun, a verb, an adjective or a number.", "why": "Grammar narrows down what you are looking for." },
+      { "do": "Find the matching idea in the passage. The summary is a paraphrase, so look for the meaning, not the same words.", "why": "The gap word is in the passage, next to the paraphrase of the sentence." },
+      { "do": "Copy the answer exactly from the passage. Do not change the form.", "why": "The test marks exact words and exact spelling." },
+      { "do": "Read the finished sentence. Check the grammar before and after the gap and the word limit.", "why": "A correct answer fits the sentence both in meaning and in grammar." }
+    ],
+    "tricks": [
+      "The gaps usually follow the order of the passage. Once you find gap 1, gap 2 is further on.",
+      "Look at the words before and after each gap. They tell you if you need a noun, a verb or a number.",
+      "If the summary says 'rose quickly', look in the passage for 'increased rapidly'. Search for the idea, not the words.",
+      "Reading the summary first gives you a map of the passage. You can predict some answers before you search."
+    ],
+    "traps": [
+      "Searching for the exact words of the summary. They are paraphrased, so look for the same meaning in other words.",
+      "Choosing a word because it looks right, without checking the grammar. Read the whole sentence with your answer.",
+      "Changing the word form. Copy it exactly, even if another form feels better.",
+      "Going over the word limit. Count your words every time."
+    ],
+    "example": {
+      "text": "The company began as a small workshop in 1985. Its first product was a simple bicycle lock. Sales grew slowly at first, but demand rose sharply after a national newspaper praised the lock. By 1992 the workshop had moved to a large factory.",
+      "question": "Summary: The firm started in a small ______ and made bicycle locks. Write ONE WORD ONLY.",
+      "answer": "workshop",
+      "evidence": "began as a small workshop in 1985",
+      "walk": [
+        "The word limit is one word. The gap comes after 'small', so a noun fits.",
+        "'Started' in the summary is a paraphrase of 'began' in the passage.",
+        "The text says 'began as a small workshop in 1985'. The noun after 'small' is 'workshop'.",
+        "Check: 'The firm started in a small workshop' is correct, so the answer is workshop."
+      ]
+    },
+    "signals": [
+      { "word": "start = begin", "means": "A summary may say 'started' where the passage says 'began'. Look for the meaning." },
+      { "word": "rise = increase", "means": "A summary may say 'rose' where the passage says 'increased' or 'grew'." },
+      { "word": "cause = lead to", "means": "A summary may say 'caused' where the passage says 'led to' or 'resulted in'." },
+      { "word": "a, the, to before the gap", "means": "These small words tell you the word type: a noun after 'a' or 'the', a verb after 'to'." }
+    ],
+    "checklist": [
+      "Did I read the whole summary before I searched?",
+      "Did I find the right part of the passage?",
+      "Does my answer fit the grammar before and after the gap?",
+      "Did I copy the words exactly and stay inside the word limit?"
+    ]
+  },
+  {
+    "id": "summary-wordbank",
+    "title": "Summary completion (word list)",
+    "what": "You get a summary with gaps and a box of words to choose from. There are more words than gaps, so some words are wrong. You pick the word that fits each gap in grammar and meaning.",
+    "steps": [
+      { "do": "Read the whole summary once, ignoring the gaps. Find the topic and the main idea.", "why": "You understand the story before you choose, so the gaps are easier." },
+      { "do": "For each gap, decide the word type first: a noun, a verb, an adjective or an adverb.", "why": "This removes many wrong words from the list straight away." },
+      { "do": "Look at the word list. Group the words by type. Cross out any word that cannot fit the grammar.", "why": "A smaller list means fewer mistakes." },
+      { "do": "Find the matching part of the passage. The summary and the passage say the same idea in different words.", "why": "The words in the list are not the passage's words, so you match meaning, not spelling." },
+      { "do": "Choose the word from the list that matches the meaning. Write the letter or the word as the question asks.", "why": "Check the instructions: some tests want the letter, some the word." },
+      { "do": "Cross out each word in the list as you use it.", "why": "Each word is used once, so crossing it out stops you using it twice." },
+      { "do": "Read the finished summary once for sense. Check every gap still makes sense.", "why": "A final read catches errors in grammar and meaning." }
+    ],
+    "tricks": [
+      "Do the easy gaps first. Cross out those words, and the list gets shorter for the hard gaps.",
+      "If two words look the same, check the type. 'Increase' can be a noun and a verb, so the sentence decides.",
+      "Some words in the list are tempting because they appear in the passage. Check that the meaning fits the gap.",
+      "The gaps follow the order of the passage, so work through the text in order."
+    ],
+    "traps": [
+      "Choosing a word because it appears in the passage. The list words are often paraphrases, so match meaning.",
+      "Ignoring grammar. A noun in a gap that needs a verb is always wrong, even if the meaning is close.",
+      "Using the same word twice. Cross out each word once you use it.",
+      "Writing the word when the question asks for the letter, or the other way round. Read the instructions."
+    ],
+    "example": {
+      "text": "Solar panels turn sunlight into electricity. They cost a lot to install, but they cost very little to run. Many families find that their bills fall steadily in the years after installation.",
+      "question": "Summary: Solar panels are expensive to ______ but cheap to operate. Word list: A. install  B. cheap  C. steadily  D. electricity",
+      "answer": "A (install)",
+      "evidence": "cost a lot to install",
+      "walk": [
+        "The gap comes after 'to', so a verb fits. 'Install' is a verb. 'Cheap' is an adjective, 'steadily' is an adverb, and 'electricity' is a noun.",
+        "The summary says 'expensive'. The passage says 'cost a lot', which is a paraphrase.",
+        "The text says 'cost a lot to install'. The verb after 'to' is 'install'.",
+        "Check: 'expensive to install but cheap to operate' makes sense, so the answer is A."
+      ]
+    },
+    "signals": [
+      { "word": "to before the gap", "means": "A verb in its base form comes next, for example 'to install'." },
+      { "word": "a, an, the before the gap", "means": "A noun or an adjective comes next." },
+      { "word": "-ly word in the list", "means": "It is usually an adverb. It describes a verb, for example 'grew quickly'." },
+      { "word": "is, are before the gap", "means": "An adjective, a noun or a verb ending in -ed or -ing can come next." }
+    ],
+    "checklist": [
+      "Did I decide the word type of each gap before I looked at the list?",
+      "Did I cross out each word as I used it?",
+      "Does my choice match the meaning of the passage, not only the spelling?",
+      "Did I read the finished summary for sense?"
+    ]
+  },
+  {
+    "id": "notes-completion",
+    "title": "Notes, table and flow-chart completion",
+    "what": "You get notes, a table or a flow-chart with gaps. You fill each gap with words from the passage, inside the word limit. The notes are short, so they leave out small words, and you must find the missing detail.",
+    "steps": [
+      { "do": "Read the word limit first. ONE WORD ONLY is strict, so write one word.", "why": "An answer over the limit gets no mark." },
+      { "do": "Read the headings of the notes. They usually match the order and the parts of the passage.", "why": "The headings tell you where in the passage to look." },
+      { "do": "For each gap, predict what is missing: a number, a name, a place or an object.", "why": "Knowing the answer type helps you spot the answer quickly." },
+      { "do": "Find the heading's topic in the passage. Underline the keywords next to the gap.", "why": "The keywords take you to the right sentence." },
+      { "do": "Read the sentence around the keywords. The missing detail is nearby.", "why": "Notes copy the passage's facts but drop the small words." },
+      { "do": "Copy the answer exactly from the passage. Do not change the form.", "why": "The test marks exact words and exact spelling." },
+      { "do": "Check the word limit. Remember that a hyphenated word counts as one word.", "why": "For example, 'well-known' is one word." }
+    ],
+    "tricks": [
+      "The notes follow the passage order. The gaps move forward through the text, so you never go back.",
+      "A number counts as one word, and so does a hyphenated word such as 'long-term'.",
+      "If the notes have a table, read down a column to see the pattern. All answers in one column are the same type.",
+      "In a flow-chart, read the arrows in order. Each box matches the next idea in the passage."
+    ],
+    "traps": [
+      "Writing two words when the limit is ONE WORD ONLY. Pick the single word that answers the gap.",
+      "Copying the wrong form, such as 'build' instead of 'built'. Copy what the passage says.",
+      "Choosing a number from the wrong sentence. Check the keyword next to the number.",
+      "Forgetting that notes drop small words. Do not copy words that are already in the notes."
+    ],
+    "example": {
+      "text": "The Riverside Market opens at 7 am and closes at 2 pm. It sells fruit, vegetables and fresh bread. The stallholders pay a small fee to the council. On the first Sunday of each month, a music event is held near the entrance.",
+      "question": "Notes: Riverside Market. Opening time: 7 am. Closing time: ______. Write NO MORE THAN TWO WORDS AND/OR A NUMBER.",
+      "answer": "2 pm",
+      "evidence": "closes at 2 pm",
+      "walk": [
+        "The limit is two words and/or a number. The heading says 'Closing time', so a time is missing.",
+        "Keywords: closing, time. 'Closing' is a paraphrase of 'closes' in the passage.",
+        "The text says 'closes at 2 pm'. The time is '2 pm'.",
+        "Check: '2 pm' is a number and one word, so it is inside the limit. The answer is 2 pm."
+      ]
+    },
+    "signals": [
+      { "word": "heading in the notes", "means": "It matches a part of the passage. Find that part first." },
+      { "word": "number, date, price", "means": "If the gap is a figure, look for digits or number words near the keyword." },
+      { "word": "arrow in a flow-chart", "means": "It means 'then'. The next box comes next in the passage." },
+      { "word": "bullet point", "means": "It is one fact. The gap is one detail inside that fact." }
+    ],
+    "checklist": [
+      "Did I check the word limit, especially ONE WORD ONLY?",
+      "Did I use the headings to find the right part of the passage?",
+      "Did I copy the exact form and spelling from the passage?",
+      "Does my answer match the type of detail the gap needs?"
+    ]
+  },
+  {
+    "id": "diagram-labelling",
+    "title": "Diagram labelling",
+    "what": "You get a picture, a map or a diagram with some labels missing. You read the passage and write the missing words, inside the word limit. The passage usually describes the diagram in the same order as the picture.",
+    "steps": [
+      { "do": "Read the word limit in the instructions first.", "why": "An answer over the limit gets no mark." },
+      { "do": "Study the diagram before you read the passage. Read the labels and follow the arrows in order.", "why": "You see the whole picture first, so the text makes more sense." },
+      { "do": "Decide the type of word each empty box needs. Most boxes need a noun, such as a part, or a verb, such as an action.", "why": "This helps you spot the answer when you read." },
+      { "do": "Find the part of the passage that describes the diagram. Look for the title and the labelled parts.", "why": "The passage describes the process in the same order as the diagram." },
+      { "do": "Follow the sequence words in the passage: first, then, next, finally. Match each to a box.", "why": "These words show you which step belongs to which box." },
+      { "do": "Find the sentence that matches each box. Copy the missing word or words exactly.", "why": "Each box usually takes a word or words from one sentence." },
+      { "do": "Check your answers against the arrows and the word limit.", "why": "Each answer should fit the place on the diagram." }
+    ],
+    "tricks": [
+      "The passage describes the diagram in the same order as the picture. Move forward through the text as you move along the arrows.",
+      "Use the labels already on the diagram as keywords. The passage will mention them near the missing word.",
+      "If the diagram is a map, use directions such as 'north' and 'next to' to place each box.",
+      "Most answers are nouns, such as parts of a machine, or verbs, such as actions in a process."
+    ],
+    "traps": [
+      "Skipping the diagram and reading the passage first. You will not know what to look for.",
+      "Putting a correct word in the wrong box. Check the arrows and the position.",
+      "Going over the word limit. Count your words for every box.",
+      "Changing the word form. Copy the passage exactly, including the spelling."
+    ],
+    "example": {
+      "text": "A water filter works in three stages. First, the dirty water passes through a layer of sand, which removes large pieces. Then it flows through a charcoal layer that takes out bad tastes. Finally, the clean water collects in a tank at the bottom.",
+      "question": "Diagram: dirty water goes into the filter. Box 1: ______ layer. Box 2: charcoal layer. Box 3: clean water in a ______. Write ONE WORD ONLY for each box.",
+      "answer": "1 sand, 3 tank",
+      "evidence": "passes through a layer of sand",
+      "walk": [
+        "The limit is one word per box. Box 1 is the first layer, and box 3 is where the clean water goes.",
+        "The sequence words are 'first', 'then' and 'finally'. They match box 1, box 2 and box 3 in order.",
+        "'First' says the water 'passes through a layer of sand', so box 1 is sand.",
+        "'Finally' says the clean water 'collects in a tank at the bottom', so box 3 is tank."
+      ]
+    },
+    "signals": [
+      { "word": "first, to begin with", "means": "This is the start of the process. It matches the first box or arrow." },
+      { "word": "then, next, after that", "means": "This is the middle of the process. It matches the next box." },
+      { "word": "finally, last", "means": "This is the end of the process. It matches the last box." },
+      { "word": "north, left, next to, above", "means": "On a map or plan, these words show where each label belongs." }
+    ],
+    "checklist": [
+      "Did I study the diagram and follow the arrows before I read the passage?",
+      "Does each answer match the right box and its place on the diagram?",
+      "Did I copy the exact form and spelling from the passage?",
+      "Did I count the words and stay inside the limit?"
     ]
   }
 ]
