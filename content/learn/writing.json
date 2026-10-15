@@ -625,7 +625,52 @@
       "weak": "Canada uses 8,000 and India uses 600.",
       "strong": "Canada had by far the highest energy use at 8,000 units per person, whereas India recorded the lowest figure of just 600 units.",
       "why": "The strong sentence ranks the two items, names the measure and unit, and uses a contrast word to show the gap clearly."
-    }
+    },
+    "demo": {
+      "prompt": "Write an introduction, a ranking sentence and a contrast sentence for this invented table. Title: 'Visitors to four museums in one city, 2023 and 2024 (thousands)'. Central Museum: 120 in 2023, 130 in 2024. Harbour Museum: 45 in 2023, 40 in 2024. Science Centre: 90 in 2023, 150 in 2024. Castle: 60 in 2023, 55 in 2024. Use the steps.",
+      "moves": [
+        {
+          "step": 1,
+          "say": "I read the title, the row labels and the column labels first. The figures are visitors in thousands, for 2023 and 2024."
+        },
+        {
+          "step": 2,
+          "say": "I find the highest and lowest figures. The highest in 2024 is the Science Centre at 150, and the lowest is Harbour Museum at 40."
+        },
+        {
+          "step": 3,
+          "say": "I look for one surprise. The Science Centre rose by 60 thousand, which is far more than any other museum, so I will include it."
+        },
+        {
+          "step": 4,
+          "say": "I paraphrase the title for my introduction. I say what the table shows, using my own words and no new facts.",
+          "build": "The table shows how many people visited four museums in one city in 2023 and 2024, in thousands."
+        },
+        {
+          "step": 6,
+          "say": "Now I write a ranking sentence. It names the highest and lowest figures from step two, with their numbers and the year.",
+          "build": "The table shows how many people visited four museums in one city in 2023 and 2024, in thousands. In 2024, the Science Centre had the most visitors at 150 thousand, while Harbour Museum had the fewest at 40 thousand."
+        },
+        {
+          "step": 6,
+          "say": "Last, I write a contrast sentence. I put the surprise and the lowest museum together, so the two changes are easy to compare.",
+          "build": "The table shows how many people visited four museums in one city in 2023 and 2024, in thousands. In 2024, the Science Centre had the most visitors at 150 thousand, while Harbour Museum had the fewest at 40 thousand. Whereas the Science Centre rose from 90 to 150 thousand, Harbour Museum fell from 45 to 40 thousand."
+        }
+      ],
+      "answer": "The table shows how many people visited four museums in one city in 2023 and 2024, in thousands. In 2024, the Science Centre had the most visitors at 150 thousand, while Harbour Museum had the fewest at 40 thousand. Whereas the Science Centre rose from 90 to 150 thousand, Harbour Museum fell from 45 to 40 thousand."
+    },
+    "practice": [
+      {
+        "prompt": "Invented table: 'Drinks sold in a cafe in one week, 2025 (cups)'. Coffee 300, tea 180, juice 120, hot chocolate 90. Write one sentence naming the highest and the lowest figure. Use the steps.",
+        "answer": "Coffee had the highest sales at 300 cups, while hot chocolate had the lowest at 90 cups.",
+        "why": "Step 2 finds the highest figure, coffee at 300 cups, and the lowest, hot chocolate at 90 cups. The sentence names both figures and contrasts them."
+      },
+      {
+        "prompt": "Invented table: 'Students who passed their exams at four schools, 2024 (%)'. School A: maths 62, English 70. School B: maths 85, English 58. School C: maths 74, English 73. School D: maths 48, English 66. Write one sentence contrasting School B's maths and English results. Use the steps.",
+        "answer": "School B had the highest maths result of all four schools at 85%, but the lowest English result at 58%.",
+        "why": "Step 3 spots the surprise: School B is top in maths but bottom in English. Step 2 checks the highest and lowest figures in each column, and the answer uses both."
+      }
+    ]
   },
   {
     "id": "task1-map",
@@ -710,7 +755,52 @@
       "weak": "The farm is gone and there are houses.",
       "strong": "The farm in the north-east of the village was demolished and replaced by a housing estate beside the main road.",
       "why": "The strong sentence uses the passive for the change, gives an exact compass position, and places the new feature in relation to another."
-    }
+    },
+    "demo": {
+      "prompt": "Write an introduction, an overview and one body sentence for two invented maps. Title: 'How a village changed, 1990 and 2020'. In 1990 a farm stood to the north-east of the village, and a field lay to the south. By 2020 the farm had been demolished and replaced by a housing estate, the field had become a car park, and the rest of the village stayed the same. Use the steps.",
+      "moves": [
+        {
+          "step": 1,
+          "say": "I check the dates first. The first map is from 1990 and the second is from 2020, so I use past tenses for the changes."
+        },
+        {
+          "step": 2,
+          "say": "I sort the changes into types. The farm was removed and houses were built, and the field changed its use to a car park."
+        },
+        {
+          "step": 3,
+          "say": "I check the compass before I name any direction. The farm is north-east of the village, so I write 'to the north-east of'."
+        },
+        {
+          "step": 4,
+          "say": "I paraphrase the title for my introduction. I say which maps I am describing and which years they show.",
+          "build": "The two maps show how a village changed between 1990 and 2020."
+        },
+        {
+          "step": 5,
+          "say": "The overview gives the main change with no small details. Houses replaced the farm, so I say the village became more built up.",
+          "build": "The two maps show how a village changed between 1990 and 2020. Overall, the village became more built up, as houses replaced the farm."
+        },
+        {
+          "step": 6,
+          "say": "Now I describe the main change in the passive and past tense. 'Was demolished and replaced by' shows the farm is gone.",
+          "build": "The two maps show how a village changed between 1990 and 2020. Overall, the village became more built up, as houses replaced the farm. The farm to the north-east of the village was demolished and replaced by a housing estate."
+        }
+      ],
+      "answer": "The two maps show how a village changed between 1990 and 2020. Overall, the village became more built up, as houses replaced the farm. The farm to the north-east of the village was demolished and replaced by a housing estate."
+    },
+    "practice": [
+      {
+        "prompt": "Two invented maps of a town park, 2000 and 2015. In 2000 a bowling alley stood to the west of the lake. In 2015 the bowling alley had been demolished and replaced by a library. Write one sentence about this change, using a compass direction and 'was demolished and replaced by'. Use the steps.",
+        "answer": "The bowling alley to the west of the lake was demolished and replaced by a library.",
+        "why": "Step 3 checks the compass position: the alley is to the west of the lake. Step 6 describes the change in the passive and past tense, 'was demolished and replaced by'."
+      },
+      {
+        "prompt": "Two invented maps of a seaside town, 1980 and 2010. In 1980 a car park stood to the north of the pier, and a small hotel stood to the south-east of the pier. In 2010 the car park had been converted into a marina, and the hotel was still there. Write one overview sentence with no compass direction and no small details. Use the steps.",
+        "answer": "Overall, the main change was the conversion of the car park into a marina, while the hotel stayed the same.",
+        "why": "Step 2 sorts the changes: one feature was converted and one stayed. Step 5 asks for the main change only, with no directions or small details, so the answer leaves out the compass positions."
+      }
+    ]
   },
   {
     "id": "task1-process",
@@ -795,7 +885,58 @@
       "weak": "First they collect waste paper and then they mix it with water.",
       "strong": "First, the waste paper is collected, and after that it is mixed with water.",
       "why": "The strong sentence uses the passive, adds a sequencing word, and joins the two stages in order. It adds nothing that is not in the prompt."
-    }
+    },
+    "demo": {
+      "prompt": "Write an introduction, an overview and a description of the three stages for an invented process diagram. Title: 'How jam is made in three stages'. Stage 1: fresh fruit is washed and cut. Stage 2: the fruit is heated with sugar in a large pan. Stage 3: the jam is poured into jars and sealed. Use the steps.",
+      "moves": [
+        {
+          "step": 1,
+          "say": "I decide whether this is a line or a cycle. It starts with fresh fruit and ends with sealed jars, so it is a line."
+        },
+        {
+          "step": 2,
+          "say": "I count and name the stages. There are three: washing and cutting, heating with sugar, and pouring into jars."
+        },
+        {
+          "step": 4,
+          "say": "I paraphrase the title for my introduction. I say how many stages there are and what the diagram shows.",
+          "build": "The diagram illustrates how jam is made in three stages, from fresh fruit to sealed jars."
+        },
+        {
+          "step": 5,
+          "say": "The overview counts the stages and says it is a line. It gives no small details, so I leave out the pan and the jars.",
+          "build": "The diagram illustrates how jam is made in three stages, from fresh fruit to sealed jars. Overall, the process is linear, with three main stages from start to finish."
+        },
+        {
+          "step": 6,
+          "say": "Now I describe the stages in order. I start with a sequencer and the passive, because the action matters most.",
+          "build": "The diagram illustrates how jam is made in three stages, from fresh fruit to sealed jars. Overall, the process is linear, with three main stages from start to finish. First, the fruit is washed and cut."
+        },
+        {
+          "step": 6,
+          "say": "The second stage comes next. I use 'next' and the present simple passive, 'is heated', to keep the order clear.",
+          "build": "The diagram illustrates how jam is made in three stages, from fresh fruit to sealed jars. Overall, the process is linear, with three main stages from start to finish. First, the fruit is washed and cut. Next, the fruit is heated with sugar in a large pan."
+        },
+        {
+          "step": 6,
+          "say": "The last stage ends the process. I use 'finally' and the passive again, so the reader knows the jam is complete.",
+          "build": "The diagram illustrates how jam is made in three stages, from fresh fruit to sealed jars. Overall, the process is linear, with three main stages from start to finish. First, the fruit is washed and cut. Next, the fruit is heated with sugar in a large pan. Finally, the jam is poured into jars and sealed."
+        }
+      ],
+      "answer": "The diagram illustrates how jam is made in three stages, from fresh fruit to sealed jars. Overall, the process is linear, with three main stages from start to finish. First, the fruit is washed and cut. Next, the fruit is heated with sugar in a large pan. Finally, the jam is poured into jars and sealed."
+    },
+    "practice": [
+      {
+        "prompt": "An invented process diagram shows how juice is made in three stages: oranges are squeezed, the juice is filtered, and the juice is bottled and capped. Write one sentence describing the first two stages in order, with a sequencer and the passive. Use the steps.",
+        "answer": "First, the oranges are squeezed, and then the juice is filtered.",
+        "why": "Step 6 describes the stages in order, with a sequencer and the passive. The answer covers stages one and two, squeezing and then filtering, in the right order."
+      },
+      {
+        "prompt": "An invented process diagram shows how flour is made in four stages: wheat is harvested, the wheat is cleaned, the grain is milled into flour, and the flour is packed into bags. Write one overview sentence that counts the stages and names where the process starts and ends, with no small details. Use the steps.",
+        "answer": "Overall, the process is linear and has four stages, beginning with harvested wheat and ending with packed flour.",
+        "why": "Step 5 asks for an overview: count the stages, name the start and end, and leave out details. Step 1 shows the process is a line, so the overview says linear."
+      }
+    ]
   },
   {
     "id": "task1-mixed",
@@ -880,7 +1021,58 @@
       "weak": "The table shows hotel income. It is also high.",
       "strong": "In line with the rising number of tourists shown in the graph, hotel income in the table also grew, reaching its highest level in 2020.",
       "why": "The strong sentence uses a linking phrase to connect both visuals, and shows a clear relationship between two different sets of data."
-    }
+    },
+    "demo": {
+      "prompt": "Write one combined introduction, one overview, one body sentence for each visual, and one linking sentence for two invented visuals of one coastal town, 2015 to 2020. Visual 1: a line graph titled 'Tourist numbers in a coastal town, 2015 to 2020 (thousands)'. Tourists rose from 50 thousand in 2015 to 80 thousand in 2020. Visual 2: a table titled 'Hotel income in the same town, 2015 and 2020 (millions of pounds)'. Hotel income rose from 4 million pounds in 2015 to 7 million pounds in 2020. Use the steps.",
+      "moves": [
+        {
+          "step": 1,
+          "say": "I read both titles. The line graph shows tourist numbers and the table shows hotel income, for the same town and the same years."
+        },
+        {
+          "step": 2,
+          "say": "For each visual I pick the key features. For the line graph and the table, I use the start figure and the end figure."
+        },
+        {
+          "step": 3,
+          "say": "I write one introduction for both visuals. It covers the two topics and the years, so the reader knows the whole task.",
+          "build": "The line graph and the table show the number of tourists and hotel income in a coastal town between 2015 and 2020."
+        },
+        {
+          "step": 4,
+          "say": "The overview covers the main point from each visual, with no numbers. Both figures grew, so I say that.",
+          "build": "The line graph and the table show the number of tourists and hotel income in a coastal town between 2015 and 2020. Overall, both the number of tourists and hotel income grew over the period."
+        },
+        {
+          "step": 5,
+          "say": "Next I write one body sentence for the line graph, using its own figures. The tourist numbers are from the graph only.",
+          "build": "The line graph and the table show the number of tourists and hotel income in a coastal town between 2015 and 2020. Overall, both the number of tourists and hotel income grew over the period. The number of tourists rose from 50 thousand in 2015 to 80 thousand in 2020."
+        },
+        {
+          "step": 5,
+          "say": "Then I write one body sentence for the table, with its own figures. The income figures come from the table only.",
+          "build": "The line graph and the table show the number of tourists and hotel income in a coastal town between 2015 and 2020. Overall, both the number of tourists and hotel income grew over the period. The number of tourists rose from 50 thousand in 2015 to 80 thousand in 2020. Hotel income rose from 4 million pounds to 7 million pounds over the same period."
+        },
+        {
+          "step": 6,
+          "say": "Last, I add one linking sentence. It shows the two visuals follow the same pattern, so the examiner sees the connection.",
+          "build": "The line graph and the table show the number of tourists and hotel income in a coastal town between 2015 and 2020. Overall, both the number of tourists and hotel income grew over the period. The number of tourists rose from 50 thousand in 2015 to 80 thousand in 2020. Hotel income rose from 4 million pounds to 7 million pounds over the same period. In line with the rise in tourists, hotel income also grew over the same period."
+        }
+      ],
+      "answer": "The line graph and the table show the number of tourists and hotel income in a coastal town between 2015 and 2020. Overall, both the number of tourists and hotel income grew over the period. The number of tourists rose from 50 thousand in 2015 to 80 thousand in 2020. Hotel income rose from 4 million pounds to 7 million pounds over the same period. In line with the rise in tourists, hotel income also grew over the same period."
+    },
+    "practice": [
+      {
+        "prompt": "Two invented visuals for one city, 2018 and 2023. A bar chart shows the number of cyclists, in thousands: 20 in 2018 and 35 in 2023. A table shows the number of bus passengers, in thousands: 90 in 2018 and 70 in 2023. Write one combined introduction sentence that covers both visuals. Use the steps.",
+        "answer": "The bar chart and the table show the number of cyclists and bus passengers in one city between 2018 and 2023.",
+        "why": "Step 3 asks for one introduction that covers both visuals. The sentence names both visuals, both topics and the years, and adds no figures."
+      },
+      {
+        "prompt": "Two invented visuals for one city. Cyclists rose from 20 thousand in 2018 to 35 thousand in 2023, and bus passengers fell from 90 thousand to 70 thousand over the same years. Write one linking sentence that contrasts the two trends, using 'whereas' and both sets of figures. Use the steps.",
+        "answer": "Whereas the number of cyclists rose from 20 thousand to 35 thousand, bus passengers fell from 90 thousand to 70 thousand.",
+        "why": "Step 6 links the two visuals in one sentence. 'Whereas' contrasts cyclists, who rose from 20 to 35 thousand, with bus passengers, who fell from 90 to 70 thousand."
+      }
+    ]
   },
   {
     "id": "opinion",
