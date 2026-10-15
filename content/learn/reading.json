@@ -361,6 +361,61 @@
       "Does my answer match the question word (who, when, where, how many)?",
       "Did I copy the words exactly and check the spelling?",
       "Did I count the words and stay inside the limit?"
+    ],
+    "demo": {
+      "prompt": "When does the story hour take place? Write NO MORE THAN TWO WORDS.",
+      "text": "The Moorfield Library was built in 1908 with money from a local mill owner. It has a reading room with tall windows and about 12,000 books. Children can join the story hour every Thursday afternoon, and it is free. Families must book a place by phone first.",
+      "moves": [
+        {
+          "step": 1,
+          "say": "I read the limit first: NO MORE THAN TWO WORDS. I write it at the top of my page so I do not go over."
+        },
+        {
+          "step": 2,
+          "say": "I see the question word 'when'. So I look for a day or a time, not a place or a name."
+        },
+        {
+          "step": 3,
+          "say": "I underline the keyword: story hour. It is the thing the question asks about, so I look for it in the passage."
+        },
+        {
+          "step": 4,
+          "say": "I scan the passage for 'story hour'. It is in the third sentence, so I go there and read it.",
+          "mark": "Children can join the story hour every Thursday afternoon, and it is free."
+        },
+        {
+          "step": 5,
+          "say": "I read the time: after 'every' there is a day and a part of the day. That is my answer.",
+          "mark": "every Thursday afternoon"
+        },
+        {
+          "step": 6,
+          "say": "I copy the words exactly: Thursday afternoon, with the same capital T as the passage.",
+          "mark": "Thursday afternoon"
+        },
+        {
+          "step": 7,
+          "say": "Thursday afternoon is two words, so it is within the limit. I check the spelling against the passage.",
+          "mark": "Thursday afternoon"
+        }
+      ],
+      "answer": "Thursday afternoon"
+    },
+    "practice": [
+      {
+        "prompt": "How many lifeguards watch the pool at weekends? Write NO MORE THAN TWO WORDS AND/OR A NUMBER. Use the steps: find the question word, the keywords, then the sentence with the answer.",
+        "text": "The Cresswell Pool opens at 8 am every day in summer. At weekends, five lifeguards watch the pool, while only three work on weekdays. Children under eight must always be with an adult. Swimming lessons are held in the mornings.",
+        "answer": "five",
+        "why": "Step 5: the keyword is 'weekends', and the sentence says 'At weekends, five lifeguards watch the pool'. The number three is for weekdays, so it is the wrong answer. The answer is five.",
+        "evidence": "At weekends, five lifeguards watch the pool"
+      },
+      {
+        "prompt": "What must visitors leave in the cloakroom? Write NO MORE THAN TWO WORDS. Use the steps, and cut any small words that make the answer too long.",
+        "text": "Visitors to the Ashdown Museum are asked to leave large bags in the cloakroom. Photography is allowed in every room except the textile gallery. Guided tours start from the main desk at half past ten. Wheelchairs can be borrowed free of charge from the cloakroom.",
+        "answer": "large bags",
+        "why": "Step 4: 'leave' and 'cloakroom' are the keywords, and the first sentence says visitors are asked to leave large bags. 'Bags in the cloakroom' is over the limit, and the cloakroom is where, not what. Answer: large bags.",
+        "evidence": "are asked to leave large bags in the cloakroom"
+      }
     ]
   },
   {
@@ -411,6 +466,60 @@
       "Does my answer fit the grammar of the sentence?",
       "Did I copy the word exactly from the passage?",
       "Does the whole sentence make sense when I read it again?"
+    ],
+    "demo": {
+      "prompt": "Ravi chose to paint the ______ green. Write ONE WORD ONLY.",
+      "text": "Ravi spent the weekend in his garden. The old wooden fence had faded badly over the winter. He sanded the fence smooth, then chose a bright green paint to cover it.",
+      "moves": [
+        {
+          "step": 1,
+          "say": "The limit is ONE WORD ONLY, so I will write just one word in the gap."
+        },
+        {
+          "step": 2,
+          "say": "The gap comes after 'the', so a noun fits. I am looking for a thing that gets painted, not an action."
+        },
+        {
+          "step": 3,
+          "say": "I underline the keywords: paint and green. I search for them in the passage.",
+          "mark": "chose a bright green paint to cover it."
+        },
+        {
+          "step": 4,
+          "say": "I read the sentence around the keywords. It says the same idea in other words: the paint covers something.",
+          "mark": "He sanded the fence smooth, then chose a bright green paint to cover it."
+        },
+        {
+          "step": 5,
+          "say": "The paint covers 'it', which means the fence. I copy the noun from the sentence before: fence.",
+          "mark": "He sanded the fence smooth"
+        },
+        {
+          "step": 6,
+          "say": "I put fence in the gap: 'Ravi chose to paint the fence green.' It reads naturally and matches the passage."
+        },
+        {
+          "step": 7,
+          "say": "One word, and I check the spelling against the passage. It is within the limit."
+        }
+      ],
+      "answer": "fence"
+    },
+    "practice": [
+      {
+        "prompt": "Mina's grandmother bakes her bread in a brick ______. Write ONE WORD ONLY. Use the steps: find the keywords, read the sentence around them, then copy the noun.",
+        "text": "Mina's grandmother has run a bakery in the town for forty years. Every morning she bakes sourdough loaves in a brick oven that she built herself. Customers often ask for the recipe, but she never shares it. Her grandson now helps with the deliveries.",
+        "answer": "oven",
+        "why": "Step 4: the keywords 'bakes' and 'brick' lead to the sentence 'she bakes sourdough loaves in a brick oven'. The gap is a noun after 'brick', and 'oven' is the word the passage uses.",
+        "evidence": "bakes sourdough loaves in a brick oven"
+      },
+      {
+        "prompt": "The visit finishes with an ______ in the old lighthouse. Write ONE WORD ONLY. Use the steps, and check the small word 'an' before the gap.",
+        "text": "The harbour museum offers a guided walk every morning at ten. The walk starts at the old fish market and follows the quay. Guides explain how boats were repaired in the nineteenth century. The tour ends with an hour in the old lighthouse, where visitors can see the lamp room.",
+        "answer": "hour",
+        "why": "Step 4: 'finishes' paraphrases 'ends', and the passage says the tour ends with an hour in the old lighthouse. 'An' means a vowel sound follows, and 'hour' starts with a silent h, so it fits.",
+        "evidence": "The tour ends with an hour in the old lighthouse"
+      }
     ]
   },
   {
@@ -461,6 +570,60 @@
       "Did I find the right part of the passage?",
       "Does my answer fit the grammar before and after the gap?",
       "Did I copy the words exactly and stay inside the word limit?"
+    ],
+    "demo": {
+      "prompt": "Summary: The reading club relocated to the ______ in 2019, and its membership grew to more than ______ adults by 2022. Write NO MORE THAN TWO WORDS for each gap.",
+      "text": "A: The city library began a reading club in 2015 for people who had not read a book in years. Members met once a week to talk about short novels. B: In 2019 the club moved to the community centre, where the numbers grew quickly. By 2022, more than sixty adults were attending, and the club had its own small budget. The organisers said the biggest change was confidence: members now read aloud in public.",
+      "moves": [
+        {
+          "step": 1,
+          "say": "I read the limit first: NO MORE THAN TWO WORDS for each gap. Both answers must stay within it."
+        },
+        {
+          "step": 2,
+          "say": "I read the whole summary once, ignoring the gaps. It is about a club that moved and then grew."
+        },
+        {
+          "step": 3,
+          "say": "The summary covers a move in 2019 and growth after it. Those facts are in paragraph B, so I skip paragraph A.",
+          "mark": "In 2019 the club moved to the community centre"
+        },
+        {
+          "step": 4,
+          "say": "I see gap 1 comes after 'relocated to the', so I need a place. Gap 2 comes after 'more than', so I need a number."
+        },
+        {
+          "step": 5,
+          "say": "'Relocated' means 'moved'. The place after 'moved to the' is the answer to gap 1, so I mark it.",
+          "mark": "moved to the community centre"
+        },
+        {
+          "step": 6,
+          "say": "Gap 2: the summary has 'more than' before the gap. The passage has the same words followed by a number, so I copy it.",
+          "mark": "more than sixty adults"
+        },
+        {
+          "step": 7,
+          "say": "I read the finished summary: the club relocated to the community centre and grew to more than sixty adults. Both gaps make sense."
+        }
+      ],
+      "answer": "Gap 1: community centre. Gap 2: sixty."
+    },
+    "practice": [
+      {
+        "prompt": "Summary: The festival began in a little ______ next to the river. Later it relocated to the old ______, and ticket sales doubled. Write ONE WORD ONLY for each gap. Use the steps: match the ideas in the summary to the passage, in order.",
+        "text": "The Riverside Film Festival began in 2008 in a small park beside the river. Its first screenings were shown outdoors on a white sheet, and only about two hundred people came. Eight years later the festival moved indoors to the old cinema, and ticket sales doubled within a year. Today it is one of the largest events in the region.",
+        "answer": "Gap 1: park. Gap 2: cinema.",
+        "why": "Steps 3 and 5: 'little ... next to the river' paraphrases 'small park beside the river', so gap 1 is park. 'Relocated' means 'moved indoors', and the old cinema follows, so gap 2 is cinema.",
+        "evidence": "a small park beside the river"
+      },
+      {
+        "prompt": "Summary: Sales rose so fast that by 2019 the owner had installed a ______ oven. Most loaves are gone before ______. Write ONE WORD ONLY for each gap. Use the steps, and check which time the summary means.",
+        "text": "A: Harvest Bakery sells bread from a converted barn on the edge of the village. Its owner, Tom, started with a single oven in 2016. B: Demand grew so fast that by 2019 he needed a second oven and four new staff. Most of the bread is sold before noon, although the shop opens at eight.",
+        "answer": "Gap 1: second. Gap 2: noon.",
+        "why": "Steps 3 and 5: 'sales rose so fast' matches 'demand grew so fast', giving 'second'. 'Gone before' matches 'sold before noon'. Eight is the opening time, so it is wrong.",
+        "evidence": "Most of the bread is sold before noon"
+      }
     ]
   },
   {
@@ -511,6 +674,77 @@
       "Did I cross out each word as I used it?",
       "Does my choice match the meaning of the passage, not only the spelling?",
       "Did I read the finished summary for sense?"
+    ],
+    "demo": {
+      "prompt": "Summary: Lena closed her flower shop because the ______ went up. She now sells bouquets ______, and her sales are growing ______. Word list (use each word once): rent, online, steadily, landlord, bakery. Use the steps.",
+      "text": "Lena ran a small flower shop on Pine Street for eleven years. In the spring of 2023 her landlord raised the rent by a third. She could not pay the higher price, so she closed the shop in May. Now she sells bouquets online from her kitchen, and her sales are growing steadily.",
+      "moves": [
+        {
+          "step": 1,
+          "say": "I read the whole summary once, ignoring the gaps. It is about a shop that closed and a move online."
+        },
+        {
+          "step": 2,
+          "say": "Gap 1 follows 'the', so I need a noun. Gap 2 follows 'bouquets', so I need a word for where. Gap 3 needs a word for how."
+        },
+        {
+          "step": 3,
+          "say": "I group the words by type. Rent, landlord and bakery are nouns. Online and steadily are adverbs. Grammar rules nothing out yet, so I keep all five."
+        },
+        {
+          "step": 4,
+          "say": "I search the passage for the cause. The landlord and the rent are in the second sentence, so I read it.",
+          "mark": "In the spring of 2023 her landlord raised the rent by a third."
+        },
+        {
+          "step": 5,
+          "say": "Gap 1 needs the thing that went up. Rent went up, and the landlord did not, so I choose rent.",
+          "mark": "her landlord raised the rent by a third"
+        },
+        {
+          "step": 6,
+          "say": "I cross out rent and check gap 2. The passage says she sells bouquets online, so online fits.",
+          "mark": "Now she sells bouquets online from her kitchen"
+        },
+        {
+          "step": 6,
+          "say": "I cross out online. Steadily is the only adverb left for gap 3, and the passage says her sales are growing steadily.",
+          "mark": "her sales are growing steadily"
+        },
+        {
+          "step": 7,
+          "say": "I read the finished summary. 'Closed because the rent went up' makes sense. Landlord and bakery stay unused, which is fine."
+        }
+      ],
+      "answer": "Lena closed her flower shop because the rent went up. She now sells bouquets online, and her sales are growing steadily."
+    },
+    "practice": [
+      {
+        "prompt": "Summary: The apple trees were planted by the founder's ______. Choose one word from the list. Use the steps: decide the word type, then find the matching part of the passage.",
+        "text": "The Bramley Orchard has grown apples for three generations. Its trees were planted by the founder's grandfather, and the family still picks the fruit by hand. Each autumn, most of the crop is sold at a small farm shop.",
+        "options": [
+          "grandfather",
+          "neighbour",
+          "customer",
+          "orchard"
+        ],
+        "answer": "grandfather",
+        "why": "Step 4: the passage says the trees 'were planted by the founder's grandfather'. 'Orchard' fits the grammar but cannot be the planter, and the other two words do not appear in the passage.",
+        "evidence": "Its trees were planted by the founder's grandfather"
+      },
+      {
+        "prompt": "Summary: For six weeks the shop was ______ while the roof was mended. Choose one word from the list. Use the steps: decide the word type, cross out words that do not fit, then find the matching part of the passage.",
+        "text": "The village shop was closed for six weeks while the owner repaired the roof. When it reopened in June, customers were delighted and came back in large numbers. The owner said the repair had cost more than she expected.",
+        "options": [
+          "closed",
+          "open",
+          "sold",
+          "painted"
+        ],
+        "answer": "closed",
+        "why": "Steps 3 and 4: every option fits the grammar, so meaning decides. The passage says the shop was closed for six weeks while the roof was repaired. 'Open' is the trap: the shop only reopened later.",
+        "evidence": "The village shop was closed for six weeks"
+      }
     ]
   },
   {
@@ -561,6 +795,60 @@
       "Did I use the headings to find the right part of the passage?",
       "Did I copy the exact form and spelling from the passage?",
       "Does my answer match the type of detail the gap needs?"
+    ],
+    "demo": {
+      "prompt": "Notes: Hillside Community Garden. Opened: 2012. Raised beds: ______. Watering: Monday and Thursday evenings. Write ONE WORD ONLY for the gap.",
+      "text": "The Hillside Community Garden opened in 2012 on an empty plot behind the school. There are forty raised beds, and each one is rented to a local family for a small yearly fee. Volunteers water the beds on Monday and Thursday evenings. Visitors may use the long-term compost bin near the gate.",
+      "moves": [
+        {
+          "step": 1,
+          "say": "The rule is ONE WORD ONLY, so I will write one word. I keep that in mind for every answer."
+        },
+        {
+          "step": 2,
+          "say": "I know the notes follow the passage order. The opening year is filled in, so my gap comes later, near the start of the passage."
+        },
+        {
+          "step": 3,
+          "say": "The gap asks how many beds there are, so I predict a number word."
+        },
+        {
+          "step": 4,
+          "say": "I find the topic of the heading: raised beds. The keywords appear in the second sentence.",
+          "mark": "There are forty raised beds"
+        },
+        {
+          "step": 5,
+          "say": "I read the sentence around the keywords. The number comes just before 'raised beds', so that is the missing word.",
+          "mark": "There are forty raised beds"
+        },
+        {
+          "step": 6,
+          "say": "I copy the number exactly as the passage writes it: forty.",
+          "mark": "forty raised beds"
+        },
+        {
+          "step": 7,
+          "say": "I check the limit. A hyphenated word such as 'long-term' counts as one word, and 'forty' is one word, so it fits."
+        }
+      ],
+      "answer": "forty"
+    },
+    "practice": [
+      {
+        "prompt": "Notes: Eastfield Swimming Club. Founded: 1974. Number of members: ______. Write NO MORE THAN TWO WORDS AND/OR A NUMBER. Use the steps.",
+        "text": "The Eastfield Swimming Club was founded in 1974 by two teachers. It now has 180 members, and about a third of them are under sixteen. Training sessions run on Tuesdays and Saturdays. The club hires a coach from the city.",
+        "answer": "180",
+        "why": "Step 4: the heading is 'Number of members', and the passage says 'It now has 180 members'. 1974 is the year the club was founded, not the number of members, so it is wrong.",
+        "evidence": "It now has 180 members"
+      },
+      {
+        "prompt": "Notes: Osei Cycle Shop. Most popular service: full wheel ______. Write ONE WORD ONLY. Use the steps, and check which service the notes are asking about.",
+        "text": "Mr Osei's cycle repair shop is the oldest in the district. Customers often ask for a brake-check, which takes twenty minutes. But the shop's best-selling service is a full wheel rebuild, which takes about two hours.",
+        "answer": "rebuild",
+        "why": "Step 4: 'most popular' matches 'best-selling', and the sentence says the service is a full wheel rebuild. 'Brake-check' is one word with a hyphen, but it is not the best seller, so it is wrong.",
+        "evidence": "the shop's best-selling service is a full wheel rebuild"
+      }
     ]
   },
   {
@@ -611,6 +899,60 @@
       "Does each answer match the right box and its place on the diagram?",
       "Did I copy the exact form and spelling from the passage?",
       "Did I count the words and stay inside the limit?"
+    ],
+    "demo": {
+      "prompt": "Diagram (a flow chart, read left to right): Box 1: logs are cut into chips → Box 2: [gap] → Box 3: [gap] → Box 4: the sheet is dried and rolled. Write ONE WORD ONLY for each gap.",
+      "text": "Paper is made in three stages at the Mill Road plant. First, logs are cut into chips and mixed with water to form a thick pulp. Next, the pulp is spread across a long wire screen, which lets the water drain away. Finally, the damp sheet is pressed and dried over heated rollers.",
+      "moves": [
+        {
+          "step": 1,
+          "say": "I read the limit: ONE WORD ONLY for each box, so each gap gets one word."
+        },
+        {
+          "step": 2,
+          "say": "I study the diagram first. It runs left to right, and the arrows show the order: chips, two gaps, then the sheet."
+        },
+        {
+          "step": 3,
+          "say": "I see each gap needs a noun, a thing in the process. I think box 2 is a material, and box 3 is a part of the process."
+        },
+        {
+          "step": 4,
+          "say": "I find the part of the passage that describes the diagram. The first sentence names three stages, so I read on.",
+          "mark": "Paper is made in three stages at the Mill Road plant."
+        },
+        {
+          "step": 5,
+          "say": "I follow 'First', which gives box 1 and the stage after it. The chips are mixed to form a thick mixture, so I write that noun for box 2.",
+          "mark": "mixed with water to form a thick pulp"
+        },
+        {
+          "step": 6,
+          "say": "I read the sentence after 'Next', which matches box 3. The pulp is spread across a long wire screen, so I write screen.",
+          "mark": "spread across a long wire screen"
+        },
+        {
+          "step": 7,
+          "say": "I check the arrows: chips, pulp, screen, then the dried sheet. Each gap is one word and within the limit."
+        }
+      ],
+      "answer": "Box 2: pulp. Box 3: screen."
+    },
+    "practice": [
+      {
+        "prompt": "Diagram (a flow chart, left to right): Box 1: flour, water and salt are mixed → Box 2: the [gap] rests for two hours → Box 3: loaves are baked in a hot oven. Write ONE WORD ONLY for the gap. Use the steps.",
+        "text": "Bread is made in three stages at the local bakery. First, the baker mixes flour, water and salt into a smooth dough. Then the dough rests for two hours, which lets it rise slowly. Finally, the loaves are baked in a hot oven for forty minutes.",
+        "answer": "dough",
+        "why": "Step 4: 'Then' marks stage two, and the passage says 'the dough rests for two hours'. The gap is a noun that comes before 'rests', and 'dough' is the word the passage uses.",
+        "evidence": "Then the dough rests for two hours"
+      },
+      {
+        "prompt": "Diagram (a flow chart, left to right): Box 1: olives are crushed into a paste → Box 2: the paste is [gap] slowly for thirty minutes → Box 3: oil is separated from the water. Write ONE WORD ONLY for the gap. Use the steps, and check the verb form.",
+        "text": "Olive oil is produced in three stages at the Vale estate. First, the olives are crushed into a paste, which takes about an hour. The paste is then stirred slowly for thirty minutes, so that small drops of oil can join together. Finally, a machine separates the oil from the water.",
+        "answer": "stirred",
+        "why": "Steps 3 and 5: the gap is a verb after 'is', and the middle stage says the paste is 'stirred slowly for thirty minutes'. 'Crushed' is the box 1 action, not box 2, so it is wrong.",
+        "evidence": "The paste is then stirred slowly for thirty minutes"
+      }
     ]
   },
   {
