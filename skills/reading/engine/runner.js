@@ -1,7 +1,10 @@
+import { mountDisplayMenu } from '../../../assets/core/display.js';
 import { TYPES } from './types.js';
 import { markItem } from './marking.js';
 import { STEPS, COACH } from './coach.js';
 import { recordAttempt } from '../../../assets/core/store.js';
+import { mountNavigator, addFlags, addStrike, goTo } from './tools-nav.js';
+import { mountAnnotations, mountFindBar, mountRuler, evidenceVerdict } from './tools-annotate.js';
 
 const base = new URL('../../../content/reading/', import.meta.url);
 export const getJSON = async p => { const r = await fetch(new URL(p, base)); if (!r.ok) throw new Error(`Cannot load ${p}`); return r.json(); };
@@ -44,38 +47,42 @@ export async function startSet({ type, mount, render, minutes }) {
 
   minutes ??= Math.ceil(set.items.length * 1.5); // real test: 60 min for 40 questions
   mount.innerHTML = `
-    <header class="bar"><h1>${esc(meta.title)}</h1><span id="timer" role="timer" aria-live="off">${mmss(minutes * 60)}</span>
-      <button class="btn ghost" id="hl" type="button">Highlight selection</button></header>
+    <header class="bar"><h1>${esc(meta.title)}</h1><span id="timer" role="timer" aria-live="off">${mmss(minutes * 60)}</span><span id="dispslot"></span></header>
+    <p><a class="back" href="../../learn/#${type}">Study the notes for this question type &rarr;</a></p>
     <details class="coach card"><summary>How to find the answer</summary><ol>${COACH.map(([a, b]) => `<li><strong>${a}</strong> ${b}</li>`).join('')}</ol></details>
     <div class="split"><article class="card passage" id="passage"></article>
       <section class="card"><p class="muted">${esc(set.instructions ?? '')}</p><div id="items"></div><button class="btn" id="submit" type="button">Submit</button></section></div>`;
 
+  mountDisplayMenu(mount.querySelector('#dispslot'));
   const pEl = mount.querySelector('#passage');
-  const paintPassage = (mark) => {
-    pEl.innerHTML = `<h2>${esc(passage.title)}</h2>` + passage.paragraphs.map(p => {
-      let t = esc(p.text);
-      if (mark && mark.paragraph === p.label) { const q = esc(mark.quote); t = t.replace(q, `<mark id="ev">${q}</mark>`); }
-      return `<p data-label="${p.label}"><strong>${p.label}</strong> ${t}</p>`;
-    }).join('');
-    mount.querySelector('#ev')?.scrollIntoView({ block: 'center', behavior: 'smooth' });
-  };
-  paintPassage();
-  mount.querySelector('#hl').onclick = () => {
-    const sel = getSelection(); if (!sel.rangeCount || sel.isCollapsed || !pEl.contains(sel.anchorNode)) return;
-    try { sel.getRangeAt(0).surroundContents(document.createElement('mark')); } catch { /* selection spans elements */ }
-    sel.removeAllRanges();
+  pEl.dataset.pid = passage.id;
+  pEl.innerHTML = `<h2>${esc(passage.title)}</h2>` + passage.paragraphs.map(p => `<p data-label="${p.label}"><strong>${p.label}</strong> ${esc(p.text)}</p>`).join('');
+  const ann = mountAnnotations({ root: mount, passageEls: [pEl], storageKey: 'reading-marks' });
+  mountFindBar({ root: mount, getActivePassageIndex: () => 0, annotations: ann });
+  mountRuler({ root: mount, passageSelector: '#passage' });
+  // evidence flow: paint the quote through the annotation layer, then scroll to it
+  const paintPassage = mark => {
+    const map = {};
+    passage.paragraphs.forEach(p => { map[p.label] = { ev: mark && mark.paragraph === p.label && p.text.includes(mark.quote) ? [{ s: p.text.indexOf(mark.quote), e: p.text.indexOf(mark.quote) + mark.quote.length }] : [] }; });
+    ann.setExtra(0, map);
+    mount.querySelector('#passage .ev')?.scrollIntoView({ block: 'center', behavior: 'smooth' });
   };
 
   const get = render(set, mount.querySelector('#items'));
   mount.querySelectorAll('#items .q, #items .box').forEach((el, i) => el.insertAdjacentHTML('beforeend', helpHtml(i)));
   wireHelp(mount, set.items);
+  addStrike({ root: mount.querySelector('#items') });
+  const navItems = [...mount.querySelectorAll('#items .q, #items .box')].map((el, i) => ({ el, passageIndex: 0, number: i + 1 }));
+  const flags = addFlags({ root: mount, items: navItems, storageKey: `reading-flags:${type}:${setId}` });
+  const nav = mountNavigator({ root: mount, items: navItems, getAnswers: get, isFlagged: flags.isFlagged, onGo: i => { goTo(navItems[i]); nav.setCurrent(i); } });
+  flags.onChange(nav.refresh);
   mount.addEventListener('showpara', e => flashPara(mount, e.detail));
   const start = Date.now(); let left = minutes * 60; let done = false;
   const timerEl = mount.querySelector('#timer');
   const tick = setInterval(() => { left = Math.max(0, left - 1); timerEl.textContent = mmss(left); if (!left) submit(); }, 1000);
 
   function submit() {
-    if (done) return; done = true; clearInterval(tick);
+    if (done) return; done = true; clearInterval(tick); nav.destroy();
     const answers = get();
     const results = set.items.map((it, i) => ({ it, a: answers[i], ok: markItem(it, answers[i], set.wordLimit) }));
     const score = results.filter(r => r.ok).length;
@@ -84,6 +91,7 @@ export async function startSet({ type, mount, render, minutes }) {
       <div class="rev ${r.ok ? 'ok' : 'bad'}"><p><strong>${i + 1}. ${r.ok ? '\u2713' : '\u2717'}</strong> ${esc(r.it.prompt)}</p>
         <p>Your answer: ${esc(r.a || '(blank)')} \u00b7 Correct: <strong>${esc(r.it.answer)}</strong></p>
         <p class="muted">Step ${r.it.step}: ${STEPS[r.it.step - 1]}</p>
+        <p class="verdict">${esc(evidenceVerdict(passage, ann.getMarks(0), r.it.evidence))}</p>
         <button class="btn ghost" type="button" data-i="${i}">Show evidence in passage</button>${helpHtml(i, true)}</div>`).join('')
       + `<p><a class="btn" href="../../index.html">Back to Reading</a> <a class="btn ghost" href="">Retry</a></p>`;
     mount.querySelectorAll('button[data-i]').forEach(b => b.onclick = () => paintPassage(set.items[b.dataset.i].evidence));

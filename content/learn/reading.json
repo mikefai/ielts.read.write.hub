@@ -1,0 +1,190 @@
+[
+  {
+    "id": "start-here",
+    "title": "Start here: how IELTS Reading works",
+    "what": "The Reading test has 3 passages and 40 questions. You get 60 minutes in total. There is no extra time to copy your answers, so you must write them on the answer sheet as you go. This note gives you one method that works for every question type.",
+    "steps": [
+      { "do": "Skim the passage for about one minute. Note what each paragraph is about, and label them A, B, C.", "why": "A quick map means you know where to look later, so you do not read everything twice." },
+      { "do": "Read the question and underline the keywords: names, numbers, dates and unusual nouns.", "why": "These words usually stay the same in the passage, so they are easy to spot." },
+      { "do": "Predict the paraphrase. Think of other ways to say the important words in the question.", "why": "The passage rarely uses the same words as the question. Knowing synonyms helps you find the right sentence." },
+      { "do": "Find the keyword or its paraphrase in the passage. Then read the sentence before and after it.", "why": "The answer is often next to the keyword, not on it. One extra sentence stops careless mistakes." },
+      { "do": "Confirm your answer. Point to the exact words in the passage that prove it.", "why": "If you cannot point to a line, you are guessing. A guess from memory or opinion is often wrong." },
+      { "do": "Spend about 20 minutes on each passage. Move on when a question takes too long, and come back later.", "why": "Each passage has the same number of marks. One hard question must not steal time from easy ones." },
+      { "do": "Never leave a blank. Write your best guess before you finish.", "why": "There is no penalty for a wrong answer, so a guess can only help you." }
+    ],
+    "tricks": [
+      "Most gap-filling and True/False types follow the order of the passage. If question 5 is in paragraph B, question 6 will be later in paragraph B or after it.",
+      "Do the easy question types first, such as short gap-fills. Leave long matching tasks until you have time to think.",
+      "Check the word limit in the instructions. 'No more than two words' means three words is wrong, even if the idea is right.",
+      "Copy words from the passage exactly. Do not change the form of a word unless the sentence needs it."
+    ],
+    "traps": [
+      "Spelling counts. A correct answer with a wrong spelling gets no mark, so copy the word letter by letter from the passage.",
+      "Do not use your own knowledge. The test only asks what this passage says, so answer from the text.",
+      "Do not stop at the first matching word. The same word can appear in two places, and only one place answers the question. Read around it.",
+      "Do not spend more than a minute stuck on one question. Mark it, move on, and return if you have time."
+    ],
+    "signals": [
+      { "word": "rise = climb", "means": "Paraphrase means saying the same thing in different words. The question says 'prices rose' and the passage says 'prices climbed'." },
+      { "word": "cause = lead to", "means": "Different words, same idea. The question says 'caused delays' and the passage says 'led to delays'." },
+      { "word": "begin = start", "means": "Simple swaps like this are very common. The question says 'began in 1990' and the passage says 'started in 1990'." },
+      { "word": "many = a great number of", "means": "A short word can become a longer phrase. 'Many people' can appear as 'a great number of people'." }
+    ],
+    "checklist": [
+      "Do I know that paraphrase means saying the same thing in different words?",
+      "Did I check the word limit before I wrote my answer?",
+      "Can I point to the line in the passage that proves my answer?",
+      "Is my spelling copied exactly from the passage?",
+      "Have I filled in every answer, even the ones I guessed?"
+    ]
+  },
+  {
+    "id": "tfng",
+    "title": "True / False / Not Given",
+    "what": "You get a statement about the passage. You decide if the passage agrees with it (True), says the opposite (False), or does not say (Not Given). The question is not 'is this correct in real life?'. The question is 'what does this passage say?'.",
+    "steps": [
+      { "do": "Read the statement and underline the keywords. Think of other words that mean the same thing.", "why": "The passage will use different words, so you need to know what to look for." },
+      { "do": "Find the part of the passage that talks about the same topic. Questions follow the order of the passage.", "why": "This stops you searching the whole text and saves time." },
+      { "do": "Read the whole paragraph around that part, not just one sentence.", "why": "A later sentence can change the meaning, for example with 'however' or 'but'." },
+      { "do": "Ask: can I point to a line that says the same thing? If yes, the answer is True.", "why": "True means the passage agrees. It may use different words, but the meaning is the same." },
+      { "do": "If not, ask: can I point to a line that says the opposite? If yes, the answer is False.", "why": "False means the passage clearly disagrees. You need real words that contradict the statement." },
+      { "do": "If you find neither after reading the whole paragraph, the answer is Not Given.", "why": "Not Given means the passage is silent about this idea. Silence is not the same as disagreement." },
+      { "do": "Check every small word in the statement against the passage before you choose.", "why": "One wrong word, such as 'all' or 'only', can turn a True answer into False or Not Given." }
+    ],
+    "tricks": [
+      "Use this order every time: first look for a line that agrees (True), then for a line that says the opposite (False), and only then choose Not Given.",
+      "The answers follow the order of the passage. Use the place of the question before as a starting point for the next one.",
+      "Watch for one wrong word. If a statement is nearly right but one detail is different, it is False or Not Given, not True.",
+      "If the topic is in the passage but this exact detail is missing, that is Not Given. The detail has to be written, not guessed."
+    ],
+    "traps": [
+      "Using your own knowledge. Even if you know the statement is true in real life, answer only from the passage.",
+      "Choosing False when the passage is silent. Silent means Not Given. False needs words that say the opposite.",
+      "Stopping at the first matching keyword. The same word may appear again later with a different meaning. Read the whole paragraph.",
+      "Ignoring small words. 'Always', 'only', 'all' and 'never' are very strong. Check the passage supports that strength, not just a weaker version."
+    ],
+    "example": {
+      "text": "The town library opened in 1952 and has grown steadily since then. Most visitors are students who use the quiet reading rooms. The library offers free internet to all members. It does not lend laptops, though staff say this may change next year.",
+      "question": "The library lends laptops to students. (True / False / Not Given)",
+      "answer": "False",
+      "evidence": "It does not lend laptops",
+      "walk": [
+        "Keywords: lends, laptops, students. 'Lends' may appear as 'lend'.",
+        "The last sentence is about laptops, so we read it closely.",
+        "The text says the library 'does not lend laptops'. That is the opposite of the statement.",
+        "So the answer is False. If the text had never mentioned laptops at all, it would be Not Given."
+      ]
+    },
+    "signals": [
+      { "word": "all, every", "means": "100 per cent. If the passage says 'most' or 'many', then 'all' is False." },
+      { "word": "only, first, never, always", "means": "Very strong words. Check the passage really says the same, not something weaker." },
+      { "word": "some, may, might, could", "means": "Possible, not certain. A statement that says 'will' is not the same as the passage saying 'may'." },
+      { "word": "most, many, few", "means": "Quantity words. 'Most' and 'some' are different amounts." }
+    ],
+    "checklist": [
+      "Can I point to the exact line that proves True or False?",
+      "If I chose Not Given, did I read the whole paragraph and find nothing?",
+      "Did I check small words like all, only, never and always?",
+      "Did I answer from the passage, not from what I already know?"
+    ]
+  },
+  {
+    "id": "ynng",
+    "title": "Yes / No / Not Given",
+    "what": "This works like True / False / Not Given, but the statement is about the writer's opinion or claims, not facts. You decide if the writer agrees (Yes), disagrees (No), or does not say (Not Given).",
+    "steps": [
+      { "do": "Read the statement and underline the keywords. Remember it is about what the writer thinks.", "why": "You are looking for the writer's view, not a fact in the text." },
+      { "do": "Find the part of the passage about the same topic. The questions follow the order of the passage.", "why": "This keeps your search short and in the right place." },
+      { "do": "Read the whole paragraph. Look for words that show opinion, such as 'believes', 'argues' or 'it seems'.", "why": "Opinion words tell you the writer is giving a view, not just a fact." },
+      { "do": "Ask: does the writer clearly agree with the statement? If yes, answer Yes.", "why": "Yes means the writer's view matches the statement, even if the words are different." },
+      { "do": "Ask: does the writer clearly disagree? If yes, answer No.", "why": "No means the writer's view is the opposite of the statement." },
+      { "do": "If the writer gives no view on this idea, answer Not Given.", "why": "Not Given means the writer is silent on this point. Do not guess their opinion." },
+      { "do": "Check who is speaking. Make sure the opinion belongs to the writer, not someone else.", "why": "Passages often quote experts. The question asks only about the writer." }
+    ],
+    "tricks": [
+      "Use the same three-way test as True / False / Not Given: agree, the opposite, or silent.",
+      "Look for opinion words like 'argues', 'claims', 'believes', 'suggests' and 'it seems'. They show where views are given.",
+      "Look at the writer's last sentence in a paragraph. It often gives their own conclusion.",
+      "Be careful when a statement uses strong words like 'must' or 'always'. The writer may only say 'should' or 'often'."
+    ],
+    "traps": [
+      "Mixing up another person's view with the writer's view. If the text says 'Dr Lee argues...', that is Dr Lee, not the writer, unless the writer agrees.",
+      "Choosing No when the writer is simply silent. Silent is Not Given. No needs the writer to say the opposite.",
+      "Using your own opinion. Even if you agree with the statement, answer only what the writer says.",
+      "Stopping at the first keyword. The writer may change their view later with 'however'. Read the whole paragraph."
+    ],
+    "example": {
+      "text": "Many people say that working from home is always better for staff. The writer disagrees. Working from home suits some jobs, but teams often solve problems faster when they meet in person. Some companies now ask staff to visit the office twice a week.",
+      "question": "The writer thinks working from home is better for every worker. (Yes / No / Not Given)",
+      "answer": "No",
+      "evidence": "The writer disagrees",
+      "walk": [
+        "Keywords: working from home, better, every worker.",
+        "The statement is about the writer's view, so we look for the writer.",
+        "The text says 'The writer disagrees' with the idea that home working is always better.",
+        "So the answer is No. The opinion at the start ('Many people say...') belongs to other people, not the writer."
+      ]
+    },
+    "signals": [
+      { "word": "believes, argues, claims", "means": "Someone is giving a view. Check who it is: the writer or another person." },
+      { "word": "suggests, it seems", "means": "A softer opinion. The writer is not completely sure." },
+      { "word": "should, must", "means": "Advice or a strong view. 'Should' is weaker than 'must'." },
+      { "word": "however, but", "means": "The view may change. Read on before you decide." }
+    ],
+    "checklist": [
+      "Is the opinion in the passage the writer's, not someone else's?",
+      "Can I point to the line where the writer agrees or disagrees?",
+      "If I chose Not Given, did I read the whole paragraph and find no view?",
+      "Did I answer from the passage, not from my own opinion?"
+    ]
+  },
+  {
+    "id": "mcq",
+    "title": "Multiple choice",
+    "what": "You read a question and choose the best answer from A, B, C or D. Sometimes you must choose more than one answer. The wrong answers are written to look tempting, so you must prove the right one and remove the others.",
+    "steps": [
+      { "do": "Read the question stem first, before you look at the options. The stem is the question or the start of the sentence.", "why": "If you read the options first, you may be fooled by a nice-sounding wrong answer." },
+      { "do": "Underline the keywords in the stem. Find that part of the passage. Questions follow the order of the passage.", "why": "This takes you straight to the right paragraph." },
+      { "do": "Read the passage around the keyword carefully. Do not look at the options yet.", "why": "Understanding the passage first helps you decide without being influenced by the options." },
+      { "do": "Read all the options. Cross out any that are wrong, and think of a reason for each.", "why": "A reason makes sure you remove options for a good cause, not a feeling." },
+      { "do": "Choose the option that matches the passage in meaning, even if the words are different.", "why": "The right answer is usually a paraphrase, not a copy of the passage." },
+      { "do": "Check your choice against the passage once more. Can you point to the proof?", "why": "A final check catches careless mistakes." },
+      { "do": "If you must pick more than one answer, choose exactly the number asked. Their order does not matter.", "why": "Choosing too many or too few answers loses marks." }
+    ],
+    "tricks": [
+      "Wrong options are often true but not asked. They are real facts from the passage, but they do not answer this question.",
+      "Another common wrong option is half right: the first half matches the passage but the second half is wrong. Read the whole option.",
+      "Be careful with options that are too extreme, with words like 'always', 'all' or 'never'. The passage rarely says things that strongly.",
+      "For choosing several answers, the answers come in passage order but you may write them in any order."
+    ],
+    "traps": [
+      "Choosing an option because it contains words copied from the passage. Copied words are often a trick. Check the meaning instead.",
+      "Choosing an option because it is true in real life. Answer only from the passage.",
+      "Reading only one sentence. The answer often needs the sentence before or after as well.",
+      "Picking more or fewer answers than the question asks. Check the number in the instructions."
+    ],
+    "example": {
+      "text": "Maya started cycling to work to save money. After a month she noticed she felt more awake in meetings. She also found she was spending less on fuel than she expected. By the end of the year she had saved enough for a holiday.",
+      "question": "Why did Maya start cycling to work? A. to feel more awake  B. to save money  C. to buy a holiday  D. to spend less on fuel",
+      "answer": "B",
+      "evidence": "started cycling to work to save money",
+      "walk": [
+        "Keywords: why, start cycling. The stem asks for the reason she started.",
+        "The passage says she 'started cycling to work to save money'.",
+        "A is true but not asked: she felt more awake later, as a result, not as a reason to start.",
+        "C and D are also later results, not the reason she began. So the answer is B."
+      ]
+    },
+    "signals": [
+      { "word": "true but not asked", "means": "The option is a fact from the passage but does not answer this question." },
+      { "word": "half right", "means": "The start of the option matches the passage but the end does not." },
+      { "word": "too extreme", "means": "Words like always, all and never are stronger than what the passage says." }
+    ],
+    "checklist": [
+      "Did I read the stem before the options?",
+      "Can I give a reason for every option I crossed out?",
+      "Does my answer match the meaning of the passage, not only the words?",
+      "Did I choose exactly the number of answers the question asks for?"
+    ]
+  }
+]
