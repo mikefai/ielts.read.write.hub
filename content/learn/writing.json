@@ -52,7 +52,7 @@
       "Did I use some complex sentences, and did I check them for errors?"
     ],
     "demo": {
-      "prompt": "Score this short Task 2 paragraph on the four criteria, one at a time. Then improve one criterion. Question: 'Some people think cars should be banned from city centres. Do you agree?' Paragraph: 'Many people think cars are bad for cities. I agree because the air is dirty and there is a lot of traffic. Cars is causing many problems. Governments should do something about it.'",
+      "prompt": "Score this short Task 2 paragraph on the four criteria, one at a time. Then improve the two weakest criteria. Question: 'Some people think cars should be banned from city centres. Do you agree?' Paragraph: 'Many people think cars are bad for cities. I agree because the air is dirty and there is a lot of traffic. Cars is causing many problems. Governments should do something about it.'",
       "moves": [
         {
           "step": 1,
@@ -66,30 +66,30 @@
         },
         {
           "step": 3,
-          "say": "Now Lexical Resource. 'Bad' and 'dirty' are correct but simple, and the writer never uses a precise word. I give it about Band 5.",
+          "say": "Now Lexical Resource. 'Bad' and 'dirty' are correct but vague. I give it about Band 5, so I will improve it.",
           "build": "Many people think cars are bad for cities. I agree because the air is dirty and there is a lot of traffic. Cars is causing many problems. Governments should do something about it."
         },
         {
-          "step": 4,
-          "say": "Grammar has a clear error: 'Cars is causing'. 'Cars' is plural, so the verb must be 'are'. I will improve this one first.",
-          "build": "Many people think cars are bad for cities. I agree because the air is dirty and there is a lot of traffic. Cars is causing many problems. Governments should do something about it."
+          "step": 3,
+          "say": "I swap 'bad' for 'harmful' and 'dirty' for 'polluted'. Both words are more precise, and the meaning stays the same.",
+          "build": "Many people think cars are harmful for cities. I agree because the air is polluted and there is a lot of traffic. Cars is causing many problems. Governments should do something about it."
         },
         {
           "step": 4,
-          "say": "I change 'is' to 'are'. The verb now matches its subject, and nothing else in the paragraph needs to change.",
-          "build": "Many people think cars are bad for cities. I agree because the air is dirty and there is a lot of traffic. Cars are causing many problems. Governments should do something about it."
+          "say": "Grammar has a clear error: 'Cars is causing'. 'Cars' is plural, so I change 'is' to 'are'. Nothing else needs changing.",
+          "build": "Many people think cars are harmful for cities. I agree because the air is polluted and there is a lot of traffic. Cars are causing many problems. Governments should do something about it."
         },
         {
           "step": 6,
-          "say": "To reach Band 7, I pick one habit: use a more precise word, such as 'polluted', next time. This revised paragraph is my answer.",
-          "build": "Many people think cars are bad for cities. I agree because the air is dirty and there is a lot of traffic. Cars are causing many problems. Governments should do something about it."
+          "say": "To reach Band 7, I keep swapping vague words for precise ones. 'A lot of traffic' becomes 'heavy congestion', which is more exact.",
+          "build": "Many people think cars are harmful for cities. I agree because the air is polluted and there is heavy congestion. Cars are causing many problems. Governments should do something about it."
         }
       ],
-      "answer": "Many people think cars are bad for cities. I agree because the air is dirty and there is a lot of traffic. Cars are causing many problems. Governments should do something about it."
+      "answer": "Many people think cars are harmful for cities. I agree because the air is polluted and there is heavy congestion. Cars are causing many problems. Governments should do something about it."
     },
     "practice": [
       {
-        "prompt": "Which criterion is weak here? Choose one of the four criteria. Question: 'Do you think homework helps students learn?' Paragraph: 'Homework is good. It helps students learn. Homework is good for students because students learn more. Teachers give homework and students do it.' Use the steps.",
+        "prompt": "Which criterion is weak here? Choose one of the four criteria. Question: 'Do you think homework helps students learn?' Paragraph: 'I think homework is good. It helps students learn because they practise at home. Homework is good for students because it helps them learn more. Teachers give homework and students do it.' Use the steps.",
         "options": [
           "Task Achievement",
           "Coherence and Cohesion",
@@ -97,7 +97,7 @@
           "Grammatical Range and Accuracy"
         ],
         "answer": "Lexical Resource",
-        "why": "Step 3 finds the weak criterion: 'homework' and 'students' are repeated again and again, and only very simple words are used. The position and the grammar are sound, so they are not the problem."
+        "why": "Step 3 finds the weak criterion: 'good' and 'students' repeat, and the words are very simple. The view is clear (step 1), the sentences link well (step 2), and the grammar is correct (step 4)."
       },
       {
         "prompt": "Which criterion is weak here? Choose one of the four criteria. Question: 'Some people think cars should be banned from city centres. Discuss.' Paragraph: 'Cars are very useful in modern life. They help people travel quickly to work, and they carry goods across long distances. Engines produce exhaust gases that affect the air in towns.' Use the steps.",
@@ -169,25 +169,26 @@
       "moves": [
         {
           "step": 1,
-          "say": "I give myself 5 minutes to plan, and I start Task 1 on the clock. First I read the title and units: thousands of visitors, in two years."
+          "say": "I split Task 1 into 5 minutes to plan, 12 to write and 3 to check. I read the title and units: thousands of visitors, two years.",
+          "build": "Time: 5 to plan, 12 to write, 3 to check."
         },
         {
           "step": 3,
           "say": "I pick my key features and write them as short notes, not sentences. Adults fell and children rose, which are the two big stories.",
-          "build": "Key features: adults fell from 120 to 80; children rose from 60 to 90."
+          "build": "Time: 5 to plan, 12 to write, 3 to check. Key features: adults fell from 120 to 80; children rose from 60 to 90."
         },
         {
           "step": 3,
           "say": "Next I choose my overview. It is the big picture with no numbers, so I note the two trends in plain words.",
-          "build": "Key features: adults fell from 120 to 80; children rose from 60 to 90. Overview: adults down, children up, no numbers."
+          "build": "Time: 5 to plan, 12 to write, 3 to check. Key features: adults fell from 120 to 80; children rose from 60 to 90. Overview: adults down, children up, no numbers."
         },
         {
           "step": 4,
           "say": "I note my word target at the top, so I know how much to write. Task 1 needs at least 150 words, and I will count in practice.",
-          "build": "Key features: adults fell from 120 to 80; children rose from 60 to 90. Overview: adults down, children up, no numbers. Target: at least 150 words."
+          "build": "Time: 5 to plan, 12 to write, 3 to check. Key features: adults fell from 120 to 80; children rose from 60 to 90. Overview: adults down, children up, no numbers. Target: at least 150 words."
         }
       ],
-      "answer": "Key features: adults fell from 120 to 80; children rose from 60 to 90. Overview: adults down, children up, no numbers. Target: at least 150 words."
+      "answer": "Time: 5 to plan, 12 to write, 3 to check. Key features: adults fell from 120 to 80; children rose from 60 to 90. Overview: adults down, children up, no numbers. Target: at least 150 words."
     },
     "practice": [
       {
@@ -259,30 +260,30 @@
       "Did I check plurals and the spelling of words copied from the question?"
     ],
     "demo": {
-      "prompt": "Correct this learner sentence, one error at a time. It has three errors: 'In 2010 the number of tourist visit museum.'",
+      "prompt": "Correct this learner sentence, one error at a time. The town has only one museum. It has three errors: 'In 2010 the number of tourist visiting museum rise.'",
       "moves": [
         {
           "step": 1,
-          "say": "I read the sentence and spot three errors. I fix one at a time, starting with the missing 'the' before 'museum'.",
-          "build": "In 2010 the number of tourist visit museum."
+          "say": "I read the sentence and spot three errors. I fix one at a time, starting with the article, because articles are easy to miss.",
+          "build": "In 2010 the number of tourist visiting museum rise."
         },
         {
           "step": 1,
-          "say": "'Museum' is a specific place, so it needs 'the' before it. I add 'the' and leave everything else alone.",
-          "build": "In 2010 the number of tourist visit the museum."
+          "say": "'The museum' means the only museum in town, so it needs 'the'. I add 'the' and change nothing else.",
+          "build": "In 2010 the number of tourist visiting the museum rise."
         },
         {
           "step": 3,
-          "say": "Next, the tense. '2010' is a past year, so 'visit' must change to 'visited'. I change only that word.",
-          "build": "In 2010 the number of tourist visited the museum."
+          "say": "Next, the tense. '2010' is a past year, so 'rise' must change to 'rose'. I change only that word.",
+          "build": "In 2010 the number of tourist visiting the museum rose."
         },
         {
           "step": 6,
-          "say": "Last, the plural. 'The number of' is followed by many people, so 'tourist' needs an -s. Now the sentence is correct.",
-          "build": "In 2010 the number of tourists visited the museum."
+          "say": "Last, the plural. 'The number of' is followed by a plural noun, because many tourists are counted, so 'tourist' needs an -s.",
+          "build": "In 2010 the number of tourists visiting the museum rose."
         }
       ],
-      "answer": "In 2010 the number of tourists visited the museum."
+      "answer": "In 2010 the number of tourists visiting the museum rose."
     },
     "practice": [
       {
@@ -409,7 +410,7 @@
     "practice": [
       {
         "prompt": "Write an overview from the data below. The invented bar chart shows visitors to a library, in thousands: adults rose from 300 to 450 and children rose from 200 to 260 between 2018 and 2022. Adults were the larger group in both years. Write an overview with no numbers. Use the steps.",
-        "answer": "Overall, visitor numbers rose for both adults and children, and adults remained the larger group throughout the period.",
+        "answer": "Overall, visitor numbers rose for both adults and children, and adults remained the larger group in both years.",
         "why": "Step 5 asks for an overview with no numbers. It gives the main trend, that both groups rose, and one contrast, that adults were larger. Both come from the start and end points in the data."
       },
       {
