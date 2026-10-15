@@ -203,8 +203,8 @@
     "tricks": [
       "Match the question word to the answer type. Who is a person, when is a date or time, where is a place, and how many is a number.",
       "A number counts as one word. '1952' is one word, and 'twenty' is one word.",
-      "Often you can use the question's own words to start your answer. The passage then gives only the missing part.",
-      "If your answer is longer than the limit, cut small words. Keep the key noun, for example 'the old stone bridge' can be 'stone bridge'."
+      "Your answer is the missing piece of information, not a repeat of the question. Use the question's words to find the place in the passage, then copy the answer from beside them.",
+      "If your answer is longer than the limit, cut small words. Keep the key words and drop only small ones, for example 'the' before a noun."
     ],
     "traps": [
       "Going over the word limit. 'NO MORE THAN TWO WORDS' means three words is wrong, so cut it down.",
@@ -275,7 +275,7 @@
       ]
     },
     "signals": [
-      { "word": "a, an, the before the gap", "means": "A noun or an adjective comes next. If it is 'a' or 'an', the answer starts with a single, countable thing." },
+      { "word": "a, an, the before the gap", "means": "A noun, or an adjective plus a noun, comes next. After 'an' the answer starts with a vowel sound (a, e, i, o, u), for example 'an engineer'. After 'a' it starts with a consonant sound." },
       { "word": "to before the gap", "means": "A verb usually comes next, for example 'to grow'." },
       { "word": "is, are, was before the gap", "means": "A noun, an adjective or a verb ending in -ing can follow. Check which one makes sense." },
       { "word": "of, in, on before the gap", "means": "A noun or a noun group usually follows." }
@@ -328,7 +328,7 @@
       { "word": "start = begin", "means": "A summary may say 'started' where the passage says 'began'. Look for the meaning." },
       { "word": "rise = increase", "means": "A summary may say 'rose' where the passage says 'increased' or 'grew'." },
       { "word": "cause = lead to", "means": "A summary may say 'caused' where the passage says 'led to' or 'resulted in'." },
-      { "word": "a, the, to before the gap", "means": "These small words tell you the word type: a noun after 'a' or 'the', a verb after 'to'." }
+      { "word": "a, the, to before the gap", "means": "These small words tell you the word type: a noun (or an adjective plus a noun) after 'a' or 'the', a verb after 'to'." }
     ],
     "checklist": [
       "Did I read the whole summary before I searched?",
@@ -401,7 +401,7 @@
       { "do": "Check the word limit. Remember that a hyphenated word counts as one word.", "why": "For example, 'well-known' is one word." }
     ],
     "tricks": [
-      "The notes follow the passage order. The gaps move forward through the text, so you never go back.",
+      "Notes usually follow the passage order, so the gaps move forward through the text. Gaps in a table or flow chart can be in a different order, so check the layout.",
       "A number counts as one word, and so does a hyphenated word such as 'long-term'.",
       "If the notes have a table, read down a column to see the pattern. All answers in one column are the same type.",
       "In a flow-chart, read the arrows in order. Each box matches the next idea in the passage."
@@ -485,6 +485,338 @@
       "Does each answer match the right box and its place on the diagram?",
       "Did I copy the exact form and spelling from the passage?",
       "Did I count the words and stay inside the limit?"
+    ]
+  },
+  {
+    "id": "matching-headings",
+    "title": "Matching headings",
+    "what": "You get a list of headings and a passage split into lettered paragraphs. You choose the heading that gives the main idea of each paragraph. There are more headings than paragraphs, and each heading is used only once.",
+    "steps": [
+      {
+        "do": "Read the list of headings first. Underline the key words in each one.",
+        "why": "You know what to look for before you read, which saves time."
+      },
+      {
+        "do": "Look at the example, if there is one. Cross out that heading, because it is already used.",
+        "why": "Headings can be used only once, so this removes one choice."
+      },
+      {
+        "do": "Read the first and last sentence of the paragraph. These often state the main idea and the conclusion.",
+        "why": "A paragraph usually opens with its main idea and ends by closing it."
+      },
+      {
+        "do": "Skim the middle quickly. Ask: what is this whole paragraph about, not just one detail?",
+        "why": "A heading is the main idea of the whole paragraph, not one small fact."
+      },
+      {
+        "do": "Choose the heading with the same meaning, in different words. Start with the easiest paragraphs.",
+        "why": "Headings are paraphrases, which means the same idea in other words. Easy ones first leaves fewer choices."
+      },
+      {
+        "do": "Cross out each heading as you use it. Keep going until the paragraphs are done.",
+        "why": "Each cross removes a choice, so the hard paragraphs get easier."
+      },
+      {
+        "do": "Check each answer: does the heading cover the whole paragraph, not only one sentence?",
+        "why": "A heading that fits only a small detail is a wrong answer."
+      }
+    ],
+    "tricks": [
+      "Do the easy paragraphs first. Every heading you cross out makes the hard paragraphs easier.",
+      "Read the first and last sentence before anything else. You often find the answer without reading the middle.",
+      "There are extra headings on purpose. Do not worry if some are never used.",
+      "Look for repeated ideas across the paragraph, not a single word. The main idea is what the paragraph keeps coming back to."
+    ],
+    "traps": [
+      "Choosing a heading because one of its words appears in the paragraph. That word may be only a minor detail, so check the main idea.",
+      "Choosing a heading that fits only one sentence. The heading must cover the whole paragraph.",
+      "Reusing a heading. Each one is used once, so cross it out as soon as you use it.",
+      "Reading the whole passage word by word. This wastes time. Use the first and last sentences and skim the rest."
+    ],
+    "example": {
+      "text": "A: Early cities grew beside rivers. Water was needed for drinking, farming and travel, so people settled where it was easy to find. B: Today, many cities are choosing to keep their old rivers clean. Clean water attracts visitors, and visitors bring money.",
+      "question": "Which heading fits paragraph A? (i) Why rivers matter to modern tourism (ii) The first reasons for building cities near water",
+      "answer": "ii",
+      "evidence": "Early cities grew beside rivers",
+      "walk": [
+        "Read the first sentence of A: it is about early cities and rivers.",
+        "The last sentence says people settled where water was easy to find. This closes the same idea.",
+        "Heading (ii) says the same in other words: reasons for building cities near water.",
+        "Heading (i) uses a word from the passage, but tourism and money appear in paragraph B, not A. So the answer is ii."
+      ]
+    },
+    "signals": [
+      {
+        "word": "however, but",
+        "means": "The main idea may change here. Check the sentence after it."
+      },
+      {
+        "word": "for example, such as",
+        "means": "A detail follows. Do not choose a heading for an example."
+      },
+      {
+        "word": "in conclusion, overall",
+        "means": "The writer sums up the paragraph, which often matches the heading."
+      },
+      {
+        "word": "first, then, finally",
+        "means": "The paragraph is about a process or a list. The heading may mention steps or stages."
+      }
+    ],
+    "checklist": [
+      "Did I read the headings before the passage?",
+      "Does my heading cover the whole paragraph, not one detail?",
+      "Did I cross out each heading after using it?",
+      "Did I check that the heading is not just a matching word from the text?"
+    ]
+  },
+  {
+    "id": "matching-information",
+    "title": "Matching information",
+    "what": "You get statements about details, and you decide which paragraph (A, B, C and so on) contains each one. The statements are not in passage order, and a paragraph can be used more than once. These take the longest, so do them last.",
+    "steps": [
+      {
+        "do": "Read the instructions. Check if a letter can be used more than once.",
+        "why": "The instructions tell you the rule. Different tests can have different rules."
+      },
+      {
+        "do": "Read all the statements. Underline the key words in each one.",
+        "why": "You know what to look for in every paragraph, so you read only once."
+      },
+      {
+        "do": "Think of other words for each key word. For example, think of \"rise\" for \"increase\".",
+        "why": "The passage uses a paraphrase, which means the same idea in other words, not your exact words."
+      },
+      {
+        "do": "Skim the paragraphs for the topic of the first statement. Do not read every word yet.",
+        "why": "You can find the right paragraph by topic first, which is faster than reading it all."
+      },
+      {
+        "do": "Read the likely paragraph carefully. Check that it contains the exact detail, not just the topic.",
+        "why": "Two paragraphs may share a topic, but only one holds the detail."
+      },
+      {
+        "do": "Write the letter and move to the next statement. If you are stuck, skip it and come back.",
+        "why": "The statements are not in order, so skipping costs you nothing."
+      },
+      {
+        "do": "Check each answer against the whole statement. Do not avoid a letter just because you used it before.",
+        "why": "Letters can repeat, so a used letter can still be right."
+      }
+    ],
+    "tricks": [
+      "Do these questions last. They take the most time, so give your time to easier questions first.",
+      "Tick the statements you have answered. Paragraphs you have already read are then quicker to scan.",
+      "Search for rare words and names first, such as numbers, dates and capital letters. They are easy to find.",
+      "If a paragraph has been used, it can be used again. Do not rule it out."
+    ],
+    "traps": [
+      "Expecting the answers in order. They are not, so do each statement separately.",
+      "Choosing a paragraph because it shares a word with the statement. Check the full meaning instead.",
+      "Looking for the exact words of the statement. The passage paraphrases, so look for the idea.",
+      "Spending too long on one statement. Skip it and return if you have time."
+    ],
+    "example": {
+      "text": "A: The shop opened in 1990 and sold only books. B: By 2005 the owner had added a cafe because customers wanted somewhere to sit. C: Today, half of its income comes from online sales.",
+      "question": "Which paragraph mentions a reason for a change to the shop? Write the correct letter, A-C.",
+      "answer": "B",
+      "evidence": "because customers wanted somewhere to sit",
+      "walk": [
+        "The key words are reason and change. Another word for reason is because.",
+        "Paragraph A describes the start, not a change. Paragraph C gives a fact about income, with no reason.",
+        "Paragraph B says the owner added a cafe because customers wanted somewhere to sit.",
+        "That is a change and its reason, so the answer is B."
+      ]
+    },
+    "signals": [
+      {
+        "word": "because, since, as a result",
+        "means": "A reason or cause. Useful for statements about reasons."
+      },
+      {
+        "word": "for example, such as",
+        "means": "An example. Useful for statements about examples."
+      },
+      {
+        "word": "however, in contrast",
+        "means": "A contrast or a different view."
+      },
+      {
+        "word": "numbers, dates, names",
+        "means": "Easy to scan for. A statement with a figure is quick to find."
+      }
+    ],
+    "checklist": [
+      "Did I check whether a letter can be used more than once?",
+      "Did I underline the key words and think of other words for them?",
+      "Does the paragraph contain the exact detail, not only the topic?",
+      "Did I skip hard statements and come back to them?"
+    ]
+  },
+  {
+    "id": "matching-features",
+    "title": "Matching features",
+    "what": "You get a list of features, such as people, places or theories, and a set of statements. You decide which feature each statement is about. A feature can be used more than once. The statements are not in passage order.",
+    "steps": [
+      {
+        "do": "Read the instructions. Check if you can use an option more than once.",
+        "why": "The rule changes how you cross out options."
+      },
+      {
+        "do": "Find the features in the passage. Underline each name or theory every time it appears.",
+        "why": "You make a map of the passage, so you can go straight to the right place."
+      },
+      {
+        "do": "Read each statement. Underline the key words and think of other words for them.",
+        "why": "The passage uses a paraphrase, which means the same idea in other words."
+      },
+      {
+        "do": "Find the key words of the statement near an underlined name. Read that sentence closely.",
+        "why": "The statement is usually in the same sentence as the name, or the next one."
+      },
+      {
+        "do": "Check the verb of opinion, such as \"claims\", \"denies\" or \"suggests\". Make sure it matches the statement.",
+        "why": "Two people may discuss one topic but disagree, so the verb decides who is right."
+      },
+      {
+        "do": "Write the letter of the feature. If a pronoun like \"he\" or \"she\" is used, check which name it means.",
+        "why": "A pronoun can hide the name, which causes wrong answers."
+      },
+      {
+        "do": "Move on. If you are stuck, skip the statement and return.",
+        "why": "The statements are not in order, so skipping costs nothing."
+      }
+    ],
+    "tricks": [
+      "Underline every name in the passage first. The names are your map, so the rest is quick.",
+      "Look for opinion verbs: argues, believes, claims, suggests, doubts. They link a person to an idea.",
+      "A feature can be used more than once, and some may not be used at all.",
+      "Go from the statement to the passage, not the other way round. Start with the idea, then find the name."
+    ],
+    "traps": [
+      "Choosing the first name you see near the topic. Check who actually said or did it.",
+      "Ignoring the verb. Someone who \"doubts\" an idea is not someone who \"supports\" it.",
+      "Missing a pronoun. \"He\" or \"she\" may point to a name in the sentence before.",
+      "Expecting the answers in order. They are not, so do each statement separately."
+    ],
+    "example": {
+      "text": "Dr Hale argues that children learn language mainly by copying adults. Professor Reyes disagrees and says that children are born with a natural ability for grammar.",
+      "question": "Which person says children have a built-in talent for grammar? A Dr Hale B Professor Reyes",
+      "answer": "B",
+      "evidence": "children are born with a natural ability for grammar",
+      "walk": [
+        "The key words are built-in talent. Another way to say this is born with a natural ability.",
+        "Dr Hale is linked to copying adults, which is a different idea.",
+        "Professor Reyes disagrees and says children are born with a natural ability for grammar.",
+        "The meaning matches the statement, so the answer is B."
+      ]
+    },
+    "signals": [
+      {
+        "word": "argues, claims, suggests",
+        "means": "Verbs that show a person gives an opinion."
+      },
+      {
+        "word": "disagrees, doubts, denies",
+        "means": "Verbs that show a person opposes an idea."
+      },
+      {
+        "word": "according to",
+        "means": "Names the source of an idea, which links a person to a statement."
+      },
+      {
+        "word": "he, she, they, this view",
+        "means": "A pronoun that points back to a name. Check who it means."
+      }
+    ],
+    "checklist": [
+      "Did I check whether an option can be used more than once?",
+      "Did I underline every name or theory in the passage first?",
+      "Does the verb of opinion match the statement?",
+      "Did I check who a pronoun like \"he\" or \"she\" means?"
+    ]
+  },
+  {
+    "id": "matching-endings",
+    "title": "Matching sentence endings",
+    "what": "You get the first half of several sentences and a list of possible endings. You choose the ending that completes each sentence correctly, using the passage. There are more endings than sentence starts, and each ending is used once.",
+    "steps": [
+      {
+        "do": "Read the sentence starts. They follow the order of the passage, so the first start is near the beginning.",
+        "why": "The order lets you search forward through the text without going back."
+      },
+      {
+        "do": "Underline the key words in each start. Find that place in the passage.",
+        "why": "The key words take you straight to the right sentence."
+      },
+      {
+        "do": "Read the endings. Rule out those that break the grammar when joined to the start.",
+        "why": "Grammar removes wrong endings fast, before you think about meaning."
+      },
+      {
+        "do": "Read the passage near the key words. Decide what it says, then look for that meaning in the endings.",
+        "why": "The ending is a paraphrase, which means the same idea in other words."
+      },
+      {
+        "do": "Pick the ending that matches the meaning. Do not pick one just because it uses words from the passage.",
+        "why": "A wrong ending may copy the passage words but change the meaning."
+      },
+      {
+        "do": "Cross out each ending once you use it. Move to the next start.",
+        "why": "Each ending is used once, so every cross removes a choice."
+      },
+      {
+        "do": "Read each finished sentence. Confirm it with a line from the passage.",
+        "why": "A line in the passage proves your answer is right, not a guess."
+      }
+    ],
+    "tricks": [
+      "The sentence starts are in passage order, but the endings are not. Do not expect the answers in order.",
+      "Check grammar first. If the start ends with \"to\", the ending must begin with a verb.",
+      "There are extra endings on purpose, so some will not be used.",
+      "Cross out each ending as you use it. The last choices are easy."
+    ],
+    "traps": [
+      "Choosing an ending because it repeats words from the passage. Check that the meaning is the same.",
+      "Ignoring the grammar. A true idea still cannot be joined to a start that does not fit.",
+      "Reusing an ending. Each one is used only once.",
+      "Expecting the endings in order. Only the starts follow the passage."
+    ],
+    "example": {
+      "text": "Many farmers now use drones to check their crops. The drones find sick plants early, so farmers can treat them before the disease spreads.",
+      "question": "Drones help farmers because they... A find sick plants early B replace the need for water C are cheaper than tractors",
+      "answer": "A",
+      "evidence": "find sick plants early",
+      "walk": [
+        "The start ends with \"they\", so the ending must begin with a verb. Option A fits the grammar.",
+        "The passage says the drones find sick plants early.",
+        "Options B and C are not in the passage, and they change the meaning.",
+        "The line \"find sick plants early\" proves it, so the answer is A."
+      ]
+    },
+    "signals": [
+      {
+        "word": "because, so, therefore",
+        "means": "A reason or result follows. Match the ending to the cause or effect."
+      },
+      {
+        "word": "although, but, however",
+        "means": "A contrast follows. The ending should show a different idea."
+      },
+      {
+        "word": "to + verb ending",
+        "means": "The start ends with \"to\", so the ending must begin with a verb."
+      },
+      {
+        "word": "which, who, that",
+        "means": "A relative clause follows. Check that the ending continues the sentence in grammar."
+      }
+    ],
+    "checklist": [
+      "Did I check the grammar of each ending before the meaning?",
+      "Did I find a line in the passage that proves my answer?",
+      "Did I cross out each ending after using it?",
+      "Did I remember that the endings are not in passage order?"
     ]
   }
 ]
