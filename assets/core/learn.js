@@ -47,7 +47,8 @@ export function renderIndex(notes, groups = []) {
 
 export function mountLearn({ mount, notes, groups, win = window }) {
   const draw = () => {
-    const id = decodeURIComponent(win.location.hash.slice(1));
+    let id;
+    try { id = decodeURIComponent(win.location.hash.slice(1)); } catch { id = ''; }
     const i = notes.findIndex(n => n.id === id);
     if (i < 0) { mount.innerHTML = renderIndex(notes, groups); return; }
     const p = notes[i - 1], n = notes[i + 1];

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { renderNote, renderIndex } from '../assets/core/learn.js';
+import { renderNote, renderIndex, mountLearn } from '../assets/core/learn.js';
 
 const note = (o = {}) => ({
   id: 'a', title: 'T', what: 'w',
@@ -39,4 +39,10 @@ test('renderIndex links every note and groups', () => {
   const h = renderIndex(ns, [{ title: 'G', ids: ['a', 'b'] }]);
   for (const id of ['a', 'b', 'c']) assert.ok(h.includes(`href="#${id}"`));
   assert.ok(h.includes('More'));
+});
+
+test('mountLearn shows the index for a malformed hash', () => {
+  const mount = {};
+  mountLearn({ mount, notes: [note()], groups: [], win: { location: { hash: '#%E0%A4%A' }, addEventListener() {} } });
+  assert.ok(mount.innerHTML.includes('href="#a"'));
 });

@@ -37,7 +37,7 @@
       "Band 6 to 7, Task Achievement: at Band 6 you cover the task but some points are unclear or too long. At Band 7 you give a clear overview or position and pick the key points.",
       "Band 6 to 7, Coherence: at Band 6 you use linking words, but sometimes too many or too few. At Band 7 each paragraph has one clear topic and the links feel natural.",
       "Band 6 to 7, Vocabulary: at Band 6 you use enough words but repeat some and make some spelling mistakes. At Band 7 you choose precise words and make only a few small slips.",
-      "Band 6 to 7, Grammar: at Band 6 you use some complex sentences, but errors appear often. At Band 7 you use many complex sentences and most are correct."
+      "Band 6 to 7, Grammar: at Band 6 you use some complex sentences, but errors are noticeable, though they rarely stop the reader understanding. At Band 7 you use many complex sentences and most are correct."
     ],
     "traps": [
       "Thinking long words win marks. A simple word used correctly beats a difficult word used wrongly. Use the word you are sure about.",
@@ -722,7 +722,7 @@
       "Using a memorised essay that ignores the question. Examiners spot it at once, so answer the exact question you are given.",
       "Adding a new idea in the conclusion. Only repeat your main points there.",
       "Writing fewer than 250 words. A short essay loses marks, so practise until 260 to 290 words feels normal.",
-      "Using informal words such as 'kids' or 'a lot of'. Write 'children' and 'many' or 'a great deal of' instead."
+      "Using informal words such as 'kids'. Write 'children'. 'A lot of' is fine in speech, but in an essay prefer 'many' or 'a large number of' with countable nouns, and 'a great deal of' or 'much' with uncountable nouns."
     ],
     "checklist": [
       "Is my position clear in both the introduction and the conclusion?",
@@ -735,7 +735,7 @@
         "name": "Introduction",
         "lines": [
           "Nowadays, [topic] is a widely debated issue, and some people believe that [statement].",
-          "In my opinion, I [strongly agree / partly agree / disagree] with this view, because [reason one] and [reason two].",
+          "I [strongly agree / partly agree / disagree] with this view, because [reason one] and [reason two].",
           "This essay will explain why [position] by looking at [idea one] and [idea two]."
         ]
       },
@@ -813,7 +813,7 @@
       "Using a memorised essay that ignores the question. Examiners spot it at once, so answer the exact question you are given.",
       "Adding a new idea in the conclusion. Only repeat your main points there.",
       "Writing fewer than 250 words. A short essay loses marks, so practise until 260 to 290 words feels normal.",
-      "Using informal words such as 'kids' or 'a lot of'. Write 'children' and 'many' or 'a great deal of' instead."
+      "Using informal words such as 'kids'. Write 'children'. 'A lot of' is fine in speech, but in an essay prefer 'many' or 'a large number of' with countable nouns, and 'a great deal of' or 'much' with uncountable nouns."
     ],
     "checklist": [
       "Do I have one paragraph for each view?",
@@ -876,12 +876,12 @@
         "why": "This tells the examiner how you will answer each part."
       },
       {
-        "do": "Write body paragraph one about the first problem. Give the cause, then the effect.",
-        "why": "One problem per paragraph keeps the idea clear."
+        "do": "Write body paragraph one about problem one: the cause, the effect, then its solution and who should act.",
+        "why": "One problem and its solution per paragraph keeps the idea clear."
       },
       {
-        "do": "Write body paragraph two with the solutions. Say who should act, such as the government or schools, and why it works.",
-        "why": "A solution needs a person who does it and a reason it helps."
+        "do": "Write body paragraph two about problem two in the same way, with its own solution and why it works.",
+        "why": "Every problem then has a solution, a person who acts, and a reason it helps."
       },
       {
         "do": "Write a conclusion that sums up the problem and the main solution. Add no new ideas.",
@@ -904,7 +904,7 @@
       "Using a memorised essay that ignores the question. Examiners spot it at once, so answer the exact question you are given.",
       "Adding a new idea in the conclusion. Only repeat your main points there.",
       "Writing fewer than 250 words. A short essay loses marks, so practise until 260 to 290 words feels normal.",
-      "Using informal words such as 'kids' or 'a lot of'. Write 'children' and 'many' or 'a great deal of' instead."
+      "Using informal words such as 'kids'. Write 'children'. 'A lot of' is fine in speech, but in an essay prefer 'many' or 'a large number of' with countable nouns, and 'a great deal of' or 'much' with uncountable nouns."
     ],
     "checklist": [
       "Did I answer every part of the question, such as causes and solutions?",
@@ -995,7 +995,7 @@
       "Using a memorised essay that ignores the question. Examiners spot it at once, so answer the exact question you are given.",
       "Adding a new idea in the conclusion. Only repeat your main points there.",
       "Writing fewer than 250 words. A short essay loses marks, so practise until 260 to 290 words feels normal.",
-      "Using informal words such as 'kids' or 'a lot of'. Write 'children' and 'many' or 'a great deal of' instead."
+      "Using informal words such as 'kids'. Write 'children'. 'A lot of' is fine in speech, but in an essay prefer 'many' or 'a large number of' with countable nouns, and 'a great deal of' or 'much' with uncountable nouns."
     ],
     "checklist": [
       "Did I answer both questions?",
@@ -1086,7 +1086,7 @@
       "Using a memorised essay that ignores the question. Examiners spot it at once, so answer the exact question you are given.",
       "Adding a new idea in the conclusion. Only repeat your main points there.",
       "Writing fewer than 250 words. A short essay loses marks, so practise until 260 to 290 words feels normal.",
-      "Using informal words such as 'kids' or 'a lot of'. Write 'children' and 'many' or 'a great deal of' instead."
+      "Using informal words such as 'kids'. Write 'children'. 'A lot of' is fine in speech, but in an essay prefer 'many' or 'a large number of' with countable nouns, and 'a great deal of' or 'much' with uncountable nouns."
     ],
     "checklist": [
       "Did I choose a side in the introduction and conclusion?",

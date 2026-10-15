@@ -254,7 +254,7 @@
       "Look at the words just before and after the gap. 'A' or 'the' before the gap usually means a noun comes next.",
       "The answers follow the order of the passage. The answer to question 8 is after the answer to question 7.",
       "Read the finished sentence out loud in your head. A correct answer sounds natural.",
-      "If the gap is after 'is' or 'are', check whether a plural noun or a verb fits."
+      "If the gap is after 'is' or 'are', check which fits: after 'are' a plural noun or adjective fits; after 'is' a singular one."
     ],
     "traps": [
       "Writing an answer that does not fit the grammar, such as a verb where a noun is needed. Check the word type again.",
@@ -608,7 +608,7 @@
       "Do these questions last. They take the most time, so give your time to easier questions first.",
       "Tick the statements you have answered. Paragraphs you have already read are then quicker to scan.",
       "Search for rare words and names first, such as numbers, dates and capital letters. They are easy to find.",
-      "If a paragraph has been used, it can be used again. Do not rule it out."
+      "When the instructions say you may use any letter more than once, a paragraph you have used can be used again. Do not rule it out."
     ],
     "traps": [
       "Expecting the answers in order. They are not, so do each statement separately.",
@@ -691,7 +691,7 @@
       "Underline every name in the passage first. The names are your map, so the rest is quick.",
       "Look for opinion verbs: argues, believes, claims, suggests, doubts. They link a person to an idea.",
       "A feature can be used more than once, and some may not be used at all.",
-      "Go from the statement to the passage, not the other way round. Start with the idea, then find the name."
+      "Find the names in the passage first, then read the statement and match its idea to the right name."
     ],
     "traps": [
       "Choosing the first name you see near the topic. Check who actually said or did it.",
@@ -784,13 +784,13 @@
     ],
     "example": {
       "text": "Many farmers now use drones to check their crops. The drones find sick plants early, so farmers can treat them before the disease spreads.",
-      "question": "Drones help farmers because they... A find sick plants early B replace the need for water C are cheaper than tractors",
+      "question": "Drones help farmers because they... A find sick plants early B water is no longer needed C are cheaper than tractors",
       "answer": "A",
       "evidence": "find sick plants early",
       "walk": [
-        "The start ends with \"they\", so the ending must begin with a verb. Option A fits the grammar.",
+        "The start ends with \"they\", so the ending must begin with a verb. Option B starts with a noun, so it does not fit. A and C both begin with a verb.",
         "The passage says the drones find sick plants early.",
-        "Options B and C are not in the passage, and they change the meaning.",
+        "Option C begins with a verb, but the passage says nothing about tractors.",
         "The line \"find sick plants early\" proves it, so the answer is A."
       ]
     },
