@@ -27,10 +27,10 @@
     "practice": [
       {
         "prompt": "Sam is answering a True / False / Not Given question. Which step did he skip? Use the five steps to decide.",
-        "text": "Sam read the whole passage twice, then looked at the question. He wrote TRUE straight away, because the first paragraph mentioned the same town. He did not find a line that proves TRUE.",
+        "text": "Sam skimmed the passage and labelled both paragraphs. He underlined 'supermarkets' in the question and predicted that 'began selling' would appear. He found the sentence in paragraph B and read the sentences around it. He wrote TRUE and moved on, without pointing to the exact words that prove it.",
         "options": ["Skim and label the topics", "Underline the keywords", "Predict the paraphrase", "Find it and read around it", "Confirm with a line"],
         "answer": "Confirm with a line",
-        "why": "Step 5 asks you to point to the exact words that prove your answer. Sam only had a town name, which is not proof. He should have found a matching line before writing TRUE."
+        "why": "Step 5 asks you to point to the exact words that prove your answer. Sam found the right sentence but never pointed to the words that prove TRUE. He should have checked them before writing."
       },
       {
         "prompt": "Priya's question asks whether rent rose. Which step did she skip? Use the five steps to decide.",
@@ -81,16 +81,16 @@
       { "do": "Check every small word in the statement against the passage before you choose.", "why": "One wrong word, such as 'all' or 'only', can turn a True answer into False or Not Given." }
     ],
     "demo": {
-      "prompt": "Statement: The company's ferries were built in Norway. Is this TRUE, FALSE or NOT GIVEN?",
+      "prompt": "Statement: The company's boats were built in Norway. Is this TRUE, FALSE or NOT GIVEN?",
       "text": "A: The Harbour Ferry Company started in 1962 with one boat. By 1980 it ran six boats across the bay every day. B: Fares rose in 1995, and many older passengers complained about the cost. Two new boats were ordered in 2010. The company has never said how many passengers use its summer service.",
       "moves": [
-        { "step": 1, "say": "I underline the keywords: ferries, built, Norway. The passage does not say ferries. It says boats, so I think of that word too.", "mark": "boats" },
+        { "step": 1, "say": "I underline the keywords: boats, built, Norway. The passage uses the word boats, so I look for it in the text.", "mark": "boats" },
         { "step": 2, "say": "The topic is the company's boats. Paragraph A is about them, so I look there first.", "mark": "The Harbour Ferry Company started in 1962 with one boat." },
         { "step": 3, "say": "I read the whole paragraph, not one sentence. Nothing in A says where the boats were built.", "mark": "By 1980 it ran six boats across the bay every day." },
-        { "step": 4, "say": "Can I point to a line that says the same? I look for where the boats were built. I cannot find that line.", "mark": "Two new boats were ordered in 2010." },
-        { "step": 5, "say": "Is there a line that says the opposite, such as built somewhere else? No line says that either.", "mark": "The company has never said how many passengers use its summer service." },
-        { "step": 6, "say": "I find neither a matching line nor an opposite one. So the answer is NOT GIVEN. Silence is not disagreement.", "mark": "Two new boats were ordered in 2010." },
-        { "step": 7, "say": "I check the detail 'Norway' against the passage. It is not there, so the answer stays NOT GIVEN.", "mark": "The company has never said how many passengers use its summer service." }
+        { "step": 4, "say": "Can I point to a line that says the boats were built in Norway? I scan the boat sentences, such as the 1962 one. None of them says that.", "mark": "The Harbour Ferry Company started in 1962 with one boat." },
+        { "step": 5, "say": "Is there a line that says the opposite, such as built somewhere else? I check the boat sentences again. No line says that either." },
+        { "step": 6, "say": "I find neither a matching line nor an opposite one. So the answer is NOT GIVEN. Silence is not disagreement." },
+        { "step": 7, "say": "I check the detail 'Norway' against the passage. It is not there, so the answer stays NOT GIVEN." }
       ],
       "answer": "NOT GIVEN. No line says the boats were built in Norway, and no line says they were not."
     },
@@ -273,7 +273,7 @@
         "text": "Ella opened a small cafe in May. It is famous for its lemon cake, which sells out most days. She hired two bakers so the cafe could open earlier. Ella says the best part is meeting her regular customers.",
         "options": ["A. The lemon cake sells out most days", "B. The cafe could open earlier", "C. Ella enjoys meeting her regular customers", "D. The cafe is famous across the whole country"],
         "answer": "B. The cafe could open earlier",
-        "why": "A is true but not asked: it describes the cake, not why she hired bakers. D is too extreme. The line 'so the cafe could open earlier' gives the reason, so the answer is B.",
+        "why": "A and C are true but not asked: the cake and meeting customers are facts, not the reason for the bakers. D is too extreme. The line 'so the cafe could open earlier' gives the reason: B.",
         "evidence": "She hired two bakers so the cafe could open earlier."
       }
     ],
