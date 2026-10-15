@@ -98,3 +98,30 @@ test('note without demo and practice reports both', () => {
   assert.match(out, /needs a demo/);
   assert.match(out, /needs 2 practice/);
 });
+
+// malformed input must become error strings, never throw
+const errsOf = f => v([mod(f)]).join('\n');
+test('null demo move is reported, not thrown', () =>
+  assert.match(errsOf(n => n.demo.moves[0] = null), /"tfng": demo move 1 is not an object/));
+test('null practice item is reported, not thrown', () =>
+  assert.match(errsOf(n => n.practice[0] = null), /"tfng" practice 1 is not an object/));
+test('options must be a list', () => {
+  for (const bad of ['TRUE', 5, { a: 1 }])
+    assert.match(errsOf(n => n.practice[0].options = bad), /"tfng" practice 1: options must be a list/);
+});
+test('demo text must be text', () =>
+  assert.match(errsOf(n => n.demo.text = 5), /"tfng": demo text must be text/));
+test('non-string say is reported', () =>
+  assert.match(errsOf(n => n.demo.moves[0].say = 5), /"tfng": demo move 1 say must be text/));
+test('non-string mark is reported', () =>
+  assert.match(errsOf(n => n.demo.moves[1].mark = 5), /"tfng": demo move 2 mark must be text/));
+test('empty mark is rejected', () =>
+  assert.match(errsOf(n => n.demo.moves[1].mark = ''), /"tfng": demo move 2 mark is empty/));
+test('non-string evidence is reported', () =>
+  assert.match(errsOf(n => n.practice[0].evidence = 5), /"tfng" practice 1 evidence must be text/));
+test('empty evidence is rejected', () =>
+  assert.match(errsOf(n => n.practice[0].evidence = ''), /"tfng" practice 1: evidence is empty/));
+test('non-string build is reported', () =>
+  assert.match(v([wm(n => n.demo.moves[2].build = 5)], ['opinion'], 'writing').join('\n'), /"opinion": demo move 3 build must be text/));
+test('whitespace-only build does not count toward 2 builds', () =>
+  assert.match(v([wm(n => n.demo.moves.forEach((m, i) => { if (i < 3) m.build = '  '; }))], ['opinion'], 'writing').join('\n'), /demo needs 2\+ builds/));
