@@ -644,20 +644,20 @@
         {
           "step": 4,
           "say": "I paraphrase the title for my introduction. I say what the table shows, using my own words and no new facts.",
-          "build": "The table shows how many people visited four museums in one city in 2023 and 2024, in thousands."
+          "build": "The table shows how many people visited four museums in one city in 2023 and 2024 (in thousands)."
         },
         {
           "step": 6,
           "say": "Now I write a ranking sentence. It names the highest and lowest figures from step two, with their numbers and the year.",
-          "build": "The table shows how many people visited four museums in one city in 2023 and 2024, in thousands. In 2024, the Science Centre had the most visitors at 150 thousand, while Harbour Museum had the fewest at 40 thousand."
+          "build": "The table shows how many people visited four museums in one city in 2023 and 2024 (in thousands). In 2024, the Science Centre had the most visitors at 150 thousand, while Harbour Museum had the fewest at 40 thousand."
         },
         {
           "step": 6,
           "say": "Last, I write a contrast sentence. I put the surprise and the lowest museum together, so the two changes are easy to compare.",
-          "build": "The table shows how many people visited four museums in one city in 2023 and 2024, in thousands. In 2024, the Science Centre had the most visitors at 150 thousand, while Harbour Museum had the fewest at 40 thousand. Whereas the Science Centre rose from 90 to 150 thousand, Harbour Museum fell from 45 to 40 thousand."
+          "build": "The table shows how many people visited four museums in one city in 2023 and 2024 (in thousands). In 2024, the Science Centre had the most visitors at 150 thousand, while Harbour Museum had the fewest at 40 thousand. Whereas the Science Centre rose from 90 to 150 thousand, Harbour Museum fell from 45 to 40 thousand."
         }
       ],
-      "answer": "The table shows how many people visited four museums in one city in 2023 and 2024, in thousands. In 2024, the Science Centre had the most visitors at 150 thousand, while Harbour Museum had the fewest at 40 thousand. Whereas the Science Centre rose from 90 to 150 thousand, Harbour Museum fell from 45 to 40 thousand."
+      "answer": "The table shows how many people visited four museums in one city in 2023 and 2024 (in thousands). In 2024, the Science Centre had the most visitors at 150 thousand, while Harbour Museum had the fewest at 40 thousand. Whereas the Science Centre rose from 90 to 150 thousand, Harbour Museum fell from 45 to 40 thousand."
     },
     "practice": [
       {
@@ -900,30 +900,30 @@
         {
           "step": 4,
           "say": "I paraphrase the title for my introduction. I say how many stages there are and what the diagram shows.",
-          "build": "The diagram illustrates how jam is made in three stages, from fresh fruit to sealed jars."
+          "build": "The diagram illustrates how jam is made in three stages."
         },
         {
           "step": 5,
-          "say": "The overview counts the stages and says it is a line. It gives no small details, so I leave out the pan and the jars.",
-          "build": "The diagram illustrates how jam is made in three stages, from fresh fruit to sealed jars. Overall, the process is linear, with three main stages from start to finish."
+          "say": "The overview counts the stages and says where the process starts and ends. It gives no small details, so I leave out the pan and the jars.",
+          "build": "The diagram illustrates how jam is made in three stages. Overall, the process is linear, with three stages, beginning with fresh fruit and ending with sealed jars."
         },
         {
           "step": 6,
           "say": "Now I describe the stages in order. I start with a sequencer and the passive, because the action matters most.",
-          "build": "The diagram illustrates how jam is made in three stages, from fresh fruit to sealed jars. Overall, the process is linear, with three main stages from start to finish. First, the fruit is washed and cut."
+          "build": "The diagram illustrates how jam is made in three stages. Overall, the process is linear, with three stages, beginning with fresh fruit and ending with sealed jars. First, the fruit is washed and cut."
         },
         {
           "step": 6,
           "say": "The second stage comes next. I use 'next' and the present simple passive, 'is heated', to keep the order clear.",
-          "build": "The diagram illustrates how jam is made in three stages, from fresh fruit to sealed jars. Overall, the process is linear, with three main stages from start to finish. First, the fruit is washed and cut. Next, the fruit is heated with sugar in a large pan."
+          "build": "The diagram illustrates how jam is made in three stages. Overall, the process is linear, with three stages, beginning with fresh fruit and ending with sealed jars. First, the fruit is washed and cut. Next, the fruit is heated with sugar in a large pan."
         },
         {
           "step": 6,
           "say": "The last stage ends the process. I use 'finally' and the passive again, so the reader knows the jam is complete.",
-          "build": "The diagram illustrates how jam is made in three stages, from fresh fruit to sealed jars. Overall, the process is linear, with three main stages from start to finish. First, the fruit is washed and cut. Next, the fruit is heated with sugar in a large pan. Finally, the jam is poured into jars and sealed."
+          "build": "The diagram illustrates how jam is made in three stages. Overall, the process is linear, with three stages, beginning with fresh fruit and ending with sealed jars. First, the fruit is washed and cut. Next, the fruit is heated with sugar in a large pan. Finally, the jam is poured into jars and sealed."
         }
       ],
-      "answer": "The diagram illustrates how jam is made in three stages, from fresh fruit to sealed jars. Overall, the process is linear, with three main stages from start to finish. First, the fruit is washed and cut. Next, the fruit is heated with sugar in a large pan. Finally, the jam is poured into jars and sealed."
+      "answer": "The diagram illustrates how jam is made in three stages. Overall, the process is linear, with three stages, beginning with fresh fruit and ending with sealed jars. First, the fruit is washed and cut. Next, the fruit is heated with sugar in a large pan. Finally, the jam is poured into jars and sealed."
     },
     "practice": [
       {
@@ -1051,15 +1051,15 @@
         {
           "step": 5,
           "say": "Then I write one body sentence for the table, with its own figures. The income figures come from the table only.",
-          "build": "The line graph and the table show the number of tourists and hotel income in a coastal town between 2015 and 2020. Overall, both the number of tourists and hotel income grew over the period. The number of tourists rose from 50 thousand in 2015 to 80 thousand in 2020. Hotel income rose from 4 million pounds to 7 million pounds over the same period."
+          "build": "The line graph and the table show the number of tourists and hotel income in a coastal town between 2015 and 2020. Overall, both the number of tourists and hotel income grew over the period. The number of tourists rose from 50 thousand in 2015 to 80 thousand in 2020. Hotel income rose from £4 million to £7 million over the same period."
         },
         {
           "step": 6,
           "say": "Last, I add one linking sentence. It shows the two visuals follow the same pattern, so the examiner sees the connection.",
-          "build": "The line graph and the table show the number of tourists and hotel income in a coastal town between 2015 and 2020. Overall, both the number of tourists and hotel income grew over the period. The number of tourists rose from 50 thousand in 2015 to 80 thousand in 2020. Hotel income rose from 4 million pounds to 7 million pounds over the same period. In line with the rise in tourists, hotel income also grew over the same period."
+          "build": "The line graph and the table show the number of tourists and hotel income in a coastal town between 2015 and 2020. Overall, both the number of tourists and hotel income grew over the period. The number of tourists rose from 50 thousand in 2015 to 80 thousand in 2020. Hotel income rose from £4 million to £7 million over the same period. Hotel income also grew, in line with the rise in tourists."
         }
       ],
-      "answer": "The line graph and the table show the number of tourists and hotel income in a coastal town between 2015 and 2020. Overall, both the number of tourists and hotel income grew over the period. The number of tourists rose from 50 thousand in 2015 to 80 thousand in 2020. Hotel income rose from 4 million pounds to 7 million pounds over the same period. In line with the rise in tourists, hotel income also grew over the same period."
+      "answer": "The line graph and the table show the number of tourists and hotel income in a coastal town between 2015 and 2020. Overall, both the number of tourists and hotel income grew over the period. The number of tourists rose from 50 thousand in 2015 to 80 thousand in 2020. Hotel income rose from £4 million to £7 million over the same period. Hotel income also grew, in line with the rise in tourists."
     },
     "practice": [
       {
