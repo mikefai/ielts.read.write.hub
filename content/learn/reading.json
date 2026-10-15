@@ -618,8 +618,8 @@
         "evidence": "a small park beside the river"
       },
       {
-        "prompt": "Summary: Sales rose so fast that by 2019 the owner had installed a ______ oven. Most loaves are gone before ______. Write ONE WORD ONLY for each gap. Use the steps, and check which time the summary means.",
-        "text": "A: Harvest Bakery sells bread from a converted barn on the edge of the village. Its owner, Tom, started with a single oven in 2016. B: Demand grew so fast that by 2019 he needed a second oven and four new staff. Most of the bread is sold before noon, although the shop opens at eight.",
+        "prompt": "Summary: Sales rose so fast that by 2019 the owner had bought a ______ oven. Most loaves are gone before ______. Write ONE WORD ONLY for each gap. Use the steps, and check which time the summary means.",
+        "text": "A: Harvest Bakery sells bread from a converted barn on the edge of the village. Its owner, Tom, started with a single oven in 2016. B: Demand grew so fast that by 2019 he had bought a second oven and hired four new staff. Most of the bread is sold before noon, although the shop opens at eight.",
         "answer": "Gap 1: second. Gap 2: noon.",
         "why": "Steps 3 and 5: 'sales rose so fast' matches 'demand grew so fast', giving 'second'. 'Gone before' matches 'sold before noon'. Eight is the opening time, so it is wrong.",
         "evidence": "Most of the bread is sold before noon"
@@ -676,7 +676,7 @@
       "Did I read the finished summary for sense?"
     ],
     "demo": {
-      "prompt": "Summary: Lena closed her flower shop because the ______ went up. She now sells bouquets ______, and her sales are growing ______. Word list (use each word once): rent, online, steadily, landlord, bakery. Use the steps.",
+      "prompt": "Summary: Lena closed her flower shop because the ______ went up. She now sells bouquets ______, and her sales are growing ______. Word list (use each word at most once): rent, online, steadily, landlord, bakery. Use the steps.",
       "text": "Lena ran a small flower shop on Pine Street for eleven years. In the spring of 2023 her landlord raised the rent by a third. She could not pay the higher price, so she closed the shop in May. Now she sells bouquets online from her kitchen, and her sales are growing steadily.",
       "moves": [
         {
@@ -693,27 +693,35 @@
         },
         {
           "step": 4,
-          "say": "I search the passage for the cause. The landlord and the rent are in the second sentence, so I read it.",
+          "say": "The summary says 'went up', and the passage says 'raised'. I search for 'raised' to find the cause.",
           "mark": "In the spring of 2023 her landlord raised the rent by a third."
         },
         {
           "step": 5,
-          "say": "Gap 1 needs the thing that went up. Rent went up, and the landlord did not, so I choose rent.",
+          "say": "Gap 1 needs the thing that went up. The passage says 'raised the rent' and 'higher price', so the rent went up. I choose rent, not landlord.",
           "mark": "her landlord raised the rent by a third"
         },
         {
-          "step": 6,
-          "say": "I cross out rent and check gap 2. The passage says she sells bouquets online, so online fits.",
+          "step": 5,
+          "say": "Gap 2 follows 'bouquets'. The passage says she sells bouquets online, so I choose online.",
           "mark": "Now she sells bouquets online from her kitchen"
         },
         {
-          "step": 6,
-          "say": "I cross out online. Steadily is the only adverb left for gap 3, and the passage says her sales are growing steadily.",
+          "step": 5,
+          "say": "Gap 3 follows 'growing'. The passage says her sales are growing steadily, so I choose steadily.",
           "mark": "her sales are growing steadily"
         },
         {
+          "step": 6,
+          "say": "I cross out rent, online and steadily now that they are used, so the list gets shorter."
+        },
+        {
+          "step": 6,
+          "say": "Bakery is still in the list, but the story never mentions a bakery. It is a trap, so I cross it out too."
+        },
+        {
           "step": 7,
-          "say": "I read the finished summary. 'Closed because the rent went up' makes sense. Landlord and bakery stay unused, which is fine."
+          "say": "I read the finished summary. 'Closed because the rent went up' makes sense. Landlord is the only word left, and no gap needs it."
         }
       ],
       "answer": "Lena closed her flower shop because the rent went up. She now sells bouquets online, and her sales are growing steadily."
@@ -839,7 +847,7 @@
         "prompt": "Notes: Eastfield Swimming Club. Founded: 1974. Number of members: ______. Write NO MORE THAN TWO WORDS AND/OR A NUMBER. Use the steps.",
         "text": "The Eastfield Swimming Club was founded in 1974 by two teachers. It now has 180 members, and about a third of them are under sixteen. Training sessions run on Tuesdays and Saturdays. The club hires a coach from the city.",
         "answer": "180",
-        "why": "Step 4: the heading is 'Number of members', and the passage says 'It now has 180 members'. 1974 is the year the club was founded, not the number of members, so it is wrong.",
+        "why": "Step 4: the heading is 'Number of members', and the passage says 'It now has 180 members'. 'Two' is the number of founders, not members, so it is wrong.",
         "evidence": "It now has 180 members"
       },
       {
@@ -901,8 +909,8 @@
       "Did I count the words and stay inside the limit?"
     ],
     "demo": {
-      "prompt": "Diagram (a flow chart, read left to right): Box 1: logs are cut into chips → Box 2: [gap] → Box 3: [gap] → Box 4: the sheet is dried and rolled. Write ONE WORD ONLY for each gap.",
-      "text": "Paper is made in three stages at the Mill Road plant. First, logs are cut into chips and mixed with water to form a thick pulp. Next, the pulp is spread across a long wire screen, which lets the water drain away. Finally, the damp sheet is pressed and dried over heated rollers.",
+      "prompt": "Diagram (a flow chart, read left to right): Box 1: logs are cut into chips → Box 2: the chips are mixed with water to form a [gap] → Box 3: the pulp is spread across a long wire [gap]. Write ONE WORD ONLY for each gap.",
+      "text": "Paper is made in three stages at the Mill Road plant. First, logs are cut into chips. Next, the chips are mixed with water to form a thick pulp. Finally, the pulp is spread across a long wire screen, which lets the water drain away.",
       "moves": [
         {
           "step": 1,
@@ -910,11 +918,11 @@
         },
         {
           "step": 2,
-          "say": "I study the diagram first. It runs left to right, and the arrows show the order: chips, two gaps, then the sheet."
+          "say": "I study the diagram first. It runs left to right, and the arrows show the order: chips, then two gaps."
         },
         {
           "step": 3,
-          "say": "I see each gap needs a noun, a thing in the process. I think box 2 is a material, and box 3 is a part of the process."
+          "say": "I see each gap needs a noun, a thing in the process. I think box 2 is a material, and box 3 is a thing the pulp is spread on."
         },
         {
           "step": 4,
@@ -923,17 +931,17 @@
         },
         {
           "step": 5,
-          "say": "I follow 'First', which gives box 1 and the stage after it. The chips are mixed to form a thick mixture, so I write that noun for box 2.",
+          "say": "I follow the sequence words, one per box. 'Next' gives box 2: the chips are mixed with water to form a thick pulp, so box 2 is pulp.",
           "mark": "mixed with water to form a thick pulp"
         },
         {
           "step": 6,
-          "say": "I read the sentence after 'Next', which matches box 3. The pulp is spread across a long wire screen, so I write screen.",
+          "say": "I read the sentence after 'Finally', which matches box 3. The pulp is spread across a long wire screen, so box 3 is screen.",
           "mark": "spread across a long wire screen"
         },
         {
           "step": 7,
-          "say": "I check the arrows: chips, pulp, screen, then the dried sheet. Each gap is one word and within the limit."
+          "say": "I check the arrows: chips, pulp, screen. Each gap is one word and within the limit."
         }
       ],
       "answer": "Box 2: pulp. Box 3: screen."
