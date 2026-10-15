@@ -1,0 +1,68 @@
+{
+  "id": "m1-ynng",
+  "type": "ynng",
+  "passageId": "m1-p3",
+  "instructions": "Do the following statements agree with the views of the writer in the passage? Write YES if the statement agrees with the views of the writer, NO if the statement contradicts the views of the writer, or NOT GIVEN if it is impossible to say what the writer thinks about this.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "The customary way of asking about machine creativity makes people look in an unhelpful direction.",
+      "answer": "YES",
+      "evidence": {
+        "paragraph": "A",
+        "quote": "the question, as usually posed, directs attention to the wrong place"
+      },
+      "step": 2,
+      "how": "Look at the end of the opening paragraph, where the writer announces the line of argument. Underline customary way of asking and unhelpful direction, and expect the writer to use different words for both.",
+      "again": "The writer states this intention directly in the first person, so the statement reflects the writer's own position. Check that you matched usually posed with customary and wrong place with an unhelpful direction."
+    },
+    {
+      "id": "q2",
+      "prompt": "The writer is convinced that software will leave human imagination with no useful role.",
+      "answer": "NO",
+      "evidence": {
+        "paragraph": "G",
+        "quote": "the familiar worry that machines will make human imagination redundant looks misplaced"
+      },
+      "step": 4,
+      "how": "Find the point in the final paragraph where the writer discusses the future of human imagination. Underline convinced and no useful role, then read the writer's judgement of the common worry carefully.",
+      "again": "The writer describes the familiar concern as misplaced and sees a continuing human contribution in partnerships with software. The statement attributes a belief the writer explicitly dismisses, so check which way the writer's judgement points."
+    },
+    {
+      "id": "q3",
+      "prompt": "Work produced by software is cheaper to make than work produced by people.",
+      "answer": "NOT GIVEN",
+      "evidence": {
+        "paragraph": "A",
+        "quote": "the answer affects who receives credit, who is paid, and what we believe human minds are for"
+      },
+      "step": 4,
+      "how": "Search the essay for any comparison between what software output and human output cost to make. Underline cheaper and to make, and check whether the writer ever mentions expense or savings.",
+      "again": "The writer mentions payment only as one of several things affected by the debate, and never compares the cost of the two kinds of work. A statement about relative expense cannot be judged from a remark about who is paid."
+    },
+    {
+      "id": "q4",
+      "prompt": "People respond differently to a copied masterpiece than to a genuine one, and a results-only definition ignores this.",
+      "answer": "YES",
+      "evidence": {
+        "paragraph": "F",
+        "quote": "a definition based purely on outcomes cannot explain why we feel differently about a forged masterpiece than about an original"
+      },
+      "step": 4,
+      "how": "Look in the paragraph where the writer evaluates the positions in turn. Underline copied masterpiece and results-only definition, and find the sentence that comments on the researcher who stresses what is produced.",
+      "again": "The writer makes this criticism of the outcome-based view in a single sentence. Check that you matched forged with copied and a definition based purely on outcomes with a results-only definition."
+    },
+    {
+      "id": "q5",
+      "prompt": "Audiences may become so content with adequate copies that they cease to want novelty.",
+      "answer": "YES",
+      "evidence": {
+        "paragraph": "G",
+        "quote": "an audience so satisfied by an endless supply of competent imitation that it stops demanding anything genuinely new"
+      },
+      "step": 3,
+      "how": "Read the last sentence of the essay, where the writer names a danger. Underline content with adequate copies and cease to want novelty, and look for the synonyms in the closing lines.",
+      "again": "The writer presents this as the real danger, so the statement agrees with the writer's view. Check that competent imitation was recognised as adequate copies and stops demanding as cease to want."
+    }
+  ]
+}

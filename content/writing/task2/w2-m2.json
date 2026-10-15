@@ -1,0 +1,123 @@
+{
+  "id": "w2-m2",
+  "task": 2,
+  "essayType": "Discussion (both views and opinion)",
+  "title": "Structured activities versus free play",
+  "prompt": "Some people believe that children should spend their free time in organised activities such as sports clubs and music lessons, while others think that children learn more through unstructured play. Discuss both views and give your own opinion.",
+  "model": {
+    "paragraphs": [
+      {
+        "name": "Introduction",
+        "sentences": [
+          {
+            "role": "background",
+            "text": "Parents today often face a choice between enrolling their children in organised classes and allowing them to spend their spare time playing freely.",
+            "why": "Neutral background that paraphrases both views without copying the question: \"organised classes\" and \"playing freely\" restate the two options. It avoids giving an opinion too early."
+          },
+          {
+            "role": "thesis",
+            "text": "While structured activities provide discipline and valuable skills, I believe that free play is slightly more important for healthy development, although children need a balance of both.",
+            "why": "Answers both parts of the question: the \"while\" clause acknowledges the first view and the main clause gives a clear opinion. It earns Task Response by committing to a position."
+          },
+          {
+            "role": "outline",
+            "text": "This essay will examine both approaches before explaining why I favour a mixture that leaves room for unstructured play.",
+            "why": "The outline promises both views in order and then the writer's opinion, which gives a clear roadmap. \"Before explaining\" signals structure and supports Coherence and Cohesion."
+          }
+        ]
+      },
+      {
+        "name": "Body 1",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "Supporters of structured activities argue that they teach children discipline and specific skills.",
+            "why": "A topic sentence that presents the first view fairly: \"Supporters ... argue\" attributes the idea to others. It states one clear idea for the paragraph and helps Coherence."
+          },
+          {
+            "role": "explanation",
+            "text": "Lessons in sport, music or art are led by trained instructors who set clear goals and give regular feedback, which encourages persistence and steady improvement.",
+            "why": "Explains why organised activities work, using a parallel list of subjects and a relative clause. \"Persistence and steady improvement\" is precise vocabulary that develops the point."
+          },
+          {
+            "role": "example",
+            "text": "For example, a child who attends weekly swimming classes will usually learn proper technique and water safety far faster than one who simply splashes about at the beach.",
+            "why": "A specific, believable comparison that makes the benefit concrete. The comparative \"far faster\" and the contrasting pronoun \"one who\" show grammatical range and clear development."
+          },
+          {
+            "role": "effect",
+            "text": "Moreover, such programmes keep children occupied and supervised, which reassures working parents and reduces time spent on screens.",
+            "why": "Adds a practical consequence with \"Moreover\" and a relative clause. It completes the first view by showing a benefit for families, not only for the child, which widens the argument."
+          }
+        ]
+      },
+      {
+        "name": "Body 2",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "On the other hand, free play allows children to develop creativity, independence and social skills in ways that adults cannot easily organise.",
+            "why": "\"On the other hand\" clearly signals the second view. The topic sentence names three benefits and adds a claim about adults, giving the paragraph a focused and original angle."
+          },
+          {
+            "role": "explanation",
+            "text": "When children invent their own games, they must negotiate rules, resolve disagreements and solve problems without adult guidance, and these experiences build confidence and emotional resilience.",
+            "why": "Explains the mechanism with a time clause and three parallel verbs, then states the result. Abstract nouns such as \"emotional resilience\" earn Lexical Resource."
+          },
+          {
+            "role": "example",
+            "text": "A group of children building a den in a park, for instance, has to share ideas, divide tasks and compromise, all of which prepare them for teamwork later in life.",
+            "why": "A vivid and realistic example that shows the skills in action. The final relative clause \"all of which\" links the example to a long-term benefit and shows complex grammar."
+          },
+          {
+            "role": "link",
+            "text": "Despite these benefits, unlimited free time can lead to boredom or excessive screen use, so it should not replace guided learning entirely.",
+            "why": "This link concedes a weakness of free play and bridges to the writer's balanced opinion. \"Despite\" shows contrast, and the qualification keeps the judgement fair and credible."
+          }
+        ]
+      },
+      {
+        "name": "Conclusion",
+        "sentences": [
+          {
+            "role": "summary",
+            "text": "In conclusion, structured activities build discipline and expertise, whereas free play nurtures imagination, independence and cooperation.",
+            "why": "Summarises both views in new words, using \"whereas\" to contrast them. Paraphrasing the body rather than copying earns Lexical Resource and confirms balanced coverage."
+          },
+          {
+            "role": "judgement",
+            "text": "Overall, I believe that children benefit most from a schedule with a few well-chosen classes and plenty of unstructured time, because both kinds of experience shape a balanced and capable adult.",
+            "why": "A clear final opinion that matches the thesis and adds no new idea. The reason clause after \"because\" justifies the balanced view, which completes the Task Response requirement."
+          }
+        ]
+      }
+    ]
+  },
+  "guide": "discussion",
+  "analysis": [
+    "The command is \"Discuss both views and give your own opinion\". You must cover both views fairly and also state your own opinion clearly, ideally in the introduction and again in the conclusion.",
+    "The two views are: children should spend free time in organised activities, and children learn more through unstructured play. Give each view its own body paragraph with roughly equal weight.",
+    "Paraphrase in the introduction: \"organised activities such as sports clubs and music lessons\" becomes structured classes; \"unstructured play\" becomes free play without adult direction; \"free time\" becomes spare time.",
+    "Position: free play is slightly more important, but a balance is best. Present the first view honestly before arguing your side, and do not ignore the view you disagree with.",
+    "The question does not ask for advice to governments, a history of childhood, or a discussion of teenagers. Keep the focus on children and on these two ways of spending free time.",
+    "Develop each view with an explanation, a specific example and a consequence. Use attribution such as \"supporters argue\" so that the views are clearly separated from your opinion."
+  ],
+  "plan": [
+    {
+      "paragraph": "Introduction",
+      "idea": "Background on the parent's choice. Thesis: structured activities give discipline and skills, but free play is slightly more important; both are needed."
+    },
+    {
+      "paragraph": "Body 1",
+      "idea": "View 1: organised activities. Trained instructors set goals and feedback. Example: weekly swimming classes teach technique and safety. Result: supervision and less screen time for working parents."
+    },
+    {
+      "paragraph": "Body 2",
+      "idea": "View 2: free play. Negotiation, problem-solving, resilience. Example: children building a den in a park. Concede that unlimited free time can cause boredom or screen use."
+    },
+    {
+      "paragraph": "Conclusion",
+      "idea": "Summarise both views. Opinion: a few well-chosen classes plus plenty of unstructured time produce a balanced, capable adult."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "m2-mcq",
+  "type": "mcq",
+  "passageId": "m2-p3",
+  "instructions": "Choose the correct letter, A, B, C or D.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "According to the writer, how do trees reduce the temperature of a city?",
+      "options": [
+        "They block sunlight and also release water vapour that absorbs heat from the air",
+        "They reflect heat back into the atmosphere through their bark and leaves",
+        "They absorb pollution that would otherwise trap warmth near the ground",
+        "They lower the temperature of the soil so that pavements stay cool"
+      ],
+      "answer": "They block sunlight and also release water vapour that absorbs heat from the air",
+      "evidence": {
+        "paragraph": "B",
+        "quote": "Shade protects the ground; evaporation cools the air itself"
+      },
+      "step": 1,
+      "how": "Read paragraph B and note the two routes by which benefits arrive. Underline the sentence that sums up what each route does, since the question asks about the combination.",
+      "again": "Check every option against both routes described. An option that mentions only one route, or invents a different process such as reflecting heat into space, is incomplete or unsupported by the paragraph."
+    },
+    {
+      "id": "q2",
+      "prompt": "What do the researchers in paragraph C report about the trees that give most cooling?",
+      "options": [
+        "They grow quickly and reach a great height within a few years",
+        "They have wide, thick crowns and are planted close together",
+        "They are native to temperate regions and need little watering",
+        "They have slender trunks and are planted singly along main roads"
+      ],
+      "answer": "They have wide, thick crowns and are planted close together",
+      "evidence": {
+        "paragraph": "C",
+        "quote": "species with broad, dense crowns delivered far more cooling than slender or sparsely leaved ones"
+      },
+      "step": 2,
+      "how": "Locate the sentence reporting the comparison of street planting in several cities. Note both characteristics of the best performing trees, as the correct option should combine them.",
+      "again": "Compare each option with both findings in the sentence. Options that mention height, age or fast growth sound plausible but are never given as the factor that produced the strongest cooling."
+    },
+    {
+      "id": "q3",
+      "prompt": "What conclusion did the authors of the European study reach?",
+      "options": [
+        "Parks should be enlarged so that every resident lives close to one",
+        "Wealthy districts should pay for planting in poorer neighbourhoods",
+        "New planting should begin in the hottest and most crowded areas",
+        "Older dwellings should be demolished to make room for more avenues"
+      ],
+      "answer": "New planting should begin in the hottest and most crowded areas",
+      "evidence": {
+        "paragraph": "D",
+        "quote": "new planting ought to be directed first towards the districts that are hottest and most densely populated"
+      },
+      "step": 3,
+      "how": "Find the sentence beginning with the authors and read it to the end. The conclusion is usually signalled by a verb such as concluded, followed by a recommendation about where to act.",
+      "again": "Test each option against the final sentence of the paragraph. Be careful with options about parks or wealthy areas, which refer to earlier details in the paragraph rather than to what the authors recommended."
+    },
+    {
+      "id": "q4",
+      "prompt": "What is the main purpose of paragraph E?",
+      "options": [
+        "To argue that cities should stop planting trees altogether",
+        "To show that trees are too expensive for most municipal budgets",
+        "To point out limitations of tree planting that supporters often ignore",
+        "To compare different species according to their water requirements"
+      ],
+      "answer": "To point out limitations of tree planting that supporters often ignore",
+      "evidence": {
+        "paragraph": "E",
+        "quote": "Trees are not a universal solution, and enthusiasts sometimes overlook their drawbacks"
+      },
+      "step": 4,
+      "how": "Read the opening sentence of paragraph E, then skim the rest to see whether the details support it. The purpose of a paragraph is normally stated at its start and illustrated afterwards.",
+      "again": "Decide what the examples in the paragraph have in common, then match that to an option. Options claiming trees should be abandoned or that costs are the only issue overstate or narrow the writer’s point."
+    }
+  ]
+}

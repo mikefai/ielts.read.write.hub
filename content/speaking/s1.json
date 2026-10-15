@@ -1,0 +1,655 @@
+{
+  "id": "s1",
+  "title": "Speaking Mock 1",
+  "part1": {
+    "topics": [
+      {
+        "name": "Work or studies",
+        "questions": [
+          {
+            "q": "Do you work or are you a student?",
+            "model": "I'm a student at the moment, studying business management at university. It's quite demanding, but I find it really rewarding because every module teaches me practical skills. For example, last term we ran a mock company, which gave me a genuine insight into how teamwork operates in real life.",
+            "vocab": [
+              {
+                "word": "demanding",
+                "band": 7,
+                "meaning": "needing a lot of time, effort or energy",
+                "example": "My job is demanding, but I enjoy the challenge every day."
+              },
+              {
+                "word": "rewarding",
+                "band": 7,
+                "meaning": "giving you a feeling of satisfaction or benefit",
+                "example": "Teaching young children is tiring but incredibly rewarding work."
+              },
+              {
+                "word": "insight",
+                "band": 8,
+                "meaning": "a deep and clear understanding of something",
+                "example": "The internship gave me valuable insight into how hospitals actually run."
+              },
+              {
+                "word": "hands-on",
+                "band": 8,
+                "meaning": "involving practical experience rather than theory",
+                "example": "I prefer hands-on learning to sitting through long theory lectures."
+              }
+            ],
+            "phrases": [
+              "at the moment",
+              "to be honest",
+              "For example, ..."
+            ]
+          },
+          {
+            "q": "Why did you choose that subject or job?",
+            "model": "Honestly, it was partly because of my parents, who run a small shop. I grew up watching them make tough decisions, and that sparked my interest in how companies survive. I also felt it would open doors later, since business skills are useful in almost any industry.",
+            "vocab": [
+              {
+                "word": "sparked",
+                "band": 8,
+                "meaning": "caused something such as interest to begin",
+                "example": "A documentary about space sparked my interest in physics years ago."
+              },
+              {
+                "word": "open doors",
+                "band": 7,
+                "meaning": "create new chances and opportunities for you",
+                "example": "Speaking fluent English can open doors in the international job market."
+              },
+              {
+                "word": "tough",
+                "band": 7,
+                "meaning": "difficult and demanding to deal with",
+                "example": "Choosing between two good job offers was a tough decision."
+              },
+              {
+                "word": "industry",
+                "band": 7,
+                "meaning": "a type of business activity such as tourism or farming",
+                "example": "My cousin works in the fashion industry in Milan."
+              }
+            ],
+            "phrases": [
+              "Honestly, ...",
+              "partly because of ...",
+              "I also felt that ..."
+            ]
+          },
+          {
+            "q": "What do you find most difficult about your studies or work?",
+            "model": "Probably time management. I often have several deadlines landing in the same week, so I end up juggling assignments and part-time shifts. I've learned to plan ahead, though, and these days I write a weekly schedule, which keeps me much more on top of things.",
+            "vocab": [
+              {
+                "word": "juggling",
+                "band": 8,
+                "meaning": "trying to manage several tasks at the same time",
+                "example": "She is juggling a full-time job and evening classes this year."
+              },
+              {
+                "word": "deadlines",
+                "band": 7,
+                "meaning": "the dates by which work must be finished",
+                "example": "We have three important deadlines before the end of the month."
+              },
+              {
+                "word": "on top of things",
+                "band": 8,
+                "meaning": "managing your tasks well without feeling overwhelmed",
+                "example": "Keeping a diary helps me stay on top of things at work."
+              },
+              {
+                "word": "plan ahead",
+                "band": 7,
+                "meaning": "to prepare something carefully before it happens",
+                "example": "If you plan ahead, exam week feels far less stressful."
+              }
+            ],
+            "phrases": [
+              "Probably ...",
+              "I've learned to ...",
+              "these days"
+            ]
+          },
+          {
+            "q": "Would you like to change your job or studies in the future?",
+            "model": "Not completely, but I'd love to specialise in marketing after my degree. I'm fascinated by how brands influence people's choices, and I think it would suit my creative side. Of course, plans can change, so I'm keeping an open mind about the future.",
+            "vocab": [
+              {
+                "word": "specialise",
+                "band": 7,
+                "meaning": "to focus on one particular area of study or work",
+                "example": "After two years as a nurse, she decided to specialise in children's care."
+              },
+              {
+                "word": "fascinated",
+                "band": 7,
+                "meaning": "extremely interested in something",
+                "example": "I've always been fascinated by how languages change over time."
+              },
+              {
+                "word": "keeping an open mind",
+                "band": 8,
+                "meaning": "being ready to consider new ideas or possibilities",
+                "example": "I'm keeping an open mind about moving abroad for work."
+              },
+              {
+                "word": "suit",
+                "band": 7,
+                "meaning": "to be right or convenient for someone",
+                "example": "Working from home really suits my quiet personality."
+              }
+            ],
+            "phrases": [
+              "Not completely, but ...",
+              "Of course, ...",
+              "I'm keeping an open mind"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hometown",
+        "questions": [
+          {
+            "q": "Where is your hometown, and what is it like?",
+            "model": "I come from Da Nang, a coastal city in central Vietnam. It's relatively laid-back compared with Hanoi, and it's famous for its long sandy beaches. What I like most is that you can enjoy the sea and the mountains within half an hour of the city centre.",
+            "vocab": [
+              {
+                "word": "coastal",
+                "band": 7,
+                "meaning": "located on or near the sea",
+                "example": "We spent the weekend in a quiet coastal village near Hue."
+              },
+              {
+                "word": "laid-back",
+                "band": 8,
+                "meaning": "relaxed and not easily worried or rushed",
+                "example": "People in my neighbourhood are friendly and very laid-back."
+              },
+              {
+                "word": "relatively",
+                "band": 7,
+                "meaning": "when compared with something else",
+                "example": "Housing is relatively cheap in my hometown compared with the capital."
+              },
+              {
+                "word": "famous for",
+                "band": 7,
+                "meaning": "well known because of a particular thing",
+                "example": "My city is famous for its street food and night markets."
+              }
+            ],
+            "phrases": [
+              "I come from ...",
+              "compared with ...",
+              "What I like most is ..."
+            ]
+          },
+          {
+            "q": "Do you think your hometown is a good place for young people?",
+            "model": "Mostly, yes. It's safe and the cost of living is reasonable, so young people can afford to rent their own place. The only drawback is the limited range of well-paid jobs, which is why many graduates leave for bigger cities such as Ho Chi Minh City.",
+            "vocab": [
+              {
+                "word": "drawback",
+                "band": 8,
+                "meaning": "a disadvantage or negative point",
+                "example": "The main drawback of living downtown is the constant noise."
+              },
+              {
+                "word": "cost of living",
+                "band": 7,
+                "meaning": "the amount of money needed for everyday life",
+                "example": "The cost of living in big cities keeps rising every year."
+              },
+              {
+                "word": "afford",
+                "band": 7,
+                "meaning": "to have enough money to pay for something",
+                "example": "Few students can afford to rent a flat near the campus."
+              },
+              {
+                "word": "well-paid",
+                "band": 8,
+                "meaning": "earning a good salary",
+                "example": "She found a well-paid position at a software company."
+              }
+            ],
+            "phrases": [
+              "Mostly, yes.",
+              "The only drawback is ...",
+              "which is why ..."
+            ]
+          },
+          {
+            "q": "What changes have happened in your hometown in recent years?",
+            "model": "Quite a lot, actually. A new bridge and several shopping malls have appeared, so the city feels far more modern. Traffic has also increased, which is a bit frustrating at rush hour, but on the whole I think the development has improved people's quality of life.",
+            "vocab": [
+              {
+                "word": "development",
+                "band": 7,
+                "meaning": "the process of growing or becoming more advanced",
+                "example": "Rapid development has changed the skyline of my hometown."
+              },
+              {
+                "word": "quality of life",
+                "band": 8,
+                "meaning": "how comfortable and satisfying daily life is",
+                "example": "Clean air and green parks improve the quality of life here."
+              },
+              {
+                "word": "rush hour",
+                "band": 7,
+                "meaning": "the busy time when many people travel to or from work",
+                "example": "I avoid driving during rush hour whenever I possibly can."
+              },
+              {
+                "word": "on the whole",
+                "band": 8,
+                "meaning": "taking everything into account; in general",
+                "example": "On the whole, the new metro line has been a success."
+              }
+            ],
+            "phrases": [
+              "Quite a lot, actually.",
+              "a bit frustrating",
+              "on the whole"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Weather",
+        "questions": [
+          {
+            "q": "What is the weather usually like in your country?",
+            "model": "It varies a lot depending on the region. In the south it's hot and humid all year round, whereas the north has a proper winter with chilly, damp days. Personally, I find the summer humidity exhausting, so I tend to stay indoors in the afternoons.",
+            "vocab": [
+              {
+                "word": "humid",
+                "band": 7,
+                "meaning": "warm with a lot of moisture in the air",
+                "example": "It gets extremely humid in July, so I use the air conditioning."
+              },
+              {
+                "word": "chilly",
+                "band": 7,
+                "meaning": "rather cold in an unpleasant way",
+                "example": "The mornings are chilly, so I always carry a jacket."
+              },
+              {
+                "word": "varies",
+                "band": 7,
+                "meaning": "changes or differs from place to place or time to time",
+                "example": "The price of fresh fruit varies a lot between seasons."
+              },
+              {
+                "word": "exhausting",
+                "band": 8,
+                "meaning": "making you extremely tired",
+                "example": "Walking around the old town in the heat was exhausting."
+              }
+            ],
+            "phrases": [
+              "It varies a lot",
+              "all year round",
+              "Personally, I find ..."
+            ]
+          },
+          {
+            "q": "Which season do you like best, and why?",
+            "model": "I'd say autumn, without a doubt. The temperature is mild, the skies are clear and there's a gentle breeze, so it's perfect for walking outdoors. I usually take my camera to the lake near my house, because the light in the evenings is simply beautiful.",
+            "vocab": [
+              {
+                "word": "mild",
+                "band": 7,
+                "meaning": "not too hot and not too cold",
+                "example": "We had a mild winter this year, with almost no snow."
+              },
+              {
+                "word": "gentle breeze",
+                "band": 8,
+                "meaning": "a soft, light wind",
+                "example": "A gentle breeze made the afternoon by the river very pleasant."
+              },
+              {
+                "word": "without a doubt",
+                "band": 8,
+                "meaning": "certainly; there is no question about it",
+                "example": "Without a doubt, this is the best coffee in town."
+              },
+              {
+                "word": "outdoors",
+                "band": 7,
+                "meaning": "in the open air rather than inside a building",
+                "example": "Children should spend more time outdoors, not on their phones."
+              }
+            ],
+            "phrases": [
+              "I'd say ...",
+              "without a doubt",
+              "simply beautiful"
+            ]
+          },
+          {
+            "q": "Does the weather affect your mood?",
+            "model": "Definitely. When it's grey and drizzling for days, I feel quite sluggish and find it hard to concentrate. On the other hand, a bright sunny morning instantly lifts my spirits, and I get a lot more done, so I'd say the weather has a real impact on me.",
+            "vocab": [
+              {
+                "word": "sluggish",
+                "band": 9,
+                "meaning": "slow, tired and lacking energy",
+                "example": "I always feel sluggish after eating a very heavy lunch."
+              },
+              {
+                "word": "drizzling",
+                "band": 8,
+                "meaning": "raining lightly in very small drops",
+                "example": "It was drizzling all morning, so we cancelled the picnic."
+              },
+              {
+                "word": "lifts my spirits",
+                "band": 8,
+                "meaning": "makes me feel happier and more positive",
+                "example": "Listening to my favourite songs always lifts my spirits quickly."
+              },
+              {
+                "word": "impact",
+                "band": 7,
+                "meaning": "a strong effect on someone or something",
+                "example": "Lack of sleep has a serious impact on your concentration."
+              }
+            ],
+            "phrases": [
+              "Definitely.",
+              "On the other hand, ...",
+              "I'd say ..."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "part2": {
+    "cue": {
+      "topic": "Describe a teacher who influenced you",
+      "bullets": [
+        "who the teacher was",
+        "what subject the teacher taught",
+        "how the teacher taught or behaved in class",
+        "and explain why this teacher influenced you"
+      ],
+      "prepSeconds": 60,
+      "talkSeconds": 120
+    },
+    "model": "I'd like to talk about my English teacher from high school, Mrs Lan, who had a huge influence on me. She taught us English for three years, and she was in her forties when I first met her. At first, I was rather shy and terrified of speaking in front of others. What made her special was her patience. She never laughed at our mistakes, and instead she encouraged us to treat them as a natural part of learning. In class, she was full of energy and always walked around the room to check on us. She used songs, short films and role-plays, so the lessons were never dull. I remember one occasion when I forgot my words during a presentation. She simply smiled, gave me a hint and waited, and that small gesture gave me enough confidence to carry on. Looking back, I think she influenced me in two ways. First, she ignited my passion for languages, which is why I'm studying English today. Second, she taught me that confidence matters as much as talent. One more thing I admire is that she treated every student as an individual, so nobody felt left behind. Even now, whenever I feel nervous, I hear her voice telling me to take a breath and try again. Honestly, I'm really grateful to her for everything.",
+    "vocab": [
+      {
+        "word": "influence",
+        "band": 7,
+        "meaning": "the power to change how someone thinks or behaves",
+        "example": "My grandmother had a strong influence on my values."
+      },
+      {
+        "word": "patience",
+        "band": 7,
+        "meaning": "the ability to stay calm while waiting or dealing with difficulty",
+        "example": "Teaching beginners requires a great deal of patience."
+      },
+      {
+        "word": "encouraged",
+        "band": 7,
+        "meaning": "gave someone support and confidence to do something",
+        "example": "My coach encouraged me to enter the regional competition."
+      },
+      {
+        "word": "ignited",
+        "band": 9,
+        "meaning": "started a strong feeling or interest",
+        "example": "That trip to Japan ignited my love of traditional cooking."
+      },
+      {
+        "word": "looking back",
+        "band": 8,
+        "meaning": "thinking about the past from the present",
+        "example": "Looking back, moving abroad was the best choice I made."
+      },
+      {
+        "word": "grateful",
+        "band": 7,
+        "meaning": "feeling thankful for something someone did",
+        "example": "I'm deeply grateful for the advice my mentor gave me."
+      }
+    ],
+    "phrases": [
+      "I'd like to talk about ...",
+      "What made her special was ...",
+      "Looking back, ...",
+      "which is why ...",
+      "Even now, ..."
+    ],
+    "structure": [
+      "Opening: name the teacher and say you will explain the influence",
+      "Who and what: subject, how long you studied with them, how you met",
+      "Teaching style: two or three concrete details of how they behaved in class",
+      "A specific story or memory that shows their character",
+      "Why they influenced you: two clear effects on your life",
+      "Closing: a short reflection on how you feel about them now"
+    ],
+    "roundingOff": {
+      "q": "Do you still keep in touch with this teacher?",
+      "model": "Yes, I do, although not as often as I'd like. We message each other on social media a few times a year, and I always send her a card during the Teachers' Day holiday. Next time I'm back home, I'm planning to visit her and thank her in person.",
+      "vocab": [
+        {
+          "word": "keep in touch",
+          "band": 7,
+          "meaning": "to stay in contact with someone",
+          "example": "We still keep in touch even though I live abroad."
+        },
+        {
+          "word": "in person",
+          "band": 7,
+          "meaning": "face to face rather than by phone or message",
+          "example": "I would prefer to say sorry in person rather than by text."
+        },
+        {
+          "word": "card",
+          "band": 7,
+          "meaning": "a folded piece of paper with a greeting written on it",
+          "example": "She sent me a lovely card for my birthday."
+        },
+        {
+          "word": "planning to",
+          "band": 7,
+          "meaning": "intending to do something in the future",
+          "example": "I'm planning to travel round Europe after graduation."
+        }
+      ],
+      "phrases": [
+        "Yes, I do, although ...",
+        "a few times a year",
+        "Next time I'm back, ..."
+      ]
+    }
+  },
+  "part3": {
+    "theme": "Education",
+    "questions": [
+      {
+        "q": "What qualities make a good teacher?",
+        "model": "I think patience and passion are the most important qualities. A teacher who genuinely loves the subject can make even difficult topics engaging, and a patient one gives students room to make mistakes. On top of that, good teachers adapt to different learners, because not everybody absorbs information in the same way. For instance, some pupils need visual examples, while others learn better through discussion. In the end, it is the human connection that students remember most.",
+        "vocab": [
+          {
+            "word": "engaging",
+            "band": 8,
+            "meaning": "interesting and able to hold people's attention",
+            "example": "Her lectures are so engaging that nobody checks their phone."
+          },
+          {
+            "word": "adapt",
+            "band": 7,
+            "meaning": "to change in order to suit a new situation",
+            "example": "Good managers adapt their style to each member of the team."
+          },
+          {
+            "word": "absorbs",
+            "band": 8,
+            "meaning": "takes in and understands information",
+            "example": "A child absorbs a new language very quickly when immersed."
+          },
+          {
+            "word": "on top of that",
+            "band": 7,
+            "meaning": "in addition to what has just been said",
+            "example": "On top of that, the course is free for all residents."
+          }
+        ],
+        "phrases": [
+          "I think ... are the most important",
+          "On top of that, ...",
+          "For instance, ..."
+        ]
+      },
+      {
+        "q": "Is it better to study in a big class or a small class?",
+        "model": "Generally speaking, smaller classes are more effective because the teacher can give each student individual attention. Pupils also feel less intimidated about asking questions. That said, large classes have their advantages, as they bring together a wider range of perspectives. In my view, the ideal size depends on the subject, since practical lessons clearly need fewer students than lectures. Personally, I learned best in a group of about fifteen, where discussion felt natural and relaxed.",
+        "vocab": [
+          {
+            "word": "individual attention",
+            "band": 8,
+            "meaning": "time and care given to one person separately",
+            "example": "Private tutors can give children plenty of individual attention."
+          },
+          {
+            "word": "intimidated",
+            "band": 8,
+            "meaning": "feeling frightened or nervous because of someone or something",
+            "example": "New employees often feel intimidated in their first meetings."
+          },
+          {
+            "word": "perspectives",
+            "band": 8,
+            "meaning": "particular ways of thinking about a topic",
+            "example": "Travelling gives you perspectives you cannot get from books."
+          },
+          {
+            "word": "effective",
+            "band": 7,
+            "meaning": "producing the result that was intended",
+            "example": "Short daily practice is more effective than one long session."
+          }
+        ],
+        "phrases": [
+          "Generally speaking, ...",
+          "That said, ...",
+          "In my view, ..."
+        ]
+      },
+      {
+        "q": "Should schools focus more on exams or on practical skills?",
+        "model": "Ideally, there should be a balance, but at present many schools lean too heavily on exams. Students end up memorising facts without really understanding them, and they leave school unprepared for real work. I believe teaching skills like problem-solving and communication would serve them better, although exams still matter as a fair way to measure progress. A mix of both would prepare young people properly for university and for the workplace.",
+        "vocab": [
+          {
+            "word": "memorising",
+            "band": 7,
+            "meaning": "learning something so that you can remember it exactly",
+            "example": "Memorising vocabulary lists is boring unless you use the words."
+          },
+          {
+            "word": "problem-solving",
+            "band": 8,
+            "meaning": "the ability to find answers to difficult situations",
+            "example": "Employers look for strong problem-solving skills in graduates."
+          },
+          {
+            "word": "lean heavily on",
+            "band": 9,
+            "meaning": "to depend very much on one thing",
+            "example": "Some universities lean heavily on final exams for grading."
+          },
+          {
+            "word": "unprepared",
+            "band": 7,
+            "meaning": "not ready for something that is going to happen",
+            "example": "I felt unprepared for the interview, so I did badly."
+          }
+        ],
+        "phrases": [
+          "Ideally, ...",
+          "at present",
+          "I believe ... would serve them better"
+        ]
+      },
+      {
+        "q": "How has technology changed the way people learn?",
+        "model": "Enormously. Learners can now access lectures, tutorials and dictionaries instantly, which makes education far more flexible and affordable. People in remote villages can take courses from top universities online. However, there's a danger of distraction, since a phone can pull students away from their studies. So the real challenge is learning to use technology wisely rather than letting it use us. Used well, it can truly transform how we study.",
+        "vocab": [
+          {
+            "word": "flexible",
+            "band": 7,
+            "meaning": "able to change easily to suit different needs",
+            "example": "Online classes are flexible, so I can study after work."
+          },
+          {
+            "word": "affordable",
+            "band": 7,
+            "meaning": "cheap enough for most people to pay for",
+            "example": "Affordable courses make education available to more families."
+          },
+          {
+            "word": "remote",
+            "band": 8,
+            "meaning": "far away from towns and cities",
+            "example": "Internet access has improved a lot in remote mountain areas."
+          },
+          {
+            "word": "distraction",
+            "band": 8,
+            "meaning": "something that stops you from paying attention",
+            "example": "Social media is the biggest distraction when I revise."
+          }
+        ],
+        "phrases": [
+          "Enormously.",
+          "However, there's a danger of ...",
+          "So the real challenge is ..."
+        ]
+      },
+      {
+        "q": "Do you think university education should be free for everyone?",
+        "model": "In an ideal world, yes, because education benefits the whole society, not just the individual. Free tuition would give talented students from poor families an equal chance. Having said that, governments have limited budgets, so a more realistic option might be generous scholarships and low-interest loans, which would widen access without placing a huge burden on taxpayers. It would also encourage more families to see university as a realistic goal for their children.",
+        "vocab": [
+          {
+            "word": "tuition",
+            "band": 8,
+            "meaning": "money paid for teaching, especially at a university",
+            "example": "Tuition fees rose sharply at several universities last year."
+          },
+          {
+            "word": "scholarships",
+            "band": 8,
+            "meaning": "money given to a student to pay for their studies",
+            "example": "Several scholarships are available for students with excellent grades."
+          },
+          {
+            "word": "burden",
+            "band": 8,
+            "meaning": "a heavy responsibility or difficult load",
+            "example": "Rising rent is a heavy burden for young families."
+          },
+          {
+            "word": "access",
+            "band": 7,
+            "meaning": "the right or chance to use or get something",
+            "example": "Everyone should have access to good healthcare and education."
+          }
+        ],
+        "phrases": [
+          "In an ideal world, ...",
+          "Having said that, ...",
+          "a more realistic option might be ..."
+        ]
+      }
+    ]
+  }
+}

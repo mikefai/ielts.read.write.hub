@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><link rel="icon" href="data:,"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Speaking · IELTS Study Hub</title>
+<link rel="stylesheet" href="../../assets/core/tokens.css"><link rel="stylesheet" href="../../assets/core/base.css"><link rel="stylesheet" href="../../assets/hub.css"><link rel="stylesheet" href="speaking.css"></head>
+<body><div class="wrap"><p><a class="back" href="../../index.html">&larr; Hub</a></p>
+<header class="mast rise"><p class="kicker">Skill 04</p><h1>Say it <em>with confidence.</em></h1>
+<p>Three-part interviews of 11&ndash;14 minutes, with vocabulary help and a model answer for every question.</p><div class="nine" style="background:#c78a00" aria-hidden="true">4</div></header>
+<h2 class="section-title">Mock interviews</h2><ol id="mocks" class="toc rise"></ol>
+<h2 class="section-title">Language bank</h2><div id="bank" class="bank"></div></div>
+<script type="module">
+const json = async u => { const r = await fetch(u); if (!r.ok) throw new Error(u); return r.json(); };
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+try {
+  const mocks = await json('../../content/speaking/mocks.json');
+  document.getElementById('mocks').innerHTML = mocks.length ? mocks.map((m, i) => `<li><a style="--c:#c78a00" href="mock/?id=${m.id}"><span class="n">${String(i + 1).padStart(2, '0')}</span><span><h3>${esc(m.title)}</h3><p>${esc(m.blurb ?? '')}</p></span><span class="acc">12 min</span></a></li>`).join('') : '<li><p>Mock interviews are on their way.</p></li>';
+  const bank = await json('../../content/speaking/language-bank.json');
+  document.getElementById('bank').innerHTML = bank.sections.map(s => `<details><summary>${esc(s.title)} <span>${esc(s.use)}</span></summary><ul>${s.items.map(i => `<li><strong>${esc(i.phrase)}</strong> ${esc(i.example)}</li>`).join('')}</ul></details>`).join('');
+} catch (e) {
+  document.getElementById('bank').innerHTML = `<p class="card">Could not load content (${esc(e.message)}). Serve the folder over http, e.g. <code>npx serve .</code></p>`;
+}
+</script></body></html>

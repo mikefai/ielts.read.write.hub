@@ -1,0 +1,564 @@
+{
+  "id": "s3",
+  "title": "Speaking Mock 3",
+  "part1": {
+    "topics": [
+      {
+        "name": "Home",
+        "questions": [
+          {
+            "q": "Do you live in a house or an apartment?",
+            "model": "I live in a small apartment on the fourth floor, and honestly I love it. It's cosy, easy to keep tidy, and the city centre is just a short walk away. I once considered a house, but I couldn't give up such a convenient location.",
+            "vocab": [
+              {
+                "word": "cosy",
+                "band": 7,
+                "meaning": "warm, comfortable and pleasant to be in",
+                "example": "We spent the whole winter in a cosy little cabin."
+              },
+              {
+                "word": "convenient",
+                "band": 7,
+                "meaning": "easy to reach or use, saving time",
+                "example": "The new flat is convenient because the station is next door."
+              },
+              {
+                "word": "tidy",
+                "band": 7,
+                "meaning": "neat and well organised",
+                "example": "She always keeps her desk tidy before she starts work."
+              }
+            ],
+            "phrases": [
+              "honestly",
+              "a short walk away"
+            ]
+          },
+          {
+            "q": "What is your favourite room in your home?",
+            "model": "My favourite room is definitely the living room. It gets lovely natural light in the afternoon, so it feels really spacious even though it's not big. I usually spend my evenings there, reading or just chatting with my family over tea.",
+            "vocab": [
+              {
+                "word": "spacious",
+                "band": 7,
+                "meaning": "having plenty of room inside",
+                "example": "They wanted a spacious kitchen for cooking with friends."
+              },
+              {
+                "word": "natural light",
+                "band": 8,
+                "meaning": "light from the sun rather than lamps",
+                "example": "The studio has wonderful natural light all morning."
+              },
+              {
+                "word": "definitely",
+                "band": 7,
+                "meaning": "without any doubt",
+                "example": "That was definitely the best meal I've had this year."
+              }
+            ],
+            "phrases": [
+              "even though",
+              "I usually spend my evenings"
+            ]
+          },
+          {
+            "q": "Would you like to change anything about your home?",
+            "model": "Yes, I'd love a bigger balcony. At the moment it's tiny, so I can barely fit a chair out there. If I had more outdoor space, I'd grow herbs and flowers, which would make the whole place feel much more alive.",
+            "vocab": [
+              {
+                "word": "barely",
+                "band": 8,
+                "meaning": "only just; almost not",
+                "example": "I could barely hear him over the traffic noise."
+              },
+              {
+                "word": "outdoor space",
+                "band": 7,
+                "meaning": "an area outside such as a garden or balcony",
+                "example": "Many city flats have very little outdoor space."
+              },
+              {
+                "word": "make the place feel alive",
+                "band": 9,
+                "meaning": "make a place feel lively and full of energy",
+                "example": "Fresh plants really make the place feel alive."
+              }
+            ],
+            "phrases": [
+              "If I had more",
+              "at the moment"
+            ]
+          },
+          {
+            "q": "Who do you live with?",
+            "model": "I share the apartment with my younger brother. We get on really well, although we argue about chores sometimes. He's a great cook, so I'm lucky, but I think living together has also made us much closer as siblings.",
+            "vocab": [
+              {
+                "word": "get on well",
+                "band": 7,
+                "meaning": "have a friendly relationship",
+                "example": "My neighbours and I get on well and often chat."
+              },
+              {
+                "word": "chores",
+                "band": 7,
+                "meaning": "small regular jobs around the house",
+                "example": "Washing dishes is the chore I dislike most."
+              },
+              {
+                "word": "siblings",
+                "band": 8,
+                "meaning": "brothers and sisters",
+                "example": "Her siblings all live in different countries now."
+              }
+            ],
+            "phrases": [
+              "although",
+              "I'm lucky"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Daily routine",
+        "questions": [
+          {
+            "q": "What time do you usually get up?",
+            "model": "I normally get up around half past six, because I like having a calm morning before work. I make coffee, stretch a little and check the news. If I sleep in, the whole day feels rushed, so I try to avoid that.",
+            "vocab": [
+              {
+                "word": "calm",
+                "band": 7,
+                "meaning": "peaceful and not stressful",
+                "example": "The lake was calm in the early morning."
+              },
+              {
+                "word": "sleep in",
+                "band": 7,
+                "meaning": "stay in bed later than usual",
+                "example": "On Sundays I love to sleep in until nine."
+              },
+              {
+                "word": "rushed",
+                "band": 8,
+                "meaning": "done too quickly, with little time",
+                "example": "I hate eating a rushed breakfast on my feet."
+              }
+            ],
+            "phrases": [
+              "I normally",
+              "so I try to avoid that"
+            ]
+          },
+          {
+            "q": "What is your favourite part of the day?",
+            "model": "Probably the evening, because that's when I can finally relax. After dinner I usually go for a walk to clear my head, and then I read for an hour. It's the one time when nobody expects anything from me.",
+            "vocab": [
+              {
+                "word": "relax",
+                "band": 7,
+                "meaning": "rest and stop feeling tense",
+                "example": "A long bath helps me relax after work."
+              },
+              {
+                "word": "clear my head",
+                "band": 8,
+                "meaning": "stop thinking about worries and feel fresh",
+                "example": "A short run always helps me clear my head."
+              },
+              {
+                "word": "expect",
+                "band": 7,
+                "meaning": "to believe someone should do something",
+                "example": "Teachers expect students to finish homework on time."
+              }
+            ],
+            "phrases": [
+              "Probably",
+              "that's when"
+            ]
+          },
+          {
+            "q": "Do you prefer a fixed routine or a flexible one?",
+            "model": "I prefer a fairly fixed routine, to be honest. When I know what's coming, I feel more productive and less stressed. That said, I leave space on weekends for spontaneous plans, like meeting friends or exploring somewhere new.",
+            "vocab": [
+              {
+                "word": "productive",
+                "band": 7,
+                "meaning": "achieving a lot",
+                "example": "I'm most productive when I work in the morning."
+              },
+              {
+                "word": "spontaneous",
+                "band": 8,
+                "meaning": "done suddenly without planning",
+                "example": "We took a spontaneous trip to the coast last weekend."
+              },
+              {
+                "word": "fixed",
+                "band": 7,
+                "meaning": "set and not changing",
+                "example": "The company has fixed working hours every day."
+              }
+            ],
+            "phrases": [
+              "to be honest",
+              "That said"
+            ]
+          },
+          {
+            "q": "Has your daily routine changed in recent years?",
+            "model": "Definitely. Since I started working from home, my days are much more relaxed because I've cut out the long commute. I've also begun exercising before breakfast, which has really boosted my energy and helped me concentrate better.",
+            "vocab": [
+              {
+                "word": "commute",
+                "band": 7,
+                "meaning": "the regular journey to work or school",
+                "example": "My commute used to take almost two hours each day."
+              },
+              {
+                "word": "boost",
+                "band": 8,
+                "meaning": "increase or improve something",
+                "example": "A good night's sleep can boost your mood."
+              },
+              {
+                "word": "concentrate",
+                "band": 7,
+                "meaning": "focus your attention on something",
+                "example": "It's hard to concentrate when the room is noisy."
+              }
+            ],
+            "phrases": [
+              "Since I started",
+              "which has really"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Music",
+        "questions": [
+          {
+            "q": "What kind of music do you like?",
+            "model": "I'm really into indie and acoustic music, mainly because it feels honest and relaxed. I find it perfect for studying or cooking. I'm not a big fan of heavy metal, though, since it's a bit too loud for me.",
+            "vocab": [
+              {
+                "word": "acoustic",
+                "band": 8,
+                "meaning": "played on instruments without electronic amplification",
+                "example": "We listened to an acoustic set by the river."
+              },
+              {
+                "word": "be into",
+                "band": 7,
+                "meaning": "be very interested in or enjoy",
+                "example": "My sister is really into jazz these days."
+              },
+              {
+                "word": "honest",
+                "band": 7,
+                "meaning": "sincere and true to real feelings",
+                "example": "I love songs with honest lyrics about everyday life."
+              }
+            ],
+            "phrases": [
+              "I'm not a big fan of",
+              "though"
+            ]
+          },
+          {
+            "q": "Do you play any musical instruments?",
+            "model": "I used to play the guitar when I was a teenager, but I've fallen out of practice. I still own one, and now and then I strum a few chords. I'd love to take lessons again if I had more free time.",
+            "vocab": [
+              {
+                "word": "strum",
+                "band": 8,
+                "meaning": "play a guitar by brushing across the strings",
+                "example": "He likes to strum quietly on the porch at night."
+              },
+              {
+                "word": "fall out of practice",
+                "band": 9,
+                "meaning": "become less skilled because you stopped doing something",
+                "example": "I've fallen out of practice since I stopped swimming."
+              },
+              {
+                "word": "teenager",
+                "band": 7,
+                "meaning": "a young person aged thirteen to nineteen",
+                "example": "As a teenager, she wrote songs in her bedroom."
+              }
+            ],
+            "phrases": [
+              "I used to",
+              "now and then"
+            ]
+          },
+          {
+            "q": "When do you listen to music?",
+            "model": "Mostly when I'm travelling or doing housework. Music makes a long journey feel shorter, and it keeps me motivated when I'm cleaning. I rarely listen while working, though, because lyrics distract me and break my concentration.",
+            "vocab": [
+              {
+                "word": "motivated",
+                "band": 7,
+                "meaning": "feeling eager to do something",
+                "example": "A good playlist keeps me motivated at the gym."
+              },
+              {
+                "word": "distract",
+                "band": 8,
+                "meaning": "take attention away from what you're doing",
+                "example": "Loud neighbours distract me when I'm studying."
+              },
+              {
+                "word": "journey",
+                "band": 7,
+                "meaning": "the act of travelling from one place to another",
+                "example": "The journey to the mountains takes about three hours."
+              }
+            ],
+            "phrases": [
+              "Mostly when",
+              "I rarely"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "part2": {
+    "cue": {
+      "topic": "Describe a piece of technology you find useful",
+      "bullets": [
+        "what it is",
+        "when and how you got it",
+        "how you use it",
+        "and explain why you find it so useful"
+      ],
+      "prepSeconds": 60,
+      "talkSeconds": 120
+    },
+    "model": "I'd like to talk about my smartphone, which I honestly think is the most useful piece of technology I own. I bought it about two years ago, when my old one finally stopped working, and I chose a mid-range model with a good camera. I use it every single day, mostly for messages, maps, banking and keeping track of my schedule. What I find particularly handy is the calendar, because it reminds me about meetings and deadlines, so I almost never forget anything important. I also rely on the navigation app whenever I travel, since it saves me from getting lost in unfamiliar cities. Last summer, for example, I was in a small town with no street signs in English, and the phone guided me to my hotel in minutes. Beyond that, it lets me stay in touch with my family abroad through video calls, which makes the distance feel much smaller. Another thing I appreciate is the camera, because I can record special moments and share them with relatives instantly. Of course, it can be distracting, and I sometimes spend too long scrolling, so I've started limiting my screen time. Overall, I'd say it has made my life more organised, more connected and a lot more convenient, and I can't imagine going back to life without it.",
+    "vocab": [
+      {
+        "word": "handy",
+        "band": 7,
+        "meaning": "useful and easy to use",
+        "example": "A small torch is handy during a power cut."
+      },
+      {
+        "word": "keep track of",
+        "band": 8,
+        "meaning": "stay aware of changes or progress",
+        "example": "I use a notebook to keep track of expenses."
+      },
+      {
+        "word": "unfamiliar",
+        "band": 8,
+        "meaning": "not known or recognised",
+        "example": "She felt nervous walking through unfamiliar streets alone."
+      },
+      {
+        "word": "stay in touch",
+        "band": 7,
+        "meaning": "keep communicating with someone",
+        "example": "We stay in touch by video call every Sunday."
+      },
+      {
+        "word": "screen time",
+        "band": 8,
+        "meaning": "time spent looking at a device screen",
+        "example": "Doctors advise limiting screen time before bed."
+      }
+    ],
+    "phrases": [
+      "What I find particularly handy is",
+      "I can't imagine going back to",
+      "Last summer, for example",
+      "Overall, I'd say"
+    ],
+    "structure": [
+      "Introduce the item and say what it is",
+      "Explain when and how you got it",
+      "Describe how you use it day to day",
+      "Give a specific example or short story",
+      "Explain why it is useful and add a drawback",
+      "Finish with an overall conclusion"
+    ],
+    "roundingOff": {
+      "q": "Do you think you could live without this technology?",
+      "model": "Honestly, I could survive without it, but life would be far less convenient. I'd have to carry paper maps, a camera and a diary, and keeping in touch with family would be harder. I'd probably adapt in time, though I wouldn't enjoy the adjustment.",
+      "vocab": [
+        {
+          "word": "survive",
+          "band": 7,
+          "meaning": "continue to live or exist",
+          "example": "Plants can't survive without enough water."
+        },
+        {
+          "word": "adapt",
+          "band": 8,
+          "meaning": "change to suit a new situation",
+          "example": "It took me weeks to adapt to the new schedule."
+        },
+        {
+          "word": "adjustment",
+          "band": 8,
+          "meaning": "a small change made to get used to something",
+          "example": "Moving abroad required a big adjustment for the whole family."
+        }
+      ],
+      "phrases": [
+        "Honestly",
+        "in time"
+      ]
+    }
+  },
+  "part3": {
+    "theme": "Technology and society",
+    "questions": [
+      {
+        "q": "How has technology changed the way people communicate?",
+        "model": "It's transformed it completely. People can now message anyone instantly, so friendships across countries are easier to maintain. On the other hand, face-to-face conversation has suffered, because many people prefer texting to meeting. For example, families often sit together at dinner, each staring at a screen. Personally, I think the key is balance: technology should connect us, not replace real conversation, so I try to put my phone away when friends visit.",
+        "vocab": [
+          {
+            "word": "instantly",
+            "band": 7,
+            "meaning": "immediately, with no delay",
+            "example": "The photo reached my friend instantly through the app."
+          },
+          {
+            "word": "maintain",
+            "band": 8,
+            "meaning": "keep something going in good condition",
+            "example": "It's hard to maintain friendships when you move abroad."
+          },
+          {
+            "word": "face-to-face",
+            "band": 8,
+            "meaning": "in person, with both people present",
+            "example": "Some matters are better discussed face-to-face than online."
+          }
+        ],
+        "phrases": [
+          "On the other hand",
+          "For example"
+        ]
+      },
+      {
+        "q": "Do you think people rely too much on technology?",
+        "model": "Yes, I think many of us do. We rely on phones for directions, memory and even entertainment, so basic skills like navigating or doing mental arithmetic are fading. If the battery dies or the signal drops, some people genuinely feel helpless, which shows how fragile that dependence is. Personally, I try to take a day each week without my phone, and it reminds me how calm life can be without constant notifications.",
+        "vocab": [
+          {
+            "word": "rely on",
+            "band": 7,
+            "meaning": "depend on something or someone",
+            "example": "Many students rely on translation apps for homework."
+          },
+          {
+            "word": "fade",
+            "band": 8,
+            "meaning": "gradually become weaker or disappear",
+            "example": "Handwriting skills are fading among younger generations."
+          },
+          {
+            "word": "fragile",
+            "band": 8,
+            "meaning": "easily broken or weakened",
+            "example": "The economy is fragile after the recent crisis."
+          }
+        ],
+        "phrases": [
+          "I think many of us",
+          "which shows"
+        ]
+      },
+      {
+        "q": "What are the advantages of technology in the workplace?",
+        "model": "The biggest advantage is efficiency. Tasks that once took days, like sending documents or analysing data, now take minutes. Technology also allows flexible working, so employees can work remotely. A friend of mine runs a design team across three countries, which would have been impossible decades ago. Of course, there are downsides, such as longer working hours, but overall I believe the benefits clearly outweigh the costs for most companies.",
+        "vocab": [
+          {
+            "word": "efficiency",
+            "band": 8,
+            "meaning": "working well without wasting time or effort",
+            "example": "Automation has improved efficiency in our factory."
+          },
+          {
+            "word": "remotely",
+            "band": 8,
+            "meaning": "from a distance, not in the office",
+            "example": "She manages the whole project remotely from her home."
+          },
+          {
+            "word": "analyse",
+            "band": 7,
+            "meaning": "examine something in detail",
+            "example": "Scientists analyse the results before publishing anything."
+          }
+        ],
+        "phrases": [
+          "The biggest advantage",
+          "A friend of mine"
+        ]
+      },
+      {
+        "q": "Could technology ever replace teachers in the future?",
+        "model": "I doubt it will fully replace them. Technology can deliver information and personalised practice, but teachers provide encouragement, discipline and human understanding. Students who struggle usually need someone to notice their mood. So in my view, technology will support teachers rather than replace them entirely. I remember one teacher who changed my whole attitude to maths, and no program could have done that for me.",
+        "vocab": [
+          {
+            "word": "personalised",
+            "band": 8,
+            "meaning": "made to suit one particular person",
+            "example": "The app offers personalised exercises based on your mistakes."
+          },
+          {
+            "word": "encouragement",
+            "band": 7,
+            "meaning": "support and confidence given to someone",
+            "example": "A little encouragement can change a child's attitude."
+          },
+          {
+            "word": "in my view",
+            "band": 7,
+            "meaning": "according to my opinion",
+            "example": "In my view, public transport should be cheaper."
+          }
+        ],
+        "phrases": [
+          "I doubt it",
+          "rather than"
+        ]
+      },
+      {
+        "q": "What problems might arise from the rapid growth of technology?",
+        "model": "One serious problem is privacy, because companies collect huge amounts of personal data. Another is inequality, since people without access to devices fall behind. There's also job loss as machines take over routine tasks. Governments therefore need to regulate technology carefully and invest in training. Personally, I believe young people especially need guidance, because they often share information online without thinking about the long-term consequences.",
+        "vocab": [
+          {
+            "word": "privacy",
+            "band": 7,
+            "meaning": "the right to keep personal information secret",
+            "example": "Social media users often worry about their privacy."
+          },
+          {
+            "word": "inequality",
+            "band": 8,
+            "meaning": "an unfair difference between groups of people",
+            "example": "Access to the internet can widen inequality in education."
+          },
+          {
+            "word": "regulate",
+            "band": 9,
+            "meaning": "control something using official rules",
+            "example": "Authorities plan to regulate the use of facial recognition."
+          }
+        ],
+        "phrases": [
+          "One serious problem is",
+          "Another is"
+        ]
+      }
+    ]
+  }
+}

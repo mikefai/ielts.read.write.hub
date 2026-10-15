@@ -1,0 +1,116 @@
+{
+  "sections": [
+    {
+      "title": "Buying thinking time naturally",
+      "use": "Use when you need a few seconds to organise your answer, so you sound thoughtful rather than hesitant.",
+      "items": [
+        { "phrase": "That's a really interesting question", "example": "That's a really interesting question, I don't think anyone's asked me that before." },
+        { "phrase": "Let me think about that for a second", "example": "Let me think about that for a second, because there are a couple of things that come to mind." },
+        { "phrase": "Well, to be honest with you", "example": "Well, to be honest with you, I've never given it much thought until now." },
+        { "phrase": "It's not something I've really considered before", "example": "It's not something I've really considered before, but I'd say it depends on the situation." },
+        { "phrase": "Where do I start?", "example": "Where do I start? There's so much I could say about my hometown." },
+        { "phrase": "Now that you mention it", "example": "Now that you mention it, I do spend far too much time on my phone." },
+        { "phrase": "If I had to pick one, I'd say", "example": "If I had to pick one, I'd say my grandmother was the biggest influence on me." },
+        { "phrase": "How can I put this?", "example": "How can I put this? I'm not a morning person, to put it mildly." }
+      ]
+    },
+    {
+      "title": "Giving opinions",
+      "use": "Use to state your view clearly and add nuance, from strong views to softer, more balanced ones.",
+      "items": [
+        { "phrase": "Personally, I'd say that", "example": "Personally, I'd say that online classes will never fully replace face-to-face teaching." },
+        { "phrase": "From my point of view", "example": "From my point of view, public transport should be much cheaper than it is." },
+        { "phrase": "I'm firmly of the opinion that", "example": "I'm firmly of the opinion that children should learn to cook at school." },
+        { "phrase": "As far as I'm concerned", "example": "As far as I'm concerned, a good teacher matters more than a fancy classroom." },
+        { "phrase": "I tend to think that", "example": "I tend to think that people were more sociable before smartphones came along." },
+        { "phrase": "I couldn't agree more with the idea that", "example": "I couldn't agree more with the idea that volunteering builds character." },
+        { "phrase": "I'm a bit torn on this one", "example": "I'm a bit torn on this one, because technology has helped us but also made us lazy." },
+        { "phrase": "If you ask me", "example": "If you ask me, most people underestimate how much a short walk can clear your head." }
+      ]
+    },
+    {
+      "title": "Hedging and speculating",
+      "use": "Use for Part 3 questions about the future, causes and effects, or things you can't be certain about.",
+      "items": [
+        { "phrase": "It's quite likely that", "example": "It's quite likely that more people will work from home in the coming decade." },
+        { "phrase": "I wouldn't be surprised if", "example": "I wouldn't be surprised if paper books became a luxury item one day." },
+        { "phrase": "It could well be that", "example": "It could well be that younger people value experiences more than possessions." },
+        { "phrase": "I suppose it depends on", "example": "I suppose it depends on how much support families get from the government." },
+        { "phrase": "Generally speaking", "example": "Generally speaking, people in big cities tend to be busier and less patient." },
+        { "phrase": "By and large", "example": "By and large, I think the benefits of social media outweigh the downsides." },
+        { "phrase": "I'd imagine that", "example": "I'd imagine that most teachers find marking the hardest part of the job." },
+        { "phrase": "To some extent", "example": "To some extent, technology has made us more connected, but not necessarily closer." }
+      ]
+    },
+    {
+      "title": "Comparing and contrasting",
+      "use": "Use to compare past and present, two groups of people, or two options in Part 3.",
+      "items": [
+        { "phrase": "Compared with", "example": "Compared with my parents' generation, we have far more choice about our careers." },
+        { "phrase": "Whereas", "example": "Older people often prefer calling, whereas teenagers mostly send voice messages." },
+        { "phrase": "On the one hand... on the other hand", "example": "On the one hand, cars are convenient, but on the other hand, they cause a lot of pollution." },
+        { "phrase": "The main difference is that", "example": "The main difference is that people used to stay in one job for life." },
+        { "phrase": "In contrast to", "example": "In contrast to the city, life in my village feels slow and quiet." },
+        { "phrase": "Not nearly as... as", "example": "Learning online is not nearly as engaging as sitting in a real classroom." },
+        { "phrase": "Having said that", "example": "Cycling is cheap and healthy. Having said that, it's not much fun in the rain." },
+        { "phrase": "Similarly", "example": "Similarly, many young people nowadays prefer renting to buying a home." }
+      ]
+    },
+    {
+      "title": "Describing past experiences",
+      "use": "Use to tell short, vivid stories in Part 1 and Part 2, with natural time markers and feelings.",
+      "items": [
+        { "phrase": "It was a few years back when", "example": "It was a few years back when I first moved abroad to study." },
+        { "phrase": "I'll never forget the time", "example": "I'll never forget the time my bike broke down miles from home." },
+        { "phrase": "Looking back on it", "example": "Looking back on it, that failure taught me more than any success." },
+        { "phrase": "At the time, I didn't realise that", "example": "At the time, I didn't realise that the advice would change my whole career." },
+        { "phrase": "To my surprise", "example": "To my surprise, the whole class stood up and clapped when I finished." },
+        { "phrase": "Before I knew it", "example": "Before I knew it, three hours had gone by and the sun had set." },
+        { "phrase": "It turned out that", "example": "It turned out that the stranger lived on the same street as me." },
+        { "phrase": "Ever since then", "example": "Ever since then, I've made a point of double-checking my bags before a trip." }
+      ]
+    },
+    {
+      "title": "Describing people and places",
+      "use": "Use for Part 2 cue cards about a person, a place or a building, to add detail beyond basic adjectives.",
+      "items": [
+        { "phrase": "He's the kind of person who", "example": "He's the kind of person who always remembers your birthday." },
+        { "phrase": "She has a real knack for", "example": "She has a real knack for making difficult topics feel simple." },
+        { "phrase": "What really struck me about him was", "example": "What really struck me about him was how patient he was with everyone." },
+        { "phrase": "It's tucked away in", "example": "It's tucked away in a quiet side street, so most tourists never find it." },
+        { "phrase": "The place has a laid-back atmosphere", "example": "The place has a laid-back atmosphere, so you can stay for hours without feeling rushed." },
+        { "phrase": "It's surrounded by", "example": "It's surrounded by hills, which makes the view absolutely breathtaking." },
+        { "phrase": "He comes across as", "example": "He comes across as quite strict, but he's actually very kind." },
+        { "phrase": "It's famous for", "example": "It's famous for its night market, which gets packed at weekends." }
+      ]
+    },
+    {
+      "title": "Band 7+ idioms by theme",
+      "use": "Use one or two idioms where they fit naturally. Too many sounds forced, so keep them for a clear point.",
+      "items": [
+        { "phrase": "Work and study: burn the midnight oil", "example": "Before my exams, I had to burn the midnight oil for a whole week." },
+        { "phrase": "Work and study: a piece of cake", "example": "The listening section was a piece of cake, but the reading was much harder." },
+        { "phrase": "Time: in the nick of time", "example": "We got to the station in the nick of time and just caught the last train." },
+        { "phrase": "Feelings: over the moon", "example": "I was over the moon when I found out I'd got the scholarship." },
+        { "phrase": "Money: cost an arm and a leg", "example": "Living in the city centre costs an arm and a leg these days." },
+        { "phrase": "Difficulty: a blessing in disguise", "example": "Missing that flight was a blessing in disguise, because I met my future business partner at the airport." },
+        { "phrase": "Habits: a creature of habit", "example": "I'm a creature of habit, so I have the same breakfast every single day." },
+        { "phrase": "Decisions: on the fence", "example": "I'm still on the fence about whether to study abroad or stay at home." }
+      ]
+    },
+    {
+      "title": "Linking and extending answers",
+      "use": "Use to add a reason, an example or a contrast, so your answers grow naturally beyond one sentence.",
+      "items": [
+        { "phrase": "The reason for that is", "example": "The reason for that is that I grew up near the sea." },
+        { "phrase": "For instance", "example": "For instance, my neighbour started a small food bank last year." },
+        { "phrase": "On top of that", "example": "It's cheap, and on top of that, it's much faster than driving." },
+        { "phrase": "What's more", "example": "What's more, you meet people from all sorts of backgrounds." },
+        { "phrase": "That's partly because", "example": "That's partly because I never learned to swim as a child." },
+        { "phrase": "Which is why", "example": "I can't stand crowds, which is why I avoid the shopping centre at weekends." },
+        { "phrase": "Mind you", "example": "I love the city. Mind you, I wouldn't want to live there forever." },
+        { "phrase": "Come to think of it", "example": "Come to think of it, my best memories all involve food." }
+      ]
+    }
+  ]
+}

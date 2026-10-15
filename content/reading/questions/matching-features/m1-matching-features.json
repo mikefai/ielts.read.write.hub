@@ -1,0 +1,73 @@
+{
+  "id": "m1-matching-features",
+  "type": "matching-features",
+  "passageId": "m1-p3",
+  "instructions": "Look at the following statements and the list of researchers below. Match each statement with the correct researcher. NB You may use any researcher more than once.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "Whether something is creative should be decided by its results, not by the mental state of its maker.",
+      "answer": "Professor Amara Okafor",
+      "options": ["Dr Helena Voss", "Professor Amara Okafor", "Dr Lucian Maret", "Professor Ingrid Solheim"],
+      "evidence": {
+        "paragraph": "C",
+        "quote": "creativity should be judged by what is produced rather than by what is going on inside the producer"
+      },
+      "step": 3,
+      "how": "Underline results and mental state of its maker, then scan the researcher paragraphs for a position that separates the product from the producer. Expect the original to use produced and inside the producer.",
+      "again": "Two researchers discuss inner experience, but only one says it should be left out of the judgement. Check that the position is the researcher's own and not a view she criticises."
+    },
+    {
+      "id": "q2",
+      "prompt": "The reaction of the surrounding community matters more than what the machine itself contributes.",
+      "answer": "Dr Lucian Maret",
+      "options": ["Dr Helena Voss", "Professor Amara Okafor", "Dr Lucian Maret", "Professor Ingrid Solheim"],
+      "evidence": {
+        "paragraph": "D",
+        "quote": "the machine's contribution matters less than the community's response to it"
+      },
+      "step": 3,
+      "how": "Underline surrounding community and what the machine itself contributes, then look for the researcher who shifts attention from the object to the people receiving it. Expect response in place of reaction.",
+      "again": "Several researchers mention audiences or judges in passing, but only one makes the community's response the central issue. Compare how much weight each researcher gives to the machine's own part."
+    },
+    {
+      "id": "q3",
+      "prompt": "A pleasing result can arise from a process that has no wish to communicate anything.",
+      "answer": "Dr Helena Voss",
+      "options": ["Dr Helena Voss", "Professor Amara Okafor", "Dr Lucian Maret", "Professor Ingrid Solheim"],
+      "evidence": {
+        "paragraph": "B",
+        "quote": "a system that generates verse has nothing to say"
+      },
+      "step": 4,
+      "how": "Underline pleasing result and no wish to communicate, and look for the researcher who accepts that the output may be attractive while denying that anything lies behind it. Expect an analogy from nature.",
+      "again": "The researcher concedes that the output may be moving, yet denies any purpose behind it. Check that you did not choose a researcher who is merely sceptical about whether such output counts as valuable."
+    },
+    {
+      "id": "q4",
+      "prompt": "Existing systems work well inside established styles but have not altered what a genre permits.",
+      "answer": "Professor Ingrid Solheim",
+      "options": ["Dr Helena Voss", "Professor Amara Okafor", "Dr Lucian Maret", "Professor Ingrid Solheim"],
+      "evidence": {
+        "paragraph": "E",
+        "quote": "none has yet done the third"
+      },
+      "step": 4,
+      "how": "Underline established styles and altered what a genre permits, then search for the researcher who classifies kinds of creativity. Expect rules of a style to stand for what a genre permits.",
+      "again": "This researcher grades creativity into three kinds and says which kind present systems have reached. Make sure you identified a claim about current systems rather than a general argument about intention or judgement."
+    },
+    {
+      "id": "q5",
+      "prompt": "Reluctance to credit machines may rest on bias instead of sound reasoning.",
+      "answer": "Professor Amara Okafor",
+      "options": ["Dr Helena Voss", "Professor Amara Okafor", "Dr Lucian Maret", "Professor Ingrid Solheim"],
+      "evidence": {
+        "paragraph": "C",
+        "quote": "a form of prejudice dressed up as theory"
+      },
+      "step": 4,
+      "how": "Underline reluctance to credit machines and bias, and look for a researcher who accuses opponents of something other than careful thought. Expect prejudice or a similar word in the original.",
+      "again": "The accusation concerns the demand for a hidden mental ingredient, so look for the researcher who rejects that demand. Do not confuse her with the researcher who is cautious about the same idea for different reasons."
+    }
+  ]
+}

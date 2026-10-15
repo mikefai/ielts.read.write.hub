@@ -1,0 +1,100 @@
+{
+  "id": "m2-sentence-completion",
+  "type": "sentence-completion",
+  "passageId": "m2-p1",
+  "instructions": "Complete each sentence with NO MORE THAN TWO WORDS from the passage.",
+  "wordLimit": 2,
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "Concrete is the second most ____ ____ substance on the planet, after water.",
+      "answer": "heavily consumed",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "A",
+        "quote": "second most heavily consumed substance"
+      },
+      "step": 2,
+      "how": "Scan paragraph A for the sentence ranking concrete against other substances; the gap needs an adverb followed by a participle that describes how much people use it.",
+      "again": "Check that both words come from the passage and fit the grammar after most. The trap is a single word such as used, which sounds natural but is not what the writer says and leaves a second gap unfilled."
+    },
+    {
+      "id": "q2",
+      "prompt": "Roman builders blended lime with ____ ____ gathered near the Bay of Naples.",
+      "answer": "volcanic ash",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "B",
+        "quote": "lime with volcanic ash from the Bay of Naples"
+      },
+      "step": 2,
+      "how": "Find the place name in paragraph B and read the words just before it; the gap is a noun phrase naming the material combined with lime in the Roman mixture.",
+      "again": "Make sure you have not chosen the crystals mentioned later in the same paragraph. The trap is that tobermorite is also a two-word phrase, but it forms afterwards and is not what was blended."
+    },
+    {
+      "id": "q3",
+      "prompt": "The Roman method was forgotten mainly because the ____ ____ supplying its materials broke down.",
+      "answer": "trade networks",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "C",
+        "quote": "the knowledge faded as trade networks collapsed"
+      },
+      "step": 2,
+      "how": "Look in paragraph C for the explanation of why knowledge faded, and note the noun phrase that is described as collapsing in the same clause.",
+      "again": "Test whether your answer names a system and not a group of people. The trap is the specialist workers mentioned in the next clause, who also dispersed, but the sentence frame asks about what supplied the materials."
+    },
+    {
+      "id": "q4",
+      "prompt": "Smeaton found that limestone containing clay produced a wet-setting mortar now called ____ ____.",
+      "answer": "hydraulic lime",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "D",
+        "quote": "a material now called hydraulic lime"
+      },
+      "step": 3,
+      "how": "Find the phrase in paragraph D that gives the modern name of the mortar Smeaton found; the gap follows the words naming the material.",
+      "again": "Check that you have copied the two-word name in full instead of stopping after the first word. The trap is the word lime on its own, which appears elsewhere in the passage but is incomplete here."
+    },
+    {
+      "id": "q5",
+      "prompt": "Aspdin's cement was given its name because it looked like ____ ____ once it had set.",
+      "answer": "Portland stone",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "E",
+        "quote": "it resembled Portland stone"
+      },
+      "step": 3,
+      "how": "Read paragraph E for the reason behind the product's name and find the thing it was compared with after setting; the gap is a proper noun phrase.",
+      "again": "Be careful to give the stone, not the cement. The trap is that the word Portland appears in both phrases, so copying Portland cement fits the grammar but reverses the comparison the writer makes."
+    },
+    {
+      "id": "q6",
+      "prompt": "Plain concrete resists crushing well but performs poorly under ____ ____.",
+      "answer": "tensile forces",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "F",
+        "quote": "performs poorly under tensile forces"
+      },
+      "step": 3,
+      "how": "Go to paragraph F and find the sentence contrasting strength under crushing with weakness; the gap needs the adjective and noun naming the kind of stress it cannot take.",
+      "again": "Check that you have chosen the weakness and not the strength. The trap is the word crushing, which is the thing concrete resists, so it fits the topic but contradicts the meaning of the sentence."
+    },
+    {
+      "id": "q7",
+      "prompt": "Self-healing concrete relies on ____ ____ that become active when moisture reaches a crack.",
+      "answer": "dormant bacteria",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "G",
+        "quote": "dormant bacteria that wake when water enters a crack"
+      },
+      "step": 3,
+      "how": "Find the description of self-healing concrete in paragraph G and look for what it contains; the gap needs an adjective followed by a plural noun.",
+      "again": "Confirm that your answer names the living material and not the limestone it produces. The trap is that limestone appears in the same sentence, but it is the result of the process and not what waits inside the concrete."
+    }
+  ]
+}

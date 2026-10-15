@@ -1,0 +1,81 @@
+{
+  "id": "m1-summary-completion",
+  "type": "summary-completion",
+  "passageId": "m1-p1",
+  "instructions": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+  "wordLimit": 1,
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "Beavers build dams of branches, stones and mud, creating deep ponds that shield their lodges from ____.",
+      "answer": "predators",
+      "evidence": {
+        "paragraph": "B",
+        "quote": "to protect its lodge from predators"
+      },
+      "step": 2,
+      "how": "Begin with the paragraph that explains why beavers build dams. Underline shield and lodges, and find the phrase in which the writer says what the deep water keeps the home safe from.",
+      "again": "The gap follows the word from, so look for the kind of animal that threatens a lodge. Make sure your word is plural, matching the summary, and is taken from the sentence about the pond."
+    },
+    {
+      "id": "q2",
+      "prompt": "Felled trees open up the canopy so that ____ can reach the ground, helping sedges and flowers to grow.",
+      "answer": "light",
+      "evidence": {
+        "paragraph": "B",
+        "quote": "let light reach the ground"
+      },
+      "step": 2,
+      "how": "Stay in the same paragraph and find the sentence about beavers cutting down trees. Underline canopy in the summary and look at what the writer says passes through the gaps that are left.",
+      "again": "Ask what plants on the ground need that the canopy was blocking. The word you want is the thing that reaches the ground through the gaps, and it appears just before the verb reach."
+    },
+    {
+      "id": "q3",
+      "prompt": "By slowing a stream, dams make rainwater drain away ____ instead of arriving downstream all at once.",
+      "answer": "gradually",
+      "evidence": {
+        "paragraph": "C",
+        "quote": "released gradually instead of rushing downstream within hours"
+      },
+      "step": 2,
+      "how": "Move to the paragraph on water and find the sentence that describes how a dam affects the passage of a stream. Underline all at once and look for the writer's contrasting pair of words.",
+      "again": "The summary contrasts two ways of reaching the valley. The text gives one with an adverb and the other with a verb phrase, so choose the adverb that describes the slower of the two."
+    },
+    {
+      "id": "q4",
+      "prompt": "Material settling behind the dams means that the water leaving a beaver complex is noticeably ____ than the water that went in.",
+      "answer": "clearer",
+      "evidence": {
+        "paragraph": "C",
+        "quote": "is often markedly clearer than the water entering it"
+      },
+      "step": 3,
+      "how": "Read the end of the paragraph on water, where trapped material is discussed. Underline noticeably and than in the summary, and find the comparison the writer makes between outgoing and incoming water.",
+      "again": "The word than tells you a comparative form is needed. Check that you copied the adjective with its ending exactly as it appears in the passage, since the base form would not fit the gap."
+    },
+    {
+      "id": "q5",
+      "prompt": "Still water in the ponds gives ____ a place to lay their eggs, and rotting timber attracts insects eaten by bats and birds.",
+      "answer": "amphibians",
+      "evidence": {
+        "paragraph": "D",
+        "quote": "breeding sites for amphibians, which need still water to lay their eggs"
+      },
+      "step": 2,
+      "how": "Turn to the paragraph on wildlife and find the first sentence about the ponds. Underline lay their eggs in the summary and look for the group of animals described as needing still water.",
+      "again": "The gap needs a plural noun naming a group of animals. Be careful not to choose bats, birds or fish, which are mentioned afterwards in connection with food and shelter rather than breeding."
+    },
+    {
+      "id": "q6",
+      "prompt": "Landowners worried about gnawed trees can protect valuable ones cheaply by wrapping wire ____ around the trunks.",
+      "answer": "mesh",
+      "evidence": {
+        "paragraph": "F",
+        "quote": "wire mesh around the trunks of prized trees deters gnawing at little expense"
+      },
+      "step": 3,
+      "how": "Find the paragraph that lists objections and then the remedies for them. Underline wire and trunks in the summary, and read the sentence that follows the one about controlling pond levels.",
+      "again": "The word you need comes directly after wire in the text. Check that it names a material rather than a device, and that it still makes sense when read with the phrase around the trunks."
+    }
+  ]
+}

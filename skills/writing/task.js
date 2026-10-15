@@ -1,4 +1,5 @@
 import { renderChart } from './chart.js';
+import { mockNext } from './mock.js';
 import { recordAttempt } from '../../assets/core/store.js';
 
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
@@ -21,6 +22,9 @@ try {
   if (!meta) throw new Error('Unknown task');
   const [task, roles, guides] = await Promise.all([json(`../../../content/writing/${meta.dir}/${id}.json`), json('../../../content/writing/roles.json'), json('../../../content/writing/guides.json')]);
   run(task, roles, meta, guides[task.guide]);
+  const mockId = new URLSearchParams(location.search).get('mock');
+  const next = mockId && mockNext(await json('../../../content/writing/mocks.json'), mockId, id);
+  if (next) app.insertAdjacentHTML('afterend', `<p class="mocknav"><a class="btn" href="${esc(next.href)}">${esc(next.label)}</a></p>`);
 } catch (e) {
   app.innerHTML = `<p class="card">Could not load this task (${esc(e.message)}). Serve the folder over http, e.g. <code>npx serve .</code></p>`;
 }

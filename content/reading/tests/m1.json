@@ -1,0 +1,50 @@
+{
+  "id": "m1",
+  "title": "Mock Exam 1",
+  "minutes": 60,
+  "passages": [
+    {
+      "passageId": "m1-p1",
+      "groups": [
+        {
+          "type": "tfng",
+          "setId": "m1-tfng"
+        },
+        {
+          "type": "summary-completion",
+          "setId": "m1-summary-completion"
+        }
+      ]
+    },
+    {
+      "passageId": "m1-p2",
+      "groups": [
+        {
+          "type": "matching-headings",
+          "setId": "m1-matching-headings"
+        },
+        {
+          "type": "notes-completion",
+          "setId": "m1-notes-completion"
+        }
+      ]
+    },
+    {
+      "passageId": "m1-p3",
+      "groups": [
+        {
+          "type": "ynng",
+          "setId": "m1-ynng"
+        },
+        {
+          "type": "matching-features",
+          "setId": "m1-matching-features"
+        },
+        {
+          "type": "mcq",
+          "setId": "m1-mcq"
+        }
+      ]
+    }
+  ]
+}

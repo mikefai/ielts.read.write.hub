@@ -1,0 +1,192 @@
+{
+  "id": "w1-m1",
+  "task": 1,
+  "title": "Household energy in four countries",
+  "prompt": "The bar chart shows the main source of energy used by households in four countries in 2023, and the table shows the average annual cost of household energy in each country in 2013 and 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "chart": {
+    "kind": "mixed",
+    "charts": [
+      {
+        "kind": "bar",
+        "title": "Main source of household energy, 2023",
+        "unit": "%",
+        "source": "Adapted national energy survey data",
+        "labels": [
+          "Norland",
+          "Valtia",
+          "Ostrea",
+          "Kelmar"
+        ],
+        "series": [
+          {
+            "name": "Gas",
+            "values": [
+              55,
+              28,
+              62,
+              20
+            ]
+          },
+          {
+            "name": "Electricity",
+            "values": [
+              30,
+              52,
+              24,
+              35
+            ]
+          },
+          {
+            "name": "Renewables",
+            "values": [
+              15,
+              20,
+              14,
+              45
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "table",
+        "title": "Average annual household energy cost (US$)",
+        "source": "Adapted national energy survey data",
+        "corner": "Country",
+        "columns": [
+          "2013",
+          "2023"
+        ],
+        "rows": [
+          {
+            "label": "Norland",
+            "values": [
+              1150,
+              1380
+            ]
+          },
+          {
+            "label": "Valtia",
+            "values": [
+              1420,
+              1690
+            ]
+          },
+          {
+            "label": "Ostrea",
+            "values": [
+              980,
+              1260
+            ]
+          },
+          {
+            "label": "Kelmar",
+            "values": [
+              1210,
+              1240
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "model": {
+    "paragraphs": [
+      {
+        "name": "Introduction",
+        "sentences": [
+          {
+            "role": "paraphrase",
+            "text": "The bar chart compares the main energy sources used by households in four countries in 2023, while the table shows what an average household paid for energy in 2013 and 2023.",
+            "why": "Paraphrases both visuals in one sentence and joins them with \"while\". \"Compares\", \"main energy sources\" and \"what an average household paid\" avoid copying the prompt, supporting Task Achievement and Lexical Resource without data."
+          }
+        ]
+      },
+      {
+        "name": "Overview",
+        "sentences": [
+          {
+            "role": "overview-main",
+            "text": "Overall, gas and electricity supplied most households in three of the countries, whereas Kelmar relied far more heavily on renewables.",
+            "why": "Gives the main pattern from the bar chart and a clear contrast, using \"whereas\" to separate Kelmar from the rest. It contains no figures, which is the Task Achievement requirement for an overview."
+          },
+          {
+            "role": "overview-second",
+            "text": "Energy bills rose in every country, and Valtia was the most expensive in both years.",
+            "why": "The second overview feature comes from the table, so both visuals are covered. It states a common trend and a stable rank without numbers, which supports Task Achievement and Coherence."
+          }
+        ]
+      },
+      {
+        "name": "Body 1",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "Turning first to energy sources, gas was the most common choice in two countries.",
+            "why": "Opens the paragraph by naming the visual and grouping the data by pattern. \"Turning first to\" signposts the order and supports Coherence and Cohesion before any figures appear."
+          },
+          {
+            "role": "key-figures",
+            "text": "Gas supplied 62 per cent of households in Ostrea and 55 per cent in Norland, compared with only 20 per cent in Kelmar.",
+            "why": "Reports the two highest gas figures with units and adds the lowest one as a contrast. \"Compared with only\" shows a real comparison, and selecting these three values rather than all four demonstrates Task Achievement."
+          },
+          {
+            "role": "comparison",
+            "text": "In contrast, electricity was the leading source in Valtia, at 52 per cent.",
+            "why": "Introduces the exception to the gas pattern with the linker \"in contrast\". The figure is exact and the phrase \"leading source\" is precise, so the paragraph shows range without listing every bar."
+          },
+          {
+            "role": "closing-detail",
+            "text": "Renewables were most widespread in Kelmar, where 45 per cent of households depended on them.",
+            "why": "Closes the bar chart with the standout figure and links back to the overview point about Kelmar. The relative clause \"where 45 per cent...\" adds grammatical range and accurate data."
+          }
+        ]
+      },
+      {
+        "name": "Body 2",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "The table shows that energy became more expensive in all four countries between 2013 and 2023.",
+            "why": "Moves to the second visual with a clear signpost and states the shared trend. This gives a clean break between the paragraphs and supports Coherence and Cohesion."
+          },
+          {
+            "role": "key-figures",
+            "text": "Valtia's average annual bill rose from $1,420 to $1,690, the highest figure in both years.",
+            "why": "Reports the start and end values for the most expensive country using \"rose from ... to\". The final phrase adds a ranking comparison, and all figures match the table exactly."
+          },
+          {
+            "role": "comparison",
+            "text": "Ostrea saw the sharpest increase, from $980 to $1,260, whereas Kelmar's bill barely changed, edging up from $1,210 to $1,240.",
+            "why": "Contrasts the biggest and smallest changes in one sentence using \"whereas\". Choosing these two countries rather than all four shows selection, and \"sharpest\" and \"edging up\" are precise trend words."
+          }
+        ]
+      }
+    ]
+  },
+  "guide": "task1-mixed",
+  "analysis": [
+    "The instruction is to select and report main features and make comparisons. You must cover both the bar chart and the table, but not every number: choose the highest, the lowest and the clearest contrasts.",
+    "The visuals do different jobs. The bar chart compares shares of households across countries in one year, so use comparison language. The table gives costs in two years, so use change language such as rose from ... to.",
+    "Paraphrase: \"main source of energy\" becomes leading energy type; \"households\" becomes homes; \"average annual cost\" becomes what an average household paid each year; \"shows\" becomes compares or illustrates.",
+    "Key features: gas leads in Ostrea (62%) and Norland (55%); electricity leads in Valtia (52%); renewables reach 45% in Kelmar; every bill rises, Valtia is highest, Ostrea rises most and Kelmar least.",
+    "Use one visual per body paragraph, and put a feature from each visual in the overview. Do not claim that the energy source causes the cost: the data do not prove a link between the two visuals."
+  ],
+  "plan": [
+    {
+      "paragraph": "Introduction",
+      "idea": "Paraphrase both visuals: main household energy sources in four countries in 2023 (bar chart) and average annual energy cost in 2013 and 2023 (table)."
+    },
+    {
+      "paragraph": "Overview",
+      "idea": "Gas and electricity dominate in most countries but Kelmar relies on renewables; costs rose everywhere and Valtia is the most expensive. No figures."
+    },
+    {
+      "paragraph": "Body 1",
+      "idea": "Bar chart: gas 62% Ostrea and 55% Norland versus 20% Kelmar; electricity 52% in Valtia; renewables 45% in Kelmar."
+    },
+    {
+      "paragraph": "Body 2",
+      "idea": "Table: Valtia 1,420 to 1,690 (highest); Ostrea 980 to 1,260 (sharpest rise); Kelmar 1,210 to 1,240 (barely changed)."
+    }
+  ]
+}

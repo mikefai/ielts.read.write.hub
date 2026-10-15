@@ -1,0 +1,35 @@
+{
+  "id": "m1-p2",
+  "title": "Time Zones and the Making of Modern Trade",
+  "band": 7,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Until the middle of the nineteenth century, time was a local matter. Each town set its clocks by the sun, so that noon was the moment the sun stood highest overhead, and the church or town hall clock was adjusted accordingly. Because the sun reaches its highest point later as one travels west, neighbouring communities kept slightly different times, and a traveller moving a hundred kilometres would find that the clocks no longer agreed. For most of history this caused little difficulty. Journeys were slow, news travelled at the speed of a horse or a ship, and a difference of a few minutes between two places was invisible to everyone involved."
+    },
+    {
+      "label": "B",
+      "text": "The railways changed this. A train moving at speed could cross several local times in a single morning, and timetables that listed arrivals in the time of each station became almost impossible to read. In Britain, the Great Western Railway adopted London time for all its services in 1840, and other companies soon followed, so that railway time came to be used across the country years before the law recognised it. Passengers sometimes complained that the station clock disagreed with the one in the town square. In North America the problem was greater still, since dozens of different railway times operated across the continent. In 1883 the companies agreed to divide the continent into four zones, an arrangement introduced without any instruction from government."
+    },
+    {
+      "label": "C",
+      "text": "Standardising a country was one task; standardising the world was another. In 1884 delegates from twenty-five nations met in Washington to choose a single prime meridian from which longitude, and therefore time, would be measured. They selected the line passing through Greenwich, largely because most of the world's shipping already relied on charts based upon it. Yet the conference had no power to compel anyone. France abstained and continued to use its own meridian for several decades, and some countries took until well into the twentieth century to adopt zones based on whole hours. The system that we now regard as natural was therefore assembled slowly and unevenly, through a series of separate decisions rather than one grand plan."
+    },
+    {
+      "label": "D",
+      "text": "The telegraph meanwhile altered what time meant for merchants. Before cables were laid, the price of cotton in one port might differ widely from the price in another, and a trader who learned of the gap first could profit by buying in the cheaper market and selling in the dearer. Once messages could cross an ocean in minutes, those gaps narrowed rapidly, and markets that had once operated almost independently began to move together. Merchants now needed to know not only the price but also the hour at which a distant exchange opened, because an order sent at the wrong moment might arrive when the market was closed. Accurate, agreed time had become a commercial tool in its own right."
+    },
+    {
+      "label": "E",
+      "text": "This logic is most visible in finance. The trading days in Tokyo, London and New York cover three separate segments of the twenty-four hours, with only short periods when two centres are open together. Banks learned to organise their activity around these overlaps, since it is during them that the largest deals are most easily arranged, and some firms began passing their trading positions from one office to the next as each city finished its working day. Currency traders in particular came to depend upon this relay, which allowed money to be moved and prices to be quoted almost continuously. The geography of the world's financial centres is therefore shaped as much by their hours as by their wealth or location."
+    },
+    {
+      "label": "F",
+      "text": "Manufacturing and services followed. Companies that once produced goods in a single factory now spread production across several continents, and the gaps between time zones can be turned to advantage. A software firm in California may hand an unfinished project to colleagues in India at the end of its working day and find it advanced when it returns the next morning. Customer-support centres can offer help at any hour without requiring any individual to work through the night. The arrangement is not free of cost, however. Employees who must join meetings scheduled for the convenience of colleagues on the other side of the world often report disturbed sleep, and managers must weigh the speed gained against the tiredness it creates."
+    },
+    {
+      "label": "G",
+      "text": "Time zones, finally, are not simply natural facts but political decisions. China, which spans an area that would naturally cover five zones, officially uses a single time, so that in its far west the sun may not rise until mid-morning. India keeps one zone across a country almost three thousand kilometres wide. Other governments have moved their clocks to align with a major trading partner, or abandoned seasonal changes after arguments about energy and health. Each choice affects commerce, because firms must adjust their schedules to match. The map of the world's time, in other words, reflects bargaining between states as well as the movement of the sun."
+    }
+  ]
+}

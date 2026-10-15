@@ -1,0 +1,50 @@
+{
+  "id": "m2",
+  "title": "Mock Exam 2",
+  "minutes": 60,
+  "passages": [
+    {
+      "passageId": "m2-p1",
+      "groups": [
+        {
+          "type": "matching-headings",
+          "setId": "m2-matching-headings"
+        },
+        {
+          "type": "sentence-completion",
+          "setId": "m2-sentence-completion"
+        }
+      ]
+    },
+    {
+      "passageId": "m2-p2",
+      "groups": [
+        {
+          "type": "tfng",
+          "setId": "m2-tfng"
+        },
+        {
+          "type": "matching-information",
+          "setId": "m2-matching-information"
+        }
+      ]
+    },
+    {
+      "passageId": "m2-p3",
+      "groups": [
+        {
+          "type": "mcq",
+          "setId": "m2-mcq"
+        },
+        {
+          "type": "summary-completion",
+          "setId": "m2-summary-completion"
+        },
+        {
+          "type": "short-answer",
+          "setId": "m2-short-answer"
+        }
+      ]
+    }
+  ]
+}

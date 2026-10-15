@@ -1,0 +1,123 @@
+{
+  "id": "w2-m1",
+  "task": 2,
+  "essayType": "Opinion (agree/disagree)",
+  "title": "Remote working as the norm",
+  "prompt": "In the future, working from home is expected to become the normal way of working for most office employees. To what extent do you agree or disagree?",
+  "model": {
+    "paragraphs": [
+      {
+        "name": "Introduction",
+        "sentences": [
+          {
+            "role": "background",
+            "text": "Advances in communication technology have allowed millions of employees to carry out their duties from home, and some commentators predict that this arrangement will soon replace the traditional office.",
+            "why": "Neutral background that paraphrases the topic without copying the question: \"carry out their duties from home\" restates working from home. It avoids a stance too early and earns Lexical Resource."
+          },
+          {
+            "role": "thesis",
+            "text": "I largely agree with this prediction, because remote working offers clear advantages to both employers and employees, although it will probably not suit every occupation.",
+            "why": "A committed, qualified answer to \"to what extent\": \"largely agree\" fixes the position, \"because\" previews two reasons, and the concession keeps the stance realistic. It earns Task Response."
+          },
+          {
+            "role": "outline",
+            "text": "This essay will discuss the financial and personal benefits of working remotely before considering the limits of the trend.",
+            "why": "The outline names the two reasons and the limitation in order, giving the reader a roadmap. \"Before considering\" signals structure and supports Coherence and Cohesion."
+          }
+        ]
+      },
+      {
+        "name": "Body 1",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "The main reason why remote working is likely to become standard is that it reduces costs for companies.",
+            "why": "A clear topic sentence that ranks the reason with \"main reason\" and states the single idea of the paragraph. It gives the paragraph focus and helps Coherence."
+          },
+          {
+            "role": "explanation",
+            "text": "Firms that allow staff to work from home need smaller offices, fewer utilities and less equipment, and these savings can be reinvested in training or higher salaries.",
+            "why": "Explains how the saving arises with a parallel list of three concrete items, then adds a consequence with \"can be reinvested\". Precise nouns earn Lexical Resource and development."
+          },
+          {
+            "role": "example",
+            "text": "For example, several large technology companies in Europe and North America have already closed city-centre buildings and now operate with a handful of shared meeting spaces.",
+            "why": "A specific and believable example that shows the idea already happening in practice. The present perfect \"have already closed\" links past action to the present and adds credibility."
+          },
+          {
+            "role": "effect",
+            "text": "As a result, other businesses facing rising rents are likely to follow, which will make flexible arrangements increasingly normal.",
+            "why": "States what follows from the example and links back to the claim in the question. The relative clause \"which will make\" shows range, and the hedge \"are likely to\" is sensible."
+          }
+        ]
+      },
+      {
+        "name": "Body 2",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "Remote working also benefits employees, who gain time, flexibility and a better balance between work and family life.",
+            "why": "A topic sentence for the second reason that signals addition with \"also\". The non-defining relative clause lists the benefits in advance, which prepares the reader and supports Coherence."
+          },
+          {
+            "role": "explanation",
+            "text": "Workers who no longer commute can save several hours each week, and this time may be spent on exercise, childcare or further study, which tends to improve both wellbeing and productivity.",
+            "why": "Explains the benefit step by step and ends with a result clause. The modal \"may be spent\" and \"tends to\" are careful hedges, and the long sentence shows complex grammar."
+          },
+          {
+            "role": "example",
+            "text": "A parent in a large city, for instance, can attend school events and still finish a full working day, something that would be impossible with a two-hour journey.",
+            "why": "A concrete everyday situation that makes the point easy to picture. The conditional \"would be impossible\" contrasts it with commuting, and the apposition shows grammatical range."
+          },
+          {
+            "role": "link",
+            "text": "Nevertheless, jobs that require physical presence, such as nursing or construction, cannot be done remotely, so remote working will become common rather than universal.",
+            "why": "This link concedes the limit of the argument: \"Nevertheless\" signals contrast, and the examples justify the qualified view. It answers \"to what extent\" and lifts Task Response."
+          }
+        ]
+      },
+      {
+        "name": "Conclusion",
+        "sentences": [
+          {
+            "role": "summary",
+            "text": "In conclusion, lower costs for employers and greater flexibility for employees make it highly probable that remote working will become the normal pattern for office-based work.",
+            "why": "Restates the position and both reasons in new words, such as \"highly probable\" and \"normal pattern\", without copying the introduction. A consistent stance earns Task Response."
+          },
+          {
+            "role": "judgement",
+            "text": "However, I believe that occasional face-to-face collaboration will remain valuable, so the most successful workplaces will combine home and office.",
+            "why": "A short final judgement that keeps the qualified position and adds no new argument. The idea of combining both settings rounds off the concession from the body paragraphs."
+          }
+        ]
+      }
+    ]
+  },
+  "guide": "opinion",
+  "analysis": [
+    "The command is \"To what extent do you agree or disagree?\". You must give a clear position on one statement, such as fully, mostly or partly, and keep it constant from introduction to conclusion.",
+    "The statement has three parts: this is a prediction about the future, it concerns working from home, and it refers to most office employees. Do not discuss factory or hospital work as if it were included.",
+    "Paraphrase in the introduction: \"working from home\" becomes remote working or working outside the office; \"normal way of working\" becomes the standard arrangement; \"office employees\" becomes white-collar staff.",
+    "Position: mostly agree, with a qualification. Reasons: lower costs for companies, and more time and flexibility for workers. Acknowledge that some jobs need physical presence, which limits but does not reverse your view.",
+    "The question does not ask for the history of technology or a list of every disadvantage. This is an opinion essay, so do not write a balanced discussion of both views.",
+    "Develop each reason with an explanation, a specific example and a consequence. Two well-developed reasons are worth more than four listed ones."
+  ],
+  "plan": [
+    {
+      "paragraph": "Introduction",
+      "idea": "Background on technology enabling work from home. Thesis: largely agree, because remote working benefits employers and employees, though not every job."
+    },
+    {
+      "paragraph": "Body 1",
+      "idea": "Lower costs for companies. Smaller offices and fewer utilities. Example: technology firms closing city-centre buildings. Result: other businesses follow as rents rise."
+    },
+    {
+      "paragraph": "Body 2",
+      "idea": "Benefits for employees. No commute gives time for family, exercise and study. Example: a parent in a large city. Concede that nursing and construction need presence, so remote work is common, not universal."
+    },
+    {
+      "paragraph": "Conclusion",
+      "idea": "Restate that lower costs and flexibility make remote working the likely norm for office work; the best workplaces will blend home and office."
+    }
+  ]
+}

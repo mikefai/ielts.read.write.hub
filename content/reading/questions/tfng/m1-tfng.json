@@ -1,0 +1,92 @@
+{
+  "id": "m1-tfng",
+  "type": "tfng",
+  "passageId": "m1-p1",
+  "instructions": "Do the following statements agree with the information given in the passage? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "Beavers had disappeared from England and Wales by the 1500s.",
+      "answer": "TRUE",
+      "evidence": {
+        "paragraph": "A",
+        "quote": "had been driven to extinction in England and Wales by the sixteenth century"
+      },
+      "step": 3,
+      "how": "Find the sentence in paragraph A that deals with the loss of the animal from particular countries. Underline disappeared and the date in the statement, and think about how a century can be expressed as a decade.",
+      "again": "Convert the date in the statement into a century and compare it with the one in the text. Check that both countries named in the statement are covered by the same sentence before you decide."
+    },
+    {
+      "id": "q2",
+      "prompt": "Traders valued beaver fur more highly than the secretion that was used in medicine.",
+      "answer": "NOT GIVEN",
+      "evidence": {
+        "paragraph": "A",
+        "quote": "Hunted for their dense fur and for castoreum, a secretion used in perfumery and medicine"
+      },
+      "step": 4,
+      "how": "Locate where paragraph A mentions what beavers were hunted for. Underline valued more highly in the statement, then look for any sentence that ranks the two products or gives a price for either one.",
+      "again": "Both products are named in the text, but being named together is not the same as being compared. Search the whole paragraph for a ranking of worth before settling on a verdict, and avoid supplying one from outside knowledge."
+    },
+    {
+      "id": "q3",
+      "prompt": "Since their dams are low, beavers have little effect on the landscape of a valley.",
+      "answer": "FALSE",
+      "evidence": {
+        "paragraph": "B",
+        "quote": "a series of them along a valley can transform a narrow channel into a mosaic of pools"
+      },
+      "step": 4,
+      "how": "Read the part of paragraph B that describes the size of a single dam and what follows it. Underline little effect in the statement and check how the writer links the height of one structure to the overall result.",
+      "again": "The statement draws a conclusion from the height of dams. Ask whether the writer accepts that reasoning, and look closely at what the word yet introduces in the sentence about the metre-high dam."
+    },
+    {
+      "id": "q4",
+      "prompt": "The ponds that beavers create can lessen the severity of floods in settlements downstream.",
+      "answer": "TRUE",
+      "evidence": {
+        "paragraph": "C",
+        "quote": "reducing the height of flood peaks in villages further down the valley"
+      },
+      "step": 3,
+      "how": "Look in paragraph C for the sentence about storms and water stored in ponds. Underline lessen the severity and settlements downstream, and expect both to be replaced by different words in the passage.",
+      "again": "Match flood peaks with severity of floods and villages further down the valley with settlements downstream. Reducing a peak is a reduction in severity, so the paraphrase holds throughout the statement."
+    },
+    {
+      "id": "q5",
+      "prompt": "Treating household water has become cheaper in areas where beavers have returned.",
+      "answer": "NOT GIVEN",
+      "evidence": {
+        "paragraph": "C",
+        "quote": "an effect that matters to anyone responsible for drinking supplies"
+      },
+      "step": 5,
+      "how": "Find where the passage links the movement of water through beaver ponds to drinking supplies. Underline cheaper and household in the statement, then check whether any sentence mentions a change in expense.",
+      "again": "The writer mentions the cost of treatment only as a reason why clearer water is of interest, and reports no actual saving. A plausible financial outcome that the text never states cannot be confirmed from the passage."
+    },
+    {
+      "id": "q6",
+      "prompt": "Every biologist agrees that dams cause no difficulties for fish that travel upstream.",
+      "answer": "FALSE",
+      "evidence": {
+        "paragraph": "D",
+        "quote": "some biologists note that dams may obstruct the upstream movement of migrating salmon"
+      },
+      "step": 4,
+      "how": "Read the sentence in paragraph D about fish and the effect of dams on their movement. Underline every biologist and no difficulties in the statement, and compare the strength of each claim with the text.",
+      "again": "The statement uses absolute words, so a single dissenting group is enough to undermine it. Identify who the writer says has raised a concern, then decide whether universal agreement is compatible with that."
+    },
+    {
+      "id": "q7",
+      "prompt": "Elsewhere in Europe, disputes over beavers have tended to arise mainly on land that has been drained as far as the riverbank.",
+      "answer": "TRUE",
+      "evidence": {
+        "paragraph": "F",
+        "quote": "conflict is most likely where land has been drained right to the water's edge"
+      },
+      "step": 3,
+      "how": "Find the sentence in paragraph F that refers to experience in other countries. Underline disputes and drained, and work out which words the writer uses for the situation in which trouble is expected.",
+      "again": "Match conflict with disputes and the water's edge with the riverbank. The text says most likely, which fits the statement's tended to arise mainly, so the strength of the claim is the same in both."
+    }
+  ]
+}

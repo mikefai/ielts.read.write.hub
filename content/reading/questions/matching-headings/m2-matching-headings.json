@@ -1,0 +1,146 @@
+{
+  "id": "m2-matching-headings",
+  "type": "matching-headings",
+  "passageId": "m2-p1",
+  "instructions": "The passage has seven paragraphs, A-G. Choose the correct heading for paragraphs B-G from the list of headings below. There are more headings than paragraphs, so you will not use them all. Paragraph A has been done for you as an example: its heading is 'Why a familiar material deserves a closer look'.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "Paragraph B",
+      "options": [
+        "A volcanic ingredient behind Roman durability",
+        "How knowledge of the recipe was lost",
+        "An engineer's experiments revive interest",
+        "A patented process allows mass production",
+        "Steel overcomes a basic weakness",
+        "Modern attempts to reduce harm and repair cracks",
+        "Harbour structures that outlasted their builders",
+        "Competition from steel frames and glass",
+        "Why early builders distrusted lime mortar"
+      ],
+      "answer": "A volcanic ingredient behind Roman durability",
+      "evidence": {
+        "paragraph": "B",
+        "quote": "lime with volcanic ash from the Bay of Naples"
+      },
+      "step": 3,
+      "how": "Read paragraph B's opening and middle sentences to find what the Romans added to their mixture, then choose the heading that names that main idea rather than a single example.",
+      "again": "Test the heading about harbour structures: harbours appear only as one illustration of how long the mixture kept reacting. The trap is that a vivid supporting example can look like the topic, when the paragraph is mainly about what the mixture contained and why it worked."
+    },
+    {
+      "id": "q2",
+      "prompt": "Paragraph C",
+      "options": [
+        "A volcanic ingredient behind Roman durability",
+        "How knowledge of the recipe was lost",
+        "An engineer's experiments revive interest",
+        "A patented process allows mass production",
+        "Steel overcomes a basic weakness",
+        "Modern attempts to reduce harm and repair cracks",
+        "Harbour structures that outlasted their builders",
+        "Competition from steel frames and glass",
+        "Why early builders distrusted lime mortar"
+      ],
+      "answer": "How knowledge of the recipe was lost",
+      "evidence": {
+        "paragraph": "C",
+        "quote": "the knowledge faded as trade networks collapsed"
+      },
+      "step": 3,
+      "how": "Look for the sentence in paragraph C that explains what happened after the Roman Empire ended, then check that your heading covers the explanation given for it as well.",
+      "again": "Test the heading about distrust of lime mortar: the paragraph says builders relied on mortar, not that they distrusted it. The trap is that the same material is mentioned, but the writer never describes an attitude towards it."
+    },
+    {
+      "id": "q3",
+      "prompt": "Paragraph D",
+      "options": [
+        "A volcanic ingredient behind Roman durability",
+        "How knowledge of the recipe was lost",
+        "An engineer's experiments revive interest",
+        "A patented process allows mass production",
+        "Steel overcomes a basic weakness",
+        "Modern attempts to reduce harm and repair cracks",
+        "Harbour structures that outlasted their builders",
+        "Competition from steel frames and glass",
+        "Why early builders distrusted lime mortar"
+      ],
+      "answer": "An engineer's experiments revive interest",
+      "evidence": {
+        "paragraph": "D",
+        "quote": "Smeaton experimented with different mortars"
+      },
+      "step": 3,
+      "how": "Identify the person named in paragraph D and what he did, then pick the heading that summarises the sequence of his work and its effect on later engineers.",
+      "again": "Check that your choice describes experiments and not only a finished building. The trap is that the lighthouse is mentioned first and most often, which could suggest a heading about construction rather than the testing that revived interest."
+    },
+    {
+      "id": "q4",
+      "prompt": "Paragraph E",
+      "options": [
+        "A volcanic ingredient behind Roman durability",
+        "How knowledge of the recipe was lost",
+        "An engineer's experiments revive interest",
+        "A patented process allows mass production",
+        "Steel overcomes a basic weakness",
+        "Modern attempts to reduce harm and repair cracks",
+        "Harbour structures that outlasted their builders",
+        "Competition from steel frames and glass",
+        "Why early builders distrusted lime mortar"
+      ],
+      "answer": "A patented process allows mass production",
+      "evidence": {
+        "paragraph": "E",
+        "quote": "patented a method of heating ground limestone and clay"
+      },
+      "step": 3,
+      "how": "Find the year and the legal term in paragraph E, then check what the new process allowed builders to do that they could not do before.",
+      "again": "Test the steel-frame heading, which sounds modern and industrial. The trap is that it relates to a different period; the paragraph concerns a powder made from limestone and clay, and says nothing about competing structural materials."
+    },
+    {
+      "id": "q5",
+      "prompt": "Paragraph F",
+      "options": [
+        "A volcanic ingredient behind Roman durability",
+        "How knowledge of the recipe was lost",
+        "An engineer's experiments revive interest",
+        "A patented process allows mass production",
+        "Steel overcomes a basic weakness",
+        "Modern attempts to reduce harm and repair cracks",
+        "Harbour structures that outlasted their builders",
+        "Competition from steel frames and glass",
+        "Why early builders distrusted lime mortar"
+      ],
+      "answer": "Steel overcomes a basic weakness",
+      "evidence": {
+        "paragraph": "F",
+        "quote": "performs poorly under tensile forces"
+      },
+      "step": 3,
+      "how": "Read paragraph F for the problem stated at its start, then find the remedy and decide which heading names the fix instead of the difficulty alone.",
+      "again": "Test the heading about modern repair of cracks: cracking is mentioned here only as a symptom of the weakness. The trap is that the same word appears in both paragraphs F and G, but only G discusses modern research."
+    },
+    {
+      "id": "q6",
+      "prompt": "Paragraph G",
+      "options": [
+        "A volcanic ingredient behind Roman durability",
+        "How knowledge of the recipe was lost",
+        "An engineer's experiments revive interest",
+        "A patented process allows mass production",
+        "Steel overcomes a basic weakness",
+        "Modern attempts to reduce harm and repair cracks",
+        "Harbour structures that outlasted their builders",
+        "Competition from steel frames and glass",
+        "Why early builders distrusted lime mortar"
+      ],
+      "answer": "Modern attempts to reduce harm and repair cracks",
+      "evidence": {
+        "paragraph": "G",
+        "quote": "dormant bacteria that wake when water enters a crack"
+      },
+      "step": 3,
+      "how": "Notice that paragraph G moves from a present-day problem to two responses; choose the heading that covers both the problem and the responses, not only one of them.",
+      "again": "Test the lone reference to Roman samples: it is one of two responses, so a heading about ancient durability alone would be too narrow. The trap is that paragraph B has already covered Roman concrete in more detail."
+    }
+  ]
+}

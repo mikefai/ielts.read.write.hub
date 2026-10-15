@@ -1,0 +1,35 @@
+{
+  "id": "m2-p3",
+  "title": "Cooling Cities with Tree Canopies",
+  "band": 7,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Cities have always been warmer than the countryside around them, but the gap is widening. Dark roofs, asphalt and concrete absorb sunlight during the day and release it slowly after dusk, so that a densely built district can remain several degrees hotter than a nearby park or farm long after sunset. Climatologists call this the urban heat island effect, and in some cities the difference between neighbourhoods has exceeded ten degrees. As summers become more extreme and city populations continue to grow, the consequences are no longer a matter of mere discomfort: heatwaves increase hospital admissions, strain electricity networks as air conditioners run continuously, and fall hardest on elderly residents and those who cannot afford to cool their homes."
+    },
+    {
+      "label": "B",
+      "text": "Among the many remedies proposed, planting trees has attracted unusual enthusiasm, partly because the benefits arrive by two distinct routes. The first is shade. A mature tree intercepts sunlight before it reaches pavement or wall, and surfaces beneath a dense canopy may be as much as twenty degrees cooler than those exposed to the sun. The second is evapotranspiration, the process by which a tree draws water from the soil and releases it as vapour through its leaves. Because turning liquid into vapour consumes energy, the air around the tree loses heat in much the same way that skin cools as sweat evaporates. Shade protects the ground; evaporation cools the air itself."
+    },
+    {
+      "label": "C",
+      "text": "Not every tree performs equally, however. Researchers who compared street planting in several temperate cities found that species with broad, dense crowns delivered far more cooling than slender or sparsely leaved ones, and that a closely spaced row of trees was more effective than the same number scattered singly. Size matters, too: a mature oak or plane tree may cool its surroundings as effectively as several saplings combined. Unfortunately, urban conditions are hostile to growth. Roots are confined beneath compacted soil, road salt damages foliage, and young trees are frequently vandalised or removed during repairs to underground pipes, so that many never reach the age at which they would be most useful."
+    },
+    {
+      "label": "D",
+      "text": "Where trees are planted matters as much as how many. A study of one large European city mapped canopy cover against surface temperature and discovered a stark pattern: wealthy districts with leafy avenues were markedly cooler than poorer neighbourhoods a few kilometres away, where dwellings are older and gardens scarce. Planners had long assumed that parks would serve everyone, yet a park cools only the streets within a few hundred metres of its edge. The authors concluded that cooling should be treated as an issue of equity, and that new planting ought to be directed first towards the districts that are hottest and most densely populated rather than those that are most easily improved."
+    },
+    {
+      "label": "E",
+      "text": "Trees are not a universal solution, and enthusiasts sometimes overlook their drawbacks. In humid climates, evapotranspiration adds moisture to air that is already saturated, which can make conditions feel more oppressive rather than less. Trees need water, and in regions prone to drought, irrigating a canopy may compete with household supplies. Their roots can lift pavements and disturb foundations, and falling branches in storms create genuine liabilities for municipal authorities. Some species also release volatile compounds that react with traffic pollution to form ozone, so that a poorly chosen planting scheme can occasionally worsen air quality even while it lowers temperature."
+    },
+    {
+      "label": "F",
+      "text": "Such difficulties have encouraged a more hybrid approach. Several cities now combine trees with pale, reflective paving, green roofs and shallow ponds, treating each as one component of a wider system rather than a rival. One municipality has begun to plant mixed species in each street, so that a single disease cannot strip an entire neighbourhood of its shade, as happened when a fungus devastated elms across Britain in the twentieth century. Others have replaced concrete with permeable surfaces that allow rainwater to reach roots, an inexpensive change that improves survival rates considerably. Such measures are modest, but they are quick and cheap to carry out."
+    },
+    {
+      "label": "G",
+      "text": "Ultimately, the success of urban forestry may depend less on technology than on patience and maintenance. A tree takes decades to reach its full cooling potential, whereas political terms last only a few years, and budgets for pruning and watering are easily cut. Programmes that recruit local volunteers to care for saplings have recorded survival rates well above those relying on contractors alone, suggesting that residents who feel responsible for a tree are the best guarantee of its future. If cities are to be kept liveable as the climate warms, the canopy must be regarded not as decoration but as essential infrastructure, funded and protected accordingly."
+    }
+  ]
+}

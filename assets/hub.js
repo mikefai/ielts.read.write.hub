@@ -16,7 +16,7 @@ function weakest() {
   const by = {};
   for (const a of attempts) { const s = by[a.type] ??= { s: 0, t: 0 }; s.s += a.score; s.t += a.total; }
   const [id] = Object.entries(by).sort((x, y) => x[1].s / x[1].t - y[1].s / y[1].t)[0] ?? [];
-  return TYPES.find(t => t.id === id)?.title ?? (id ? id.replace('writing-task', 'Writing Task ').replace('full-test', 'Full test') : undefined);
+  return TYPES.find(t => t.id === id)?.title ?? (id ? id.replace('writing-task', 'Writing Task ').replace('full-test', 'Full test').replace('speaking-mock', 'Speaking mock') : undefined);
 }
 
 const strip = document.getElementById('strip');
@@ -26,7 +26,7 @@ else {
   strip.innerHTML = [[streak() + ' day' + (streak() === 1 ? '' : 's'), 'Streak'], [Math.round(100 * sc / tot) + '%', 'Accuracy'], [weakest(), 'Weakest type'], [attempts.length, 'Sets done']]
     .map(([v, l]) => `<div><strong>${v}</strong><span>${l}</span></div>`).join('');
   const last = attempts.at(-1);
-  document.getElementById('continue').innerHTML = `<a class="btn" href="${last.type === 'full-test' ? `skills/reading/test/?id=${last.setId}` : last.type.startsWith('writing') ? `skills/writing/task/?id=${last.setId}` : `skills/reading/types/${last.type}/?set=${last.setId}`}">Continue where you left off &rarr;</a>`;
+  document.getElementById('continue').innerHTML = `<a class="btn" href="${last.type === 'full-test' ? `skills/reading/test/?id=${last.setId}` : last.type === 'speaking-mock' ? `skills/speaking/mock/?id=${last.setId}` : last.type.startsWith('writing') ? `skills/writing/task/?id=${last.setId}` : `skills/reading/types/${last.type}/?set=${last.setId}`}">Continue where you left off &rarr;</a>`;
 }
 
 document.getElementById('skills').innerHTML = skills.map((s, i) => {

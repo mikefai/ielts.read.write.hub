@@ -41,6 +41,20 @@ export function validateWriting(task, roles, guides) {
   return errs;
 }
 
+// tasks: id -> task object. Each mock = a mixed Task 1 (2-3 visuals) + a Task 2.
+export function validateMocks(mocks, tasks) {
+  const errs = [];
+  for (const m of mocks) for (const k of ['task1', 'task2']) {
+    const t = tasks[m[k]];
+    if (!t) { errs.push(`mock ${m.id}: missing ${k} "${m[k]}"`); continue; }
+    if (k === 'task1') {
+      if (t.chart?.kind !== 'mixed') errs.push(`mock ${m.id}: Task 1 must be a mixed chart`);
+      else if (t.chart.charts.length < 2 || t.chart.charts.length > 3) errs.push(`mock ${m.id}: Task 1 needs 2-3 visuals`);
+    }
+  }
+  return errs;
+}
+
 export const MAP_FEATURES = ['river', 'road', 'railway', 'lake', 'sea', 'beach', 'field', 'trees', 'building', 'houses', 'carpark', 'pier', 'bridge', 'label'];
 const CHART_KINDS = ['bar', 'line', 'pie', 'table', 'process', 'map', 'mixed'];
 
@@ -84,8 +98,13 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const guidesFile = join(root, 'guides.json');
   const guides = existsSync(guidesFile) ? JSON.parse(readFileSync(guidesFile, 'utf8')) : undefined;
   const errs = guides ? validateGuides(guides) : [];
-  for (const dir of ['task1', 'task2']) for (const f of readdirSync(join(root, dir)).filter(f => f.endsWith('.json')))
-    errs.push(...validateWriting(JSON.parse(readFileSync(join(root, dir, f), 'utf8')), roles, guides));
+  const tasks = {};
+  for (const dir of ['task1', 'task2']) for (const f of readdirSync(join(root, dir)).filter(f => f.endsWith('.json'))) {
+    const t = JSON.parse(readFileSync(join(root, dir, f), 'utf8'));
+    tasks[t.id] = t;
+    errs.push(...validateWriting(t, roles, guides));
+  }
+  errs.push(...validateMocks(JSON.parse(readFileSync(join(root, 'mocks.json'), 'utf8')), tasks));
   console.log(`${errs.length} errors`); errs.forEach(e => console.log(' ', e));
   process.exit(errs.length ? 1 : 0);
 }

@@ -1,0 +1,81 @@
+{
+  "id": "m2-summary-completion",
+  "type": "summary-completion",
+  "passageId": "m2-p3",
+  "instructions": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+  "wordLimit": 1,
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "Trees with broad, dense ____ were found to provide far more cooling than slender or thinly leaved species.",
+      "answer": "crowns",
+      "evidence": {
+        "paragraph": "C",
+        "quote": "species with broad, dense crowns delivered"
+      },
+      "step": 2,
+      "how": "Find the paragraph about researchers comparing street planting. Underline the words broad and dense in the summary and look for the noun that follows them in the passage.",
+      "again": "The gap needs a plural noun describing part of a tree. Check that you have not chosen a word from the next phrase, which describes the trees that performed poorly."
+    },
+    {
+      "id": "q2",
+      "prompt": "In cities, roots have little room to spread because they are confined beneath compacted ____.",
+      "answer": "soil",
+      "evidence": {
+        "paragraph": "C",
+        "quote": "Roots are confined beneath compacted soil"
+      },
+      "step": 2,
+      "how": "Stay in the same paragraph and look for the list of reasons why urban conditions are hostile to growth. Find the sentence that mentions roots and what lies above them.",
+      "again": "The word you need directly follows compacted in the passage. Make sure it is a single word and that it names the material, not the road salt mentioned in the same sentence."
+    },
+    {
+      "id": "q3",
+      "prompt": "In humid regions, trees may make the weather feel worse because they add extra ____ to air that is already saturated.",
+      "answer": "moisture",
+      "evidence": {
+        "paragraph": "E",
+        "quote": "adds moisture to air that is already saturated"
+      },
+      "step": 3,
+      "how": "Look at the paragraph listing drawbacks and find the sentence about humid climates. Underline saturated in the summary and read what is added to such air.",
+      "again": "The missing noun is the thing being added by evapotranspiration. Check that it fits grammatically after the word extra and that it is not the water mentioned in the next sentence."
+    },
+    {
+      "id": "q4",
+      "prompt": "Certain species can damage air quality, since compounds they release react with traffic pollution to form ____.",
+      "answer": "ozone",
+      "evidence": {
+        "paragraph": "E",
+        "quote": "react with traffic pollution to form ozone"
+      },
+      "step": 3,
+      "how": "Search the same paragraph for the sentence about species that release volatile compounds. Underline traffic pollution in the summary and read to the end of that clause.",
+      "again": "The gap follows the word form, so look for the product of the chemical reaction. It is a single word, and it should not be confused with the compounds themselves."
+    },
+    {
+      "id": "q5",
+      "prompt": "Planting a mixture of species in each street means that one ____ cannot remove the shade from a whole neighbourhood.",
+      "answer": "disease",
+      "evidence": {
+        "paragraph": "F",
+        "quote": "a single disease cannot strip an entire neighbourhood"
+      },
+      "step": 4,
+      "how": "Turn to the paragraph describing combined approaches and find the municipality that plants mixed species. Read for what a single cause of damage might be.",
+      "again": "The word comes right after single in the passage. Check that it names the threat rather than the fungus or the elms, which are mentioned later as an example."
+    },
+    {
+      "id": "q6",
+      "prompt": "Saplings survive best when local ____ take responsibility for looking after them.",
+      "answer": "volunteers",
+      "evidence": {
+        "paragraph": "G",
+        "quote": "recruit local volunteers to care for saplings"
+      },
+      "step": 5,
+      "how": "Look in the final paragraph for the sentence comparing survival rates between two ways of caring for young trees. Find who is recruited to do the caring.",
+      "again": "The answer is a plural noun naming a group of people. Do not choose contractors, since the passage presents them as the less successful alternative to this group."
+    }
+  ]
+}

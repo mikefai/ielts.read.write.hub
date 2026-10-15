@@ -1,0 +1,35 @@
+{
+  "id": "m2-p1",
+  "title": "The Hidden History of Concrete",
+  "band": 7,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Concrete is so familiar that it is rarely noticed. Beneath roads, inside hospitals and across dams, it forms the hidden skeleton of modern life, and it is the second most heavily consumed substance on the planet, after water. Its ubiquity is relatively recent, however. Although many people assume that concrete is a twentieth-century invention, its history stretches back more than two thousand years, and it includes spectacular successes, long periods of neglect and a handful of lucky accidents. Tracing that history helps to explain why engineers today are still learning from ancient builders, and why the future of the material may depend on rediscovering lessons that were once forgotten entirely."
+    },
+    {
+      "label": "B",
+      "text": "The Romans were the first to exploit concrete on a grand scale. Their mixture combined lime with volcanic ash from the Bay of Naples, together with fragments of brick or rock. The ash reacted chemically with the lime and water, forming a binder far tougher than ordinary mortar. Most remarkably, the reaction continued for centuries. In harbour walls, seawater seeped into tiny cracks and triggered the growth of rare crystals known as aluminous tobermorite, which reinforced the structure from within. This explains why some Roman piers still stand after two millennia of battering by waves, while modern concrete in similar conditions may begin to crumble within decades. The unreinforced dome of the Pantheon, completed in the second century, remains the largest of its kind in the world."
+    },
+    {
+      "label": "C",
+      "text": "After the fall of the western Roman Empire, the skill disappeared. Medieval masons continued to build in stone, but they relied on simple lime mortar, which set slowly and could not harden under water. No single catastrophe destroyed the recipe. Rather, the knowledge faded as trade networks collapsed, since the ash had to be transported over long distances and the specialist workers who understood it dispersed. Written descriptions survived only in fragments, and later scholars often misread them. For roughly a thousand years, builders therefore had no reliable way of constructing durable foundations in wet ground, and bridges, harbours and fortifications were far more difficult and costly to maintain than they had been in antiquity."
+    },
+    {
+      "label": "D",
+      "text": "Interest revived in the eighteenth century, when the engineer John Smeaton was asked to rebuild the Eddystone lighthouse off the coast of Cornwall. Earlier towers had been destroyed by storms, so Smeaton experimented with different mortars. He discovered that limestone containing a proportion of clay produced a mortar that hardened even when wet, a material now called hydraulic lime. Using it, together with interlocking blocks of granite, he completed a lighthouse in 1759 that survived for more than a century. His methodical testing was as important as his discovery, for it persuaded other engineers that building materials could be studied scientifically rather than chosen by tradition and habit."
+    },
+    {
+      "label": "E",
+      "text": "The next advance came in 1824, when a Leeds bricklayer named Joseph Aspdin patented a method of heating ground limestone and clay at high temperature, then grinding the result into a fine powder. He called his product Portland cement because, once set, it resembled Portland stone, a prized building stone quarried in Dorset. His process was refined by others, notably by Isaac Johnson, whose hotter kilns produced a more reliable product in the 1840s. Because the powder could be manufactured anywhere with suitable raw materials, builders no longer depended on a few volcanic deposits. Cement works multiplied across Britain and then the world, and concrete became a cheap, standardised commodity for the first time."
+    },
+    {
+      "label": "F",
+      "text": "Strong as it was, concrete had a fundamental weakness. It resists crushing superbly but performs poorly under tensile forces, so beams and floors made from it alone tend to crack when bent. The solution, developed independently by several inventors in the nineteenth century, was to embed iron or steel bars within the wet mixture. Steel is strong in tension and expands and contracts at almost the same rate as concrete, so the two materials work together as a single unit. The French gardener Joseph Monier, who first used wire mesh to strengthen flowerpots, patented reinforced tubs and beams in the 1860s. Within a generation, reinforced concrete was being used for bridges, factories and the first tall buildings."
+    },
+    {
+      "label": "G",
+      "text": "Today concrete faces a new challenge, which is its environmental cost. Cement manufacture requires temperatures near 1,450 degrees Celsius and releases carbon dioxide from the limestone itself, so the industry produces around eight per cent of global emissions. Researchers are responding in two ways. Some are studying Roman samples in the hope of copying their longevity, since a longer-lasting structure needs replacing less often. Others are developing self-healing concrete, which contains dormant bacteria that wake when water enters a crack and produce limestone to seal it. Neither approach is yet widely used, but both suggest that the oldest lessons in construction may prove to be among the most valuable."
+    }
+  ]
+}

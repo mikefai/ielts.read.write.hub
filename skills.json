@@ -2,7 +2,7 @@
   { "id": "reading", "title": "Reading", "tagline": "13 question types and a full 40-question test", "path": "skills/reading/", "status": "live", "accent": "#d9441e" },
   { "id": "listening", "title": "Listening", "tagline": "Coming soon", "path": "", "status": "soon", "accent": "#0f766e" },
   { "id": "writing", "title": "Writing", "tagline": "Build each answer sentence by sentence", "path": "skills/writing/", "status": "live", "accent": "#1d3a8a" },
-  { "id": "speaking", "title": "Speaking", "tagline": "Coming soon", "path": "", "status": "soon", "accent": "#c78a00" }
+  { "id": "speaking", "title": "Speaking", "tagline": "3 full mock interviews with vocabulary help", "path": "skills/speaking/", "status": "live", "accent": "#c78a00" }
 ]
 
 

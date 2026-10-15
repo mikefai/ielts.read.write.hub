@@ -1,0 +1,80 @@
+{
+  "id": "m2-tfng",
+  "type": "tfng",
+  "passageId": "m2-p2",
+  "instructions": "Do the following statements agree with the information given in the passage? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "The pattern of loss found in the earliest memory tests has been confirmed by later groups of volunteers.",
+      "answer": "TRUE",
+      "evidence": {
+        "paragraph": "A",
+        "quote": "Later laboratories repeated the procedure with volunteers and found the same shape"
+      },
+      "step": 3,
+      "how": "Find the early experiments in paragraph A and the later work that followed them. Underline confirmed and later groups, then compare the outcome reported for those groups with the original findings.",
+      "again": "Match later groups of volunteers with later laboratories, and pattern of loss with the shape of the curve. The writer says the result was repeated, so the statement reports the same outcome that the text gives."
+    },
+    {
+      "id": "q2",
+      "prompt": "Rats whose sleep was interrupted by a mild stimulus performed worse in the maze the next day.",
+      "answer": "TRUE",
+      "evidence": {
+        "paragraph": "B",
+        "quote": "navigated the maze less accurately the following morning"
+      },
+      "step": 3,
+      "how": "Locate the animal experiment in paragraph B and the part where the sleeping animals were disturbed. Underline interrupted, mild stimulus and performed worse, and look for their synonyms and the stated consequence.",
+      "again": "Faint electrical pulse is a paraphrase of mild stimulus, and less accurately corresponds to performed worse. The next day matches the following morning, so every element of the statement is supported."
+    },
+    {
+      "id": "q3",
+      "prompt": "The nappers in the word-pair experiment were given a rest period that lasted two hours.",
+      "answer": "FALSE",
+      "evidence": {
+        "paragraph": "C",
+        "quote": "took a ninety-minute nap in the laboratory"
+      },
+      "step": 3,
+      "how": "Find the experiment with word pairs in paragraph C and read how long the sleeping group rested. Underline the length of the rest period in the statement and compare it with the figure the writer gives.",
+      "again": "The statement gives a duration that differs from the one in the text. Ninety minutes is shorter than two hours, so the specific detail about timing cannot be accepted even though the rest of the setting is correct."
+    },
+    {
+      "id": "q4",
+      "prompt": "Participants in the photograph study were more likely to forget disturbing images than neutral ones.",
+      "answer": "FALSE",
+      "evidence": {
+        "paragraph": "D",
+        "quote": "the sleepers could still describe the unpleasant images in considerable detail"
+      },
+      "step": 4,
+      "how": "Find the photograph study in paragraph D and look at which kind of image faded and which stayed clear. Underline forget and disturbing, and check carefully which category the writer links with each outcome.",
+      "again": "The comparison between disturbing and neutral pictures is attached to the wrong result in the statement. The text says the unpleasant images remained vivid after a year while the neutral ones faded, so the order is turned round."
+    },
+    {
+      "id": "q5",
+      "prompt": "Researchers have shown that students who sleep for longer than eight hours remember more vocabulary.",
+      "answer": "NOT GIVEN",
+      "evidence": {
+        "paragraph": "E",
+        "quote": "Two nights of recovery sleep followed"
+      },
+      "step": 5,
+      "how": "Read the vocabulary trial in paragraph E and note exactly what the two groups did. Underline longer than eight hours in the statement, then check whether any hours of sleep are reported or compared in the passage.",
+      "again": "The trial compares a night without sleep with a normal night, and nothing is said about unusually long sleep. A claim about extra hours is plausible, but the text provides no information on which to judge it."
+    },
+    {
+      "id": "q6",
+      "prompt": "The noise treatment tested at the clinic in Hallowmere produced a large gain in recall among older volunteers.",
+      "answer": "FALSE",
+      "evidence": {
+        "paragraph": "F",
+        "quote": "although the improvement was modest"
+      },
+      "step": 4,
+      "how": "Find the sound treatment in paragraph F and read how the writer describes its effect on older volunteers. Underline large gain, then compare the size of the improvement with the adjective used in the text.",
+      "again": "The treatment did help, so the direction of the result is not in dispute. The disagreement is about size: the text reports a small effect, whereas the statement claims a substantial one, and that difference decides the verdict."
+    }
+  ]
+}

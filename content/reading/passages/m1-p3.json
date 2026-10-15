@@ -1,0 +1,35 @@
+{
+  "id": "m1-p3",
+  "title": "Can a Machine Be Creative?",
+  "band": 7.5,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Few words in the language are used as loosely as creative. We apply it to painters and physicists, to chefs and chess engines, and increasingly to software that composes music or drafts verse. When a program produces a melody that listeners cannot tell from a human composition, the instinctive response is to ask whether the machine has really made anything, or has merely rearranged what it was given. The question has become pressing because the answer affects who receives credit, who is paid, and what we believe human minds are for. In this essay I review three influential positions, add a fourth that I find more helpful, and then argue that the question, as usually posed, directs attention to the wrong place."
+    },
+    {
+      "label": "B",
+      "text": "Dr Helena Voss, a cognitive scientist, holds that creativity cannot be separated from intention. In her view, a person who writes a poem has something to say and chooses words in order to say it; a system that generates verse has nothing to say, and its output is shaped only by statistical patterns in the text on which it was trained. Voss concedes that the results may be pleasing, even moving, but she compares them to the delicate pattern that frost leaves on a window. We may admire the pattern, she argues, yet nobody would call the frost an artist. Her position is clear and consistent, and it captures an intuition that many readers will share."
+    },
+    {
+      "label": "C",
+      "text": "Professor Amara Okafor, a philosopher of science, rejects this reasoning entirely. She argues that creativity should be judged by what is produced rather than by what is going on inside the producer, since nobody can inspect the inner life of another person either. If a work is both new and valuable, Okafor maintains, it is creative, and demanding some hidden mental ingredient is a form of prejudice dressed up as theory. She points out that human judges have repeatedly failed to tell machine-made work from human work in blind trials. The strength of her view is that it can be tested; its weakness, as I shall suggest, is that it makes the word creative depend entirely on the tastes of whoever happens to be judging."
+    },
+    {
+      "label": "D",
+      "text": "A third perspective comes from Dr Lucian Maret, a sociologist of art, who is suspicious of both camps. Maret observes that no work becomes creative in isolation: it is recognised as such by critics, institutions and audiences who place it within a tradition. Cubism, he notes, appeared incoherent to many viewers when it first emerged, and only later came to seem inevitable. On this account the machine's contribution matters less than the community's response to it, and the real issue is how people decide to treat machine-made work. Maret therefore regards the argument about inner experience as a distraction, although he admits that his approach leaves open why some works win recognition while others, apparently similar, do not."
+    },
+    {
+      "label": "E",
+      "text": "Professor Ingrid Solheim, a computer scientist, offers a more graded account. She distinguishes three kinds of creativity: combining familiar ideas in unfamiliar ways, exploring the possibilities within an established style, and transforming the rules of a style so that previously unthinkable ideas become possible. Present-day systems, she says, are remarkably good at the second kind and occasionally manage the first, but none has yet done the third, and she doubts that any will until machines can question the conventions on which they were trained. Her scheme has the merit of replacing a yes-or-no verdict with a spectrum, although it assumes, perhaps too confidently, that the three kinds can be neatly separated."
+    },
+    {
+      "label": "F",
+      "text": "My own view is that these thinkers are each partly right, and that they are partly arguing past one another. Voss is right that intention matters to the way we value human art, but she moves too quickly from that observation to a claim about every conceivable kind of creativity. Okafor is right that outcomes count, yet a definition based purely on outcomes cannot explain why we feel differently about a forged masterpiece than about an original. Maret reminds us that value is conferred socially, which is true but incomplete. I find Solheim's distinction the most useful, because it allows us to say that machines are already creative in a limited, exploratory sense without pretending that they are creative in the way a revolutionary artist is."
+    },
+    {
+      "label": "G",
+      "text": "It follows that we should stop asking whether a machine can be creative and ask instead what kind of creativity we are looking for, and who should take responsibility for it. I suspect that, within a generation, the most interesting work will come from partnerships between people and software, in which the human contribution lies chiefly in selecting, rejecting and giving purpose. If so, the familiar worry that machines will make human imagination redundant looks misplaced. The real danger lies elsewhere: in an audience so satisfied by an endless supply of competent imitation that it stops demanding anything genuinely new."
+    }
+  ]
+}

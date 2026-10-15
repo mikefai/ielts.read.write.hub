@@ -1,0 +1,225 @@
+{
+  "id": "w1-m3",
+  "task": 1,
+  "title": "International students: numbers, destinations and fees",
+  "prompt": "The line graph shows the number of students, in millions, who studied abroad between 2000 and 2020. The bar chart shows the share of these students choosing five destination countries in 2010 and 2020, and the table shows the average annual fees in each country. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "chart": {
+    "kind": "mixed",
+    "charts": [
+      {
+        "kind": "line",
+        "title": "Students studying abroad worldwide, 2000-2020",
+        "unit": "millions",
+        "source": "Adapted international education data",
+        "labels": [
+          "2000",
+          "2005",
+          "2010",
+          "2015",
+          "2020"
+        ],
+        "series": [
+          {
+            "name": "International students",
+            "values": [
+              2.1,
+              3,
+              4.1,
+              5,
+              6.4
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "bar",
+        "title": "Share of international students by destination, 2010 and 2020",
+        "unit": "%",
+        "source": "Adapted international education data",
+        "labels": [
+          "Brinland",
+          "Aldora",
+          "Northmark",
+          "Vesta",
+          "Corvane"
+        ],
+        "series": [
+          {
+            "name": "2010",
+            "values": [
+              22,
+              14,
+              11,
+              9,
+              6
+            ]
+          },
+          {
+            "name": "2020",
+            "values": [
+              19,
+              15,
+              13,
+              8,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "table",
+        "title": "Average annual costs by destination, 2020",
+        "source": "Adapted international education data",
+        "corner": "Country",
+        "columns": [
+          "Undergraduate fees (£)",
+          "Postgraduate fees (£)",
+          "Living costs (£)"
+        ],
+        "rows": [
+          {
+            "label": "Brinland",
+            "values": [
+              21500,
+              24800,
+              11200
+            ]
+          },
+          {
+            "label": "Aldora",
+            "values": [
+              15800,
+              17500,
+              9800
+            ]
+          },
+          {
+            "label": "Northmark",
+            "values": [
+              9200,
+              11400,
+              10300
+            ]
+          },
+          {
+            "label": "Vesta",
+            "values": [
+              12600,
+              14100,
+              8900
+            ]
+          },
+          {
+            "label": "Corvane",
+            "values": [
+              6400,
+              7800,
+              7600
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "model": {
+    "paragraphs": [
+      {
+        "name": "Introduction",
+        "sentences": [
+          {
+            "role": "paraphrase",
+            "text": "The line graph illustrates how many students studied overseas between 2000 and 2020, the bar chart compares the share of these students going to five countries in 2010 and 2020, and the table gives the average yearly costs in each destination.",
+            "why": "Paraphrases all three visuals in one sentence, using \"studied overseas\", \"compares\" and \"yearly costs\" instead of the prompt's wording. It adds no data, so the introduction earns Task Achievement and Lexical Resource credit safely."
+          }
+        ]
+      },
+      {
+        "name": "Overview",
+        "sentences": [
+          {
+            "role": "overview-main",
+            "text": "Overall, the number of international students rose sharply, and the most popular destination, Brinland, was also the most expensive.",
+            "why": "Gives the main trend from the line graph and links it to a pattern across the bar chart and table, with no figures. Covering three visuals in one clear claim is what Task Achievement rewards in an overview."
+          },
+          {
+            "role": "overview-second",
+            "text": "However, some cheaper countries attracted a growing share, which suggests that price was not the only factor.",
+            "why": "Adds a contrast with \"however\" to qualify the first feature, so the overview shows more than one idea. \"Suggests\" is a cautious verb for an inference from data, which supports Lexical Resource and avoids overclaiming."
+          }
+        ]
+      },
+      {
+        "name": "Body 1",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "Turning first to the line graph, student numbers climbed throughout the period.",
+            "why": "Signposts the first visual and states its single main idea, so the reader knows what the paragraph covers. \"Turning first to\" is a natural link that supports Coherence and Cohesion without repeating the overview wording."
+          },
+          {
+            "role": "key-figures",
+            "text": "The total rose from 2.1 million in 2000 to 4.1 million in 2010, and then reached 6.4 million in 2020.",
+            "why": "Reports the start, the midpoint and the end value, which is enough to describe the trend without listing every year. Selecting three points rather than five shows the selection skill that Task Achievement requires."
+          },
+          {
+            "role": "trend-detail",
+            "text": "The fastest growth came in the final five years, when the figure increased by 1.4 million.",
+            "why": "Highlights the steepest period instead of describing each interval, and the calculated rise of 1.4 million (6.4 minus 5.0) is exact. Adding a calculated figure shows analysis, which supports both Task Achievement and Lexical Resource."
+          }
+        ]
+      },
+      {
+        "name": "Body 2",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "The bar chart and table show where these students went and what they paid.",
+            "why": "Links the two remaining visuals in one topic sentence because they describe the same five countries. Grouping them is efficient and shows the writer can connect different kinds of data, supporting Coherence and Cohesion."
+          },
+          {
+            "role": "key-figures",
+            "text": "Brinland remained the leading destination, although its share fell from 22 per cent in 2010 to 19 per cent in 2020, and it also charged the highest undergraduate fees at £21,500.",
+            "why": "Combines the bar chart and table in one sentence, using \"although\" to contrast the falling share with the high price. The figures match the data exactly, and joining two visuals shows careful selection."
+          },
+          {
+            "role": "comparison",
+            "text": "In contrast, Corvane, the cheapest country at £6,400, saw its share rise from 6 per cent to 10 per cent.",
+            "why": "Contrasts the cheapest country with the most expensive one, using \"in contrast\" and an exact fee from the table. This supports the second overview point and gives a clear comparison, the main goal of the task."
+          },
+          {
+            "role": "closing-detail",
+            "text": "Postgraduate courses cost more than undergraduate courses in every country.",
+            "why": "Ends with a general pattern from the table rather than more individual figures, which keeps the report selective. The claim is true for all five rows, so it is accurate and completes the table's coverage."
+          }
+        ]
+      }
+    ]
+  },
+  "guide": "task1-mixed",
+  "analysis": [
+    "Three visuals means you must cover all of them but still select. Do not describe every year, every country and every cost: choose the strongest trend, the leading and cheapest destinations, and one pattern from the table.",
+    "The visuals do different jobs. The line graph shows change over time in one total, the bar chart compares shares of that total in two years, and the table gives fixed costs in 2020. Use trend language for the graph, comparison language for the bars and the table.",
+    "Paraphrase: \"students who studied abroad\" becomes international students or students studying overseas; \"share\" becomes proportion; \"average annual fees\" becomes typical yearly costs.",
+    "Key features: numbers rise from 2.1 to 6.4 million, with the fastest growth in the last five years; Brinland leads but its share falls from 22 to 19 per cent while it charges the most; Corvane is cheapest and rises from 6 to 10 per cent.",
+    "Plan two bodies: the line graph in Body 1, then the bar chart and table together in Body 2, because both describe the same five countries. The overview must mention a feature from more than one visual and contain no numbers.",
+    "Avoid claiming that low fees caused the rise in a country's share. The data show a link between the two but do not prove the reason, so use cautious language such as \"suggests\"."
+  ],
+  "plan": [
+    {
+      "paragraph": "Introduction",
+      "idea": "Paraphrase all three visuals: students studying overseas 2000 to 2020 (line), share going to five countries in 2010 and 2020 (bar), average yearly costs (table)."
+    },
+    {
+      "paragraph": "Overview",
+      "idea": "Numbers rose sharply and popular destinations were mostly the expensive ones; however some cheaper countries gained share. No figures."
+    },
+    {
+      "paragraph": "Body 1",
+      "idea": "Line graph: 2.1 million in 2000, 4.1 million in 2010, 6.4 million in 2020; fastest rise of 1.4 million in the last five years."
+    },
+    {
+      "paragraph": "Body 2",
+      "idea": "Brinland leads (22 to 19 per cent) with the highest undergraduate fees (£21,500); Corvane cheapest (£6,400) with share 6 to 10 per cent; postgraduate costs more everywhere."
+    }
+  ]
+}

@@ -67,13 +67,13 @@ const mkSet = (type, n) => ({
 function mkTest() {
   const sets = {};
   const passages = STRUCT.map((gs, pi) => ({ passageId: 'p' + pi, groups: gs.map(([t, n]) => { const id = `${t}-${pi}`; sets[id] = mkSet(t, n); return { type: t, setId: id }; }) }));
-  return { test: { id: 't', minutes: 60, passages }, sets };
+  return { test: { id: 't1', minutes: 60, passages }, sets };
 }
 test('full test with the Cambridge structure passes', () => { const { test: t, sets } = mkTest(); assert.deepEqual(validateTest(t, sets), []); });
 test('wrong item count in a group is reported', () => { const { test: t, sets } = mkTest(); sets['tfng-0'].items.pop(); assert.match(validateTest(t, sets).join('|'), /needs 6 items/); });
 test('wrong group order is reported', () => { const { test: t, sets } = mkTest(); t.passages[1].groups.reverse(); assert.match(validateTest(t, sets).join('|'), /order/); });
 test('missing set is reported', () => { const { test: t, sets } = mkTest(); delete sets['mcq-2']; assert.match(validateTest(t, sets).join('|'), /missing set/); });
-test('ONE WORD ONLY groups need wordLimit 1', () => { const { test: t, sets } = mkTest(); sets['notes-completion-0'].wordLimit = 2; assert.match(validateTest(t, sets).join('|'), /ONE WORD/); });
+test('completion groups need wordLimit 1-3', () => { const { test: t, sets } = mkTest(); sets['notes-completion-0'].wordLimit = 4; assert.match(validateTest(t, sets).join('|'), /wordLimit/); });
 test('word list needs 9 distinct-use words', () => { const { test: t, sets } = mkTest(); sets['summary-wordbank-2'].items.forEach(i => i.options.pop()); assert.match(validateTest(t, sets).join('|'), /9 words/); });
 test('passage of 800 words is now too short', () =>
   assert.match(validatePassage({ id: 'p', paragraphs: 'ABCDEFG'.split('').map(l => ({ label: l, text: Array(114).fill('w').join(' ') })) }).join('|'), /words/));

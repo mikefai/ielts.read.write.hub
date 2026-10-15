@@ -103,5 +103,53 @@
     "dir": "task2",
     "title": "Advantages and disadvantages",
     "blurb": "Weigh both sides and judge."
+  },
+  {
+    "id": "w1-m1",
+    "task": 1,
+    "dir": "task1",
+    "title": "Mock 1 Task 1: Bar chart and table",
+    "blurb": "Mock exam 1, multiple visuals.",
+    "mock": "m1"
+  },
+  {
+    "id": "w2-m1",
+    "task": 2,
+    "dir": "task2",
+    "title": "Mock 1 Task 2: Opinion essay",
+    "blurb": "Mock exam 1, essay.",
+    "mock": "m1"
+  },
+  {
+    "id": "w1-m2",
+    "task": 1,
+    "dir": "task1",
+    "title": "Mock 2 Task 1: Line graph and pie charts",
+    "blurb": "Mock exam 2, multiple visuals.",
+    "mock": "m2"
+  },
+  {
+    "id": "w2-m2",
+    "task": 2,
+    "dir": "task2",
+    "title": "Mock 2 Task 2: Discussion essay",
+    "blurb": "Mock exam 2, essay.",
+    "mock": "m2"
+  },
+  {
+    "id": "w1-m3",
+    "task": 1,
+    "dir": "task1",
+    "title": "Mock 3 Task 1: Line graph, bar chart and table",
+    "blurb": "Mock exam 3, multiple visuals.",
+    "mock": "m3"
+  },
+  {
+    "id": "w2-m3",
+    "task": 2,
+    "dir": "task2",
+    "title": "Mock 3 Task 2: Problem and solution",
+    "blurb": "Mock exam 3, essay.",
+    "mock": "m3"
   }
 ]

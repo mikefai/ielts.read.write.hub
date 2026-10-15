@@ -1,0 +1,123 @@
+{
+  "id": "w2-m3",
+  "task": 2,
+  "essayType": "Problem and solution (causes and solutions)",
+  "title": "Shortage of affordable housing in cities",
+  "prompt": "In many large cities, ordinary families can no longer afford to buy or rent a decent home. What are the main causes of this shortage of affordable housing, and what measures could be taken to solve it?",
+  "model": {
+    "paragraphs": [
+      {
+        "name": "Introduction",
+        "sentences": [
+          {
+            "role": "background",
+            "text": "In cities around the world, rents and house prices have risen much faster than wages, leaving many households struggling to find suitable homes.",
+            "why": "Neutral background that paraphrases \"can no longer afford\" as \"risen much faster than wages\". The comparison with wages frames the problem precisely and avoids copying the question, supporting Lexical Resource."
+          },
+          {
+            "role": "thesis",
+            "text": "This shortage is caused mainly by limited land supply and investment buying, and I believe it can be eased by building more social housing and regulating speculation.",
+            "why": "A thesis that previews both causes and both solutions in one sentence. Pairing each solution with a cause shows a logical match, which supports Task Response and a clear position."
+          },
+          {
+            "role": "outline",
+            "text": "This essay will first explain these causes and then outline the measures that governments could realistically adopt.",
+            "why": "The outline gives the order of the essay in two steps. The word \"realistically\" signals practical solutions, and the clear roadmap supports Coherence and Cohesion."
+          }
+        ]
+      },
+      {
+        "name": "Body 1",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "The primary cause of the shortage is that the supply of new homes cannot keep pace with the number of people moving to cities.",
+            "why": "A topic sentence naming the main cause with a precise comparison: supply \"cannot keep pace\" with demand. The noun phrase \"the number of people moving\" shows range and keeps the paragraph focused on one idea."
+          },
+          {
+            "role": "explanation",
+            "text": "Land in urban centres is scarce and expensive, and strict planning rules, together with high construction costs, make developers focus on luxury apartments that offer larger profits.",
+            "why": "Explains the mechanism through three linked factors. The participle phrase \"together with high construction costs\" adds complexity, and \"larger profits\" explains why the wrong type of homes gets built."
+          },
+          {
+            "role": "example",
+            "text": "In London, for instance, a large proportion of new developments in recent years has been sold to overseas investors, who often leave the properties empty.",
+            "why": "A specific and believable example that adds a second cause, investment buying. The relative clause \"who often leave the properties empty\" shows the direct link to the shortage, supporting credible development."
+          },
+          {
+            "role": "effect",
+            "text": "As a result, prices are pushed beyond the reach of teachers, nurses and other essential workers, who are forced to live far from their jobs.",
+            "why": "The effect sentence names concrete groups affected and a consequence, which links back to the question. The passive \"are forced to live\" shows control of structure and closes the paragraph clearly."
+          }
+        ]
+      },
+      {
+        "name": "Body 2",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "The most direct solution is for governments to invest in social and affordable housing, rather than leaving supply to the private market.",
+            "why": "A topic sentence that answers the supply cause directly. The contrast \"rather than leaving supply to the private market\" shows why public action is needed, so the solution has a clear rationale."
+          },
+          {
+            "role": "explanation",
+            "text": "Publicly funded homes can be built on state-owned land and rented at fixed, below-market rates, which guarantees that lower-income families are not priced out of the city.",
+            "why": "Explains how the policy works with two features, state-owned land and fixed rents. The final relative clause states the purpose, showing the mechanism and not only the measure."
+          },
+          {
+            "role": "example",
+            "text": "Vienna, where around half of residents live in subsidised accommodation, demonstrates that such a model can keep housing affordable without lowering quality.",
+            "why": "Provides real evidence of effectiveness through a well-known city. The non-defining relative clause adds detail neatly, and \"without lowering quality\" answers an obvious objection, supporting credibility."
+          },
+          {
+            "role": "effect",
+            "text": "Governments should also tax empty properties and limit foreign speculation, so that homes are used for living in rather than as financial assets.",
+            "why": "The second solution matches the investment-buying cause from the first body paragraph. The contrast \"living in rather than financial assets\" explains the purpose and keeps the answer balanced."
+          }
+        ]
+      },
+      {
+        "name": "Conclusion",
+        "sentences": [
+          {
+            "role": "summary",
+            "text": "In conclusion, the shortage of affordable housing results from limited supply and speculative buying, and it can be addressed through public construction and stricter rules on investors.",
+            "why": "The conclusion restates both causes and both solutions in new words, such as \"results from\" and \"stricter rules on investors\". It confirms that the solutions match the causes and gives a complete answer."
+          },
+          {
+            "role": "judgement",
+            "text": "Unless governments act decisively, cities risk losing the very workers on whom their economies depend.",
+            "why": "A final judgement that states the consequence of inaction without adding new ideas. The phrase \"on whom their economies depend\" shows grammatical range and ends the essay with a clear, persuasive point."
+          }
+        ]
+      }
+    ]
+  },
+  "guide": "problem-solution",
+  "analysis": [
+    "The question words are \"what are the main causes\" and \"what measures could be taken\". Two separate answers are required, so each needs its own developed paragraph.",
+    "The problem is a shortage of affordable housing in cities. Causes must explain why homes are unaffordable or scarce, not simply describe the hardship, and measures must increase supply or lower cost.",
+    "Paraphrase in the introduction: \"can no longer afford\" becomes rents and prices have risen faster than wages; \"decent home\" becomes suitable homes; \"measures\" becomes policies or solutions.",
+    "Match each solution to a cause: limited supply leads to public housing, and investment buying leads to taxes on empty properties. This link between parts is what examiners reward at Band 7 and above.",
+    "Solutions need an agent and a mechanism: governments building on state-owned land, or taxing empty homes. \"The price should fall\" is not a solution.",
+    "The question does not ask for the history of housing or whether renting is better than buying. Keep to causes and solutions."
+  ],
+  "plan": [
+    {
+      "paragraph": "Introduction",
+      "idea": "Rents and prices have risen faster than wages. Thesis: limited land and investment buying are the main causes; social housing and regulating speculation are the main solutions."
+    },
+    {
+      "paragraph": "Body 1",
+      "idea": "Main cause: supply cannot keep pace with demand because land is costly and developers build luxury flats. Example: London sales to overseas investors. Result: essential workers priced out."
+    },
+    {
+      "paragraph": "Body 2",
+      "idea": "Solution 1: governments build social housing on state-owned land, as in Vienna. Solution 2: tax empty properties and limit foreign speculation."
+    },
+    {
+      "paragraph": "Conclusion",
+      "idea": "Shortage stems from limited supply and speculation and can be solved by public construction and investor rules; without action cities lose essential workers."
+    }
+  ]
+}

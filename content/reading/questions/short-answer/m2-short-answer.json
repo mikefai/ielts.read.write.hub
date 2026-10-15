@@ -1,0 +1,64 @@
+{
+  "id": "m2-short-answer",
+  "type": "short-answer",
+  "passageId": "m2-p3",
+  "wordLimit": 2,
+  "instructions": "Answer the questions. Write NO MORE THAN TWO WORDS from the passage for each answer.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "Which group of residents does the writer say is hit especially hard by heatwaves?",
+      "wordLimit": 2,
+      "answer": "elderly residents",
+      "evidence": {
+        "paragraph": "A",
+        "quote": "fall hardest on elderly residents"
+      },
+      "step": 2,
+      "how": "Scan the opening paragraph for the list of consequences of heatwaves. Look for the phrase describing who suffers most, which is introduced by a verb of impact.",
+      "again": "Give the group exactly as worded and stay within two words. Do not add the phrase about people unable to afford cooling, which is a separate group in the same sentence."
+    },
+    {
+      "id": "q2",
+      "prompt": "What name is given to the process by which a tree releases water vapour through its leaves?",
+      "wordLimit": 2,
+      "answer": "evapotranspiration",
+      "evidence": {
+        "paragraph": "B",
+        "quote": "The second is evapotranspiration, the process by which a tree draws water"
+      },
+      "step": 2,
+      "how": "Find the paragraph describing how trees cool the air and look for the second route. The name is introduced just before its definition, so read the sentence containing process.",
+      "again": "The term is a single long word that appears before the explanation of it. Copy it exactly as printed so that the spelling is correct and no extra words are added."
+    },
+    {
+      "id": "q3",
+      "prompt": "What did planners long assume would benefit all residents of a city?",
+      "wordLimit": 2,
+      "answer": "parks",
+      "evidence": {
+        "paragraph": "D",
+        "quote": "Planners had long assumed that parks would serve everyone"
+      },
+      "step": 3,
+      "how": "Look in the paragraph about the European study for the sentence that mentions planners. Underline what they assumed would serve everyone and note the verb that follows.",
+      "again": "The answer is a plural noun that appears directly after the word that. Check that you have not given the distance in metres, which refers to how far its cooling effect reaches.",
+      "accept": [
+        "park"
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "What does the writer say the canopy must be regarded as, if cities are to stay liveable?",
+      "wordLimit": 2,
+      "answer": "essential infrastructure",
+      "evidence": {
+        "paragraph": "G",
+        "quote": "essential infrastructure, funded and protected accordingly"
+      },
+      "step": 5,
+      "how": "Go to the closing sentence of the passage and find the contrast introduced by not as decoration but as. Note what the canopy is contrasted with, then copy the phrase that follows.",
+      "again": "Take the two words that follow but as and stop before the participles that describe how it should be treated. The answer must be no longer than two words."
+    }
+  ]
+}

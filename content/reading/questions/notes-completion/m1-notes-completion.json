@@ -1,0 +1,98 @@
+{
+  "id": "m1-notes-completion",
+  "type": "notes-completion",
+  "passageId": "m1-p2",
+  "instructions": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer.",
+  "wordLimit": 1,
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "Before standard time, each community adjusted its clocks according to the position of the ____.",
+      "answer": "sun",
+      "evidence": {
+        "paragraph": "A",
+        "quote": "Each town set its clocks by the sun"
+      },
+      "step": 2,
+      "how": "Scan the first paragraph for the sentence describing how towns kept time before standard hours. Underline the phrase about adjusting clocks and find the natural object it relies upon.",
+      "again": "Read the sentence aloud with your word in place and check that it names the thing used as a reference. Other nouns nearby describe buildings and journeys, which fit the grammar but not the meaning."
+    },
+    {
+      "id": "q2",
+      "heading": "Railway time",
+      "prompt": "In Britain, one company ran all its services on ____ time from 1840.",
+      "answer": "London",
+      "evidence": {
+        "paragraph": "B",
+        "quote": "the Great Western Railway adopted London time for all its services in 1840"
+      },
+      "step": 3,
+      "how": "Find the sentence in paragraph B naming the British railway company and its year. Underline the year in the notes, then read which time standard the text says the company chose.",
+      "again": "Check that your word completes the phrase before time and names a place. Make sure you have not chosen a word that describes the railway itself or the passengers who used it."
+    },
+    {
+      "id": "q3",
+      "prompt": "North American railway companies agreed in 1883 to divide the continent into ____ zones.",
+      "answer": "four",
+      "evidence": {
+        "paragraph": "B",
+        "quote": "agreed to divide the continent into four zones"
+      },
+      "step": 2,
+      "how": "Locate the sentence about North America near the end of paragraph B. Underline the year 1883 and look at the number given just before the word zones.",
+      "again": "The passage mentions several numbers in this paragraph, including a vague quantity of railway times. Choose the exact figure attached to the zones and not the number describing local variety."
+    },
+    {
+      "id": "q4",
+      "heading": "The 1884 conference",
+      "prompt": "One country took no part in the vote and kept its own meridian for decades: ____.",
+      "answer": "France",
+      "evidence": {
+        "paragraph": "C",
+        "quote": "France abstained and continued to use its own meridian"
+      },
+      "step": 3,
+      "how": "Look in paragraph C for the sentence about a nation that did not join the decision. Underline the words own meridian in the notes and read the subject of that sentence.",
+      "again": "Confirm that your word is a country, not the city where delegates met or the place chosen for the meridian. Both of those appear earlier in the paragraph and are easy to confuse with this one."
+    },
+    {
+      "id": "q5",
+      "heading": "The telegraph",
+      "prompt": "Once messages could cross the ocean in ____, price gaps between ports narrowed quickly.",
+      "answer": "minutes",
+      "evidence": {
+        "paragraph": "D",
+        "quote": "Once messages could cross an ocean in minutes"
+      },
+      "step": 2,
+      "how": "Find the sentence in paragraph D describing what changed once cables existed. Underline cross and ocean, then read the unit of time that comes straight after them.",
+      "again": "The paragraph mentions the hour at which exchanges open, which is a different measure. Check that your word describes how long a message took and fits grammatically after the word in."
+    },
+    {
+      "id": "q6",
+      "heading": "Finance",
+      "prompt": "Banks organised their activity around the ____ between the opening hours of different centres.",
+      "answer": "overlaps",
+      "evidence": {
+        "paragraph": "E",
+        "quote": "Banks learned to organise their activity around these overlaps"
+      },
+      "step": 3,
+      "how": "Go to paragraph E and find the sentence about how banks arranged their activity. Underline organise in the notes and read the plural noun the text uses for the periods when two centres are open.",
+      "again": "Check the number of your word, since the text uses a plural form. Avoid the singular noun used a few lines later for passing positions between offices, which describes a different idea."
+    },
+    {
+      "id": "q7",
+      "heading": "Modern working",
+      "prompt": "Staff attending meetings with distant colleagues often report disturbed ____.",
+      "answer": "sleep",
+      "evidence": {
+        "paragraph": "F",
+        "quote": "often report disturbed sleep"
+      },
+      "step": 2,
+      "how": "Find the sentence in paragraph F that describes a cost to employees. Underline disturbed in the notes and read what comes straight after it in the text.",
+      "again": "Confirm that your word names what is disturbed, not a related word such as tiredness. The text uses that second word later, but it belongs to managers weighing the speed gained."
+    }
+  ]
+}

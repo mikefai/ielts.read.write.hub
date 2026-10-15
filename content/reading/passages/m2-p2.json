@@ -1,0 +1,35 @@
+{
+  "id": "m2-p2",
+  "title": "Why We Forget: Sleep and Memory",
+  "band": 7,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Forgetting is usually regarded as a failing, yet the systematic study of it began with a modest curiosity about how quickly information fades. In the 1880s, a German experimenter taught himself lists of meaningless syllables, such as ZOF and KEB, so that prior knowledge could not assist recall, and then tested himself at intervals. His results produced the first forgetting curve: roughly half of the material vanished within an hour, and the decline then slowed markedly, leaving a small residue that lasted for weeks. Later laboratories repeated the procedure with volunteers and found the same shape, although the precise figures varied with the difficulty of the material. The curve established that forgetting is rapid, predictable and, crucially, open to influence by what happens afterwards."
+    },
+    {
+      "label": "B",
+      "text": "The most persuasive evidence that sleep influences that curve comes from animals. Dr Marisol Ekwueme, a neuroscientist at the University of Tarnbridge, trained rats to find a food reward in a maze and recorded the activity of individual cells in the hippocampus, a seahorse-shaped region associated with new memories. During slow-wave sleep, the same sequences of cells that had fired during the maze run were reactivated, but at around twenty times the speed. Animals whose replay was disrupted by a faint electrical pulse navigated the maze less accurately the following morning than those allowed to sleep undisturbed. Ekwueme interprets the replay as a rehearsal in which fragile traces are gradually transferred to the cortex, where they can be stored for the long term."
+    },
+    {
+      "label": "C",
+      "text": "Human studies have identified a second mechanism. Brief bursts of brain activity known as sleep spindles, which last barely a second, occur most often during lighter stages of the night. In one experiment, forty adults memorised two hundred pairs of unrelated words and were then divided into two groups. One group took a ninety-minute nap in the laboratory, while the other watched films for the same period. When both groups were retested, the nappers recalled about a fifth more pairs, and the volunteers with the most spindles gained the most. The researchers concluded that spindles help to lock new material into place, which may explain why a short sleep can sometimes prove as useful as additional hours of revision."
+    },
+    {
+      "label": "D",
+      "text": "Sleep does not treat all memories equally. Emotionally charged experiences appear to receive priority, a pattern that researchers associate with rapid eye movement, or REM, sleep. In a study led by Professor Tobias Lindqvist, participants viewed a series of photographs, some neutral and some distressing, and were then either allowed to sleep or kept awake through the day. A year later, the sleepers could still describe the unpleasant images in considerable detail, whereas their recall of the neutral ones had faded. Lindqvist suggests that the brain tags material linked with strong feeling as important for survival. A less welcome consequence is that people who are prone to anxiety may find that their distressing memories are the ones preserved most faithfully."
+    },
+    {
+      "label": "E",
+      "text": "If sleep protects memory, then going without it should be costly, and the evidence supports this. Students in one trial were kept awake for a whole night after learning a set of vocabulary items, while a comparison group slept normally. Two nights of recovery sleep followed, yet the sleepless students still remembered around forty per cent fewer words at the final test. This finding matters because many people assume that a weekend of lie-ins can repair damage done during a week of late nights. The results suggest otherwise: the first night after learning appears to be a critical window, and information that is not consolidated during that period may never be recovered, however much rest follows."
+    },
+    {
+      "label": "F",
+      "text": "The relationship between sleep and memory may also help to explain why recollection weakens with age. Healthy adults over the age of seventy spend far less of the night in slow-wave sleep than they did as young people, and the shortfall is correlated with poorer performance on recall tests. This has prompted interest in intervention. At a clinic in the northern city of Hallowmere, a team has been playing soft bursts of pink noise through headphones, timed to coincide with the brain's slow oscillations. In a preliminary trial, older volunteers who received the sound recalled more words the next day than they did after a night without it, although the improvement was modest."
+    },
+    {
+      "label": "G",
+      "text": "Despite these promising results, the field has serious limitations. Many experiments involve fewer than fifty participants, often university students who may not represent the wider population, and several striking findings have proved difficult to replicate. It remains unclear whether dreaming contributes to memory or merely accompanies it, and there is no consensus on how much slow-wave sleep is needed to produce a measurable benefit. The practical advice is therefore cautious rather than dramatic. Learners are encouraged to protect a full night of sleep after an intensive study session, to avoid relying on late-night cramming, and to regard any commercial device that promises to boost memory with a degree of scepticism until larger, independent trials have been published."
+    }
+  ]
+}
