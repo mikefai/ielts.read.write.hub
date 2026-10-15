@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><link rel="icon" href="data:,"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Writing study notes · IELTS Study Hub</title>
+<link rel="stylesheet" href="../../../assets/core/tokens.css"><link rel="stylesheet" href="../../../assets/core/base.css"><link rel="stylesheet" href="../../../assets/hub.css"><link rel="stylesheet" href="../../../assets/core/learn.css"></head>
+<body><div class="wrap" style="--c:#1d3a8a"><p><a class="back" href="../index.html">&larr; Writing</a></p>
+<header class="mast rise"><p class="kicker">Writing &middot; Study notes</p><h1>Learn how to <em>write it.</em></h1>
+<p>Pick a topic. Each note shows the steps, the tricks and the traps, with sentence frames and an example.</p></header>
+<main id="notes" class="rise"><p>Loading notes...</p></main></div>
+<script type="module">
+import { mountDisplayMenu } from '../../../assets/core/display.js';
+import { mountLearn } from '../../../assets/core/learn.js';
+mountDisplayMenu(document.querySelector('.wrap > p'));
+const mount = document.getElementById('notes');
+try {
+  const notes = await (await fetch('../../../content/learn/writing.json')).json();
+  mountLearn({ mount, notes, groups: [
+    { title: 'Start here', ids: ['band-criteria', 'timing-and-planning', 'grammar-fixes'] },
+    { title: 'Task 1 · Report (150+ words)', ids: ['task1-chart', 'task1-pie', 'task1-table', 'task1-map', 'task1-process', 'task1-mixed'] },
+    { title: 'Task 2 · Essay (250+ words)', ids: ['opinion', 'discussion', 'problem-solution', 'two-part', 'advantages'] }] });
+} catch (e) { mount.innerHTML = '<p class="card">Could not load the notes. Serve the folder over http, e.g. <code>npx serve .</code></p>'; }
+</script></body></html>

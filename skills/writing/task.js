@@ -1,9 +1,12 @@
+import { mountDisplayMenu } from '../../assets/core/display.js';
 import { renderChart } from './chart.js';
 import { mockNext } from './mock.js';
 import { recordAttempt } from '../../assets/core/store.js';
+import { mountLive, mountPace, mountChartTools, mountToolbox, mountDraft, loadLast, saveLast, lastDetailsHtml, lastNote } from './tools-ui.js';
 
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 const json = async u => { const r = await fetch(u); if (!r.ok) throw new Error(`Cannot load ${u}`); return r.json(); };
+const arr = v => Array.isArray(v) ? v : [];
 const words = s => s.trim() ? s.trim().split(/\s+/).length : 0;
 const mmss = s => `${s < 0 ? '+' : ''}${String(Math.floor(Math.abs(s) / 60)).padStart(2, '0')}:${String(Math.abs(s) % 60).padStart(2, '0')}`;
 const app = document.getElementById('app');
@@ -20,8 +23,8 @@ try {
   const id = new URLSearchParams(location.search).get('id');
   const meta = (await json('../../../content/writing/index.json')).find(t => t.id === id);
   if (!meta) throw new Error('Unknown task');
-  const [task, roles, guides] = await Promise.all([json(`../../../content/writing/${meta.dir}/${id}.json`), json('../../../content/writing/roles.json'), json('../../../content/writing/guides.json')]);
-  run(task, roles, meta, guides[task.guide]);
+  const [task, roles, guides, bank, dict] = await Promise.all([json(`../../../content/writing/${meta.dir}/${id}.json`), json('../../../content/writing/roles.json'), json('../../../content/writing/guides.json'), json('../../../content/writing/phrasebank.json').catch(() => null), json('../../../content/writing/paraphrase.json').catch(() => null)]);
+  run(task, roles, meta, guides[task.guide], bank, dict);
   const mockId = new URLSearchParams(location.search).get('mock');
   const next = mockId && mockNext(await json('../../../content/writing/mocks.json'), mockId, id);
   if (next) app.insertAdjacentHTML('afterend', `<p class="mocknav"><a class="btn" href="${esc(next.href)}">${esc(next.label)}</a></p>`);
@@ -41,35 +44,40 @@ function guidePanels(task, g) {
   };
 }
 
-function run(task, roles, meta, guide) {
+function run(task, roles, meta, guide, bank, dict) {
   const minutes = task.task === 1 ? 20 : 40, minWords = task.task === 1 ? 150 : 250;
-  const paras = task.model.paragraphs;
+  const paras = task.model.paragraphs, last = loadLast(task.id);
   app.innerHTML = `
     <header class="head"><div><p class="kicker">Task ${task.task} &middot; ${esc(task.essayType ?? meta.title)}</p><h1>${esc(task.title ?? meta.title)}</h1></div>
-      <span id="timer" role="timer">${mmss(minutes * 60)}</span></header>
+      <div class="timebox"><span id="timer" role="timer">${mmss(minutes * 60)}</span><p id="phase" class="phase" aria-live="polite"></p><span id="dispslot"></span></div></header>
     <div class="split">
-      <div class="left"><section class="card prompt"><h2>The task</h2><p>${esc(task.prompt)}</p>${task.chart ? `<div class="chart">${renderChart(task.chart)}</div>` : ''}</section>
+      <div class="left"><section class="card prompt"><h2>The task</h2><p>${esc(task.prompt)}</p>${task.chart ? `<div class="chart">${renderChart(task.chart)}</div><div class="kf"></div>` : ''}</section>
       ${guide ? `<section class="card guide"><h2>Understand and plan</h2>
         <div class="gtabs" role="group" aria-label="Guidance"><button type="button" data-g="analyse" aria-expanded="false">Analyse the question</button><button type="button" data-g="plan" aria-expanded="false">Plan your answer</button><button type="button" data-g="how" aria-expanded="false">How this ${task.task === 1 ? 'report' : 'essay'} works</button><button type="button" data-g="lang" aria-expanded="false">Language bank</button></div>
-        <div class="gpanel" hidden></div></section>` : ''}</div>
-      <section class="card write"><h2>Your answer</h2>
+        <div class="gpanel" hidden></div><p><a href="../learn/#${task.guide}">Full study notes for this task type &rarr;</a></p></section>` : ''}
+      <section class="card toolbox"></section></div>
+      <section class="card write"><h2>Your answer</h2><p class="notice" id="restored" hidden></p>${last ? lastDetailsHtml(last) : ''}
         <div class="tabs" role="group" aria-label="Mode"><button type="button" data-m="guided" aria-pressed="true">Guided build</button><button type="button" data-m="free" aria-pressed="false">Free write</button></div>
         <div id="guided">${paras.map((p, pi) => `<p class="pname">${esc(p.name)}</p>` + p.sentences.map((s, si) => `
           <div class="slot"><label for="s${pi}_${si}"><span class="chip">${esc(roles[s.role].label)}</span><span class="hint">${esc(roles[s.role].hint)}</span></label>
           <textarea id="s${pi}_${si}" rows="2"></textarea></div>`).join('')).join('')}</div>
         <div id="free" hidden><textarea id="freeText" rows="18" aria-label="Your answer"></textarea></div>
-        <div class="bar"><span class="wc" id="wc"></span><button class="btn" id="done" type="button">Compare with model</button></div>
+        <details class="selfcheck" open><summary>Self-check</summary><div id="selfcheck"></div></details>
+        <div class="bar"><div class="meter" id="meter"></div><button class="btn" id="done" type="button">Compare with model</button></div>
       </section></div>`;
 
   let mode = 'guided';
-  const $ = s => app.querySelector(s), wc = $('#wc');
+  const $ = s => app.querySelector(s);
   const text = () => mode === 'free' ? $('#freeText').value : [...app.querySelectorAll('#guided textarea')].map(t => t.value).join(' ');
-  const count = () => { const n = words(text()); wc.textContent = `${n} / ${minWords}+ words`; wc.className = 'wc ' + (n >= minWords ? 'ok' : 'low'); };
-  app.addEventListener('input', count); count();
+  const slots = () => [...app.querySelectorAll('#guided textarea')];
+  // guided slots grouped by paragraph (sentences joined with a space); free text split on newlines
+  const getParas = () => (mode === 'free' ? $('#freeText').value.split(/\n+/) : paras.map((p, pi) => p.sentences.map((_, si) => $(`#s${pi}_${si}`).value.trim()).filter(Boolean).join(' '))).map(t => t.trim()).filter(Boolean);
+  const live = mountLive({ meterEl: $('#meter'), checkEl: $('#selfcheck'), getParas, taskNo: task.task });
+  app.addEventListener('input', live);
   app.querySelectorAll('.tabs button').forEach(b => b.onclick = () => {
     mode = b.dataset.m;
     app.querySelectorAll('.tabs button').forEach(x => x.setAttribute('aria-pressed', x === b));
-    $('#guided').hidden = mode !== 'guided'; $('#free').hidden = mode !== 'free'; count();
+    $('#guided').hidden = mode !== 'guided'; $('#free').hidden = mode !== 'free'; live.flush();
   });
 
   if (guide) {
@@ -82,12 +90,27 @@ function run(task, roles, meta, guide) {
     app.querySelector('.gtabs button[data-g="analyse"]').click(); // open by default so the left pane is never empty
   }
 
+  mountDisplayMenu($('#dispslot'));
   const start = Date.now(); let left = minutes * 60;
-  const timerEl = $('#timer');
-  const tick = setInterval(() => { left--; timerEl.textContent = mmss(left); timerEl.classList.toggle('late', left <= 0); }, 1000);
+  const timerEl = $('#timer'), phase = mountPace($('#phase'), guide?.timing);
+  phase(0);
+  const tick = setInterval(() => { left--; timerEl.textContent = mmss(left); timerEl.classList.toggle('late', left <= 0); phase(minutes * 60 - left); }, 1000);
+
+  if (task.chart) mountChartTools({ chartEl: $('.chart'), featuresEl: $('.kf'), id: task.id });
+  let lastTa = null;
+  $('.write').addEventListener('focusin', e => { if (e.target.matches('textarea')) lastTa = e.target; });
+  mountToolbox({ el: $('.toolbox'), promptEl: $('.prompt'), taskNo: task.task, bank, dict,
+    getTarget: () => lastTa && !lastTa.closest('[hidden]') ? { ta: lastTa } : { ta: mode === 'free' ? $('#freeText') : slots()[0], append: true } });
+  const draft = mountDraft({ app, id: task.id, noticeEl: $('#restored'),
+    read: () => ({ mode, slots: slots().map(t => t.value), free: $('#freeText').value }),
+    write: d => { slots().forEach((t, i) => t.value = String(arr(d.slots)[i] ?? '')); $('#freeText').value = String(d.free ?? ''); if (d.mode === 'free') app.querySelector('.tabs button[data-m="free"]').click(); live.flush(); },
+    onDiscard: () => { slots().forEach(t => t.value = ''); $('#freeText').value = ''; live.flush(); } });
 
   $('#done').onclick = () => {
-    clearInterval(tick);
+    clearInterval(tick); live.cancel(); draft.stop();
+    const paraList = getParas(), nowWords = paraList.join(' ').split(/\s+/).filter(Boolean).length;
+    const lastLine = lastNote(last, nowWords);
+    saveLast(task.id, { at: Date.now(), words: nowWords, paragraphs: paraList });
     const mine = mode === 'free'
       ? $('#freeText').value.split(/\n+/).filter(Boolean).map(t => `<p>${esc(t)}</p>`).join('')
       : paras.map((p, pi) => `<p class="pname">${esc(p.name)}</p>` + p.sentences.map((_, si) => $(`#s${pi}_${si}`).value).filter(Boolean).map(t => `<p>${esc(t)}</p>`).join('')).join('');
@@ -95,6 +118,7 @@ function run(task, roles, meta, guide) {
     const checks = CHECKS(task.task === 1 ? 'Task Achievement' : 'Task Response').map(([h, items]) =>
       `<fieldset><legend>${h}</legend>${items.map(i => `<label><input type="checkbox"> ${i}</label>`).join('')}</fieldset>`).join('');
     app.innerHTML = `<header class="head"><div><p class="kicker">Review</p><h1>${esc(task.title ?? meta.title)}</h1></div><span class="wc">${words(text())} words</span></header>
+      ${lastLine ? `<p class="lastnote">${esc(lastLine)}</p>` : ''}
       <div class="res"><section class="card"><h2>Your answer</h2>${mine || '<p class="muted">(nothing written)</p>'}</section>
         <section class="card"><h2>Model answer, sentence by sentence</h2><p><button class="btn ghost" id="whyAll" type="button">Show all explanations</button></p>${model}</section></div>
       ${guide ? `<section class="card check"><h2>Check yourself against these</h2><h3>Common mistakes</h3>${list(guide.pitfalls)}<h3>What lifts an answer to Band 8+</h3>${list(guide.band8)}</section>` : ''}
