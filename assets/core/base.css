@@ -5,11 +5,11 @@ body { margin: 0; color: var(--ink); font: 17px/1.6 var(--sans); background-colo
 a { color: inherit; }
 :focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
 .wrap { max-width: none; margin: 0 auto; padding: 28px clamp(16px, 3vw, 72px) 80px; } /* fluid: centred, grows outward with the window */
-.back { font-weight: 700; text-decoration: none; letter-spacing: .02em; } .back:hover { color: var(--accent); }
+.back { font-weight: 700; text-decoration: none; letter-spacing: .02em; } .back:hover { color: var(--accent-ink); }
 .card { background: var(--paper); border: 1px solid var(--line); border-radius: var(--r); padding: 22px; box-shadow: var(--shadow); }
 .btn { font: 700 1rem var(--sans); background: var(--ink); color: var(--paper); border: 2px solid var(--ink); border-radius: 999px; padding: 11px 24px; cursor: pointer; text-decoration: none; display: inline-block; transition: transform .15s, background .15s, color .15s; }
-.btn:hover { background: var(--accent); border-color: var(--accent); transform: translateY(-2px); }
-.btn.ghost { background: transparent; color: var(--ink); } .btn.ghost:hover { color: var(--paper); }
+.btn:hover { background: var(--accent); border-color: var(--accent); color: var(--on-accent-soft); transform: translateY(-2px); }
+.btn.ghost { background: transparent; color: var(--ink); } .btn.ghost:hover { color: var(--on-accent-soft); }
 .muted { color: var(--muted); }
 mark { background: linear-gradient(transparent 12%, var(--mark) 12%); color: inherit; padding: 0 2px; }
 @keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }

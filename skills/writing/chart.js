@@ -56,7 +56,7 @@ function line(c) {
   c.series.forEach((s, k) => {
     const col = PAL[k % PAL.length];
     g += `<polyline points="${s.values.map((v, i) => `${x(i)},${y(v)}`).join(' ')}" fill="none" stroke="${col}" stroke-width="2.6" ${k > 1 ? 'stroke-dasharray="7 4"' : ''}/>`;
-    s.values.forEach((v, i) => g += `<circle cx="${x(i)}" cy="${y(v)}" r="3.6" fill="${col}"/>` + (c.dataLabels ? `<text x="${x(i)}" y="${y(v) - 8}" text-anchor="middle" font-size="10.5" fill="#222">${fmt(v)}</text>` : ''));
+    s.values.forEach((v, i) => g += `<circle class="pt" cx="${x(i)}" cy="${y(v)}" r="3.6" fill="${col}"/>` + (c.dataLabels ? `<text x="${x(i)}" y="${y(v) - 8}" text-anchor="middle" font-size="10.5" fill="#222">${fmt(v)}</text>` : ''));
   });
   return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(c.title ?? 'Line graph')}">${g}</svg>${legend(c.series.map(s => s.name))}`;
 }

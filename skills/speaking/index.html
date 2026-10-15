@@ -8,6 +8,8 @@
 <h2 class="section-title">Mock interviews</h2><ol id="mocks" class="toc rise"></ol>
 <h2 class="section-title">Language bank</h2><div id="bank" class="bank"></div></div>
 <script type="module">
+import { mountDisplayMenu } from '../../assets/core/display.js';
+mountDisplayMenu(document.querySelector('.wrap > p'));
 const json = async u => { const r = await fetch(u); if (!r.ok) throw new Error(u); return r.json(); };
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 try {

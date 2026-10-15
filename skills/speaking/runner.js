@@ -1,9 +1,11 @@
+import { mountDisplayMenu } from '../../assets/core/display.js';
 import { buildSteps } from './plan.js';
 import { recordAttempt } from '../../assets/core/store.js';
 
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 const mmss = s => `${s < 0 ? '+' : ''}${String(Math.floor(Math.abs(s) / 60)).padStart(2, '0')}:${String(Math.abs(s) % 60).padStart(2, '0')}`;
 const app = document.getElementById('app');
+mountDisplayMenu(document.querySelector('.wrap > p'));
 const CRITERIA = [
   ['Fluency and Coherence', ['I kept talking without long pauses', 'I linked my ideas clearly']],
   ['Lexical Resource', ['I used some less common vocabulary naturally', 'I paraphrased when I forgot a word']],

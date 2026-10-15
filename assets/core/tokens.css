@@ -6,3 +6,22 @@
   --r: 14px; --shadow: 0 1px 0 #fff inset, 0 10px 30px -14px rgba(20, 33, 61, .35);
   color-scheme: light;
 }
+/* Surfaces and on-accent text. Light values equal the old hard-coded colours; the dark theme redefines them. */
+:root {
+  --surface: #fff8; --surface-2: #fff9; --surface-3: #fff6; --surface-solid: #fff;
+  --on-accent: #fff; --on-accent-soft: #fbf8f1; --accent-ink: var(--accent);
+  --note: #3b6fd1; --note-on: #fff; --uiscale: 1;
+}
+/* Dark palette: deep navy ink-wash background, warm paper text. --accent is left to each page so type accents stay recognisable;
+   text that uses the accent goes through --accent-ink, which is lightened here. Body/muted/line-on-paper contrast is >= 4.5:1. */
+:root[data-theme="dark"] {
+  --bg: #0e1424; --paper: #172036; --ink: #efe8d8; --muted: #a9b0c4; --line: #3a4562;
+  --ok: #4cc38a; --bad: #ff8478; --mark: #7a6414;
+  --shadow: 0 1px 0 #ffffff14 inset, 0 10px 30px -14px rgba(0, 0, 0, .75);
+  --surface: #ffffff0d; --surface-2: #ffffff12; --surface-3: #ffffff0a; --surface-solid: #202c4a;
+  --on-accent-soft: #fff;
+  --accent-ink: color-mix(in srgb, var(--accent) 50%, #fff);
+  --hl-yellow: #ffd84d; --note: #8ab4ff; --note-on: #0e1424; --ul: var(--accent-ink);
+  --ev: #4cc38a; --ev-bg: rgb(76 195 138 / .22); --ruler: rgb(255 216 77 / .2);
+  color-scheme: dark;
+}

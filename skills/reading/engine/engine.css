@@ -1,6 +1,6 @@
 :root { --head: radial-gradient(circle at 1px 1px, rgb(255 255 255 / .35) 1.6px, transparent 1.7px) 0 0 / 14px 14px; }
 .bar { display: flex; gap: 16px; align-items: center; justify-content: space-between; flex-wrap: wrap; margin: 6px 0 10px; padding: 12px 22px; border-radius: var(--r);
-  background: var(--head), var(--accent); color: #fff; border: 2px solid var(--ink); box-shadow: 6px 6px 0 var(--ink); }
+  background: var(--head), var(--accent); color: var(--on-accent); border: 2px solid var(--ink); box-shadow: 6px 6px 0 var(--ink); }
 .bar h1 { margin: 0; font: 400 clamp(1.3rem, 3vw, 1.8rem)/1.1 var(--display); }
 #timer { font: 700 1.5rem/1 ui-monospace, "Cascadia Mono", monospace; background: var(--paper); color: var(--ink); padding: 8px 16px; border-radius: 999px; border: 2px solid var(--ink); }
 .bar .btn { background: var(--paper); color: var(--ink); border-color: var(--ink); } .bar .btn:hover { background: var(--ink); color: var(--paper); }
@@ -16,39 +16,39 @@
 .q { border: 0; padding: 0 0 0 44px; margin: 0 0 22px; position: relative; counter-increment: q; }
 .q::before { content: counter(q); position: absolute; left: 0; top: 0; width: 32px; height: 32px; border-radius: 50%; border: 2px solid var(--ink); display: grid; place-items: center; font: 700 .9rem var(--sans); background: var(--paper); }
 .q legend { padding: 0; font-weight: 700; margin-bottom: 8px; } .q > p { margin: 0 0 8px; font-weight: 500; }
-.opt { display: block; padding: 9px 14px; margin: 5px 0; border: 2px solid var(--line); border-radius: 10px; cursor: pointer; background: #fff8; transition: border-color .12s, background .12s; }
+.opt { display: block; padding: 9px 14px; margin: 5px 0; border: 2px solid var(--line); border-radius: 10px; cursor: pointer; background: var(--surface); transition: border-color .12s, background .12s; }
 .opt:hover { border-color: var(--ink); } .opt:has(input:checked) { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, var(--paper)); font-weight: 700; }
 .opt input { accent-color: var(--accent); margin-right: 6px; }
-input.gap, select { font: 500 1rem var(--sans); padding: 8px 12px; border: 0; border-bottom: 3px solid var(--ink); border-radius: 6px 6px 0 0; background: #fff9; color: var(--ink); min-width: 150px; max-width: 100%; }
-input.gap:focus, select:focus { border-bottom-color: var(--accent); outline: none; background: #fff; }
+input.gap, select { font: 500 calc(1rem * var(--uiscale, 1)) var(--sans); padding: 8px 12px; border: 0; border-bottom: 3px solid var(--ink); border-radius: 6px 6px 0 0; background: var(--surface-2); color: var(--ink); min-width: 150px; max-width: 100%; }
+input.gap:focus, select:focus { border-bottom-color: var(--accent); outline: none; background: var(--surface-solid); }
 .counter { font: 700 .75rem var(--sans); letter-spacing: .06em; } .counter.over { color: var(--bad); }
 .flow { display: flex; flex-direction: column; gap: 2px; }
-.flow .box { border: 2px solid var(--ink); border-radius: 12px; padding: 14px 16px; background: #fff9; box-shadow: 4px 4px 0 var(--accent); }
-.flow .arrow { text-align: center; color: var(--accent); font-size: 1.5rem; line-height: 1; padding: 4px 0; }
+.flow .box { border: 2px solid var(--ink); border-radius: 12px; padding: 14px 16px; background: var(--surface-2); box-shadow: 4px 4px 0 var(--accent); }
+.flow .arrow { text-align: center; color: var(--accent-ink); font-size: 1.5rem; line-height: 1; padding: 4px 0; }
 .pool { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; padding: 8px 0 12px; border-bottom: 1px dashed var(--line); }
 .pool .muted { width: 100%; margin: 0 0 4px; font-size: .88rem; }
 .chip { border: 2px solid var(--ink); border-radius: 999px; padding: 5px 14px; cursor: grab; font-size: .92rem; font-weight: 500; background: var(--paper); box-shadow: 2px 2px 0 var(--ink); }
 .chip:active { cursor: grabbing; } .chip.used { opacity: .35; text-decoration: line-through; box-shadow: none; }
-.rev { border-left: 6px solid var(--line); padding: 6px 14px; margin: 14px 0; background: #fff6; border-radius: 0 10px 10px 0; } .rev.ok { border-color: var(--ok); } .rev.bad { border-color: var(--bad); } .rev p { margin: 4px 0; }
-.sheet h2 { font: 400 2.6rem/1 var(--display); margin: 0 0 8px; color: var(--accent); }
+.rev { border-left: 6px solid var(--line); padding: 6px 14px; margin: 14px 0; background: var(--surface-3); border-radius: 0 10px 10px 0; } .rev.ok { border-color: var(--ok); } .rev.bad { border-color: var(--bad); } .rev p { margin: 4px 0; }
+.sheet h2 { font: 400 2.6rem/1 var(--display); margin: 0 0 8px; color: var(--accent-ink); }
 @media (max-width: 700px) { .passage { padding: 22px 18px 22px 46px; max-height: none; } .sheet { position: static; } }
 .help { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
 .help .btn { padding: 4px 14px; font-size: .82rem; }
 .help .btn[aria-expanded="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
-.hp { flex-basis: 100%; margin: 2px 0 0; padding: 10px 14px; background: #fff9; border-left: 4px solid var(--accent); border-radius: 0 8px 8px 0; font-size: .95rem; line-height: 1.55; }
+.hp { flex-basis: 100%; margin: 2px 0 0; padding: 10px 14px; background: var(--surface-2); border-left: 4px solid var(--accent); border-radius: 0 8px 8px 0; font-size: .95rem; line-height: 1.55; }
 .hp[hidden] { display: none; }
 .ptabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 0 0 16px; }
 .ptabs button { font: 700 .95rem var(--sans); padding: 8px 18px; border-radius: 999px; border: 2px solid var(--ink); background: transparent; color: var(--ink); cursor: pointer; }
 .ptabs button small { font-weight: 500; opacity: .7; margin-left: 4px; }
 .ptabs button[aria-selected="true"] { background: var(--ink); color: var(--paper); }
-.group { margin: 0 0 30px; } .group h3 { font: 400 1.35rem var(--display); margin: 0 0 2px; color: var(--accent); }
+.group { margin: 0 0 30px; } .group h3 { font: 400 1.35rem var(--display); margin: 0 0 2px; color: var(--accent-ink); }
 .note-h { font: 700 .8rem var(--sans); letter-spacing: .14em; text-transform: uppercase; margin: 18px 0 8px; }
 .notes .q { padding-left: 0; } .notes .q::before { display: none; }
 .rev-h { font: 400 1.4rem var(--display); margin: 28px 0 4px; }
 .passage p.flash { background: color-mix(in srgb, var(--mark) 60%, transparent); box-shadow: -8px 0 0 var(--mark), 8px 0 0 var(--mark); border-radius: 4px; transition: background .3s; }
 .btn.mini { padding: 4px 14px; font-size: .82rem; margin-top: 6px; }
 .qhead { font: 700 1.1rem var(--sans); margin: 0 0 6px !important; }
-.q select { width: 100%; max-width: 440px; padding: 10px 12px; font-size: 1rem; }
+.q select { width: 100%; max-width: 440px; padding: 10px 12px; font-size: calc(1rem * var(--uiscale, 1)); }
 /* exam layout: passage and questions are two equal-height panes that scroll on their own */
 .wrap:has(.split) { padding-top: 10px; padding-bottom: 12px; } .wrap:has(.split) > p:first-child { margin: 0 0 4px; }
 .split { height: max(400px, calc(100vh - 201px)); } .ptabs + .split { height: max(400px, calc(100vh - 219px)); }
@@ -57,6 +57,6 @@ input.gap:focus, select:focus { border-bottom-color: var(--accent); outline: non
 @media (max-width: 900px) { .split { height: auto; } .split > * { height: auto; overflow: visible; } .split > .passage, #ppanes > .passage { max-height: 60vh; overflow-y: auto; } }
 /* wide screens: use the full width and let reading text scale with it */
 .wrap:has(.split) { max-width: none; padding-left: clamp(16px, 2vw, 40px); padding-right: clamp(16px, 2vw, 40px); }
-.passage { font-size: clamp(1.14rem, .5vw + .88rem, 1.45rem); }
-.split > section.card:not(.passage), #qpanes { font-size: clamp(1rem, .3vw + .85rem, 1.2rem); }
-.bar #submit { background: var(--ink); color: var(--paper); border-color: var(--paper); } .bar #submit:hover { background: var(--accent); }
+.passage { font-size: calc(clamp(1.14rem, .5vw + .88rem, 1.45rem) * var(--uiscale, 1)); }
+.split > section.card:not(.passage), #qpanes { font-size: calc(clamp(1rem, .3vw + .85rem, 1.2rem) * var(--uiscale, 1)); }
+.bar #submit { background: var(--ink); color: var(--paper); border-color: var(--paper); } .bar #submit:hover { background: var(--accent); color: var(--on-accent-soft); }

@@ -1,0 +1,59 @@
+/* Study tools. Colours are CSS variables with fallbacks so a dark theme can override them. */
+.seltools[hidden], .noteedit[hidden], .ruler[hidden] { display: none !important; }
+.tstrip { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 0 0 10px; }
+.findbar { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.findbar input { font: 500 .95rem var(--sans); padding: 6px 12px; border: 2px solid var(--ink); border-radius: 999px; background: var(--paper); color: var(--ink); min-width: 170px; }
+.fcount { font-size: .85rem; min-width: 5.5em; }
+.btn.mini[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+.seltools { position: fixed; z-index: 50; display: flex; gap: 4px; padding: 6px; background: var(--paper, #fbf8f1); color: var(--ink, #14213d); border: 2px solid var(--ink, #14213d); border-radius: 12px; box-shadow: 4px 4px 0 var(--ink, #14213d); }
+.st-btn { font: 700 .8rem var(--sans); display: inline-flex; align-items: center; gap: 5px; padding: 5px 9px; border: 2px solid transparent; border-radius: 8px; background: transparent; color: inherit; cursor: pointer; }
+.st-btn:hover, .st-btn:focus-visible { border-color: var(--ink, #14213d); outline: none; }
+.st-btn:focus-visible { box-shadow: 0 0 0 3px var(--accent, #d9441e); }
+.sw { width: 14px; height: 14px; border-radius: 50%; border: 1px solid var(--ink, #14213d); display: inline-block; }
+.hl-yellow { background: var(--hl-yellow, var(--mark, #ffd84d)); } .hl-green { background: var(--hl-green, #9be3a8); }
+.hl-pink { background: var(--hl-pink, #ffb3c7); } .hl-blue { background: var(--hl-blue, #a9d4ff); }
+.seg { color: var(--mark-ink, inherit); border-radius: 2px; }
+.seg.hl-yellow, .seg.hl-green, .seg.hl-pink, .seg.hl-blue { color: var(--mark-ink, #14213d); }
+.seg.ul { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; text-decoration-color: var(--ul, var(--accent, #d9441e)); }
+.seg.note { border-bottom: 2px dotted var(--note, #3b6fd1); }
+.seg.nend { cursor: pointer; }
+.seg.nend::after { content: "\270E"; display: inline-block; font: 700 1em/1.15 var(--sans); min-width: 1.3em; text-align: center; color: var(--note-on, #fff); background: var(--note, #3b6fd1); border-radius: .35em; margin-left: .25em; padding: 0 .1em; }
+.seg.nend:focus-visible { outline: 2px solid var(--accent, #d9441e); }
+.seg.ev { box-shadow: 0 0 0 2px var(--ev, #1f7a4d); background-color: var(--ev-bg, rgb(31 122 77 / .18)); }
+.seg.find-hit { background: var(--find, #bfe3ff); color: var(--mark-ink, #14213d); }
+.seg.find-cur { background: var(--find-cur, #ff9f43); color: var(--mark-ink, #14213d); outline: 2px solid var(--ink, #14213d); }
+.noteedit { position: fixed; z-index: 51; width: min(300px, 92vw); padding: 10px; background: var(--paper, #fbf8f1); color: var(--ink, #14213d); border: 2px solid var(--ink, #14213d); border-radius: 12px; box-shadow: 4px 4px 0 var(--ink, #14213d); }
+.noteedit textarea { width: 100%; box-sizing: border-box; font: 500 .95rem var(--sans); padding: 8px; border: 2px solid var(--ink, #14213d); border-radius: 8px; background: var(--paper, #fff); color: inherit; resize: vertical; }
+.ne-row { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
+.ruler { position: fixed; z-index: 40; height: 2.2em; font-size: calc(clamp(1.14rem, .5vw + .88rem, 1.45rem) * var(--uiscale, 1)); background: var(--ruler, rgb(255 216 77 / .3)); border-top: 1px solid var(--ink, #14213d); border-bottom: 1px solid var(--ink, #14213d); pointer-events: none; }
+.rv-pass { margin: 8px 0 14px; } .rv-pass summary { cursor: pointer; font-weight: 700; }
+.rv-pass .rv-body { font: 400 1.05rem/1.75 var(--serif); padding: 8px 4px 8px 0; max-height: 60vh; overflow-y: auto; }
+.rv-body p strong { margin-right: 6px; }
+.verdict { font-weight: 700; font-size: .92rem; }
+/* navigator, flags, pacing, strike-through */
+.navrow { position: sticky; top: 0; z-index: 6; display: flex; align-items: center; gap: 12px; height: 48px; margin: 0 0 6px; background: var(--bg); }
+.navrow + .split { height: max(400px, calc(100vh - 255px)); } .ptabs + .navrow + .split { height: max(400px, calc(100vh - 273px)); }
+@media (max-width: 900px) { .navrow + .split, .ptabs + .navrow + .split { height: auto; } }
+.qnav { scrollbar-width: thin; display: flex; gap: 4px; overflow-x: auto; flex: 1; min-width: 0; padding: 3px 2px; }
+.qn { flex: none; min-width: 34px; height: 30px; padding: 0 6px; font: 700 .8rem var(--sans); border: 2px solid var(--ink); border-radius: 8px; background: transparent; color: var(--ink); cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: 2px; }
+.qn[data-answered="true"] { background: color-mix(in srgb, var(--ok) 22%, var(--paper)); }
+.qn[aria-current="true"] { box-shadow: 0 0 0 3px var(--accent); }
+.qn:focus-visible { outline: 3px solid var(--accent); outline-offset: 1px; }
+.qs { font-style: normal; font-size: .7rem; }
+.pacestatus { flex: none; font: 600 .82rem var(--sans); color: var(--muted); max-width: 28%; }
+.ppace { font: 600 .8rem ui-monospace, "Cascadia Mono", monospace; margin-left: 6px; }
+.ptabs button[data-pace="warn"] .ppace::after { content: " \26A0"; }
+.ptabs button[data-pace="over"] .ppace::after { content: " \26A0\26A0"; }
+.ptabs button[data-pace="warn"] { border-color: var(--accent); } .ptabs button[data-pace="over"] { border-color: var(--bad); border-style: dashed; }
+.flagbtn { margin-right: auto; }
+.flagbtn[aria-pressed="true"] { background: var(--accent); color: var(--on-accent); border-color: var(--accent); }
+.optrow { position: relative; display: block; }
+.optrow label.opt { padding-right: 46px; }
+.strikebtn { font: 700 .75rem var(--sans); width: 26px; height: 26px; padding: 0; border: 2px solid var(--line); border-radius: 50%; background: var(--paper); color: var(--ink); cursor: pointer; }
+.strikebtn:hover, .strikebtn:focus-visible { border-color: var(--ink); } .strikebtn:focus-visible { outline: 3px solid var(--accent); outline-offset: 1px; }
+.strikebtn[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.optrow .strikebtn { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); }
+.optrow.struck label.opt { text-decoration: line-through; opacity: .55; }
+.chipwrap { display: inline-flex; align-items: center; gap: 3px; }
+.chipwrap .strikebtn { width: 22px; height: 22px; font-size: .65rem; }
+.chipwrap.struck .chip { text-decoration: line-through; text-decoration-style: double; opacity: .55; }
