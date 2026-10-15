@@ -50,6 +50,66 @@
       "Does each paragraph have one clear main idea?",
       "Did I avoid repeating the same word again and again?",
       "Did I use some complex sentences, and did I check them for errors?"
+    ],
+    "demo": {
+      "prompt": "Score this short Task 2 paragraph on the four criteria, one at a time. Then improve one criterion. Question: 'Some people think cars should be banned from city centres. Do you agree?' Paragraph: 'Many people think cars are bad for cities. I agree because the air is dirty and there is a lot of traffic. Cars is causing many problems. Governments should do something about it.'",
+      "moves": [
+        {
+          "step": 1,
+          "say": "I start with Task Achievement. The paragraph says 'I agree' clearly, so it answers the question. I give it about Band 6.",
+          "build": "Many people think cars are bad for cities. I agree because the air is dirty and there is a lot of traffic. Cars is causing many problems. Governments should do something about it."
+        },
+        {
+          "step": 2,
+          "say": "Next, Coherence and Cohesion. Each sentence follows the one before, and the reasons come straight after my view. I give it about Band 6.",
+          "build": "Many people think cars are bad for cities. I agree because the air is dirty and there is a lot of traffic. Cars is causing many problems. Governments should do something about it."
+        },
+        {
+          "step": 3,
+          "say": "Now Lexical Resource. 'Bad' and 'dirty' are correct but simple, and the writer never uses a precise word. I give it about Band 5.",
+          "build": "Many people think cars are bad for cities. I agree because the air is dirty and there is a lot of traffic. Cars is causing many problems. Governments should do something about it."
+        },
+        {
+          "step": 4,
+          "say": "Grammar has a clear error: 'Cars is causing'. 'Cars' is plural, so the verb must be 'are'. I will improve this one first.",
+          "build": "Many people think cars are bad for cities. I agree because the air is dirty and there is a lot of traffic. Cars is causing many problems. Governments should do something about it."
+        },
+        {
+          "step": 4,
+          "say": "I change 'is' to 'are'. The verb now matches its subject, and nothing else in the paragraph needs to change.",
+          "build": "Many people think cars are bad for cities. I agree because the air is dirty and there is a lot of traffic. Cars are causing many problems. Governments should do something about it."
+        },
+        {
+          "step": 6,
+          "say": "To reach Band 7, I pick one habit: use a more precise word, such as 'polluted', next time. This revised paragraph is my answer.",
+          "build": "Many people think cars are bad for cities. I agree because the air is dirty and there is a lot of traffic. Cars are causing many problems. Governments should do something about it."
+        }
+      ],
+      "answer": "Many people think cars are bad for cities. I agree because the air is dirty and there is a lot of traffic. Cars are causing many problems. Governments should do something about it."
+    },
+    "practice": [
+      {
+        "prompt": "Which criterion is weak here? Choose one of the four criteria. Question: 'Do you think homework helps students learn?' Paragraph: 'Homework is good. It helps students learn. Homework is good for students because students learn more. Teachers give homework and students do it.' Use the steps.",
+        "options": [
+          "Task Achievement",
+          "Coherence and Cohesion",
+          "Lexical Resource",
+          "Grammatical Range and Accuracy"
+        ],
+        "answer": "Lexical Resource",
+        "why": "Step 3 finds the weak criterion: 'homework' and 'students' are repeated again and again, and only very simple words are used. The position and the grammar are sound, so they are not the problem."
+      },
+      {
+        "prompt": "Which criterion is weak here? Choose one of the four criteria. Question: 'Some people think cars should be banned from city centres. Discuss.' Paragraph: 'Cars are very useful in modern life. They help people travel quickly to work, and they carry goods across long distances. Engines produce exhaust gases that affect the air in towns.' Use the steps.",
+        "options": [
+          "Task Achievement",
+          "Coherence and Cohesion",
+          "Lexical Resource",
+          "Grammatical Range and Accuracy"
+        ],
+        "answer": "Task Achievement",
+        "why": "Step 1 finds the weakness: the question asks for a view on banning cars, but the paragraph never gives one. Steps 3 and 4 are sound, so vocabulary and grammar are not the problem."
+      }
     ]
   },
   {
@@ -103,6 +163,43 @@
       "Did I start with Task 1 and leave 40 minutes for Task 2?",
       "Did I plan my overview or position before writing?",
       "Do I have 2 or 3 minutes left for the grammar checklist?"
+    ],
+    "demo": {
+      "prompt": "You have 5 minutes to plan a Task 1 answer. Task 1 needs at least 150 words. The bar chart shows visitors to a museum, in thousands, for adults and children in 2019 and 2020. Adults: 120 in 2019, 80 in 2020. Children: 60 in 2019, 90 in 2020.",
+      "moves": [
+        {
+          "step": 1,
+          "say": "I give myself 5 minutes to plan, and I start Task 1 on the clock. First I read the title and units: thousands of visitors, in two years."
+        },
+        {
+          "step": 3,
+          "say": "I pick my key features and write them as short notes, not sentences. Adults fell and children rose, which are the two big stories.",
+          "build": "Key features: adults fell from 120 to 80; children rose from 60 to 90."
+        },
+        {
+          "step": 3,
+          "say": "Next I choose my overview. It is the big picture with no numbers, so I note the two trends in plain words.",
+          "build": "Key features: adults fell from 120 to 80; children rose from 60 to 90. Overview: adults down, children up, no numbers."
+        },
+        {
+          "step": 4,
+          "say": "I note my word target at the top, so I know how much to write. Task 1 needs at least 150 words, and I will count in practice.",
+          "build": "Key features: adults fell from 120 to 80; children rose from 60 to 90. Overview: adults down, children up, no numbers. Target: at least 150 words."
+        }
+      ],
+      "answer": "Key features: adults fell from 120 to 80; children rose from 60 to 90. Overview: adults down, children up, no numbers. Target: at least 150 words."
+    },
+    "practice": [
+      {
+        "prompt": "You have 40 minutes for a Task 2 essay. Split the 40 minutes into planning, writing and checking. Write your split in minutes. Use the steps.",
+        "answer": "5 minutes planning, 30 minutes writing, 5 minutes checking.",
+        "why": "Step 2 gives Task 2 5 minutes to plan, 30 to write and 5 to check. Those three parts add up to the 40 minutes you have."
+      },
+      {
+        "prompt": "A student has 40 minutes for a Task 2 essay of at least 250 words. Their plan is: 'Minute 2: start writing. Plan in my head as I go. Minute 35: check. Minute 40: stop.' Rewrite the plan with clear times and steps. Use the steps.",
+        "answer": "Minutes 0 to 5: plan in short notes, with the overview or position. Minutes 5 to 35: write at least 250 words. Minutes 35 to 40: check for grammar errors.",
+        "why": "Step 2 sets 5 minutes to plan, 30 to write and 5 to check. Step 3 says the plan is short notes, so the writing starts only after planning is done."
+      }
     ]
   },
   {
@@ -160,6 +257,44 @@
       "Do my verbs match their subjects, and match the time (past, present or future)?",
       "Is every comma between two full sentences joined by a linking word?",
       "Did I check plurals and the spelling of words copied from the question?"
+    ],
+    "demo": {
+      "prompt": "Correct this learner sentence, one error at a time. It has three errors: 'In 2010 the number of tourist visit museum.'",
+      "moves": [
+        {
+          "step": 1,
+          "say": "I read the sentence and spot three errors. I fix one at a time, starting with the missing 'the' before 'museum'.",
+          "build": "In 2010 the number of tourist visit museum."
+        },
+        {
+          "step": 1,
+          "say": "'Museum' is a specific place, so it needs 'the' before it. I add 'the' and leave everything else alone.",
+          "build": "In 2010 the number of tourist visit the museum."
+        },
+        {
+          "step": 3,
+          "say": "Next, the tense. '2010' is a past year, so 'visit' must change to 'visited'. I change only that word.",
+          "build": "In 2010 the number of tourist visited the museum."
+        },
+        {
+          "step": 6,
+          "say": "Last, the plural. 'The number of' is followed by many people, so 'tourist' needs an -s. Now the sentence is correct.",
+          "build": "In 2010 the number of tourists visited the museum."
+        }
+      ],
+      "answer": "In 2010 the number of tourists visited the museum."
+    },
+    "practice": [
+      {
+        "prompt": "Correct this sentence, one error at a time: 'There is many reasons why sales rise in 2015.' Use the steps.",
+        "answer": "There are many reasons why sales rose in 2015.",
+        "why": "Step 5 changes 'is' to 'are' because 'reasons' is plural. Step 3 changes 'rise' to 'rose', since 2015 is a past year."
+      },
+      {
+        "prompt": "Correct this sentence, one error at a time: 'Number of visitors rose in 2015, the museum did not expect it.' Use the steps.",
+        "answer": "The number of visitors rose in 2015, but the museum did not expect it.",
+        "why": "Step 1 adds 'the' before 'number'. Step 4 replaces the comma between two full sentences with 'but', a linking word that joins them correctly."
+      }
     ]
   },
   {
@@ -245,7 +380,44 @@
       "weak": "Cycling went up a lot from 2005 to 2015.",
       "strong": "The number of people who cycled to work rose steadily from about 20% in 2005 to just over 35% in 2015.",
       "why": "The strong sentence names exactly what is measured, uses a precise verb and adverb, and gives approximate figures with the years."
-    }
+    },
+    "demo": {
+      "prompt": "Write an introduction, an overview and one comparison sentence for this invented bar chart. Title: 'How people commuted in a city, 2010 and 2020' (percentages). Cycling rose from 20% to 35%, and cars fell from 50% to 40%.",
+      "moves": [
+        {
+          "step": 1,
+          "say": "I read the title and units first. The figures are percentages for two years, so I check the dates and the measure before I write any words."
+        },
+        {
+          "step": 4,
+          "say": "I paraphrase the title for my introduction. I change the wording to 'the percentage of people who travelled', and I add no new facts.",
+          "build": "The bar chart illustrates the percentage of people who travelled to work by bike or by car in a city in 2010 and 2020."
+        },
+        {
+          "step": 5,
+          "say": "The overview comes next. It gives the main trend with no numbers: cycling went up, and car use went down.",
+          "build": "The bar chart illustrates the percentage of people who travelled to work by bike or by car in a city in 2010 and 2020. Overall, cycling rose over the period, while car use fell."
+        },
+        {
+          "step": 6,
+          "say": "In the body I use numbers to support my points. I put cycling and cars in one sentence, so the contrast is clear.",
+          "build": "The bar chart illustrates the percentage of people who travelled to work by bike or by car in a city in 2010 and 2020. Overall, cycling rose over the period, while car use fell. Cycling rose from 20% to 35%, whereas cars fell from 50% to 40%."
+        }
+      ],
+      "answer": "The bar chart illustrates the percentage of people who travelled to work by bike or by car in a city in 2010 and 2020. Overall, cycling rose over the period, while car use fell. Cycling rose from 20% to 35%, whereas cars fell from 50% to 40%."
+    },
+    "practice": [
+      {
+        "prompt": "Write an overview from the data below. The invented bar chart shows visitors to a library, in thousands: adults rose from 300 to 450 and children rose from 200 to 260 between 2018 and 2022. Adults were the larger group in both years. Write an overview with no numbers. Use the steps.",
+        "answer": "Overall, visitor numbers rose for both adults and children, and adults remained the larger group throughout the period.",
+        "why": "Step 5 asks for an overview with no numbers. It gives the main trend, that both groups rose, and one contrast, that adults were larger. Both come from the start and end points in the data."
+      },
+      {
+        "prompt": "Write one sentence reporting the lowest and the highest point, in time order. The invented bar chart shows monthly ice-cream sales in a shop, in units: January 40, April 90, July 150, October 60. Use the steps.",
+        "answer": "Sales were lowest at 40 units in January and peaked at 150 units in July.",
+        "why": "Step 2 picks the two key points: January at 40 is the lowest and July at 150 is the highest. The sentence reports both, with their months, in time order."
+      }
+    ]
   },
   {
     "id": "task1-pie",
@@ -330,7 +502,44 @@
       "weak": "Housing is 35% and food is 20%.",
       "strong": "Housing accounted for the largest share of household spending at 35%, which was well above food, the second largest category, at 20%.",
       "why": "The strong sentence ranks the slices, uses a phrase for share, and compares the two categories instead of just listing numbers."
-    }
+    },
+    "demo": {
+      "prompt": "Two pie charts show how a family's household spending was divided between housing, food, transport and other costs, as a percentage of the total, in 2000 and 2020. In 2000: housing 35%, food 25%, transport 15%, other 25%. In 2020: housing 45%, food 20%, transport 10%, other 25%. Write a comparison of the slices, using the steps.",
+      "moves": [
+        {
+          "step": 2,
+          "say": "I rank the slices in the 2000 pie first. Housing is the largest at 35%, and transport is the smallest at 15%."
+        },
+        {
+          "step": 2,
+          "say": "Within one pie, I compare two slices in one sentence. Housing is larger than food, so I write that down.",
+          "build": "In 2000, housing was the largest category at 35%, above food at 25%."
+        },
+        {
+          "step": 3,
+          "say": "Across the two pies, I compare the same slice. Housing grew the most, so I write that it was the biggest change.",
+          "build": "In 2000, housing was the largest category at 35%, above food at 25%. By 2020, housing had risen to 45%, the biggest change of any slice."
+        },
+        {
+          "step": 6,
+          "say": "In the body, I compare the slices that shrank. Food and transport both fell, so I put them in one sentence.",
+          "build": "In 2000, housing was the largest category at 35%, above food at 25%. By 2020, housing had risen to 45%, the biggest change of any slice. Food fell from 25% to 20%, while transport fell from 15% to 10%."
+        }
+      ],
+      "answer": "In 2000, housing was the largest category at 35%, above food at 25%. By 2020, housing had risen to 45%, the biggest change of any slice. Food fell from 25% to 20%, while transport fell from 15% to 10%."
+    },
+    "practice": [
+      {
+        "prompt": "The invented pie chart shows how a school spent its budget in 2019: teachers 50%, buildings 20%, equipment 15%, sport 15%. Write one sentence that names the largest share and compares it with the next largest. Use the steps.",
+        "answer": "Teachers took the largest share of the budget at 50%, well above buildings at 20%, the second largest.",
+        "why": "Step 2 ranks the slices and finds teachers at 50% as the largest. Step 6 turns the comparison with the next largest slice, buildings at 20%, into one sentence."
+      },
+      {
+        "prompt": "Two invented pie charts show the sources of a town's electricity in 2000 and 2020. In 2000: coal 40%, gas 30%, wind 10%, solar 20%. In 2020: coal 20%, gas 40%, wind 20%, solar 20%. Write one sentence comparing wind power across the two pies, using 'doubled'. Use the steps.",
+        "answer": "The share of wind power doubled, from 10% in 2000 to 20% in 2020.",
+        "why": "Step 3 finds wind as a slice that changed between the pies, and 20% is exactly double 10%. Step 6 compares the same slice across both pies in one sentence."
+      }
+    ]
   },
   {
     "id": "task1-table",
