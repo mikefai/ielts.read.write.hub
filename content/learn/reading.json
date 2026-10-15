@@ -1021,12 +1021,12 @@
         },
         {
           "step": 3,
-          "say": "B's first sentence tells me the main idea: people are using the path.",
+          "say": "I see that B's first sentence gives the main idea: people use the path.",
           "mark": "Walkers and cyclists now use the new path every day."
         },
         {
           "step": 3,
-          "say": "C's first sentence names the council's plan. That is where its main idea starts.",
+          "say": "I see that C's first sentence names the council's plan. I think that is where its main idea starts.",
           "mark": "The council plans to plant two hundred trees along the route."
         },
         {
@@ -1041,17 +1041,17 @@
         },
         {
           "step": 5,
-          "say": "A is about the line closing and lying unused. Heading i says that in other words, so A gets i.",
+          "say": "I think A is about the line closing and lying unused. Heading i says that in other words, so A gets i.",
           "mark": "The railway through Hale Valley closed in 1968."
         },
         {
           "step": 5,
-          "say": "B is about people using the path. Heading iii matches, so B gets iii.",
+          "say": "I think B is about people using the path. Heading iii matches, so B gets iii.",
           "mark": "Walkers and cyclists now use the new path every day."
         },
         {
           "step": 5,
-          "say": "C is about plans for trees and wildlife. Heading iv matches, so C gets iv.",
+          "say": "I think C is about plans for trees and wildlife. Heading iv matches, so C gets iv.",
           "mark": "The council plans to plant two hundred trees along the route."
         },
         {
@@ -1060,12 +1060,12 @@
         },
         {
           "step": 7,
-          "say": "Heading ii fits only one sentence in A, not the whole paragraph. A detail is a trap, so I reject it.",
+          "say": "I see that heading ii fits only one sentence in A, not the whole paragraph. A detail is a trap, so I reject it.",
           "mark": "Steam engines had pulled coal wagons along the line for decades."
         },
         {
           "step": 7,
-          "say": "Heading v is about a bus station, and no paragraph mentions one. So it is wrong too, and I leave it unused."
+          "say": "I notice heading v is about a bus station, and no paragraph mentions one. So it is wrong too, and I leave it unused."
         }
       ],
       "answer": "A: heading i (what happened to the railway line after it closed). B: heading iii (who uses the new walking path). C: heading iv (plans for new trees and wildlife along the route). Heading ii is a detail trap, and heading v is not used."
@@ -1216,7 +1216,7 @@
         },
         {
           "step": 5,
-          "say": "The next sentence shows the result: visitors more than doubled. That matches grew.",
+          "say": "I read the next sentence. Visitors more than doubled, so that matches grew.",
           "mark": "Within a year, visitors had more than doubled"
         },
         {
@@ -1246,7 +1246,7 @@
         "evidence": "because the cod stocks fell sharply"
       },
       {
-        "prompt": "Statement: Some young people left the bay to look for work elsewhere. Which paragraph, A to D, contains this? A letter may be used more than once, so do not rule out a letter you have already used.",
+        "prompt": "Statement: Some young people left the bay to look for work elsewhere. Which paragraph, A to D, contains this? Use the steps.",
         "text": "A: Hollis Bay has been a fishing port for more than two hundred years. Its harbour wall was built stone by stone by the town's first harbour masters. B: The fishing fleet shrank after 1990, because the cod stocks fell sharply. Many boats were sold, and the young men of the town moved away to find work. Only nine boats now sail from the bay. C: In 2004 the council opened a small seafood school in the old net store. Students learn to fillet fish, cook a simple meal and check the freshness of the catch. Over 500 students have completed the course. D: Tourism has grown steadily since 2010, when a new ferry linked the bay to the city. Visitors come to walk the cliffs and eat in the harbour cafes.",
         "options": [
           "A",
@@ -1357,7 +1357,7 @@
         },
         {
           "step": 2,
-          "say": "Mr Lindqvist and Dr Patel appear in the next two sentences. I underline each name every time it shows up.",
+          "say": "I see Mr Lindqvist and Dr Patel in the next two sentences. I underline each name every time it shows up.",
           "mark": "Mr Lindqvist, however, doubts that the road will bring any real benefit, and he fears it will harm the wildlife in the valley."
         },
         {
@@ -1371,13 +1371,18 @@
         },
         {
           "step": 5,
-          "say": "Mr Lindqvist's sentence has the verb fears. A fear that the road will harm nature matches the statement.",
+          "say": "I see that Mr Lindqvist's sentence has the verb fears. A fear that the road will harm nature matches the statement.",
           "mark": "he fears it will harm the wildlife in the valley"
         },
         {
           "step": 5,
-          "say": "Dr Patel's sentence is about a tunnel, a different idea. So I rule Dr Patel out.",
+          "say": "I check Dr Patel's verb: suggests, and the claim is that a tunnel is better. That is not a claim of harm, so I rule Dr Patel out.",
           "mark": "Dr Patel suggests that a tunnel would be better than a road across the hills."
+        },
+        {
+          "step": 6,
+          "say": "'He' in this sentence means Mr Lindqvist, because his name opens it. So the fear belongs to B.",
+          "mark": "he fears it will harm the wildlife in the valley"
         },
         {
           "step": 6,
@@ -1406,15 +1411,15 @@
       },
       {
         "prompt": "Claim: The railway was profitable for a long time before it closed. Which speaker holds this view? Use the steps: watch for a speaker who opposes the idea, and check the verb. Write the full name.",
-        "text": "Dr Hughes insists that the old railway was never profitable, and says it should have closed decades earlier. Priya Shah disagrees: she believes the railway was profitable until a bus company undercut it. Ben Walsh, who worked on the line for years, says the closure was the real mistake, not the railway itself.",
+        "text": "Dr Hughes insists that the old railway was never profitable, and says it should have closed decades earlier. Priya Shah disagrees: she believes the railway was profitable for thirty years, until a bus company undercut it. Ben Walsh, who worked on the line for years, says that closing it was a mistake, and that the council decided too quickly.",
         "options": [
           "Dr Hughes",
           "Priya Shah",
           "Ben Walsh"
         ],
         "answer": "Priya Shah",
-        "why": "Step 5: Dr Hughes says the railway was never profitable, the opposite of the claim. Ben Walsh judges the closure, not the profit. Only Priya's verb 'believes' and her words match a long profitable period.",
-        "evidence": "she believes the railway was profitable until a bus company undercut it"
+        "why": "Step 5: Dr Hughes says the railway was never profitable, the opposite of the claim. Ben Walsh judges the closing decision, not the profit. Only Priya's verb 'believes' fits a profitable period of thirty years.",
+        "evidence": "she believes the railway was profitable for thirty years, until a bus company undercut it"
       }
     ],
     "tricks": [
@@ -1501,24 +1506,24 @@
       }
     ],
     "demo": {
-      "prompt": "Sentence start: The bridge was closed for six months because... Endings: A engineers found cracks in its arches. B the council wanted to save money. C to find the cracks in its arches. D the arches, which were built in 1900. Which ending, A to D, completes the sentence?",
+      "prompt": "Sentence start: The bridge was closed for six months because... Endings: A engineers found cracks in its arches. B the council wanted to repair the arches. C to find the cracks in its arches. D the arches, which were built in 1900. Which ending, A to D, completes the sentence?",
       "text": "The old bridge was closed in March for six months. During a routine check, engineers found serious cracks in its arches. The council said that the decision was about safety, not money.",
       "moves": [
         {
           "step": 1,
-          "say": "I read the sentence start first. It ends with 'because', so the ending must give a reason."
+          "say": "I read the sentence start first. Starts follow the passage order, but the endings do not, so I do not expect them in order."
         },
         {
           "step": 2,
-          "say": "I underline the key words: bridge, closed, six months. These take me to the passage."
+          "say": "I underline the key words: bridge, closed, six months. The start ends with 'because', so I need a reason."
         },
         {
           "step": 3,
-          "say": "Grammar first. After 'because' I need a full clause, so option C, starting with 'to', fails."
+          "say": "I check grammar first. After 'because' I need a full clause, so option C, starting with 'to', fails."
         },
         {
           "step": 3,
-          "say": "Option D has no main verb. 'The arches, which were built in 1900' is not a full clause, so it fails too."
+          "say": "I see that option D has no main verb. 'The arches, which were built in 1900' is not a full clause, so it fails too."
         },
         {
           "step": 4,
@@ -1527,12 +1532,12 @@
         },
         {
           "step": 4,
-          "say": "Option B gives money as the reason. The passage says the decision was about safety, not money, so B is wrong.",
+          "say": "Option B copies arches and repair, but the passage gives safety as the reason, not repairs. So I reject B.",
           "mark": "The council said that the decision was about safety, not money."
         },
         {
           "step": 5,
-          "say": "Option A matches the passage line. I pick it because the meaning fits, not because it copies words.",
+          "say": "I see that option A matches the passage line. B copies more words, but its meaning does not fit, so I pick A by meaning.",
           "mark": "During a routine check, engineers found serious cracks in its arches."
         },
         {
@@ -1559,11 +1564,11 @@
           "the festival can go ahead in any weather"
         ],
         "answer": "heavy rain had soaked the grass",
-        "why": "Step 3: 'because to keep everything dry' is not grammar, so it goes. 'Visitors said the hall felt crowded' is a later fact, not the reason. The passage says heavy rain soaked the grass, which is the reason.",
+        "why": "Step 3: 'to keep everything dry' is true in the passage, but it cannot follow 'because', so only grammar rules it out. The passage says heavy rain soaked the grass, which is the reason.",
         "evidence": "heavy rain soaked the grass on the morning of the event"
       },
       {
-        "prompt": "Sentence start: The committee plans to build a covered area on the green, so that... Use the steps. Check the grammar, then find the purpose in the last sentence. Write the full ending.",
+        "prompt": "Sentence start: Visitors said the hall felt crowded, but... Use the steps: grammar first, then meaning, then a line from the passage. Write the full ending.",
         "text": "The village festival is usually held on the green. This year, however, heavy rain soaked the grass on the morning of the event. The organisers moved the stalls into the village hall, where everything could stay dry. Visitors said the hall felt crowded, but most of them stayed until the evening. Next year the committee plans to build a covered area on the green, so that the festival can go ahead in any weather.",
         "options": [
           "to keep everything dry",
@@ -1572,9 +1577,9 @@
           "most visitors stayed until the evening",
           "the festival can go ahead in any weather"
         ],
-        "answer": "the festival can go ahead in any weather",
-        "why": "Step 3: 'so that to keep everything dry' fails, because 'so that' needs a full clause. 'Most visitors stayed' is a fact about the past, not the purpose. The last sentence gives the purpose.",
-        "evidence": "so that the festival can go ahead in any weather"
+        "answer": "most visitors stayed until the evening",
+        "why": "Step 3: 'but to keep everything dry' fails grammar, but two other endings pass. Step 4: the passage says most of them stayed, which fits the 'but'. The other two are real details that do not fit the contrast.",
+        "evidence": "but most of them stayed until the evening"
       }
     ],
     "tricks": [
