@@ -6,6 +6,43 @@ import { TYPES } from '../skills/reading/engine/types.js';
 const words = s => String(s ?? '').trim().split(/\s+/).filter(Boolean).length;
 const WRITING_EXEMPT = ['band-criteria', 'timing-and-planning', 'grammar-fixes'];
 
+function checkDemoPractice(n, at, kind, stepCount, errs) {
+  const d = n.demo;
+  if (!d) errs.push(`${at}: needs a demo`);
+  else {
+    const moves = Array.isArray(d.moves) ? d.moves : [];
+    if (moves.length < 4) errs.push(`${at}: demo needs 4+ moves (has ${moves.length})`);
+    let prev = 0;
+    moves.forEach((m, i) => {
+      if (words(m.say) > 30) errs.push(`${at}: demo move ${i + 1} say is over 30 words`);
+      if (!Number.isInteger(m.step) || m.step < 1 || m.step > stepCount) errs.push(`${at}: demo step ${i + 1} must be 1..${stepCount}`);
+      else {
+        if (m.step < prev) errs.push(`${at}: demo steps must not go backwards`);
+        prev = m.step;
+      }
+      if (kind === 'reading' && m.mark != null && !d.text?.includes(m.mark)) errs.push(`${at}: demo move ${i + 1} mark not in text`);
+    });
+    if (new Set(moves.map(m => m.step)).size < 3) errs.push(`${at}: demo must cover 3+ steps`);
+    if (!words(d.prompt) || !words(d.answer)) errs.push(`${at}: demo needs a prompt and answer`);
+    if (kind === 'reading') {
+      if (!words(d.text)) errs.push(`${at}: demo needs text`);
+    } else {
+      if (moves.filter(m => m.build).length < 2) errs.push(`${at}: demo needs 2+ builds`);
+      if (moves.at(-1)?.build !== d.answer) errs.push(`${at}: demo answer must equal last build`);
+    }
+  }
+  const p = Array.isArray(n.practice) ? n.practice : [];
+  if (p.length !== 2) errs.push(`${at}: needs 2 practice items (has ${p.length})`);
+  p.forEach((it, i) => {
+    const pa = `${at} practice ${i + 1}`;
+    if (!words(it.prompt) || !words(it.answer) || !words(it.why)) errs.push(`${pa}: needs prompt, answer and why`);
+    if (words(it.why) > 40) errs.push(`${pa}: why over 40 words`);
+    if (kind === 'reading' && !words(it.text)) errs.push(`${pa}: needs text`);
+    if (it.options && !it.options.some(o => String(o).trim().toLowerCase() === String(it.answer ?? '').trim().toLowerCase())) errs.push(`${pa}: answer not in options`);
+    if (it.evidence !== undefined && !String(it.text ?? '').includes(it.evidence)) errs.push(`${pa}: evidence not in text`);
+  });
+}
+
 export function validateNotes(notes, kind, requiredIds) {
   const errs = [], seen = new Set();
   for (const id of requiredIds) if (!notes.some(n => n.id === id)) errs.push(`${kind}: missing note "${id}"`);
@@ -33,6 +70,7 @@ export function validateNotes(notes, kind, requiredIds) {
       const fr = n.frames ?? [];
       if (fr.length < 2 || fr.some(f => (f.lines?.length ?? 0) < 3)) errs.push(`${at}: frames needs 2+ frames of 3+ lines`);
     }
+    checkDemoPractice(n, at, kind, steps.length, errs);
   }
   return errs;
 }
