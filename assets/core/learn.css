@@ -1,0 +1,19 @@
+.note { max-width: 46rem; margin: 0 auto; color: var(--ink); }
+.note h2 { margin: 1.6rem 0 .5rem; }
+.note ol, .note ul { padding-left: 1.3rem; }
+.note .step { margin: .6rem 0; padding: .6rem .8rem; background: var(--paper); border: 1px solid var(--line); border-radius: 10px; }
+.note .step b, .note .step span { display: block; }
+.note .step span { color: var(--muted); margin-top: .2rem; }
+.note .trick, .note .trap { list-style: none; margin: .5rem 0; padding: .5rem .8rem; background: var(--paper); border: 1px solid var(--line); border-left: 5px solid var(--c, var(--accent)); border-radius: 8px; }
+.note .trap { border-left-style: dashed; }
+.note .trick b, .note .trap b { text-transform: uppercase; font-size: .8em; letter-spacing: .04em; }
+.note .frame { margin: .6rem 0; padding: .6rem .8rem; border: 1px solid var(--line); border-radius: 10px; background: var(--paper); overflow-wrap: anywhere; }
+.note .example { padding: .8rem 1rem; background: var(--paper); border: 1px solid var(--line); border-radius: 12px; }
+.note dl { display: grid; grid-template-columns: max-content 1fr; gap: .3rem 1rem; }
+.note dt { font-weight: 700; }
+.note dd { margin: 0; color: var(--muted); }
+.learn-nav { display: flex; justify-content: space-between; gap: 1rem; margin: 1rem 0; }
+@media (max-width: 600px) {
+  .note dl { grid-template-columns: 1fr; }
+  .learn-nav { flex-direction: column; }
+}
