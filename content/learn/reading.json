@@ -12,6 +12,35 @@
       { "do": "Spend about 20 minutes on each passage. Move on when a question takes too long, and come back later.", "why": "Each passage has the same number of marks. One hard question must not steal time from easy ones." },
       { "do": "Never leave a blank. Write your best guess before you finish.", "why": "There is no penalty for a wrong answer, so a guess can only help you." }
     ],
+    "demo": {
+      "prompt": "Statement: Supermarkets started buying the bakery's bread in 2001. Is this TRUE, FALSE or NOT GIVEN?",
+      "text": "A: The Greenfield bakery opened in 1975 with only two ovens. Over the next twenty years, it grew into the largest employer in the village. B: In 2001 the owners began selling bread to supermarkets. Sales rose sharply, but the bakery still makes most of its loaves by hand.",
+      "moves": [
+        { "step": 1, "say": "I skim the passage first. Paragraph A is about the bakery's start. Paragraph B is about a change in 2001, so I label them and move on.", "mark": "In 2001 the owners" },
+        { "step": 2, "say": "I underline the keywords in the statement: supermarkets and 2001. The year is a number, so it is easy to spot in the text.", "mark": "2001" },
+        { "step": 3, "say": "I predict a paraphrase. 'Supermarkets started buying' might be written as 'began selling bread to supermarkets'.", "mark": "began selling bread to supermarkets" },
+        { "step": 4, "say": "I find 2001 in paragraph B and read the sentences around it. The sentence after it talks about sales, so I keep reading.", "mark": "In 2001 the owners began selling bread to supermarkets" },
+        { "step": 5, "say": "I confirm with a line. 'Began selling bread to supermarkets' says the same as the statement, so I answer TRUE.", "mark": "began selling bread to supermarkets" }
+      ],
+      "answer": "TRUE. The line 'began selling bread to supermarkets' says the same thing as the statement."
+    },
+    "practice": [
+      {
+        "prompt": "Sam is answering a True / False / Not Given question. Which step did he skip? Use the five steps to decide.",
+        "text": "Sam read the whole passage twice, then looked at the question. He wrote TRUE straight away, because the first paragraph mentioned the same town. He did not find a line that proves TRUE.",
+        "options": ["Skim and label the topics", "Underline the keywords", "Predict the paraphrase", "Find it and read around it", "Confirm with a line"],
+        "answer": "Confirm with a line",
+        "why": "Step 5 asks you to point to the exact words that prove your answer. Sam only had a town name, which is not proof. He should have found a matching line before writing TRUE."
+      },
+      {
+        "prompt": "Priya's question asks whether rent rose. Which step did she skip? Use the five steps to decide.",
+        "text": "Priya found the word 'rent' in the second paragraph and wrote 'it rose' straight away. She did not read the sentence before or after it. The next sentence said the rent had fallen, so her answer was wrong.",
+        "options": ["Skim and label the topics", "Underline the keywords", "Predict the paraphrase", "Find it and read around it", "Confirm with a line"],
+        "answer": "Find it and read around it",
+        "why": "Step 4 says the answer is often next to the keyword, not on it. Priya read only the keyword line. The sentence after it showed the rent had fallen, which changes the answer.",
+        "evidence": "The next sentence said the rent had fallen"
+      }
+    ],
     "tricks": [
       "Most gap-filling and True/False types follow the order of the passage. If question 5 is in paragraph B, question 6 will be later in paragraph B or after it.",
       "Do the easy question types first, such as short gap-fills. Leave long matching tasks until you have time to think.",
@@ -50,6 +79,38 @@
       { "do": "If not, ask: can I point to a line that says the opposite? If yes, the answer is False.", "why": "False means the passage clearly disagrees. You need real words that contradict the statement." },
       { "do": "If you find neither after reading the whole paragraph, the answer is Not Given.", "why": "Not Given means the passage is silent about this idea. Silence is not the same as disagreement." },
       { "do": "Check every small word in the statement against the passage before you choose.", "why": "One wrong word, such as 'all' or 'only', can turn a True answer into False or Not Given." }
+    ],
+    "demo": {
+      "prompt": "Statement: The company's ferries were built in Norway. Is this TRUE, FALSE or NOT GIVEN?",
+      "text": "A: The Harbour Ferry Company started in 1962 with one boat. By 1980 it ran six boats across the bay every day. B: Fares rose in 1995, and many older passengers complained about the cost. Two new boats were ordered in 2010. The company has never said how many passengers use its summer service.",
+      "moves": [
+        { "step": 1, "say": "I underline the keywords: ferries, built, Norway. The passage does not say ferries. It says boats, so I think of that word too.", "mark": "boats" },
+        { "step": 2, "say": "The topic is the company's boats. Paragraph A is about them, so I look there first.", "mark": "The Harbour Ferry Company started in 1962 with one boat." },
+        { "step": 3, "say": "I read the whole paragraph, not one sentence. Nothing in A says where the boats were built.", "mark": "By 1980 it ran six boats across the bay every day." },
+        { "step": 4, "say": "Can I point to a line that says the same? I look for where the boats were built. I cannot find that line.", "mark": "Two new boats were ordered in 2010." },
+        { "step": 5, "say": "Is there a line that says the opposite, such as built somewhere else? No line says that either.", "mark": "The company has never said how many passengers use its summer service." },
+        { "step": 6, "say": "I find neither a matching line nor an opposite one. So the answer is NOT GIVEN. Silence is not disagreement.", "mark": "Two new boats were ordered in 2010." },
+        { "step": 7, "say": "I check the detail 'Norway' against the passage. It is not there, so the answer stays NOT GIVEN.", "mark": "The company has never said how many passengers use its summer service." }
+      ],
+      "answer": "NOT GIVEN. No line says the boats were built in Norway, and no line says they were not."
+    },
+    "practice": [
+      {
+        "prompt": "Statement: The bakery bakes its bread before six o'clock every morning. Use the steps: find the line that says it, then confirm with the exact words. Is this TRUE, FALSE or NOT GIVEN?",
+        "text": "Maya's bakery opened in 2001 on Mill Road. It sells bread, cakes and seasonal pies. Every morning, the owner bakes the bread before six o'clock. Customers can order birthday cakes by phone, but not online.",
+        "options": ["TRUE", "FALSE", "NOT GIVEN"],
+        "answer": "TRUE",
+        "why": "Step 4: the line 'the owner bakes the bread before six o'clock' says the same thing. 'Every morning' matches the statement too. So the answer is TRUE.",
+        "evidence": "the owner bakes the bread before six o'clock"
+      },
+      {
+        "prompt": "Statement: All of the library's books are for children. Use the steps, and check every small word before you choose. Is this TRUE, FALSE or NOT GIVEN?",
+        "text": "The school library has 4,000 books, and most of them are for children. Students can borrow up to five books at a time. Only the head teacher can order new adult books. The library is open until four o'clock on weekdays.",
+        "options": ["TRUE", "FALSE", "NOT GIVEN"],
+        "answer": "FALSE",
+        "why": "Step 7: the small word 'All' is the problem. The passage says 'most', not 'all', so the line contradicts the statement. The answer is FALSE, not TRUE.",
+        "evidence": "most of them are for children"
+      }
     ],
     "tricks": [
       "Use this order every time: first look for a line that agrees (True), then for a line that says the opposite (False), and only then choose Not Given.",
@@ -101,6 +162,37 @@
       { "do": "If the writer gives no view on this idea, answer Not Given.", "why": "Not Given means the writer is silent on this point. Do not guess their opinion." },
       { "do": "Check who is speaking. Make sure the opinion belongs to the writer, not someone else.", "why": "Passages often quote experts. The question asks only about the writer." }
     ],
+    "demo": {
+      "prompt": "Statement: The writer believes cars should be banned from city centres. Is this YES, NO or NOT GIVEN?",
+      "text": "A: Some people think cars should be banned from city centres. Dr Patel argues that this would reduce pollution and noise. B: The writer disagrees with a total ban, because many people still need a car to reach work. Buses and taxis, however, should be given priority on the busiest roads.",
+      "moves": [
+        { "step": 1, "say": "I underline the keywords: writer, cars, banned, city centres. This question is about the writer's view, not anyone else's.", "mark": "banned from city centres" },
+        { "step": 2, "say": "I find the topic in paragraph A. It is about banning cars, so I look near it for the writer's own view.", "mark": "should be banned from city centres" },
+        { "step": 3, "say": "I read the whole paragraph. I look for opinion words such as 'argues' and 'disagrees', and I note who says each one.", "mark": "Dr Patel argues that this would reduce pollution and noise." },
+        { "step": 4, "say": "Does the writer clearly agree? The writer does not say cars should be banned, so the answer is not YES.", "mark": "The writer disagrees with a total ban" },
+        { "step": 5, "say": "Does the writer clearly disagree? Yes, the writer disagrees with a total ban. So the answer is NO.", "mark": "The writer disagrees with a total ban" },
+        { "step": 7, "say": "Before I answer, I check who is speaking. Dr Patel's view does not count, because the question asks only about the writer.", "mark": "Dr Patel argues that this would reduce pollution and noise." }
+      ],
+      "answer": "NO. The writer disagrees with a total ban. Dr Patel's view does not count."
+    },
+    "practice": [
+      {
+        "prompt": "Statement: The writer thinks libraries have become community centres. Use the steps: find the writer's own view, not a critic's. Is this YES, NO or NOT GIVEN?",
+        "text": "A: Libraries are not just places for books any more. The writer believes they are now community centres. B: Many libraries run computer classes and baby groups. Some critics say this distracts from reading, but the writer rejects that view.",
+        "options": ["YES", "NO", "NOT GIVEN"],
+        "answer": "YES",
+        "why": "Step 4: the line 'The writer believes they are now community centres' agrees with the statement. The critics are not the writer, so their view does not change the answer.",
+        "evidence": "The writer believes they are now community centres."
+      },
+      {
+        "prompt": "Statement: The writer thinks the high street will decline within ten years. Use the steps, and check who holds the view. Is this YES, NO or NOT GIVEN?",
+        "text": "A: Professor Lin says that the high street will decline sharply within ten years. She bases this on sales figures from the last decade. B: The writer describes three shops that opened this year, and says the local council is pleased with them. The writer does not say what the future holds for the high street.",
+        "options": ["YES", "NO", "NOT GIVEN"],
+        "answer": "NOT GIVEN",
+        "why": "Step 7: the decline view belongs to Professor Lin, a quoted expert, not the writer. Step 6: the writer says nothing about the future, so the answer is NOT GIVEN.",
+        "evidence": "The writer does not say what the future holds for the high street."
+      }
+    ],
     "tricks": [
       "Use the same three-way test as True / False / Not Given: agree, the opposite, or silent.",
       "Look for opinion words like 'argues', 'claims', 'believes', 'suggests' and 'it seems'. They show where views are given.",
@@ -150,6 +242,40 @@
       { "do": "Choose the option that matches the passage in meaning, even if the words are different.", "why": "The right answer is usually a paraphrase, not a copy of the passage." },
       { "do": "Check your choice against the passage once more. Can you point to the proof?", "why": "A final check catches careless mistakes." },
       { "do": "If you must pick more than one answer, choose exactly the number asked. Their order does not matter.", "why": "Choosing too many or too few answers loses marks." }
+    ],
+    "demo": {
+      "prompt": "What is the main benefit of machine-made lenses, according to the passage? A. Workers train for seven years B. Machines cut production time in half C. Photographers prefer machine lenses because the edges are softer D. Machine lenses are always better than hand-ground ones",
+      "text": "Lenses in old cameras were ground by hand. The workers who made them often trained for seven years. Today most lenses are made by machines, which cut production time in half. Some photographers still prefer hand-ground lenses because they say the images have softer edges.",
+      "moves": [
+        { "step": 1, "say": "I read the question first: what is the main benefit of machine-made lenses? I do not look at the options yet." },
+        { "step": 2, "say": "I underline 'machine-made' and 'benefit'. The machine sentence is the third one, so I go there.", "mark": "Today most lenses are made by machines" },
+        { "step": 3, "say": "I read around that sentence. It says machines cut production time in half. I still do not look at the options.", "mark": "which cut production time in half" },
+        { "step": 4, "say": "Now I read the options and cross out the wrong ones. A is true but not asked: it is about hand-making, not machines." },
+        { "step": 4, "say": "C is half right. 'Softer edges' is in the passage, but some photographers prefer hand-ground lenses for that reason, not machine ones." },
+        { "step": 4, "say": "D is too extreme. 'Always better' is far stronger than anything the passage says about quality." },
+        { "step": 5, "say": "Only B is left, and it matches the passage in meaning. The benefit is speed." },
+        { "step": 6, "say": "I check B against the passage. The line 'cut production time in half' proves it.", "mark": "cut production time in half" },
+        { "step": 7, "say": "The question asks for one answer, so I choose only B." }
+      ],
+      "answer": "B. Machines cut production time in half, which is the benefit the passage gives."
+    },
+    "practice": [
+      {
+        "prompt": "The Oakwood Trust planted trees in 2019. Why did it plant mostly oak trees? Use the steps to find the line that proves your answer. A. They were cheaper than other trees B. They grow well in the local clay soil C. Volunteers liked watering them most D. They survived better than every other kind",
+        "text": "The Oakwood Trust planted 300 trees in 2019. Most of them were oaks, because oaks grow well in the local clay soil. Volunteers watered the young trees each week for three summers. By 2024, nearly all of the trees had survived.",
+        "options": ["A. They were cheaper than other trees", "B. They grow well in the local clay soil", "C. Volunteers liked watering them most", "D. They survived better than every other kind"],
+        "answer": "B. They grow well in the local clay soil",
+        "why": "Step 2 finds the 'why' sentence. It says oaks grow well in the local clay soil. A is not in the text, C is not stated, and D is too extreme.",
+        "evidence": "oaks grow well in the local clay soil"
+      },
+      {
+        "prompt": "Why did Ella hire two bakers? Use the steps. Cross out each wrong option and give a reason. A. The lemon cake sells out most days B. The cafe could open earlier C. Ella enjoys meeting her regular customers D. The cafe is famous across the whole country",
+        "text": "Ella opened a small cafe in May. It is famous for its lemon cake, which sells out most days. She hired two bakers so the cafe could open earlier. Ella says the best part is meeting her regular customers.",
+        "options": ["A. The lemon cake sells out most days", "B. The cafe could open earlier", "C. Ella enjoys meeting her regular customers", "D. The cafe is famous across the whole country"],
+        "answer": "B. The cafe could open earlier",
+        "why": "A is true but not asked: it describes the cake, not why she hired bakers. D is too extreme. The line 'so the cafe could open earlier' gives the reason, so the answer is B.",
+        "evidence": "She hired two bakers so the cafe could open earlier."
+      }
     ],
     "tricks": [
       "Wrong options are often true but not asked. They are real facts from the passage, but they do not answer this question.",
