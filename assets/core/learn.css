@@ -12,6 +12,20 @@
 .note dl { display: grid; grid-template-columns: max-content 1fr; gap: .3rem 1rem; }
 .note dt { font-weight: 700; }
 .note dd { margin: 0; color: var(--muted); }
+.note .demo { list-style: none; padding-left: 0; }
+.note .move { margin: .6rem 0; padding: .6rem .8rem; background: var(--paper); border: 1px solid var(--line); border-radius: 10px; }
+.note .move p { margin: .3rem 0; }
+.note .move-label { display: inline-block; font-size: .8em; font-weight: 700; padding: .1rem .55rem; border: 1px solid var(--line); border-radius: 999px; }
+.note .quote { font-style: italic; overflow-wrap: anywhere; }
+.note .build { margin-top: .4rem; padding: .4rem .6rem; border-left: 4px solid var(--c, var(--accent)); overflow-wrap: anywhere; }
+.note .passage { padding: .6rem .8rem; background: var(--paper); border: 1px solid var(--line); border-radius: 10px; overflow-wrap: anywhere; }
+.note .practice { margin: .8rem 0; padding: .6rem .8rem; background: var(--paper); border: 1px solid var(--line); border-radius: 10px; overflow-wrap: anywhere; }
+.note .practice p { margin: .3rem 0; }
+.note .options { list-style: none; padding-left: 0; display: flex; flex-wrap: wrap; gap: .4rem; }
+.note .options li { padding: .1rem .6rem; border: 1px solid var(--line); border-radius: 999px; }
+.note details summary { display: inline-block; margin-top: .4rem; padding: .3rem .8rem; border: 1px solid var(--ink); border-radius: 8px; cursor: pointer; font-weight: 700; }
+.note details summary:focus-visible { outline: 3px solid var(--c, var(--accent)); outline-offset: 2px; }
+.note details[open] summary { margin-bottom: .4rem; }
 .learn-nav { display: flex; justify-content: space-between; gap: 1rem; margin: 1rem 0; }
 @media (max-width: 600px) {
   .note dl { grid-template-columns: 1fr; }

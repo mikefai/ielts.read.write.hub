@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { renderNote, renderIndex, mountLearn } from '../assets/core/learn.js';
+import { renderNote, renderIndex, mountLearn, renderDemo, renderPractice } from '../assets/core/learn.js';
 
 const note = (o = {}) => ({
   id: 'a', title: 'T', what: 'w',
@@ -45,4 +45,73 @@ test('mountLearn shows the index for a malformed hash', () => {
   const mount = {};
   mountLearn({ mount, notes: [note()], groups: [], win: { location: { hash: '#%E0%A4%A' }, addEventListener() {} } });
   assert.ok(mount.innerHTML.includes('href="#a"'));
+});
+
+const demoNote = (o = {}) => note({
+  demo: {
+    prompt: 'Which years?',
+    text: 'Sales rises sharply in 2019.',
+    moves: [
+      { step: 1, say: 'I underline the years.' },
+      { step: 1, say: 'Now I find the rise.', mark: 'rises sharply' },
+      { step: 3, say: 'I check the build.', build: 'Sales rises sharply.' },
+      { step: 4, say: 'Done.' },
+    ],
+    answer: 'Sales rises sharply.',
+  },
+  practice: [
+    { prompt: 'Find the rise. Use the steps.', text: 'Costs fell in 2020.', answer: 'ANSWER-ONLY', why: 'unique-why-text', options: ['TRUE', 'FALSE', 'NOT GIVEN'], evidence: 'Costs fell' },
+  ],
+  ...o,
+});
+
+test('renderDemo lists every move with its step label', () => {
+  const d = demoNote().demo;
+  const h = renderDemo(demoNote());
+  assert.match(h, /Watch how it(&#39;|')s done/);
+  assert.equal(h.split('Step 1').length - 1, 2);
+  assert.ok(h.includes('Step 3') && h.includes('Step 4'));
+  let at = 0;
+  for (const m of d.moves) { const j = h.indexOf(m.say, at); assert.ok(j >= at, m.say); at = j; }
+});
+
+test('renderDemo highlights marks and shows build', () => {
+  const h = renderDemo(demoNote());
+  assert.ok(h.includes('<mark>rises sharply</mark>'));
+  assert.ok(h.includes('So far') && h.includes('Sales rises sharply.'));
+});
+
+test('renderDemo escapes markup', () => {
+  const h = renderDemo(note({ demo: { prompt: 'p', moves: [{ step: 1, say: 'Check <b>"all"</b> & "only"' }], answer: 'a' } }));
+  assert.ok(h.includes('&lt;b&gt;'));
+  assert.ok(!h.includes('<b>"all"'));
+});
+
+test('renderPractice hides the answer inside details', () => {
+  const h = renderPractice(demoNote());
+  assert.match(h, /Your turn/);
+  assert.ok(h.includes('Show the answer'));
+  const d = h.indexOf('<details');
+  assert.ok(d > 0);
+  assert.ok(h.indexOf('ANSWER-ONLY') > d);
+  assert.ok(h.indexOf('unique-why-text') > d);
+});
+
+test('renderPractice shows options and marks evidence', () => {
+  const h = renderPractice(demoNote());
+  for (const o of ['TRUE', 'FALSE', 'NOT GIVEN']) assert.ok(h.includes(o), o);
+  const d = h.indexOf('<details');
+  assert.ok(h.indexOf('<mark>Costs fell</mark>') > d);
+});
+
+test('renderNote omits demo and practice when absent', () => {
+  const h = renderNote(note());
+  for (const s of ['Your turn', 'Watch how', 'undefined']) assert.ok(!h.includes(s), s);
+});
+
+test('renderNote orders sections', () => {
+  const h = renderNote(demoNote());
+  const at = ['Do it in this order', 'Watch how', 'Your turn', 'Tricks'].map(s => h.indexOf(s));
+  assert.ok(at.every(i => i >= 0));
+  assert.ok(at[0] < at[1] && at[1] < at[2] && at[2] < at[3]);
 });

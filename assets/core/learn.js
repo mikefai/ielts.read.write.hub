@@ -2,13 +2,14 @@
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const list = (a, cls, label) => `<ul>${a.map(t => `<li class="${cls}"><b>${label}:</b> ${esc(t)}</li>`).join('')}</ul>`;
 const sec = (h, body) => `<section><h2>${h}</h2>${body}</section>`;
+const markIn = (t, ev) => ev && t.includes(ev) ? t.replace(ev, `<mark>${ev}</mark>`) : t; // t, ev already escaped
 
 function example(ex) {
   if (!ex) return '';
   let b;
   if (ex.text != null) {
     const t = esc(ex.text), ev = esc(ex.evidence || '');
-    b = `<p>${ev && t.includes(ev) ? t.replace(ev, `<mark>${ev}</mark>`) : t}</p>`
+    b = `<p>${markIn(t, ev)}</p>`
       + `<p><b>Question:</b> ${esc(ex.question)}</p><p><b>Answer:</b> ${esc(ex.answer)}</p>`
       + (ex.walk?.length ? `<ol>${ex.walk.map(w => `<li>${esc(w)}</li>`).join('')}</ol>` : '');
   } else {
@@ -17,10 +18,32 @@ function example(ex) {
   return sec('Worked example', `<div class="example">${b}</div>`);
 }
 
+export function renderDemo(n) {
+  const d = n.demo;
+  if (!d) return '';
+  const moves = d.moves.map(m => `<li class="move"><span class="move-label">Step ${m.step}</span><p>${esc(m.say)}</p>`
+    + (m.mark ? `<p class="quote">"<mark>${esc(m.mark)}</mark>"</p>` : '')
+    + (m.build ? `<div class="build"><b>So far:</b> ${esc(m.build)}</div>` : '') + '</li>').join('');
+  return sec("Watch how it's done", `<p><b>Prompt:</b> ${esc(d.prompt)}</p>`
+    + (d.text ? `<p class="passage">${esc(d.text)}</p>` : '')
+    + `<ol class="demo">${moves}</ol><p><b>Answer:</b> ${esc(d.answer)}</p>`);
+}
+
+export function renderPractice(n) {
+  if (!n.practice?.length) return '';
+  return sec('Your turn', n.practice.map((p, i) => `<div class="practice"><p><b>Try ${i + 1}</b></p><p>${esc(p.prompt)}</p>`
+    + (p.text ? `<p class="passage">${esc(p.text)}</p>` : '')
+    + (p.options?.length ? `<ul class="options">${p.options.map(o => `<li>${esc(o)}</li>`).join('')}</ul>` : '')
+    + `<details><summary>Show the answer</summary><p><b>Answer:</b> ${esc(p.answer)}</p><p><b>Why:</b> ${esc(p.why)}</p>`
+    + (p.text && p.evidence ? `<p><b>Evidence:</b></p><p class="passage">${markIn(esc(p.text), esc(p.evidence))}</p>` : '')
+    + '</details></div>').join(''));
+}
+
 export function renderNote(n) {
   return `<article class="note"><h1>${esc(n.title)}</h1>`
     + sec('What this is', `<p>${esc(n.what)}</p>`)
     + sec('Do it in this order', `<ol>${n.steps.map(s => `<li class="step"><b>${esc(s.do)}</b><span>${esc(s.why)}</span></li>`).join('')}</ol>`)
+    + renderDemo(n) + renderPractice(n)
     + (n.tricks?.length ? sec('Tricks', list(n.tricks, 'trick', 'Trick')) : '')
     + (n.traps?.length ? sec('Traps to avoid', list(n.traps, 'trap', 'Trap')) : '')
     + example(n.example)
