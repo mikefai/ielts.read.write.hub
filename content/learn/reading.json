@@ -997,6 +997,109 @@
         "why": "A heading that fits only a small detail is a wrong answer."
       }
     ],
+    "demo": {
+      "prompt": "Headings: i) What happened to the railway line after it closed. ii) Steam engines and the coal they carried. iii) Who uses the new walking path. iv) Plans for new trees and wildlife along the route. v) The history of the town's bus station. Match paragraphs A, B and C to a heading each. Two headings are not used.",
+      "text": "A: The railway through Hale Valley closed in 1968. Steam engines had pulled coal wagons along the line for decades. After the closure, the track lay unused, and weeds grew between the rails for thirty years. B: Walkers and cyclists now use the new path every day. Many say it is the safest way to reach school. Local cafes have also reported more customers since the path opened. C: The council plans to plant two hundred trees along the route. Birds have already returned to the bushes near the track. Wildlife experts expect the area to look very different by 2030.",
+      "moves": [
+        {
+          "step": 1,
+          "say": "I read the five headings first. I underline the key words in each one, so I know what to look for."
+        },
+        {
+          "step": 2,
+          "say": "This task has no example, so there is no heading to cross out yet. I go to the passage."
+        },
+        {
+          "step": 3,
+          "say": "I read the first sentence of A. It tells me the railway closed, so this paragraph is about the line.",
+          "mark": "The railway through Hale Valley closed in 1968."
+        },
+        {
+          "step": 3,
+          "say": "I read the last sentence of A. It says the track was left unused, which supports the same main idea.",
+          "mark": "After the closure, the track lay unused, and weeds grew between the rails for thirty years."
+        },
+        {
+          "step": 3,
+          "say": "B's first sentence tells me the main idea: people are using the path.",
+          "mark": "Walkers and cyclists now use the new path every day."
+        },
+        {
+          "step": 3,
+          "say": "C's first sentence names the council's plan. That is where its main idea starts.",
+          "mark": "The council plans to plant two hundred trees along the route."
+        },
+        {
+          "step": 4,
+          "say": "I skim the middle of A. This sentence is a detail about the past, not the whole paragraph.",
+          "mark": "Steam engines had pulled coal wagons along the line for decades."
+        },
+        {
+          "step": 4,
+          "say": "I skim the middle of C. It supports the wildlife idea, so the main idea stays the same.",
+          "mark": "Birds have already returned to the bushes near the track."
+        },
+        {
+          "step": 5,
+          "say": "A is about the line closing and lying unused. Heading i says that in other words, so A gets i.",
+          "mark": "The railway through Hale Valley closed in 1968."
+        },
+        {
+          "step": 5,
+          "say": "B is about people using the path. Heading iii matches, so B gets iii.",
+          "mark": "Walkers and cyclists now use the new path every day."
+        },
+        {
+          "step": 5,
+          "say": "C is about plans for trees and wildlife. Heading iv matches, so C gets iv.",
+          "mark": "The council plans to plant two hundred trees along the route."
+        },
+        {
+          "step": 6,
+          "say": "I cross out i, iii and iv, because each one is now used. Heading ii and heading v are still open."
+        },
+        {
+          "step": 7,
+          "say": "Heading ii fits only one sentence in A, not the whole paragraph. A detail is a trap, so I reject it.",
+          "mark": "Steam engines had pulled coal wagons along the line for decades."
+        },
+        {
+          "step": 7,
+          "say": "Heading v is about a bus station, and no paragraph mentions one. So it is wrong too, and I leave it unused."
+        }
+      ],
+      "answer": "A: heading i (what happened to the railway line after it closed). B: heading iii (who uses the new walking path). C: heading iv (plans for new trees and wildlife along the route). Heading ii is a detail trap, and heading v is not used."
+    },
+    "practice": [
+      {
+        "prompt": "Which heading fits paragraph B? Use the steps: read the first and last sentence, then check the whole paragraph. Write the full heading.",
+        "text": "A: The community garden was started in 2015 by six neighbours who wanted fresh vegetables. Today it has forty plots, and each family pays a small yearly fee. B: Volunteers meet on the first Saturday of every month to repair the fences and water the paths. Many of them say these meetings are the best part of the week. C: Next spring the garden will add a greenhouse, which will let members grow tomatoes in colder months. The money for it has already been raised.",
+        "options": [
+          "How a community garden was started and how it has grown",
+          "How volunteers keep the garden in good repair",
+          "Plans for a new greenhouse next spring",
+          "The cost of buying vegetables in local shops",
+          "Which vegetables grow best in cold weather"
+        ],
+        "answer": "How volunteers keep the garden in good repair",
+        "why": "Steps 3 and 4: the first sentence of B says volunteers meet to repair fences, and the last says the meetings matter. The whole paragraph is about their work. The vegetable headings only copy words from A or C.",
+        "evidence": "Volunteers meet on the first Saturday of every month to repair the fences and water the paths."
+      },
+      {
+        "prompt": "Which heading fits paragraph C? Use the steps. Check that the heading covers the whole paragraph, not only the first or last sentence.",
+        "text": "A: The school library was once a storeroom for old desks and broken chairs. In 2018 the head teacher turned it into a bright reading room with beanbags and shelves. B: Pupils now borrow more than three hundred books a term, which is double the number from before the change. Teachers say that children who read more often write better stories. C: Not every pupil enjoys reading, however. The school has started a club where students choose the books, so the choice belongs to them. Attendance at the club has grown steadily since its first meeting.",
+        "options": [
+          "How the old storeroom became a reading room",
+          "Why some pupils do not enjoy reading",
+          "A reading club that lets pupils choose their own books",
+          "Why attendance at the club keeps growing",
+          "Ways to write better stories in class"
+        ],
+        "answer": "A reading club that lets pupils choose their own books",
+        "why": "Step 7: C opens with a problem, then the rest answers it with the club. 'Why some pupils do not enjoy reading' covers only the first sentence. 'Why attendance keeps growing' covers only the last one.",
+        "evidence": "The school has started a club where students choose the books, so the choice belongs to them."
+      }
+    ],
     "tricks": [
       "Do the easy paragraphs first. Every heading you cross out makes the hard paragraphs easier.",
       "Read the first and last sentence before anything else. You often find the answer without reading the middle.",
@@ -1078,6 +1181,82 @@
       {
         "do": "Check each answer against the whole statement. Do not avoid a letter just because you used it before.",
         "why": "Letters can repeat, so a used letter can still be right."
+      }
+    ],
+    "demo": {
+      "prompt": "Statement: The number of visitors grew after the museum stopped charging for entry. Write the letter of the paragraph, A, B or C. You may use a letter more than once.",
+      "text": "A: The Lantern Museum opened in 1985 in a former mill. Its first exhibition showed old looms and the wool trade of the town. B: For many years entry cost five pounds, and few families could afford it. Visitor numbers stayed below ten thousand a year. C: In 2019 the museum removed its entry fee and began offering free school tours. Within a year, visitors had more than doubled, and the museum now welcomes around thirty thousand people annually.",
+      "moves": [
+        {
+          "step": 1,
+          "say": "The rule says a letter can be used more than once. So I will not cross out any letter in this task."
+        },
+        {
+          "step": 2,
+          "say": "I underline the key words in the statement: grew, and stopped charging. These are my search words."
+        },
+        {
+          "step": 3,
+          "say": "I think of other words. Stopped charging could mean no longer asking people to pay at the door."
+        },
+        {
+          "step": 4,
+          "say": "I skim the paragraphs for the topic, which is money at the door. Paragraph B mentions entry cost, so I look there first.",
+          "mark": "For many years entry cost five pounds, and few families could afford it."
+        },
+        {
+          "step": 5,
+          "say": "I read B carefully. It shows the old price and low numbers, but no growth after a change. So B is not the answer.",
+          "mark": "Visitor numbers stayed below ten thousand a year."
+        },
+        {
+          "step": 5,
+          "say": "Now I read C closely. The change in 2019 matches stopped charging.",
+          "mark": "In 2019 the museum removed its entry fee and began offering free school tours."
+        },
+        {
+          "step": 5,
+          "say": "The next sentence shows the result: visitors more than doubled. That matches grew.",
+          "mark": "Within a year, visitors had more than doubled"
+        },
+        {
+          "step": 6,
+          "say": "I write C beside the statement and move on to the next one."
+        },
+        {
+          "step": 7,
+          "say": "I check the whole statement against C. Stopped charging and grew both match, so the answer is C.",
+          "mark": "Within a year, visitors had more than doubled"
+        }
+      ],
+      "answer": "C. The museum removed its entry fee in 2019, and visitors more than doubled within a year."
+    },
+    "practice": [
+      {
+        "prompt": "Statement: The number of fishing boats fell after fish stocks in the sea declined. Which paragraph, A to D, contains this? Use the steps: find the paraphrase, then the exact detail.",
+        "text": "A: Hollis Bay has been a fishing port for more than two hundred years. Its harbour wall was built stone by stone by the town's first harbour masters. B: The fishing fleet shrank after 1990, because the cod stocks fell sharply. Many boats were sold, and the young men of the town moved away to find work. Only nine boats now sail from the bay. C: In 2004 the council opened a small seafood school in the old net store. Students learn to fillet fish, cook a simple meal and check the freshness of the catch. Over 500 students have completed the course. D: Tourism has grown steadily since 2010, when a new ferry linked the bay to the city. Visitors come to walk the cliffs and eat in the harbour cafes.",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "B",
+        "why": "Step 3: 'fish stocks declined' means the cod stocks fell, and 'boats fell' means the fleet shrank. Both are in B. Paragraph C mentions fish, but only as a school course, so it is a word-match trap.",
+        "evidence": "because the cod stocks fell sharply"
+      },
+      {
+        "prompt": "Statement: Some young people left the bay to look for work elsewhere. Which paragraph, A to D, contains this? A letter may be used more than once, so do not rule out a letter you have already used.",
+        "text": "A: Hollis Bay has been a fishing port for more than two hundred years. Its harbour wall was built stone by stone by the town's first harbour masters. B: The fishing fleet shrank after 1990, because the cod stocks fell sharply. Many boats were sold, and the young men of the town moved away to find work. Only nine boats now sail from the bay. C: In 2004 the council opened a small seafood school in the old net store. Students learn to fillet fish, cook a simple meal and check the freshness of the catch. Over 500 students have completed the course. D: Tourism has grown steadily since 2010, when a new ferry linked the bay to the city. Visitors come to walk the cliffs and eat in the harbour cafes.",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "B",
+        "why": "Step 7: B says the young men moved away to find work, the same idea as young people leaving for work. Letters can repeat, so B is right again. D is about visitors, not work.",
+        "evidence": "the young men of the town moved away to find work"
       }
     ],
     "tricks": [
@@ -1163,6 +1342,81 @@
         "why": "The statements are not in order, so skipping costs nothing."
       }
     ],
+    "demo": {
+      "prompt": "Features: A Ms Okafor, B Mr Lindqvist, C Dr Patel. Statement: Someone thinks the road will damage the valley's animals. Write A, B or C. You may use a letter more than once.",
+      "text": "Ms Okafor argues that the new road will bring jobs to the region. Mr Lindqvist, however, doubts that the road will bring any real benefit, and he fears it will harm the wildlife in the valley. Dr Patel suggests that a tunnel would be better than a road across the hills.",
+      "moves": [
+        {
+          "step": 1,
+          "say": "I read the rule. A feature can be used more than once, so I will not cross out any letter yet."
+        },
+        {
+          "step": 2,
+          "say": "I underline each name in the passage. Names are my map, so I find them first.",
+          "mark": "Ms Okafor argues that the new road will bring jobs to the region."
+        },
+        {
+          "step": 2,
+          "say": "Mr Lindqvist and Dr Patel appear in the next two sentences. I underline each name every time it shows up.",
+          "mark": "Mr Lindqvist, however, doubts that the road will bring any real benefit, and he fears it will harm the wildlife in the valley."
+        },
+        {
+          "step": 3,
+          "say": "I think of other words. Damage could mean harm, and animals could mean wildlife."
+        },
+        {
+          "step": 4,
+          "say": "The road is a key word, so I check the sentence near each name. Ms Okafor's sentence is about road jobs, not harm.",
+          "mark": "Ms Okafor argues that the new road will bring jobs to the region."
+        },
+        {
+          "step": 5,
+          "say": "Mr Lindqvist's sentence has the verb fears. A fear that the road will harm nature matches the statement.",
+          "mark": "he fears it will harm the wildlife in the valley"
+        },
+        {
+          "step": 5,
+          "say": "Dr Patel's sentence is about a tunnel, a different idea. So I rule Dr Patel out.",
+          "mark": "Dr Patel suggests that a tunnel would be better than a road across the hills."
+        },
+        {
+          "step": 6,
+          "say": "I write B, Mr Lindqvist, beside the statement. B is my answer."
+        },
+        {
+          "step": 7,
+          "say": "I check the whole statement. The opinion verb fears matches the idea of damage, so B is correct.",
+          "mark": "he fears it will harm the wildlife in the valley"
+        }
+      ],
+      "answer": "B (Mr Lindqvist). He fears the road will harm the wildlife; the other two speakers do not say this."
+    },
+    "practice": [
+      {
+        "prompt": "Claim: Working from home saves time and makes staff happier. Which speaker agrees? Use the steps: find each name, then check the opinion verb. Write the full name.",
+        "text": "Ruth Calder believes that people work best in an office, where they can share ideas quickly. Tom Amari, by contrast, claims that home working saves time and makes staff happier. Nadia Ruiz says the best solution is a mix, with two days at home and three in the office.",
+        "options": [
+          "Ruth Calder",
+          "Tom Amari",
+          "Nadia Ruiz"
+        ],
+        "answer": "Tom Amari",
+        "why": "Step 5: 'claims' is an opinion verb, and Tom's claim matches the statement word for word in meaning. Ruth prefers the office and Nadia wants a mix, so neither agrees with the claim.",
+        "evidence": "Tom Amari, by contrast, claims that home working saves time and makes staff happier."
+      },
+      {
+        "prompt": "Claim: The railway was profitable for a long time before it closed. Which speaker holds this view? Use the steps: watch for a speaker who opposes the idea, and check the verb. Write the full name.",
+        "text": "Dr Hughes insists that the old railway was never profitable, and says it should have closed decades earlier. Priya Shah disagrees: she believes the railway was profitable until a bus company undercut it. Ben Walsh, who worked on the line for years, says the closure was the real mistake, not the railway itself.",
+        "options": [
+          "Dr Hughes",
+          "Priya Shah",
+          "Ben Walsh"
+        ],
+        "answer": "Priya Shah",
+        "why": "Step 5: Dr Hughes says the railway was never profitable, the opposite of the claim. Ben Walsh judges the closure, not the profit. Only Priya's verb 'believes' and her words match a long profitable period.",
+        "evidence": "she believes the railway was profitable until a bus company undercut it"
+      }
+    ],
     "tricks": [
       "Underline every name in the passage first. The names are your map, so the rest is quick.",
       "Look for opinion verbs: argues, believes, claims, suggests, doubts. They link a person to an idea.",
@@ -1244,6 +1498,83 @@
       {
         "do": "Read each finished sentence. Confirm it with a line from the passage.",
         "why": "A line in the passage proves your answer is right, not a guess."
+      }
+    ],
+    "demo": {
+      "prompt": "Sentence start: The bridge was closed for six months because... Endings: A engineers found cracks in its arches. B the council wanted to save money. C to find the cracks in its arches. D the arches, which were built in 1900. Which ending, A to D, completes the sentence?",
+      "text": "The old bridge was closed in March for six months. During a routine check, engineers found serious cracks in its arches. The council said that the decision was about safety, not money.",
+      "moves": [
+        {
+          "step": 1,
+          "say": "I read the sentence start first. It ends with 'because', so the ending must give a reason."
+        },
+        {
+          "step": 2,
+          "say": "I underline the key words: bridge, closed, six months. These take me to the passage."
+        },
+        {
+          "step": 3,
+          "say": "Grammar first. After 'because' I need a full clause, so option C, starting with 'to', fails."
+        },
+        {
+          "step": 3,
+          "say": "Option D has no main verb. 'The arches, which were built in 1900' is not a full clause, so it fails too."
+        },
+        {
+          "step": 4,
+          "say": "I read the passage near the key words. It says a check found damage, so the reason is about the cracks.",
+          "mark": "During a routine check, engineers found serious cracks in its arches."
+        },
+        {
+          "step": 4,
+          "say": "Option B gives money as the reason. The passage says the decision was about safety, not money, so B is wrong.",
+          "mark": "The council said that the decision was about safety, not money."
+        },
+        {
+          "step": 5,
+          "say": "Option A matches the passage line. I pick it because the meaning fits, not because it copies words.",
+          "mark": "During a routine check, engineers found serious cracks in its arches."
+        },
+        {
+          "step": 6,
+          "say": "I write A beside the start and cross it out from the list, because each ending is used once."
+        },
+        {
+          "step": 7,
+          "say": "I read the full sentence and confirm it with a line from the passage. The line proves that A is right.",
+          "mark": "During a routine check, engineers found serious cracks in its arches."
+        }
+      ],
+      "answer": "A. The bridge was closed for six months because engineers found cracks in its arches."
+    },
+    "practice": [
+      {
+        "prompt": "Sentence start: The organisers moved the stalls indoors because... Which ending completes it? Use the steps: grammar first, then meaning, then a line from the passage. Write the full ending.",
+        "text": "The village festival is usually held on the green. This year, however, heavy rain soaked the grass on the morning of the event. The organisers moved the stalls into the village hall, where everything could stay dry. Visitors said the hall felt crowded, but most of them stayed until the evening. Next year the committee plans to build a covered area on the green, so that the festival can go ahead in any weather.",
+        "options": [
+          "to keep everything dry",
+          "heavy rain had soaked the grass",
+          "visitors said the hall felt crowded",
+          "most visitors stayed until the evening",
+          "the festival can go ahead in any weather"
+        ],
+        "answer": "heavy rain had soaked the grass",
+        "why": "Step 3: 'because to keep everything dry' is not grammar, so it goes. 'Visitors said the hall felt crowded' is a later fact, not the reason. The passage says heavy rain soaked the grass, which is the reason.",
+        "evidence": "heavy rain soaked the grass on the morning of the event"
+      },
+      {
+        "prompt": "Sentence start: The committee plans to build a covered area on the green, so that... Use the steps. Check the grammar, then find the purpose in the last sentence. Write the full ending.",
+        "text": "The village festival is usually held on the green. This year, however, heavy rain soaked the grass on the morning of the event. The organisers moved the stalls into the village hall, where everything could stay dry. Visitors said the hall felt crowded, but most of them stayed until the evening. Next year the committee plans to build a covered area on the green, so that the festival can go ahead in any weather.",
+        "options": [
+          "to keep everything dry",
+          "heavy rain had soaked the grass",
+          "visitors said the hall felt crowded",
+          "most visitors stayed until the evening",
+          "the festival can go ahead in any weather"
+        ],
+        "answer": "the festival can go ahead in any weather",
+        "why": "Step 3: 'so that to keep everything dry' fails, because 'so that' needs a full clause. 'Most visitors stayed' is a fact about the past, not the purpose. The last sentence gives the purpose.",
+        "evidence": "so that the festival can go ahead in any weather"
       }
     ],
     "tricks": [
