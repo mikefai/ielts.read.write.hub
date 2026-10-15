@@ -1,0 +1,171 @@
+{
+  "id": "w1-table",
+  "task": 1,
+  "title": "Tourism in five coastal cities",
+  "prompt": "The table below gives information about tourism in five coastal cities in 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "chart": {
+    "kind": "table",
+    "title": "Tourism statistics for five coastal cities, 2023",
+    "source": "Adapted tourism board data",
+    "corner": "City",
+    "columns": [
+      "Visitors (millions)",
+      "Average stay (nights)",
+      "Spending per visit (£)",
+      "Hotel occupancy (%)"
+    ],
+    "rows": [
+      {
+        "label": "Valmere",
+        "values": [
+          4.2,
+          3.1,
+          285,
+          78
+        ]
+      },
+      {
+        "label": "Port Kessing",
+        "values": [
+          2.8,
+          5.4,
+          410,
+          71
+        ]
+      },
+      {
+        "label": "Hartlen",
+        "values": [
+          6.5,
+          2.2,
+          190,
+          84
+        ]
+      },
+      {
+        "label": "Dunmere",
+        "values": [
+          1.9,
+          6.8,
+          365,
+          63
+        ]
+      },
+      {
+        "label": "Strand Bay",
+        "values": [
+          3.6,
+          4.1,
+          240,
+          69
+        ]
+      }
+    ]
+  },
+  "model": {
+    "paragraphs": [
+      {
+        "name": "Introduction",
+        "sentences": [
+          {
+            "role": "paraphrase",
+            "text": "The table compares five coastal cities in terms of visitor numbers, length of stay, spending and hotel occupancy in 2023.",
+            "why": "Paraphrases the table title and names the four measures in one sentence. \"In terms of\" and \"length of stay\" replace the original wording, earning Task Achievement and Lexical Resource without including any figures."
+          }
+        ]
+      },
+      {
+        "name": "Overview",
+        "sentences": [
+          {
+            "role": "overview-main",
+            "text": "Overall, the cities that attracted the most visitors tended to have the shortest stays and the lowest spending per visit.",
+            "why": "States the pattern across rows and columns, which is the key insight in a table. \"Tended to\" is accurately cautious because the link is not perfect, and no numbers appear, as the overview rule requires for Task Achievement."
+          },
+          {
+            "role": "overview-second",
+            "text": "Hartlen was the busiest destination, whereas Port Kessing earned the most from each tourist.",
+            "why": "Picks two stand-out cities, one for volume and one for value, and contrasts them with \"whereas\". This shows selection rather than a list of five rows, and supports Coherence and Task Achievement."
+          }
+        ]
+      },
+      {
+        "name": "Body 1",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "Hartlen and Valmere drew the largest crowds of the five cities.",
+            "why": "A topic sentence that groups two rows by the first column. \"Drew the largest crowds\" is a varied paraphrase of \"had the most visitors\", showing Lexical Resource and giving the paragraph one clear theme for Coherence."
+          },
+          {
+            "role": "key-figures",
+            "text": "Hartlen received 6.5 million visitors, well ahead of Valmere with 4.2 million.",
+            "why": "Reports the exact top two figures with units and a comparative phrase, \"well ahead of\". The two values are accurate and the participial structure adds range, so the sentence earns Task Achievement and Grammatical Range."
+          },
+          {
+            "role": "comparison",
+            "text": "However, tourists in Hartlen stayed for only 2.2 nights and spent just £190 per visit, the lowest figures in the table.",
+            "why": "\"However\" reverses expectation and \"the lowest figures in the table\" ranks two columns at once. Moving across columns for one city is typical of strong table reports and earns Task Achievement and Coherence."
+          },
+          {
+            "role": "trend-detail",
+            "text": "Its hotels were nonetheless the fullest, at 84 per cent occupancy, compared with 78 per cent in Valmere.",
+            "why": "\"Nonetheless\" links back to the low spending and the comparison with Valmere rounds off the group. Correct use of \"per cent\" and a superlative with a precise figure demonstrates both accuracy and Lexical Resource."
+          }
+        ]
+      },
+      {
+        "name": "Body 2",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "Port Kessing and Dunmere were much quieter but more lucrative for each visitor.",
+            "why": "Introduces the contrasting group and signals the link with Body 1 through \"but more lucrative\". The adjective shows precise Lexical Resource, and the grouping by pattern rather than row order earns Coherence and Cohesion."
+          },
+          {
+            "role": "key-figures",
+            "text": "Port Kessing welcomed 2.8 million visitors, who stayed 5.4 nights on average and spent the most, at £410 each.",
+            "why": "Combines three data points for one city in a single sentence with a relative clause. \"The most\" ties directly to the overview claim, and the figures match the table, supporting Task Achievement and Grammatical Range."
+          },
+          {
+            "role": "comparison",
+            "text": "Dunmere attracted the fewest visitors, at 1.9 million, but they stayed longest, for 6.8 nights, and spent £365.",
+            "why": "Uses two superlatives, \"fewest\" and \"longest\", to place Dunmere at both extremes of the table. The coordination of three facts is accurate and efficient, showing selection, comparison and Grammatical Range."
+          },
+          {
+            "role": "closing-detail",
+            "text": "Its hotel occupancy, at 63 per cent, was also the lowest of the five cities.",
+            "why": "A closing detail that adds a final superlative for the fourth column. \"Also\" links it to the previous sentence and the figure is exact, completing Task Achievement without a conclusion or any unsupported explanation."
+          }
+        ]
+      }
+    ]
+  },
+  "guide": "task1-table",
+  "analysis": [
+    "The instruction is to select and report main features and make comparisons. A table has 20 cells here: describing each cell in turn is the most common reason table answers stall at Band 6.",
+    "Read both directions: down each column to find highest and lowest, and across each row to see how the measures relate. The strongest insight here is that more visitors goes with shorter stays and lower spending.",
+    "Paraphrase: \"gives information about\" becomes compares or presents data on; \"tourism\" becomes visitor numbers, stays and spending; \"coastal cities\" can stay as is or become seaside destinations.",
+    "Units differ by column (millions, nights, pounds, per cent). Attach the correct unit to every figure, and use \"per cent\" for occupancy but not for money or nights.",
+    "Group rows that behave alike: busy cities with short, cheap visits (Hartlen, Valmere) against quiet cities with long, expensive visits (Port Kessing, Dunmere). Strand Bay can be left out or mentioned briefly.",
+    "There is no time trend, so use one tense only (past simple, since the data are for 2023) and do not write \"increased\" or \"fell\". The table does not ask you to explain why the cities differ."
+  ],
+  "plan": [
+    {
+      "paragraph": "Introduction",
+      "idea": "Paraphrase only: the table compares five coastal cities on visitors, length of stay, spending and hotel occupancy in 2023."
+    },
+    {
+      "paragraph": "Overview",
+      "idea": "Busiest cities had the shortest stays and lowest spending; Hartlen busiest, Port Kessing highest spending per tourist. No figures."
+    },
+    {
+      "paragraph": "Body 1",
+      "idea": "Hartlen 6.5 million, Valmere 4.2 million. Hartlen: 2.2 nights, £190, but fullest hotels at 84 per cent against Valmere at 78."
+    },
+    {
+      "paragraph": "Body 2",
+      "idea": "Port Kessing 2.8 million, 5.4 nights, £410. Dunmere fewest visitors at 1.9 million but longest stay, 6.8 nights, £365, and lowest occupancy at 63 per cent."
+    }
+  ]
+}

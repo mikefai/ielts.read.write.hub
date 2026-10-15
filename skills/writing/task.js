@@ -75,6 +75,7 @@ function run(task, roles, meta, guide) {
       app.querySelectorAll('.gtabs button').forEach(x => x.setAttribute('aria-expanded', 'false'));
       b.setAttribute('aria-expanded', open); panel.hidden = !open; if (open) panel.innerHTML = panels[b.dataset.g];
     });
+    app.querySelector('.gtabs button[data-g="analyse"]').click(); // open by default so the left pane is never empty
   }
 
   const start = Date.now(); let left = minutes * 60;

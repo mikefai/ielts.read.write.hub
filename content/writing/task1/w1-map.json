@@ -1,0 +1,359 @@
+{
+  "id": "w1-map",
+  "task": 1,
+  "title": "Kelby Bay then and now",
+  "prompt": "The maps below show the seaside village of Kelby Bay in 1995 and today. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "chart": {
+    "kind": "map",
+    "title": "The village of Kelby Bay in 1995 and today",
+    "panels": [
+      {
+        "label": "1995",
+        "features": [
+          {
+            "type": "sea",
+            "points": [
+              [
+                0,
+                54
+              ],
+              [
+                100,
+                54
+              ],
+              [
+                100,
+                70
+              ],
+              [
+                0,
+                70
+              ]
+            ]
+          },
+          {
+            "type": "beach",
+            "points": [
+              [
+                0,
+                50
+              ],
+              [
+                100,
+                50
+              ],
+              [
+                100,
+                54
+              ],
+              [
+                0,
+                54
+              ]
+            ]
+          },
+          {
+            "type": "river",
+            "points": [
+              [
+                28,
+                0
+              ],
+              [
+                30,
+                18
+              ],
+              [
+                27,
+                34
+              ],
+              [
+                29,
+                50
+              ]
+            ]
+          },
+          {
+            "type": "road",
+            "points": [
+              [
+                0,
+                36
+              ],
+              [
+                100,
+                36
+              ]
+            ]
+          },
+          {
+            "type": "field",
+            "x": 58,
+            "y": 5,
+            "w": 34,
+            "h": 22,
+            "label": "Farmland"
+          },
+          {
+            "type": "houses",
+            "x": 6,
+            "y": 12,
+            "w": 16,
+            "h": 18
+          },
+          {
+            "type": "building",
+            "x": 38,
+            "y": 40,
+            "w": 18,
+            "h": 9,
+            "label": "Hotel"
+          },
+          {
+            "type": "trees",
+            "x": 68,
+            "y": 39,
+            "w": 24,
+            "h": 9,
+            "label": "Woodland"
+          },
+          {
+            "type": "pier",
+            "x": 14,
+            "y": 50,
+            "w": 4,
+            "h": 10,
+            "label": "Pier"
+          }
+        ]
+      },
+      {
+        "label": "Today",
+        "features": [
+          {
+            "type": "sea",
+            "points": [
+              [
+                0,
+                54
+              ],
+              [
+                100,
+                54
+              ],
+              [
+                100,
+                70
+              ],
+              [
+                0,
+                70
+              ]
+            ]
+          },
+          {
+            "type": "beach",
+            "points": [
+              [
+                0,
+                50
+              ],
+              [
+                100,
+                50
+              ],
+              [
+                100,
+                54
+              ],
+              [
+                0,
+                54
+              ]
+            ]
+          },
+          {
+            "type": "river",
+            "points": [
+              [
+                28,
+                0
+              ],
+              [
+                30,
+                18
+              ],
+              [
+                27,
+                34
+              ],
+              [
+                29,
+                50
+              ]
+            ]
+          },
+          {
+            "type": "road",
+            "points": [
+              [
+                0,
+                36
+              ],
+              [
+                100,
+                36
+              ]
+            ]
+          },
+          {
+            "type": "houses",
+            "x": 60,
+            "y": 8,
+            "w": 26,
+            "h": 16
+          },
+          {
+            "type": "houses",
+            "x": 6,
+            "y": 12,
+            "w": 16,
+            "h": 18
+          },
+          {
+            "type": "building",
+            "x": 34,
+            "y": 40,
+            "w": 26,
+            "h": 9,
+            "label": "Hotel"
+          },
+          {
+            "type": "carpark",
+            "x": 68,
+            "y": 39,
+            "w": 24,
+            "h": 9,
+            "label": "Car park"
+          },
+          {
+            "type": "pier",
+            "x": 14,
+            "y": 50,
+            "w": 4,
+            "h": 18,
+            "label": "Pier"
+          },
+          {
+            "type": "bridge",
+            "x": 24,
+            "y": 34,
+            "w": 8,
+            "h": 4
+          }
+        ]
+      }
+    ]
+  },
+  "model": {
+    "paragraphs": [
+      {
+        "name": "Introduction",
+        "sentences": [
+          {
+            "role": "paraphrase",
+            "text": "The two maps illustrate the changes that took place in the seaside village of Kelby Bay between 1995 and the present day.",
+            "why": "Paraphrases the question without copying: \"illustrate\" replaces \"show\", \"took place\" introduces the changes, and \"present day\" replaces \"today\". It states the time frame and place, earning Task Achievement and Lexical Resource."
+          }
+        ]
+      },
+      {
+        "name": "Overview",
+        "sentences": [
+          {
+            "role": "overview-main",
+            "text": "Overall, the village has become more developed, with farmland and woodland giving way to housing and parking.",
+            "why": "The overview names the overall transformation in one sentence. \"Giving way to\" is a natural change phrase, and no detail appears, which is what Task Achievement requires for a map overview."
+          },
+          {
+            "role": "overview-second",
+            "text": "However, the river, the main road and the beach are unchanged, so the basic layout of the village remains the same.",
+            "why": "Adds the contrast between what changed and what stayed constant, a feature maps always allow. \"However\" and \"remains\" give a balanced overview, supporting both Task Achievement and Coherence and Cohesion."
+          }
+        ]
+      },
+      {
+        "name": "Body 1",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "The most significant changes occurred north of the main road, where land has been converted for housing.",
+            "why": "A topic sentence grouping changes by area, with \"north of the main road\" giving a compass reference and a present perfect passive for the result. It earns Coherence and Cohesion and Grammatical Range."
+          },
+          {
+            "role": "change-detail",
+            "text": "In 1995, an area of farmland occupied the north-east of the village, but this has been replaced by a new housing estate.",
+            "why": "Describes one change with location, before and after. \"North-east\" matches the coordinates, \"but this has been replaced by\" is an accurate contrast, and the passive suits a map description. It earns Task Achievement and Grammatical Range."
+          },
+          {
+            "role": "change-detail",
+            "text": "In addition, a bridge has been built where the main road crosses the river, which runs between the older houses in the west and the new estate.",
+            "why": "Adds a second change with a relative clause that fixes the river relative to the two housing areas. \"Where the main road crosses the river\" gives precise location, supporting Task Achievement and Coherence."
+          }
+        ]
+      },
+      {
+        "name": "Body 2",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "Along the coast and in the south, facilities for visitors have been improved.",
+            "why": "Moves to the second area with a topic sentence that groups the remaining changes by location and purpose. \"Along the coast and in the south\" signals the shift in area, helping Coherence and Cohesion."
+          },
+          {
+            "role": "change-detail",
+            "text": "The hotel, which stood in the centre of the village between the road and the beach, has been enlarged to the east and west.",
+            "why": "Uses relative position, \"between the road and the beach\", and compass directions for the enlargement. The non-defining clause and the passive show Grammatical Range, and the details match the coordinates for Task Achievement."
+          },
+          {
+            "role": "change-detail",
+            "text": "The pier in the south-west has also been extended further into the sea.",
+            "why": "\"In the south-west\" is correct, because the pier lies at the small-x, large-y corner. \"Further into the sea\" shows the direction of the extension, and the present perfect passive reports the change accurately."
+          },
+          {
+            "role": "change-detail",
+            "text": "Finally, the woodland in the south-east has been cleared to make way for a car park.",
+            "why": "Closes with the last change using a sequencing word and a purpose phrase, \"to make way for\". The south-east position is correct, and the idiom shows Lexical Resource beyond simple \"replaced by\"."
+          }
+        ]
+      }
+    ]
+  },
+  "guide": "task1-map",
+  "analysis": [
+    "The instruction is to select and report main features and make comparisons. For two maps this means describing what changed, what stayed the same and where, rather than listing every symbol on each map.",
+    "Locate everything with a compass: north is the top of the map, so the farmland is in the north-east, the pier is in the south-west and the woodland is in the south-east. Use fixed features (river, road, sea) as reference points.",
+    "Paraphrase: \"maps show\" becomes illustrate or depict; \"seaside village\" can stay or become a coastal settlement; \"1995 and today\" becomes between 1995 and the present day.",
+    "Key changes to cover: farmland replaced by housing; woodland replaced by a car park; hotel enlarged; pier extended; bridge built across the river. The river, road and beach did not change.",
+    "Group changes by area, not by order on the map: north of the road (housing and bridge) in one body paragraph, the coast and south (hotel, pier, car park) in the other. Use the passive and present perfect, since the maps describe a past-to-now change.",
+    "The question does not ask why the village changed or whether the changes are good. Do not mention tourism trends, population or opinion."
+  ],
+  "plan": [
+    {
+      "paragraph": "Introduction",
+      "idea": "Paraphrase: the maps illustrate changes to the seaside village of Kelby Bay between 1995 and the present day."
+    },
+    {
+      "paragraph": "Overview",
+      "idea": "The village has become more developed (farmland and woodland replaced by housing and parking); river, road and beach unchanged."
+    },
+    {
+      "paragraph": "Body 1",
+      "idea": "North of the road: north-east farmland replaced by a housing estate; new bridge where the road crosses the river, between old houses (west) and the estate."
+    },
+    {
+      "paragraph": "Body 2",
+      "idea": "Coast and south: central hotel enlarged east and west; south-west pier extended into the sea; south-east woodland cleared for a car park."
+    }
+  ]
+}

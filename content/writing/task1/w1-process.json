@@ -7,12 +7,30 @@
     "kind": "process",
     "title": "Stages in producing recycled paper at a mill",
     "stages": [
-      "Waste paper is collected and sorted by grade.",
-      "The paper is mixed with water and chemicals to form a pulp.",
-      "Ink and other contaminants are removed through screening and flotation.",
-      "The pulp is spread across a moving mesh to form a continuous sheet.",
-      "The sheet passes over heated rollers, which dry it.",
-      "The finished paper is wound onto reels and dispatched."
+      {
+        "text": "Waste paper is collected and sorted by grade.",
+        "icon": "truck"
+      },
+      {
+        "text": "The paper is mixed with water and chemicals to form a pulp.",
+        "icon": "drop"
+      },
+      {
+        "text": "Ink and other contaminants are removed through screening and flotation.",
+        "icon": "gear"
+      },
+      {
+        "text": "The pulp is spread across a moving mesh to form a continuous sheet.",
+        "icon": "factory"
+      },
+      {
+        "text": "The sheet passes over heated rollers, which dry it.",
+        "icon": "flame"
+      },
+      {
+        "text": "The finished paper is wound onto reels and dispatched.",
+        "icon": "box"
+      }
     ]
   },
   "model": {

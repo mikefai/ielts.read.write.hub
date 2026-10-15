@@ -1,4 +1,4 @@
-import { getJSON, esc, mmss, helpHtml, wireHelp } from './runner.js';
+import { getJSON, esc, mmss, helpHtml, wireHelp, flashPara } from './runner.js';
 import { renderers } from './renderers.js';
 import { markItem } from './marking.js';
 import { bandFor } from './band.js';
@@ -19,16 +19,15 @@ export async function startTest({ mount, minutes = 60 }) {
 
   mount.innerHTML = `
     <header class="bar"><h1>${esc(test.title)}</h1><span id="timer" role="timer" aria-live="off">${mmss(minutes * 60)}</span>
-      <button class="btn ghost" id="hl" type="button">Highlight selection</button></header>
+      <button class="btn ghost" id="hl" type="button">Highlight selection</button><button class="btn" id="submit" type="button">Submit test</button></header>
     <div class="ptabs" role="tablist">${passages.map((_, i) => `<button type="button" role="tab" data-p="${i}" aria-selected="${i === 0}">Passage ${i + 1} <small>Q${ranges[i][0]}–${ranges[i][1]}</small></button>`).join('')}</div>
-    <div class="split"><div id="ppanes"></div><div id="qpanes" class="sheet-col"></div></div>
-    <p><button class="btn" id="submit" type="button">Submit test</button></p>`;
+    <div class="split"><div id="ppanes"></div><div id="qpanes" class="sheet-col"></div></div>`;
 
   const flat = [], getters = [];
   const ppanes = mount.querySelector('#ppanes'), qpanes = mount.querySelector('#qpanes');
   passages.forEach((ps, pi) => {
     const pp = document.createElement('article'); pp.className = 'card passage'; pp.hidden = pi > 0;
-    pp.innerHTML = `<h2>${esc(ps.title)}</h2>` + ps.paragraphs.map(p => `<p><strong>${p.label}</strong> ${esc(p.text)}</p>`).join('');
+    pp.innerHTML = `<h2>${esc(ps.title)}</h2>` + ps.paragraphs.map(p => `<p data-label="${p.label}"><strong>${p.label}</strong> ${esc(p.text)}</p>`).join('');
     ppanes.append(pp);
     const qp = document.createElement('section'); qp.className = 'card sheet'; qp.hidden = pi > 0; qpanes.append(qp);
     let from = ranges[pi][0];
@@ -45,6 +44,7 @@ export async function startTest({ mount, minutes = 60 }) {
     });
   });
   wireHelp(mount, flat.map(f => f.it));
+  mount.addEventListener('showpara', e => flashPara(mount, e.detail));
 
   mount.querySelectorAll('.ptabs button').forEach(b => b.onclick = () => {
     const pi = +b.dataset.p;

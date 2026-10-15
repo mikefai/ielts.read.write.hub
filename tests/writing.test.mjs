@@ -33,3 +33,35 @@ test('sentence without a why is reported', () => { const t = rich(); delete t.mo
 test('valid guides pass', () => assert.deepEqual(validateGuides(guideKit), []));
 test('guide missing pitfalls is reported', () => { const g = structuredClone(guideKit); g.opinion.pitfalls = ['a']; assert.match(validateGuides(g).join('|'), /pitfalls/); });
 test('guide with one language group is reported', () => { const g = structuredClone(guideKit); g.opinion.language.pop(); assert.match(validateGuides(g).join('|'), /language/); });
+
+import { validateChart } from '../tools/validate-writing.mjs';
+const okPie = () => ({ kind: 'pie', title: 't', unit: '%', pies: [{ label: '1990', slices: [{ name: 'a', value: 60 }, { name: 'b', value: 40 }] }, { label: '2020', slices: [{ name: 'a', value: 30 }, { name: 'b', value: 70 }] }] });
+const okMap = () => ({ kind: 'map', title: 't', panels: [{ label: '1990', features: [{ type: 'river', points: [[0, 5], [100, 20]] }, { type: 'building', x: 10, y: 10, w: 20, h: 10, label: 'School' }] }, { label: '2020', features: [{ type: 'houses', x: 10, y: 10, w: 30, h: 20 }] }] });
+test('valid pie, table, map and mixed charts pass', () => {
+  assert.deepEqual(validateChart(okPie(), 'x'), []);
+  assert.deepEqual(validateChart(okMap(), 'x'), []);
+  assert.deepEqual(validateChart({ kind: 'table', title: 't', columns: ['a', 'b'], rows: [{ label: 'r', values: [1, 2] }] }, 'x'), []);
+  assert.deepEqual(validateChart({ kind: 'mixed', charts: [okPie(), okMap()] }, 'x'), []);
+});
+test('pie slices must sum to 100 when the unit is %', () => { const c = okPie(); c.pies[0].slices[0].value = 70; assert.match(validateChart(c, 'x').join('|'), /sum/); });
+test('table rows must match the column count', () => assert.match(validateChart({ kind: 'table', title: 't', columns: ['a', 'b'], rows: [{ label: 'r', values: [1] }] }, 'x').join('|'), /row/));
+test('map needs two panels', () => { const c = okMap(); c.panels.pop(); assert.match(validateChart(c, 'x').join('|'), /panels/); });
+test('map features must stay inside the 100 x 70 canvas', () => { const c = okMap(); c.panels[0].features[1].x = 90; assert.match(validateChart(c, 'x').join('|'), /bounds/); });
+test('map point outside the canvas is reported', () => { const c = okMap(); c.panels[0].features[0].points[1] = [120, 20]; assert.match(validateChart(c, 'x').join('|'), /bounds/); });
+test('map unknown feature type is reported', () => { const c = okMap(); c.panels[0].features[1].type = 'dragon'; assert.match(validateChart(c, 'x').join('|'), /feature/); });
+test('mixed needs two or more charts, each valid', () => {
+  assert.match(validateChart({ kind: 'mixed', charts: [okPie()] }, 'x').join('|'), /mixed/);
+  const bad = okPie(); bad.pies[0].slices[0].value = 99;
+  assert.match(validateChart({ kind: 'mixed', charts: [okPie(), bad] }, 'x').join('|'), /sum/);
+});
+test('stacked bar series length must match labels', () => assert.match(validateChart({ kind: 'bar', stacked: true, title: 't', labels: ['a', 'b'], series: [{ name: 's', values: [1] }] }, 'x').join('|'), /series/));
+test('unknown chart kind is reported', () => assert.match(validateChart({ kind: 'radar', title: 't' }, 'x').join('|'), /kind/));
+
+test('map houses or trees block too small to draw is reported', () => {
+  const c = okMap(); c.panels[0].features.push({ type: 'houses', x: 5, y: 30, w: 40, h: 4 });
+  assert.match(validateChart(c, 'x').join('|'), /too small/);
+});
+test('map building too small for its label is reported', () => {
+  const c = okMap(); c.panels[0].features[1].w = 10;
+  assert.match(validateChart(c, 'x').join('|'), /too small/);
+});

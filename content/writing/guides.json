@@ -10,15 +10,55 @@
       "Pick the figures that prove your overview (start, end, peak, trough, biggest gap) and ignore the rest. Check units and the direction of each change before you write a single number."
     ],
     "structure": [
-      { "paragraph": "Introduction", "purpose": "Show what the visual contains in your own words, in one sentence, with no opinion or data.", "sentences": ["Paraphrase: change the verb (shows to compares or illustrates), the measure (number to figure or proportion) and the time phrase, but keep the facts identical."] },
-      { "paragraph": "Overview", "purpose": "Give the reader the main story so the detail that follows has a frame. This is the paragraph examiners look for first.", "sentences": ["Overview: main feature: the largest trend or difference, with no numbers.", "Overview: second feature: a contrast, a second trend or a stand-out item, still without detailed figures."] },
-      { "paragraph": "Body 1", "purpose": "Report the first logical group of data with selected, accurate figures and at least one comparison.", "sentences": ["Topic sentence: name the group and its main direction.", "Key figures: exact start and end values with units for the main item.", "Comparison: set it against another item with whereas, while or a comparative form.", "Trend detail: add the shape of the change, such as a peak, steady rise or sharp fall."] },
-      { "paragraph": "Body 2", "purpose": "Report the remaining group, linking back to Body 1 so the report reads as one piece, not two lists.", "sentences": ["Topic sentence: introduce the second group and how it differs from the first.", "Key figures: exact values with units for its main item.", "Comparison: contrast with the first group or another item in this one.", "Closing detail: one further notable point, for instance a rank change; no conclusion is needed."] }
+      {
+        "paragraph": "Introduction",
+        "purpose": "Show what the visual contains in your own words, in one sentence, with no opinion or data.",
+        "sentences": [
+          "Paraphrase: change the verb (shows to compares or illustrates), the measure (number to figure or proportion) and the time phrase, but keep the facts identical."
+        ]
+      },
+      {
+        "paragraph": "Overview",
+        "purpose": "Give the reader the main story so the detail that follows has a frame. This is the paragraph examiners look for first.",
+        "sentences": [
+          "Overview: main feature: the largest trend or difference, with no numbers.",
+          "Overview: second feature: a contrast, a second trend or a stand-out item, still without detailed figures."
+        ]
+      },
+      {
+        "paragraph": "Body 1",
+        "purpose": "Report the first logical group of data with selected, accurate figures and at least one comparison.",
+        "sentences": [
+          "Topic sentence: name the group and its main direction.",
+          "Key figures: exact start and end values with units for the main item.",
+          "Comparison: set it against another item with whereas, while or a comparative form.",
+          "Trend detail: add the shape of the change, such as a peak, steady rise or sharp fall."
+        ]
+      },
+      {
+        "paragraph": "Body 2",
+        "purpose": "Report the remaining group, linking back to Body 1 so the report reads as one piece, not two lists.",
+        "sentences": [
+          "Topic sentence: introduce the second group and how it differs from the first.",
+          "Key figures: exact values with units for its main item.",
+          "Comparison: contrast with the first group or another item in this one.",
+          "Closing detail: one further notable point, for instance a rank change; no conclusion is needed."
+        ]
+      }
     ],
     "timing": [
-      { "minutes": 3, "what": "Analyse the visual, choose the overview features and decide the grouping" },
-      { "minutes": 14, "what": "Write: introduction and overview first (4 minutes), then two body paragraphs" },
-      { "minutes": 3, "what": "Check units, figures, tenses, and that the overview contains no numbers" }
+      {
+        "minutes": 3,
+        "what": "Analyse the visual, choose the overview features and decide the grouping"
+      },
+      {
+        "minutes": 14,
+        "what": "Write: introduction and overview first (4 minutes), then two body paragraphs"
+      },
+      {
+        "minutes": 3,
+        "what": "Check units, figures, tenses, and that the overview contains no numbers"
+      }
     ],
     "pitfalls": [
       "Writing no overview, or burying it in the last paragraph. Task Achievement is capped at around Band 5 without a clear overview, because you have not shown you can see the whole picture.",
@@ -29,11 +69,61 @@
       "Copying the question wording in the introduction. Copied words are not counted towards your assessment, and they signal limited paraphrasing ability."
     ],
     "language": [
-      { "use": "Trend verbs and nouns", "phrases": ["rose steadily to", "climbed sharply", "dipped slightly before recovering", "peaked at", "a marked decline in", "levelled off at"] },
-      { "use": "Approximation and precision", "phrases": ["just over a quarter", "approximately 40 per cent", "well under half", "roughly double", "marginally higher than", "a little short of"] },
-      { "use": "Comparison and contrast", "phrases": ["whereas", "while", "by contrast", "twice as high as", "considerably lower than", "the gap between X and Y narrowed"] },
-      { "use": "Overview and highlighting", "phrases": ["Overall,", "The most striking feature is that", "It is noticeable that", "The most dramatic change was", "X remained the most popular throughout", "In contrast to the general trend,"] },
-      { "use": "Sequencing time", "phrases": ["Over the period", "By 2020", "Having peaked in 2019,", "Thereafter", "In the following two years", "From 2017 to 2019"] }
+      {
+        "use": "Trend verbs and nouns",
+        "phrases": [
+          "rose steadily to",
+          "climbed sharply",
+          "dipped slightly before recovering",
+          "peaked at",
+          "a marked decline in",
+          "levelled off at"
+        ]
+      },
+      {
+        "use": "Approximation and precision",
+        "phrases": [
+          "just over a quarter",
+          "approximately 40 per cent",
+          "well under half",
+          "roughly double",
+          "marginally higher than",
+          "a little short of"
+        ]
+      },
+      {
+        "use": "Comparison and contrast",
+        "phrases": [
+          "whereas",
+          "while",
+          "by contrast",
+          "twice as high as",
+          "considerably lower than",
+          "the gap between X and Y narrowed"
+        ]
+      },
+      {
+        "use": "Overview and highlighting",
+        "phrases": [
+          "Overall,",
+          "The most striking feature is that",
+          "It is noticeable that",
+          "The most dramatic change was",
+          "X remained the most popular throughout",
+          "In contrast to the general trend,"
+        ]
+      },
+      {
+        "use": "Sequencing time",
+        "phrases": [
+          "Over the period",
+          "By 2020",
+          "Having peaked in 2019,",
+          "Thereafter",
+          "In the following two years",
+          "From 2017 to 2019"
+        ]
+      }
     ],
     "band8": [
       "Task Achievement: the overview is a genuine synthesis (main trend plus a significant contrast), and every figure in the body supports it. At Band 7 the overview is present but the body lists data without ranking importance.",
@@ -54,15 +144,55 @@
       "Plan the overview: the total number of stages, the start and end points, and one feature such as 'linear', 'cyclical' or 'dominated by mechanical treatment'."
     ],
     "structure": [
-      { "paragraph": "Introduction", "purpose": "Say what the diagram shows and the process it describes, in your own words.", "sentences": ["Paraphrase: use 'illustrates' or 'outlines', the number of stages, and the start and end points; replace stages and produce with synonyms."] },
-      { "paragraph": "Overview", "purpose": "Summarise the process as a whole without describing any single step.", "sentences": ["Overview: main feature: the process is linear or cyclical, with a clear start and end.", "Overview: second feature: how the stages divide into phases, for example preparation then formation."] },
-      { "paragraph": "Body 1", "purpose": "Describe the first phase in order, with the passive and a different sequencing word at each step.", "sentences": ["Topic sentence: name the phase and its purpose.", "Key figures: the first one or two stages in order, with inputs and actions.", "Comparison: distinguish between stages, using whereas or while, or show how one step prepares the next.", "Trend detail: the method or equipment used and why, if the diagram shows it."] },
-      { "paragraph": "Body 2", "purpose": "Describe the remaining stages to the final product, ending clearly.", "sentences": ["Topic sentence: name the second phase.", "Key figures: the next stages in order with materials and results.", "Comparison: contrast the roles of two stages in this phase.", "Closing detail: the final stage and the end product."] }
+      {
+        "paragraph": "Introduction",
+        "purpose": "Say what the diagram shows and the process it describes, in your own words.",
+        "sentences": [
+          "Paraphrase: use 'illustrates' or 'outlines', the number of stages, and the start and end points; replace stages and produce with synonyms."
+        ]
+      },
+      {
+        "paragraph": "Overview",
+        "purpose": "Summarise the process as a whole without describing any single step.",
+        "sentences": [
+          "Overview: main feature: the process is linear or cyclical, with a clear start and end.",
+          "Overview: second feature: how the stages divide into phases, for example preparation then formation."
+        ]
+      },
+      {
+        "paragraph": "Body 1",
+        "purpose": "Describe the first phase in order, with the passive and a different sequencing word at each step.",
+        "sentences": [
+          "Topic sentence: name the phase and its purpose.",
+          "Key figures: the first one or two stages in order, with inputs and actions.",
+          "Comparison: distinguish between stages, using whereas or while, or show how one step prepares the next.",
+          "Trend detail: the method or equipment used and why, if the diagram shows it."
+        ]
+      },
+      {
+        "paragraph": "Body 2",
+        "purpose": "Describe the remaining stages to the final product, ending clearly.",
+        "sentences": [
+          "Topic sentence: name the second phase.",
+          "Key figures: the next stages in order with materials and results.",
+          "Comparison: contrast the roles of two stages in this phase.",
+          "Closing detail: the final stage and the end product."
+        ]
+      }
     ],
     "timing": [
-      { "minutes": 3, "what": "Number the stages, find start and end, decide the two phases" },
-      { "minutes": 14, "what": "Write: introduction and overview (4 minutes), then two body paragraphs following the order exactly" },
-      { "minutes": 3, "what": "Check no stage is missing, passive forms, and sequencing words are varied" }
+      {
+        "minutes": 3,
+        "what": "Number the stages, find start and end, decide the two phases"
+      },
+      {
+        "minutes": 14,
+        "what": "Write: introduction and overview (4 minutes), then two body paragraphs following the order exactly"
+      },
+      {
+        "minutes": 3,
+        "what": "Check no stage is missing, passive forms, and sequencing words are varied"
+      }
     ],
     "pitfalls": [
       "Leaving out a stage or reordering stages. Process accuracy is the core of Task Achievement, and the examiner will check the sequence against the diagram.",
@@ -73,11 +203,61 @@
       "Describing every minor detail, such as every label on a machine. Group related steps and focus on what changes the material."
     ],
     "language": [
-      { "use": "Sequencing", "phrases": ["The process begins with", "Once this is complete,", "After that,", "This is followed by", "Subsequently,", "At the final stage,"] },
-      { "use": "Passive forms", "phrases": ["is collected and sorted", "is then heated to", "are removed by", "is spread across", "is wound onto", "is dispatched to"] },
-      { "use": "Purpose and result", "phrases": ["in order to", "so that", "which allows", "thereby ensuring", "which results in", "to prevent"] },
-      { "use": "Simultaneity and contrast", "phrases": ["Meanwhile,", "At the same time,", "whereas", "while", "As this happens,", "Before"] },
-      { "use": "Overview", "phrases": ["Overall, the process is linear", "There are six main stages", "The process can be divided into two phases", "from raw materials to the finished product", "a continuous cycle", "ends with"] }
+      {
+        "use": "Sequencing",
+        "phrases": [
+          "The process begins with",
+          "Once this is complete,",
+          "After that,",
+          "This is followed by",
+          "Subsequently,",
+          "At the final stage,"
+        ]
+      },
+      {
+        "use": "Passive forms",
+        "phrases": [
+          "is collected and sorted",
+          "is then heated to",
+          "are removed by",
+          "is spread across",
+          "is wound onto",
+          "is dispatched to"
+        ]
+      },
+      {
+        "use": "Purpose and result",
+        "phrases": [
+          "in order to",
+          "so that",
+          "which allows",
+          "thereby ensuring",
+          "which results in",
+          "to prevent"
+        ]
+      },
+      {
+        "use": "Simultaneity and contrast",
+        "phrases": [
+          "Meanwhile,",
+          "At the same time,",
+          "whereas",
+          "while",
+          "As this happens,",
+          "Before"
+        ]
+      },
+      {
+        "use": "Overview",
+        "phrases": [
+          "Overall, the process is linear",
+          "There are six main stages",
+          "The process can be divided into two phases",
+          "from raw materials to the finished product",
+          "a continuous cycle",
+          "ends with"
+        ]
+      }
     ],
     "band8": [
       "Task Achievement: all stages are present in the correct order, grouped into phases, and the overview names the shape of the process. Band 7 often covers every stage but without a phase structure.",
@@ -97,15 +277,57 @@
       "Decide the role of Body 2: a second reason, or a counter-argument that you concede and then limit. Check that your thesis and your plan do not contradict each other."
     ],
     "structure": [
-      { "paragraph": "Introduction", "purpose": "Frame the debate and commit to one clear position that answers the question as asked.", "sentences": ["Background: paraphrase the topic neutrally, without copying the question.", "Thesis: state your position with the question's key terms and your main reasons.", "Outline: signal what each body paragraph will cover (optional)."] },
-      { "paragraph": "Body 1", "purpose": "Present your strongest reason fully, so it reads as proven and not just asserted.", "sentences": ["Topic sentence: one main idea that supports your position.", "Explanation: explain why or how the idea holds.", "Example: a specific, believable case.", "Result or effect: what the example proves for the question."] },
-      { "paragraph": "Body 2", "purpose": "Add a second reason or deal with the strongest opposing point, and show it does not undermine your position.", "sentences": ["Topic sentence: second reason or concession.", "Explanation: develop the logic.", "Example: a precise illustration.", "Link: tie back to the question or limit the counter-argument."] },
-      { "paragraph": "Conclusion", "purpose": "Confirm that your answer is consistent from start to finish, without new ideas.", "sentences": ["Summary: restate position and two reasons in new words.", "Final judgement: a short statement of the overall implication."] }
+      {
+        "paragraph": "Introduction",
+        "purpose": "Frame the debate and commit to one clear position that answers the question as asked.",
+        "sentences": [
+          "Background: paraphrase the topic neutrally, without copying the question.",
+          "Thesis: state your position with the question's key terms and your main reasons.",
+          "Outline: signal what each body paragraph will cover (optional)."
+        ]
+      },
+      {
+        "paragraph": "Body 1",
+        "purpose": "Present your strongest reason fully, so it reads as proven and not just asserted.",
+        "sentences": [
+          "Topic sentence: one main idea that supports your position.",
+          "Explanation: explain why or how the idea holds.",
+          "Example: a specific, believable case.",
+          "Result or effect: what the example proves for the question."
+        ]
+      },
+      {
+        "paragraph": "Body 2",
+        "purpose": "Add a second reason or deal with the strongest opposing point, and show it does not undermine your position.",
+        "sentences": [
+          "Topic sentence: second reason or concession.",
+          "Explanation: develop the logic.",
+          "Example: a precise illustration.",
+          "Link: tie back to the question or limit the counter-argument."
+        ]
+      },
+      {
+        "paragraph": "Conclusion",
+        "purpose": "Confirm that your answer is consistent from start to finish, without new ideas.",
+        "sentences": [
+          "Summary: restate position and two reasons in new words.",
+          "Final judgement: a short statement of the overall implication."
+        ]
+      }
     ],
     "timing": [
-      { "minutes": 5, "what": "Plan: underline command words, choose position, two reasons with examples" },
-      { "minutes": 30, "what": "Write: introduction (4), body 1 (9), body 2 (9), conclusion (3), buffer (5)" },
-      { "minutes": 5, "what": "Check: position consistent in thesis and conclusion, word count over 250, articles, agreement, spelling" }
+      {
+        "minutes": 5,
+        "what": "Plan: underline command words, choose position, two reasons with examples"
+      },
+      {
+        "minutes": 30,
+        "what": "Write: introduction (4), body 1 (9), body 2 (9), conclusion (3), buffer (5)"
+      },
+      {
+        "minutes": 5,
+        "what": "Check: position consistent in thesis and conclusion, word count over 250, articles, agreement, spelling"
+      }
     ],
     "pitfalls": [
       "Memorised or copied introductions. Examiners recognise templates, and copied words are discounted. It also tends to produce a generic thesis that does not answer the actual statement, reducing Task Response.",
@@ -117,12 +339,72 @@
       "Mechanical linking ('Firstly, Secondly, In addition, Moreover'). Overused connectors break Coherence and Cohesion, because ideas should be linked by logic and reference, not signposts."
     ],
     "language": [
-      { "use": "Stating a position", "phrases": ["In my view,", "I firmly believe that", "I am largely in agreement with", "I would argue that", "I agree only to a limited extent that", "It seems to me that"] },
-      { "use": "Giving reasons and consequences", "phrases": ["This is largely because", "as a result", "which in turn", "thereby enabling", "this explains why", "consequently"] },
-      { "use": "Giving examples", "phrases": ["a case in point is", "for instance,", "A graduate who ..., for example,", "This can be seen in", "Take, for example,", "evidence from ... suggests"] },
-      { "use": "Concession and contrast", "phrases": ["Admittedly,", "Although it is true that", "Nevertheless,", "This is not to say that", "Despite this,", "On the other hand,"] },
-      { "use": "Hedging and precision", "phrases": ["tends to", "is likely to", "in many cases", "may well", "to a large extent", "largely"] },
-      { "use": "Concluding", "phrases": ["In summary,", "Taken together,", "On balance,", "For these reasons,", "Ultimately,", "It follows that"] }
+      {
+        "use": "Stating a position",
+        "phrases": [
+          "In my view,",
+          "I firmly believe that",
+          "I am largely in agreement with",
+          "I would argue that",
+          "I agree only to a limited extent that",
+          "It seems to me that"
+        ]
+      },
+      {
+        "use": "Giving reasons and consequences",
+        "phrases": [
+          "This is largely because",
+          "as a result",
+          "which in turn",
+          "thereby enabling",
+          "this explains why",
+          "consequently"
+        ]
+      },
+      {
+        "use": "Giving examples",
+        "phrases": [
+          "a case in point is",
+          "for instance,",
+          "A graduate who ..., for example,",
+          "This can be seen in",
+          "Take, for example,",
+          "evidence from ... suggests"
+        ]
+      },
+      {
+        "use": "Concession and contrast",
+        "phrases": [
+          "Admittedly,",
+          "Although it is true that",
+          "Nevertheless,",
+          "This is not to say that",
+          "Despite this,",
+          "On the other hand,"
+        ]
+      },
+      {
+        "use": "Hedging and precision",
+        "phrases": [
+          "tends to",
+          "is likely to",
+          "in many cases",
+          "may well",
+          "to a large extent",
+          "largely"
+        ]
+      },
+      {
+        "use": "Concluding",
+        "phrases": [
+          "In summary,",
+          "Taken together,",
+          "On balance,",
+          "For these reasons,",
+          "Ultimately,",
+          "It follows that"
+        ]
+      }
     ],
     "band8": [
       "Task Response: the position is nuanced and stated precisely (for example 'largely agree, with one qualification') and every paragraph, including the conclusion, serves it. At Band 7 the position is clear but ideas can drift.",
@@ -144,15 +426,57 @@
       "Decide where the opinion lives: usually in the thesis and conclusion, and woven into the body of the view you support. Check that it never contradicts either."
     ],
     "structure": [
-      { "paragraph": "Introduction", "purpose": "Show you understand the debate, and declare your opinion so the reader reads the rest in context.", "sentences": ["Background: paraphrase the debate neutrally.", "Thesis: signal both views and state your own opinion.", "Outline: what each paragraph will do (optional)."] },
-      { "paragraph": "Body 1", "purpose": "Present View A fairly and fully, as its supporters would argue it.", "sentences": ["Topic sentence: the view and its main claim.", "Explanation: why its supporters believe it.", "Example: a specific case where it works.", "Result or effect: what that shows, including its limit if relevant."] },
-      { "paragraph": "Body 2", "purpose": "Present View B and show why you find it stronger (or why you hold a balanced view).", "sentences": ["Topic sentence: the contrast with View A, using a concession marker.", "Explanation: why this view holds.", "Example: a specific case.", "Result or effect: what follows, which supports your opinion."] },
-      { "paragraph": "Conclusion", "purpose": "Weigh the two views and restate your opinion without adding new arguments.", "sentences": ["Summary: acknowledge both views and the key difference between them.", "Final judgement: your opinion, in new words."] }
+      {
+        "paragraph": "Introduction",
+        "purpose": "Show you understand the debate, and declare your opinion so the reader reads the rest in context.",
+        "sentences": [
+          "Background: paraphrase the debate neutrally.",
+          "Thesis: signal both views and state your own opinion.",
+          "Outline: what each paragraph will do (optional)."
+        ]
+      },
+      {
+        "paragraph": "Body 1",
+        "purpose": "Present View A fairly and fully, as its supporters would argue it.",
+        "sentences": [
+          "Topic sentence: the view and its main claim.",
+          "Explanation: why its supporters believe it.",
+          "Example: a specific case where it works.",
+          "Result or effect: what that shows, including its limit if relevant."
+        ]
+      },
+      {
+        "paragraph": "Body 2",
+        "purpose": "Present View B and show why you find it stronger (or why you hold a balanced view).",
+        "sentences": [
+          "Topic sentence: the contrast with View A, using a concession marker.",
+          "Explanation: why this view holds.",
+          "Example: a specific case.",
+          "Result or effect: what follows, which supports your opinion."
+        ]
+      },
+      {
+        "paragraph": "Conclusion",
+        "purpose": "Weigh the two views and restate your opinion without adding new arguments.",
+        "sentences": [
+          "Summary: acknowledge both views and the key difference between them.",
+          "Final judgement: your opinion, in new words."
+        ]
+      }
     ],
     "timing": [
-      { "minutes": 5, "what": "Plan: sum up both views, decide opinion, one reason and example for each view" },
-      { "minutes": 30, "what": "Write: introduction (4), body 1 (9), body 2 (9), conclusion (3), buffer (5)" },
-      { "minutes": 5, "what": "Check: both views covered, opinion visible in introduction and conclusion, no new ideas in conclusion" }
+      {
+        "minutes": 5,
+        "what": "Plan: sum up both views, decide opinion, one reason and example for each view"
+      },
+      {
+        "minutes": 30,
+        "what": "Write: introduction (4), body 1 (9), body 2 (9), conclusion (3), buffer (5)"
+      },
+      {
+        "minutes": 5,
+        "what": "Check: both views covered, opinion visible in introduction and conclusion, no new ideas in conclusion"
+      }
     ],
     "pitfalls": [
       "Describing only one view in depth, or giving one view a single sentence. Task Response needs both views to be discussed fully and fairly.",
@@ -164,12 +488,72 @@
       "Repeating the same linking word to open both bodies. Use contrast markers with a purpose and vary how the paragraphs begin."
     ],
     "language": [
-      { "use": "Presenting a view", "phrases": ["Supporters of ... argue that", "Proponents contend that", "It is often claimed that", "Those in favour of ... point out that", "The case for ... rests on", "Advocates of ... emphasise"] },
-      { "use": "Stating an opinion", "phrases": ["In my opinion,", "I believe that", "I find the second view more persuasive because", "I side with", "On balance, I favour", "I would argue that"] },
-      { "use": "Contrast and concession", "phrases": ["However,", "Nevertheless,", "Admittedly,", "Whereas", "That said,", "Even so,"] },
-      { "use": "Evidence and examples", "phrases": ["In one mid-sized European city,", "A case in point is", "For example,", "Evidence from ... shows", "This is illustrated by", "Where ... has been introduced,"] },
-      { "use": "Cause and effect", "phrases": ["which in turn", "as a result", "thereby reducing", "this leads to", "consequently", "contributes to"] },
-      { "use": "Concluding", "phrases": ["In conclusion,", "Although both approaches have merit,", "On balance,", "For this reason,", "Taking everything into account,", "Ultimately,"] }
+      {
+        "use": "Presenting a view",
+        "phrases": [
+          "Supporters of ... argue that",
+          "Proponents contend that",
+          "It is often claimed that",
+          "Those in favour of ... point out that",
+          "The case for ... rests on",
+          "Advocates of ... emphasise"
+        ]
+      },
+      {
+        "use": "Stating an opinion",
+        "phrases": [
+          "In my opinion,",
+          "I believe that",
+          "I find the second view more persuasive because",
+          "I side with",
+          "On balance, I favour",
+          "I would argue that"
+        ]
+      },
+      {
+        "use": "Contrast and concession",
+        "phrases": [
+          "However,",
+          "Nevertheless,",
+          "Admittedly,",
+          "Whereas",
+          "That said,",
+          "Even so,"
+        ]
+      },
+      {
+        "use": "Evidence and examples",
+        "phrases": [
+          "In one mid-sized European city,",
+          "A case in point is",
+          "For example,",
+          "Evidence from ... shows",
+          "This is illustrated by",
+          "Where ... has been introduced,"
+        ]
+      },
+      {
+        "use": "Cause and effect",
+        "phrases": [
+          "which in turn",
+          "as a result",
+          "thereby reducing",
+          "this leads to",
+          "consequently",
+          "contributes to"
+        ]
+      },
+      {
+        "use": "Concluding",
+        "phrases": [
+          "In conclusion,",
+          "Although both approaches have merit,",
+          "On balance,",
+          "For this reason,",
+          "Taking everything into account,",
+          "Ultimately,"
+        ]
+      }
     ],
     "band8": [
       "Task Response: both views are given equal intellectual weight with their own best argument, and the opinion emerges from the weighing, not just announced. At Band 7 the second view is often thinner.",
@@ -190,15 +574,57 @@
       "Check the match: each solution should clearly respond to a cause you wrote about. Mark the connections in your plan before you start writing."
     ],
     "structure": [
-      { "paragraph": "Introduction", "purpose": "Set up the problem and promise a structured answer to both parts.", "sentences": ["Background: paraphrase the trend in neutral terms.", "Thesis: signal the causes and your main solutions.", "Outline: say how the essay is organised (optional)."] },
-      { "paragraph": "Body 1", "purpose": "Explain the most significant cause or causes in depth, with evidence and consequences.", "sentences": ["Topic sentence: the main cause.", "Explanation: how it produces the problem.", "Example: a specific, plausible situation.", "Result or effect: the consequence for people or society."] },
-      { "paragraph": "Body 2", "purpose": "Offer practical solutions that respond directly to the causes, showing who acts and how.", "sentences": ["Topic sentence: the main solution, with its link to the cause.", "Explanation: how it works.", "Example: where it has worked or could work.", "Result or effect: a complementary measure or its outcome."] },
-      { "paragraph": "Conclusion", "purpose": "Pull causes and solutions together and show why action matters.", "sentences": ["Summary: restate the cause and the solution in new words.", "Final judgement: the implication or priority."] }
+      {
+        "paragraph": "Introduction",
+        "purpose": "Set up the problem and promise a structured answer to both parts.",
+        "sentences": [
+          "Background: paraphrase the trend in neutral terms.",
+          "Thesis: signal the causes and your main solutions.",
+          "Outline: say how the essay is organised (optional)."
+        ]
+      },
+      {
+        "paragraph": "Body 1",
+        "purpose": "Explain the most significant cause or causes in depth, with evidence and consequences.",
+        "sentences": [
+          "Topic sentence: the main cause.",
+          "Explanation: how it produces the problem.",
+          "Example: a specific, plausible situation.",
+          "Result or effect: the consequence for people or society."
+        ]
+      },
+      {
+        "paragraph": "Body 2",
+        "purpose": "Offer practical solutions that respond directly to the causes, showing who acts and how.",
+        "sentences": [
+          "Topic sentence: the main solution, with its link to the cause.",
+          "Explanation: how it works.",
+          "Example: where it has worked or could work.",
+          "Result or effect: a complementary measure or its outcome."
+        ]
+      },
+      {
+        "paragraph": "Conclusion",
+        "purpose": "Pull causes and solutions together and show why action matters.",
+        "sentences": [
+          "Summary: restate the cause and the solution in new words.",
+          "Final judgement: the implication or priority."
+        ]
+      }
     ],
     "timing": [
-      { "minutes": 5, "what": "Plan: identify the parts, select main causes, match each with a solution, add examples" },
-      { "minutes": 30, "what": "Write: introduction (4), causes (9), solutions (9), conclusion (3), buffer (5)" },
-      { "minutes": 5, "what": "Check: both parts answered, solutions match causes, word count, grammar" }
+      {
+        "minutes": 5,
+        "what": "Plan: identify the parts, select main causes, match each with a solution, add examples"
+      },
+      {
+        "minutes": 30,
+        "what": "Write: introduction (4), causes (9), solutions (9), conclusion (3), buffer (5)"
+      },
+      {
+        "minutes": 5,
+        "what": "Check: both parts answered, solutions match causes, word count, grammar"
+      }
     ],
     "pitfalls": [
       "Answering only causes, or only solutions, or giving a one-sentence solution. Both parts of the question must be developed, or Task Response is limited to Band 5.",
@@ -210,12 +636,72 @@
       "A conclusion that adds new solutions. The conclusion should only summarise."
     ],
     "language": [
-      { "use": "Describing causes", "phrases": ["is largely attributable to", "stems from", "can be traced back to", "a major contributing factor is", "is driven by", "owes much to"] },
-      { "use": "Describing effects", "phrases": ["which contributes to", "this leads to", "resulting in", "as a consequence,", "with the effect that", "gives rise to"] },
-      { "use": "Proposing solutions", "phrases": ["One practical solution is to", "Governments could address this by", "A more effective approach would be to", "This could be tackled by", "Employers can complement this by", "Measures such as ... would"] },
-      { "use": "Hedging and modality", "phrases": ["would probably", "is likely to", "could go a long way towards", "may help to", "tend to", "in many cases"] },
-      { "use": "Examples", "phrases": ["In many suburban areas, for instance,", "Where ... have been built,", "Cities such as ...", "A case in point is", "For example,", "This has been seen in"] },
-      { "use": "Concluding", "phrases": ["In short,", "To sum up,", "Without such measures,", "It follows that", "For this reason,", "Ultimately,"] }
+      {
+        "use": "Describing causes",
+        "phrases": [
+          "is largely attributable to",
+          "stems from",
+          "can be traced back to",
+          "a major contributing factor is",
+          "is driven by",
+          "owes much to"
+        ]
+      },
+      {
+        "use": "Describing effects",
+        "phrases": [
+          "which contributes to",
+          "this leads to",
+          "resulting in",
+          "as a consequence,",
+          "with the effect that",
+          "gives rise to"
+        ]
+      },
+      {
+        "use": "Proposing solutions",
+        "phrases": [
+          "One practical solution is to",
+          "Governments could address this by",
+          "A more effective approach would be to",
+          "This could be tackled by",
+          "Employers can complement this by",
+          "Measures such as ... would"
+        ]
+      },
+      {
+        "use": "Hedging and modality",
+        "phrases": [
+          "would probably",
+          "is likely to",
+          "could go a long way towards",
+          "may help to",
+          "tend to",
+          "in many cases"
+        ]
+      },
+      {
+        "use": "Examples",
+        "phrases": [
+          "In many suburban areas, for instance,",
+          "Where ... have been built,",
+          "Cities such as ...",
+          "A case in point is",
+          "For example,",
+          "This has been seen in"
+        ]
+      },
+      {
+        "use": "Concluding",
+        "phrases": [
+          "In short,",
+          "To sum up,",
+          "Without such measures,",
+          "It follows that",
+          "For this reason,",
+          "Ultimately,"
+        ]
+      }
     ],
     "band8": [
       "Task Response: solutions are explicitly linked to causes with a clear mechanism (redesign towns, so walking becomes realistic), and feasibility is acknowledged. Band 7 offers sound but generic solutions.",
@@ -236,15 +722,57 @@
       "Check what is not asked: a two-part question does not ask for advantages and disadvantages or for a general discussion of the topic."
     ],
     "structure": [
-      { "paragraph": "Introduction", "purpose": "Show that you will answer both questions, and give a short answer to each.", "sentences": ["Background: paraphrase the topic neutrally.", "Thesis: answer both questions briefly.", "Outline: say that you will deal with the first question and then the second."] },
-      { "paragraph": "Body 1", "purpose": "Answer the first question fully with one main reason, explained and exemplified.", "sentences": ["Topic sentence: the first and most important reason.", "Explanation: how it works.", "Example: a believable person or situation.", "Result or effect: why it matters."] },
-      { "paragraph": "Body 2", "purpose": "Answer the second question with a clear judgement, supported and qualified.", "sentences": ["Topic sentence: your answer to the second question with a concession.", "Explanation: the key reasons.", "Example: an illustration.", "Link: the fairer or more practical alternative."] },
-      { "paragraph": "Conclusion", "purpose": "Confirm both answers and show how they connect.", "sentences": ["Summary: the answer to each question in new words.", "Final judgement: a recommendation or implication."] }
+      {
+        "paragraph": "Introduction",
+        "purpose": "Show that you will answer both questions, and give a short answer to each.",
+        "sentences": [
+          "Background: paraphrase the topic neutrally.",
+          "Thesis: answer both questions briefly.",
+          "Outline: say that you will deal with the first question and then the second."
+        ]
+      },
+      {
+        "paragraph": "Body 1",
+        "purpose": "Answer the first question fully with one main reason, explained and exemplified.",
+        "sentences": [
+          "Topic sentence: the first and most important reason.",
+          "Explanation: how it works.",
+          "Example: a believable person or situation.",
+          "Result or effect: why it matters."
+        ]
+      },
+      {
+        "paragraph": "Body 2",
+        "purpose": "Answer the second question with a clear judgement, supported and qualified.",
+        "sentences": [
+          "Topic sentence: your answer to the second question with a concession.",
+          "Explanation: the key reasons.",
+          "Example: an illustration.",
+          "Link: the fairer or more practical alternative."
+        ]
+      },
+      {
+        "paragraph": "Conclusion",
+        "purpose": "Confirm both answers and show how they connect.",
+        "sentences": [
+          "Summary: the answer to each question in new words.",
+          "Final judgement: a recommendation or implication."
+        ]
+      }
     ],
     "timing": [
-      { "minutes": 5, "what": "Plan: separate the questions, short answer to each, one example per body paragraph" },
-      { "minutes": 30, "what": "Write: introduction (4), question one (9), question two (9), conclusion (3), buffer (5)" },
-      { "minutes": 5, "what": "Check: both questions answered equally, thesis matches conclusion, grammar and word count" }
+      {
+        "minutes": 5,
+        "what": "Plan: separate the questions, short answer to each, one example per body paragraph"
+      },
+      {
+        "minutes": 30,
+        "what": "Write: introduction (4), question one (9), question two (9), conclusion (3), buffer (5)"
+      },
+      {
+        "minutes": 5,
+        "what": "Check: both questions answered equally, thesis matches conclusion, grammar and word count"
+      }
     ],
     "pitfalls": [
       "Answering only one question fully, or giving the second a few lines. Both questions are marked, and a partial response is limited to Band 5 or 6 in Task Response.",
@@ -255,12 +783,72 @@
       "Switching person or register in the second paragraph (you should...), which affects tone and cohesion."
     ],
     "language": [
-      { "use": "Explaining reasons", "phrases": ["The first reason is", "A major factor is", "This is largely because", "People tend to value", "This is mainly due to", "One of the main attractions is"] },
-      { "use": "Giving a judgement", "phrases": ["In my view, employers should not", "I do not believe that", "It would be unwise to", "A blanket policy would", "It would be fairer to", "This would overlook"] },
-      { "use": "Concession and contrast", "phrases": ["However,", "While this is true,", "Admittedly,", "Nevertheless,", "that said", "On the other hand,"] },
-      { "use": "Examples", "phrases": ["A parent who ..., for instance,", "Take, for example,", "A junior analyst who ..., for example,", "This is illustrated by", "In nursing, for example,", "Consider"] },
-      { "use": "Linking the two answers", "phrases": ["For this reason,", "Therefore,", "In light of this,", "This suggests that", "It follows that", "Taken together,"] },
-      { "use": "Concluding", "phrases": ["In summary,", "To conclude,", "On balance,", "Employers should therefore", "In short,", "All things considered,"] }
+      {
+        "use": "Explaining reasons",
+        "phrases": [
+          "The first reason is",
+          "A major factor is",
+          "This is largely because",
+          "People tend to value",
+          "This is mainly due to",
+          "One of the main attractions is"
+        ]
+      },
+      {
+        "use": "Giving a judgement",
+        "phrases": [
+          "In my view, employers should not",
+          "I do not believe that",
+          "It would be unwise to",
+          "A blanket policy would",
+          "It would be fairer to",
+          "This would overlook"
+        ]
+      },
+      {
+        "use": "Concession and contrast",
+        "phrases": [
+          "However,",
+          "While this is true,",
+          "Admittedly,",
+          "Nevertheless,",
+          "that said",
+          "On the other hand,"
+        ]
+      },
+      {
+        "use": "Examples",
+        "phrases": [
+          "A parent who ..., for instance,",
+          "Take, for example,",
+          "A junior analyst who ..., for example,",
+          "This is illustrated by",
+          "In nursing, for example,",
+          "Consider"
+        ]
+      },
+      {
+        "use": "Linking the two answers",
+        "phrases": [
+          "For this reason,",
+          "Therefore,",
+          "In light of this,",
+          "This suggests that",
+          "It follows that",
+          "Taken together,"
+        ]
+      },
+      {
+        "use": "Concluding",
+        "phrases": [
+          "In summary,",
+          "To conclude,",
+          "On balance,",
+          "Employers should therefore",
+          "In short,",
+          "All things considered,"
+        ]
+      }
     ],
     "band8": [
       "Task Response: both questions get equally developed, specific answers, and the second answer is qualified rather than absolute (remote work where it suits the role), which shows judgement.",
@@ -281,15 +869,57 @@
       "Plan the sentence flow in each body paragraph: point, explanation, example, effect. Check the example is specific to the development."
     ],
     "structure": [
-      { "paragraph": "Introduction", "purpose": "Frame the development and signal that you will weigh both sides.", "sentences": ["Background: paraphrase the development neutrally.", "Thesis: name the main advantage and the main disadvantage in precise terms.", "Outline: say the order you will treat them (optional)."] },
-      { "paragraph": "Body 1", "purpose": "Develop the strongest advantage so that it is convincing and specific.", "sentences": ["Topic sentence: the main advantage.", "Explanation: how it works.", "Example: a realistic case.", "Result or effect: the benefit to people or organisations."] },
-      { "paragraph": "Body 2", "purpose": "Develop the strongest disadvantage with equal depth, starting with a clear contrast.", "sentences": ["Topic sentence: with 'however' or similar.", "Explanation: how the risk arises.", "Example: a realistic case.", "Result or effect: the consequence, including a possible remedy."] },
-      { "paragraph": "Conclusion", "purpose": "Weigh the two sides and give a balanced, reasoned judgement.", "sentences": ["Summary: the two main points in new words.", "Final judgement: a recommendation or verdict."] }
+      {
+        "paragraph": "Introduction",
+        "purpose": "Frame the development and signal that you will weigh both sides.",
+        "sentences": [
+          "Background: paraphrase the development neutrally.",
+          "Thesis: name the main advantage and the main disadvantage in precise terms.",
+          "Outline: say the order you will treat them (optional)."
+        ]
+      },
+      {
+        "paragraph": "Body 1",
+        "purpose": "Develop the strongest advantage so that it is convincing and specific.",
+        "sentences": [
+          "Topic sentence: the main advantage.",
+          "Explanation: how it works.",
+          "Example: a realistic case.",
+          "Result or effect: the benefit to people or organisations."
+        ]
+      },
+      {
+        "paragraph": "Body 2",
+        "purpose": "Develop the strongest disadvantage with equal depth, starting with a clear contrast.",
+        "sentences": [
+          "Topic sentence: with 'however' or similar.",
+          "Explanation: how the risk arises.",
+          "Example: a realistic case.",
+          "Result or effect: the consequence, including a possible remedy."
+        ]
+      },
+      {
+        "paragraph": "Conclusion",
+        "purpose": "Weigh the two sides and give a balanced, reasoned judgement.",
+        "sentences": [
+          "Summary: the two main points in new words.",
+          "Final judgement: a recommendation or verdict."
+        ]
+      }
     ],
     "timing": [
-      { "minutes": 5, "what": "Plan: check the exact question, choose one strong point per side with an example" },
-      { "minutes": 30, "what": "Write: introduction (4), advantages (9), disadvantages (9), conclusion (3), buffer (5)" },
-      { "minutes": 5, "what": "Check: both sides balanced, judgement present if asked, grammar and word count" }
+      {
+        "minutes": 5,
+        "what": "Plan: check the exact question, choose one strong point per side with an example"
+      },
+      {
+        "minutes": 30,
+        "what": "Write: introduction (4), advantages (9), disadvantages (9), conclusion (3), buffer (5)"
+      },
+      {
+        "minutes": 5,
+        "what": "Check: both sides balanced, judgement present if asked, grammar and word count"
+      }
     ],
     "pitfalls": [
       "Writing about only one side, or giving the second side a single sentence. The question asks for both, so imbalance caps Task Response.",
@@ -300,12 +930,72 @@
       "Contradictory conclusions: weighing the disadvantages as serious in the body and then claiming advantages clearly outweigh them. Coherence and consistency are lost."
     ],
     "language": [
-      { "use": "Presenting advantages", "phrases": ["The most obvious advantage is", "A significant benefit is", "offers clear gains in", "makes it possible to", "has the potential to", "brings valuable improvements in"] },
-      { "use": "Presenting disadvantages", "phrases": ["However, there are risks,", "A major drawback is", "raises concerns about", "carries the danger that", "can undermine", "at the expense of"] },
-      { "use": "Cause and consequence", "phrases": ["As a result,", "which in turn", "so that", "thereby", "This means that", "consequently"] },
-      { "use": "Hedging", "phrases": ["may well", "can", "tends to", "is likely to", "in some cases", "not always"] },
-      { "use": "Balancing and concluding", "phrases": ["On balance,", "Although ... , ...", "Weighing up", "In conclusion,", "therefore", "provided that"] },
-      { "use": "Examples", "phrases": ["for instance,", "A retail company ..., for example,", "A candidate who ..., for example,", "Consider", "such as", "This can be seen when"] }
+      {
+        "use": "Presenting advantages",
+        "phrases": [
+          "The most obvious advantage is",
+          "A significant benefit is",
+          "offers clear gains in",
+          "makes it possible to",
+          "has the potential to",
+          "brings valuable improvements in"
+        ]
+      },
+      {
+        "use": "Presenting disadvantages",
+        "phrases": [
+          "However, there are risks,",
+          "A major drawback is",
+          "raises concerns about",
+          "carries the danger that",
+          "can undermine",
+          "at the expense of"
+        ]
+      },
+      {
+        "use": "Cause and consequence",
+        "phrases": [
+          "As a result,",
+          "which in turn",
+          "so that",
+          "thereby",
+          "This means that",
+          "consequently"
+        ]
+      },
+      {
+        "use": "Hedging",
+        "phrases": [
+          "may well",
+          "can",
+          "tends to",
+          "is likely to",
+          "in some cases",
+          "not always"
+        ]
+      },
+      {
+        "use": "Balancing and concluding",
+        "phrases": [
+          "On balance,",
+          "Although ... , ...",
+          "Weighing up",
+          "In conclusion,",
+          "therefore",
+          "provided that"
+        ]
+      },
+      {
+        "use": "Examples",
+        "phrases": [
+          "for instance,",
+          "A retail company ..., for example,",
+          "A candidate who ..., for example,",
+          "Consider",
+          "such as",
+          "This can be seen when"
+        ]
+      }
     ],
     "band8": [
       "Task Response: both sides are developed to a consequence, and a final judgement is balanced and conditional (use as assistants, with oversight), showing evaluation instead of repetition.",
@@ -313,6 +1003,531 @@
       "Lexical Resource: precise vocabulary (screen candidates, historical data, human oversight, erode trust) with natural collocations and no repetition of 'advantage' and 'disadvantage'.",
       "Grammatical Range and Accuracy: subordinate clauses of reason and concession, conditionals and passives used accurately, with a mix of simple and complex sentences.",
       "Argument quality: the disadvantage includes a realistic remedy or limit, which shows critical thinking beyond listing."
+    ]
+  },
+  "task1-pie": {
+    "title": "Task 1: Pie chart reports",
+    "summary": "Pie charts show shares of a whole, so the skill is comparing proportions, ranks and changes between pies rather than reading slices one at a time. Strong reports show which shares moved, which stayed stable and when the order changed.",
+    "steps": [
+      "Check what the whole is (all electricity, all spending, all students) and the unit. Every pie totals 100 per cent, so describe share or proportion, not amount, unless the chart gives totals.",
+      "If there are several pies, decide whether you are comparing time (1995, 2005, 2020) or places. Time means trend language; places mean comparative language.",
+      "Rank the slices in each pie and note any change of first place, last place or order. A rank change is usually your strongest overview point.",
+      "Find which slices changed a lot and which stayed nearly constant. These two groups are the natural body paragraphs.",
+      "Write the overview as two sentences without numbers: the biggest shift, then the stable or contrasting items. Then pick only the figures that prove them."
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "purpose": "Paraphrase what the pies show, naming the whole, the categories and the years or places, with no data.",
+        "sentences": [
+          "Paraphrase: change \"show\" to compare, \"proportion\" to share, and \"generated\" to produced."
+        ]
+      },
+      {
+        "paragraph": "Overview",
+        "purpose": "Give the main change in the shares and one contrast, with no numbers.",
+        "sentences": [
+          "Overview: main feature: the item that grew or shrank most, or the change in rank.",
+          "Overview: second feature: items that stayed stable, or a stand-out contrast."
+        ]
+      },
+      {
+        "paragraph": "Body 1",
+        "purpose": "Report the slices that changed most, tracing every pie in one sentence chain.",
+        "sentences": [
+          "Topic sentence: name the group and its direction.",
+          "Key figures: the values in order across the pies, such as \"48 per cent in 1995, 36 per cent in 2005 and 9 per cent in 2020\".",
+          "Comparison: contrast with the slice moving the other way.",
+          "Trend detail: note the rank change that results."
+        ]
+      },
+      {
+        "paragraph": "Body 2",
+        "purpose": "Report the remaining slices, summarising stable ones as a range instead of repeating each value.",
+        "sentences": [
+          "Topic sentence: introduce the steadier group.",
+          "Key figures: exact values for the one that changed a little.",
+          "Comparison: summarise others as \"within a narrow range of 14 to 16 per cent\".",
+          "Closing detail: give the final ranking in the latest pie."
+        ]
+      }
+    ],
+    "timing": [
+      {
+        "minutes": 3,
+        "what": "Analyse the visual, choose the overview features and decide the grouping"
+      },
+      {
+        "minutes": 14,
+        "what": "Write: introduction and overview first (4 minutes), then two body paragraphs"
+      },
+      {
+        "minutes": 3,
+        "what": "Check units, figures, tenses, and that the overview contains no numbers"
+      }
+    ],
+    "pitfalls": [
+      "Describing each pie separately in three paragraphs. This hides the changes between pies and reads like three mini-reports, which weakens Coherence and Task Achievement.",
+      "Writing \"number\" or \"amount\" for a percentage. A pie shows share, so a slice can fall in share while the real quantity rises. Use share, proportion or percentage.",
+      "Saying a small slice \"increased by 4 per cent\" when it rose 4 percentage points. Use \"percentage points\" for the gap between two percentages.",
+      "Missing the rank change. If renewables overtake coal, that is the main point; leaving it out loses the insight examiners look for in Band 7 and above.",
+      "Ignoring that values must sum to 100. If a slice rises, others must fall, so check that your claims about the rest of the pie are consistent.",
+      "Explaining why shares changed (government policy, new technology). The task is to report what the data show, not to invent causes."
+    ],
+    "language": [
+      {
+        "use": "Describing share",
+        "phrases": [
+          "accounted for",
+          "made up",
+          "represented",
+          "supplied",
+          "constituted",
+          "the largest share"
+        ]
+      },
+      {
+        "use": "Change between pies",
+        "phrases": [
+          "fell to just",
+          "rose to",
+          "edged up to",
+          "dropped sharply from ... to",
+          "gained ground",
+          "slipped to"
+        ]
+      },
+      {
+        "use": "Approximation",
+        "phrases": [
+          "almost half",
+          "just under a third",
+          "roughly a quarter",
+          "a little over a tenth",
+          "well over half",
+          "about one in five"
+        ]
+      },
+      {
+        "use": "Ranking and comparison",
+        "phrases": [
+          "the dominant source",
+          "overtook",
+          "replaced X as the largest",
+          "the smallest category",
+          "ranked second",
+          "by contrast"
+        ]
+      },
+      {
+        "use": "Stability",
+        "phrases": [
+          "remained stable at",
+          "stayed within a narrow range of",
+          "changed very little",
+          "was virtually unchanged",
+          "fluctuated slightly"
+        ]
+      }
+    ],
+    "band8": [
+      "Task Achievement: the overview names the biggest shift and a rank change, and the body groups slices by pattern of change rather than by pie.",
+      "Task Achievement: stable slices are summarised as a range or a single phrase, which shows selection. Band 7 often gives every value.",
+      "Coherence and Cohesion: values for one slice are traced across all pies in one sentence, and contrast words (by contrast, whereas) join the opposing slices.",
+      "Lexical Resource and Grammatical Range: varied share verbs (accounted for, supplied, made up) and approximation, with participle clauses such as \"having replaced coal\" and accurate use of per cent and percentage points."
+    ]
+  },
+  "task1-table": {
+    "title": "Task 1: Table reports",
+    "summary": "A table is full of numbers and has no obvious shape, so the examiner is looking at how you choose. Find the highest, lowest and the patterns across rows and columns, then compare rather than list.",
+    "steps": [
+      "Read the title, column headings, units and date. Units often differ by column (millions, per cent, pounds), and each figure needs its own unit.",
+      "Scan down every column for the highest and lowest row, and mark them. These extremes are your most reliable material.",
+      "Scan across rows to see how the columns relate. Look for a relationship such as high visitors with low spending, or a row that is highest in one column and lowest in another.",
+      "Decide the grouping: rows that behave alike, a top group and a bottom group, or two contrasting columns. A row or column that fits no group can be left out.",
+      "Write the overview with the pattern or relationship and one or two stand-out rows, without numbers, then choose only the figures that support it."
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "purpose": "Say what the table compares, naming the rows and the measures, in one paraphrased sentence.",
+        "sentences": [
+          "Paraphrase: \"gives information about\" becomes compares; list the measures as \"in terms of\"."
+        ]
+      },
+      {
+        "paragraph": "Overview",
+        "purpose": "State the pattern across the table and the most striking rows.",
+        "sentences": [
+          "Overview: main feature: the relationship between columns, or the leader and the laggard.",
+          "Overview: second feature: one or two stand-out rows contrasted."
+        ]
+      },
+      {
+        "paragraph": "Body 1",
+        "purpose": "Report the first group of rows, moving across the columns for the main row.",
+        "sentences": [
+          "Topic sentence: name the group by what its rows share.",
+          "Key figures: figures for the leading row with units.",
+          "Comparison: the same row in another column, or against another row.",
+          "Trend detail: a further figure that supports the pattern."
+        ]
+      },
+      {
+        "paragraph": "Body 2",
+        "purpose": "Report the contrasting group, linking back to Body 1.",
+        "sentences": [
+          "Topic sentence: the contrasting group and how it differs.",
+          "Key figures: the leading row of this group.",
+          "Comparison: a second row at the other extreme.",
+          "Closing detail: a final superlative in a column not yet used."
+        ]
+      }
+    ],
+    "timing": [
+      {
+        "minutes": 3,
+        "what": "Analyse the visual, choose the overview features and decide the grouping"
+      },
+      {
+        "minutes": 14,
+        "what": "Write: introduction and overview first (4 minutes), then two body paragraphs"
+      },
+      {
+        "minutes": 3,
+        "what": "Check units, figures, tenses, and that the overview contains no numbers"
+      }
+    ],
+    "pitfalls": [
+      "Describing the table cell by cell or row by row. This is a list of numbers, not a summary, and it limits Task Achievement and Coherence at Band 6.",
+      "Treating a table like a trend graph. Without dates in columns there is nothing to \"increase\" or \"decrease\"; use comparative and superlative language instead.",
+      "Mixing up units, such as writing 6.5 million as 6.5 thousand, or putting \"per cent\" after a price. Accuracy of data is part of Task Achievement.",
+      "Reporting only one column. Examiners look for movement across columns, so link at least two measures for the key rows.",
+      "Using \"the most\" without checking the whole column. A claim of highest or lowest must be true for every row in that column.",
+      "Giving reasons for the figures. The table does not explain why a city is busy or expensive, so explanations are unsupported and penalised."
+    ],
+    "language": [
+      {
+        "use": "Superlatives and ranking",
+        "phrases": [
+          "the highest figure",
+          "the lowest in the table",
+          "the fewest",
+          "ranked first",
+          "at the other extreme",
+          "by far the largest"
+        ]
+      },
+      {
+        "use": "Comparing across rows",
+        "phrases": [
+          "well ahead of",
+          "twice as many as",
+          "considerably lower than",
+          "slightly higher than",
+          "on a par with",
+          "the gap between X and Y"
+        ]
+      },
+      {
+        "use": "Contrast across columns",
+        "phrases": [
+          "however",
+          "nonetheless",
+          "whereas",
+          "despite attracting",
+          "but spent only",
+          "in contrast"
+        ]
+      },
+      {
+        "use": "Stating a pattern",
+        "phrases": [
+          "tended to",
+          "there was an inverse relationship",
+          "the more ..., the less",
+          "generally",
+          "with few exceptions",
+          "broadly similar"
+        ]
+      },
+      {
+        "use": "Introducing figures",
+        "phrases": [
+          "recorded",
+          "received",
+          "stood at",
+          "averaged",
+          "came to",
+          "was home to"
+        ]
+      }
+    ],
+    "band8": [
+      "Task Achievement: the overview identifies a relationship between columns, not just the largest row, and the body selects rows that prove it.",
+      "Task Achievement: some cells and some rows are deliberately left out. A Band 7 answer often reports every row once.",
+      "Coherence and Cohesion: each body paragraph has a theme (busy and cheap, quiet and expensive) and reference words connect sentences.",
+      "Lexical Resource and Grammatical Range: varied superlatives and comparatives, accurate units, and sentences that combine three facts about one row using relative and participle clauses."
+    ]
+  },
+  "task1-map": {
+    "title": "Task 1: Map reports",
+    "summary": "Map tasks test whether you can describe location and change accurately. Examiners look for compass and relative position language, the passive voice, changes grouped by area, and an overview of the overall transformation.",
+    "steps": [
+      "Orient yourself first: north is the top of the map. Choose two or three fixed features (river, main road, coast) to use as reference points for every location.",
+      "Compare the maps feature by feature and note each one as added, removed, replaced, extended, moved or unchanged. Note the unchanged ones too, because they belong in the overview.",
+      "Count the changes. Aim to report five to eight clearly, and group them by area (north and south, inland and coast) or by type (housing, leisure, transport).",
+      "Decide the overview: what kind of change it is overall (more developed, more urban, more tourist-oriented) and what stayed the same.",
+      "Choose your tense: past for the earlier map, present perfect or past simple for the change, present simple for the later map if it is \"now\". Plan passive sentences, because things are built, replaced and cleared."
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "purpose": "Say which place the maps show and the time frame, in different words from the question.",
+        "sentences": [
+          "Paraphrase: \"maps show\" becomes illustrate; \"today\" becomes the present day."
+        ]
+      },
+      {
+        "paragraph": "Overview",
+        "purpose": "Summarise the overall transformation and what stayed the same, with no detailed location.",
+        "sentences": [
+          "Overview: main feature: the general direction of change (more developed, built up, modernised).",
+          "Overview: second feature: the fixed geography or features that did not change."
+        ]
+      },
+      {
+        "paragraph": "Body 1",
+        "purpose": "Report the changes in the first area, using compass directions and fixed reference points.",
+        "sentences": [
+          "Topic sentence: name the area and the type of change.",
+          "Change detail: one change with location, before and after.",
+          "Change detail: a second change linked to the first by \"in addition\" or a relative clause."
+        ]
+      },
+      {
+        "paragraph": "Body 2",
+        "purpose": "Report the changes in the second area, so the two paragraphs together cover every important change.",
+        "sentences": [
+          "Topic sentence: the second area and its type of change.",
+          "Change detail: the main change with a position relative to a fixed feature.",
+          "Change detail: a further change with direction of extension or movement.",
+          "Change detail: a final change, ending the report."
+        ]
+      }
+    ],
+    "timing": [
+      {
+        "minutes": 3,
+        "what": "Analyse the visual, choose the overview features and decide the grouping"
+      },
+      {
+        "minutes": 14,
+        "what": "Write: introduction and overview first (4 minutes), then two body paragraphs"
+      },
+      {
+        "minutes": 3,
+        "what": "Check units, figures, tenses, and that the overview contains no numbers"
+      }
+    ],
+    "pitfalls": [
+      "Describing the first map in one paragraph and the second in another. The task is about change, so each sentence should connect then and now.",
+      "Using vague location such as \"on the left\" or \"near the top\". Use north, south, east, west, north-east and relative phrases such as \"between the road and the beach\".",
+      "Mixing up compass directions. North is the top; east is the right. A wrong direction is an accuracy error that cannot be corrected by good grammar.",
+      "Using the active voice for every change (\"they built a bridge\"). The passive (\"a bridge was built\") is the natural form and shows grammatical range.",
+      "Omitting the features that did not change. Examiners expect the overview to mention both the transformation and the constants.",
+      "Giving reasons or opinions (the village needed more housing; this is better for tourists). Only report what the maps show."
+    ],
+    "language": [
+      {
+        "use": "Direction and position",
+        "phrases": [
+          "in the north-east of",
+          "to the south of the main road",
+          "between the road and the beach",
+          "on the western bank of",
+          "alongside",
+          "at the eastern end"
+        ]
+      },
+      {
+        "use": "Change vocabulary",
+        "phrases": [
+          "was replaced by",
+          "was cleared to make way for",
+          "was converted into",
+          "was extended",
+          "was enlarged",
+          "has been built"
+        ]
+      },
+      {
+        "use": "Passive and perfect forms",
+        "phrases": [
+          "has been demolished",
+          "was constructed",
+          "had been",
+          "were relocated",
+          "have been added",
+          "is now occupied by"
+        ]
+      },
+      {
+        "use": "Unchanged features",
+        "phrases": [
+          "remained unchanged",
+          "stayed in the same place",
+          "was left as it was",
+          "is still",
+          "unaffected by the development"
+        ]
+      },
+      {
+        "use": "Overview of transformation",
+        "phrases": [
+          "has become more developed",
+          "was transformed from ... into",
+          "has been modernised",
+          "the layout remains broadly similar",
+          "giving way to"
+        ]
+      }
+    ],
+    "band8": [
+      "Task Achievement: the overview states the nature of the overall transformation and the constants. Band 7 may only describe changes in detail.",
+      "Coherence and Cohesion: changes are grouped by area or type, with each location tied to a fixed reference point such as the river or main road.",
+      "Lexical Resource: a wide range of change verbs (replaced, converted, cleared, enlarged, extended) rather than \"built\" and \"removed\" repeated.",
+      "Grammatical Range and Accuracy: accurate passives in present perfect and past simple, relative clauses for location, and correct compass directions throughout."
+    ]
+  },
+  "task1-mixed": {
+    "title": "Task 1: Mixed visual reports",
+    "summary": "When two different visuals appear together, the examiner checks that you cover both, use the right language for each and link them into one coherent report. One overview must cover both.",
+    "steps": [
+      "Identify what each visual shows (a trend, a share, a comparison) and how they relate: the same topic, the same year, or the same group of people.",
+      "Analyse each separately for two or three key features: the biggest trend or difference and one contrast. Do not try to match every figure from one visual with the other.",
+      "Look for a link: a visual may give the totals, the other the breakdown, or one may show change over time while the other shows a snapshot. Decide how to signal this.",
+      "Plan one body paragraph per visual, or group by theme if the visuals overlap. Each body paragraph needs its own topic sentence naming its visual.",
+      "Write the overview as two sentences, one from each visual, joined with \"at the same time\" or \"while\", and without numbers."
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "purpose": "Paraphrase both visuals in one or two sentences, naming each visual and the topic they share.",
+        "sentences": [
+          "Paraphrase: join the two visuals with \"while\" or \"and\", and change the verb for each."
+        ]
+      },
+      {
+        "paragraph": "Overview",
+        "purpose": "Give the main feature from each visual in a single overview that reads as one story.",
+        "sentences": [
+          "Overview: main feature: the key trend or difference in the first visual.",
+          "Overview: second feature: the key trend or difference in the second visual."
+        ]
+      },
+      {
+        "paragraph": "Body 1",
+        "purpose": "Report the first visual with selected figures and a comparison.",
+        "sentences": [
+          "Topic sentence: name the visual and the group of data.",
+          "Key figures: exact values for the main item.",
+          "Comparison: contrast with another item, using trend language for a graph."
+        ]
+      },
+      {
+        "paragraph": "Body 2",
+        "purpose": "Report the second visual and link it to the first.",
+        "sentences": [
+          "Topic sentence: signpost the second visual and the contrast it brings.",
+          "Key figures: the two most important changes or differences, with units.",
+          "Closing detail: a final rank or constant, ending the report."
+        ]
+      }
+    ],
+    "timing": [
+      {
+        "minutes": 3,
+        "what": "Analyse the visual, choose the overview features and decide the grouping"
+      },
+      {
+        "minutes": 14,
+        "what": "Write: introduction and overview first (4 minutes), then two body paragraphs"
+      },
+      {
+        "minutes": 3,
+        "what": "Check units, figures, tenses, and that the overview contains no numbers"
+      }
+    ],
+    "pitfalls": [
+      "Describing only one visual in detail and the other in a single sentence. Both visuals carry marks, so each needs a balanced body paragraph.",
+      "Failing to link the visuals. Two unrelated paragraphs read like two separate answers; a shared overview and a signposting phrase make them one report.",
+      "Claiming one visual causes the other (more leisure travel caused more flights). Unless the data say so, report each pattern and let the reader draw links.",
+      "Using the wrong language for the visual: trend verbs for a pie chart with one year, or \"proportion\" language for a line graph in millions.",
+      "Overloading the report with figures from both visuals. You are expected to select, so be stricter than for a single visual.",
+      "Forgetting to mention units and time frames for each visual, since they can differ between a graph and a table."
+    ],
+    "language": [
+      {
+        "use": "Introducing each visual",
+        "phrases": [
+          "The line graph illustrates",
+          "while the pie charts compare",
+          "Looking first at",
+          "The pie charts reveal",
+          "The table provides further detail on",
+          "Turning to"
+        ]
+      },
+      {
+        "use": "Linking the two visuals",
+        "phrases": [
+          "At the same time,",
+          "In parallel with this,",
+          "Meanwhile,",
+          "This is reflected in",
+          "By comparison,",
+          "Taken together,"
+        ]
+      },
+      {
+        "use": "Trend language for graphs",
+        "phrases": [
+          "rose steadily from ... to",
+          "peaked at",
+          "overtook",
+          "edged up",
+          "declined to",
+          "far faster than"
+        ]
+      },
+      {
+        "use": "Share language for charts and tables",
+        "phrases": [
+          "accounted for",
+          "remained constant at",
+          "the largest category",
+          "whereas",
+          "replaced X as the main",
+          "made up"
+        ]
+      },
+      {
+        "use": "Overview across visuals",
+        "phrases": [
+          "Overall,",
+          "mainly because of",
+          "became busier",
+          "the most noticeable feature in both",
+          "the general pattern is"
+        ]
+      }
+    ],
+    "band8": [
+      "Task Achievement: both visuals are covered in a single overview, and the key feature of each is selected. Band 7 often has an overview for only one.",
+      "Coherence and Cohesion: each body paragraph is devoted to a visual with a signpost, and linking phrases connect the two.",
+      "Lexical Resource: language is matched to the visual (trend verbs for the graph, share verbs for the pies) and paraphrase is varied.",
+      "Grammatical Range and Accuracy: sentences combine trend and comparison in one structure, with accurate tenses and no causal claims that the data cannot support."
     ]
   }
 }

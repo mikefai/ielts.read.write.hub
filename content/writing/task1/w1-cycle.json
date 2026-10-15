@@ -1,0 +1,138 @@
+{
+  "id": "w1-cycle",
+  "task": 1,
+  "title": "Life cycle of the common frog",
+  "prompt": "The diagram shows the life cycle of the common frog. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "chart": {
+    "kind": "process",
+    "layout": "cycle",
+    "title": "The life cycle of the common frog",
+    "stages": [
+      {
+        "text": "Adult frogs lay clusters of eggs, called spawn, in a pond.",
+        "icon": "egg"
+      },
+      {
+        "text": "After about ten days, the eggs hatch into tadpoles that breathe through gills.",
+        "icon": "drop"
+      },
+      {
+        "text": "The tadpoles feed on algae and grow back legs.",
+        "icon": "fish"
+      },
+      {
+        "text": "Front legs appear and the tail gradually shrinks.",
+        "icon": "wave"
+      },
+      {
+        "text": "The young frogs, called froglets, leave the water and live among plants on land.",
+        "icon": "leaf"
+      },
+      {
+        "text": "After around three years, mature frogs return to the pond to breed.",
+        "icon": "sun"
+      }
+    ]
+  },
+  "model": {
+    "paragraphs": [
+      {
+        "name": "Introduction",
+        "sentences": [
+          {
+            "role": "paraphrase",
+            "text": "The diagram illustrates the six stages in the life cycle of the common frog, from the laying of eggs to the return of adults to the pond to breed.",
+            "why": "Paraphrases the title and adds the number of stages and the links between first and last. \"Illustrates\" and \"return of adults\" show Lexical Resource, and the sentence previews the whole cycle for Task Achievement."
+          }
+        ]
+      },
+      {
+        "name": "Overview",
+        "sentences": [
+          {
+            "role": "overview-main",
+            "text": "Overall, the cycle is continuous, with no real beginning or end, because the adult frogs that return to the pond produce the next generation.",
+            "why": "States the defining feature of a cycle: it has no start or end. The \"because\" clause explains how stage six leads to stage one, which is the key Task Achievement point for a cyclical diagram."
+          },
+          {
+            "role": "overview-second",
+            "text": "The animal begins in water, moves onto land as it matures, and then comes back to the pond.",
+            "why": "A second overview feature that gives the shape of the whole cycle in one sentence. The three-part verb sequence shows Grammatical Range and summarises location changes without detail, supporting Task Achievement and Coherence."
+          }
+        ]
+      },
+      {
+        "name": "Body 1",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "The first four stages take place in the pond.",
+            "why": "A topic sentence that groups stages one to four by location. \"Take place\" is a neutral, accurate phrase for a process, and the grouping gives the paragraph one clear idea, earning Coherence and Cohesion."
+          },
+          {
+            "role": "change-detail",
+            "text": "Adult frogs lay clusters of eggs, known as spawn, and after about ten days these hatch into tadpoles, which breathe through gills.",
+            "why": "Reports stages one and two with a participle phrase and a relative clause. \"After about ten days\" gives the duration, \"known as\" varies \"called\", and the verbs are accurate, earning Task Achievement and Grammatical Range."
+          },
+          {
+            "role": "comparison",
+            "text": "Whereas the eggs cannot move, the tadpoles swim and feed on algae, growing back legs as they develop.",
+            "why": "Compares two stages with \"whereas\", which meets the instruction to make comparisons in a process. The participle \"growing\" and \"as they develop\" link stage three smoothly, showing Coherence and Grammatical Range."
+          },
+          {
+            "role": "trend-detail",
+            "text": "Front legs then appear and the tail gradually shrinks, which completes the change into a young frog.",
+            "why": "\"Then\" sequences stage four, and the relative clause \"which completes\" explains its importance. Using \"gradually\" for the tail shows precise vocabulary, and the linking supports Coherence and Lexical Resource."
+          }
+        ]
+      },
+      {
+        "name": "Body 2",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "The final two stages involve a move from water to land and back again.",
+            "why": "Introduces the last phase and shows the movement pattern that links to the overview. \"Involve a move from ... to\" is a flexible structure, giving Coherence and a natural link between paragraphs."
+          },
+          {
+            "role": "change-detail",
+            "text": "The froglets leave the pond and live among plants, where they continue to grow.",
+            "why": "Describes stage five with a relative clause, \"where they continue to grow\", that adds a logical detail without inventing information. The sentence keeps close to the diagram, supporting Task Achievement and Grammatical Range."
+          },
+          {
+            "role": "closing-detail",
+            "text": "After around three years, the mature frogs return to the pond to breed, and the cycle begins again.",
+            "why": "Closes at stage six and returns to the first stage, which reflects the circular shape of the diagram. \"Begins again\" completes the cycle logically, earning Task Achievement and Coherence without a conclusion."
+          }
+        ]
+      }
+    ]
+  },
+  "guide": "task1-process",
+  "analysis": [
+    "The instruction is to select and report main features and make comparisons. For a cycle this means describing each stage in order, grouping stages into phases and showing how the last stage connects to the first.",
+    "A cycle has no start or end. Choose a sensible starting point (the eggs are logical) but say in the overview that the process is continuous, and finish by showing that the cycle begins again.",
+    "Paraphrase: \"diagram shows\" becomes illustrates or depicts; \"life cycle\" becomes the stages of development; \"common frog\" can stay or become a type of amphibian, if you are sure of the word.",
+    "Key features for the overview: six stages in a continuous loop; the animal changes from egg to tadpole to froglet to adult; it moves from water to land and returns to water to breed.",
+    "Group the stages: stages 1 to 4 in the pond, stages 5 and 6 on land and the return to the pond. Use present simple and the passive where the actor is not important, with varied sequencers (then, once, after this, following this).",
+    "The question does not ask for extra facts about frogs, such as their diet in detail, how many eggs survive, or why frogs are endangered. Use only the information in the diagram."
+  ],
+  "plan": [
+    {
+      "paragraph": "Introduction",
+      "idea": "Paraphrase: the diagram illustrates the six stages in the life cycle of the common frog, from egg-laying to adults returning to breed."
+    },
+    {
+      "paragraph": "Overview",
+      "idea": "The cycle is continuous with no beginning or end; the frog starts in water, moves onto land, and returns to the pond."
+    },
+    {
+      "paragraph": "Body 1",
+      "idea": "Stages 1 to 4 in the pond: spawn, hatching after ten days into gilled tadpoles, feeding on algae and growing back legs, then front legs and a shrinking tail."
+    },
+    {
+      "paragraph": "Body 2",
+      "idea": "Stages 5 and 6: froglets live on land among plants; after three years adults return to the pond to breed and the cycle repeats."
+    }
+  ]
+}

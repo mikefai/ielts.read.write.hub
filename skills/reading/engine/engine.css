@@ -1,16 +1,16 @@
 :root { --head: radial-gradient(circle at 1px 1px, rgb(255 255 255 / .35) 1.6px, transparent 1.7px) 0 0 / 14px 14px; }
-.bar { display: flex; gap: 16px; align-items: center; justify-content: space-between; flex-wrap: wrap; margin: 14px 0 18px; padding: 22px 26px; border-radius: var(--r);
+.bar { display: flex; gap: 16px; align-items: center; justify-content: space-between; flex-wrap: wrap; margin: 6px 0 10px; padding: 12px 22px; border-radius: var(--r);
   background: var(--head), var(--accent); color: #fff; border: 2px solid var(--ink); box-shadow: 6px 6px 0 var(--ink); }
-.bar h1 { margin: 0; font: 400 clamp(1.5rem, 4vw, 2.3rem)/1.1 var(--display); }
+.bar h1 { margin: 0; font: 400 clamp(1.3rem, 3vw, 1.8rem)/1.1 var(--display); }
 #timer { font: 700 1.5rem/1 ui-monospace, "Cascadia Mono", monospace; background: var(--paper); color: var(--ink); padding: 8px 16px; border-radius: 999px; border: 2px solid var(--ink); }
 .bar .btn { background: var(--paper); color: var(--ink); border-color: var(--ink); } .bar .btn:hover { background: var(--ink); color: var(--paper); }
-.coach { margin: 0 0 18px; } .coach summary { cursor: pointer; font-weight: 700; } .coach ol { margin: 10px 0 0; padding-left: 1.2rem; } .coach li { margin: 6px 0; }
-.split { display: grid; grid-template-columns: 1.25fr 1fr; gap: 22px; align-items: start; }
-.passage { font: 400 1.14rem/1.8 var(--serif); max-height: 78vh; overflow-y: auto; padding: 28px 30px 28px 56px; background-image: linear-gradient(90deg, transparent 38px, #e6a39266 38px, #e6a39266 40px, transparent 40px); }
+.coach { margin: 0 0 10px; padding: 6px 18px; } .coach summary { line-height: 1.3; } .coach summary { cursor: pointer; font-weight: 700; } .coach ol { margin: 10px 0 0; padding-left: 1.2rem; } .coach li { margin: 6px 0; }
+.split { display: grid; grid-template-columns: 3fr 2fr; gap: 18px; align-items: stretch; }
+.passage { font: 400 1.14rem/1.8 var(--serif); padding: 28px 30px 28px 56px; background-image: linear-gradient(90deg, transparent 38px, #e6a39266 38px, #e6a39266 40px, transparent 40px); }
 .passage h2 { font: 400 1.9rem/1.15 var(--display); margin: 0 0 18px; }
 .passage p { margin: 0 0 14px; position: relative; }
 .passage p strong { position: absolute; left: -44px; top: 2px; font: 700 .85rem var(--sans); width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; background: var(--ink); color: var(--paper); margin: 0; }
-.sheet { position: sticky; top: 14px; }
+.sheet { }
 .sheet > .muted { font-style: italic; margin-top: 0; }
 #items { counter-reset: q; }
 .q { border: 0; padding: 0 0 0 44px; margin: 0 0 22px; position: relative; counter-increment: q; }
@@ -25,7 +25,7 @@ input.gap:focus, select:focus { border-bottom-color: var(--accent); outline: non
 .flow { display: flex; flex-direction: column; gap: 2px; }
 .flow .box { border: 2px solid var(--ink); border-radius: 12px; padding: 14px 16px; background: #fff9; box-shadow: 4px 4px 0 var(--accent); }
 .flow .arrow { text-align: center; color: var(--accent); font-size: 1.5rem; line-height: 1; padding: 4px 0; }
-.pool { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; position: sticky; top: 0; background: var(--paper); padding: 8px 0 12px; z-index: 1; border-bottom: 1px dashed var(--line); }
+.pool { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; padding: 8px 0 12px; border-bottom: 1px dashed var(--line); }
 .pool .muted { width: 100%; margin: 0 0 4px; font-size: .88rem; }
 .chip { border: 2px solid var(--ink); border-radius: 999px; padding: 5px 14px; cursor: grab; font-size: .92rem; font-weight: 500; background: var(--paper); box-shadow: 2px 2px 0 var(--ink); }
 .chip:active { cursor: grabbing; } .chip.used { opacity: .35; text-decoration: line-through; box-shadow: none; }
@@ -45,3 +45,18 @@ input.gap:focus, select:focus { border-bottom-color: var(--accent); outline: non
 .note-h { font: 700 .8rem var(--sans); letter-spacing: .14em; text-transform: uppercase; margin: 18px 0 8px; }
 .notes .q { padding-left: 0; } .notes .q::before { display: none; }
 .rev-h { font: 400 1.4rem var(--display); margin: 28px 0 4px; }
+.passage p.flash { background: color-mix(in srgb, var(--mark) 60%, transparent); box-shadow: -8px 0 0 var(--mark), 8px 0 0 var(--mark); border-radius: 4px; transition: background .3s; }
+.btn.mini { padding: 4px 14px; font-size: .82rem; margin-top: 6px; }
+.qhead { font: 700 1.1rem var(--sans); margin: 0 0 6px !important; }
+.q select { width: 100%; max-width: 440px; padding: 10px 12px; font-size: 1rem; }
+/* exam layout: passage and questions are two equal-height panes that scroll on their own */
+.wrap:has(.split) { padding-top: 10px; padding-bottom: 12px; } .wrap:has(.split) > p:first-child { margin: 0 0 4px; }
+.split { height: max(400px, calc(100vh - 201px)); } .ptabs + .split { height: max(400px, calc(100vh - 219px)); }
+.split > * { height: 100%; min-height: 0; overflow-y: auto; }
+#ppanes > .passage { overflow: visible; }
+@media (max-width: 900px) { .split { height: auto; } .split > * { height: auto; overflow: visible; } .split > .passage, #ppanes > .passage { max-height: 60vh; overflow-y: auto; } }
+/* wide screens: use the full width and let reading text scale with it */
+.wrap:has(.split) { max-width: none; padding-left: clamp(16px, 2vw, 40px); padding-right: clamp(16px, 2vw, 40px); }
+.passage { font-size: clamp(1.14rem, .5vw + .88rem, 1.45rem); }
+.split > section.card:not(.passage), #qpanes { font-size: clamp(1rem, .3vw + .85rem, 1.2rem); }
+.bar #submit { background: var(--ink); color: var(--paper); border-color: var(--paper); } .bar #submit:hover { background: var(--accent); }

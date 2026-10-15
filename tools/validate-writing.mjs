@@ -34,11 +34,46 @@ export function validateWriting(task, roles, guides) {
     words += s.text.trim().split(/\s+/).length;
   }
   if (words < MIN_WORDS[task.task]) errs.push(`${id}: model has ${words} words, needs ${MIN_WORDS[task.task]}`);
-  const c = task.chart;
   if (task.task === 1) {
-    if (!c) errs.push(`${id}: task 1 needs a chart`);
-    else if (c.kind === 'process') { if ((c.stages?.length ?? 0) < 4) errs.push(`${id}: process needs 4+ stages`); }
-    else for (const s of c.series ?? []) if (s.values.length !== c.labels.length) errs.push(`${id}: series "${s.name}" length differs from labels`);
+    if (!task.chart) errs.push(`${id}: task 1 needs a chart`);
+    else errs.push(...validateChart(task.chart, id));
+  }
+  return errs;
+}
+
+export const MAP_FEATURES = ['river', 'road', 'railway', 'lake', 'sea', 'beach', 'field', 'trees', 'building', 'houses', 'carpark', 'pier', 'bridge', 'label'];
+const CHART_KINDS = ['bar', 'line', 'pie', 'table', 'process', 'map', 'mixed'];
+
+// maps are drawn on a 100 x 70 canvas; everything must stay inside it
+export function validateChart(c, id) {
+  if (!CHART_KINDS.includes(c.kind)) return [`${id}: unknown chart kind "${c.kind}"`];
+  const errs = [];
+  if (c.kind === 'mixed') {
+    if ((c.charts?.length ?? 0) < 2) errs.push(`${id}: mixed needs 2+ charts`);
+    for (const s of c.charts ?? []) errs.push(...validateChart(s, id));
+  } else if (c.kind === 'process') {
+    if ((c.stages?.length ?? 0) < 4) errs.push(`${id}: process needs 4+ stages`);
+  } else if (c.kind === 'pie') {
+    if (!c.pies?.length) errs.push(`${id}: pie needs pies`);
+    for (const p of c.pies ?? []) {
+      const sum = p.slices.reduce((s, x) => s + x.value, 0);
+      if (c.unit === '%' && Math.abs(sum - 100) > 1) errs.push(`${id}: pie "${p.label}" slices sum to ${sum}, needs 100`);
+    }
+  } else if (c.kind === 'table') {
+    for (const r of c.rows ?? []) if (r.values.length !== c.columns.length) errs.push(`${id}: table row "${r.label}" has ${r.values.length} values for ${c.columns.length} columns`);
+  } else if (c.kind === 'map') {
+    if ((c.panels?.length ?? 0) < 2) errs.push(`${id}: map needs 2+ panels`);
+    for (const p of c.panels ?? []) for (const f of p.features) {
+      if (!MAP_FEATURES.includes(f.type)) { errs.push(`${id}: unknown map feature "${f.type}"`); continue; }
+      const pointOut = (f.points ?? []).some(([x, y]) => x < 0 || x > 100 || y < 0 || y > 70);
+      const boxOut = f.x !== undefined && (f.x < 0 || f.y < 0 || f.x + (f.w ?? 0) > 100 || f.y + (f.h ?? 0) > 70);
+      if (pointOut || boxOut) errs.push(`${id}: map feature "${f.type}" out of bounds (canvas 100 x 70)`);
+      // blocks smaller than this draw no houses/trees, or clip their label
+      if (['houses', 'trees'].includes(f.type) && (f.w < 10 || f.h < 8)) errs.push(`${id}: map ${f.type} block too small to draw (min 10 x 8)`);
+      if (f.type === 'building' && f.label && (f.w < 16 || f.h < 9)) errs.push(`${id}: map building "${f.label}" too small for its label (min 16 x 9)`);
+    }
+  } else {
+    for (const s of c.series ?? []) if (s.values.length !== c.labels.length) errs.push(`${id}: series "${s.name}" length differs from labels`);
   }
   return errs;
 }

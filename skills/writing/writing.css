@@ -6,9 +6,9 @@
 #timer.late { color: var(--bad); border-color: var(--bad); }
 .split { display: grid; grid-template-columns: 1fr 1.1fr; gap: 24px; align-items: start; }
 .prompt { font: 400 1.1rem/1.7 var(--serif); } .prompt h2, .write h2, .res h2 { font: 700 .75rem var(--sans); letter-spacing: .2em; text-transform: uppercase; color: var(--muted); margin: 0 0 10px; }
-.chart { margin-top: 18px; } .chart svg { width: 100%; height: auto; } .chart .ct { font: 700 .95rem var(--sans); margin: 0 0 6px; }
+.chart { margin-top: 18px; background: #fff; border: 1px solid #cfc8b8; border-radius: 8px; padding: 16px 16px 12px; box-shadow: 0 1px 2px rgba(0,0,0,.06); } .chart svg { width: 100%; height: auto; } .chart .ct { font: 700 .95rem var(--sans); margin: 0 0 6px; }
 .legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: .85rem; } .legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; }
-.chart text { font: 12px var(--sans); fill: var(--muted); }
+.chart svg { fill: #4a4f5c; } .chart text { font: 12px var(--sans); }
 .flowc { display: flex; flex-direction: column; gap: 4px; } .flowc div { border: 2px solid var(--ink); border-radius: 10px; padding: 8px 12px; background: #fff9; } .flowc b { color: var(--accent); margin-right: 8px; } .flowc span { text-align: center; color: var(--accent); }
 .tabs { display: inline-flex; border: 2px solid var(--ink); border-radius: 999px; overflow: hidden; margin-bottom: 14px; }
 .tabs button { font: 700 .9rem var(--sans); padding: 7px 18px; border: 0; background: transparent; color: var(--ink); cursor: pointer; } .tabs button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
@@ -37,3 +37,26 @@ textarea:focus { outline: none; border-bottom-color: var(--accent); background: 
 .why { display: block; margin: 4px 0 10px; padding: 8px 12px; border-left: 4px solid var(--accent); background: #fff9; border-radius: 0 8px 8px 0; font: 400 .95rem/1.55 var(--sans); }
 .why[hidden] { display: none; }
 .check h3 { font: 700 .8rem var(--sans); letter-spacing: .12em; text-transform: uppercase; margin: 16px 0 4px; } .check ul { margin: 4px 0 8px; padding-left: 1.2rem; }
+
+.chart .ct { text-align: center; margin: 0 0 10px; } .chart .legend { justify-content: center; margin-top: 8px; }
+.chart .src { font: italic .78rem var(--sans); color: var(--muted); margin: 8px 0 0; text-align: right; }
+.pies { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; } .pie { flex: 1 1 200px; max-width: 260px; text-align: center; } .pie svg { width: 100%; height: auto; } .pie p { font: 700 .9rem var(--sans); margin: 0; }
+.tw { overflow-x: auto; } .dtable { width: 100%; border-collapse: collapse; font: .92rem var(--sans); }
+.dtable th, .dtable td { border: 1px solid #bdb7a8; padding: 7px 10px; text-align: center; } .dtable thead th { background: #eaf0f7; } .dtable tbody th { text-align: left; background: #f7f5ef; }
+.maps { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; } .mapp svg { width: 100%; height: auto; display: block; } .mapl { text-align: center; font: 700 .9rem var(--sans); margin: 6px 0 0; }
+.mixed { display: grid; gap: 22px; } .mixed .sub + .sub { border-top: 1px dashed #cfc8b8; padding-top: 18px; }
+@media (max-width: 640px) { .maps { grid-template-columns: 1fr; } }
+
+/* exam layout: prompt/guide and answer are equal-height panes that scroll on their own */
+.wrap:has(.split) { padding-top: 10px; padding-bottom: 12px; } .wrap:has(.split) > p:first-child { margin: 0 0 4px; }
+.head { padding: 4px 0 10px; margin-bottom: 12px; } .head h1 { font-size: clamp(1.4rem, 2.4vw, 2.3rem); }
+.split { height: max(420px, calc(100vh - 150px)); align-items: stretch; }
+.split > * { height: 100%; min-height: 0; min-width: 0; overflow-y: auto; }
+.left { align-content: start; }
+.write .bar { position: sticky; bottom: 0; background: var(--paper); padding: 10px 0 2px; margin-top: 12px; border-top: 1px solid var(--line); }
+.prompt { font-size: clamp(1.1rem, .35vw + .9rem, 1.35rem); }
+@media (max-width: 900px) { .split { height: auto; } .split > * { height: auto; overflow: visible; } }
+.left { display: flex; flex-direction: column; gap: 18px; }
+.left > .guide { flex: 1 0 auto; min-height: 240px; }
+@media (max-width: 640px) { .dtable { font-size: .76rem; } .dtable th, .dtable td { padding: 5px 3px; } .chart { padding: 10px 8px; } }
+@media (max-width: 640px) { .dtable { table-layout: fixed; } .dtable th, .dtable td { overflow-wrap: anywhere; } .dtable thead th:first-child, .dtable tbody th { width: 24%; } }

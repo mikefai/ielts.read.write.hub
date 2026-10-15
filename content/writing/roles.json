@@ -1,19 +1,74 @@
 {
-  "paraphrase": { "label": "Paraphrase", "hint": "Say what the visual shows, where and when, in your own words. No opinions." },
-  "overview-main": { "label": "Overview: main feature", "hint": "The biggest trend or the biggest difference. No numbers yet." },
-  "overview-second": { "label": "Overview: second feature", "hint": "A contrast, a second trend or a stand-out figure." },
-  "topic": { "label": "Topic sentence", "hint": "One clear main idea (or group of data) for this paragraph." },
-  "key-figures": { "label": "Key figures", "hint": "Give exact data for the main item, with units." },
-  "comparison": { "label": "Comparison", "hint": "Compare with another item: whereas, while, higher than." },
-  "trend-detail": { "label": "Trend detail", "hint": "Describe movement over time: rose steadily to, peaked at." },
-  "link": { "label": "Link", "hint": "Tie back to the question or bridge to the next paragraph." },
-  "closing-detail": { "label": "Closing detail", "hint": "One more notable point. No conclusion needed in Task 1." },
-  "background": { "label": "Background", "hint": "Paraphrase the topic neutrally. Do not copy the question." },
-  "thesis": { "label": "Thesis", "hint": "Answer the question directly. Reuse the question's key terms." },
-  "outline": { "label": "Outline", "hint": "What the essay will cover." },
-  "explanation": { "label": "Explanation", "hint": "Why or how the idea holds." },
-  "example": { "label": "Example", "hint": "Specific and believable: a country, a study, a common situation." },
-  "effect": { "label": "Result or effect", "hint": "What the example proves or what follows from it." },
-  "summary": { "label": "Summary", "hint": "Restate your position and main reasons in new words." },
-  "judgement": { "label": "Final judgement", "hint": "A short closing thought. No new ideas." }
+  "paraphrase": {
+    "label": "Paraphrase",
+    "hint": "Say what the visual shows, where and when, in your own words. No opinions."
+  },
+  "overview-main": {
+    "label": "Overview: main feature",
+    "hint": "The biggest trend or the biggest difference. No numbers yet."
+  },
+  "overview-second": {
+    "label": "Overview: second feature",
+    "hint": "A contrast, a second trend or a stand-out figure."
+  },
+  "topic": {
+    "label": "Topic sentence",
+    "hint": "One clear main idea (or group of data) for this paragraph."
+  },
+  "key-figures": {
+    "label": "Key figures",
+    "hint": "Give exact data for the main item, with units."
+  },
+  "comparison": {
+    "label": "Comparison",
+    "hint": "Compare with another item: whereas, while, higher than."
+  },
+  "trend-detail": {
+    "label": "Trend detail",
+    "hint": "Describe movement over time: rose steadily to, peaked at."
+  },
+  "link": {
+    "label": "Link",
+    "hint": "Tie back to the question or bridge to the next paragraph."
+  },
+  "closing-detail": {
+    "label": "Closing detail",
+    "hint": "One more notable point. No conclusion needed in Task 1."
+  },
+  "background": {
+    "label": "Background",
+    "hint": "Paraphrase the topic neutrally. Do not copy the question."
+  },
+  "thesis": {
+    "label": "Thesis",
+    "hint": "Answer the question directly. Reuse the question's key terms."
+  },
+  "outline": {
+    "label": "Outline",
+    "hint": "What the essay will cover."
+  },
+  "explanation": {
+    "label": "Explanation",
+    "hint": "Why or how the idea holds."
+  },
+  "example": {
+    "label": "Example",
+    "hint": "Specific and believable: a country, a study, a common situation."
+  },
+  "effect": {
+    "label": "Result or effect",
+    "hint": "What the example proves or what follows from it."
+  },
+  "summary": {
+    "label": "Summary",
+    "hint": "Restate your position and main reasons in new words."
+  },
+  "judgement": {
+    "label": "Final judgement",
+    "hint": "A short closing thought. No new ideas."
+  },
+  "change-detail": {
+    "label": "Change detail",
+    "hint": "Describe one specific change: what was added, removed or moved, and where."
+  }
 }

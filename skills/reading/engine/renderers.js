@@ -18,7 +18,7 @@ function radios(options) {
   return (set, box, offset = 0) => {
     set.items.forEach((it, i) => {
       const opts = options ?? it.options;
-      const f = $('fieldset', { className: 'q' }, $('legend', {}, `${i + 1 + offset}. ${it.prompt}`));
+      const f = $('fieldset', { className: 'q' }, $('legend', {}, it.prompt));
       opts.forEach(o => f.append($('label', { className: 'opt' }, $('input', { type: 'radio', name: `${set.id}-${it.id}`, value: o }), ' ', o)));
       box.append(f);
     });
@@ -33,7 +33,8 @@ function gaps(flow, notes) {
       const input = $('input', { type: 'text', className: 'gap', autocomplete: 'off', 'aria-label': `Answer ${i + 1 + offset}` });
       const parts = it.prompt.split('____');
       if (notes && it.heading) wrap.append($('h4', { className: 'note-h' }, it.heading));
-      const row = $('div', { className: flow ? 'box' : 'q' }, `${i + 1 + offset}. `, parts[0]);
+      // numbered circles (.q::before) already number plain questions; flow boxes and notes have none
+      const row = $('div', { className: flow ? 'box' : 'q' }, flow || notes ? `${i + 1 + offset}. ` : '', parts[0]);
       if (parts.length > 1) row.append(input, parts.slice(1).join('____'));
       else row.append($('br'), input);
       row.append(' ', counter(input, set.wordLimit));
@@ -68,10 +69,11 @@ function matching(once, inline) {
       sel.addEventListener('dragover', ev => ev.preventDefault());
       sel.addEventListener('drop', ev => { ev.preventDefault(); sel.value = ev.dataTransfer.getData('text/plain'); sync(); });
       selects.push(sel);
-      const parts = it.prompt.split('____');
+      const parts = it.prompt.split('____'), para = it.prompt.match(/^Paragraph ([A-Z])$/);
+      const show = para ? $('button', { type: 'button', className: 'btn ghost mini', textContent: 'Show paragraph', onclick: () => box.dispatchEvent(new CustomEvent('showpara', { bubbles: true, detail: para[1] })) }) : '';
       box.append(inline && parts.length > 1
-        ? $('div', { className: 'q' }, `${i + 1 + offset}. `, parts[0], sel, parts.slice(1).join('____'))
-        : $('div', { className: 'q' }, $('p', {}, `${i + 1 + offset}. ${it.prompt}`), sel));
+        ? $('div', { className: 'q' }, parts[0], sel, parts.slice(1).join('____'))
+        : $('div', { className: 'q' }, $('p', { className: para ? 'qhead' : '' }, it.prompt), sel, ' ', show));
     });
     return () => selects.map(s => s.value);
   };

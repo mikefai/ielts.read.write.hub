@@ -1,0 +1,146 @@
+{
+  "id": "w1-hbar",
+  "task": 1,
+  "title": "Leisure activities in Ravenhill",
+  "prompt": "The bar chart shows the percentage of adult men and women in the town of Ravenhill who regularly took part in six leisure activities in 2022. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "chart": {
+    "kind": "bar",
+    "orientation": "horizontal",
+    "title": "Adults regularly taking part in six leisure activities by gender, Ravenhill, 2022",
+    "unit": "%",
+    "source": "Adapted community survey",
+    "labels": [
+      "Walking",
+      "Gym or fitness classes",
+      "Team sports",
+      "Reading",
+      "Gardening",
+      "Cinema"
+    ],
+    "series": [
+      {
+        "name": "Men",
+        "values": [
+          58,
+          41,
+          33,
+          36,
+          29,
+          24
+        ]
+      },
+      {
+        "name": "Women",
+        "values": [
+          66,
+          47,
+          14,
+          59,
+          38,
+          22
+        ]
+      }
+    ]
+  },
+  "model": {
+    "paragraphs": [
+      {
+        "name": "Introduction",
+        "sentences": [
+          {
+            "role": "paraphrase",
+            "text": "The bar chart compares the proportion of men and women in Ravenhill who regularly took part in six leisure pursuits in 2022.",
+            "why": "Paraphrases without copying: \"compares\" replaces \"shows\", \"proportion\" replaces \"percentage\" and \"pursuits\" replaces \"activities\". It adds the gender comparison the chart is built around, earning Task Achievement and Lexical Resource."
+          }
+        ]
+      },
+      {
+        "name": "Overview",
+        "sentences": [
+          {
+            "role": "overview-main",
+            "text": "Overall, women were more likely than men to take part in most of the activities, and walking was the most popular pastime for both sexes.",
+            "why": "Combines the two biggest features: the gender difference and the shared leader. \"More likely than\" is a natural comparative for participation, and no figures appear, which satisfies Task Achievement for the overview."
+          },
+          {
+            "role": "overview-second",
+            "text": "Team sports were the main exception, with far more men than women participating.",
+            "why": "Identifies the standout contrast against the overall pattern. \"Main exception\" shows the writer can select, and \"far more ... than\" is a correct quantity comparison, supporting Task Achievement and Grammatical Range."
+          }
+        ]
+      },
+      {
+        "name": "Body 1",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "Women outnumbered men in four of the six activities.",
+            "why": "A topic sentence that groups four categories by one shared feature. \"Outnumbered\" is a precise verb for participants, and the fraction \"four of the six\" summarises the group, helping Coherence and Lexical Resource."
+          },
+          {
+            "role": "key-figures",
+            "text": "Walking was most common, with 66 per cent of women and 58 per cent of men taking part.",
+            "why": "Gives the exact top figures for both series with units and a clear \"with\" structure. Naming the highest category first supports the overview claim, and the figures match the chart for Task Achievement."
+          },
+          {
+            "role": "comparison",
+            "text": "The gap was widest for reading, at 59 per cent of women compared with only 36 per cent of men, a difference of 23 percentage points.",
+            "why": "Selects the largest difference and quantifies it. \"Percentage points\" is correct for a gap between two percentages, and the superlative \"widest\" shows selection, earning Task Achievement and Lexical Resource."
+          },
+          {
+            "role": "trend-detail",
+            "text": "Smaller differences appeared in gym attendance (47 per cent against 41) and gardening (38 per cent against 29).",
+            "why": "Summarises two further categories with brackets and \"against\", avoiding a separate sentence for each. The efficient comparison shows range and selection, and the bracketed figures stay accurate, supporting Coherence."
+          }
+        ]
+      },
+      {
+        "name": "Body 2",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "Men, however, were considerably more active in team sports.",
+            "why": "A contrast topic sentence marked by \"however\" that turns attention to the exception named in the overview. It links Body 1 to Body 2 and uses \"considerably\" as an accurate degree adverb, earning Coherence and Cohesion."
+          },
+          {
+            "role": "key-figures",
+            "text": "Thirty-three per cent of men played them, which was more than double the 14 per cent of women.",
+            "why": "\"More than double\" is correct because 33 is over twice 14, and the sentence begins with a spelled-out number to avoid starting with a numeral. It shows accuracy, Task Achievement and Grammatical Range."
+          },
+          {
+            "role": "closing-detail",
+            "text": "Cinema attendance was the most evenly balanced, at 24 per cent for men and 22 per cent for women.",
+            "why": "Uses a superlative to point out the smallest gap, which is a worthwhile closing detail. The exact figures are right and \"evenly balanced\" is a natural collocation, supporting Task Achievement and Lexical Resource."
+          }
+        ]
+      }
+    ]
+  },
+  "guide": "task1-chart",
+  "analysis": [
+    "The instruction is to select and report main features and make comparisons. Six activities with two bars each give 12 values, so the skill is choosing which comparisons matter.",
+    "This is a comparison of two groups at one point in time, not a trend. There is no \"increase\" or \"decrease\" between 2022 and another year; use comparative language (more likely, higher than, outnumbered) and past simple tense.",
+    "Horizontal bars are read from the axis along the bottom: make sure you take values from the end of each bar, and note that the order of the categories is not ranked. Check which bar is men and which is women before writing.",
+    "Paraphrase: \"percentage\" becomes proportion or share; \"adult men and women\" becomes male and female adults; \"leisure activities\" becomes pastimes or leisure pursuits; \"regularly took part in\" becomes participated in.",
+    "Key features: women lead in four activities, with the widest gap in reading (59 v 36); men lead clearly only in team sports (33 v 14); cinema is almost equal; walking is first for both.",
+    "Group by who leads, not by chart order: women ahead in one body, the male and balanced activities in the other. The question does not ask why men and women choose differently, so do not give reasons."
+  ],
+  "plan": [
+    {
+      "paragraph": "Introduction",
+      "idea": "Paraphrase: the chart compares the proportion of men and women in Ravenhill regularly taking part in six leisure pursuits in 2022."
+    },
+    {
+      "paragraph": "Overview",
+      "idea": "Women ahead in most activities; walking the most popular for both; team sports the main exception with far more men. No figures."
+    },
+    {
+      "paragraph": "Body 1",
+      "idea": "Women ahead in four activities: walking 66 v 58; reading 59 v 36 (widest gap, 23 points); gym 47 v 41; gardening 38 v 29."
+    },
+    {
+      "paragraph": "Body 2",
+      "idea": "Team sports 33 per cent of men v 14 per cent of women (more than double); cinema nearly equal at 24 v 22."
+    }
+  ]
+}

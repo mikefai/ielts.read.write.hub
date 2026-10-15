@@ -11,6 +11,15 @@ export const mmss = s => `${String(Math.floor(s / 60)).padStart(2, '0')}:${Strin
 // "Approach it again" analyses the trap, so it only appears after a first attempt (review screen)
 export const helpHtml = (i, again) => `<div class="help" data-help="${i}"><button class="btn ghost" type="button" data-h="how" aria-expanded="false">How to answer</button>${again ? '<button class="btn ghost" type="button" data-h="again" aria-expanded="false">Approach it again</button>' : ''}<p class="hp" hidden></p></div>`;
 
+// scrolls the visible passage to a paragraph and flashes it; used by "Show paragraph" buttons
+export function flashPara(root, label) {
+  const p = root.querySelector(`.passage:not([hidden]) p[data-label="${label}"]`);
+  if (!p) return;
+  const c = p.closest('.passage');
+  c.scrollTo({ top: c.scrollTop + p.getBoundingClientRect().top - c.getBoundingClientRect().top - 12, behavior: 'smooth' });
+  p.classList.add('flash'); setTimeout(() => p.classList.remove('flash'), 1800);
+}
+
 // each button toggles its own text from the item; opening one closes the other
 export function wireHelp(root, items) {
   root.querySelectorAll('.help').forEach(h => {
@@ -60,6 +69,7 @@ export async function startSet({ type, mount, render, minutes }) {
   const get = render(set, mount.querySelector('#items'));
   mount.querySelectorAll('#items .q, #items .box').forEach((el, i) => el.insertAdjacentHTML('beforeend', helpHtml(i)));
   wireHelp(mount, set.items);
+  mount.addEventListener('showpara', e => flashPara(mount, e.detail));
   const start = Date.now(); let left = minutes * 60; let done = false;
   const timerEl = mount.querySelector('#timer');
   const tick = setInterval(() => { left = Math.max(0, left - 1); timerEl.textContent = mmss(left); if (!left) submit(); }, 1000);

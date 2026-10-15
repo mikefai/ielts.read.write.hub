@@ -1,10 +1,107 @@
 [
-  { "id": "w1-bar", "task": 1, "dir": "task1", "title": "Bar chart", "blurb": "Compare two years across categories." },
-  { "id": "w1-line", "task": 1, "dir": "task1", "title": "Line graph", "blurb": "Describe trends and where lines cross." },
-  { "id": "w1-process", "task": 1, "dir": "task1", "title": "Process", "blurb": "Explain the stages in order." },
-  { "id": "w2-opinion", "task": 2, "dir": "task2", "title": "Opinion essay", "blurb": "Agree or disagree, with a clear position." },
-  { "id": "w2-discussion", "task": 2, "dir": "task2", "title": "Discussion essay", "blurb": "Weigh both views, then give yours." },
-  { "id": "w2-problem-solution", "task": 2, "dir": "task2", "title": "Problem and solution", "blurb": "Explain causes and propose fixes." },
-  { "id": "w2-two-part", "task": 2, "dir": "task2", "title": "Two-part question", "blurb": "Answer each question in its own paragraph." },
-  { "id": "w2-advantages", "task": 2, "dir": "task2", "title": "Advantages and disadvantages", "blurb": "Weigh both sides and judge." }
+  {
+    "id": "w1-bar",
+    "task": 1,
+    "dir": "task1",
+    "title": "Bar chart",
+    "blurb": "Compare two years across categories."
+  },
+  {
+    "id": "w1-line",
+    "task": 1,
+    "dir": "task1",
+    "title": "Line graph",
+    "blurb": "Describe trends and where lines cross."
+  },
+  {
+    "id": "w1-process",
+    "task": 1,
+    "dir": "task1",
+    "title": "Process",
+    "blurb": "Explain the stages in order."
+  },
+  {
+    "id": "w1-pie",
+    "task": 1,
+    "dir": "task1",
+    "title": "Pie charts",
+    "blurb": "Compare shares across several pies."
+  },
+  {
+    "id": "w1-table",
+    "task": 1,
+    "dir": "task1",
+    "title": "Table",
+    "blurb": "Select and compare, never list every cell."
+  },
+  {
+    "id": "w1-stacked",
+    "task": 1,
+    "dir": "task1",
+    "title": "Stacked bar chart",
+    "blurb": "Report the parts and the whole."
+  },
+  {
+    "id": "w1-hbar",
+    "task": 1,
+    "dir": "task1",
+    "title": "Horizontal bar chart",
+    "blurb": "Compare two groups across categories."
+  },
+  {
+    "id": "w1-map",
+    "task": 1,
+    "dir": "task1",
+    "title": "Maps",
+    "blurb": "Describe change with compass directions."
+  },
+  {
+    "id": "w1-cycle",
+    "task": 1,
+    "dir": "task1",
+    "title": "Cycle diagram",
+    "blurb": "Explain a process that has no start or end."
+  },
+  {
+    "id": "w1-mixed",
+    "task": 1,
+    "dir": "task1",
+    "title": "Mixed visuals",
+    "blurb": "Combine two different visuals in one report."
+  },
+  {
+    "id": "w2-opinion",
+    "task": 2,
+    "dir": "task2",
+    "title": "Opinion essay",
+    "blurb": "Agree or disagree, with a clear position."
+  },
+  {
+    "id": "w2-discussion",
+    "task": 2,
+    "dir": "task2",
+    "title": "Discussion essay",
+    "blurb": "Weigh both views, then give yours."
+  },
+  {
+    "id": "w2-problem-solution",
+    "task": 2,
+    "dir": "task2",
+    "title": "Problem and solution",
+    "blurb": "Explain causes and propose fixes."
+  },
+  {
+    "id": "w2-two-part",
+    "task": 2,
+    "dir": "task2",
+    "title": "Two-part question",
+    "blurb": "Answer each question in its own paragraph."
+  },
+  {
+    "id": "w2-advantages",
+    "task": 2,
+    "dir": "task2",
+    "title": "Advantages and disadvantages",
+    "blurb": "Weigh both sides and judge."
+  }
 ]

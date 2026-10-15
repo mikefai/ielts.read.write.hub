@@ -1,0 +1,194 @@
+{
+  "id": "w1-mixed",
+  "task": 1,
+  "title": "Stannick Airport passengers",
+  "prompt": "The line graph shows the number of passengers, in millions, who used Stannick Airport between 2012 and 2022, and the pie charts show the main reasons for their journeys in 2012 and 2022. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "chart": {
+    "kind": "mixed",
+    "charts": [
+      {
+        "kind": "line",
+        "title": "Passengers using Stannick Airport, 2012-2022",
+        "unit": "millions",
+        "source": "Adapted airport authority data",
+        "labels": [
+          "2012",
+          "2014",
+          "2016",
+          "2018",
+          "2020",
+          "2022"
+        ],
+        "series": [
+          {
+            "name": "Domestic",
+            "values": [
+              4.1,
+              4.4,
+              4.7,
+              4.8,
+              4.6,
+              4.5
+            ]
+          },
+          {
+            "name": "International",
+            "values": [
+              3,
+              3.9,
+              4.8,
+              5.7,
+              6.5,
+              7.4
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "pie",
+        "title": "Main reason for travel, Stannick Airport, 2012 and 2022",
+        "unit": "%",
+        "pies": [
+          {
+            "label": "2012",
+            "slices": [
+              {
+                "name": "Leisure",
+                "value": 40
+              },
+              {
+                "name": "Business",
+                "value": 32
+              },
+              {
+                "name": "Visiting friends and relatives",
+                "value": 22
+              },
+              {
+                "name": "Other",
+                "value": 6
+              }
+            ]
+          },
+          {
+            "label": "2022",
+            "slices": [
+              {
+                "name": "Leisure",
+                "value": 52
+              },
+              {
+                "name": "Business",
+                "value": 21
+              },
+              {
+                "name": "Visiting friends and relatives",
+                "value": 22
+              },
+              {
+                "name": "Other",
+                "value": 5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "model": {
+    "paragraphs": [
+      {
+        "name": "Introduction",
+        "sentences": [
+          {
+            "role": "paraphrase",
+            "text": "The line graph illustrates the number of domestic and international passengers at Stannick Airport over a decade, while the pie charts compare their reasons for travelling in 2012 and 2022.",
+            "why": "Paraphrases both visuals in one sentence and joins them with \"while\". \"Illustrates\", \"compare\" and \"reasons for travelling\" avoid copying the prompt, earning Task Achievement and Lexical Resource without any data."
+          }
+        ]
+      },
+      {
+        "name": "Overview",
+        "sentences": [
+          {
+            "role": "overview-main",
+            "text": "Overall, the airport became busier, mainly because of international travel, which overtook domestic travel during the period.",
+            "why": "Gives the main trend from the graph and a key contrast, with \"mainly because of\" linking cause within the data. No figures appear, which is the Task Achievement requirement for an overview across both visuals."
+          },
+          {
+            "role": "overview-second",
+            "text": "At the same time, leisure replaced business as the main purpose of journeys.",
+            "why": "The second overview feature comes from the pie charts, so the overview covers both visuals. \"At the same time\" connects them, and \"replaced ... as\" states a rank change without numbers, supporting Coherence and Task Achievement."
+          }
+        ]
+      },
+      {
+        "name": "Body 1",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "Looking first at passenger numbers, international traffic grew far faster than domestic traffic.",
+            "why": "Opens the paragraph by naming which visual it uses, which orients the reader. \"Far faster than\" is a correct comparison for two trend lines, supporting Coherence and Cohesion and Grammatical Range."
+          },
+          {
+            "role": "key-figures",
+            "text": "International passengers rose steadily from 3.0 million in 2012 to 7.4 million in 2022, passing the domestic figure in 2016.",
+            "why": "Reports start and end values with the trend verb \"rose steadily\". The participle phrase marks the crossing, and 4.8 against 4.7 in 2016 confirms it, so the data are accurate and the structure is varied."
+          },
+          {
+            "role": "comparison",
+            "text": "Domestic travel, by contrast, edged up from 4.1 million to a peak of 4.8 million in 2018 and then declined to 4.5 million.",
+            "why": "Contrasts the second line using \"by contrast\", with \"edged up\", \"peak\" and \"declined\" capturing the rise and fall. Reporting the turning point shows selection of key data, earning Task Achievement and Lexical Resource."
+          }
+        ]
+      },
+      {
+        "name": "Body 2",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "The pie charts reveal a change in why people travelled.",
+            "why": "Moves to the second visual with a clear signpost. \"Reveal a change\" prepares the reader for the contrast to come, giving a clean break between the two body paragraphs and strengthening Coherence and Cohesion."
+          },
+          {
+            "role": "key-figures",
+            "text": "Leisure travel increased from 40 per cent of journeys in 2012 to 52 per cent in 2022, whereas business travel fell from 32 per cent to 21 per cent.",
+            "why": "Uses \"whereas\" to contrast the two largest changes in a single sentence with accurate figures for both years. Choosing these two rather than all four categories demonstrates selection, the core of Task Achievement."
+          },
+          {
+            "role": "closing-detail",
+            "text": "Visiting friends and relatives remained constant at 22 per cent, and leisure had become the largest category.",
+            "why": "Adds the stable category and the final rank, which completes the pie comparison. The exact figure is correct and \"remained constant\" is a precise phrase, supporting Task Achievement and Lexical Resource without listing the small \"other\" slice."
+          }
+        ]
+      }
+    ]
+  },
+  "guide": "task1-mixed",
+  "analysis": [
+    "The instruction is to select and report main features and make comparisons. With two different visuals you must cover both, but you must still select: do not describe every point on the lines and every slice of the pies.",
+    "The visuals do different jobs. The line graph shows trends in passenger numbers over time; the pie charts show shares of one total in two years. Use trend language for the graph and proportion language for the pies.",
+    "Paraphrase: \"line graph shows\" becomes illustrates; \"number of passengers\" becomes volume of travellers; \"reasons for their journeys\" becomes purposes of travel; \"between 2012 and 2022\" becomes over a decade.",
+    "Key features: international passengers rise from 3.0 to 7.4 million and overtake domestic in 2016; domestic peaks at 4.8 million then falls; leisure grows from 40 to 52 per cent while business falls from 32 to 21 per cent.",
+    "Use one visual per body paragraph, and link them in the overview and with a signpost such as \"The pie charts reveal\". One overview must contain a feature from each visual.",
+    "The question does not ask you to say that growth in leisure travel caused the rise in international passengers. The data do not prove a link, so avoid causal claims between the two visuals."
+  ],
+  "plan": [
+    {
+      "paragraph": "Introduction",
+      "idea": "Paraphrase both visuals: passenger numbers at Stannick Airport over a decade (line graph) and reasons for travel in 2012 and 2022 (pie charts)."
+    },
+    {
+      "paragraph": "Overview",
+      "idea": "Airport became busier through international travel, which overtook domestic; leisure replaced business as the main purpose. No figures."
+    },
+    {
+      "paragraph": "Body 1",
+      "idea": "Line graph: international 3.0 to 7.4 million, passing domestic in 2016; domestic 4.1 to a peak of 4.8 million in 2018, then 4.5 million."
+    },
+    {
+      "paragraph": "Body 2",
+      "idea": "Pie charts: leisure 40 to 52 per cent; business 32 to 21 per cent; visiting friends and relatives constant at 22 per cent; leisure the largest by 2022."
+    }
+  ]
+}

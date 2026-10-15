@@ -1,0 +1,149 @@
+{
+  "id": "w1-stacked",
+  "task": 1,
+  "title": "Household waste in Tarrow",
+  "prompt": "The chart below shows how much household waste, in thousand tonnes, was dealt with by three different methods in the borough of Tarrow between 2005 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "chart": {
+    "kind": "bar",
+    "stacked": true,
+    "title": "Household waste by method of treatment, Tarrow, 2005-2020",
+    "unit": "thousand tonnes",
+    "source": "Adapted council waste records",
+    "labels": [
+      "2005",
+      "2010",
+      "2015",
+      "2020"
+    ],
+    "series": [
+      {
+        "name": "Recycled",
+        "values": [
+          120,
+          190,
+          260,
+          340
+        ]
+      },
+      {
+        "name": "Landfill",
+        "values": [
+          310,
+          240,
+          170,
+          90
+        ]
+      },
+      {
+        "name": "Incinerated",
+        "values": [
+          70,
+          90,
+          110,
+          130
+        ]
+      }
+    ]
+  },
+  "model": {
+    "paragraphs": [
+      {
+        "name": "Introduction",
+        "sentences": [
+          {
+            "role": "paraphrase",
+            "text": "The stacked bar chart illustrates the quantity of household waste handled by three methods in the borough of Tarrow at five-year intervals from 2005 to 2020.",
+            "why": "Paraphrases the chart and adds the interval. \"Quantity\" replaces \"how much\", \"handled\" replaces \"dealt with\" and \"five-year intervals\" describes the time axis. It shows Lexical Resource and Task Achievement without any data."
+          }
+        ]
+      },
+      {
+        "name": "Overview",
+        "sentences": [
+          {
+            "role": "overview-main",
+            "text": "Overall, the total amount of waste rose slightly, but there was a dramatic shift from landfill to recycling.",
+            "why": "The overview names the two key features of a stacked chart: the whole (total waste) and the change in its parts. \"Dramatic shift from ... to ...\" summarises two trends in one phrase without numbers, earning Task Achievement."
+          },
+          {
+            "role": "overview-second",
+            "text": "Recycling went from being the second most common method to the most common, while incineration remained the smallest.",
+            "why": "Adds a rank-based feature, which a stacked chart makes easy to overlook. \"Went from ... to ...\" and \"remained the smallest\" give a precise second observation, supporting Task Achievement and Grammatical Range."
+          }
+        ]
+      },
+      {
+        "name": "Body 1",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "Recycling and landfill showed the sharpest and most opposite trends.",
+            "why": "A topic sentence grouping the two components that changed most. \"Sharpest\" and \"opposite\" tell the reader what the paragraph will prove, so the detail that follows has a frame and Coherence is strong."
+          },
+          {
+            "role": "key-figures",
+            "text": "Landfill accounted for 310 thousand tonnes in 2005, but this fell steadily to just 90 thousand tonnes in 2020.",
+            "why": "Gives exact start and end values with units and describes the shape with \"steadily\". \"Accounted for\" varies the verb, and \"just\" highlights the small final value, supporting accurate data and Lexical Resource."
+          },
+          {
+            "role": "comparison",
+            "text": "Recycling, in contrast, almost tripled from 120 to 340 thousand tonnes and overtook landfill between 2010 and 2015.",
+            "why": "\"Almost tripled\" is a correct approximation (120 to 340 is 2.8 times) and \"overtook ... between\" locates a crossing point without a given date. Both show careful reading of the data and earn Task Achievement."
+          },
+          {
+            "role": "trend-detail",
+            "text": "In 2010, landfill still led recycling, by 240 to 190 thousand tonnes, but by 2015 the figures were 170 and 260.",
+            "why": "Supports the crossing claim with paired figures before and after it. This evidence makes the overtaking verifiable and the \"but by 2015\" contrast is concise, showing Coherence and Grammatical Range."
+          }
+        ]
+      },
+      {
+        "name": "Body 2",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "Incineration played a smaller but growing role throughout the period.",
+            "why": "Introduces the third component with two contrasting adjectives, \"smaller but growing\". It states both the rank and the direction in one clause, giving the paragraph a clear theme and supporting Coherence and Cohesion."
+          },
+          {
+            "role": "key-figures",
+            "text": "It rose gradually from 70 thousand tonnes in 2005 to 130 thousand tonnes in 2020, never exceeding the other two methods.",
+            "why": "Reports the start and end values with units and adds a participle clause, \"never exceeding\", that confirms its rank. Accurate figures and a varied structure support Task Achievement and Grammatical Range."
+          },
+          {
+            "role": "closing-detail",
+            "text": "Meanwhile, the combined total grew from 500 thousand tonnes in 2005 to 560 thousand tonnes in 2020.",
+            "why": "Calculates the total from the stacked segments (120+310+70 and 340+90+130), which is exactly what a stacked chart invites. A correct derived figure shows analysis and completes the overview claim, strengthening Task Achievement."
+          }
+        ]
+      }
+    ]
+  },
+  "guide": "task1-chart",
+  "analysis": [
+    "The instruction is to select and report main features and make comparisons. A stacked bar has two kinds of information: the size of each segment and the height of the whole bar. Good answers use both.",
+    "The segments are stacked, so each one starts where the one below ends. Read the value of a segment, not the position of its top edge, and calculate totals only if they are clear from the data.",
+    "Paraphrase: \"chart shows\" becomes illustrates or presents; \"how much household waste\" becomes the quantity of domestic waste; \"dealt with\" becomes handled or treated; \"between 2005 and 2020\" becomes over a 15-year period.",
+    "Key features: landfill falls from 310 to 90; recycling rises from 120 to 340 and overtakes landfill between 2010 and 2015; incineration grows slowly from 70 to 130; the total rises from 500 to 560.",
+    "Group by trend, not by year: recycling and landfill together because they move in opposite directions, then incineration and the total. Do not describe each bar separately in four mini-paragraphs.",
+    "The question does not ask for causes (council targets, new bins) or predictions about 2030. Report the data only, using past tenses."
+  ],
+  "plan": [
+    {
+      "paragraph": "Introduction",
+      "idea": "Paraphrase: quantity of household waste handled by three methods in Tarrow at five-year intervals, 2005 to 2020."
+    },
+    {
+      "paragraph": "Overview",
+      "idea": "Total waste rose slightly; big shift from landfill to recycling; recycling became the main method; incineration stayed smallest. No figures."
+    },
+    {
+      "paragraph": "Body 1",
+      "idea": "Landfill 310 to 90; recycling 120 to 340, overtaking landfill between 2010 (190 v 240) and 2015 (260 v 170)."
+    },
+    {
+      "paragraph": "Body 2",
+      "idea": "Incineration 70 to 130, never the largest; total waste 500 to 560 thousand tonnes."
+    }
+  ]
+}

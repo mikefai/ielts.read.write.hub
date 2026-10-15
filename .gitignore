@@ -1,3 +1,6 @@
 .claude/
 node_modules/
 .superpowers/
+.playwright-mcp/
+skills/writing/_preview.html
+desktop.ini
