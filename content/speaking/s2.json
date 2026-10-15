@@ -8,118 +8,142 @@
         "questions": [
           {
             "q": "What kind of food do you enjoy eating most?",
-            "model": "I'm really fond of home-cooked noodle soup, to be honest. It's light but full of flavour, and my mum's recipe is my absolute favourite. On weekends I usually make a big pot for the whole family, so it's become a comforting tradition that we all look forward to.",
+            "model": "I'm really into home-cooked noodle soup, to be honest. It's light but packed with flavour, and my mum's recipe is my all-time favourite. On weekends I make a big pot for the whole family, so it has become a comforting ritual that we all look forward to.",
             "vocab": [
               {
                 "word": "home-cooked",
                 "band": 7,
-                "meaning": "made in a home kitchen, not bought ready-made",
-                "example": "Nothing beats a home-cooked meal after a long week."
+                "meaning": "made in a home kitchen rather than bought ready-made",
+                "example": "Nothing beats a home-cooked dinner after a long, tiring week at work."
               },
               {
-                "word": "comforting",
+                "word": "packed with flavour",
                 "band": 8,
-                "meaning": "making you feel relaxed and cared for",
-                "example": "A bowl of hot soup is incredibly comforting on a cold evening."
+                "meaning": "having a very rich, strong taste",
+                "example": "Street food in Bangkok is cheap and always packed with flavour."
               },
               {
-                "word": "tradition",
+                "word": "all-time favourite",
                 "band": 7,
-                "meaning": "a custom passed down in a family or culture",
-                "example": "Cooking together on Sundays is a tradition in my family."
+                "meaning": "the thing you have loved best for many years",
+                "example": "That little bakery is my all-time favourite place for breakfast."
+              },
+              {
+                "word": "look forward to",
+                "band": 7,
+                "meaning": "feel happy and excited about something that will happen",
+                "example": "I always look forward to my grandmother's cooking at the New Year."
               }
             ],
             "phrases": [
-              "to be honest",
-              "I'm really fond of",
-              "look forward to"
+              "I'm really into ... , to be honest.",
+              "It's ... but packed with ...",
+              "..., so it has become a ... that we all look forward to."
             ]
           },
           {
             "q": "Do you prefer eating at home or in restaurants?",
-            "model": "Most of the time I'd rather eat at home. It's far cheaper, and I can control exactly what goes into my food. That said, I do enjoy dining out occasionally, like last month when we celebrated my sister's graduation at a lovely little Italian place.",
+            "model": "Most of the time I'd rather eat at home. It's far cheaper, and I can keep an eye on exactly what goes into my meals. That said, I do like to splash out now and then, like last month when we booked a lovely little Italian place for my sister's graduation.",
             "vocab": [
               {
-                "word": "dining out",
+                "word": "keep an eye on",
                 "band": 7,
-                "meaning": "eating a meal in a restaurant",
-                "example": "We go dining out only on special occasions."
+                "meaning": "watch something carefully so nothing goes wrong",
+                "example": "I try to keep an eye on how much sugar I eat each day."
               },
               {
-                "word": "occasionally",
-                "band": 7,
-                "meaning": "sometimes but not often",
-                "example": "I occasionally treat myself to a fancy dessert on Fridays."
+                "word": "splash out",
+                "band": 8,
+                "meaning": "spend a lot of money on something special",
+                "example": "We decided to splash out on a fancy meal for our anniversary."
               },
               {
-                "word": "celebrated",
+                "word": "now and then",
                 "band": 7,
-                "meaning": "marked a happy event with a special activity",
-                "example": "They celebrated their anniversary with a candlelit dinner downtown."
+                "meaning": "occasionally, but not regularly",
+                "example": "I like to try a new cuisine now and then just for fun."
+              },
+              {
+                "word": "that said",
+                "band": 7,
+                "meaning": "a phrase used to add a contrasting point",
+                "example": "I love cooking; that said, I never have time on weekdays."
               }
             ],
             "phrases": [
-              "I'd rather",
-              "That said",
-              "Most of the time"
+              "Most of the time I'd rather ... because ...",
+              "That said, I do like to ... now and then.",
+              "Like last month when ..."
             ]
           },
           {
             "q": "Has the food you eat changed since you were a child?",
-            "model": "Definitely. As a kid I lived on fried snacks and sugary drinks, but these days I try to eat a balanced diet with plenty of vegetables. I became more health-conscious after a friend of mine got ill, and honestly I feel much more energetic now.",
+            "model": "Absolutely. As a kid I ate fried snacks all the time, but these days I try to cut down on sugar and stick to a balanced diet with plenty of vegetables. I became far more health-conscious after a friend fell ill, and I honestly feel a lot more energetic now.",
             "vocab": [
+              {
+                "word": "cut down on",
+                "band": 7,
+                "meaning": "eat, drink or use less of something",
+                "example": "My doctor told me to cut down on salty food and fizzy drinks."
+              },
+              {
+                "word": "stick to",
+                "band": 7,
+                "meaning": "keep following a plan or rule without changing it",
+                "example": "It is hard to stick to a diet when everyone around you is eating cake."
+              },
               {
                 "word": "balanced diet",
                 "band": 7,
-                "meaning": "eating a healthy mix of different foods",
-                "example": "Doctors say a balanced diet keeps you strong and focused."
+                "meaning": "a healthy mix of the different kinds of food your body needs",
+                "example": "Eating a balanced diet gives you the energy to concentrate all day."
               },
               {
                 "word": "health-conscious",
                 "band": 8,
-                "meaning": "careful about staying healthy",
-                "example": "My brother is very health-conscious and avoids processed food."
-              },
-              {
-                "word": "energetic",
-                "band": 7,
-                "meaning": "full of energy and ready to be active",
-                "example": "I always feel more energetic when I sleep properly."
+                "meaning": "careful and well-informed about staying healthy",
+                "example": "More and more health-conscious shoppers now read the labels on everything they buy."
               }
             ],
             "phrases": [
-              "Definitely",
-              "these days",
-              "honestly"
+              "As a kid I ..., but these days I try to ...",
+              "I became far more ... after ...",
+              "I honestly feel a lot more ... now."
             ]
           },
           {
             "q": "Is there any food you really dislike?",
-            "model": "Yes, I can't stand very spicy dishes. The first time I tried a hot curry, my eyes were watering and I couldn't taste anything else. I know many people love that kick, but it's simply not for me, so I always ask for the mild version.",
+            "model": "Yes, I can't stand very spicy dishes. My first hot curry left my eyes watering, and I couldn't taste anything else. I know it's an acquired taste for some people, but it's simply not my cup of tea, so I always ask for the mild version.",
             "vocab": [
               {
                 "word": "can't stand",
                 "band": 7,
-                "meaning": "strongly dislike something",
+                "meaning": "dislike something very strongly",
                 "example": "I can't stand the smell of boiled cabbage in the kitchen."
+              },
+              {
+                "word": "acquired taste",
+                "band": 8,
+                "meaning": "something you only learn to like after trying it many times",
+                "example": "Black coffee is an acquired taste, and I still haven't acquired it."
+              },
+              {
+                "word": "not my cup of tea",
+                "band": 8,
+                "meaning": "not something I enjoy or am interested in",
+                "example": "Horror films are really not my cup of tea, I'm afraid."
               },
               {
                 "word": "mild",
                 "band": 7,
-                "meaning": "not strong or spicy in taste",
-                "example": "She ordered a mild curry because she dislikes strong spices."
-              },
-              {
-                "word": "kick",
-                "band": 8,
-                "meaning": "a sharp, strong taste, usually from spice",
-                "example": "This sauce has a real kick that wakes you up."
+                "meaning": "gentle in flavour, not strong or spicy",
+                "example": "She ordered a mild sauce because her children dislike strong spices."
               }
             ],
             "phrases": [
-              "I know many people",
-              "it's simply not for me",
-              "Yes, I can't stand"
+              "Yes, I can't stand ...",
+              "I know it's an acquired taste for some people, but ...",
+              "It's simply not my cup of tea, so I always ..."
             ]
           }
         ]
@@ -129,89 +153,107 @@
         "questions": [
           {
             "q": "How often do you use public transport?",
-            "model": "Almost every day, actually. I take the bus to university because parking is a nightmare and fuel is expensive. The journey takes about forty minutes, but I use the time to catch up on podcasts, so it never feels like wasted time.",
+            "model": "Almost every day, actually. I take the bus to university because parking is a nightmare and petrol can cost a fortune. The journey takes about forty minutes, but I use the time to catch up on podcasts, so it never feels like wasted time.",
             "vocab": [
               {
-                "word": "journey",
-                "band": 7,
-                "meaning": "the act of travelling from one place to another",
-                "example": "The journey to the airport took nearly two hours."
+                "word": "a nightmare",
+                "band": 8,
+                "meaning": "an extremely unpleasant or stressful experience",
+                "example": "Finding a seat on the evening train is a nightmare."
+              },
+              {
+                "word": "cost a fortune",
+                "band": 8,
+                "meaning": "be extremely expensive",
+                "example": "Taxis in the capital can cost a fortune at rush hour."
               },
               {
                 "word": "catch up on",
                 "band": 7,
-                "meaning": "do something you haven't had time for",
+                "meaning": "do something you have not had time to do earlier",
                 "example": "I use weekends to catch up on sleep and housework."
               },
               {
-                "word": "a nightmare",
-                "band": 8,
-                "meaning": "an extremely unpleasant experience",
-                "example": "Driving downtown at rush hour is a nightmare."
+                "word": "journey",
+                "band": 7,
+                "meaning": "the act of travelling from one place to another",
+                "example": "The journey to the airport took nearly two hours yesterday."
               }
             ],
             "phrases": [
-              "Almost every day, actually",
-              "it never feels like",
-              "because"
+              "Almost every day, actually.",
+              "I take ... because ...",
+              "I use the time to ..., so it never feels like ..."
             ]
           },
           {
             "q": "What are the advantages of public transport in your city?",
-            "model": "The biggest advantage is that it's affordable, so even students can get around easily. It also reduces traffic congestion, which is a huge problem here. For example, the new metro line cut my commute in half and made the air noticeably cleaner.",
+            "model": "The biggest advantage is that it's affordable, so even students can get around easily. It also eases traffic congestion, which is a huge problem here. For example, the new metro line has halved my daily commute and made the air noticeably cleaner.",
             "vocab": [
+              {
+                "word": "get around",
+                "band": 7,
+                "meaning": "travel from place to place within an area",
+                "example": "Tourists can get around the old town on foot or by tram."
+              },
+              {
+                "word": "traffic congestion",
+                "band": 8,
+                "meaning": "roads so full of vehicles that movement is slow",
+                "example": "Traffic congestion in the centre gets worse every single winter."
+              },
+              {
+                "word": "daily commute",
+                "band": 7,
+                "meaning": "the regular trip you make to and from work or study",
+                "example": "My daily commute used to take over an hour each way."
+              },
               {
                 "word": "affordable",
                 "band": 7,
-                "meaning": "cheap enough for most people to pay",
-                "example": "Public buses are an affordable option for low-income families."
-              },
-              {
-                "word": "congestion",
-                "band": 8,
-                "meaning": "too much traffic making movement slow",
-                "example": "Congestion in the city centre worsens every morning."
-              },
-              {
-                "word": "commute",
-                "band": 7,
-                "meaning": "the regular trip between home and work",
-                "example": "My daily commute used to take over an hour."
+                "meaning": "cheap enough for most people to pay for",
+                "example": "Affordable tickets encourage low-income families to leave their cars at home."
               }
             ],
             "phrases": [
-              "The biggest advantage is",
-              "For example",
-              "get around"
+              "The biggest advantage is that ...",
+              "It also eases ..., which is a huge problem here.",
+              "For example, the new ... has ..."
             ]
           },
           {
             "q": "Would you like to see any changes to public transport where you live?",
-            "model": "Yes, I'd love to see more frequent services in the evenings. At the moment the last bus leaves around ten, which is a real hassle if you work late. I think extending the timetable would make the whole system far more reliable for commuters.",
+            "model": "Yes, I'd love to see more frequent services in the evenings. At the moment the last bus leaves around ten, which is a real hassle if you work late. I think extending the timetable would make the whole system far more reliable and take the pressure off commuters.",
             "vocab": [
               {
-                "word": "frequent",
+                "word": "frequent services",
                 "band": 7,
-                "meaning": "happening often",
-                "example": "Frequent trains mean you never wait long on the platform."
+                "meaning": "buses or trains that run many times an hour",
+                "example": "Frequent services mean you never wait long on a cold platform."
               },
               {
-                "word": "hassle",
+                "word": "a real hassle",
                 "band": 8,
-                "meaning": "something annoying that causes trouble",
-                "example": "Changing buses three times is a real hassle."
+                "meaning": "something that is genuinely annoying and troublesome",
+                "example": "Changing buses three times is a real hassle with heavy luggage."
+              },
+              {
+                "word": "take the pressure off",
+                "band": 8,
+                "meaning": "make a stressful situation easier for people",
+                "example": "Cheaper tickets would take the pressure off families on low incomes."
               },
               {
                 "word": "reliable",
                 "band": 7,
-                "meaning": "able to be trusted to work well",
+                "meaning": "able to be trusted to work well every time",
                 "example": "A reliable bus service gets people to work on time."
               }
             ],
             "phrases": [
-              "I'd love to see",
-              "At the moment",
-              "I think"
+              "Yes, I'd love to see more ...",
+              "At the moment ..., which is a real hassle if ...",
+              "I think extending ... would make ... far more ..."
             ]
           }
         ]
@@ -221,118 +263,142 @@
         "questions": [
           {
             "q": "Do you enjoy reading in your free time?",
-            "model": "I do, although I'm not as avid a reader as I used to be. I mostly read novels before bed because it helps me unwind after a stressful day. Lately I've been working through a detective series, and I'm completely hooked on it.",
+            "model": "I do, although I'm not the avid reader I used to be. I mostly read novels before bed because it helps me wind down after a stressful day. Lately I've been getting through a detective series, and I'm completely hooked on it. I really can't put it down.",
             "vocab": [
               {
-                "word": "avid",
+                "word": "avid reader",
                 "band": 8,
-                "meaning": "very enthusiastic about a hobby",
-                "example": "My grandfather is an avid reader of history books."
+                "meaning": "a person who reads with great enthusiasm",
+                "example": "My grandfather is an avid reader of history and biographies."
               },
               {
-                "word": "unwind",
-                "band": 8,
-                "meaning": "relax after working or feeling stressed",
-                "example": "Listening to soft music helps me unwind in the evening."
+                "word": "wind down",
+                "band": 7,
+                "meaning": "relax slowly after a busy or stressful period",
+                "example": "A warm bath helps me wind down before I fall asleep."
               },
               {
-                "word": "hooked",
+                "word": "hooked on",
                 "band": 8,
-                "meaning": "so interested that you cannot stop",
-                "example": "I got hooked on that show after watching one episode."
+                "meaning": "so interested in something that you cannot stop",
+                "example": "She got hooked on that drama after watching just one episode."
+              },
+              {
+                "word": "can't put it down",
+                "band": 8,
+                "meaning": "find a book so exciting that you keep reading",
+                "example": "The ending was so thrilling that I simply couldn't put it down."
               }
             ],
             "phrases": [
-              "I do, although",
-              "Lately I've been",
-              "used to be"
+              "I do, although I'm not the ... I used to be.",
+              "It helps me wind down after ...",
+              "Lately I've been getting through ..."
             ]
           },
           {
             "q": "Do you prefer reading paper books or e-books?",
-            "model": "I'm a paper-book person, really. I like the feel of turning real pages, and I find it easier to concentrate without notifications popping up. E-books are handy for travelling, though, so I usually carry one on my phone for long train rides.",
+            "model": "I'm a paper-book person, to be honest. I love turning real pages, and screens can be hard on the eyes after a long day. It's also easier to focus without notifications that pop up every minute. E-books are handy for travelling, though, so I keep one on my phone just in case.",
             "vocab": [
               {
-                "word": "concentrate",
+                "word": "hard on the eyes",
+                "band": 8,
+                "meaning": "tiring or uncomfortable for your eyesight",
+                "example": "Reading small text on a phone at night is hard on the eyes."
+              },
+              {
+                "word": "pop up",
                 "band": 7,
-                "meaning": "give all your attention to one thing",
-                "example": "It's hard to concentrate when the room is so noisy."
+                "meaning": "suddenly appear on a screen",
+                "example": "Adverts keep popping up whenever I try to read the news."
+              },
+              {
+                "word": "just in case",
+                "band": 7,
+                "meaning": "as a precaution against something that might happen",
+                "example": "I always pack an umbrella just in case it rains later."
               },
               {
                 "word": "handy",
                 "band": 7,
-                "meaning": "useful and convenient",
-                "example": "A small torch is handy during a power cut."
-              },
-              {
-                "word": "notifications",
-                "band": 7,
-                "meaning": "alerts that appear on a phone or computer",
-                "example": "I switch off notifications when I need to study."
+                "meaning": "useful and convenient to have",
+                "example": "A small torch is handy when the lights go out."
               }
             ],
             "phrases": [
-              "really",
-              "I find it easier to",
-              "though"
+              "I'm a ... person, to be honest.",
+              "I find it easier to focus without ...",
+              "... is handy for ..., though, so I keep one ... just in case."
             ]
           },
           {
             "q": "Did you read a lot when you were a child?",
-            "model": "Yes, quite a lot. My father used to read me bedtime stories, and later I borrowed picture books from the school library every week. Looking back, those habits sparked my imagination and probably helped me do well in language classes.",
+            "model": "Yes, quite a lot. My father used to read me bedtime stories, and later I borrowed picture books from the school library every week. Looking back, those habits really sparked my imagination and gave me a head start in language classes.",
             "vocab": [
               {
-                "word": "sparked",
+                "word": "bedtime stories",
+                "band": 7,
+                "meaning": "stories read to a child before sleep",
+                "example": "My grandmother told me bedtime stories about clever foxes and tigers."
+              },
+              {
+                "word": "sparked my imagination",
                 "band": 8,
-                "meaning": "caused something to begin or grow",
-                "example": "That documentary sparked my interest in marine biology."
+                "meaning": "made me begin to think creatively",
+                "example": "That museum visit sparked my imagination and inspired me to write."
               },
               {
-                "word": "imagination",
-                "band": 7,
-                "meaning": "the ability to picture new ideas in your mind",
-                "example": "Children with a vivid imagination often love storytelling."
+                "word": "a head start",
+                "band": 8,
+                "meaning": "an early advantage over other people",
+                "example": "Learning English as a child gave her a head start at university."
               },
               {
-                "word": "habits",
+                "word": "looking back",
                 "band": 7,
-                "meaning": "things you do regularly without thinking",
-                "example": "Good study habits take months to build properly."
+                "meaning": "thinking about the past with what you know now",
+                "example": "Looking back, I wish I had practised the piano more."
               }
             ],
             "phrases": [
-              "Looking back",
-              "Yes, quite a lot",
-              "used to"
+              "Yes, quite a lot. My ... used to ...",
+              "Looking back, those ... really sparked my ...",
+              "... gave me a head start in ..."
             ]
           },
           {
             "q": "What kind of things do you read online?",
-            "model": "Mostly news articles and the occasional blog about travel. I skim headlines over breakfast to stay up to date, then I save longer pieces for later. I'll admit I sometimes fall into a rabbit hole of random videos, which is a bit of a time sink.",
+            "model": "Mostly news articles and the odd blog about travel. I like to keep up with current affairs, so I skim the headlines over breakfast and save longer pieces for later. I'll admit I sometimes fall down a rabbit hole of random videos, which is a bit of a time sink.",
             "vocab": [
               {
-                "word": "skim",
-                "band": 8,
-                "meaning": "read quickly to get the main idea",
-                "example": "I usually skim the report before reading it properly."
+                "word": "keep up with",
+                "band": 7,
+                "meaning": "stay informed about something that keeps changing",
+                "example": "It is hard to keep up with technology news these days."
               },
               {
-                "word": "stay up to date",
-                "band": 7,
-                "meaning": "keep informed about the latest news",
-                "example": "She reads two newspapers to stay up to date."
+                "word": "current affairs",
+                "band": 8,
+                "meaning": "important political and social events happening now",
+                "example": "Our teacher asks us to follow current affairs and discuss them weekly."
+              },
+              {
+                "word": "fall down a rabbit hole",
+                "band": 9,
+                "meaning": "get so absorbed in one topic online that you lose track of time",
+                "example": "I started with one recipe video and fell down a rabbit hole for hours."
               },
               {
                 "word": "time sink",
                 "band": 9,
                 "meaning": "an activity that wastes a lot of time",
-                "example": "Social media can easily become a huge time sink."
+                "example": "Scrolling through social media can easily become a time sink."
               }
             ],
             "phrases": [
-              "Mostly",
-              "I'll admit",
-              "a bit of a"
+              "Mostly ... and the odd ...",
+              "I like to keep up with ..., so I ...",
+              "I'll admit I sometimes ..., which is a bit of a ..."
             ]
           }
         ]
@@ -351,37 +417,43 @@
       "prepSeconds": 60,
       "talkSeconds": 120
     },
-    "model": "I'd like to talk about the time I helped my neighbour, Mrs Okoro, who is in her seventies and lives alone. It happened last winter when a severe storm knocked out the power across our whole street. I knew she would be struggling in the dark, so I grabbed a torch and went straight over to check on her. She was visibly shaken, and she couldn't find her medication because the hallway was pitch black. I helped her locate it, then I brought some blankets and heated soup on our gas stove. I ended up staying with her for about three hours until the electricity finally came back on. The reason she needed help was simple. Her family live abroad, and she doesn't really know how to use a smartphone, so she had no way of contacting anyone. Before leaving, I wrote my number on a card and stuck it beside her phone in case of emergencies. Afterwards it felt incredibly rewarding, to be honest. It wasn't a big gesture, but she was so grateful that she cried a little. That evening made me realise how a small act of kindness can strengthen the bond between neighbours, and we've been much closer ever since.",
+    "model": "I'd like to talk about the time I helped my elderly neighbour, Mrs Okoro, who is in her seventies and lives alone. It happened last winter, when a severe storm knocked out the power across our whole street. I knew she would be struggling in the dark, so I grabbed a torch and went straight over to check on her. She was visibly shaken, and she couldn't find her medicine because the hallway was pitch black. I helped her track down her tablets, then I fetched some blankets and heated soup on our gas stove. She kept thanking me, which made me feel a bit embarrassed, because anyone would have done the same. Honestly, I was glad I happened to be home that night. I ended up staying with her for about three hours until the electricity finally came back on. The reason she needed help was simple. Her family live abroad, and she isn't confident with a smartphone, so she had no way of calling anyone. Before leaving, I wrote my number on a card and stuck it beside her phone in case of emergencies. Afterwards it felt incredibly rewarding, to be honest. It wasn't a grand gesture, but she was so grateful that she cried a little. That evening made me realise how a small act of kindness can strengthen the bond between neighbours, and we've been much closer ever since.",
     "vocab": [
       {
-        "word": "struggling",
+        "word": "check on",
         "band": 7,
-        "meaning": "having great difficulty doing something",
-        "example": "She was struggling to carry all the heavy shopping bags."
+        "meaning": "visit someone to make sure they are safe and well",
+        "example": "I'll pop round to check on my grandfather after work."
+      },
+      {
+        "word": "visibly shaken",
+        "band": 8,
+        "meaning": "clearly upset or frightened, so that others can see it",
+        "example": "The driver was visibly shaken after the near miss on the motorway."
       },
       {
         "word": "pitch black",
         "band": 8,
-        "meaning": "completely dark",
-        "example": "The forest was pitch black once the sun went down."
+        "meaning": "completely dark with no light at all",
+        "example": "The forest was pitch black once the sun had gone down."
       },
       {
-        "word": "grateful",
-        "band": 7,
-        "meaning": "feeling thankful for what someone did",
-        "example": "I'm so grateful for your support during exams."
-      },
-      {
-        "word": "bond",
+        "word": "track down",
         "band": 8,
-        "meaning": "a close connection between people",
-        "example": "Shared experiences build a strong bond between friends."
+        "meaning": "find something after a careful search",
+        "example": "It took me an hour to track down my lost passport."
       },
       {
         "word": "act of kindness",
         "band": 8,
-        "meaning": "a caring action done to help others",
-        "example": "A simple act of kindness can brighten a stranger's day."
+        "meaning": "a caring action done to help someone else",
+        "example": "A simple act of kindness can brighten a stranger's whole day."
+      },
+      {
+        "word": "strengthen the bond",
+        "band": 9,
+        "meaning": "make a close connection between people even stronger",
+        "example": "Cooking together every Sunday helps strengthen the bond between us."
       }
     ],
     "phrases": [
@@ -401,31 +473,37 @@
     ],
     "roundingOff": {
       "q": "Do you think most people are willing to help others in an emergency?",
-      "model": "I'd say the majority are, yes. When something goes wrong, people tend to forget their differences and step in without thinking twice. I've seen strangers push a broken-down car off a busy road, and that kind of spontaneous teamwork always restores my faith in humanity.",
+      "model": "I'd say the majority are, yes. When something goes wrong, people tend to put their differences aside and step in without thinking twice. I once saw strangers push a broken-down car off a busy road, and that kind of spontaneous teamwork always restores my faith in humanity.",
       "vocab": [
         {
           "word": "step in",
           "band": 7,
-          "meaning": "get involved to help in a difficult situation",
-          "example": "Teachers had to step in to stop the argument."
+          "meaning": "get involved in order to help or stop a problem",
+          "example": "A teacher had to step in to stop the argument."
         },
         {
-          "word": "spontaneous",
+          "word": "without thinking twice",
           "band": 8,
-          "meaning": "done naturally without planning",
-          "example": "Their spontaneous applause surprised the nervous performer."
+          "meaning": "immediately, with no hesitation at all",
+          "example": "He jumped into the river without thinking twice to save the child."
         },
         {
-          "word": "restores",
+          "word": "put their differences aside",
           "band": 8,
-          "meaning": "brings back a feeling or belief",
-          "example": "Good news like this really restores my confidence in people."
+          "meaning": "stop arguing in order to work together",
+          "example": "Neighbours put their differences aside to clean up after the flood."
+        },
+        {
+          "word": "faith in humanity",
+          "band": 8,
+          "meaning": "a belief that people are basically good",
+          "example": "Stories like this really give you faith in humanity again."
         }
       ],
       "phrases": [
-        "I'd say the majority",
-        "without thinking twice",
-        "that kind of"
+        "I'd say the majority ...",
+        "... tend to ... and step in without thinking twice.",
+        "That kind of ... always restores my faith in ..."
       ]
     }
   },
@@ -434,176 +512,212 @@
     "questions": [
       {
         "q": "Why do some people choose to volunteer while others do not?",
-        "model": "I think it largely comes down to personality and available time. People who are naturally empathetic tend to feel a strong urge to give back, whereas those with demanding jobs often simply can't spare the hours. Another factor is upbringing, because children who see their parents volunteering usually follow the same example when they grow up. Personally, I believe schools and families should encourage generosity much earlier, so it becomes natural.",
+        "model": "I think it largely comes down to personality and available time. People who are naturally empathetic often feel a strong urge to give back, whereas those with demanding jobs simply can't spare the hours. Upbringing matters too, because children who see their parents volunteering tend to follow suit as adults. Personally, I believe schools and families should encourage generosity much earlier, so that it becomes second nature. Over time, that habit could change a whole community.",
         "vocab": [
           {
-            "word": "empathetic",
-            "band": 8,
-            "meaning": "able to understand and share other people's feelings",
-            "example": "An empathetic nurse listens carefully to every patient."
+            "word": "comes down to",
+            "band": 7,
+            "meaning": "is mainly decided by a particular factor",
+            "example": "Success in exams often comes down to steady daily practice."
           },
           {
             "word": "give back",
             "band": 7,
-            "meaning": "do something good in return for what you received",
-            "example": "Many graduates want to give back to their old schools."
+            "meaning": "do something good for a community that has helped you",
+            "example": "Many graduates want to give back to the schools that shaped them."
           },
           {
-            "word": "upbringing",
+            "word": "follow suit",
             "band": 8,
-            "meaning": "the way parents raise and teach a child",
-            "example": "His strict upbringing taught him to respect every elder."
+            "meaning": "do the same thing that someone else has just done",
+            "example": "When one shop cut prices, the rest soon followed suit."
+          },
+          {
+            "word": "second nature",
+            "band": 8,
+            "meaning": "something you do so easily that you no longer think about it",
+            "example": "After years of driving, changing gears is second nature to her."
           }
         ],
         "phrases": [
-          "it largely comes down to",
-          "whereas",
-          "Another factor is"
+          "I think it largely comes down to ...",
+          "..., whereas those ... simply can't ...",
+          "Personally, I believe ... should ..., so that it becomes ..."
         ]
       },
       {
-        "q": "How has technology changed the way people help each other?",
-        "model": "It has made helping far quicker and easier. Crowdfunding websites, for instance, allow thousands of strangers to raise money for a sick child within days. On the other hand, some argue that clicking a donate button is rather impersonal and may replace face-to-face support, which is arguably more meaningful for those in need. Personally, I think the best approach is to use both, so technology supports real human contact.",
+        "q": "In what ways has the internet changed the way people give to charity?",
+        "model": "It has made giving far quicker and easier. Crowdfunding platforms, for instance, allow thousands of strangers to raise funds for a sick child within days, and social media helps appeals go viral. On the other hand, some argue that clicking a donate button is rather impersonal and may replace face-to-face support for those in need. Personally, I think the best approach is to combine both, so that technology supports genuine human contact.",
         "vocab": [
           {
-            "word": "crowdfunding",
+            "word": "crowdfunding platform",
             "band": 8,
-            "meaning": "raising money online from a large number of people",
-            "example": "Crowdfunding helped the village rebuild its flooded school."
+            "meaning": "a website where many people give small amounts to one cause",
+            "example": "A crowdfunding platform helped the village rebuild its flooded school."
           },
           {
-            "word": "impersonal",
+            "word": "raise funds",
             "band": 8,
-            "meaning": "lacking warmth or a personal touch",
-            "example": "A generic email reply can feel rather impersonal."
+            "meaning": "collect money for a particular purpose",
+            "example": "Students often raise funds for charity by running a marathon."
           },
           {
-            "word": "arguably",
+            "word": "go viral",
             "band": 8,
-            "meaning": "possibly, according to a reasonable point of view",
-            "example": "She is arguably the best speaker in our class."
+            "meaning": "spread very quickly and widely online",
+            "example": "Her short video about the shelter went viral overnight."
+          },
+          {
+            "word": "those in need",
+            "band": 7,
+            "meaning": "people who lack basic things such as food or shelter",
+            "example": "Local churches deliver hot meals to those in need every winter."
           }
         ],
         "phrases": [
-          "for instance",
-          "On the other hand",
-          "some argue that"
+          "It has made ... far quicker and easier. ..., for instance, allow ...",
+          "On the other hand, some argue that ...",
+          "Personally, I think the best approach is to ..."
         ]
       },
       {
         "q": "Should the government or individuals be responsible for helping people in need?",
-        "model": "Ideally it should be a shared responsibility. Governments have the resources to provide a safety net, such as healthcare and unemployment benefits, which charities simply cannot match. However, individuals fill the gaps by offering personal, flexible support. So I believe a combination of both works best for any healthy society. In my experience, countries that combine both approaches seem noticeably fairer and more stable overall.",
+        "model": "Ideally it should be a shared responsibility. Governments have the resources to provide a safety net, such as healthcare and unemployment benefits, which charities simply cannot match. However, individuals fill the gaps by offering personal, flexible support. So I believe a combination of both works best for any healthy society. Without that balance, vulnerable people could easily slip through the cracks. In my experience, countries that combine both approaches seem noticeably fairer and more stable overall.",
         "vocab": [
+          {
+            "word": "shared responsibility",
+            "band": 8,
+            "meaning": "a duty that several groups carry together",
+            "example": "Protecting the environment should be a shared responsibility for everyone."
+          },
           {
             "word": "safety net",
             "band": 8,
             "meaning": "a system that protects people when things go wrong",
-            "example": "Unemployment benefits act as a safety net for workers."
+            "example": "Unemployment pay acts as a safety net for workers who lose their jobs."
           },
           {
-            "word": "resources",
-            "band": 7,
-            "meaning": "money, staff or materials available for use",
-            "example": "Small charities often lack the resources to expand quickly."
+            "word": "unemployment benefits",
+            "band": 8,
+            "meaning": "money the state pays to people without a job",
+            "example": "Unemployment benefits give families time to find new work."
           },
           {
-            "word": "combination",
-            "band": 7,
-            "meaning": "a mixture of two or more things together",
-            "example": "A combination of exercise and diet improved his health."
+            "word": "fill the gaps",
+            "band": 8,
+            "meaning": "provide what is missing in a system",
+            "example": "Volunteers often fill the gaps that public services leave behind."
           }
         ],
         "phrases": [
-          "Ideally",
-          "However",
-          "So I believe"
+          "Ideally it should be ...",
+          "... have the resources to ..., which ... simply cannot match.",
+          "So I believe a combination of both works best for ..."
         ]
       },
       {
         "q": "Do you think people in big cities are less willing to help strangers than those in small towns?",
-        "model": "There's some truth in that. In small towns everyone knows each other, so there's a strong sense of community and people look out for one another. City life is busier and more anonymous, which can make people hesitant to get involved. That said, I've seen plenty of generous city dwellers, so it's not a rule. In my own experience, a friendly greeting can quickly break the ice, whichever kind of place you live in.",
+        "model": "There's some truth in that. In small towns everyone knows each other, so there's a strong sense of community and people look out for one another. City life is busier and more anonymous, so many people keep themselves to themselves. That said, I've met plenty of generous city dwellers, so it's not a rule. People are rarely unkind; they are just busy. A friendly greeting can quickly break the ice, whichever kind of place you live in.",
         "vocab": [
-          {
-            "word": "anonymous",
-            "band": 8,
-            "meaning": "with no one knowing who you are",
-            "example": "Living in a huge city can feel lonely and anonymous."
-          },
-          {
-            "word": "hesitant",
-            "band": 8,
-            "meaning": "unsure and slow to act",
-            "example": "Shy students are often hesitant to ask questions in class."
-          },
           {
             "word": "sense of community",
             "band": 7,
             "meaning": "a feeling of belonging to a close group",
-            "example": "Local festivals create a strong sense of community here."
+            "example": "Local festivals create a strong sense of community in our district."
+          },
+          {
+            "word": "look out for",
+            "band": 7,
+            "meaning": "take care of and protect other people",
+            "example": "Good neighbours look out for each other during hard times."
+          },
+          {
+            "word": "keep themselves to themselves",
+            "band": 8,
+            "meaning": "avoid mixing with or talking to other people",
+            "example": "The couple upstairs keep themselves to themselves and rarely say hello."
+          },
+          {
+            "word": "break the ice",
+            "band": 8,
+            "meaning": "make people feel relaxed when they first meet",
+            "example": "A joke about the weather is a classic way to break the ice."
           }
         ],
         "phrases": [
-          "There's some truth in that",
-          "look out for one another",
-          "That said"
+          "There's some truth in that.",
+          "..., so there's a strong sense of ... and people look out for ...",
+          "That said, I've met plenty of ..., so it's not a rule."
         ]
       },
       {
         "q": "What role can schools play in teaching young people to be community-minded?",
-        "model": "Schools can play a huge role. Organising regular volunteer projects, like cleaning up parks or visiting care homes, gives students first-hand experience of helping. Teachers can also encourage cooperation through group work. If children learn early that small contributions matter, they are much more likely to become responsible and caring adults. I have seen this work well in my old school, where pupils still volunteer long after graduating.",
+        "model": "Schools can play a huge role. Organising regular volunteer projects, like cleaning up parks or visiting care homes, gives students first-hand experience of helping. Teachers can also instil a sense of responsibility through group work. If children learn early that small contributions matter, they are far more likely to grow into responsible, caring adults. I've seen this work well in my old school, where pupils still volunteer long after they graduate.",
         "vocab": [
           {
-            "word": "first-hand",
+            "word": "play a huge role",
+            "band": 7,
+            "meaning": "have a very important effect on something",
+            "example": "Parents play a huge role in shaping a child's reading habits."
+          },
+          {
+            "word": "first-hand experience",
             "band": 8,
-            "meaning": "gained directly through your own experience",
-            "example": "Interns get first-hand experience of working in a hospital."
+            "meaning": "knowledge gained by doing something yourself",
+            "example": "Working in a hospital gave him first-hand experience of patient care."
           },
           {
-            "word": "cooperation",
-            "band": 7,
-            "meaning": "working together towards a shared goal",
-            "example": "Team success depends on honest cooperation between members."
+            "word": "instil a sense of",
+            "band": 9,
+            "meaning": "gradually teach someone to feel a quality such as duty",
+            "example": "Team sports can instil a sense of discipline in young people."
           },
           {
-            "word": "contributions",
+            "word": "grow into",
             "band": 7,
-            "meaning": "things you give or do to help a group",
-            "example": "Every student's contributions made the festival a success."
+            "meaning": "gradually become a certain kind of person",
+            "example": "She grew into a confident leader during her time at university."
           }
         ],
         "phrases": [
-          "Schools can play a huge role",
-          "like",
-          "If children learn early that"
+          "Schools can play a huge role. ...",
+          "If children learn early that ..., they are far more likely to ...",
+          "I've seen this work well in ..., where ..."
         ]
       },
       {
         "q": "Is it better to give money to charities or to give your time?",
-        "model": "Both are valuable, but I'd lean towards giving time. Money is useful, yet it can disappear into administration costs, whereas volunteering creates direct, visible change. Spending a weekend teaching kids to read, for example, can transform a life in a way a small donation rarely does, and it builds lasting relationships. Ideally, people should do a bit of both depending on their circumstances and what is most needed.",
+        "model": "Both are valuable, but I'd lean towards giving time. Money is useful, yet it can disappear into administration costs, whereas volunteering creates direct, visible change. Spending a weekend teaching kids to read, for example, can transform a life in a way a small donation rarely does, and it builds lasting relationships. Ideally, people should do a bit of both, depending on their circumstances and what is most needed. Giving your time also shows people that someone genuinely cares.",
         "vocab": [
           {
             "word": "lean towards",
             "band": 8,
             "meaning": "slightly prefer one option over another",
-            "example": "I lean towards the second plan because it's cheaper."
+            "example": "I lean towards the second plan because it is cheaper."
           },
           {
-            "word": "transform",
+            "word": "administration costs",
             "band": 8,
-            "meaning": "change something completely, usually for the better",
-            "example": "A good teacher can transform a child's confidence."
+            "meaning": "money spent on running an organisation rather than helping",
+            "example": "Donors worry when administration costs swallow half of every gift."
           },
           {
-            "word": "donation",
+            "word": "lasting relationships",
+            "band": 8,
+            "meaning": "close connections that continue for many years",
+            "example": "Volunteering together builds lasting relationships between people from different backgrounds."
+          },
+          {
+            "word": "depending on their circumstances",
             "band": 7,
-            "meaning": "money or goods given to help a cause",
-            "example": "Her generous donation paid for new library books."
+            "meaning": "according to the particular situation each person is in",
+            "example": "Everyone gives differently, depending on their circumstances and their income."
           }
         ],
         "phrases": [
-          "I'd lean towards",
-          "yet",
-          "in a way"
+          "Both are valuable, but I'd lean towards ...",
+          "..., yet it can ..., whereas ... creates ...",
+          "Ideally, people should do a bit of both, depending on ..."
         ]
       }
     ]

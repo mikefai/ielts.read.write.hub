@@ -3,9 +3,9 @@ import assert from 'node:assert/strict';
 import { estimateMinutes, buildSteps } from '../skills/speaking/plan.js';
 import { validateSpeaking, validateBank } from '../tools/validate-speaking.mjs';
 
-const W = (n, w = 'word') => Array(n).fill(w).join(' ');
+const W = (n, w = 'word') => Array(Math.max(0, n)).fill(w).join(' ');
 // model = 'alpha beta gamma ' + filler, vocab words alpha/beta/gamma are used by it
-const q = (n) => ({ q: 'Question?', model: 'alpha beta gamma ' + W(n - 3), vocab: ['alpha', 'beta', 'gamma'].map(word => ({ word, band: 7, meaning: 'm', example: 'this is a long example sentence' })), phrases: ['p1', 'p2'] });
+const q = (n) => ({ q: 'Question?', model: 'alpha one beta two gamma three ' + W(n - 6), vocab: ['alpha one', 'beta two', 'gamma three'].map(word => ({ word, band: 7, meaning: 'm', example: 'this is a long example sentence' })), phrases: ['p1', 'p2'] });
 const okMock = (p1 = [3, 3, 3], p3 = 5) => ({
   id: 's0', title: 't',
   part1: { topics: p1.map((n, i) => ({ name: 'T' + i, questions: Array.from({ length: n }, () => q(40)) })) },
@@ -38,3 +38,6 @@ test('validateBank rejects 5 sections', () => {
   assert.match(validateBank({ sections: Array(5).fill(sec) }).join('|'), /6 sections/);
   assert.deepEqual(validateBank({ sections: Array(6).fill(sec) }), []);
 });
+
+test('rejects a basic vocab word', () => assert.match(errs(mut(m => m.part1.topics[0].questions[0].vocab[2].word = 'definitely')), /too basic/));
+test('rejects fewer than 2 multi-word vocab', () => assert.match(errs(mut(m => { const v = m.part1.topics[0].questions[0].vocab; v[0].word = 'alphaone'; v[1].word = 'betatwo'; })), /multi-word/));

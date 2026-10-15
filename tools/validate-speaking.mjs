@@ -6,6 +6,7 @@ import { estimateMinutes } from '../skills/speaking/plan.js';
 const wc = s => (s ?? '').trim().split(/\s+/).filter(Boolean).length;
 const nonEmpty = v => typeof v === 'string' && v.trim() !== '';
 
+const BASIC = ['tough','definitely','occasionally','industry','celebrated','spacious','important','good','bad','big','nice','really','very','interesting','difficult','happy','popular','helpful','useful','enjoy','like','love','hate','comfortable','convenient','relaxing','different','crowded','expensive','cheap','beautiful','delicious'];
 function validateQ(q, where, [lo, hi], errs) {
   if (!nonEmpty(q.q)) errs.push(`${where}: missing question`);
   const n = wc(q.model);
@@ -15,6 +16,8 @@ function validateQ(q, where, [lo, hi], errs) {
   for (const v of vocab) {
     if (![7, 8, 9].includes(v.band) || !nonEmpty(v.word) || !nonEmpty(v.meaning) || wc(v.example) < 6) errs.push(`${where}: bad vocab "${v.word}" (band 7-9, word, meaning, example 6+ words)`);
   }
+  for (const v of vocab) if (BASIC.includes(String(v.word).toLowerCase().trim())) errs.push(`${where}: "${v.word}" is too basic for band 7+ vocabulary`);
+  if (vocab.filter(v => / /.test(String(v.word).trim())).length < 2) errs.push(`${where}: needs 2+ multi-word vocab (collocations, idioms, phrasal verbs)`);
   if ((q.phrases?.length ?? 0) < 2) errs.push(`${where}: needs 2+ phrases`);
   const m = (q.model ?? '').toLowerCase();
   const used = vocab.filter(v => nonEmpty(v.word) && m.includes(v.word.toLowerCase().slice(0, Math.max(4, v.word.length - 3)))).length;

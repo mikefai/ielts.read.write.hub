@@ -8,114 +8,142 @@
         "questions": [
           {
             "q": "Do you live in a house or an apartment?",
-            "model": "I live in a small apartment on the fourth floor, and honestly I love it. It's cosy, easy to keep tidy, and the city centre is just a short walk away. I once considered a house, but I couldn't give up such a convenient location.",
+            "model": "I live in a compact apartment on the fourth floor, and honestly it suits me. It's a stone's throw from the city centre, with shops within walking distance, so I never need a car. I did once toy with the idea of buying a house, but I couldn't give up that convenience.",
             "vocab": [
               {
-                "word": "cosy",
+                "word": "compact",
                 "band": 7,
-                "meaning": "warm, comfortable and pleasant to be in",
-                "example": "We spent the whole winter in a cosy little cabin."
+                "meaning": "small but well designed, with no wasted space",
+                "example": "Their compact kitchen still holds everything a family needs."
               },
               {
-                "word": "convenient",
-                "band": 7,
-                "meaning": "easy to reach or use, saving time",
-                "example": "The new flat is convenient because the station is next door."
+                "word": "a stone's throw from",
+                "band": 9,
+                "meaning": "very close to a place",
+                "example": "Our office is a stone's throw from the main station."
               },
               {
-                "word": "tidy",
+                "word": "within walking distance",
                 "band": 7,
-                "meaning": "neat and well organised",
-                "example": "She always keeps her desk tidy before she starts work."
+                "meaning": "close enough to reach on foot",
+                "example": "Everything I need is within walking distance of my flat."
+              },
+              {
+                "word": "toy with the idea",
+                "band": 8,
+                "meaning": "consider something casually without committing to it",
+                "example": "Lately I have started to toy with the idea of moving abroad."
               }
             ],
             "phrases": [
-              "honestly",
-              "a short walk away"
+              "Honestly, it suits me because...",
+              "I once toyed with the idea of...",
+              "The main perk of living here is..."
             ]
           },
           {
             "q": "What is your favourite room in your home?",
-            "model": "My favourite room is definitely the living room. It gets lovely natural light in the afternoon, so it feels really spacious even though it's not big. I usually spend my evenings there, reading or just chatting with my family over tea.",
+            "model": "My favourite room is the living room. It's flooded with natural light in the afternoon, which makes it feel airy despite its size. I usually curl up on the sofa there with a book, and it's where my family tends to wind down together.",
             "vocab": [
               {
-                "word": "spacious",
-                "band": 7,
-                "meaning": "having plenty of room inside",
-                "example": "They wanted a spacious kitchen for cooking with friends."
-              },
-              {
                 "word": "natural light",
-                "band": 8,
-                "meaning": "light from the sun rather than lamps",
-                "example": "The studio has wonderful natural light all morning."
+                "band": 7,
+                "meaning": "daylight coming in through windows",
+                "example": "Photographers often prefer natural light to flash for portraits."
               },
               {
-                "word": "definitely",
-                "band": 7,
-                "meaning": "without any doubt",
-                "example": "That was definitely the best meal I've had this year."
+                "word": "airy",
+                "band": 8,
+                "meaning": "bright, open and with plenty of fresh air",
+                "example": "We chose an airy studio with huge windows facing the park."
+              },
+              {
+                "word": "curl up",
+                "band": 8,
+                "meaning": "sit or lie comfortably with your legs pulled in",
+                "example": "On rainy days my cat likes to curl up beside the heater."
+              },
+              {
+                "word": "wind down",
+                "band": 8,
+                "meaning": "relax and calm down after a busy period",
+                "example": "A warm bath is the best way for me to wind down."
               }
             ],
             "phrases": [
-              "even though",
-              "I usually spend my evenings"
+              "My favourite spot is... because...",
+              "It's where I tend to...",
+              "Despite its size, it feels..."
             ]
           },
           {
             "q": "Would you like to change anything about your home?",
-            "model": "Yes, I'd love a bigger balcony. At the moment it's tiny, so I can barely fit a chair out there. If I had more outdoor space, I'd grow herbs and flowers, which would make the whole place feel much more alive.",
+            "model": "Yes, I'd love to knock down the wall between the kitchen and the living room to create an open-plan layout. At the moment it feels a bit cramped, and I'd make the most of the extra space for entertaining friends.",
             "vocab": [
               {
-                "word": "barely",
-                "band": 8,
-                "meaning": "only just; almost not",
-                "example": "I could barely hear him over the traffic noise."
-              },
-              {
-                "word": "outdoor space",
+                "word": "knock down",
                 "band": 7,
-                "meaning": "an area outside such as a garden or balcony",
-                "example": "Many city flats have very little outdoor space."
+                "meaning": "destroy a wall or building by hitting or pulling it down",
+                "example": "The builders plan to knock down the old garage next week."
               },
               {
-                "word": "make the place feel alive",
-                "band": 9,
-                "meaning": "make a place feel lively and full of energy",
-                "example": "Fresh plants really make the place feel alive."
+                "word": "open-plan",
+                "band": 8,
+                "meaning": "describing a room design with few or no dividing walls",
+                "example": "Most new offices in the city have an open-plan design."
+              },
+              {
+                "word": "make the most of",
+                "band": 8,
+                "meaning": "get the greatest possible benefit from something",
+                "example": "We should make the most of the sunshine while it lasts."
+              },
+              {
+                "word": "cramped",
+                "band": 8,
+                "meaning": "uncomfortably small and crowded",
+                "example": "Four of us were squeezed into a cramped little taxi."
               }
             ],
             "phrases": [
-              "If I had more",
-              "at the moment"
+              "If I could change one thing, it would be...",
+              "At the moment it feels...",
+              "I'd make the most of..."
             ]
           },
           {
             "q": "Who do you live with?",
-            "model": "I share the apartment with my younger brother. We get on really well, although we argue about chores sometimes. He's a great cook, so I'm lucky, but I think living together has also made us much closer as siblings.",
+            "model": "I share the apartment with my younger brother, and we get on like a house on fire. We do squabble over household chores now and then, but we're a close-knit pair, and living together has brought us even closer.",
             "vocab": [
               {
-                "word": "get on well",
-                "band": 7,
-                "meaning": "have a friendly relationship",
-                "example": "My neighbours and I get on well and often chat."
+                "word": "get on like a house on fire",
+                "band": 9,
+                "meaning": "become close friends very quickly and easily",
+                "example": "My cousin and her new roommate get on like a house on fire."
               },
               {
-                "word": "chores",
-                "band": 7,
-                "meaning": "small regular jobs around the house",
-                "example": "Washing dishes is the chore I dislike most."
-              },
-              {
-                "word": "siblings",
+                "word": "squabble over",
                 "band": 8,
-                "meaning": "brothers and sisters",
-                "example": "Her siblings all live in different countries now."
+                "meaning": "argue noisily about something unimportant",
+                "example": "The children often squabble over which cartoon to watch."
+              },
+              {
+                "word": "household chores",
+                "band": 7,
+                "meaning": "regular jobs such as cleaning and washing up",
+                "example": "Sharing the household chores fairly keeps everyone in a better mood."
+              },
+              {
+                "word": "close-knit",
+                "band": 8,
+                "meaning": "bound together by strong friendship or family ties",
+                "example": "She grew up in a close-knit village where everyone helped each other."
               }
             ],
             "phrases": [
-              "although",
-              "I'm lucky"
+              "We get on like...",
+              "Now and then we...",
+              "Living together has brought us..."
             ]
           }
         ]
@@ -125,114 +153,142 @@
         "questions": [
           {
             "q": "What time do you usually get up?",
-            "model": "I normally get up around half past six, because I like having a calm morning before work. I make coffee, stretch a little and check the news. If I sleep in, the whole day feels rushed, so I try to avoid that.",
+            "model": "I'm an early bird, so I'm usually up around half past six. I'm a creature of habit, which means coffee, a short stretch and the news before work. If I sleep in, I feel rushed all day, whereas an early start lets me hit the ground running.",
             "vocab": [
               {
-                "word": "calm",
+                "word": "early bird",
                 "band": 7,
-                "meaning": "peaceful and not stressful",
-                "example": "The lake was calm in the early morning."
+                "meaning": "a person who gets up early",
+                "example": "My father is an early bird and always cooks breakfast at dawn."
+              },
+              {
+                "word": "a creature of habit",
+                "band": 8,
+                "meaning": "someone who likes to do the same things in the same way",
+                "example": "Anna is a creature of habit and orders the same coffee daily."
               },
               {
                 "word": "sleep in",
                 "band": 7,
                 "meaning": "stay in bed later than usual",
-                "example": "On Sundays I love to sleep in until nine."
+                "example": "On public holidays I love to sleep in and skip my alarm."
               },
               {
-                "word": "rushed",
-                "band": 8,
-                "meaning": "done too quickly, with little time",
-                "example": "I hate eating a rushed breakfast on my feet."
+                "word": "hit the ground running",
+                "band": 9,
+                "meaning": "start something quickly and energetically",
+                "example": "The new manager hit the ground running and fixed several problems."
               }
             ],
             "phrases": [
-              "I normally",
-              "so I try to avoid that"
+              "I'm usually up around...",
+              "I'm a bit of a...",
+              "If I..., I feel..."
             ]
           },
           {
             "q": "What is your favourite part of the day?",
-            "model": "Probably the evening, because that's when I can finally relax. After dinner I usually go for a walk to clear my head, and then I read for an hour. It's the one time when nobody expects anything from me.",
+            "model": "Probably the evening, when I can finally switch off and unwind. I take a walk after dinner to clear my head, then enjoy some peace and quiet with a book. It's the one part of the day that feels entirely my own.",
             "vocab": [
               {
-                "word": "relax",
+                "word": "switch off",
                 "band": 7,
-                "meaning": "rest and stop feeling tense",
-                "example": "A long bath helps me relax after work."
+                "meaning": "stop thinking about work and relax",
+                "example": "It took me a whole week on holiday to switch off properly."
+              },
+              {
+                "word": "unwind",
+                "band": 7,
+                "meaning": "relax after a period of stress or effort",
+                "example": "Cooking helps me unwind after a stressful day at the office."
               },
               {
                 "word": "clear my head",
                 "band": 8,
-                "meaning": "stop thinking about worries and feel fresh",
-                "example": "A short run always helps me clear my head."
+                "meaning": "stop worrying and think more freshly",
+                "example": "A quick walk by the river always helps me clear my head."
               },
               {
-                "word": "expect",
+                "word": "peace and quiet",
                 "band": 7,
-                "meaning": "to believe someone should do something",
-                "example": "Teachers expect students to finish homework on time."
+                "meaning": "calm surroundings without noise or interruption",
+                "example": "I moved to the countryside for some real peace and quiet."
               }
             ],
             "phrases": [
-              "Probably",
-              "that's when"
+              "Probably..., when I can finally...",
+              "It's the one time when...",
+              "I like to... to clear my head."
             ]
           },
           {
             "q": "Do you prefer a fixed routine or a flexible one?",
-            "model": "I prefer a fairly fixed routine, to be honest. When I know what's coming, I feel more productive and less stressed. That said, I leave space on weekends for spontaneous plans, like meeting friends or exploring somewhere new.",
+            "model": "I prefer to stick to a routine, to be honest. Knowing what's coming helps me stay on top of things and keeps stress down. That said, at weekends I like to go with the flow, and I'll happily make plans on a whim, like exploring somewhere new.",
             "vocab": [
               {
-                "word": "productive",
-                "band": 7,
-                "meaning": "achieving a lot",
-                "example": "I'm most productive when I work in the morning."
-              },
-              {
-                "word": "spontaneous",
+                "word": "stick to a routine",
                 "band": 8,
-                "meaning": "done suddenly without planning",
-                "example": "We took a spontaneous trip to the coast last weekend."
+                "meaning": "keep doing things in the same planned way",
+                "example": "Doctors advise new parents to stick to a routine for babies."
               },
               {
-                "word": "fixed",
+                "word": "stay on top of things",
+                "band": 8,
+                "meaning": "manage your tasks so that nothing is out of control",
+                "example": "A weekly planner helps me stay on top of things at university."
+              },
+              {
+                "word": "go with the flow",
                 "band": 7,
-                "meaning": "set and not changing",
-                "example": "The company has fixed working hours every day."
+                "meaning": "relax and accept events as they happen",
+                "example": "When we travel, we simply go with the flow and see what happens."
+              },
+              {
+                "word": "on a whim",
+                "band": 9,
+                "meaning": "suddenly, without careful planning",
+                "example": "We booked a weekend in Prague on a whim last spring."
               }
             ],
             "phrases": [
-              "to be honest",
-              "That said"
+              "To be honest, I prefer...",
+              "That said, at weekends I...",
+              "It helps me to..."
             ]
           },
           {
             "q": "Has your daily routine changed in recent years?",
-            "model": "Definitely. Since I started working from home, my days are much more relaxed because I've cut out the long commute. I've also begun exercising before breakfast, which has really boosted my energy and helped me concentrate better.",
+            "model": "Quite a lot, actually. Since I started to work from home, I've cut out the long commute, which has been a game changer. I also make a point of exercising before breakfast, and it keeps my energy up all morning.",
             "vocab": [
               {
-                "word": "commute",
+                "word": "work from home",
                 "band": 7,
-                "meaning": "the regular journey to work or school",
-                "example": "My commute used to take almost two hours each day."
+                "meaning": "do your job at home rather than in an office",
+                "example": "Many designers now choose to work from home two days a week."
               },
               {
-                "word": "boost",
+                "word": "cut out",
+                "band": 7,
+                "meaning": "stop doing or having something",
+                "example": "Doctors told him to cut out sugary drinks completely."
+              },
+              {
+                "word": "a game changer",
                 "band": 8,
-                "meaning": "increase or improve something",
-                "example": "A good night's sleep can boost your mood."
+                "meaning": "something that completely changes a situation for the better",
+                "example": "Electric bikes have been a game changer for commuters in my city."
               },
               {
-                "word": "concentrate",
-                "band": 7,
-                "meaning": "focus your attention on something",
-                "example": "It's hard to concentrate when the room is noisy."
+                "word": "make a point of",
+                "band": 8,
+                "meaning": "deliberately do something because it is important to you",
+                "example": "I make a point of calling my grandparents every Sunday evening."
               }
             ],
             "phrases": [
-              "Since I started",
-              "which has really"
+              "Quite a lot, actually.",
+              "Since I started to...",
+              "I also make a point of..."
             ]
           }
         ]
@@ -242,86 +298,107 @@
         "questions": [
           {
             "q": "What kind of music do you like?",
-            "model": "I'm really into indie and acoustic music, mainly because it feels honest and relaxed. I find it perfect for studying or cooking. I'm not a big fan of heavy metal, though, since it's a bit too loud for me.",
+            "model": "I'm drawn to indie and acoustic music because it's easy on the ear and perfect to chill out to after work. Heavy metal, on the other hand, is not my cup of tea; it's just far too loud for me.",
             "vocab": [
               {
                 "word": "acoustic",
                 "band": 8,
                 "meaning": "played on instruments without electronic amplification",
-                "example": "We listened to an acoustic set by the river."
+                "example": "We enjoyed an acoustic session in a tiny café last night."
               },
               {
-                "word": "be into",
-                "band": 7,
-                "meaning": "be very interested in or enjoy",
-                "example": "My sister is really into jazz these days."
+                "word": "easy on the ear",
+                "band": 8,
+                "meaning": "pleasant and relaxing to listen to",
+                "example": "Her soft piano pieces are really easy on the ear."
               },
               {
-                "word": "honest",
+                "word": "chill out",
                 "band": 7,
-                "meaning": "sincere and true to real feelings",
-                "example": "I love songs with honest lyrics about everyday life."
+                "meaning": "relax completely and do nothing stressful",
+                "example": "After exams we all went to the beach to chill out."
+              },
+              {
+                "word": "not my cup of tea",
+                "band": 8,
+                "meaning": "something you do not particularly enjoy",
+                "example": "Horror films are simply not my cup of tea, I'm afraid."
               }
             ],
             "phrases": [
-              "I'm not a big fan of",
-              "though"
+              "I'm drawn to... because...",
+              "...is not my cup of tea.",
+              "On the other hand, I..."
             ]
           },
           {
             "q": "Do you play any musical instruments?",
-            "model": "I used to play the guitar when I was a teenager, but I've fallen out of practice. I still own one, and now and then I strum a few chords. I'd love to take lessons again if I had more free time.",
+            "model": "I play the guitar a little, though I tend to fall out of practice whenever life gets busy. I taught myself to play by ear, and now and then I strum a few chords. I'd love to brush up on my technique with proper lessons.",
             "vocab": [
-              {
-                "word": "strum",
-                "band": 8,
-                "meaning": "play a guitar by brushing across the strings",
-                "example": "He likes to strum quietly on the porch at night."
-              },
               {
                 "word": "fall out of practice",
                 "band": 9,
-                "meaning": "become less skilled because you stopped doing something",
-                "example": "I've fallen out of practice since I stopped swimming."
+                "meaning": "become less skilled because you have stopped doing something",
+                "example": "If you fall out of practice, even simple pieces feel difficult again."
               },
               {
-                "word": "teenager",
-                "band": 7,
-                "meaning": "a young person aged thirteen to nineteen",
-                "example": "As a teenager, she wrote songs in her bedroom."
+                "word": "play by ear",
+                "band": 8,
+                "meaning": "play music from memory without reading the notes",
+                "example": "My uncle can play by ear almost any song he hears."
+              },
+              {
+                "word": "strum",
+                "band": 8,
+                "meaning": "play a guitar by brushing a hand across the strings",
+                "example": "He likes to strum quietly on the balcony at sunset."
+              },
+              {
+                "word": "brush up on",
+                "band": 8,
+                "meaning": "improve a skill you have not used for a while",
+                "example": "I need to brush up on my French before the trip."
               }
             ],
             "phrases": [
-              "I used to",
-              "now and then"
+              "I tend to...whenever...",
+              "I taught myself to...",
+              "I'd love to brush up on..."
             ]
           },
           {
             "q": "When do you listen to music?",
-            "model": "Mostly when I'm travelling or doing housework. Music makes a long journey feel shorter, and it keeps me motivated when I'm cleaning. I rarely listen while working, though, because lyrics distract me and break my concentration.",
+            "model": "Mostly when I'm on the go, like on my commute or while doing housework. Music helps me get in the zone, and it can really keep me going through boring chores. I rarely listen while working, though, because I can't tune out the lyrics.",
             "vocab": [
               {
-                "word": "motivated",
+                "word": "on the go",
                 "band": 7,
-                "meaning": "feeling eager to do something",
-                "example": "A good playlist keeps me motivated at the gym."
+                "meaning": "constantly busy or travelling from place to place",
+                "example": "I usually eat lunch on the go because my days are hectic."
               },
               {
-                "word": "distract",
+                "word": "get in the zone",
                 "band": 8,
-                "meaning": "take attention away from what you're doing",
-                "example": "Loud neighbours distract me when I'm studying."
+                "meaning": "reach a state of deep concentration",
+                "example": "A quiet playlist helps me get in the zone before exams."
               },
               {
-                "word": "journey",
-                "band": 7,
-                "meaning": "the act of travelling from one place to another",
-                "example": "The journey to the mountains takes about three hours."
+                "word": "keep me going",
+                "band": 8,
+                "meaning": "give me the energy or motivation to continue",
+                "example": "A strong coffee will keep me going until this evening."
+              },
+              {
+                "word": "tune out",
+                "band": 8,
+                "meaning": "deliberately stop paying attention to something",
+                "example": "It's hard to tune out the noise from the building site."
               }
             ],
             "phrases": [
-              "Mostly when",
-              "I rarely"
+              "Mostly when I'm...",
+              "It helps me to...",
+              "I rarely..., because..."
             ]
           }
         ]
@@ -340,44 +417,49 @@
       "prepSeconds": 60,
       "talkSeconds": 120
     },
-    "model": "I'd like to talk about my smartphone, which I honestly think is the most useful piece of technology I own. I bought it about two years ago, when my old one finally stopped working, and I chose a mid-range model with a good camera. I use it every single day, mostly for messages, maps, banking and keeping track of my schedule. What I find particularly handy is the calendar, because it reminds me about meetings and deadlines, so I almost never forget anything important. I also rely on the navigation app whenever I travel, since it saves me from getting lost in unfamiliar cities. Last summer, for example, I was in a small town with no street signs in English, and the phone guided me to my hotel in minutes. Beyond that, it lets me stay in touch with my family abroad through video calls, which makes the distance feel much smaller. Another thing I appreciate is the camera, because I can record special moments and share them with relatives instantly. Of course, it can be distracting, and I sometimes spend too long scrolling, so I've started limiting my screen time. Overall, I'd say it has made my life more organised, more connected and a lot more convenient, and I can't imagine going back to life without it.",
+    "model": "I'd like to talk about my smartphone, which I honestly think is the most useful piece of technology I own. I bought it about two years ago, when my old one finally gave up, and I chose a mid-range model with a really good camera. I use it every single day, mostly for messages, maps, banking and organising my schedule. The calendar in particular is brilliant, because it helps me keep track of meetings and deadlines, so I almost never forget anything. The navigation app can come in handy too, especially when I travel. Last summer, for example, I was in a small town where none of the street signs were in English, and the phone guided me to my hotel within minutes. It was a lifesaver, and I was so relieved that I treated myself to a lovely dinner by the river that evening. Beyond that, it lets me stay in touch with my family abroad through video calls, which makes the distance feel much smaller, and I can share photos of special moments instantly. Having so much information at my fingertips is wonderful, although I admit it can be distracting. I sometimes spend far too long scrolling, so I've started limiting my screen time. Overall, I'd say it has made my life more organised and a lot more connected, and I can't imagine going back to life without it.",
     "vocab": [
-      {
-        "word": "handy",
-        "band": 7,
-        "meaning": "useful and easy to use",
-        "example": "A small torch is handy during a power cut."
-      },
       {
         "word": "keep track of",
         "band": 8,
-        "meaning": "stay aware of changes or progress",
-        "example": "I use a notebook to keep track of expenses."
+        "meaning": "stay aware of changes, progress or details",
+        "example": "I use a spreadsheet to keep track of my monthly spending."
       },
       {
-        "word": "unfamiliar",
+        "word": "come in handy",
         "band": 8,
-        "meaning": "not known or recognised",
-        "example": "She felt nervous walking through unfamiliar streets alone."
+        "meaning": "turn out to be useful when needed",
+        "example": "Take a spare charger, because it might come in handy later."
+      },
+      {
+        "word": "a lifesaver",
+        "band": 8,
+        "meaning": "something or someone that rescues you from a difficult situation",
+        "example": "The translation app was a lifesaver during our trip to Japan."
       },
       {
         "word": "stay in touch",
         "band": 7,
-        "meaning": "keep communicating with someone",
-        "example": "We stay in touch by video call every Sunday."
+        "meaning": "continue to communicate with someone",
+        "example": "Despite living abroad, my cousins and I stay in touch every week."
+      },
+      {
+        "word": "at my fingertips",
+        "band": 9,
+        "meaning": "immediately available and easy to reach",
+        "example": "With a tablet, a whole library is at my fingertips."
       },
       {
         "word": "screen time",
         "band": 8,
-        "meaning": "time spent looking at a device screen",
-        "example": "Doctors advise limiting screen time before bed."
+        "meaning": "the amount of time spent looking at a device",
+        "example": "Teachers are worried about children's growing screen time."
       }
     ],
     "phrases": [
-      "What I find particularly handy is",
-      "I can't imagine going back to",
-      "Last summer, for example",
-      "Overall, I'd say"
+      "What I find particularly handy is...",
+      "Last summer, for example, ...",
+      "Overall, I'd say..."
     ],
     "structure": [
       "Introduce the item and say what it is",
@@ -389,30 +471,37 @@
     ],
     "roundingOff": {
       "q": "Do you think you could live without this technology?",
-      "model": "Honestly, I could survive without it, but life would be far less convenient. I'd have to carry paper maps, a camera and a diary, and keeping in touch with family would be harder. I'd probably adapt in time, though I wouldn't enjoy the adjustment.",
+      "model": "Honestly, I could get by without it, but life would be far less convenient. I'd have to do without maps, a camera and instant messaging, and I probably take things for granted more than I'd like to admit. I'd adapt in time, though I wouldn't enjoy the adjustment.",
       "vocab": [
         {
-          "word": "survive",
+          "word": "get by",
+          "band": 8,
+          "meaning": "manage to live with only the basic things you need",
+          "example": "Many students get by on a very small budget."
+        },
+        {
+          "word": "do without",
           "band": 7,
-          "meaning": "continue to live or exist",
-          "example": "Plants can't survive without enough water."
+          "meaning": "manage even though you do not have something",
+          "example": "We had to do without electricity for two whole days."
+        },
+        {
+          "word": "take things for granted",
+          "band": 8,
+          "meaning": "fail to appreciate things because they are always there",
+          "example": "We often take things for granted until they disappear."
         },
         {
           "word": "adapt",
           "band": 8,
-          "meaning": "change to suit a new situation",
-          "example": "It took me weeks to adapt to the new schedule."
-        },
-        {
-          "word": "adjustment",
-          "band": 8,
-          "meaning": "a small change made to get used to something",
-          "example": "Moving abroad required a big adjustment for the whole family."
+          "meaning": "change your behaviour to suit a new situation",
+          "example": "Young children adapt quickly when they move to a new school."
         }
       ],
       "phrases": [
-        "Honestly",
-        "in time"
+        "Honestly, I could...but...",
+        "I'd have to do without...",
+        "I'd adapt in time, though..."
       ]
     }
   },
@@ -421,142 +510,177 @@
     "questions": [
       {
         "q": "How has technology changed the way people communicate?",
-        "model": "It's transformed it completely. People can now message anyone instantly, so friendships across countries are easier to maintain. On the other hand, face-to-face conversation has suffered, because many people prefer texting to meeting. For example, families often sit together at dinner, each staring at a screen. Personally, I think the key is balance: technology should connect us, not replace real conversation, so I try to put my phone away when friends visit.",
+        "model": "It has transformed communication completely. At the touch of a button, we can reach anyone on the planet, which helps friends and relatives who live far away bridge the gap. On the other hand, genuine face-to-face conversation has suffered, because many people would rather text than meet. Personally, I think technology should bring us closer rather than let us drift apart, so I put my phone away when friends visit.",
         "vocab": [
           {
-            "word": "instantly",
-            "band": 7,
-            "meaning": "immediately, with no delay",
-            "example": "The photo reached my friend instantly through the app."
+            "word": "at the touch of a button",
+            "band": 8,
+            "meaning": "instantly and very easily",
+            "example": "We can book a taxi at the touch of a button."
           },
           {
-            "word": "maintain",
+            "word": "bridge the gap",
             "band": 8,
-            "meaning": "keep something going in good condition",
-            "example": "It's hard to maintain friendships when you move abroad."
+            "meaning": "reduce a difference or distance between two things",
+            "example": "Video calls help grandparents bridge the gap with distant grandchildren."
           },
           {
             "word": "face-to-face",
             "band": 8,
-            "meaning": "in person, with both people present",
-            "example": "Some matters are better discussed face-to-face than online."
+            "meaning": "in person, with both people in the same place",
+            "example": "Some delicate topics are better discussed face-to-face than by text."
+          },
+          {
+            "word": "drift apart",
+            "band": 8,
+            "meaning": "slowly become less close over time",
+            "example": "After graduation, many old classmates quietly drift apart."
           }
         ],
         "phrases": [
-          "On the other hand",
-          "For example"
+          "It has transformed...completely.",
+          "On the other hand, ...",
+          "Personally, I think technology should..."
         ]
       },
       {
         "q": "Do you think people rely too much on technology?",
-        "model": "Yes, I think many of us do. We rely on phones for directions, memory and even entertainment, so basic skills like navigating or doing mental arithmetic are fading. If the battery dies or the signal drops, some people genuinely feel helpless, which shows how fragile that dependence is. Personally, I try to take a day each week without my phone, and it reminds me how calm life can be without constant notifications.",
+        "model": "I think many of us do. We rely on our phones for directions, memory and entertainment, so skills like reading maps or doing mental arithmetic are slowly fading. When the battery dies, some people are completely at a loss, which shows how fragile that dependence is. Checking a screen has become second nature, so I try to spend one day a week offline, and it reminds me how peaceful life can be without constant notifications.",
         "vocab": [
           {
             "word": "rely on",
             "band": 7,
-            "meaning": "depend on something or someone",
-            "example": "Many students rely on translation apps for homework."
+            "meaning": "depend on something or someone to function",
+            "example": "Many drivers now rely on satellite navigation in every journey."
           },
           {
-            "word": "fade",
+            "word": "at a loss",
             "band": 8,
-            "meaning": "gradually become weaker or disappear",
-            "example": "Handwriting skills are fading among younger generations."
+            "meaning": "unsure what to do or say",
+            "example": "When the lights went out, the staff were at a loss."
+          },
+          {
+            "word": "second nature",
+            "band": 9,
+            "meaning": "something so familiar that you do it without thinking",
+            "example": "After years of practice, typing is second nature to her."
           },
           {
             "word": "fragile",
             "band": 8,
-            "meaning": "easily broken or weakened",
-            "example": "The economy is fragile after the recent crisis."
+            "meaning": "easily broken, weakened or damaged",
+            "example": "Trust between neighbours is fragile and takes years to rebuild."
           }
         ],
         "phrases": [
-          "I think many of us",
-          "which shows"
+          "I think many of us...",
+          "...which shows how...",
+          "It has become second nature to..."
         ]
       },
       {
         "q": "What are the advantages of technology in the workplace?",
-        "model": "The biggest advantage is efficiency. Tasks that once took days, like sending documents or analysing data, now take minutes. Technology also allows flexible working, so employees can work remotely. A friend of mine runs a design team across three countries, which would have been impossible decades ago. Of course, there are downsides, such as longer working hours, but overall I believe the benefits clearly outweigh the costs for most companies.",
+        "model": "The biggest advantage is efficiency. Digital tools help to streamline tasks that once took days, such as sending documents or analysing data, and that can free up time for more creative work. Technology also lets people work remotely; a friend of mine leads a design team across three countries, which would have been impossible decades ago. There are downsides, such as longer working hours, but overall I believe the benefits outweigh the drawbacks for most companies.",
         "vocab": [
           {
-            "word": "efficiency",
+            "word": "streamline",
             "band": 8,
-            "meaning": "working well without wasting time or effort",
-            "example": "Automation has improved efficiency in our factory."
+            "meaning": "make a process simpler and more efficient",
+            "example": "The new software helped us streamline our hiring process."
           },
           {
-            "word": "remotely",
+            "word": "free up time",
             "band": 8,
-            "meaning": "from a distance, not in the office",
-            "example": "She manages the whole project remotely from her home."
+            "meaning": "create extra time for other activities",
+            "example": "Automatic payments free up time for what really matters."
           },
           {
-            "word": "analyse",
-            "band": 7,
-            "meaning": "examine something in detail",
-            "example": "Scientists analyse the results before publishing anything."
+            "word": "work remotely",
+            "band": 8,
+            "meaning": "do your job away from the office",
+            "example": "Several of my colleagues now work remotely from different countries."
+          },
+          {
+            "word": "outweigh the drawbacks",
+            "band": 9,
+            "meaning": "be more important or valuable than the disadvantages",
+            "example": "For most families, the benefits outweigh the drawbacks of the new system."
           }
         ],
         "phrases": [
-          "The biggest advantage",
-          "A friend of mine"
+          "The biggest advantage is...",
+          "A friend of mine...",
+          "Overall, I believe the benefits outweigh..."
         ]
       },
       {
-        "q": "Could technology ever replace teachers in the future?",
-        "model": "I doubt it will fully replace them. Technology can deliver information and personalised practice, but teachers provide encouragement, discipline and human understanding. Students who struggle usually need someone to notice their mood. So in my view, technology will support teachers rather than replace them entirely. I remember one teacher who changed my whole attitude to maths, and no program could have done that for me.",
+        "q": "Do you think older people are at a disadvantage in a world dominated by technology?",
+        "model": "To some extent, yes. Many older people did not grow up with computers, so they can feel out of their depth when everything from banking to doctor's appointments moves online. This widens the digital divide between them and tech-savvy younger generations. However, I think it's a matter of support rather than ability. My grandmother struggled at first, but after a few patient lessons she learned to keep up with the family group chat.",
         "vocab": [
           {
-            "word": "personalised",
+            "word": "out of their depth",
+            "band": 9,
+            "meaning": "in a situation too difficult for your knowledge or skills",
+            "example": "New employees often feel out of their depth in their first week."
+          },
+          {
+            "word": "digital divide",
             "band": 8,
-            "meaning": "made to suit one particular person",
-            "example": "The app offers personalised exercises based on your mistakes."
+            "meaning": "the gap between people who have good access to technology and those who do not",
+            "example": "Free internet in libraries helps narrow the digital divide."
           },
           {
-            "word": "encouragement",
-            "band": 7,
-            "meaning": "support and confidence given to someone",
-            "example": "A little encouragement can change a child's attitude."
+            "word": "tech-savvy",
+            "band": 8,
+            "meaning": "skilled and confident in using modern technology",
+            "example": "My tech-savvy nephew fixed the printer in two minutes."
           },
           {
-            "word": "in my view",
+            "word": "keep up with",
             "band": 7,
-            "meaning": "according to my opinion",
-            "example": "In my view, public transport should be cheaper."
+            "meaning": "stay at the same level or speed as others or as change",
+            "example": "It is hard to keep up with how quickly phones change."
           }
         ],
         "phrases": [
-          "I doubt it",
-          "rather than"
+          "To some extent, yes.",
+          "It's a matter of... rather than...",
+          "This widens the gap between..."
         ]
       },
       {
         "q": "What problems might arise from the rapid growth of technology?",
-        "model": "One serious problem is privacy, because companies collect huge amounts of personal data. Another is inequality, since people without access to devices fall behind. There's also job loss as machines take over routine tasks. Governments therefore need to regulate technology carefully and invest in training. Personally, I believe young people especially need guidance, because they often share information online without thinking about the long-term consequences.",
+        "model": "One serious problem is privacy, because companies collect huge amounts of personal data, and a single data breach can expose millions of people. Another is inequality, since people without access to devices fall behind. There's also the risk that machines will take over routine jobs. Governments therefore need to regulate technology carefully and invest in training. Young people especially need guidance, because they often share information online without considering the long-term consequences.",
         "vocab": [
           {
-            "word": "privacy",
-            "band": 7,
-            "meaning": "the right to keep personal information secret",
-            "example": "Social media users often worry about their privacy."
+            "word": "data breach",
+            "band": 8,
+            "meaning": "an incident where private information is stolen or exposed",
+            "example": "The bank apologised after a data breach affected thousands of customers."
           },
           {
-            "word": "inequality",
-            "band": 8,
-            "meaning": "an unfair difference between groups of people",
-            "example": "Access to the internet can widen inequality in education."
+            "word": "fall behind",
+            "band": 7,
+            "meaning": "fail to keep up with others",
+            "example": "Students without a laptop can quickly fall behind in class."
+          },
+          {
+            "word": "take over",
+            "band": 7,
+            "meaning": "assume control of or replace something",
+            "example": "Robots may soon take over many tasks in warehouses."
           },
           {
             "word": "regulate",
             "band": 9,
             "meaning": "control something using official rules",
-            "example": "Authorities plan to regulate the use of facial recognition."
+            "example": "Governments must regulate how companies store customers' personal information."
           }
         ],
         "phrases": [
-          "One serious problem is",
-          "Another is"
+          "One serious problem is...",
+          "Another is... since...",
+          "Governments therefore need to..."
         ]
       }
     ]
