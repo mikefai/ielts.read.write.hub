@@ -1008,7 +1008,7 @@
         "name": "Introduction",
         "lines": [
           "Nowadays, [topic] raises some important questions, and this essay will answer both of them.",
-          "There are several reasons why [first question topic], and the effects of this are [second question topic].",
+          "This essay will answer two questions: [question one] and [question two].",
           "I will first discuss [question one] and then explain [question two]."
         ]
       },
@@ -1050,7 +1050,7 @@
         "why": "Having ideas on both sides lets you compare them fairly."
       },
       {
-        "do": "Choose the side you think is stronger. Decide if you will argue it first or second, and keep that order.",
+        "do": "Choose the side you think is stronger and argue it first. Keep the weaker side for the second body paragraph.",
         "why": "A consistent order makes the essay easy to follow."
       },
       {
@@ -1077,7 +1077,7 @@
     "tricks": [
       "Use weighing words: 'Although', 'Despite this', 'Nevertheless', 'on balance'. They show you are comparing.",
       "Say how big each point is: 'a minor drawback', 'a major benefit'.",
-      "Argue the side you think is weaker first, then finish with your stronger side.",
+      "Put your stronger side first and the weaker side second, and use the same order in the introduction and conclusion.",
       "Relevant example: give one short, real-world example in a single sentence, such as 'In Finland, for instance, ...'. Keep it specific and true."
     ],
     "traps": [
