@@ -15,4 +15,5 @@ Static site, no build step. Serve it over http (ES modules do not load from file
 - Reading: `skills/reading/test/?id=m1` and `?id=m2` (40 questions, 60 minutes, 2,150-2,750 words each).
 - Writing: `skills/writing/#mocks` (3 mocks, each Task 1 with several visuals, then Task 2).
 - Speaking: `skills/speaking/` (3 mock interviews with vocabulary help and a language bank).
-- Check everything: `node tools/validate-content.mjs && node tools/validate-writing.mjs && node tools/validate-speaking.mjs && node --test tests/*.test.mjs`
+- Study notes: content in `content/learn/reading.json` and `content/learn/writing.json` (schema in `docs/superpowers/plans/2026-10-16-study-notes.md`); `node tools/validate-learn.mjs` checks them.
+- Check everything: `node tools/validate-content.mjs && node tools/validate-writing.mjs && node tools/validate-speaking.mjs && node tools/validate-toolbox.mjs && node tools/validate-learn.mjs && node --test tests/*.test.mjs`

@@ -4,13 +4,34 @@
     "title": "How Writing is marked: the four criteria",
     "what": "Your Writing is marked on four things. Each one is worth 25% of your score, so no single one can be ignored. Task 2 is worth twice as much as Task 1, so it deserves more of your time. 'Criteria' just means the things the examiner looks for.",
     "steps": [
-      { "do": "Task Achievement (Task 1) or Task Response (Task 2): answer every part of the question, with a clear overview or a clear opinion.", "why": "If you miss part of the task, your score for this criterion is limited, however good your English is." },
-      { "do": "Coherence and Cohesion: put one main idea in each paragraph, and link your sentences so the reader never gets lost.", "why": "Examiners read fast. Clear paragraphs and links make your answer easy to follow, which earns marks." },
-      { "do": "Lexical Resource: use a range of precise words, and use them correctly. Avoid repeating the same word many times.", "why": "Vocabulary is the words you know. Examiners reward the right word more than a big word used wrongly." },
-      { "do": "Grammatical Range and Accuracy: mix simple and complex sentences, and keep most of them error-free.", "why": "Grammar is judged on two things: how varied it is, and how correct it is. You need both." },
-      { "do": "Spend more time on Task 2. Aim for about 40 minutes on it and 20 on Task 1.", "why": "Task 2 counts double. A weak essay costs you twice as many marks as a weak report." },
-      { "do": "Aim for the next band, not perfection. Pick one habit from the Band 6 to 7 list below and practise it.", "why": "Small, specific habits raise your score faster than trying to improve everything at once." },
-      { "do": "Read your practice answers as an examiner. Score each of the four criteria separately, from the checklist.", "why": "Knowing which criterion is weakest tells you exactly what to practise next." }
+      {
+        "do": "Task Achievement (Task 1) or Task Response (Task 2): answer every part of the question, with a clear overview or a clear opinion.",
+        "why": "If you miss part of the task, your score for this criterion is limited, however good your English is."
+      },
+      {
+        "do": "Coherence and Cohesion: put one main idea in each paragraph, and link your sentences so the reader never gets lost.",
+        "why": "Examiners read fast. Clear paragraphs and links make your answer easy to follow, which earns marks."
+      },
+      {
+        "do": "Lexical Resource: use a range of precise words, and use them correctly. Avoid repeating the same word many times.",
+        "why": "Vocabulary is the words you know. Examiners reward the right word more than a big word used wrongly."
+      },
+      {
+        "do": "Grammatical Range and Accuracy: mix simple and complex sentences, and keep most of them error-free.",
+        "why": "Grammar is judged on two things: how varied it is, and how correct it is. You need both."
+      },
+      {
+        "do": "Spend more time on Task 2. Aim for about 40 minutes on it and 20 on Task 1.",
+        "why": "Task 2 counts double. A weak essay costs you twice as many marks as a weak report."
+      },
+      {
+        "do": "Aim for the next band, not perfection. Pick one habit from the Band 6 to 7 list below and practise it.",
+        "why": "Small, specific habits raise your score faster than trying to improve everything at once."
+      },
+      {
+        "do": "Read your practice answers as an examiner. Score each of the four criteria separately, from the checklist.",
+        "why": "Knowing which criterion is weakest tells you exactly what to practise next."
+      }
     ],
     "tricks": [
       "Band 6 to 7, Task Achievement: at Band 6 you cover the task but some points are unclear or too long. At Band 7 you give a clear overview or position and pick the key points.",
@@ -36,13 +57,34 @@
     "title": "Timing and planning: 60 minutes, two tasks",
     "what": "You have 60 minutes for two tasks, and there is no extra time. Good timing is a skill you can practise. A short plan before you write makes the answer clearer and saves time later.",
     "steps": [
-      { "do": "Start with Task 1. Spend about 20 minutes on it: 5 to plan, 12 to write, 3 to check.", "why": "Task 1 is shorter and easier to finish. Doing it first gives you a safe start and leaves a clear 40 minutes for Task 2." },
-      { "do": "Move to Task 2 at the 20-minute mark. Spend 5 to plan, 30 to write and 5 to check.", "why": "Task 2 counts double, so it needs the bigger share of the time. Stick to the clock." },
-      { "do": "In the plan, write short notes only: your overview or position, and one main idea for each paragraph.", "why": "A plan is for you, not the examiner. Keep it short so you have time to write." },
-      { "do": "Write at least 150 words for Task 1 and 250 words for Task 2. Count words in your practice, not in the real test.", "why": "Below the minimum, your score is limited. Counting in practice teaches you how long your writing is." },
-      { "do": "Do not pad. Cut sentences that repeat an idea or add nothing, and write only what answers the question.", "why": "Padding wastes time and can lower coherence. A clear 170-word report beats a messy 220-word one." },
-      { "do": "Keep the last minutes of each task for the grammar checklist in the 'Grammar fixes' note.", "why": "Most small errors can be found in two minutes. These are the cheapest marks you will earn." },
-      { "do": "If you run out of time, write a short ending or overview and stop. Do not leave the answer unfinished.", "why": "An answer with no conclusion or overview loses marks for the task. A simple ending is better than none." }
+      {
+        "do": "Start with Task 1. Spend about 20 minutes on it: 5 to plan, 12 to write, 3 to check.",
+        "why": "Task 1 is shorter and easier to finish. Doing it first gives you a safe start and leaves a clear 40 minutes for Task 2."
+      },
+      {
+        "do": "Move to Task 2 at the 20-minute mark. Spend 5 to plan, 30 to write and 5 to check.",
+        "why": "Task 2 counts double, so it needs the bigger share of the time. Stick to the clock."
+      },
+      {
+        "do": "In the plan, write short notes only: your overview or position, and one main idea for each paragraph.",
+        "why": "A plan is for you, not the examiner. Keep it short so you have time to write."
+      },
+      {
+        "do": "Write at least 150 words for Task 1 and 250 words for Task 2. Count words in your practice, not in the real test.",
+        "why": "Below the minimum, your score is limited. Counting in practice teaches you how long your writing is."
+      },
+      {
+        "do": "Do not pad. Cut sentences that repeat an idea or add nothing, and write only what answers the question.",
+        "why": "Padding wastes time and can lower coherence. A clear 170-word report beats a messy 220-word one."
+      },
+      {
+        "do": "Keep the last minutes of each task for the grammar checklist in the 'Grammar fixes' note.",
+        "why": "Most small errors can be found in two minutes. These are the cheapest marks you will earn."
+      },
+      {
+        "do": "If you run out of time, write a short ending or overview and stop. Do not leave the answer unfinished.",
+        "why": "An answer with no conclusion or overview loses marks for the task. A simple ending is better than none."
+      }
     ],
     "tricks": [
       "Practise with a timer. Writing Task 1 in 20 minutes feels fast at first, but it gets easier after a few tries.",
@@ -68,14 +110,38 @@
     "title": "Grammar fixes: the eight most common errors",
     "what": "Small grammar mistakes are the most common reason for lost marks, and they are easy to fix when you know what to look for. Use this note as your checking list in the last minutes of each task. Each fix has a wrong sentence and a right one.",
     "steps": [
-      { "do": "Articles: use 'a' or 'an' for one general thing and 'the' for something specific. Wrong: 'Number of cars rose.' Right: 'The number of cars rose.'", "why": "Articles are small words that are easy to forget. Missing them is one of the most common errors." },
-      { "do": "Subject-verb agreement: match the verb to the subject. Wrong: 'The price of oil rise.' Right: 'The price of oil rises.'", "why": "With he, she, it or one thing, the present verb ends in -s. Check the real subject, not the word nearest the verb." },
-      { "do": "Tense for dates: use past tense for past years. Wrong: 'In 2010 sales are 50.' Right: 'In 2010 sales were 50.'", "why": "The date tells you the tense. A past year needs past tense, and a future year needs 'will' or 'is expected to'." },
-      { "do": "Comma splice: do not join two sentences with only a comma. Wrong: 'Sales rose, profits fell.' Right: 'Sales rose, but profits fell.'", "why": "A comma is not strong enough to join two full sentences. Use a full stop, 'but', 'while' or 'and'." },
-      { "do": "There is or there are: match to what follows. Wrong: 'There is many reasons.' Right: 'There are many reasons.'", "why": "Look at the noun after the verb. One thing uses 'is', and more than one uses 'are'." },
-      { "do": "Plural -s: add -s after numbers and words like 'many'. Wrong: 'Three million tourist visited.' Right: 'Three million tourists visited.'", "why": "A missing -s tells the examiner you do not control plurals. Check every noun after a number." },
-      { "do": "Spell words from the prompt correctly. Copy them letter by letter from the question paper.", "why": "The prompt words are given to you. A mistake there looks careless and costs vocabulary marks." },
-      { "do": "Use 'the number of' for countable things. Wrong: 'The amount of cars rose.' Right: 'The number of cars rose.'", "why": "Cars, people and jobs can be counted. Water, money and traffic cannot be counted, so they use 'the amount of'." }
+      {
+        "do": "Articles: use 'a' or 'an' for one general thing and 'the' for something specific. Wrong: 'Number of cars rose.' Right: 'The number of cars rose.'",
+        "why": "Articles are small words that are easy to forget. Missing them is one of the most common errors."
+      },
+      {
+        "do": "Subject-verb agreement: match the verb to the subject. Wrong: 'The price of oil rise.' Right: 'The price of oil rises.'",
+        "why": "With he, she, it or one thing, the present verb ends in -s. Check the real subject, not the word nearest the verb."
+      },
+      {
+        "do": "Tense for dates: use past tense for past years. Wrong: 'In 2010 sales are 50.' Right: 'In 2010 sales were 50.'",
+        "why": "The date tells you the tense. A past year needs past tense, and a future year needs 'will' or 'is expected to'."
+      },
+      {
+        "do": "Comma splice: do not join two sentences with only a comma. Wrong: 'Sales rose, profits fell.' Right: 'Sales rose, but profits fell.'",
+        "why": "A comma is not strong enough to join two full sentences. Use a full stop, 'but', 'while' or 'and'."
+      },
+      {
+        "do": "There is or there are: match to what follows. Wrong: 'There is many reasons.' Right: 'There are many reasons.'",
+        "why": "Look at the noun after the verb. One thing uses 'is', and more than one uses 'are'."
+      },
+      {
+        "do": "Plural -s: add -s after numbers and words like 'many'. Wrong: 'Three million tourist visited.' Right: 'Three million tourists visited.'",
+        "why": "A missing -s tells the examiner you do not control plurals. Check every noun after a number."
+      },
+      {
+        "do": "Spell words from the prompt correctly. Wrong: 'goverment'. Right: 'government'. Copy them letter by letter from the question paper.",
+        "why": "The prompt words are given to you. A mistake there looks careless and costs vocabulary marks."
+      },
+      {
+        "do": "Use 'the number of' for countable things. Wrong: 'The amount of cars rose.' Right: 'The number of cars rose.'",
+        "why": "Cars, people and jobs can be counted. Water, money and traffic cannot be counted, so they use 'the amount of'."
+      }
     ],
     "tricks": [
       "Read your answer once for each error type. Look for only articles first, then only verbs, then only plurals.",
@@ -101,13 +167,34 @@
     "title": "Task 1: Bar chart and line graph",
     "what": "You look at a chart and write a report of at least 150 words. The examiner is not asking you to copy every number. They want you to pick the key features and compare them. An 'overview' is one or two sentences that give the big picture without numbers, and it is required.",
     "steps": [
-      { "do": "Read the title, axes, units and dates. Note what is measured and the time period.", "why": "These decide your paraphrase and your tense, and wrong units are a common mistake." },
-      { "do": "Find the biggest changes: the highest, the lowest, the steepest rise or fall. Pick two or three.", "why": "You cannot report everything. Choosing key features is what the task is testing." },
-      { "do": "Decide how to group the data: lines that rose and lines that fell, or leaders and the rest.", "why": "Grouping lets you compare. Describing left to right is just a list, and it scores lower." },
-      { "do": "Write the introduction by paraphrasing the title. Change the verb, the noun and the time words.", "why": "Paraphrase means saying the same thing in new words. It shows range without adding anything new." },
-      { "do": "Write the overview next. Give the main trend and one contrast, with no numbers.", "why": "The overview is required. Without it, your Task Achievement score is limited." },
-      { "do": "Write two body paragraphs, one for each group. Use numbers only to support your key points.", "why": "Numbers prove your points. Too many numbers hide the main message." },
-      { "do": "Check units, years and verbs. Make sure each number matches the chart.", "why": "Accuracy is part of the task. A wrong number or tense costs marks." }
+      {
+        "do": "Read the title, axes, units and dates. Note what is measured and the time period.",
+        "why": "These decide your paraphrase and your tense, and wrong units are a common mistake."
+      },
+      {
+        "do": "Find the biggest changes: the highest, the lowest, the steepest rise or fall. Pick two or three.",
+        "why": "You cannot report everything. Choosing key features is what the task is testing."
+      },
+      {
+        "do": "Decide how to group the data: lines that rose and lines that fell, or leaders and the rest.",
+        "why": "Grouping lets you compare. Describing left to right is just a list, and it scores lower."
+      },
+      {
+        "do": "Write the introduction by paraphrasing the title. Change the verb, the noun and the time words.",
+        "why": "Paraphrase means saying the same thing in new words. It shows range without adding anything new."
+      },
+      {
+        "do": "Write the overview next. Give the main trend and one contrast, with no numbers.",
+        "why": "The overview is required. Without it, your Task Achievement score is limited."
+      },
+      {
+        "do": "Write two body paragraphs, one for each group. Use numbers only to support your key points.",
+        "why": "Numbers prove your points. Too many numbers hide the main message."
+      },
+      {
+        "do": "Check units, years and verbs. Make sure each number matches the chart.",
+        "why": "Accuracy is part of the task. A wrong number or tense costs marks."
+      }
     ],
     "tricks": [
       "Use different verbs for change: rose, climbed, fell, dropped, peaked at, levelled off. Do not repeat 'increased' four times.",
@@ -128,21 +215,30 @@
       "Are my units, dates and tenses right?"
     ],
     "frames": [
-      { "name": "Introduction", "lines": [
-        "The [bar chart / line graph] [shows / compares / illustrates] [what is measured] in [place] [over the period / in year].",
-        "The [chart / graph] gives information about [topic] between [year] and [year].",
-        "[Measure] in [place] is presented in the [bar chart / line graph] for [period]."
-      ] },
-      { "name": "Overview", "lines": [
-        "Overall, [item A] [rose / fell] over the period, while [item B] [stayed stable / moved in the opposite direction].",
-        "It is clear that [item A] was [the highest / the most popular] at every point, whereas [item B] was [the lowest].",
-        "The most noticeable feature is that [item A] [changed in this way], unlike [item B]."
-      ] },
-      { "name": "Rise, fall, peak and gap", "lines": [
-        "[Item] [rose / fell] from [number] in [year] to [number] in [year].",
-        "[Item] [peaked / bottomed out] at [number] in [year] before [falling / recovering] to [number].",
-        "The gap between [item A] and [item B] [widened / narrowed] from [number] to [number]."
-      ] }
+      {
+        "name": "Introduction",
+        "lines": [
+          "The [bar chart / line graph] [shows / compares / illustrates] [what is measured] in [place] [over the period / in year].",
+          "The [chart / graph] gives information about [topic] between [year] and [year].",
+          "[Measure] in [place] is presented in the [bar chart / line graph] for [period]."
+        ]
+      },
+      {
+        "name": "Overview",
+        "lines": [
+          "Overall, [item A] [rose / fell] over the period, while [item B] [stayed stable / moved in the opposite direction].",
+          "It is clear that [item A] was [the highest / the most popular] at every point, whereas [item B] was [the lowest].",
+          "The most noticeable feature is that [item A] [changed in this way], unlike [item B]."
+        ]
+      },
+      {
+        "name": "Rise, fall, peak and gap",
+        "lines": [
+          "[Item] [rose / fell] from [number] in [year] to [number] in [year].",
+          "[Item] [peaked / bottomed out] at [number] in [year] before [falling / recovering] to [number].",
+          "The gap between [item A] and [item B] [widened / narrowed] from [number] to [number]."
+        ]
+      }
     ],
     "example": {
       "prompt": "Write one sentence about the rise in cycling from 2005 to 2015, from a line graph.",
@@ -156,13 +252,34 @@
     "title": "Task 1: Pie charts",
     "what": "You get one or more pie charts, each showing parts of a whole, usually as percentages. You write a report of at least 150 words. The skill is comparing the slices, inside one pie and between two pies. The overview must name the biggest slice and, if there are two pies, the biggest change.",
     "steps": [
-      { "do": "Read the title and note what the whole pie stands for, such as total household spending, and the year of each pie.", "why": "The pie is 100% of something. Your introduction must say what that something is." },
-      { "do": "Rank the slices in each pie from largest to smallest. Mark the largest and the smallest.", "why": "Ranking shows you what to compare. The biggest and smallest are almost always key features." },
-      { "do": "If there are two pies, find the slices that changed most between them. Note which grew and which shrank.", "why": "The biggest change is the main story of two pies, and it belongs in your overview." },
-      { "do": "Write the introduction by paraphrasing the title. Say what the pies show and when.", "why": "A new wording of the title proves you understand the chart, without adding new facts." },
-      { "do": "Write the overview: the biggest slice, and the biggest change if there are two pies. No numbers.", "why": "The overview is required, and it should give the clearest picture of the whole chart." },
-      { "do": "Write body paragraphs. Start with the largest slices, then the smaller ones, comparing as you go.", "why": "Comparing keeps the report as one clear message instead of a list of percentages." },
-      { "do": "Check that the percentages you quote add up sensibly, and that each slice is matched to the right label.", "why": "Swapping two labels is an easy mistake and it changes the whole meaning." }
+      {
+        "do": "Read the title and note what the whole pie stands for, such as total household spending, and the year of each pie.",
+        "why": "The pie is 100% of something. Your introduction must say what that something is."
+      },
+      {
+        "do": "Rank the slices in each pie from largest to smallest. Mark the largest and the smallest.",
+        "why": "Ranking shows you what to compare. The biggest and smallest are almost always key features."
+      },
+      {
+        "do": "If there are two pies, find the slices that changed most between them. Note which grew and which shrank.",
+        "why": "The biggest change is the main story of two pies, and it belongs in your overview."
+      },
+      {
+        "do": "Write the introduction by paraphrasing the title. Say what the pies show and when.",
+        "why": "A new wording of the title proves you understand the chart, without adding new facts."
+      },
+      {
+        "do": "Write the overview: the biggest slice, and the biggest change if there are two pies. No numbers.",
+        "why": "The overview is required, and it should give the clearest picture of the whole chart."
+      },
+      {
+        "do": "Write body paragraphs. Start with the largest slices, then the smaller ones, comparing as you go.",
+        "why": "Comparing keeps the report as one clear message instead of a list of percentages."
+      },
+      {
+        "do": "Check that the percentages you quote add up sensibly, and that each slice is matched to the right label.",
+        "why": "Swapping two labels is an easy mistake and it changes the whole meaning."
+      }
     ],
     "tricks": [
       "Vary the way you give numbers: 40%, two fifths, 'the largest share', 'a quarter', 'just under half'. It shows range.",
@@ -183,21 +300,30 @@
       "Did I use the past tense if the year is past?"
     ],
     "frames": [
-      { "name": "Introduction", "lines": [
-        "The [two] pie charts [show / compare] the proportion of [what the whole is] in [place] in [year] and [year].",
-        "The pie [chart / charts] illustrate how [whole] was divided between [categories] in [year].",
-        "[Whole] is broken down into [number] categories in the pie [chart / charts] for [year]."
-      ] },
-      { "name": "Overview", "lines": [
-        "Overall, [slice A] was the largest category in both years, while [slice B] was the smallest.",
-        "The most significant change was the [rise / fall] in [slice], which [grew / shrank] considerably.",
-        "It is clear that [slice A] made up the biggest share, whereas [slice B] was far less important."
-      ] },
-      { "name": "Comparing slices", "lines": [
-        "[Slice A] accounted for [percentage] of the total, which was [more / less] than [slice B] at [percentage].",
-        "[Slice] made up [a fifth / a quarter / nearly half] of the total, the [largest / second largest] share.",
-        "The share of [slice] [rose / fell] from [percentage] to [percentage], while [slice] stayed the same."
-      ] }
+      {
+        "name": "Introduction",
+        "lines": [
+          "The [two] pie charts [show / compare] the proportion of [what the whole is] in [place] in [year] and [year].",
+          "The pie [chart / charts] illustrate how [whole] was divided between [categories] in [year].",
+          "[Whole] is broken down into [number] categories in the pie [chart / charts] for [year]."
+        ]
+      },
+      {
+        "name": "Overview",
+        "lines": [
+          "Overall, [slice A] was the largest category in both years, while [slice B] was the smallest.",
+          "The most significant change was the [rise / fall] in [slice], which [grew / shrank] considerably.",
+          "It is clear that [slice A] made up the biggest share, whereas [slice B] was far less important."
+        ]
+      },
+      {
+        "name": "Comparing slices",
+        "lines": [
+          "[Slice A] accounted for [percentage] of the total, which was [more / less] than [slice B] at [percentage].",
+          "[Slice] made up [a fifth / a quarter / nearly half] of the total, the [largest / second largest] share.",
+          "The share of [slice] [rose / fell] from [percentage] to [percentage], while [slice] stayed the same."
+        ]
+      }
     ],
     "example": {
       "prompt": "Write one sentence about the largest slice of a household spending pie, where housing is 35% and food is 20%.",
@@ -211,13 +337,34 @@
     "title": "Task 1: Tables",
     "what": "A table has many numbers in rows and columns. You write a report of at least 150 words, but you must not read the table out. Pick the highest, the lowest and one surprising row or column, and compare them. The overview gives the main pattern with no numbers.",
     "steps": [
-      { "do": "Read the title, row labels, column labels and units. Note what each row and column stands for.", "why": "Tables can be read two ways, by row or by column. You need to know which comparison matters." },
-      { "do": "Find the highest and lowest figure in each column, and the row with the biggest total or the biggest change.", "why": "These are the natural key features, and they give you the points to compare." },
-      { "do": "Look for one surprise: a row that is different from the rest, or a figure that breaks the pattern.", "why": "Mentioning the odd one shows the examiner you looked closely, not only at the obvious points." },
-      { "do": "Write the introduction by paraphrasing the table title, and say what the rows and columns show.", "why": "A new wording of the title is the safe, accurate way to start." },
-      { "do": "Write the overview: the main pattern, such as which row is highest overall. No numbers.", "why": "The overview is required, and a table needs a clear summary because it has so much data." },
-      { "do": "Write two body paragraphs. Group rows or columns that are alike and compare them with figures.", "why": "Grouping stops the report becoming a list, and comparing is the skill being tested." },
-      { "do": "Check each number against the right row and column before you finish.", "why": "In a table it is easy to read the wrong cell. A wrong figure counts as an error." }
+      {
+        "do": "Read the title, row labels, column labels and units. Note what each row and column stands for.",
+        "why": "Tables can be read two ways, by row or by column. You need to know which comparison matters."
+      },
+      {
+        "do": "Find the highest and lowest figure in each column, and the row with the biggest total or the biggest change.",
+        "why": "These are the natural key features, and they give you the points to compare."
+      },
+      {
+        "do": "Look for one surprise: a row that is different from the rest, or a figure that breaks the pattern.",
+        "why": "Mentioning the odd one shows the examiner you looked closely, not only at the obvious points."
+      },
+      {
+        "do": "Write the introduction by paraphrasing the table title, and say what the rows and columns show.",
+        "why": "A new wording of the title is the safe, accurate way to start."
+      },
+      {
+        "do": "Write the overview: the main pattern, such as which row is highest overall. No numbers.",
+        "why": "The overview is required, and a table needs a clear summary because it has so much data."
+      },
+      {
+        "do": "Write two body paragraphs. Group rows or columns that are alike and compare them with figures.",
+        "why": "Grouping stops the report becoming a list, and comparing is the skill being tested."
+      },
+      {
+        "do": "Check each number against the right row and column before you finish.",
+        "why": "In a table it is easy to read the wrong cell. A wrong figure counts as an error."
+      }
     ],
     "tricks": [
       "Rank the rows: 'the highest', 'the second highest', 'the lowest'. Ranking makes comparison easy.",
@@ -238,21 +385,30 @@
       "Did I check each figure against its row, column and unit?"
     ],
     "frames": [
-      { "name": "Introduction", "lines": [
-        "The table [shows / compares / provides data on] [what is measured] in [places or groups] [in year / over the period].",
-        "The table illustrates [measure] for [number] [countries / groups / categories] between [year] and [year].",
-        "[Topic] is presented in the table, with figures for [rows] and [columns]."
-      ] },
-      { "name": "Ranking", "lines": [
-        "[Item A] recorded the [highest / lowest] figure at [number], followed by [item B] at [number].",
-        "[Item A] ranked first with [number], while [item B] came [second / last] with [number].",
-        "At [number], [item] was [twice / three times] as [high / low] as [item] at [number]."
-      ] },
-      { "name": "Contrast", "lines": [
-        "[Item A] had [number], whereas [item B] had only [number].",
-        "In contrast to [item A], [item B] [rose / fell] sharply to [number].",
-        "The one exception was [item], which [did something unexpected] at [number]."
-      ] }
+      {
+        "name": "Introduction",
+        "lines": [
+          "The table [shows / compares / provides data on] [what is measured] in [places or groups] [in year / over the period].",
+          "The table illustrates [measure] for [number] [countries / groups / categories] between [year] and [year].",
+          "[Topic] is presented in the table, with figures for [rows] and [columns]."
+        ]
+      },
+      {
+        "name": "Ranking",
+        "lines": [
+          "[Item A] recorded the [highest / lowest] figure at [number], followed by [item B] at [number].",
+          "[Item A] ranked first with [number], while [item B] came [second / last] with [number].",
+          "At [number], [item] was [twice / three times] as [high / low] as [item] at [number]."
+        ]
+      },
+      {
+        "name": "Contrast",
+        "lines": [
+          "[Item A] had [number], whereas [item B] had only [number].",
+          "In contrast to [item A], [item B] [rose / fell] sharply to [number].",
+          "The one exception was [item], which [did something unexpected] at [number]."
+        ]
+      }
     ],
     "example": {
       "prompt": "Write one sentence comparing the highest and lowest of four countries' energy use, where Canada uses 8,000 units and India uses 600.",
@@ -266,13 +422,34 @@
     "title": "Task 1: Maps",
     "what": "You see two or more maps of the same place at different times, and you write at least 150 words about the changes. This is a before-and-after report. The overview says what was built, removed or changed in general, and the details name the places and their positions.",
     "steps": [
-      { "do": "Read the title and the dates on each map. Note which map is earlier and which is later.", "why": "The dates decide your tenses. Past dates need past tense, and future dates need 'will'." },
-      { "do": "Find what stayed the same, what was removed, what was built and what changed its use.", "why": "These four types of change are the content of your report. Sorting them first makes writing easy." },
-      { "do": "Learn the map directions: north, south-east, next to, opposite, between, adjacent to. Check them against the compass.", "why": "A wrong direction is a factual error. Use the compass on the map, not a guess." },
-      { "do": "Write the introduction by paraphrasing the title. Say what the maps show and which years.", "why": "It tells the reader what to expect, using your own words." },
-      { "do": "Write the overview: the main change in general, such as a village that became a town. No small details.", "why": "The overview is required, and for maps it should say what was built, removed or converted." },
-      { "do": "Write body paragraphs. Describe the main changes in the order of the map, using passive and position words.", "why": "A clear order, such as west to east, helps the reader picture the map." },
-      { "do": "Check tense, directions and place names. Make sure everything in your report is on the maps.", "why": "Adding things that are not on the maps is an error, so describe only what you see." }
+      {
+        "do": "Read the title and the dates on each map. Note which map is earlier and which is later.",
+        "why": "The dates decide your tenses. Past dates need past tense, and future dates need 'will'."
+      },
+      {
+        "do": "Find what stayed the same, what was removed, what was built and what changed its use.",
+        "why": "These four types of change are the content of your report. Sorting them first makes writing easy."
+      },
+      {
+        "do": "Learn the map directions: north, south-east, next to, opposite, between, adjacent to. Check them against the compass.",
+        "why": "A wrong direction is a factual error. Use the compass on the map, not a guess."
+      },
+      {
+        "do": "Write the introduction by paraphrasing the title. Say what the maps show and which years.",
+        "why": "It tells the reader what to expect, using your own words."
+      },
+      {
+        "do": "Write the overview: the main change in general, such as a village that became a town. No small details.",
+        "why": "The overview is required, and for maps it should say what was built, removed or converted."
+      },
+      {
+        "do": "Write body paragraphs. Describe the main changes in the order of the map, using passive and position words.",
+        "why": "A clear order, such as west to east, helps the reader picture the map."
+      },
+      {
+        "do": "Check tense, directions and place names. Make sure everything in your report is on the maps.",
+        "why": "Adding things that are not on the maps is an error, so describe only what you see."
+      }
     ],
     "tricks": [
       "Use the passive for changes: 'was demolished', 'was replaced by', 'has been converted into'. Maps change by actions, not by people.",
@@ -293,26 +470,35 @@
       "Did I use passive verbs for the changes?"
     ],
     "frames": [
-      { "name": "Introduction", "lines": [
-        "The two maps show how [place] changed between [year] and [year].",
-        "The maps illustrate the development of [place] over [number] years, from [year] to [year].",
-        "The maps compare [place] in [year] with how it looks [now / in year]."
-      ] },
-      { "name": "Overview", "lines": [
-        "Overall, [place] changed from a [type] into a [type], with [number] major [additions / removals].",
-        "It is clear that the area became more [developed / residential / commercial], with new [buildings] replacing [old features].",
-        "The most significant changes were the [construction of / removal of] [feature] and the [extension of] [feature]."
-      ] },
-      { "name": "Changes and positions", "lines": [
-        "A [new feature] was built to the [direction] of [existing feature], adjacent to [another feature].",
-        "The [old feature] was [demolished / replaced by / converted into] a [new feature] in the [direction] of the map.",
-        "[Feature] remained [unchanged / in the same position], opposite [another feature]."
-      ] }
+      {
+        "name": "Introduction",
+        "lines": [
+          "The two maps show how [place] changed between [year] and [year].",
+          "The maps illustrate the development of [place] over [number] years, from [year] to [year].",
+          "The maps compare [place] in [year] with how it looks [now / in year]."
+        ]
+      },
+      {
+        "name": "Overview",
+        "lines": [
+          "Overall, [place] changed from a [type] into a [type], with [number] major [additions / removals].",
+          "It is clear that the area became more [developed / residential / commercial], with new [buildings] replacing [old features].",
+          "The most significant changes were the [construction of / removal of] [feature] and the [extension of] [feature]."
+        ]
+      },
+      {
+        "name": "Changes and positions",
+        "lines": [
+          "A [new feature] was built to the [direction] of [existing feature], adjacent to [another feature].",
+          "The [old feature] was [demolished / replaced by / converted into] a [new feature] in the [direction] of the map.",
+          "[Feature] remained [unchanged / in the same position], opposite [another feature]."
+        ]
+      }
     ],
     "example": {
       "prompt": "Write one sentence about a farm in the north-east that was replaced by houses.",
       "weak": "The farm is gone and there are houses.",
-      "strong": "The farm in the north-east of the village was demolished and replaced by a housing estate, which stands next to the main road.",
+      "strong": "The farm in the north-east of the village was demolished and replaced by a housing estate beside the main road.",
       "why": "The strong sentence uses the passive for the change, gives an exact compass position, and places the new feature in relation to another."
     }
   },
@@ -321,18 +507,39 @@
     "title": "Task 1: Process diagrams",
     "what": "A process diagram shows the stages of how something is made or how something happens in nature. You write at least 150 words describing the stages in order. Use the passive, because the machine or the natural force matters more than a person. The overview counts the stages and says where the process starts and ends.",
     "steps": [
-      { "do": "Decide whether the process is a line (a start and an end) or a cycle (it goes round and round).", "why": "A line and a cycle need different overviews, and a cycle has no true start." },
-      { "do": "Count and number the stages. Note the inputs, the action and the result at each stage.", "why": "Missing a stage is an error in Task Achievement. Counting helps you not to forget one." },
-      { "do": "Group the stages into two or three phases, such as preparation and finishing.", "why": "Grouping gives each body paragraph one clear purpose, instead of a long list." },
-      { "do": "Write the introduction by paraphrasing the title. Say what the diagram shows and the number of stages.", "why": "A new wording shows range, and the number of stages gives the reader a clear idea." },
-      { "do": "Write the overview: the number of stages, where it starts and where it ends. No small details.", "why": "The overview is required. For a process, it must also say whether it is a line or a cycle." },
-      { "do": "Describe the stages in order using the passive and different sequencers: first, next, after that, finally.", "why": "Sequencers make the order clear, and the passive suits a process where the action matters most." },
-      { "do": "Check that every stage appears once, in the right order, with the right equipment named.", "why": "The order is the whole point. Two stages in the wrong order change the process." }
+      {
+        "do": "Decide whether the process is a line (a start and an end) or a cycle (it goes round and round).",
+        "why": "A line and a cycle need different overviews, and a cycle has no true start."
+      },
+      {
+        "do": "Count and number the stages. Note the inputs, the action and the result at each stage.",
+        "why": "Missing a stage is an error in Task Achievement. Counting helps you not to forget one."
+      },
+      {
+        "do": "Group the stages into two or three phases, such as preparation and finishing.",
+        "why": "Grouping gives each body paragraph one clear purpose, instead of a long list."
+      },
+      {
+        "do": "Write the introduction by paraphrasing the title. Say what the diagram shows and the number of stages.",
+        "why": "A new wording shows range, and the number of stages gives the reader a clear idea."
+      },
+      {
+        "do": "Write the overview: the number of stages, where it starts and where it ends. No small details.",
+        "why": "The overview is required. For a process, it must also say whether it is a line or a cycle."
+      },
+      {
+        "do": "Describe the stages in order using the passive and different sequencers: first, next, after that, finally.",
+        "why": "Sequencers make the order clear, and the passive suits a process where the action matters most."
+      },
+      {
+        "do": "Check that every stage appears once, in the right order, with the right equipment named.",
+        "why": "The order is the whole point. Two stages in the wrong order change the process."
+      }
     ],
     "tricks": [
       "Use the present simple passive: 'The paper is heated', 'The mixture is filtered'. Process diagrams use the present tense.",
       "Link stages with sequencers: first, next, after that, then, subsequently, finally. Do not use 'then' every time.",
-      "Join two short stages with 'which' or 'before': 'The sheet is dried, before it is cut into reels.'",
+      "Join two short stages with 'which' or 'before': 'The sheet is dried before it is cut into reels.'",
       "For a cycle, say 'the cycle begins with' and end with 'the cycle then repeats'."
     ],
     "traps": [
@@ -348,27 +555,36 @@
       "Did I avoid opinions and describe every stage once?"
     ],
     "frames": [
-      { "name": "Introduction", "lines": [
-        "The diagram illustrates the [number] stages involved in [making / producing] [product] from [start] to [end].",
-        "The picture shows how [product] is [made / produced] in [number] stages.",
-        "The process by which [product] is [made / formed] is outlined in the diagram."
-      ] },
-      { "name": "Overview", "lines": [
-        "Overall, the process is [linear / cyclical] and consists of [number] stages, beginning with [first stage] and ending with [last stage].",
-        "It is clear that [product] goes through [number] main stages, from [start] to the final stage of [end].",
-        "The process starts with [input] and finishes when [final product] is [produced / ready]."
-      ] },
-      { "name": "Describing stages", "lines": [
-        "First, [material] is [collected / mixed / heated] in [place].",
-        "After that, the [material] is [passed through / transferred to] [equipment], where it is [action].",
-        "Finally, the [product] is [packed / transported / released], and the process is complete."
-      ] }
+      {
+        "name": "Introduction",
+        "lines": [
+          "The diagram illustrates the [number] stages involved in [making / producing] [product] from [start] to [end].",
+          "The picture shows how [product] is [made / produced] in [number] stages.",
+          "The process by which [product] is [made / formed] is outlined in the diagram."
+        ]
+      },
+      {
+        "name": "Overview",
+        "lines": [
+          "Overall, the process is [linear / cyclical] and consists of [number] stages, beginning with [first stage] and ending with [last stage].",
+          "It is clear that [product] goes through [number] main stages, from [start] to the final stage of [end].",
+          "The process starts with [input] and finishes when [final product] is [produced / ready]."
+        ]
+      },
+      {
+        "name": "Describing stages",
+        "lines": [
+          "First, [material] is [collected / mixed / heated] in [place].",
+          "After that, the [material] is [passed through / transferred to] [equipment], where it is [action].",
+          "Finally, the [product] is [packed / transported / released], and the process is complete."
+        ]
+      }
     ],
     "example": {
       "prompt": "Write one sentence about the first two stages of making paper: waste is collected, then mixed with water.",
       "weak": "First they collect waste paper and then they mix it with water.",
-      "strong": "First, waste paper is collected and sorted by grade, and it is then mixed with water and chemicals to form a pulp.",
-      "why": "The strong sentence uses the passive, adds a sequencing word, and joins two stages with the result stated clearly."
+      "strong": "First, the waste paper is collected, and after that it is mixed with water.",
+      "why": "The strong sentence uses the passive, adds a sequencing word, and joins the two stages in order. It adds nothing that is not in the prompt."
     }
   },
   {
@@ -376,16 +592,37 @@
     "title": "Task 1: Two or three visuals together",
     "what": "Sometimes Task 1 gives you two or three visuals, such as a chart and a table, or a line graph and a pie chart. You still write at least 150 words. The visuals are linked by the same topic, and your job is to describe each one and show how they connect.",
     "steps": [
-      { "do": "Read the title of each visual. Work out how they connect: the same topic, the same years or different aspects.", "why": "Knowing the link helps you write one smooth report, not two separate ones." },
-      { "do": "For each visual, pick the two or three key features, as you would for one chart or table.", "why": "The selection skill is the same. Do not try to describe every figure from two or three sources." },
-      { "do": "Write one introduction that covers all the visuals in a single sentence or two.", "why": "A combined introduction shows you understand the whole task, not just one part." },
-      { "do": "Write one overview for the whole task, covering the main point from each visual. No numbers.", "why": "One overview, not one per visual, is clearer. It is required for the whole report." },
-      { "do": "Write one body paragraph for each visual, using its own key features and figures.", "why": "A paragraph per visual keeps the report organised and easy to follow." },
-      { "do": "Add one sentence that links the visuals, such as a pattern that appears in both.", "why": "A linking sentence shows the examiner you can compare across sources, which lifts the score." },
-      { "do": "Check each figure against its own visual, since the units and years may differ.", "why": "Mixing figures between visuals is easy to do and counts as an error." }
+      {
+        "do": "Read the title of each visual. Work out how they connect: the same topic, the same years or different aspects.",
+        "why": "Knowing the link helps you write one smooth report, not two separate ones."
+      },
+      {
+        "do": "For each visual, pick the two or three key features, as you would for one chart or table.",
+        "why": "The selection skill is the same. Do not try to describe every figure from two or three sources."
+      },
+      {
+        "do": "Write one introduction that covers all the visuals in a single sentence or two.",
+        "why": "A combined introduction shows you understand the whole task, not just one part."
+      },
+      {
+        "do": "Write one overview for the whole task, covering the main point from each visual. No numbers.",
+        "why": "One overview, not one per visual, is clearer. It is required for the whole report."
+      },
+      {
+        "do": "Write one body paragraph for each visual, using its own key features and figures.",
+        "why": "A paragraph per visual keeps the report organised and easy to follow."
+      },
+      {
+        "do": "Add one sentence that links the visuals, such as a pattern that appears in both.",
+        "why": "A linking sentence shows the examiner you can compare across sources, which lifts the score."
+      },
+      {
+        "do": "Check each figure against its own visual, since the units and years may differ.",
+        "why": "Mixing figures between visuals is easy to do and counts as an error."
+      }
     ],
     "tricks": [
-      "Plan for two body paragraphs for two visuals, and three for three. Stay in the 150 to 200 word range, so be selective.",
+      "Plan for two body paragraphs for two visuals, and three for three. Do not pad the answer, so be selective.",
       "Use linking phrases for connection: 'This is reflected in', 'In line with this', 'Similarly', 'By contrast'.",
       "Order your paragraphs in the same order as the visuals in the question. It keeps the structure clear.",
       "Use different verbs for each visual, as they may be about different things: a trend, a share, a ranking."
@@ -394,7 +631,7 @@
       "Writing a separate overview for each visual. Write one overview for the whole.",
       "Describing one visual in detail and giving the other one sentence. Give each visual fair space.",
       "Using the units from one visual for the other. Check units for each one.",
-      "Writing far more than 200 words. Two visuals do not need a longer answer, so keep the key features only."
+      "Padding the answer. 150 words is only the minimum, so stay focused on key features and finish within your time."
     ],
     "checklist": [
       "Does my introduction cover all the visuals?",
@@ -403,27 +640,491 @@
       "Did I include one sentence that links the visuals?"
     ],
     "frames": [
-      { "name": "Introduction", "lines": [
-        "The [chart] and the [table] show [topic], giving information about [aspect one] and [aspect two].",
-        "The [line graph] illustrates [first measure], while the [pie chart] shows [second measure] in [place].",
-        "Together, the [visuals] provide data on [topic] in [place] in [year]."
-      ] },
-      { "name": "Overview", "lines": [
-        "Overall, [main point from the first visual], and [main point from the second visual].",
-        "It is clear that [item] [rose / was highest] according to the [first visual], and this is supported by the [second visual].",
-        "The main trend in the [first visual] is [trend], whereas the [second visual] shows that [point]."
-      ] },
-      { "name": "Linking the visuals", "lines": [
-        "This pattern is reflected in the [second visual], where [item] also [did the same thing].",
-        "In line with the [first visual], the [second visual] shows that [item] was [the largest / the smallest].",
-        "By contrast, the [second visual] reveals that [item] [moved the other way]."
-      ] }
+      {
+        "name": "Introduction",
+        "lines": [
+          "The [chart] and the [table] show [topic], giving information about [aspect one] and [aspect two].",
+          "The [line graph] illustrates [first measure], while the [pie chart] shows [second measure] in [place].",
+          "Together, the [visuals] provide data on [topic] in [place] in [year]."
+        ]
+      },
+      {
+        "name": "Overview",
+        "lines": [
+          "Overall, [main point from the first visual], and [main point from the second visual].",
+          "It is clear that [item] [rose / was highest] according to the [first visual], and this is supported by the [second visual].",
+          "The main trend in the [first visual] is [trend], whereas the [second visual] shows that [point]."
+        ]
+      },
+      {
+        "name": "Linking the visuals",
+        "lines": [
+          "This pattern is reflected in the [second visual], where [item] also [did the same thing].",
+          "In line with the [first visual], the [second visual] shows that [item] was [the largest / the smallest].",
+          "By contrast, the [second visual] reveals that [item] [moved the other way]."
+        ]
+      }
     ],
     "example": {
       "prompt": "Write one linking sentence between a line graph showing rising tourist numbers and a table showing hotel income.",
       "weak": "The table shows hotel income. It is also high.",
       "strong": "In line with the rising number of tourists shown in the graph, hotel income in the table also grew, reaching its highest level in 2020.",
       "why": "The strong sentence uses a linking phrase to connect both visuals, and shows a clear relationship between two different sets of data."
+    }
+  },
+  {
+    "id": "opinion",
+    "title": "Task 2: Opinion essay (\"To what extent do you agree?\")",
+    "what": "You are given a statement and asked how far you agree. Task 2 needs at least 250 words and is worth more than Task 1. The examiner wants one clear position, which means your own side, kept the same from start to finish.",
+    "steps": [
+      {
+        "do": "Read the statement slowly and underline the key words. Circle any limiting word such as 'all' or 'only'.",
+        "why": "Answering a slightly different statement is the most common way to lose marks."
+      },
+      {
+        "do": "Choose your position: agree, disagree or partly agree. Make it your final choice before you write.",
+        "why": "A clear position is required. Changing your mind halfway makes the essay confusing."
+      },
+      {
+        "do": "Think of two reasons that support your position. Write each as a short phrase.",
+        "why": "Two developed reasons are better than four thin ones."
+      },
+      {
+        "do": "For each reason, add a short explanation and one example. Keep to one main idea per body paragraph.",
+        "why": "This reason, explain, example pattern is what makes a paragraph feel developed."
+      },
+      {
+        "do": "Write the introduction: paraphrase the statement (say it in your own words) and state your position.",
+        "why": "Stating your position early tells the examiner you have answered the question."
+      },
+      {
+        "do": "Write two body paragraphs. Start each with a topic sentence, then the explanation and the example.",
+        "why": "A topic sentence lets the reader see the point of the paragraph at once."
+      },
+      {
+        "do": "Write a short conclusion that repeats your position and main reasons. Add no new ideas.",
+        "why": "A new idea at the end looks unplanned and is never developed."
+      },
+      {
+        "do": "Check the word count and your position. Make sure the introduction and conclusion agree.",
+        "why": "If the two disagree, the examiner cannot tell what you really think."
+      }
+    ],
+    "tricks": [
+      "Say your position in the same words in the introduction and conclusion, for example 'I strongly agree' or 'I partly agree'.",
+      "Use opinion phrases: 'In my view', 'I firmly believe that', 'I would argue that'.",
+      "Plan for 5 minutes. Write the position, two reasons and two examples before you start the first sentence.",
+      "Relevant example: give one short, real-world example in a single sentence, such as 'In Finland, for instance, ...'. Keep it specific and true."
+    ],
+    "traps": [
+      "Sitting on the fence. If you partly agree, say exactly which part you accept and which part you reject.",
+      "Writing about the topic in general instead of the statement. Use the key words from the question.",
+      "Using a memorised essay that ignores the question. Examiners spot it at once, so answer the exact question you are given.",
+      "Adding a new idea in the conclusion. Only repeat your main points there.",
+      "Writing fewer than 250 words. A short essay loses marks, so practise until 260 to 290 words feels normal.",
+      "Using informal words such as 'kids' or 'a lot of'. Write 'children' and 'many' or 'a great deal of' instead."
+    ],
+    "checklist": [
+      "Is my position clear in both the introduction and the conclusion?",
+      "Does each body paragraph have one main idea with a reason, an explanation and an example?",
+      "Is the conclusion free of new ideas?",
+      "Have I written at least 250 words?"
+    ],
+    "frames": [
+      {
+        "name": "Introduction",
+        "lines": [
+          "Nowadays, [topic] is a widely debated issue, and some people believe that [statement].",
+          "In my opinion, I [strongly agree / partly agree / disagree] with this view, because [reason one] and [reason two].",
+          "This essay will explain why [position] by looking at [idea one] and [idea two]."
+        ]
+      },
+      {
+        "name": "Body paragraph",
+        "lines": [
+          "The first reason why I [agree / disagree] is that [main idea].",
+          "This is because [explanation], which means that [result].",
+          "For example, in [country / place], [short real example]."
+        ]
+      },
+      {
+        "name": "Conclusion",
+        "lines": [
+          "In conclusion, I [strongly agree / partly agree / disagree] that [statement].",
+          "As discussed, [reason one] and [reason two] show that [position].",
+          "For these reasons, it is clear that [final thought about the topic]."
+        ]
+      }
+    ],
+    "example": {
+      "prompt": "Write one introduction sentence for: 'Children should learn at least one foreign language at primary school. To what extent do you agree?'",
+      "weak": "I agree that children should learn a language.",
+      "strong": "I strongly agree that primary school children should learn a foreign language, because it helps them think clearly and prepares them for a global world.",
+      "why": "The strong sentence uses the key words from the question, states a clear position, and gives two reasons in advance."
+    }
+  },
+  {
+    "id": "discussion",
+    "title": "Task 2: Discussion essay (\"Discuss both views and give your opinion\")",
+    "what": "You are given two different views and asked to discuss both, then say what you think. Task 2 needs at least 250 words. The examiner wants a fair look at each view, and a clear opinion of your own, which must not be left out.",
+    "steps": [
+      {
+        "do": "Underline the two views in the question. Write them as two short labels, such as 'view A' and 'view B'.",
+        "why": "You must discuss both views, so naming them first stops you forgetting one."
+      },
+      {
+        "do": "Decide your own opinion now. It can favour one view or sit between the two.",
+        "why": "Your opinion must appear in the introduction and conclusion, so you need it before you write."
+      },
+      {
+        "do": "Find one or two reasons for each view. Choose one example for each reason.",
+        "why": "Each view needs real support, not just a statement."
+      },
+      {
+        "do": "Write the introduction: paraphrase the topic, say both views exist, and give your opinion.",
+        "why": "This shows the examiner that you answered all parts of the question."
+      },
+      {
+        "do": "Write body paragraph one for the first view. Give one reason, an explanation and an example.",
+        "why": "One paragraph per view keeps the essay balanced and easy to follow."
+      },
+      {
+        "do": "Write body paragraph two for the second view in the same way. Use a linking word such as 'However'.",
+        "why": "A link between the two paragraphs shows the reader you are comparing them."
+      },
+      {
+        "do": "Write a conclusion that sums up both views and repeats your opinion. Add no new ideas.",
+        "why": "The conclusion is the last place the examiner checks for your opinion."
+      },
+      {
+        "do": "Check that both views got fair space and that your opinion appears twice.",
+        "why": "The most common error is forgetting the opinion, which limits your score."
+      }
+    ],
+    "tricks": [
+      "Use balance phrases: 'On the one hand', 'On the other hand', 'Supporters of this view argue that'.",
+      "Give your opinion with a soft phrase: 'I believe the second view is more convincing because ...'.",
+      "Give both paragraphs a similar length. An unbalanced essay looks unfair.",
+      "Relevant example: give one short, real-world example in a single sentence, such as 'In Finland, for instance, ...'. Keep it specific and true."
+    ],
+    "traps": [
+      "Forgetting to give your own opinion. Add it to the introduction and the conclusion.",
+      "Describing only one view in detail. Give both views a full paragraph.",
+      "Using a memorised essay that ignores the question. Examiners spot it at once, so answer the exact question you are given.",
+      "Adding a new idea in the conclusion. Only repeat your main points there.",
+      "Writing fewer than 250 words. A short essay loses marks, so practise until 260 to 290 words feels normal.",
+      "Using informal words such as 'kids' or 'a lot of'. Write 'children' and 'many' or 'a great deal of' instead."
+    ],
+    "checklist": [
+      "Do I have one paragraph for each view?",
+      "Is my own opinion clear in the introduction and the conclusion?",
+      "Do both views have a reason, an explanation and an example?",
+      "Is my conclusion free of new ideas?"
+    ],
+    "frames": [
+      {
+        "name": "Introduction",
+        "lines": [
+          "People have different opinions about whether [view A] or [view B].",
+          "While some argue that [view A], others believe that [view B].",
+          "This essay will discuss both views, and I will argue that [my opinion]."
+        ]
+      },
+      {
+        "name": "Body paragraphs",
+        "lines": [
+          "Supporters of [view A] argue that [main idea] because [reason].",
+          "On the other hand, those who favour [view B] point out that [main idea].",
+          "For example, in [country / place], [short real example]."
+        ]
+      },
+      {
+        "name": "Conclusion",
+        "lines": [
+          "In conclusion, although [view A] has some merit, I believe that [my opinion].",
+          "To sum up, [view A] and [view B] both have strengths, but [my opinion] is more convincing.",
+          "Overall, it seems that [final thought about the topic]."
+        ]
+      }
+    ],
+    "example": {
+      "prompt": "Write one sentence that introduces both views on: 'Some people prefer to work from home. Others prefer an office.'",
+      "weak": "Some people like home and some like the office.",
+      "strong": "While some people prefer working from home for its flexibility, others believe that an office gives better support and teamwork.",
+      "why": "The strong sentence names both views clearly, uses a contrast word, and gives a reason for each side."
+    }
+  },
+  {
+    "id": "problem-solution",
+    "title": "Task 2: Problem and solution essay",
+    "what": "You are given a problem and asked for its causes, its solutions or both. Task 2 needs at least 250 words. The examiner wants every part of the question answered, with each problem matched to a solution that fits it.",
+    "steps": [
+      {
+        "do": "Read the question and check what it asks for: causes, effects, problems, solutions, or a mix. Underline each part.",
+        "why": "If you miss a part, your score for answering the question is limited."
+      },
+      {
+        "do": "Write down two problems or causes. Beside each one, write a solution that fixes it.",
+        "why": "A solution that does not match the problem looks like a weak argument."
+      },
+      {
+        "do": "Choose one example for each problem and solution. A short real-world example is enough.",
+        "why": "Examples make general advice feel believable."
+      },
+      {
+        "do": "Write the introduction: paraphrase the problem and say what the essay will cover.",
+        "why": "This tells the examiner how you will answer each part."
+      },
+      {
+        "do": "Write body paragraph one about the first problem. Give the cause, then the effect.",
+        "why": "One problem per paragraph keeps the idea clear."
+      },
+      {
+        "do": "Write body paragraph two with the solutions. Say who should act, such as the government or schools, and why it works.",
+        "why": "A solution needs a person who does it and a reason it helps."
+      },
+      {
+        "do": "Write a conclusion that sums up the problem and the main solution. Add no new ideas.",
+        "why": "A short, clear ending shows you stayed on topic."
+      },
+      {
+        "do": "Check that every problem has a matching solution and that you answered all parts of the question.",
+        "why": "A missing part is the most common reason for a low score here."
+      }
+    ],
+    "tricks": [
+      "Use cause words: 'One reason for this is', 'This is largely due to', 'This results in'.",
+      "Use solution words: 'A practical solution would be', 'Governments could', 'One way to tackle this is'.",
+      "Use modal verbs for solutions: 'should', 'could', 'might'. They sound careful and realistic.",
+      "Relevant example: give one short, real-world example in a single sentence, such as 'In Finland, for instance, ...'. Keep it specific and true."
+    ],
+    "traps": [
+      "Listing solutions that do not match the problems. Link each solution to one problem.",
+      "Writing only about problems and leaving out solutions. Answer every part of the question.",
+      "Using a memorised essay that ignores the question. Examiners spot it at once, so answer the exact question you are given.",
+      "Adding a new idea in the conclusion. Only repeat your main points there.",
+      "Writing fewer than 250 words. A short essay loses marks, so practise until 260 to 290 words feels normal.",
+      "Using informal words such as 'kids' or 'a lot of'. Write 'children' and 'many' or 'a great deal of' instead."
+    ],
+    "checklist": [
+      "Did I answer every part of the question, such as causes and solutions?",
+      "Does each problem have a matching solution?",
+      "Did I say who should act and why it works?",
+      "Is my conclusion free of new ideas?"
+    ],
+    "frames": [
+      {
+        "name": "Introduction",
+        "lines": [
+          "In recent years, [problem] has become a serious concern in many countries.",
+          "This essay will look at the main causes of [problem] and suggest some practical solutions.",
+          "The main reasons are [cause one] and [cause two], but these can be tackled by [solution]."
+        ]
+      },
+      {
+        "name": "Problem and solution",
+        "lines": [
+          "One reason for this is that [cause], which leads to [effect].",
+          "A practical solution would be for [government / schools / companies] to [action].",
+          "This would help because [result]. For example, in [country / place], [short real example]."
+        ]
+      },
+      {
+        "name": "Conclusion",
+        "lines": [
+          "In conclusion, [problem] is mainly caused by [cause one] and [cause two].",
+          "However, if [solution] were put in place, this situation could improve.",
+          "To sum up, [final thought about the topic]."
+        ]
+      }
+    ],
+    "example": {
+      "prompt": "Write one sentence that links a problem to a solution: traffic jams in big cities.",
+      "weak": "There is too much traffic, so build more roads.",
+      "strong": "One reason for traffic jams is that too many people drive to work, so a practical solution would be for city councils to improve public transport.",
+      "why": "The strong sentence names a cause, matches it with a solution, and says who should act. This makes the argument logical."
+    }
+  },
+  {
+    "id": "two-part",
+    "title": "Task 2: Two-part question essay",
+    "what": "You are given two separate questions about one topic, and you must answer both. Task 2 needs at least 250 words. The examiner checks that both questions are answered fully, so a missing answer is the biggest risk.",
+    "steps": [
+      {
+        "do": "Underline each question. Number them 1 and 2 on your paper.",
+        "why": "It is easy to answer one question well and forget the other."
+      },
+      {
+        "do": "Write a short answer to each question in a few words. This is your position on each part.",
+        "why": "A clear answer to each part earns marks for answering the question."
+      },
+      {
+        "do": "Add one reason and one example for each answer.",
+        "why": "Each part needs support to feel developed, not just stated."
+      },
+      {
+        "do": "Write the introduction: paraphrase the topic and say you will answer both questions.",
+        "why": "This shows the examiner that you noticed both parts."
+      },
+      {
+        "do": "Write body paragraph one to answer question 1. Use a topic sentence, an explanation and an example.",
+        "why": "One paragraph per question keeps the answers separate and easy to mark."
+      },
+      {
+        "do": "Write body paragraph two to answer question 2 in the same way. Use a link such as 'Turning to the second question'.",
+        "why": "A link guides the reader to the new part."
+      },
+      {
+        "do": "Write a conclusion that gives a short answer to each question. Add no new ideas.",
+        "why": "The conclusion proves that both parts were answered."
+      },
+      {
+        "do": "Check that each question has its own paragraph and that both are about the same length.",
+        "why": "Balanced answers show equal attention to both parts."
+      }
+    ],
+    "tricks": [
+      "Use the words of each question in your topic sentence, so the examiner sees which part you are answering.",
+      "Use signposting: 'Turning to the question of', 'As for the second question'.",
+      "Answer in order. Question 1 first and question 2 second.",
+      "Relevant example: give one short, real-world example in a single sentence, such as 'In Finland, for instance, ...'. Keep it specific and true."
+    ],
+    "traps": [
+      "Answering only one question. Number the questions and tick them off.",
+      "Mixing both answers in one paragraph. Give each question its own paragraph.",
+      "Using a memorised essay that ignores the question. Examiners spot it at once, so answer the exact question you are given.",
+      "Adding a new idea in the conclusion. Only repeat your main points there.",
+      "Writing fewer than 250 words. A short essay loses marks, so practise until 260 to 290 words feels normal.",
+      "Using informal words such as 'kids' or 'a lot of'. Write 'children' and 'many' or 'a great deal of' instead."
+    ],
+    "checklist": [
+      "Did I answer both questions?",
+      "Does each question have its own body paragraph?",
+      "Does each answer have a reason and an example?",
+      "Is my conclusion free of new ideas?"
+    ],
+    "frames": [
+      {
+        "name": "Introduction",
+        "lines": [
+          "Nowadays, [topic] raises some important questions, and this essay will answer both of them.",
+          "There are several reasons why [first question topic], and the effects of this are [second question topic].",
+          "I will first discuss [question one] and then explain [question two]."
+        ]
+      },
+      {
+        "name": "Body paragraphs",
+        "lines": [
+          "Turning to the first question, the main reason is that [main idea].",
+          "This is because [explanation]. For example, in [country / place], [short real example].",
+          "As for the second question, I believe that [main idea], since [reason]."
+        ]
+      },
+      {
+        "name": "Conclusion",
+        "lines": [
+          "In conclusion, [short answer to question one], and [short answer to question two].",
+          "To sum up, [answer one] and [answer two] show that [final thought about the topic].",
+          "Overall, both answers point to [final thought about the topic]."
+        ]
+      }
+    ],
+    "example": {
+      "prompt": "Write a topic sentence that answers: 'Why do some people choose to live abroad? Is this a positive development?'",
+      "weak": "People live abroad for many reasons and it is good.",
+      "strong": "Turning to the first question, many people live abroad mainly because they can find better jobs and higher salaries than at home.",
+      "why": "The strong sentence uses a signpost to show which question it answers, and gives a specific reason that can be developed."
+    }
+  },
+  {
+    "id": "advantages",
+    "title": "Task 2: Advantages and disadvantages essay",
+    "what": "You are given a change or trend and asked whether the advantages outweigh the disadvantages. 'Outweigh' means 'are greater than'. Task 2 needs at least 250 words. The examiner wants you to choose a side and weigh both sides.",
+    "steps": [
+      {
+        "do": "Read the question. Check whether it asks you to list both sides or to say which side is greater.",
+        "why": "The wording decides your plan, so do not skip it."
+      },
+      {
+        "do": "List two advantages and two disadvantages. Add a short example to each.",
+        "why": "Having ideas on both sides lets you compare them fairly."
+      },
+      {
+        "do": "Choose the side you think is stronger. Decide if you will argue it first or second, and keep that order.",
+        "why": "A consistent order makes the essay easy to follow."
+      },
+      {
+        "do": "Write the introduction: paraphrase the topic and state which side you think is greater.",
+        "why": "The examiner needs your position early."
+      },
+      {
+        "do": "Write body paragraph one on the first side. Give one or two points with an explanation and an example.",
+        "why": "One side per paragraph keeps the argument organised."
+      },
+      {
+        "do": "Write body paragraph two on the other side. Use a contrast word and then say why it is less important.",
+        "why": "This is the weighing step. It shows why one side is greater."
+      },
+      {
+        "do": "Write a conclusion that repeats your position and gives the main reason. Add no new ideas.",
+        "why": "The conclusion confirms your answer to the question."
+      },
+      {
+        "do": "Check that you chose a side, used the same order throughout and wrote at least 250 words.",
+        "why": "A list of points with no decision does not answer an 'outweigh' question."
+      }
+    ],
+    "tricks": [
+      "Use weighing words: 'Although', 'Despite this', 'Nevertheless', 'on balance'. They show you are comparing.",
+      "Say how big each point is: 'a minor drawback', 'a major benefit'.",
+      "Argue the side you think is weaker first, then finish with your stronger side.",
+      "Relevant example: give one short, real-world example in a single sentence, such as 'In Finland, for instance, ...'. Keep it specific and true."
+    ],
+    "traps": [
+      "Listing advantages and disadvantages with no decision. Say which side is greater and why.",
+      "Giving the two sides unequal space. Make both paragraphs a similar length.",
+      "Using a memorised essay that ignores the question. Examiners spot it at once, so answer the exact question you are given.",
+      "Adding a new idea in the conclusion. Only repeat your main points there.",
+      "Writing fewer than 250 words. A short essay loses marks, so practise until 260 to 290 words feels normal.",
+      "Using informal words such as 'kids' or 'a lot of'. Write 'children' and 'many' or 'a great deal of' instead."
+    ],
+    "checklist": [
+      "Did I choose a side in the introduction and conclusion?",
+      "Did I use weighing words to compare the two sides?",
+      "Did I keep the same order of sides?",
+      "Is my conclusion free of new ideas?"
+    ],
+    "frames": [
+      {
+        "name": "Introduction",
+        "lines": [
+          "More and more people [trend], and this has both advantages and disadvantages.",
+          "This essay will weigh the benefits and drawbacks of [topic].",
+          "In my view, the advantages of [topic] outweigh the disadvantages, because [reason]."
+        ]
+      },
+      {
+        "name": "Weighing the sides",
+        "lines": [
+          "Although [disadvantage] is a concern, it is a [minor / temporary] problem compared with [advantage].",
+          "The main benefit is that [advantage], which means that [result].",
+          "Despite this, [disadvantage] cannot be ignored. For example, in [country / place], [short real example]."
+        ]
+      },
+      {
+        "name": "Conclusion",
+        "lines": [
+          "In conclusion, on balance, the advantages of [topic] outweigh the disadvantages.",
+          "Although [disadvantage] is a concern, [advantage] is far more important.",
+          "To sum up, I believe that [final thought about the topic]."
+        ]
+      }
+    ],
+    "example": {
+      "prompt": "Write one sentence that weighs the sides of: 'More people work from home. Do the advantages outweigh the disadvantages?'",
+      "weak": "Working from home is good but it has some problems.",
+      "strong": "Although working from home can feel lonely, this is a minor drawback compared with the time and money that workers save on travel.",
+      "why": "The strong sentence uses a contrast word, says which side is smaller, and gives a specific reason why the other side is greater."
     }
   }
 ]
