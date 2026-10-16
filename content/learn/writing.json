@@ -1155,32 +1155,32 @@
     "what": "Sometimes Task 1 gives you two or three visuals, such as a chart and a table, or a line graph and a pie chart. You still write at least 150 words. The visuals are linked by the same topic, and your job is to describe each one and show how they connect.",
     "steps": [
       {
-        "do": "Read the title of each visual. Work out how they connect: the same topic, the same years or different aspects.",
-        "why": "Knowing the link helps you write one smooth report, not two separate ones."
+        "do": "Read the title of each visual. Note the topic, the year and what each visual measures.",
+        "why": "Both visuals may cover the same year, so knowing the link helps you write one smooth report, not two separate ones."
       },
       {
-        "do": "For each visual, pick the two or three key features, as you would for one chart or table.",
-        "why": "The selection skill is the same. Do not try to describe every figure from two or three sources."
+        "do": "For each visual, pick the top feature for the overview and the full breakdown for its own body paragraph.",
+        "why": "Each visual is described in full in its own paragraph, using the same selection skill as for one chart."
       },
       {
-        "do": "Write one introduction that covers all the visuals in a single sentence or two.",
-        "why": "A combined introduction shows you understand the whole task, not just one part."
+        "do": "Write one introduction that covers both visuals in a single sentence.",
+        "why": "One combined sentence shows you understand the whole task, not just one part."
       },
       {
-        "do": "Write one overview for the whole task, covering the main point from each visual. No numbers.",
-        "why": "One overview, not one per visual, is clearer. It is required for the whole report."
+        "do": "Write one overview for both visuals, in two sentences: the top feature of each visual. No numbers.",
+        "why": "One overview, with one sentence for each visual, is clearer. It is required for the whole report."
       },
       {
-        "do": "Write body paragraph one: the first visual, using its own key features and figures.",
-        "why": "A paragraph per visual keeps the report organised and easy to follow."
+        "do": "Write body paragraph one: the pie chart in full, with its largest and smaller shares and their figures.",
+        "why": "A paragraph per visual keeps the report organised, and the reader sees the pie covered in full."
       },
       {
-        "do": "Write body paragraph two: the second visual, using its own key features and figures.",
+        "do": "Write body paragraph two: the table in full, with its highest, middle and lowest groups and their figures.",
         "why": "Each visual gets its own paragraph, so the examiner can see both sources covered clearly."
       },
       {
         "do": "Add one sentence that links the visuals, such as a pattern that appears in both.",
-        "why": "A linking sentence shows the examiner you can compare across sources, which lifts the score."
+        "why": "The link is a factual pattern both visuals share, not an explanation. It uses only figures already in the report."
       },
       {
         "do": "Check each figure against its own visual, since the units and years may differ.",
@@ -1238,48 +1238,73 @@
       "why": "The strong sentence uses a linking phrase to connect both visuals, and shows a clear relationship between two different sets of data."
     },
     "demo": {
-      "prompt": "Write one combined introduction, one overview, one body sentence for each visual, and one linking sentence for two invented visuals of one coastal town, 2015 to 2020. Visual 1: a line graph titled 'Tourist numbers in a coastal town, 2015 to 2020 (thousands)'. Tourists rose from 50 thousand in 2015 to 80 thousand in 2020. Visual 2: a table titled 'Hotel income in the same town, 2015 and 2020 (millions of pounds)'. Hotel income rose from 4 million pounds in 2015 to 7 million pounds in 2020. Use the steps.",
+      "prompt": "The pie chart shows the main reasons adults travelled abroad in 2018, and the table shows average holiday spending across four age groups in the same year.",
       "moves": [
         {
           "step": 1,
-          "say": "I read both titles. The line graph shows tourist numbers and the table shows hotel income, for the same town and the same years."
+          "say": "I read both titles: the pie shows why adults travelled abroad in 2018, and the table shows holiday spending by age group in the same year."
         },
         {
           "step": 2,
-          "say": "For each visual I pick the key features. For the line graph and the table, I use the start figure and the end figure."
+          "say": "For the pie I pick holidaymaking, at 55%, as the top feature. For the table I pick the over-60s, at $2,400 per person. Each gets a full paragraph."
         },
         {
           "step": 3,
-          "say": "I write one introduction for both visuals. It covers the two topics and the years, so the reader knows the whole task.",
-          "build": "The line graph and the table show the number of tourists and hotel income in a coastal town between 2015 and 2020."
+          "say": "Introduction, both visuals: I paraphrase the pie and the table in one sentence, naming both topics and the year.",
+          "build": "The pie chart displays the primary motivations for international travel among adults in 2018, while the accompanying table outlines average holiday expenditures across four distinct age demographics in the same year."
         },
         {
           "step": 4,
-          "say": "The overview covers the main point from each visual, with no numbers. Both figures grew, so I say that.",
-          "build": "The line graph and the table show the number of tourists and hotel income in a coastal town between 2015 and 2020. Overall, both the number of tourists and hotel income grew over the period."
+          "say": "Overview, chart 1: I give the top travel reason, with no figures.",
+          "build": "The pie chart displays the primary motivations for international travel among adults in 2018, while the accompanying table outlines average holiday expenditures across four distinct age demographics in the same year. Overall, tourism was overwhelmingly the most prevalent reason for travelling abroad, accounting for over half of all departures."
+        },
+        {
+          "step": 4,
+          "say": "Overview, chart 2: I give the pattern of spending by age, with no figures.",
+          "build": "The pie chart displays the primary motivations for international travel among adults in 2018, while the accompanying table outlines average holiday expenditures across four distinct age demographics in the same year. Overall, tourism was overwhelmingly the most prevalent reason for travelling abroad, accounting for over half of all departures. Simultaneously, holiday spending was directly proportional to age, with older travellers expending substantially more funds than younger cohorts."
         },
         {
           "step": 5,
-          "say": "For body paragraph one, I write a sentence for the line graph, using its own figures. The tourist numbers are from the graph only.",
-          "build": "The line graph and the table show the number of tourists and hotel income in a coastal town between 2015 and 2020. Overall, both the number of tourists and hotel income grew over the period. The number of tourists rose from 50 thousand in 2015 to 80 thousand in 2020."
+          "say": "Body 1, dominant segment: I give holidaymaking's share of trips, using the pie as the source.",
+          "build": "The pie chart displays the primary motivations for international travel among adults in 2018, while the accompanying table outlines average holiday expenditures across four distinct age demographics in the same year. Overall, tourism was overwhelmingly the most prevalent reason for travelling abroad, accounting for over half of all departures. Simultaneously, holiday spending was directly proportional to age, with older travellers expending substantially more funds than younger cohorts. According to the pie chart, holidaymaking was the primary purpose for 55% of all foreign trips."
+        },
+        {
+          "step": 5,
+          "say": "Body 1, secondary segments: I give the second and third reasons with their shares.",
+          "build": "The pie chart displays the primary motivations for international travel among adults in 2018, while the accompanying table outlines average holiday expenditures across four distinct age demographics in the same year. Overall, tourism was overwhelmingly the most prevalent reason for travelling abroad, accounting for over half of all departures. Simultaneously, holiday spending was directly proportional to age, with older travellers expending substantially more funds than younger cohorts. According to the pie chart, holidaymaking was the primary purpose for 55% of all foreign trips. Visiting friends and relatives formed the second largest motivation at 23%, followed by business trips, which comprised 17%."
+        },
+        {
+          "step": 5,
+          "say": "Body 1, residual segment: I give the remaining 5% and its miscellaneous reasons.",
+          "build": "The pie chart displays the primary motivations for international travel among adults in 2018, while the accompanying table outlines average holiday expenditures across four distinct age demographics in the same year. Overall, tourism was overwhelmingly the most prevalent reason for travelling abroad, accounting for over half of all departures. Simultaneously, holiday spending was directly proportional to age, with older travellers expending substantially more funds than younger cohorts. According to the pie chart, holidaymaking was the primary purpose for 55% of all foreign trips. Visiting friends and relatives formed the second largest motivation at 23%, followed by business trips, which comprised 17%. The remaining 5% was attributed to miscellaneous or unspecified travel reasons."
         },
         {
           "step": 6,
-          "say": "For body paragraph two, I write a sentence for the table, with its own figures. The income figures come from the table only.",
-          "build": "The line graph and the table show the number of tourists and hotel income in a coastal town between 2015 and 2020. Overall, both the number of tourists and hotel income grew over the period. The number of tourists rose from 50 thousand in 2015 to 80 thousand in 2020. Hotel income rose from £4 million to £7 million over the same period."
+          "say": "Body 2, highest-spending group: I turn to the table and give the over-60s average spend.",
+          "build": "The pie chart displays the primary motivations for international travel among adults in 2018, while the accompanying table outlines average holiday expenditures across four distinct age demographics in the same year. Overall, tourism was overwhelmingly the most prevalent reason for travelling abroad, accounting for over half of all departures. Simultaneously, holiday spending was directly proportional to age, with older travellers expending substantially more funds than younger cohorts. According to the pie chart, holidaymaking was the primary purpose for 55% of all foreign trips. Visiting friends and relatives formed the second largest motivation at 23%, followed by business trips, which comprised 17%. The remaining 5% was attributed to miscellaneous or unspecified travel reasons. Turning to the table, individuals aged 60 and above incurred the highest average trip expenses, spending approximately $2,400 per person."
+        },
+        {
+          "step": 6,
+          "say": "Body 2, middle tiers: I give the 40-59 and 25-39 averages.",
+          "build": "The pie chart displays the primary motivations for international travel among adults in 2018, while the accompanying table outlines average holiday expenditures across four distinct age demographics in the same year. Overall, tourism was overwhelmingly the most prevalent reason for travelling abroad, accounting for over half of all departures. Simultaneously, holiday spending was directly proportional to age, with older travellers expending substantially more funds than younger cohorts. According to the pie chart, holidaymaking was the primary purpose for 55% of all foreign trips. Visiting friends and relatives formed the second largest motivation at 23%, followed by business trips, which comprised 17%. The remaining 5% was attributed to miscellaneous or unspecified travel reasons. Turning to the table, individuals aged 60 and above incurred the highest average trip expenses, spending approximately $2,400 per person. Those in the 40-59 and 25-39 brackets recorded moderate spending averages of $1,800 and $1,250 respectively."
+        },
+        {
+          "step": 6,
+          "say": "Body 2, lowest group and comparison: I give the under-25s spend and compare it with the senior bracket.",
+          "build": "The pie chart displays the primary motivations for international travel among adults in 2018, while the accompanying table outlines average holiday expenditures across four distinct age demographics in the same year. Overall, tourism was overwhelmingly the most prevalent reason for travelling abroad, accounting for over half of all departures. Simultaneously, holiday spending was directly proportional to age, with older travellers expending substantially more funds than younger cohorts. According to the pie chart, holidaymaking was the primary purpose for 55% of all foreign trips. Visiting friends and relatives formed the second largest motivation at 23%, followed by business trips, which comprised 17%. The remaining 5% was attributed to miscellaneous or unspecified travel reasons. Turning to the table, individuals aged 60 and above incurred the highest average trip expenses, spending approximately $2,400 per person. Those in the 40-59 and 25-39 brackets recorded moderate spending averages of $1,800 and $1,250 respectively. Conversely, younger travellers under 25 spent the least, averaging a mere $650 per journey, which was roughly one-quarter of the senior bracket's expenditure."
         },
         {
           "step": 7,
-          "say": "Last, I add one linking sentence. It shows the two visuals follow the same pattern, so the examiner sees the connection.",
-          "build": "The line graph and the table show the number of tourists and hotel income in a coastal town between 2015 and 2020. Overall, both the number of tourists and hotel income grew over the period. The number of tourists rose from 50 thousand in 2015 to 80 thousand in 2020. Hotel income rose from £4 million to £7 million over the same period. Hotel income also grew, in line with the rise in tourists."
+          "say": "Link sentence, my own addition: I state one factual pattern both visuals share, using only figures already in the report.",
+          "build": "The pie chart displays the primary motivations for international travel among adults in 2018, while the accompanying table outlines average holiday expenditures across four distinct age demographics in the same year. Overall, tourism was overwhelmingly the most prevalent reason for travelling abroad, accounting for over half of all departures. Simultaneously, holiday spending was directly proportional to age, with older travellers expending substantially more funds than younger cohorts. According to the pie chart, holidaymaking was the primary purpose for 55% of all foreign trips. Visiting friends and relatives formed the second largest motivation at 23%, followed by business trips, which comprised 17%. The remaining 5% was attributed to miscellaneous or unspecified travel reasons. Turning to the table, individuals aged 60 and above incurred the highest average trip expenses, spending approximately $2,400 per person. Those in the 40-59 and 25-39 brackets recorded moderate spending averages of $1,800 and $1,250 respectively. Conversely, younger travellers under 25 spent the least, averaging a mere $650 per journey, which was roughly one-quarter of the senior bracket's expenditure. Both visuals show one leading group: holidaymaking accounted for 55% of trips, and travellers aged 60 and above spent the most, at $2,400 per person."
         },
         {
           "step": 8,
-          "say": "I check each figure against its own visual, since the units differ: thousands of tourists and millions of pounds. Real Task 1 needs at least 150 words.",
-          "build": "The line graph and the table show the number of tourists and hotel income in a coastal town between 2015 and 2020. Overall, both the number of tourists and hotel income grew over the period. The number of tourists rose from 50 thousand in 2015 to 80 thousand in 2020. Hotel income rose from £4 million to £7 million over the same period. Hotel income also grew, in line with the rise in tourists."
+          "say": "Check: this model has 196 words. Real Task 1 needs at least 150 words, so my own report must be at least that long.",
+          "build": "The pie chart displays the primary motivations for international travel among adults in 2018, while the accompanying table outlines average holiday expenditures across four distinct age demographics in the same year. Overall, tourism was overwhelmingly the most prevalent reason for travelling abroad, accounting for over half of all departures. Simultaneously, holiday spending was directly proportional to age, with older travellers expending substantially more funds than younger cohorts. According to the pie chart, holidaymaking was the primary purpose for 55% of all foreign trips. Visiting friends and relatives formed the second largest motivation at 23%, followed by business trips, which comprised 17%. The remaining 5% was attributed to miscellaneous or unspecified travel reasons. Turning to the table, individuals aged 60 and above incurred the highest average trip expenses, spending approximately $2,400 per person. Those in the 40-59 and 25-39 brackets recorded moderate spending averages of $1,800 and $1,250 respectively. Conversely, younger travellers under 25 spent the least, averaging a mere $650 per journey, which was roughly one-quarter of the senior bracket's expenditure. Both visuals show one leading group: holidaymaking accounted for 55% of trips, and travellers aged 60 and above spent the most, at $2,400 per person."
         }
       ],
-      "answer": "The line graph and the table show the number of tourists and hotel income in a coastal town between 2015 and 2020. Overall, both the number of tourists and hotel income grew over the period. The number of tourists rose from 50 thousand in 2015 to 80 thousand in 2020. Hotel income rose from £4 million to £7 million over the same period. Hotel income also grew, in line with the rise in tourists."
+      "answer": "The pie chart displays the primary motivations for international travel among adults in 2018, while the accompanying table outlines average holiday expenditures across four distinct age demographics in the same year. Overall, tourism was overwhelmingly the most prevalent reason for travelling abroad, accounting for over half of all departures. Simultaneously, holiday spending was directly proportional to age, with older travellers expending substantially more funds than younger cohorts. According to the pie chart, holidaymaking was the primary purpose for 55% of all foreign trips. Visiting friends and relatives formed the second largest motivation at 23%, followed by business trips, which comprised 17%. The remaining 5% was attributed to miscellaneous or unspecified travel reasons. Turning to the table, individuals aged 60 and above incurred the highest average trip expenses, spending approximately $2,400 per person. Those in the 40-59 and 25-39 brackets recorded moderate spending averages of $1,800 and $1,250 respectively. Conversely, younger travellers under 25 spent the least, averaging a mere $650 per journey, which was roughly one-quarter of the senior bracket's expenditure. Both visuals show one leading group: holidaymaking accounted for 55% of trips, and travellers aged 60 and above spent the most, at $2,400 per person."
     },
     "practice": [
       {
