@@ -2,7 +2,7 @@
   {
     "id": "start-here",
     "title": "Start here: how IELTS Reading works",
-    "what": "The Reading test has 3 passages and 40 questions. You get 60 minutes in total. There is no extra time to copy your answers, so you must write them on the answer sheet as you go. This note gives you one method that works for every question type.",
+    "what": "The Reading test has 3 passages and 40 questions. You get 60 minutes in total. There is no extra time to copy your answers, so you must type them on screen as you go. This note gives you one method that works for every question type.",
     "steps": [
       { "do": "Skim the passage for one minute. Note the paragraph letters and what each is about. If a paragraph has no letter, label it yourself.", "why": "A quick map means you know where to look later, so you do not read everything twice." },
       { "do": "Read the question and underline the keywords: names, numbers, dates and unusual nouns.", "why": "These words usually stay the same in the passage, so they are easy to spot." },
@@ -1152,7 +1152,7 @@
   {
     "id": "matching-information",
     "title": "Matching information",
-    "what": "You get statements about details, and you decide which paragraph (A, B, C and so on) contains each one. The statements are not in passage order, and a paragraph can be used more than once. These take the longest, so do them last.",
+    "what": "You get statements about details, and you decide which paragraph (A, B, C and so on) contains each one. The statements are not in passage order, and a paragraph may be used more than once only when the instructions say so. These take the longest, so do them last.",
     "steps": [
       {
         "do": "Read the instructions. Check if a letter can be used more than once.",
@@ -1311,7 +1311,7 @@
   {
     "id": "matching-features",
     "title": "Matching features",
-    "what": "You get a list of features, such as people, places or theories, and a set of statements. You decide which feature each statement is about. A feature can be used more than once. The statements are not in passage order.",
+    "what": "You get a list of features, such as people, places or theories, and a set of statements. You decide which feature each statement is about. A feature may be used more than once only when the instructions say so. The statements are not in passage order.",
     "steps": [
       {
         "do": "Read the instructions. Check if you can use an option more than once.",
@@ -1425,7 +1425,7 @@
     "tricks": [
       "Underline every name in the passage first. The names are your map, so the rest is quick.",
       "Look for opinion verbs: argues, believes, claims, suggests, doubts. They link a person to an idea.",
-      "A feature can be used more than once, and some may not be used at all.",
+      "A feature may be used more than once when the instructions say so, and some may not be used at all.",
       "Find the names in the passage first, then read the statement and match its idea to the right name."
     ],
     "traps": [
