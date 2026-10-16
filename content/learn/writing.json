@@ -1825,32 +1825,32 @@
         "why": "It is easy to answer one question well and forget the other."
       },
       {
-        "do": "Write a short answer to each question in a few words. This is your position on each part.",
-        "why": "A clear answer to each part earns marks for answering the question."
+        "do": "Write a short, direct answer to each question. These answers go into the introduction thesis, so each must be clear.",
+        "why": "A direct answer to each part earns marks, and the thesis shows the examiner both answers early."
       },
       {
         "do": "Add one reason and one example for each answer.",
         "why": "Each part needs support to feel developed, not just stated."
       },
       {
-        "do": "Write the introduction: paraphrase the topic and say you will answer both questions.",
-        "why": "This shows the examiner that you noticed both parts."
+        "do": "Write the introduction in two sentences: paraphrase the topic, then answer both questions directly in the thesis.",
+        "why": "The paraphrase shows you understood the topic, and the thesis answers both questions before the body starts."
       },
       {
-        "do": "Write body paragraph one to answer question 1. Use a topic sentence, an explanation and an example.",
+        "do": "Write body paragraph one to answer question 1: topic sentence, explanation, example, then a result sentence.",
         "why": "One paragraph per question keeps the answers separate and easy to mark."
       },
       {
-        "do": "Write body paragraph two to answer question 2 in the same way. Use a link such as 'Turning to the second question'.",
-        "why": "A link guides the reader to the new part."
+        "do": "Write body paragraph two to answer question 2: signposted topic sentence, explanation, example, then a result sentence.",
+        "why": "The signpost guides the reader to the new part, and the result sentence answers it clearly."
       },
       {
-        "do": "Write a conclusion that gives a short answer to each question. Add no new ideas.",
-        "why": "The conclusion proves that both parts were answered."
+        "do": "Write the conclusion in two sentences: restate both answers, then give one final thought.",
+        "why": "Restating both answers proves each part was answered, and the final thought ends firmly without a new idea."
       },
       {
-        "do": "Check that each question has its own paragraph and that both are about the same length.",
-        "why": "Balanced answers show equal attention to both parts."
+        "do": "Check that question 1 has body one, question 2 has body two, and the introduction answers both directly.",
+        "why": "Answering only one question, or only saying you will answer both, is the biggest risk here."
       }
     ],
     "tricks": [
@@ -1868,18 +1868,18 @@
       "Using informal words such as 'kids'. Write 'children'. 'A lot of' is fine in speech, but in an essay prefer 'many' or 'a large number of' with countable nouns, and 'a great deal of' or 'much' with uncountable nouns."
     ],
     "checklist": [
-      "Did I answer both questions?",
+      "Did I answer both questions directly in the introduction?",
       "Does each question have its own body paragraph?",
-      "Does each answer have a reason and an example?",
+      "Does each body paragraph have a topic sentence, a reason, an example and a result sentence?",
       "Is my conclusion free of new ideas?"
     ],
     "frames": [
       {
         "name": "Introduction",
         "lines": [
-          "Nowadays, [topic] raises some important questions, and this essay will answer both of them.",
-          "This essay will answer two questions: [question one] and [question two].",
-          "I will first discuss [question one] and then explain [question two]."
+          "Nowadays, [topic] is widely regarded as very important, but its nature remains unclear.",
+          "It is difficult to define because [answer to question one],",
+          "and achieving it depends chiefly on [answer to question two]."
         ]
       },
       {
@@ -1887,15 +1887,16 @@
         "lines": [
           "Turning to the first question, the main reason is that [main idea].",
           "This is because [explanation]. For example, in [country / place], [short real example].",
-          "As for the second question, I believe that [main idea], since [reason]."
+          "As for the second question, I believe that [main idea], since [reason].",
+          "Consequently, [result that answers the question]."
         ]
       },
       {
         "name": "Conclusion",
         "lines": [
-          "In conclusion, [short answer to question one], and [short answer to question two].",
-          "To sum up, [answer one] and [answer two] show that [final thought about the topic].",
-          "Overall, both answers point to [final thought about the topic]."
+          "In conclusion, [short answer to question one],",
+          "and [short answer to question two].",
+          "Rather than [contrast], [final thought about the topic]."
         ]
       }
     ],
@@ -1906,68 +1907,97 @@
       "why": "The strong sentence uses a signpost to show which question it answers, and gives a specific reason that can be developed."
     },
     "demo": {
-      "prompt": "Why do many young people choose to rent rather than buy a home? Should governments build more rental housing?",
+      "prompt": "Happiness is considered very important in life. Why is it difficult to define? What factors are necessary to achieve it?",
       "moves": [
         {
           "step": 1,
-          "say": "I underline both questions and number them 1 and 2. Question one asks why, and question two asks whether governments should act."
+          "say": "I underline both questions: 'why is it difficult to define?' and 'what factors are necessary to achieve it?'. I number them 1 and 2."
         },
         {
           "step": 2,
-          "say": "I give a short answer to each question. Question one: high house prices. Question two: yes, more rental homes would help."
+          "say": "Short answers: question one, happiness is subjective and changes over life. Question two, meaningful connections and physical health. The thesis gives both."
         },
         {
           "step": 3,
-          "say": "For question one, I add a reason and an example. Buying is very expensive, so young people rent while they save. I will do the same for question two."
+          "say": "Question one reason and example: values differ, so an entrepreneur thrives where an artist is exhausted."
+        },
+        {
+          "step": 3,
+          "say": "Question two factors: health and supportive relationships, since loneliness predicts chronic distress."
         },
         {
           "step": 4,
-          "say": "I write the introduction. I paraphrase the topic and use the neutral line to say that I will answer both questions.",
-          "build": "Many young people now choose to rent rather than buy a home. This essay will answer two questions: why many young people rent, and whether governments should build more rental housing."
+          "say": "Introduction, paraphrase: I restate happiness as the ultimate goal whose precise nature still eludes us.",
+          "build": "The concept of happiness is widely regarded as the ultimate human objective, yet its precise nature remains elusive."
+        },
+        {
+          "step": 4,
+          "say": "Introduction, two-part thesis: I answer both questions directly: it is subjective and changing, and it depends on connections and health.",
+          "build": "The concept of happiness is widely regarded as the ultimate human objective, yet its precise nature remains elusive. Happiness is inherently difficult to define because it is subjective and changes throughout life, and achieving it depends chiefly on meaningful human connections and strong physical health."
         },
         {
           "step": 5,
-          "say": "Body paragraph one answers question one. I start with the reason in a topic sentence.",
-          "build": "Many young people now choose to rent rather than buy a home. This essay will answer two questions: why many young people rent, and whether governments should build more rental housing. Turning to the first question, the main reason is that buying a home is now very expensive."
+          "say": "Topic sentence: the main reason happiness resists objective definition is that criteria differ between people.",
+          "build": "The concept of happiness is widely regarded as the ultimate human objective, yet its precise nature remains elusive. Happiness is inherently difficult to define because it is subjective and changes throughout life, and achieving it depends chiefly on meaningful human connections and strong physical health. The primary reason happiness resists objective definition is that its criteria differ drastically from one individual to another."
         },
         {
           "step": 5,
-          "say": "I explain the reason and add an example. Wages rise more slowly than house prices, so saving a deposit takes years.",
-          "build": "Many young people now choose to rent rather than buy a home. This essay will answer two questions: why many young people rent, and whether governments should build more rental housing. Turning to the first question, the main reason is that buying a home is now very expensive. This is because wages rise more slowly than house prices, so saving for a deposit can take many years. For example, a young couple in a city may rent for a decade before they buy."
+          "say": "Explanation: personal fulfilment rests on individual values, so one person's euphoria can be another's exhaustion.",
+          "build": "The concept of happiness is widely regarded as the ultimate human objective, yet its precise nature remains elusive. Happiness is inherently difficult to define because it is subjective and changes throughout life, and achieving it depends chiefly on meaningful human connections and strong physical health. The primary reason happiness resists objective definition is that its criteria differ drastically from one individual to another. Because personal fulfilment is anchored in individual values, what brings euphoria to an ambitious entrepreneur might trigger exhaustion in an artist or scholar."
+        },
+        {
+          "step": 5,
+          "say": "Second point: personal benchmarks change over time, from career goals in youth to tranquillity in old age.",
+          "build": "The concept of happiness is widely regarded as the ultimate human objective, yet its precise nature remains elusive. Happiness is inherently difficult to define because it is subjective and changes throughout life, and achieving it depends chiefly on meaningful human connections and strong physical health. The primary reason happiness resists objective definition is that its criteria differ drastically from one individual to another. Because personal fulfilment is anchored in individual values, what brings euphoria to an ambitious entrepreneur might trigger exhaustion in an artist or scholar. Additionally, personal benchmarks evolve over time; a young adult may prioritise career progression, whereas an elderly individual often equates happiness with physical autonomy and tranquillity."
+        },
+        {
+          "step": 5,
+          "say": "Result: this variability stops any single psychological metric from universally capturing happiness.",
+          "build": "The concept of happiness is widely regarded as the ultimate human objective, yet its precise nature remains elusive. Happiness is inherently difficult to define because it is subjective and changes throughout life, and achieving it depends chiefly on meaningful human connections and strong physical health. The primary reason happiness resists objective definition is that its criteria differ drastically from one individual to another. Because personal fulfilment is anchored in individual values, what brings euphoria to an ambitious entrepreneur might trigger exhaustion in an artist or scholar. Additionally, personal benchmarks evolve over time; a young adult may prioritise career progression, whereas an elderly individual often equates happiness with physical autonomy and tranquillity. This inherent variability prevents any single psychological metric from universally capturing the state."
         },
         {
           "step": 6,
-          "say": "Body paragraph two answers question two. I signpost it with 'Turning to the second question' and then state my answer.",
-          "build": "Many young people now choose to rent rather than buy a home. This essay will answer two questions: why many young people rent, and whether governments should build more rental housing. Turning to the first question, the main reason is that buying a home is now very expensive. This is because wages rise more slowly than house prices, so saving for a deposit can take many years. For example, a young couple in a city may rent for a decade before they buy. Turning to the second question, I believe that governments should build more rental homes, since they offer stable housing to many people."
+          "say": "Topic sentence: I signpost question two and name the foundations that lasting well-being universally needs.",
+          "build": "The concept of happiness is widely regarded as the ultimate human objective, yet its precise nature remains elusive. Happiness is inherently difficult to define because it is subjective and changes throughout life, and achieving it depends chiefly on meaningful human connections and strong physical health. The primary reason happiness resists objective definition is that its criteria differ drastically from one individual to another. Because personal fulfilment is anchored in individual values, what brings euphoria to an ambitious entrepreneur might trigger exhaustion in an artist or scholar. Additionally, personal benchmarks evolve over time; a young adult may prioritise career progression, whereas an elderly individual often equates happiness with physical autonomy and tranquillity. This inherent variability prevents any single psychological metric from universally capturing the state. Nevertheless, certain foundational elements are universally required to foster sustained well-being."
         },
         {
           "step": 6,
-          "say": "For paragraph two, I explain my answer. Many young people cannot save a deposit, so long-term rented homes meet a real need.",
-          "build": "Many young people now choose to rent rather than buy a home. This essay will answer two questions: why many young people rent, and whether governments should build more rental housing. Turning to the first question, the main reason is that buying a home is now very expensive. This is because wages rise more slowly than house prices, so saving for a deposit can take many years. For example, a young couple in a city may rent for a decade before they buy. Turning to the second question, I believe that governments should build more rental homes, since they offer stable housing to many people. This is because many young people cannot save a deposit, so long-term rented homes meet a real need."
+          "say": "Explanation, factor one: physical and psychological health, without which everyday achievements are hard to enjoy.",
+          "build": "The concept of happiness is widely regarded as the ultimate human objective, yet its precise nature remains elusive. Happiness is inherently difficult to define because it is subjective and changes throughout life, and achieving it depends chiefly on meaningful human connections and strong physical health. The primary reason happiness resists objective definition is that its criteria differ drastically from one individual to another. Because personal fulfilment is anchored in individual values, what brings euphoria to an ambitious entrepreneur might trigger exhaustion in an artist or scholar. Additionally, personal benchmarks evolve over time; a young adult may prioritise career progression, whereas an elderly individual often equates happiness with physical autonomy and tranquillity. This inherent variability prevents any single psychological metric from universally capturing the state. Nevertheless, certain foundational elements are universally required to foster sustained well-being. Foremost among these is baseline physical and psychological health, without which enjoying everyday accomplishments becomes exceedingly difficult."
         },
         {
           "step": 6,
-          "say": "For paragraph two, I add an example. A city council could build flats that families rent at a fixed, affordable price.",
-          "build": "Many young people now choose to rent rather than buy a home. This essay will answer two questions: why many young people rent, and whether governments should build more rental housing. Turning to the first question, the main reason is that buying a home is now very expensive. This is because wages rise more slowly than house prices, so saving for a deposit can take many years. For example, a young couple in a city may rent for a decade before they buy. Turning to the second question, I believe that governments should build more rental homes, since they offer stable housing to many people. This is because many young people cannot save a deposit, so long-term rented homes meet a real need. For example, a city council could build flats that families rent at a fixed, affordable price."
+          "say": "Explanation, factor two: supportive relationships, since loneliness is a strong predictor of chronic distress.",
+          "build": "The concept of happiness is widely regarded as the ultimate human objective, yet its precise nature remains elusive. Happiness is inherently difficult to define because it is subjective and changes throughout life, and achieving it depends chiefly on meaningful human connections and strong physical health. The primary reason happiness resists objective definition is that its criteria differ drastically from one individual to another. Because personal fulfilment is anchored in individual values, what brings euphoria to an ambitious entrepreneur might trigger exhaustion in an artist or scholar. Additionally, personal benchmarks evolve over time; a young adult may prioritise career progression, whereas an elderly individual often equates happiness with physical autonomy and tranquillity. This inherent variability prevents any single psychological metric from universally capturing the state. Nevertheless, certain foundational elements are universally required to foster sustained well-being. Foremost among these is baseline physical and psychological health, without which enjoying everyday accomplishments becomes exceedingly difficult. Equally vital is the presence of supportive interpersonal relationships, as extensive sociological studies demonstrate that loneliness is the single greatest predictor of chronic distress."
+        },
+        {
+          "step": 6,
+          "say": "Result: I answer question two: health combined with deep community bonds forms the basis of contentment.",
+          "build": "The concept of happiness is widely regarded as the ultimate human objective, yet its precise nature remains elusive. Happiness is inherently difficult to define because it is subjective and changes throughout life, and achieving it depends chiefly on meaningful human connections and strong physical health. The primary reason happiness resists objective definition is that its criteria differ drastically from one individual to another. Because personal fulfilment is anchored in individual values, what brings euphoria to an ambitious entrepreneur might trigger exhaustion in an artist or scholar. Additionally, personal benchmarks evolve over time; a young adult may prioritise career progression, whereas an elderly individual often equates happiness with physical autonomy and tranquillity. This inherent variability prevents any single psychological metric from universally capturing the state. Nevertheless, certain foundational elements are universally required to foster sustained well-being. Foremost among these is baseline physical and psychological health, without which enjoying everyday accomplishments becomes exceedingly difficult. Equally vital is the presence of supportive interpersonal relationships, as extensive sociological studies demonstrate that loneliness is the single greatest predictor of chronic distress. Consequently, robust health combined with deep community bonds forms the true bedrock of contentment."
         },
         {
           "step": 7,
-          "say": "I give a short answer to each question and add no new idea. This is only part of an essay, which should be at least 250 words.",
-          "build": "Many young people now choose to rent rather than buy a home. This essay will answer two questions: why many young people rent, and whether governments should build more rental housing. Turning to the first question, the main reason is that buying a home is now very expensive. This is because wages rise more slowly than house prices, so saving for a deposit can take many years. For example, a young couple in a city may rent for a decade before they buy. Turning to the second question, I believe that governments should build more rental homes, since they offer stable housing to many people. This is because many young people cannot save a deposit, so long-term rented homes meet a real need. For example, a city council could build flats that families rent at a fixed, affordable price. In conclusion, buying a home is too expensive for many young people, so governments should build more rental homes."
+          "say": "Conclusion, restatement: I restate both answers, that happiness is subjective and needs health and relationships.",
+          "build": "The concept of happiness is widely regarded as the ultimate human objective, yet its precise nature remains elusive. Happiness is inherently difficult to define because it is subjective and changes throughout life, and achieving it depends chiefly on meaningful human connections and strong physical health. The primary reason happiness resists objective definition is that its criteria differ drastically from one individual to another. Because personal fulfilment is anchored in individual values, what brings euphoria to an ambitious entrepreneur might trigger exhaustion in an artist or scholar. Additionally, personal benchmarks evolve over time; a young adult may prioritise career progression, whereas an elderly individual often equates happiness with physical autonomy and tranquillity. This inherent variability prevents any single psychological metric from universally capturing the state. Nevertheless, certain foundational elements are universally required to foster sustained well-being. Foremost among these is baseline physical and psychological health, without which enjoying everyday accomplishments becomes exceedingly difficult. Equally vital is the presence of supportive interpersonal relationships, as extensive sociological studies demonstrate that loneliness is the single greatest predictor of chronic distress. Consequently, robust health combined with deep community bonds forms the true bedrock of contentment. In conclusion, while the fluid, deeply subjective nature of human values makes happiness difficult to standardise, it universally demands robust personal health and caring human relationships."
+        },
+        {
+          "step": 7,
+          "say": "Conclusion, final thought: I advise cultivating these two pillars in daily life, not chasing perfection.",
+          "build": "The concept of happiness is widely regarded as the ultimate human objective, yet its precise nature remains elusive. Happiness is inherently difficult to define because it is subjective and changes throughout life, and achieving it depends chiefly on meaningful human connections and strong physical health. The primary reason happiness resists objective definition is that its criteria differ drastically from one individual to another. Because personal fulfilment is anchored in individual values, what brings euphoria to an ambitious entrepreneur might trigger exhaustion in an artist or scholar. Additionally, personal benchmarks evolve over time; a young adult may prioritise career progression, whereas an elderly individual often equates happiness with physical autonomy and tranquillity. This inherent variability prevents any single psychological metric from universally capturing the state. Nevertheless, certain foundational elements are universally required to foster sustained well-being. Foremost among these is baseline physical and psychological health, without which enjoying everyday accomplishments becomes exceedingly difficult. Equally vital is the presence of supportive interpersonal relationships, as extensive sociological studies demonstrate that loneliness is the single greatest predictor of chronic distress. Consequently, robust health combined with deep community bonds forms the true bedrock of contentment. In conclusion, while the fluid, deeply subjective nature of human values makes happiness difficult to standardise, it universally demands robust personal health and caring human relationships. Rather than chasing abstract ideals of perfection, individuals should cultivate these two tangible pillars in daily life."
         },
         {
           "step": 8,
-          "say": "I check that each question has its own paragraph and that both paragraphs are about the same length.",
-          "build": "Many young people now choose to rent rather than buy a home. This essay will answer two questions: why many young people rent, and whether governments should build more rental housing. Turning to the first question, the main reason is that buying a home is now very expensive. This is because wages rise more slowly than house prices, so saving for a deposit can take many years. For example, a young couple in a city may rent for a decade before they buy. Turning to the second question, I believe that governments should build more rental homes, since they offer stable housing to many people. This is because many young people cannot save a deposit, so long-term rented homes meet a real need. For example, a city council could build flats that families rent at a fixed, affordable price. In conclusion, buying a home is too expensive for many young people, so governments should build more rental homes. "
+          "say": "Check: this model has 233 words. The exam needs at least 250 words, so my own essay must be at least that long.",
+          "build": "The concept of happiness is widely regarded as the ultimate human objective, yet its precise nature remains elusive. Happiness is inherently difficult to define because it is subjective and changes throughout life, and achieving it depends chiefly on meaningful human connections and strong physical health. The primary reason happiness resists objective definition is that its criteria differ drastically from one individual to another. Because personal fulfilment is anchored in individual values, what brings euphoria to an ambitious entrepreneur might trigger exhaustion in an artist or scholar. Additionally, personal benchmarks evolve over time; a young adult may prioritise career progression, whereas an elderly individual often equates happiness with physical autonomy and tranquillity. This inherent variability prevents any single psychological metric from universally capturing the state. Nevertheless, certain foundational elements are universally required to foster sustained well-being. Foremost among these is baseline physical and psychological health, without which enjoying everyday accomplishments becomes exceedingly difficult. Equally vital is the presence of supportive interpersonal relationships, as extensive sociological studies demonstrate that loneliness is the single greatest predictor of chronic distress. Consequently, robust health combined with deep community bonds forms the true bedrock of contentment. In conclusion, while the fluid, deeply subjective nature of human values makes happiness difficult to standardise, it universally demands robust personal health and caring human relationships. Rather than chasing abstract ideals of perfection, individuals should cultivate these two tangible pillars in daily life."
         }
       ],
-      "answer": "Many young people now choose to rent rather than buy a home. This essay will answer two questions: why many young people rent, and whether governments should build more rental housing. Turning to the first question, the main reason is that buying a home is now very expensive. This is because wages rise more slowly than house prices, so saving for a deposit can take many years. For example, a young couple in a city may rent for a decade before they buy. Turning to the second question, I believe that governments should build more rental homes, since they offer stable housing to many people. This is because many young people cannot save a deposit, so long-term rented homes meet a real need. For example, a city council could build flats that families rent at a fixed, affordable price. In conclusion, buying a home is too expensive for many young people, so governments should build more rental homes. "
+      "answer": "The concept of happiness is widely regarded as the ultimate human objective, yet its precise nature remains elusive. Happiness is inherently difficult to define because it is subjective and changes throughout life, and achieving it depends chiefly on meaningful human connections and strong physical health. The primary reason happiness resists objective definition is that its criteria differ drastically from one individual to another. Because personal fulfilment is anchored in individual values, what brings euphoria to an ambitious entrepreneur might trigger exhaustion in an artist or scholar. Additionally, personal benchmarks evolve over time; a young adult may prioritise career progression, whereas an elderly individual often equates happiness with physical autonomy and tranquillity. This inherent variability prevents any single psychological metric from universally capturing the state. Nevertheless, certain foundational elements are universally required to foster sustained well-being. Foremost among these is baseline physical and psychological health, without which enjoying everyday accomplishments becomes exceedingly difficult. Equally vital is the presence of supportive interpersonal relationships, as extensive sociological studies demonstrate that loneliness is the single greatest predictor of chronic distress. Consequently, robust health combined with deep community bonds forms the true bedrock of contentment. In conclusion, while the fluid, deeply subjective nature of human values makes happiness difficult to standardise, it universally demands robust personal health and caring human relationships. Rather than chasing abstract ideals of perfection, individuals should cultivate these two tangible pillars in daily life."
     },
     "practice": [
       {
-        "prompt": "Write the introduction for this invented question: 'Why do some schools start the day earlier? Is this a sensible change?' Paraphrase the topic and use the neutral line. Use the steps.",
-        "answer": "A growing number of schools now begin lessons earlier in the morning. This essay will answer two questions: why they make this change, and whether it is sensible.",
-        "why": "Step 4 paraphrases the topic and uses a neutral line. Both questions are named in the order they were asked, so the examiner sees that each part will be answered."
+        "prompt": "Write the introduction for this invented question: 'Why do some schools start the day earlier? Is this a sensible change?' Paraphrase the topic, then answer both questions directly in the thesis. Use the steps.",
+        "answer": "A growing number of schools now begin lessons earlier in the morning. They do so mainly to suit teenagers' sleep patterns, and I believe this is a sensible change.",
+        "why": "Step 4 writes two sentences. The first paraphrases the topic, and the second answers both questions directly, so the examiner sees each answer early."
       },
       {
         "prompt": "The question is: 'Why do many people cycle to work? Should cities build more cycle lanes?' This topic sentence for body paragraph two answers neither question: 'Cycling is an activity that many people enjoy at weekends.' Rewrite it to answer question two, with a signpost. Use the steps.",
