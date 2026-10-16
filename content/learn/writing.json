@@ -356,35 +356,35 @@
   {
     "id": "task1-chart",
     "title": "Task 1: Bar chart and line graph",
-    "what": "You look at a chart and write a report of at least 150 words. The examiner is not asking you to copy every number. They want you to pick the key features and compare them. An 'overview' is one or two sentences that give the big picture without numbers, and it is required.",
+    "what": "You look at a chart and write a report of at least 150 words. The examiner is not asking you to copy every number. They want you to pick the key features and compare them. An 'overview' is two sentences that give the big picture without numbers, and it is required.",
     "steps": [
       {
-        "do": "Read the title, axes, units and dates. Note what is measured and the time period.",
-        "why": "These decide your paraphrase and your tense, and wrong units are a common mistake."
+        "do": "Read the title, axes and units. Note what is measured, the three foods, the country and the years.",
+        "why": "These decide your paraphrase and your past tense. Wrong units are a common mistake."
       },
       {
-        "do": "Find the biggest changes: the highest, the lowest, the steepest rise or fall. Pick two or three.",
-        "why": "You cannot report everything. Choosing key features is what the task is testing."
+        "do": "Pick the key features: each line's start, its peak or low, and the point where two lines cross.",
+        "why": "Only the main features belong in the report. Describe the data alone, with no opinions or reasons for the trends."
       },
       {
-        "do": "Decide how to group the data: lines that rose and lines that fell, or leaders and the rest.",
-        "why": "Grouping lets you compare. Describing left to right is just a list, and it scores lower."
+        "do": "Group the lines: those that rose go in body paragraph one, and the line that fell goes in body paragraph two.",
+        "why": "Grouping gives two clear comparisons, rising against falling, rather than a list of lines."
       },
       {
-        "do": "Write the introduction by paraphrasing the title. Change the verb, the noun and the time words.",
-        "why": "Paraphrase means saying the same thing in new words. It shows range without adding anything new."
+        "do": "Write the introduction: one sentence that paraphrases the title, naming the measure, the foods, the country and the years.",
+        "why": "One paraphrase sentence shows you understood the graph, without adding facts or reasons."
       },
       {
-        "do": "Write the overview next. Give the main trend and one contrast, with no numbers.",
-        "why": "The overview is required. Without it, your Task Achievement score is limited."
+        "do": "Write the overview in two sentences: the general trend of each group, then the cross-over. No numbers.",
+        "why": "The overview is required and gives the big picture. Numbers belong in the body paragraphs."
       },
       {
-        "do": "Write body paragraph one: the group that rose, cycling, with its figures and one contrast with cars.",
-        "why": "Numbers prove your points, so each paragraph should use only the figures it needs. Too many numbers hide the main message."
+        "do": "Write body paragraph one: the rising lines, hamburgers and pizza, with their starting figures, growth and peak.",
+        "why": "The rising lines form one group, so the reader gets one clear trend supported by a few key figures."
       },
       {
-        "do": "Write body paragraph two: the group that fell, cars, with its figures and how it compares with cycling.",
-        "why": "Each paragraph covers its own group, so the reader gets two clear comparisons rather than one long list."
+        "do": "Write body paragraph two: the falling line, fish and chips, with its starting figure, dip and final low.",
+        "why": "The falling line gets its own paragraph, so the decline is set clearly against the rises."
       },
       {
         "do": "Check units, years and verbs. Make sure each number matches the chart.",
@@ -442,58 +442,78 @@
       "why": "The strong sentence names exactly what is measured, uses a precise verb and adverb, and gives approximate figures with the years."
     },
     "demo": {
-      "prompt": "Write an introduction, an overview and one comparison sentence for this invented bar chart. Title: 'How people commuted in a city, 2010 and 2020' (percentages). Cycling rose from 20% to 35%, and cars fell from 50% to 40%.",
+      "prompt": "The line graph shows changes in the consumption of three types of fast food in the United Kingdom between 1970 and 1990.",
       "moves": [
         {
           "step": 1,
-          "say": "I read the title and units first. The figures are percentages for two years, so I check the dates and the measure before I write any words."
+          "say": "I read the prompt: three fast foods in the UK, measured as consumption from 1970 to 1990. The past tense fits the whole report."
         },
         {
           "step": 2,
-          "say": "I pick two or three big changes: cycling rose most, by 15 points, and car use fell by 10 points."
+          "say": "I pick the key features: hamburgers and pizza rise, hamburgers reach 500 grams, fish and chips fall, and the lines cross by 1985."
         },
         {
           "step": 3,
-          "say": "I group the data into two sets: the category that rose, cycling, and the one that fell, cars."
+          "say": "I group the data: the two rising lines go in body paragraph one, and the falling line goes in body paragraph two."
         },
         {
           "step": 4,
-          "say": "I paraphrase the title for my introduction. I change the wording to 'the percentage of people who travelled', and I add no new facts.",
-          "build": "The bar chart illustrates the percentage of people who travelled to work by bike or by car in a city in 2010 and 2020."
+          "say": "Introduction, paraphrase: I restate the title in my own words, with the measure, the foods, the country and the years.",
+          "build": "The line graph illustrates changes in the consumption levels of three different types of fast food in the United Kingdom between 1970 and 1990."
         },
         {
           "step": 5,
-          "say": "The overview comes next. It gives the main trend with no numbers: cycling went up, and car use went down.",
-          "build": "The bar chart illustrates the percentage of people who travelled to work by bike or by car in a city in 2010 and 2020. Overall, cycling rose over the period, while car use fell."
+          "say": "Overview, general trend: I say that two foods rose and one fell, with no figures.",
+          "build": "The line graph illustrates changes in the consumption levels of three different types of fast food in the United Kingdom between 1970 and 1990. Overall, it is clear that while the consumption of hamburgers and pizza experienced a marked upward trajectory throughout the period, fish and chips followed a significant downward trend."
+        },
+        {
+          "step": 5,
+          "say": "Overview, cross-over: I say that hamburgers started lowest but became the most consumed food by the end.",
+          "build": "The line graph illustrates changes in the consumption levels of three different types of fast food in the United Kingdom between 1970 and 1990. Overall, it is clear that while the consumption of hamburgers and pizza experienced a marked upward trajectory throughout the period, fish and chips followed a significant downward trend. Additionally, despite starting as by far the least favoured item, hamburgers overtook fish and chips to become the most consumed food by the final year."
         },
         {
           "step": 6,
-          "say": "For body paragraph one, I use numbers to support my points. I put cycling and cars in one sentence, so the contrast is clear.",
-          "build": "The bar chart illustrates the percentage of people who travelled to work by bike or by car in a city in 2010 and 2020. Overall, cycling rose over the period, while car use fell. Cycling rose from 20% to 35%, whereas cars fell from 50% to 40%."
+          "say": "Body 1, starting point: I give hamburgers' 1970 figure as the start of the rising trend.",
+          "build": "The line graph illustrates changes in the consumption levels of three different types of fast food in the United Kingdom between 1970 and 1990. Overall, it is clear that while the consumption of hamburgers and pizza experienced a marked upward trajectory throughout the period, fish and chips followed a significant downward trend. Additionally, despite starting as by far the least favoured item, hamburgers overtook fish and chips to become the most consumed food by the final year. In 1970, hamburger intake stood at approximately 80 grams per person per week."
+        },
+        {
+          "step": 6,
+          "say": "Body 1, growth and milestone: I describe the steady climb, the faster rise after 1980 and the 1990 peak.",
+          "build": "The line graph illustrates changes in the consumption levels of three different types of fast food in the United Kingdom between 1970 and 1990. Overall, it is clear that while the consumption of hamburgers and pizza experienced a marked upward trajectory throughout the period, fish and chips followed a significant downward trend. Additionally, despite starting as by far the least favoured item, hamburgers overtook fish and chips to become the most consumed food by the final year. In 1970, hamburger intake stood at approximately 80 grams per person per week. This figure climbed steadily over the next decade before accelerating rapidly after 1980 to reach a peak of 500 grams in 1990."
+        },
+        {
+          "step": 6,
+          "say": "Body 1, second rising category: I show pizza's start, its near fourfold growth and its final figure.",
+          "build": "The line graph illustrates changes in the consumption levels of three different types of fast food in the United Kingdom between 1970 and 1990. Overall, it is clear that while the consumption of hamburgers and pizza experienced a marked upward trajectory throughout the period, fish and chips followed a significant downward trend. Additionally, despite starting as by far the least favoured item, hamburgers overtook fish and chips to become the most consumed food by the final year. In 1970, hamburger intake stood at approximately 80 grams per person per week. This figure climbed steadily over the next decade before accelerating rapidly after 1980 to reach a peak of 500 grams in 1990. Similarly, pizza consumption began at roughly 20 grams, experiencing a consistent, fourfold expansion to finish at nearly 280 grams."
         },
         {
           "step": 7,
-          "say": "Now body paragraph two. I start with a topic sentence on car use, which stayed ahead of cycling in both years.",
-          "build": "The bar chart illustrates the percentage of people who travelled to work by bike or by car in a city in 2010 and 2020. Overall, cycling rose over the period, while car use fell. Cycling rose from 20% to 35%, whereas cars fell from 50% to 40%. Car use stayed ahead of cycling in both years."
+          "say": "Body 2, starting figure of the falling category: I give fish and chips as the most popular food in 1970.",
+          "build": "The line graph illustrates changes in the consumption levels of three different types of fast food in the United Kingdom between 1970 and 1990. Overall, it is clear that while the consumption of hamburgers and pizza experienced a marked upward trajectory throughout the period, fish and chips followed a significant downward trend. Additionally, despite starting as by far the least favoured item, hamburgers overtook fish and chips to become the most consumed food by the final year. In 1970, hamburger intake stood at approximately 80 grams per person per week. This figure climbed steadily over the next decade before accelerating rapidly after 1980 to reach a peak of 500 grams in 1990. Similarly, pizza consumption began at roughly 20 grams, experiencing a consistent, fourfold expansion to finish at nearly 280 grams. In stark contrast, fish and chips was initially the most popular option, with weekly consumption hovering around 300 grams in 1970."
         },
         {
           "step": 7,
-          "say": "I add the 2020 figures for cars and cycling, so the reader sees the gap is still there.",
-          "build": "The bar chart illustrates the percentage of people who travelled to work by bike or by car in a city in 2010 and 2020. Overall, cycling rose over the period, while car use fell. Cycling rose from 20% to 35%, whereas cars fell from 50% to 40%. Car use stayed ahead of cycling in both years. In 2020, cars still accounted for 40% of commuters, against 35% for cycling."
+          "say": "Body 2, decline and cross-over: I describe the 1970s fluctuation, the sharp fall after 1980 and the dip below hamburgers.",
+          "build": "The line graph illustrates changes in the consumption levels of three different types of fast food in the United Kingdom between 1970 and 1990. Overall, it is clear that while the consumption of hamburgers and pizza experienced a marked upward trajectory throughout the period, fish and chips followed a significant downward trend. Additionally, despite starting as by far the least favoured item, hamburgers overtook fish and chips to become the most consumed food by the final year. In 1970, hamburger intake stood at approximately 80 grams per person per week. This figure climbed steadily over the next decade before accelerating rapidly after 1980 to reach a peak of 500 grams in 1990. Similarly, pizza consumption began at roughly 20 grams, experiencing a consistent, fourfold expansion to finish at nearly 280 grams. In stark contrast, fish and chips was initially the most popular option, with weekly consumption hovering around 300 grams in 1970. Although this number fluctuated slightly during the 1970s, it plummeted sharply after 1980, dipping below hamburgers in 1985."
+        },
+        {
+          "step": 7,
+          "say": "Body 2, ending value: I give the 1990 low point for fish and chips.",
+          "build": "The line graph illustrates changes in the consumption levels of three different types of fast food in the United Kingdom between 1970 and 1990. Overall, it is clear that while the consumption of hamburgers and pizza experienced a marked upward trajectory throughout the period, fish and chips followed a significant downward trend. Additionally, despite starting as by far the least favoured item, hamburgers overtook fish and chips to become the most consumed food by the final year. In 1970, hamburger intake stood at approximately 80 grams per person per week. This figure climbed steadily over the next decade before accelerating rapidly after 1980 to reach a peak of 500 grams in 1990. Similarly, pizza consumption began at roughly 20 grams, experiencing a consistent, fourfold expansion to finish at nearly 280 grams. In stark contrast, fish and chips was initially the most popular option, with weekly consumption hovering around 300 grams in 1970. Although this number fluctuated slightly during the 1970s, it plummeted sharply after 1980, dipping below hamburgers in 1985. By 1990, fish and chips intake had dropped to a terminal low of just under 150 grams."
         },
         {
           "step": 8,
-          "say": "I check units, years, verbs and numbers against the chart. Real Task 1 needs at least 150 words, so this demo is only part of one.",
-          "build": "The bar chart illustrates the percentage of people who travelled to work by bike or by car in a city in 2010 and 2020. Overall, cycling rose over the period, while car use fell. Cycling rose from 20% to 35%, whereas cars fell from 50% to 40%. Car use stayed ahead of cycling in both years. In 2020, cars still accounted for 40% of commuters, against 35% for cycling."
+          "say": "Check: this model has 187 words. Real Task 1 needs at least 150 words, so my own report must be at least that long.",
+          "build": "The line graph illustrates changes in the consumption levels of three different types of fast food in the United Kingdom between 1970 and 1990. Overall, it is clear that while the consumption of hamburgers and pizza experienced a marked upward trajectory throughout the period, fish and chips followed a significant downward trend. Additionally, despite starting as by far the least favoured item, hamburgers overtook fish and chips to become the most consumed food by the final year. In 1970, hamburger intake stood at approximately 80 grams per person per week. This figure climbed steadily over the next decade before accelerating rapidly after 1980 to reach a peak of 500 grams in 1990. Similarly, pizza consumption began at roughly 20 grams, experiencing a consistent, fourfold expansion to finish at nearly 280 grams. In stark contrast, fish and chips was initially the most popular option, with weekly consumption hovering around 300 grams in 1970. Although this number fluctuated slightly during the 1970s, it plummeted sharply after 1980, dipping below hamburgers in 1985. By 1990, fish and chips intake had dropped to a terminal low of just under 150 grams."
         }
       ],
-      "answer": "The bar chart illustrates the percentage of people who travelled to work by bike or by car in a city in 2010 and 2020. Overall, cycling rose over the period, while car use fell. Cycling rose from 20% to 35%, whereas cars fell from 50% to 40%. Car use stayed ahead of cycling in both years. In 2020, cars still accounted for 40% of commuters, against 35% for cycling."
+      "answer": "The line graph illustrates changes in the consumption levels of three different types of fast food in the United Kingdom between 1970 and 1990. Overall, it is clear that while the consumption of hamburgers and pizza experienced a marked upward trajectory throughout the period, fish and chips followed a significant downward trend. Additionally, despite starting as by far the least favoured item, hamburgers overtook fish and chips to become the most consumed food by the final year. In 1970, hamburger intake stood at approximately 80 grams per person per week. This figure climbed steadily over the next decade before accelerating rapidly after 1980 to reach a peak of 500 grams in 1990. Similarly, pizza consumption began at roughly 20 grams, experiencing a consistent, fourfold expansion to finish at nearly 280 grams. In stark contrast, fish and chips was initially the most popular option, with weekly consumption hovering around 300 grams in 1970. Although this number fluctuated slightly during the 1970s, it plummeted sharply after 1980, dipping below hamburgers in 1985. By 1990, fish and chips intake had dropped to a terminal low of just under 150 grams."
     },
     "practice": [
       {
-        "prompt": "Write an overview from the data below. The invented bar chart shows visitors to a library, in thousands: adults rose from 300 to 450 and children rose from 200 to 260 between 2018 and 2022. Adults were the larger group in both years. Write an overview with no numbers. Use the steps.",
-        "answer": "Overall, visitor numbers rose for both adults and children, and adults remained the larger group in both years.",
-        "why": "Step 5 asks for an overview with no numbers. It gives the main trend, that both groups rose, and one contrast, that adults were larger. Both come from the start and end points in the data."
+        "prompt": "Write the two overview sentences from the data below. The invented bar chart shows visitors to a library, in thousands: adults rose from 300 to 450 and children rose from 200 to 260 between 2018 and 2022. Adults were the larger group in both years. Write them with no numbers. Use the steps.",
+        "answer": "Overall, visitor numbers rose for both adults and children over the period. Adults remained the larger group in both years.",
+        "why": "Step 5 asks for two overview sentences with no numbers. The first gives the main trend, a rise for both groups, and the second gives the contrast, adults being larger in both years."
       },
       {
         "prompt": "Write one sentence reporting the lowest and the highest point, in time order. The invented bar chart shows monthly ice-cream sales in a shop, in units: January 40, April 90, July 150, October 60. Use the steps.",
