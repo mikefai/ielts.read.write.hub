@@ -1255,20 +1255,20 @@
         "why": "This reason, explain, example pattern is what makes a paragraph feel developed."
       },
       {
-        "do": "Write the introduction: paraphrase the statement (say it in your own words) and state your position.",
-        "why": "Stating your position early tells the examiner you have answered the question."
+        "do": "Write the introduction: paraphrase the statement, then give a clear thesis: your position and two reasons.",
+        "why": "Two sentences do the job: the paraphrase shows you understood the statement, and the thesis shows your position."
       },
       {
-        "do": "Write body paragraph one: reason one, with a topic sentence, an explanation and an example.",
-        "why": "A topic sentence lets the reader see the point of the paragraph at once. One developed reason keeps it focused."
+        "do": "Write body paragraph one: reason one as a topic sentence, then an explanation, an example and a result sentence that links back.",
+        "why": "The topic sentence shows the point at once, and the result sentence ties the paragraph back to your position."
       },
       {
-        "do": "Write body paragraph two: reason two, with its own topic sentence, explanation and example.",
-        "why": "Each paragraph develops one idea, so the second reason needs its own topic sentence and example."
+        "do": "Write body paragraph two: reason two as a topic sentence, then an explanation, an example and a result sentence that links back.",
+        "why": "Each paragraph develops one reason, so the second needs its own topic sentence, example and closing result."
       },
       {
-        "do": "Write a short conclusion that repeats your position and main reasons. Add no new ideas.",
-        "why": "A new idea at the end looks unplanned and is never developed."
+        "do": "Write the conclusion in two sentences: restate your position and main reasons, then give one final takeaway.",
+        "why": "The restatement closes the argument, and the final takeaway ends firmly without introducing a new idea."
       },
       {
         "do": "Check the word count and your position. Make sure the introduction and conclusion agree.",
@@ -1300,23 +1300,24 @@
         "name": "Introduction",
         "lines": [
           "Nowadays, [topic] is a widely debated issue, and some people believe that [statement].",
-          "I [strongly agree / partly agree / disagree] with this view, because [reason one] and [reason two].",
-          "This essay will explain why [position] by looking at [idea one] and [idea two]."
+          "I [strongly agree / partly agree / disagree] with this view,",
+          "because [reason one] and [reason two]."
         ]
       },
       {
         "name": "Body paragraph",
         "lines": [
           "The first reason why I [agree / disagree] is that [main idea].",
-          "This is because [explanation], which means that [result].",
-          "For example, in [country / place], [short real example]."
+          "This is because [explanation].",
+          "For example, in [country / place], [short real example].",
+          "As a result, [result that links back to your position]."
         ]
       },
       {
         "name": "Conclusion",
         "lines": [
-          "In conclusion, I [strongly agree / partly agree / disagree] that [statement].",
-          "As discussed, [reason one] and [reason two] show that [position].",
+          "In conclusion, I [strongly agree / partly agree / disagree] that [statement],",
+          "because [reason one] and [reason two] show that [position].",
           "For these reasons, it is clear that [final thought about the topic]."
         ]
       }
@@ -1328,75 +1329,95 @@
       "why": "The strong sentence uses the key words from the question, states a clear position, and gives two reasons in advance."
     },
     "demo": {
-      "prompt": "Some people believe that city centres should be closed to private cars. To what extent do you agree?",
+      "prompt": "Some believe university education should be free for all students. To what extent do you agree or disagree?",
       "moves": [
         {
           "step": 1,
-          "say": "I underline the key words: 'city centres', 'private cars' and 'closed'. The question says 'to what extent', so I need a clear position, not just yes or no."
+          "say": "I underline the key words: 'university education', 'free' and 'to what extent'. The question asks how far I agree, so I need a graded position."
         },
         {
           "step": 2,
-          "say": "I choose my position: I partly agree. A ban would clean the air, but it only works with good public transport, so I cannot fully agree."
+          "say": "I choose my position: I agree. Free tuition helps social mobility and the economy, and I keep this side from start to finish."
         },
         {
           "step": 3,
-          "say": "I think of two reasons for my position. Reason one is cleaner air. Reason two is safer streets for children and cyclists."
+          "say": "I think of two reasons. Reason one is social mobility. Reason two is economic benefit for the whole nation."
         },
         {
           "step": 4,
-          "say": "For reason one, I plan an explanation and an example. Fewer cars means fewer fumes, and a school on a busy road would benefit most."
+          "say": "For reason one, I plan an explanation and an example. Poorer students can take professional careers without debt, as in Germany and Norway."
         },
         {
           "step": 4,
-          "say": "For reason two, I plan an explanation and an example. Fewer cars means fewer collisions, and a quiet street near a school would be safer for children."
+          "say": "For reason two, I plan an explanation and an example. Graduates add skilled labour and tax income, which can repay public spending."
         },
         {
           "step": 5,
-          "say": "I write the introduction. I paraphrase the question, state my position and give my two reasons.",
-          "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air and safer streets matter, but a ban works only when good public transport is available."
+          "say": "Introduction, paraphrase: I restate the question in my own words, so the examiner sees that I understood it.",
+          "build": "It is frequently argued that higher education should be funded entirely by the state rather than individual attendees."
+        },
+        {
+          "step": 5,
+          "say": "Introduction, thesis: I state my position and my two reasons, social mobility and economic benefit.",
+          "build": "It is frequently argued that higher education should be funded entirely by the state rather than individual attendees. I completely agree with this view because universal tertiary schooling reduces socio-economic inequality and boosts overall national economic productivity."
         },
         {
           "step": 6,
-          "say": "Body paragraph one starts with a topic sentence. I state the reason clearly, so the examiner sees the point at once.",
-          "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air and safer streets matter, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city."
+          "say": "Topic sentence: I name the first reason, social mobility.",
+          "build": "It is frequently argued that higher education should be funded entirely by the state rather than individual attendees. I completely agree with this view because universal tertiary schooling reduces socio-economic inequality and boosts overall national economic productivity. The primary rationale for subsidising university tuition is the promotion of social mobility."
         },
         {
           "step": 6,
-          "say": "Next I explain the reason. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems.",
-          "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air and safer streets matter, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems."
+          "say": "Explanation: I show how removing fees lets poorer students pursue careers without crippling debt.",
+          "build": "It is frequently argued that higher education should be funded entirely by the state rather than individual attendees. I completely agree with this view because universal tertiary schooling reduces socio-economic inequality and boosts overall national economic productivity. The primary rationale for subsidising university tuition is the promotion of social mobility. When high tuition fees are removed, students from underprivileged backgrounds can pursue professional careers without incurring crippling debt."
         },
         {
           "step": 6,
-          "say": "Last, I add an example that the examiner can picture. A school on a busy road would have cleaner air at playtime.",
-          "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air and safer streets matter, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems. For example, a school on a busy road would have cleaner air at playtime."
+          "say": "Example: I cite Germany and Norway, where low fees raise enrolment among first-generation students.",
+          "build": "It is frequently argued that higher education should be funded entirely by the state rather than individual attendees. I completely agree with this view because universal tertiary schooling reduces socio-economic inequality and boosts overall national economic productivity. The primary rationale for subsidising university tuition is the promotion of social mobility. When high tuition fees are removed, students from underprivileged backgrounds can pursue professional careers without incurring crippling debt. For instance, in countries like Germany and Norway, where public universities charge minimal administrative fees, enrolment rates among first-generation academics are significantly higher."
+        },
+        {
+          "step": 6,
+          "say": "Result: I link back to the reason, saying state funding works as an equaliser across incomes.",
+          "build": "It is frequently argued that higher education should be funded entirely by the state rather than individual attendees. I completely agree with this view because universal tertiary schooling reduces socio-economic inequality and boosts overall national economic productivity. The primary rationale for subsidising university tuition is the promotion of social mobility. When high tuition fees are removed, students from underprivileged backgrounds can pursue professional careers without incurring crippling debt. For instance, in countries like Germany and Norway, where public universities charge minimal administrative fees, enrolment rates among first-generation academics are significantly higher. Consequently, state-funded higher education acts as an effective equaliser across income brackets."
         },
         {
           "step": 7,
-          "say": "Now body paragraph two. I start with a topic sentence: safer streets protect children and cyclists from traffic.",
-          "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air and safer streets matter, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems. For example, a school on a busy road would have cleaner air at playtime. The second reason is that safer streets protect children and cyclists from traffic."
+          "say": "Topic sentence: I introduce the second reason, the macroeconomic benefit for the nation.",
+          "build": "It is frequently argued that higher education should be funded entirely by the state rather than individual attendees. I completely agree with this view because universal tertiary schooling reduces socio-economic inequality and boosts overall national economic productivity. The primary rationale for subsidising university tuition is the promotion of social mobility. When high tuition fees are removed, students from underprivileged backgrounds can pursue professional careers without incurring crippling debt. For instance, in countries like Germany and Norway, where public universities charge minimal administrative fees, enrolment rates among first-generation academics are significantly higher. Consequently, state-funded higher education acts as an effective equaliser across income brackets. Furthermore, universal access to advanced education yields substantial macroeconomic benefits for the nation."
         },
         {
           "step": 7,
-          "say": "For paragraph two, I explain the reason. Fewer cars on the road means fewer collisions, so children and cyclists are safer.",
-          "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air and safer streets matter, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems. For example, a school on a busy road would have cleaner air at playtime. The second reason is that safer streets protect children and cyclists from traffic. Fewer cars on the road means fewer collisions, so children and cyclists face far less danger."
+          "say": "Explanation: I show how a larger skilled workforce drives innovation and attracts foreign firms.",
+          "build": "It is frequently argued that higher education should be funded entirely by the state rather than individual attendees. I completely agree with this view because universal tertiary schooling reduces socio-economic inequality and boosts overall national economic productivity. The primary rationale for subsidising university tuition is the promotion of social mobility. When high tuition fees are removed, students from underprivileged backgrounds can pursue professional careers without incurring crippling debt. For instance, in countries like Germany and Norway, where public universities charge minimal administrative fees, enrolment rates among first-generation academics are significantly higher. Consequently, state-funded higher education acts as an effective equaliser across income brackets. Furthermore, universal access to advanced education yields substantial macroeconomic benefits for the nation. A highly educated populace expands the skilled labour force, which fosters technological innovation and attracts foreign enterprise."
         },
         {
           "step": 7,
-          "say": "For paragraph two, I add an example. A quiet street with fewer cars lets children cycle to school safely.",
-          "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air and safer streets matter, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems. For example, a school on a busy road would have cleaner air at playtime. The second reason is that safer streets protect children and cyclists from traffic. Fewer cars on the road means fewer collisions, so children and cyclists face far less danger. For example, a quiet street with fewer cars lets children cycle to school without fear."
+          "say": "Concession: I admit that funding costs a lot, but graduates' future taxes offset the cost.",
+          "build": "It is frequently argued that higher education should be funded entirely by the state rather than individual attendees. I completely agree with this view because universal tertiary schooling reduces socio-economic inequality and boosts overall national economic productivity. The primary rationale for subsidising university tuition is the promotion of social mobility. When high tuition fees are removed, students from underprivileged backgrounds can pursue professional careers without incurring crippling debt. For instance, in countries like Germany and Norway, where public universities charge minimal administrative fees, enrolment rates among first-generation academics are significantly higher. Consequently, state-funded higher education acts as an effective equaliser across income brackets. Furthermore, universal access to advanced education yields substantial macroeconomic benefits for the nation. A highly educated populace expands the skilled labour force, which fosters technological innovation and attracts foreign enterprise. Although funding these programmes requires considerable fiscal expenditure, the long-term tax revenues generated by high-earning graduates comfortably offset initial public costs."
+        },
+        {
+          "step": 7,
+          "say": "Result: I link back, concluding that tuition subsidies are a profitable long-term investment.",
+          "build": "It is frequently argued that higher education should be funded entirely by the state rather than individual attendees. I completely agree with this view because universal tertiary schooling reduces socio-economic inequality and boosts overall national economic productivity. The primary rationale for subsidising university tuition is the promotion of social mobility. When high tuition fees are removed, students from underprivileged backgrounds can pursue professional careers without incurring crippling debt. For instance, in countries like Germany and Norway, where public universities charge minimal administrative fees, enrolment rates among first-generation academics are significantly higher. Consequently, state-funded higher education acts as an effective equaliser across income brackets. Furthermore, universal access to advanced education yields substantial macroeconomic benefits for the nation. A highly educated populace expands the skilled labour force, which fosters technological innovation and attracts foreign enterprise. Although funding these programmes requires considerable fiscal expenditure, the long-term tax revenues generated by high-earning graduates comfortably offset initial public costs. Thus, subsidising tuition proves to be a profitable long-term investment rather than an economic liability."
         },
         {
           "step": 8,
-          "say": "I repeat my position and add no new idea. This is only part of an essay, which should be at least 250 words.",
-          "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air and safer streets matter, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems. For example, a school on a busy road would have cleaner air at playtime. The second reason is that safer streets protect children and cyclists from traffic. Fewer cars on the road means fewer collisions, so children and cyclists face far less danger. For example, a quiet street with fewer cars lets children cycle to school without fear. In conclusion, I partly agree that private cars should be banned from city centres, because cleaner air and safer streets matter, but a ban needs good public transport."
+          "say": "Conclusion, restatement: I restate my full agreement and both reasons, fairness and national competitiveness.",
+          "build": "It is frequently argued that higher education should be funded entirely by the state rather than individual attendees. I completely agree with this view because universal tertiary schooling reduces socio-economic inequality and boosts overall national economic productivity. The primary rationale for subsidising university tuition is the promotion of social mobility. When high tuition fees are removed, students from underprivileged backgrounds can pursue professional careers without incurring crippling debt. For instance, in countries like Germany and Norway, where public universities charge minimal administrative fees, enrolment rates among first-generation academics are significantly higher. Consequently, state-funded higher education acts as an effective equaliser across income brackets. Furthermore, universal access to advanced education yields substantial macroeconomic benefits for the nation. A highly educated populace expands the skilled labour force, which fosters technological innovation and attracts foreign enterprise. Although funding these programmes requires considerable fiscal expenditure, the long-term tax revenues generated by high-earning graduates comfortably offset initial public costs. Thus, subsidising tuition proves to be a profitable long-term investment rather than an economic liability. In conclusion, I firmly maintain that university tuition should be entirely free, as it promotes equitable social advancement and strengthens national competitiveness."
+        },
+        {
+          "step": 8,
+          "say": "Conclusion, final takeaway: I urge governments to prioritise tertiary funding for knowledge-based economies.",
+          "build": "It is frequently argued that higher education should be funded entirely by the state rather than individual attendees. I completely agree with this view because universal tertiary schooling reduces socio-economic inequality and boosts overall national economic productivity. The primary rationale for subsidising university tuition is the promotion of social mobility. When high tuition fees are removed, students from underprivileged backgrounds can pursue professional careers without incurring crippling debt. For instance, in countries like Germany and Norway, where public universities charge minimal administrative fees, enrolment rates among first-generation academics are significantly higher. Consequently, state-funded higher education acts as an effective equaliser across income brackets. Furthermore, universal access to advanced education yields substantial macroeconomic benefits for the nation. A highly educated populace expands the skilled labour force, which fosters technological innovation and attracts foreign enterprise. Although funding these programmes requires considerable fiscal expenditure, the long-term tax revenues generated by high-earning graduates comfortably offset initial public costs. Thus, subsidising tuition proves to be a profitable long-term investment rather than an economic liability. In conclusion, I firmly maintain that university tuition should be entirely free, as it promotes equitable social advancement and strengthens national competitiveness. Governments worldwide ought to prioritise tertiary funding to foster resilient knowledge-based economies."
         },
         {
           "step": 9,
-          "say": "I check the word count. A real exam essay needs at least 250 words, so this demo is only part of one. My position agrees throughout.",
-          "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air and safer streets matter, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems. For example, a school on a busy road would have cleaner air at playtime. The second reason is that safer streets protect children and cyclists from traffic. Fewer cars on the road means fewer collisions, so children and cyclists face far less danger. For example, a quiet street with fewer cars lets children cycle to school without fear. In conclusion, I partly agree that private cars should be banned from city centres, because cleaner air and safer streets matter, but a ban needs good public transport. "
+          "say": "Check: this model has 203 words. The exam needs at least 250 words, so my own essay must be at least that long.",
+          "build": "It is frequently argued that higher education should be funded entirely by the state rather than individual attendees. I completely agree with this view because universal tertiary schooling reduces socio-economic inequality and boosts overall national economic productivity. The primary rationale for subsidising university tuition is the promotion of social mobility. When high tuition fees are removed, students from underprivileged backgrounds can pursue professional careers without incurring crippling debt. For instance, in countries like Germany and Norway, where public universities charge minimal administrative fees, enrolment rates among first-generation academics are significantly higher. Consequently, state-funded higher education acts as an effective equaliser across income brackets. Furthermore, universal access to advanced education yields substantial macroeconomic benefits for the nation. A highly educated populace expands the skilled labour force, which fosters technological innovation and attracts foreign enterprise. Although funding these programmes requires considerable fiscal expenditure, the long-term tax revenues generated by high-earning graduates comfortably offset initial public costs. Thus, subsidising tuition proves to be a profitable long-term investment rather than an economic liability. In conclusion, I firmly maintain that university tuition should be entirely free, as it promotes equitable social advancement and strengthens national competitiveness. Governments worldwide ought to prioritise tertiary funding to foster resilient knowledge-based economies."
         }
       ],
-      "answer": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air and safer streets matter, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems. For example, a school on a busy road would have cleaner air at playtime. The second reason is that safer streets protect children and cyclists from traffic. Fewer cars on the road means fewer collisions, so children and cyclists face far less danger. For example, a quiet street with fewer cars lets children cycle to school without fear. In conclusion, I partly agree that private cars should be banned from city centres, because cleaner air and safer streets matter, but a ban needs good public transport. "
+      "answer": "It is frequently argued that higher education should be funded entirely by the state rather than individual attendees. I completely agree with this view because universal tertiary schooling reduces socio-economic inequality and boosts overall national economic productivity. The primary rationale for subsidising university tuition is the promotion of social mobility. When high tuition fees are removed, students from underprivileged backgrounds can pursue professional careers without incurring crippling debt. For instance, in countries like Germany and Norway, where public universities charge minimal administrative fees, enrolment rates among first-generation academics are significantly higher. Consequently, state-funded higher education acts as an effective equaliser across income brackets. Furthermore, universal access to advanced education yields substantial macroeconomic benefits for the nation. A highly educated populace expands the skilled labour force, which fosters technological innovation and attracts foreign enterprise. Although funding these programmes requires considerable fiscal expenditure, the long-term tax revenues generated by high-earning graduates comfortably offset initial public costs. Thus, subsidising tuition proves to be a profitable long-term investment rather than an economic liability. In conclusion, I firmly maintain that university tuition should be entirely free, as it promotes equitable social advancement and strengthens national competitiveness. Governments worldwide ought to prioritise tertiary funding to foster resilient knowledge-based economies."
     },
     "practice": [
       {
