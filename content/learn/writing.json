@@ -1974,39 +1974,39 @@
         "why": "Having ideas on both sides lets you compare them fairly."
       },
       {
-        "do": "Choose the side you think is stronger and argue it first. Keep the weaker side for the second body paragraph.",
-        "why": "A consistent order makes the essay easy to follow."
+        "do": "Decide which side is stronger. Plan the weaker side for body one, kept brief, and the stronger side for body two, expanded.",
+        "why": "The weaker side is bounded so the stronger side carries the argument, and the essay ends on your strongest point."
       },
       {
-        "do": "Write the introduction: paraphrase the topic and state which side you think is greater.",
-        "why": "The examiner needs your position early."
+        "do": "Write the introduction in two sentences: paraphrase the trend, then state which side is greater and why.",
+        "why": "The paraphrase shows you understood the trend, and the position sentence gives your verdict early."
       },
       {
-        "do": "Write body paragraph one on the first side. Give one or two points with an explanation and an example.",
-        "why": "One side per paragraph keeps the argument organised."
+        "do": "Write body one on the weaker side, kept brief: topic sentence, explanation, example, then a result sentence that concedes its force.",
+        "why": "Acknowledging this side fairly shows balance, but keeping it short stops it outweighing your argument."
       },
       {
-        "do": "Write body paragraph two on the other side. Use a contrast word and then say why it is less important.",
-        "why": "This is the weighing step. It shows why one side is greater."
+        "do": "Write body two on the stronger side, expanded: topic sentence with 'On the other hand', explanation, second point, then a result sentence weighing the sides.",
+        "why": "This is the weighing step. The longer paragraph and its comparison show why one side is greater."
       },
       {
-        "do": "Write a conclusion that repeats your position and gives the main reason. Add no new ideas.",
-        "why": "The conclusion confirms your answer to the question."
+        "do": "Write the conclusion in two sentences: evaluate the sides and repeat your verdict, then give your recommendation.",
+        "why": "The evaluation confirms your answer, and the recommendation ends firmly without adding a new idea."
       },
       {
-        "do": "Check that you chose a side, used the same order throughout and wrote at least 250 words.",
-        "why": "A list of points with no decision does not answer an 'outweigh' question."
+        "do": "Check that the weaker side is in body one, the stronger side in body two, and your verdict matches the introduction.",
+        "why": "A reversed order or a changed verdict makes the argument look unplanned and weakens your answer."
       }
     ],
     "tricks": [
       "Use weighing words: 'Although', 'Despite this', 'Nevertheless', 'on balance'. They show you are comparing.",
       "Say how big each point is: 'a minor drawback', 'a major benefit'.",
-      "Put your stronger side first and the weaker side second, and use the same order in the introduction and conclusion.",
+      "Put the weaker side in body one and the stronger side in body two, so the essay ends on your strongest point.",
       "Relevant example: give one short, real-world example in a single sentence, such as 'In Finland, for instance, ...'. Keep it specific and true."
     ],
     "traps": [
       "Listing advantages and disadvantages with no decision. Say which side is greater and why.",
-      "Giving the two sides unequal space. Make both paragraphs a similar length.",
+      "Giving the weaker side more space than the stronger one. Keep it brief and bounded, and expand the stronger side.",
       "Using a memorised essay that ignores the question. Examiners spot it at once, so answer the exact question you are given.",
       "Adding a new idea in the conclusion. Only repeat your main points there.",
       "Writing fewer than 250 words. A short essay loses marks, so practise until 260 to 290 words feels normal.",
@@ -2015,7 +2015,8 @@
     "checklist": [
       "Did I choose a side in the introduction and conclusion?",
       "Did I use weighing words to compare the two sides?",
-      "Did I keep the same order of sides?",
+      "Is the weaker side in body one and the stronger side in body two?",
+      "Does each body paragraph end with a result sentence?",
       "Is my conclusion free of new ideas?"
     ],
     "frames": [
@@ -2023,24 +2024,27 @@
         "name": "Introduction",
         "lines": [
           "More and more people [trend], and this has both advantages and disadvantages.",
-          "This essay will weigh the benefits and drawbacks of [topic].",
-          "In my view, the advantages of [topic] outweigh the disadvantages, because [reason]."
+          "Although [disadvantage] is a concern,",
+          "I argue that the gains in [advantage] clearly outweigh it, because [reason]."
         ]
       },
       {
         "name": "Weighing the sides",
         "lines": [
-          "Although [disadvantage] is a concern, it is a [minor / temporary] problem compared with [advantage].",
-          "The main benefit is that [advantage], which means that [result].",
-          "Despite this, [disadvantage] cannot be ignored. For example, in [country / place], [short real example]."
+          "One drawback of [topic] is that [disadvantage], which means that [explanation].",
+          "For example, in [country / place], [short real example].",
+          "Although this is a real problem, it is [minor / temporary] compared with [advantage].",
+          "On the other hand, the main benefit is that [advantage], which means that [explanation].",
+          "Furthermore, [second advantage], which [result].",
+          "As a result, [result that weighs the sides and favours the advantages]."
         ]
       },
       {
         "name": "Conclusion",
         "lines": [
-          "In conclusion, on balance, the advantages of [topic] outweigh the disadvantages.",
-          "Although [disadvantage] is a concern, [advantage] is far more important.",
-          "To sum up, I believe that [final thought about the topic]."
+          "In conclusion, although [disadvantage] is a concern,",
+          "the advantages of [topic] outweigh the disadvantages, because [advantage] is far more important.",
+          "Overall, I recommend that [final recommendation about the topic]."
         ]
       }
     ],
@@ -2051,68 +2055,102 @@
       "why": "The strong sentence uses a contrast word, says which side is smaller, and gives a specific reason why the other side is greater."
     },
     "demo": {
-      "prompt": "Many cities have introduced bike-sharing schemes. Do the advantages outweigh the disadvantages?",
+      "prompt": "In many countries, an increasing number of people choose to work from home. Do the advantages of this trend outweigh the disadvantages?",
       "moves": [
         {
           "step": 1,
-          "say": "I check the wording. 'Do the advantages outweigh the disadvantages?' asks me which side is greater, so I must say so clearly."
+          "say": "I underline 'work from home', 'advantages' and 'disadvantages'. The question asks which side is greater, so I must give a clear verdict."
         },
         {
           "step": 2,
-          "say": "I list two advantages and two disadvantages. Advantages: cheap, quick short trips and less traffic. Disadvantages: bikes on pavements and a risk of accidents."
+          "say": "I decide the advantages are greater, because autonomy and less commuting matter most. I will argue this side last, as my strongest point."
         },
         {
           "step": 3,
-          "say": "I think the advantages are stronger, so I argue them first. The disadvantages come second, as the weaker side."
+          "say": "Weaker side, disadvantages: isolation and blurred work-home boundaries. Example: remote software engineers who report burnout."
+        },
+        {
+          "step": 3,
+          "say": "Stronger side, advantages: no commute and flexible hours, which lift focus. Example: fewer office interruptions, so tasks finish faster."
         },
         {
           "step": 4,
-          "say": "I write the introduction. I paraphrase the topic and state which side I think is greater.",
-          "build": "In recent years, many cities have introduced bike-sharing schemes. In my view, the advantages outweigh the disadvantages, although bikes left on pavements remain a problem."
+          "say": "Introduction, paraphrase: I restate the rapid growth of remote work in my own words.",
+          "build": "The shift toward remote work and telecommuting has accelerated rapidly across numerous modern economies."
+        },
+        {
+          "step": 4,
+          "say": "Introduction, position: I concede the isolation and weaker team cohesion, then say the gains in autonomy outweigh them.",
+          "build": "The shift toward remote work and telecommuting has accelerated rapidly across numerous modern economies. While remote employment can foster social isolation and weaken team cohesion, I argue that the gains in work-life autonomy and reduced commuting stress clearly outweigh these drawbacks."
         },
         {
           "step": 5,
-          "say": "Body paragraph one covers the stronger side. I start with a topic sentence about the main advantage.",
-          "build": "In recent years, many cities have introduced bike-sharing schemes. In my view, the advantages outweigh the disadvantages, although bikes left on pavements remain a problem. The main advantage is that bike-sharing offers cheap, quick trips over short distances."
+          "say": "Topic sentence: I name the weaker side first: telecommuting brings psychological and organisational challenges.",
+          "build": "The shift toward remote work and telecommuting has accelerated rapidly across numerous modern economies. While remote employment can foster social isolation and weaken team cohesion, I argue that the gains in work-life autonomy and reduced commuting stress clearly outweigh these drawbacks. On the one hand, telecommuting introduces noticeable psychological and organisational challenges."
         },
         {
           "step": 5,
-          "say": "I explain the advantage and add an example to make it concrete for the reader.",
-          "build": "In recent years, many cities have introduced bike-sharing schemes. In my view, the advantages outweigh the disadvantages, although bikes left on pavements remain a problem. The main advantage is that bike-sharing offers cheap, quick trips over short distances. This means people can avoid buying a car for short journeys. For example, a commuter can ride a shared bike from the station to the office."
+          "say": "Explanation: blurred work and home boundaries lead to longer days and a sense of disconnection.",
+          "build": "The shift toward remote work and telecommuting has accelerated rapidly across numerous modern economies. While remote employment can foster social isolation and weaken team cohesion, I argue that the gains in work-life autonomy and reduced commuting stress clearly outweigh these drawbacks. On the one hand, telecommuting introduces noticeable psychological and organisational challenges. The blurring of domestic and professional boundaries often leads to extended workdays and chronic feelings of professional disconnection."
+        },
+        {
+          "step": 5,
+          "say": "Example: remote software engineers, who report more burnout when social contact falls.",
+          "build": "The shift toward remote work and telecommuting has accelerated rapidly across numerous modern economies. While remote employment can foster social isolation and weaken team cohesion, I argue that the gains in work-life autonomy and reduced commuting stress clearly outweigh these drawbacks. On the one hand, telecommuting introduces noticeable psychological and organisational challenges. The blurring of domestic and professional boundaries often leads to extended workdays and chronic feelings of professional disconnection. Studies among remote software engineers demonstrate that individuals operating in isolation frequently report elevated feelings of burnout due to diminished social interactions."
+        },
+        {
+          "step": 5,
+          "say": "Result: I concede these frictions are a real obstacle, which keeps this side bounded.",
+          "build": "The shift toward remote work and telecommuting has accelerated rapidly across numerous modern economies. While remote employment can foster social isolation and weaken team cohesion, I argue that the gains in work-life autonomy and reduced commuting stress clearly outweigh these drawbacks. On the one hand, telecommuting introduces noticeable psychological and organisational challenges. The blurring of domestic and professional boundaries often leads to extended workdays and chronic feelings of professional disconnection. Studies among remote software engineers demonstrate that individuals operating in isolation frequently report elevated feelings of burnout due to diminished social interactions. These communicative frictions undeniably represent a significant obstacle for distributed organisations."
         },
         {
           "step": 6,
-          "say": "Body paragraph two covers the weaker side. I use 'Although' to show the contrast and say why it matters less.",
-          "build": "In recent years, many cities have introduced bike-sharing schemes. In my view, the advantages outweigh the disadvantages, although bikes left on pavements remain a problem. The main advantage is that bike-sharing offers cheap, quick trips over short distances. This means people can avoid buying a car for short journeys. For example, a commuter can ride a shared bike from the station to the office. Although bikes left on pavements are a real problem, this is less serious, because cities can solve it with marked parking zones."
+          "say": "Topic sentence: with 'On the other hand', I turn to the stronger side: flexibility and productivity gains.",
+          "build": "The shift toward remote work and telecommuting has accelerated rapidly across numerous modern economies. While remote employment can foster social isolation and weaken team cohesion, I argue that the gains in work-life autonomy and reduced commuting stress clearly outweigh these drawbacks. On the one hand, telecommuting introduces noticeable psychological and organisational challenges. The blurring of domestic and professional boundaries often leads to extended workdays and chronic feelings of professional disconnection. Studies among remote software engineers demonstrate that individuals operating in isolation frequently report elevated feelings of burnout due to diminished social interactions. These communicative frictions undeniably represent a significant obstacle for distributed organisations. On the other hand, the benefits of working from home in terms of flexibility and productivity are far more substantial."
         },
         {
           "step": 6,
-          "say": "For paragraph two, I add an example. A city can fine bike operators whose bikes block the pavement.",
-          "build": "In recent years, many cities have introduced bike-sharing schemes. In my view, the advantages outweigh the disadvantages, although bikes left on pavements remain a problem. The main advantage is that bike-sharing offers cheap, quick trips over short distances. This means people can avoid buying a car for short journeys. For example, a commuter can ride a shared bike from the station to the office. Although bikes left on pavements are a real problem, this is less serious, because cities can solve it with marked parking zones. For example, a city can fine bike operators whose bikes block the pavement."
+          "say": "Explanation: skipping daily commutes frees time and energy for exercise, family or focused work.",
+          "build": "The shift toward remote work and telecommuting has accelerated rapidly across numerous modern economies. While remote employment can foster social isolation and weaken team cohesion, I argue that the gains in work-life autonomy and reduced commuting stress clearly outweigh these drawbacks. On the one hand, telecommuting introduces noticeable psychological and organisational challenges. The blurring of domestic and professional boundaries often leads to extended workdays and chronic feelings of professional disconnection. Studies among remote software engineers demonstrate that individuals operating in isolation frequently report elevated feelings of burnout due to diminished social interactions. These communicative frictions undeniably represent a significant obstacle for distributed organisations. On the other hand, the benefits of working from home in terms of flexibility and productivity are far more substantial. Eliminating long daily commutes saves employees substantial time and energy, which can be redirected into physical exercise, family commitments, or focused work."
+        },
+        {
+          "step": 6,
+          "say": "Second point: remote staff avoid office interruptions, which surveys link to sharper task completion.",
+          "build": "The shift toward remote work and telecommuting has accelerated rapidly across numerous modern economies. While remote employment can foster social isolation and weaken team cohesion, I argue that the gains in work-life autonomy and reduced commuting stress clearly outweigh these drawbacks. On the one hand, telecommuting introduces noticeable psychological and organisational challenges. The blurring of domestic and professional boundaries often leads to extended workdays and chronic feelings of professional disconnection. Studies among remote software engineers demonstrate that individuals operating in isolation frequently report elevated feelings of burnout due to diminished social interactions. These communicative frictions undeniably represent a significant obstacle for distributed organisations. On the other hand, the benefits of working from home in terms of flexibility and productivity are far more substantial. Eliminating long daily commutes saves employees substantial time and energy, which can be redirected into physical exercise, family commitments, or focused work. Furthermore, remote work enables staff to craft personalised environments free from common office interruptions, which empirical surveys link to sharper task completion rates."
+        },
+        {
+          "step": 6,
+          "say": "Result: I weigh the sides: the well-being and focus gains outweigh the isolation problems.",
+          "build": "The shift toward remote work and telecommuting has accelerated rapidly across numerous modern economies. While remote employment can foster social isolation and weaken team cohesion, I argue that the gains in work-life autonomy and reduced commuting stress clearly outweigh these drawbacks. On the one hand, telecommuting introduces noticeable psychological and organisational challenges. The blurring of domestic and professional boundaries often leads to extended workdays and chronic feelings of professional disconnection. Studies among remote software engineers demonstrate that individuals operating in isolation frequently report elevated feelings of burnout due to diminished social interactions. These communicative frictions undeniably represent a significant obstacle for distributed organisations. On the other hand, the benefits of working from home in terms of flexibility and productivity are far more substantial. Eliminating long daily commutes saves employees substantial time and energy, which can be redirected into physical exercise, family commitments, or focused work. Furthermore, remote work enables staff to craft personalised environments free from common office interruptions, which empirical surveys link to sharper task completion rates. The measurable enhancements to daily well-being and sustained focus substantially eclipse the solvable issues of workplace isolation."
         },
         {
           "step": 7,
-          "say": "I repeat my position and main reason, and add no new idea. This is only part of an essay, which should be at least 250 words.",
-          "build": "In recent years, many cities have introduced bike-sharing schemes. In my view, the advantages outweigh the disadvantages, although bikes left on pavements remain a problem. The main advantage is that bike-sharing offers cheap, quick trips over short distances. This means people can avoid buying a car for short journeys. For example, a commuter can ride a shared bike from the station to the office. Although bikes left on pavements are a real problem, this is less serious, because cities can solve it with marked parking zones. For example, a city can fine bike operators whose bikes block the pavement. In conclusion, the advantages of bike-sharing outweigh the disadvantages, mainly because it offers cheap, quick short trips."
+          "say": "Conclusion, evaluation: I restate the verdict: autonomy and less commuting strain make the advantages more compelling.",
+          "build": "The shift toward remote work and telecommuting has accelerated rapidly across numerous modern economies. While remote employment can foster social isolation and weaken team cohesion, I argue that the gains in work-life autonomy and reduced commuting stress clearly outweigh these drawbacks. On the one hand, telecommuting introduces noticeable psychological and organisational challenges. The blurring of domestic and professional boundaries often leads to extended workdays and chronic feelings of professional disconnection. Studies among remote software engineers demonstrate that individuals operating in isolation frequently report elevated feelings of burnout due to diminished social interactions. These communicative frictions undeniably represent a significant obstacle for distributed organisations. On the other hand, the benefits of working from home in terms of flexibility and productivity are far more substantial. Eliminating long daily commutes saves employees substantial time and energy, which can be redirected into physical exercise, family commitments, or focused work. Furthermore, remote work enables staff to craft personalised environments free from common office interruptions, which empirical surveys link to sharper task completion rates. The measurable enhancements to daily well-being and sustained focus substantially eclipse the solvable issues of workplace isolation. In conclusion, although working from home can generate feelings of solitude, its capacity to grant temporal autonomy and reduce commuting strain makes its advantages far more compelling."
+        },
+        {
+          "step": 7,
+          "say": "Conclusion, recommendation: I recommend flexible hybrid frameworks that keep the benefits and limit the downsides.",
+          "build": "The shift toward remote work and telecommuting has accelerated rapidly across numerous modern economies. While remote employment can foster social isolation and weaken team cohesion, I argue that the gains in work-life autonomy and reduced commuting stress clearly outweigh these drawbacks. On the one hand, telecommuting introduces noticeable psychological and organisational challenges. The blurring of domestic and professional boundaries often leads to extended workdays and chronic feelings of professional disconnection. Studies among remote software engineers demonstrate that individuals operating in isolation frequently report elevated feelings of burnout due to diminished social interactions. These communicative frictions undeniably represent a significant obstacle for distributed organisations. On the other hand, the benefits of working from home in terms of flexibility and productivity are far more substantial. Eliminating long daily commutes saves employees substantial time and energy, which can be redirected into physical exercise, family commitments, or focused work. Furthermore, remote work enables staff to craft personalised environments free from common office interruptions, which empirical surveys link to sharper task completion rates. The measurable enhancements to daily well-being and sustained focus substantially eclipse the solvable issues of workplace isolation. In conclusion, although working from home can generate feelings of solitude, its capacity to grant temporal autonomy and reduce commuting strain makes its advantages far more compelling. Organisations that adopt flexible hybrid frameworks will likely capture these benefits while mitigating the downsides."
         },
         {
           "step": 8,
-          "say": "I check that I chose a side and kept the same order throughout. A real exam essay needs at least 250 words.",
-          "build": "In recent years, many cities have introduced bike-sharing schemes. In my view, the advantages outweigh the disadvantages, although bikes left on pavements remain a problem. The main advantage is that bike-sharing offers cheap, quick trips over short distances. This means people can avoid buying a car for short journeys. For example, a commuter can ride a shared bike from the station to the office. Although bikes left on pavements are a real problem, this is less serious, because cities can solve it with marked parking zones. For example, a city can fine bike operators whose bikes block the pavement. In conclusion, the advantages of bike-sharing outweigh the disadvantages, mainly because it offers cheap, quick short trips. "
+          "say": "Check: this model has 227 words. The exam needs at least 250 words, so my own essay must be at least that long.",
+          "build": "The shift toward remote work and telecommuting has accelerated rapidly across numerous modern economies. While remote employment can foster social isolation and weaken team cohesion, I argue that the gains in work-life autonomy and reduced commuting stress clearly outweigh these drawbacks. On the one hand, telecommuting introduces noticeable psychological and organisational challenges. The blurring of domestic and professional boundaries often leads to extended workdays and chronic feelings of professional disconnection. Studies among remote software engineers demonstrate that individuals operating in isolation frequently report elevated feelings of burnout due to diminished social interactions. These communicative frictions undeniably represent a significant obstacle for distributed organisations. On the other hand, the benefits of working from home in terms of flexibility and productivity are far more substantial. Eliminating long daily commutes saves employees substantial time and energy, which can be redirected into physical exercise, family commitments, or focused work. Furthermore, remote work enables staff to craft personalised environments free from common office interruptions, which empirical surveys link to sharper task completion rates. The measurable enhancements to daily well-being and sustained focus substantially eclipse the solvable issues of workplace isolation. In conclusion, although working from home can generate feelings of solitude, its capacity to grant temporal autonomy and reduce commuting strain makes its advantages far more compelling. Organisations that adopt flexible hybrid frameworks will likely capture these benefits while mitigating the downsides."
         }
       ],
-      "answer": "In recent years, many cities have introduced bike-sharing schemes. In my view, the advantages outweigh the disadvantages, although bikes left on pavements remain a problem. The main advantage is that bike-sharing offers cheap, quick trips over short distances. This means people can avoid buying a car for short journeys. For example, a commuter can ride a shared bike from the station to the office. Although bikes left on pavements are a real problem, this is less serious, because cities can solve it with marked parking zones. For example, a city can fine bike operators whose bikes block the pavement. In conclusion, the advantages of bike-sharing outweigh the disadvantages, mainly because it offers cheap, quick short trips. "
+      "answer": "The shift toward remote work and telecommuting has accelerated rapidly across numerous modern economies. While remote employment can foster social isolation and weaken team cohesion, I argue that the gains in work-life autonomy and reduced commuting stress clearly outweigh these drawbacks. On the one hand, telecommuting introduces noticeable psychological and organisational challenges. The blurring of domestic and professional boundaries often leads to extended workdays and chronic feelings of professional disconnection. Studies among remote software engineers demonstrate that individuals operating in isolation frequently report elevated feelings of burnout due to diminished social interactions. These communicative frictions undeniably represent a significant obstacle for distributed organisations. On the other hand, the benefits of working from home in terms of flexibility and productivity are far more substantial. Eliminating long daily commutes saves employees substantial time and energy, which can be redirected into physical exercise, family commitments, or focused work. Furthermore, remote work enables staff to craft personalised environments free from common office interruptions, which empirical surveys link to sharper task completion rates. The measurable enhancements to daily well-being and sustained focus substantially eclipse the solvable issues of workplace isolation. In conclusion, although working from home can generate feelings of solitude, its capacity to grant temporal autonomy and reduce commuting strain makes its advantages far more compelling. Organisations that adopt flexible hybrid frameworks will likely capture these benefits while mitigating the downsides."
     },
     "practice": [
       {
         "prompt": "Write the introduction for this invented question: 'Many supermarkets now use self-checkout tills. Do the advantages outweigh the disadvantages?' Paraphrase the topic and state which side is greater. Use the steps.",
         "answer": "Self-checkout tills have spread quickly through supermarkets in recent years. In my view, the advantages outweigh the disadvantages, although some shoppers still find them confusing.",
-        "why": "Step 4 paraphrases the topic and states which side is greater. The answer uses new wording for the topic and gives the opinion early, so the examiner sees the position at once."
+        "why": "Step 4 writes two sentences: a paraphrase of the topic, then the verdict. The answer gives the opinion early, so the examiner sees the position at once."
       },
       {
-        "prompt": "The question is: 'Many people now take short flights for holidays. Do the advantages outweigh the disadvantages?' Body paragraph two covers the weaker side, but this topic sentence states an advantage: 'Short flights are fast and popular with families.' Rewrite it to cover the weaker side, with a contrast word and why it matters less. Use the steps.",
-        "answer": "Although short flights add to carbon emissions, this disadvantage is less serious than the convenience they offer families.",
-        "why": "Step 6 covers the weaker side. The original states an advantage, so it belongs in body one. The rewrite opens with a contrast word, names a disadvantage, and says why it matters less."
+        "prompt": "The question is: 'Many people now take short flights for holidays. Do the advantages outweigh the disadvantages?' Body paragraph one covers the weaker side, but this topic sentence states an advantage: 'Short flights are fast and popular with families.' Rewrite it to name the weaker side as a topic sentence, with a balance phrase such as 'On the one hand'. Use the steps.",
+        "answer": "On the one hand, short flights add significantly to carbon emissions.",
+        "why": "Step 5 writes body one, the weaker side, kept brief. The original states an advantage, which belongs in body two. The rewrite names a disadvantage as the topic sentence."
       }
     ]
   }
