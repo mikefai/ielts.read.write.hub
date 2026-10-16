@@ -20,7 +20,9 @@
         { "step": 2, "say": "I underline the keywords in the statement: supermarkets and 2001. The year is a number, so it is easy to spot in the text.", "mark": "2001" },
         { "step": 3, "say": "I predict a paraphrase. 'Supermarkets started buying' might be written as 'began selling bread to supermarkets'.", "mark": "began selling bread to supermarkets" },
         { "step": 4, "say": "I find 2001 in paragraph B and read the sentences around it. The sentence after it talks about sales, so I keep reading.", "mark": "In 2001 the owners began selling bread to supermarkets" },
-        { "step": 5, "say": "I confirm with a line. 'Began selling bread to supermarkets' says the same as the statement, so I answer TRUE.", "mark": "began selling bread to supermarkets" }
+        { "step": 5, "say": "I confirm with a line. 'Began selling bread to supermarkets' says the same as the statement, so I answer TRUE.", "mark": "began selling bread to supermarkets" },
+        { "step": 6, "say": "I check the clock, about 20 minutes per passage, and I would move on if stuck." },
+        { "step": 7, "say": "I never leave a blank. I would guess before time ends, because there is no negative marking." }
       ],
       "answer": "TRUE. The line 'began selling bread to supermarkets' says the same thing as the statement."
     },
@@ -45,7 +47,8 @@
       "Most gap-filling and True/False types follow the order of the passage. If question 5 is in paragraph B, question 6 will be later in paragraph B or after it.",
       "Do the easy question types first, such as short gap-fills. Leave long matching tasks until you have time to think.",
       "Check the word limit in the instructions. 'No more than two words' means three words is wrong, even if the idea is right.",
-      "Copy words from the passage exactly. Do not change the form of a word unless the sentence needs it."
+      "Copy words from the passage exactly. Do not change the form of a word unless the sentence needs it.",
+      "Read the instructions of each question group first, such as the word limit or 'any letter more than once'. The rule applies to every question in the group."
     ],
     "traps": [
       "Spelling counts. A correct answer with a wrong spelling gets no mark, so copy the word letter by letter from the passage.",
@@ -171,6 +174,7 @@
         { "step": 3, "say": "I read the whole paragraph. I look for opinion words such as 'argues' and 'disagrees', and I note who says each one.", "mark": "Dr Patel argues that this would reduce pollution and noise." },
         { "step": 4, "say": "Does the writer clearly agree? The writer does not say cars should be banned, so the answer is not YES.", "mark": "The writer disagrees with a total ban" },
         { "step": 5, "say": "Does the writer clearly disagree? Yes, the writer disagrees with a total ban. So the answer is NO.", "mark": "The writer disagrees with a total ban" },
+        { "step": 6, "say": "If the writer gave no view on this idea, I would answer NOT GIVEN. This statement does not need that, because the writer does give a view." },
         { "step": 7, "say": "Before I answer, I check who is speaking. Dr Patel's view does not count, because the question asks only about the writer.", "mark": "Dr Patel argues that this would reduce pollution and noise." }
       ],
       "answer": "NO. The writer disagrees with a total ban. Dr Patel's view does not count."
@@ -287,7 +291,9 @@
       "Choosing an option because it contains words copied from the passage. Copied words are often a trick. Check the meaning instead.",
       "Choosing an option because it is true in real life. Answer only from the passage.",
       "Reading only one sentence. The answer often needs the sentence before or after as well.",
-      "Picking more or fewer answers than the question asks. Check the number in the instructions."
+      "Picking more or fewer answers than the question asks. Check the number in the instructions.",
+      "Repeating the passage's words with the meaning reversed, often by adding 'not' or 'never' or changing a condition such as 'only if'. Read the whole option before you choose.",
+      "Choosing a sweeping claim or a minor detail. An option that is too broad (with 'all' or 'only') or too narrow (one small detail) is wrong."
     ],
     "example": {
       "text": "Maya started cycling to work to save money. After a month she noticed she felt more awake in meetings. She also found she was spending less on fuel than she expected. By the end of the year she had saved enough for a holiday.",
@@ -423,8 +429,8 @@
     "title": "Sentence completion",
     "what": "You get sentences with a gap. You fill each gap with words from the passage, inside the word limit. The finished sentence must make sense and have correct grammar.",
     "steps": [
-      { "do": "Read the word limit in the instructions first, for example NO MORE THAN TWO WORDS.", "why": "An answer over the limit gets no mark." },
-      { "do": "Read the sentence with the gap. Ask what kind of word fits: a noun, a verb, an adjective or a number.", "why": "Grammar tells you the word type, so you know what to look for." },
+      { "do": "Read the word limit in the instructions first, for example NO MORE THAN TWO WORDS.", "why": "An answer over the limit gets no mark. A hyphenated word, such as 'well-known', counts as one word." },
+      { "do": "Look at the words just before and after the gap, such as a/an, the or 'capable of', to decide the word type.", "why": "A/an means a singular countable noun, and a preposition is followed by a noun or an -ing form." },
       { "do": "Underline the keywords in the sentence. Find them in the passage. Answers follow the order of the passage.", "why": "The keywords take you to the right place without reading everything." },
       { "do": "Read the passage sentence around the keywords. It says the same idea in different words.", "why": "The sentence in the question is a paraphrase (the same idea in different words) of the passage." },
       { "do": "Copy the missing word or words exactly from the passage.", "why": "The test marks the exact words and the exact spelling." },
@@ -473,11 +479,11 @@
       "moves": [
         {
           "step": 1,
-          "say": "The limit is ONE WORD ONLY, so I will write just one word in the gap."
+          "say": "The limit is ONE WORD ONLY, so I will write just one word in the gap. A hyphenated word such as 'well-known' would also count as one."
         },
         {
           "step": 2,
-          "say": "The gap comes after 'the', so a noun fits. I am looking for a thing that gets painted, not an action."
+          "say": "The words around the gap are 'the' before and 'green' after, so a noun fits. I am looking for a thing that gets painted, not an action."
         },
         {
           "step": 3,
@@ -527,10 +533,10 @@
     "title": "Summary completion (words from the passage)",
     "what": "You get a short summary of part of the passage, with gaps. You fill each gap with words from the passage, inside the word limit. The summary uses different words from the passage, so you must match the meaning.",
     "steps": [
-      { "do": "Read the word limit in the instructions first.", "why": "An answer over the limit gets no mark." },
+      { "do": "Read the word limit in the instructions first.", "why": "An answer over the limit gets no mark. A hyphenated word, such as 'long-term', counts as one word." },
       { "do": "Read the whole summary once, ignoring the gaps. Find the topic and the main idea.", "why": "You understand the story before you search, so the gaps make more sense." },
       { "do": "Find which part of the passage the summary covers. Use the title and the keywords to find it.", "why": "The summary often covers only one or two paragraphs, so you do not need the whole text." },
-      { "do": "Read each gap sentence. Decide the word type that fits: a noun, a verb, an adjective or a number.", "why": "Grammar narrows down what you are looking for." },
+      { "do": "Look at the words before and after each gap, such as a/an, the or a preposition, to decide the word type.", "why": "A/an means a singular countable noun, and a preposition is followed by a noun or an -ing form." },
       { "do": "Find the matching idea in the passage. The summary is a paraphrase, so look for the meaning, not the same words.", "why": "The gap word is in the passage, next to the paraphrase of the sentence." },
       { "do": "Copy the answer exactly from the passage. Do not change the form.", "why": "The test marks exact words and exact spelling." },
       { "do": "Read the finished sentence. Check the grammar before and after the gap and the word limit.", "why": "A correct answer fits the sentence both in meaning and in grammar." }
@@ -577,7 +583,7 @@
       "moves": [
         {
           "step": 1,
-          "say": "I read the limit first: NO MORE THAN TWO WORDS for each gap. Both answers must stay within it."
+          "say": "I read the limit first: NO MORE THAN TWO WORDS for each gap. A hyphenated word, such as 'long-term', counts as one word, so both answers must stay within it."
         },
         {
           "step": 2,
@@ -590,7 +596,7 @@
         },
         {
           "step": 4,
-          "say": "I see gap 1 comes after 'relocated to the', so I need a place. Gap 2 comes after 'more than', so I need a number."
+          "say": "Gap 1 comes after 'the', so a singular noun fits: a place. Gap 2 comes after 'more than', so a number fits."
         },
         {
           "step": 5,
@@ -762,7 +768,7 @@
     "steps": [
       { "do": "Read the word limit first. ONE WORD ONLY is strict, so write one word.", "why": "An answer over the limit gets no mark." },
       { "do": "Read the headings of the notes. They usually match the order and the parts of the passage.", "why": "The headings tell you where in the passage to look." },
-      { "do": "For each gap, predict what is missing: a number, a name, a place or an object.", "why": "Knowing the answer type helps you spot the answer quickly." },
+      { "do": "For each gap, check the words before and after it, such as a/an or a preposition, then predict the answer type.", "why": "A/an means a singular countable noun, and a preposition is followed by a noun or an -ing form." },
       { "do": "Find the heading's topic in the passage. Underline the keywords next to the gap.", "why": "The keywords take you to the right sentence." },
       { "do": "Read the sentence around the keywords. The missing detail is nearby.", "why": "Notes copy the passage's facts but drop the small words." },
       { "do": "Copy the answer exactly from the passage. Do not change the form.", "why": "The test marks exact words and exact spelling." },
@@ -818,7 +824,7 @@
         },
         {
           "step": 3,
-          "say": "The gap asks how many beds there are, so I predict a number word."
+          "say": "The words before the gap are 'Raised beds:', and the question asks how many, so a number word fits."
         },
         {
           "step": 4,
@@ -969,7 +975,7 @@
     "what": "You get a list of headings and a passage split into lettered paragraphs. You choose the heading that gives the main idea of each paragraph. There are more headings than paragraphs, and each heading is used only once.",
     "steps": [
       {
-        "do": "Read the list of headings first. Underline the key words in each one.",
+        "do": "Do this task before the detail questions. Read the headings and underline the key words in each one.",
         "why": "You know what to look for before you read, which saves time."
       },
       {
@@ -1003,7 +1009,7 @@
       "moves": [
         {
           "step": 1,
-          "say": "I read the five headings first. I underline the key words in each one, so I know what to look for."
+          "say": "This task comes before the detail questions on this passage. I read the five headings and underline the key words in each one."
         },
         {
           "step": 2,
@@ -1104,7 +1110,8 @@
       "Do the easy paragraphs first. Every heading you cross out makes the hard paragraphs easier.",
       "Read the first and last sentence before anything else. You often find the answer without reading the middle.",
       "There are extra headings on purpose. Do not worry if some are never used.",
-      "Look for repeated ideas across the paragraph, not a single word. The main idea is what the paragraph keeps coming back to."
+      "Look for repeated ideas across the paragraph, not a single word. The main idea is what the paragraph keeps coming back to.",
+      "Do Matching Headings first, because understanding each paragraph makes later detail questions faster."
     ],
     "traps": [
       "Choosing a heading because one of its words appears in the paragraph. That word may be only a minor detail, so check the main idea.",
@@ -1159,7 +1166,7 @@
         "why": "The instructions tell you the rule. Different tests can have different rules."
       },
       {
-        "do": "Read all the statements. Underline the key words in each one.",
+        "do": "Read all the statements. Underline the key words and notice the lead-in phrase, such as 'a description of'.",
         "why": "You know what to look for in every paragraph, so you read only once."
       },
       {
@@ -1193,7 +1200,7 @@
         },
         {
           "step": 2,
-          "say": "I underline the key words in the statement: grew, and stopped charging. These are my search words."
+          "say": "I underline grew and stopped charging. The lead-in 'the number of visitors grew' states a change in numbers, so I look for a figure before and after the change."
         },
         {
           "step": 3,
@@ -1263,7 +1270,8 @@
       "Do these questions last. They take the most time, so give your time to easier questions first.",
       "Tick the statements you have answered. Paragraphs you have already read are then quicker to scan.",
       "Search for rare words and names first, such as numbers, dates and capital letters. They are easy to find.",
-      "When the instructions say you may use any letter more than once, a paragraph you have used can be used again. Do not rule it out."
+      "When the instructions say you may use any letter more than once, a paragraph you have used can be used again. Do not rule it out.",
+      "Lead-in guide: 'a description of' = look for physical details, appearance or technical features; 'an explanation of why' = look for cause words (because, owing to, as a result, the main reason); 'a reference to the fact that' = look for a study, report, event or verified phenomenon."
     ],
     "traps": [
       "Expecting the answers in order. They are not, so do each statement separately.",
