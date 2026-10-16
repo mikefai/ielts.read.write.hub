@@ -115,3 +115,22 @@ test('renderNote orders sections', () => {
   assert.ok(at.every(i => i >= 0));
   assert.ok(at[0] < at[1] && at[1] < at[2] && at[2] < at[3]);
 });
+
+test('renderPaired puts each demo move in the same row as its step', async () => {
+  const { renderNote } = await import('../assets/core/learn.js');
+  const n = { id: 'x', title: 'T', what: 'w', steps: [{ do: 'DO-ONE', why: 'a' }, { do: 'DO-TWO', why: 'b' }, { do: 'DO-THREE', why: 'c' }],
+    demo: { prompt: 'p', moves: [{ step: 1, say: 'SAY-A' }, { step: 1, say: 'SAY-B' }, { step: 3, say: 'SAY-C' }, { step: 3, say: 'SAY-D' }], answer: 'ans' } };
+  const rows = renderNote(n).split('<li class="row">').slice(1);
+  assert.equal(rows.length, 3);
+  assert.ok(rows[0].includes('DO-ONE') && rows[0].includes('SAY-A') && rows[0].includes('SAY-B'));
+  assert.ok(rows[1].includes('DO-TWO') && rows[1].includes('Not needed in this example') && !rows[1].includes('SAY-'));
+  assert.ok(rows[2].includes('DO-THREE') && rows[2].includes('SAY-C') && rows[2].includes('SAY-D'));
+});
+test('paired note keeps both headings once and no standalone steps list', async () => {
+  const { renderNote } = await import('../assets/core/learn.js');
+  const n = { id: 'x', title: 'T', what: 'w', steps: [{ do: 'd', why: 'y' }],
+    demo: { prompt: 'p', moves: [{ step: 1, say: 's' }], answer: 'a' } };
+  const h = renderNote(n);
+  assert.equal(h.split('Do it in this order').length, 2);
+  assert.equal(h.split("Watch how it's done").length, 2);
+});

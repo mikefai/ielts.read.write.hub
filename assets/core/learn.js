@@ -18,15 +18,29 @@ function example(ex) {
   return sec('Worked example', `<div class="example">${b}</div>`);
 }
 
+const moveHtml = m => `<li class="move"><span class="move-label">Step ${m.step}</span><p>${esc(m.say)}</p>`
+  + (m.mark ? `<p class="quote">"<mark>${esc(m.mark)}</mark>"</p>` : '')
+  + (m.build ? `<div class="build"><b>So far:</b> ${esc(m.build)}</div>` : '') + '</li>';
+const demoIntro = d => `<p><b>Prompt:</b> ${esc(d.prompt)}</p>` + (d.text ? `<p class="passage">${esc(d.text)}</p>` : '');
+
 export function renderDemo(n) {
   const d = n.demo;
   if (!d) return '';
-  const moves = d.moves.map(m => `<li class="move"><span class="move-label">Step ${m.step}</span><p>${esc(m.say)}</p>`
-    + (m.mark ? `<p class="quote">"<mark>${esc(m.mark)}</mark>"</p>` : '')
-    + (m.build ? `<div class="build"><b>So far:</b> ${esc(m.build)}</div>` : '') + '</li>').join('');
-  return sec("Watch how it's done", `<p><b>Prompt:</b> ${esc(d.prompt)}</p>`
-    + (d.text ? `<p class="passage">${esc(d.text)}</p>` : '')
-    + `<ol class="demo">${moves}</ol><p><b>Answer:</b> ${esc(d.answer)}</p>`);
+  return sec("Watch how it's done", demoIntro(d) + `<ol class="demo">${d.moves.map(moveHtml).join('')}</ol><p><b>Answer:</b> ${esc(d.answer)}</p>`);
+}
+
+// Steps and demo side by side: each step sits in the same row as the demo moves that perform it.
+export function renderPaired(n) {
+  const d = n.demo;
+  const rows = n.steps.map((s, i) => {
+    const ms = d.moves.filter(m => m.step === i + 1);
+    return `<li class="row"><div class="step-cell step"><span class="n">${i + 1}</span><b>${esc(s.do)}</b><span class="why">${esc(s.why)}</span></div>`
+      + `<div class="demo-cell"><span class="cell-label">How it's done</span>`
+      + (ms.length ? `<ol class="demo">${ms.map(moveHtml).join('')}</ol>` : '<p class="no-move">Not needed in this example.</p>') + '</div></li>';
+  }).join('');
+  return `<section class="pairing"><h3 class="example-q">The example</h3>${demoIntro(d)}`
+    + `<div class="pair-head"><h2>Do it in this order</h2><h2>Watch how it's done</h2></div><ol class="pair">${rows}</ol>`
+    + `<p class="answer"><b>Answer:</b> ${esc(d.answer)}</p></section>`;
 }
 
 export function renderPractice(n) {
@@ -42,8 +56,9 @@ export function renderPractice(n) {
 export function renderNote(n) {
   return `<article class="note"><h1>${esc(n.title)}</h1>`
     + sec('What this is', `<p>${esc(n.what)}</p>`)
-    + sec('Do it in this order', `<ol>${n.steps.map(s => `<li class="step"><b>${esc(s.do)}</b><span>${esc(s.why)}</span></li>`).join('')}</ol>`)
-    + renderDemo(n) + renderPractice(n)
+    + (n.demo ? renderPaired(n)
+      : sec('Do it in this order', `<ol>${n.steps.map(s => `<li class="step"><b>${esc(s.do)}</b><span>${esc(s.why)}</span></li>`).join('')}</ol>`))
+    + renderPractice(n)
     + (n.tricks?.length ? sec('Tricks', list(n.tricks, 'trick', 'Trick')) : '')
     + (n.traps?.length ? sec('Traps to avoid', list(n.traps, 'trap', 'Trap')) : '')
     + example(n.example)

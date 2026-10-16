@@ -31,3 +31,23 @@
   .note dl { grid-template-columns: 1fr; }
   .learn-nav { flex-direction: column; }
 }
+/* steps and demo side by side */
+.note { max-width: 66rem; }
+.note > section:not(.pairing), .note > h1 { max-width: 46rem; }
+.note .pairing { margin-top: 1.4rem; }
+.note .example-q { margin: 0 0 .3rem; }
+.note .pair-head { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
+.note .pair { list-style: none; padding: 0; margin: 0; }
+.note .row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; align-items: start; margin: .6rem 0; }
+.note .step-cell { margin: 0; }
+.note .step .n { display: inline-block; min-width: 1.7em; text-align: center; margin: 0 0 .3rem; padding: .05rem .4rem; font-size: .85em; font-weight: 700; color: var(--ink); border: 1px solid var(--ink); border-radius: 999px; }
+.note .row .demo { margin: 0; }
+.note .row .move { margin: 0 0 .5rem; }
+.note .cell-label { display: none; font-size: .8em; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+.note .no-move { margin: 0; padding: .6rem .8rem; color: var(--muted); font-style: italic; border: 1px dashed var(--line); border-radius: 10px; }
+.note .answer { margin-top: 1rem; padding: .6rem .8rem; border-left: 4px solid var(--accent); }
+@media (max-width: 800px) {
+  .note .pair-head { display: none; }
+  .note .row { grid-template-columns: 1fr; gap: .4rem; }
+  .note .cell-label { display: block; margin: .2rem 0; }
+}
