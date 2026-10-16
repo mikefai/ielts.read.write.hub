@@ -1438,41 +1438,41 @@
     "what": "You are given two different views and asked to discuss both, then say what you think. Task 2 needs at least 250 words. The examiner wants a fair look at each view, and a clear opinion of your own, which must not be left out.",
     "steps": [
       {
-        "do": "Underline the two views in the question. Write them as two short labels, such as 'view A' and 'view B'.",
+        "do": "Underline the two views and label them 'view A' and 'view B'. You will later decide which one you hold.",
         "why": "You must discuss both views, so naming them first stops you forgetting one."
       },
       {
-        "do": "Decide your own opinion now. It can favour one view or sit between the two.",
-        "why": "Your opinion must appear in the introduction and conclusion, so you need it before you write."
+        "do": "Decide which view you hold. Put that view second, in body two, and the view you do not hold first, in body one.",
+        "why": "Your opinion must appear in the introduction and conclusion, and body two is where you argue for it."
       },
       {
-        "do": "Find one or two reasons for each view. Choose one example for each reason.",
-        "why": "Each view needs real support, not just a statement."
+        "do": "Find one reason and one example for each view. Plan them now so each body paragraph has its content ready.",
+        "why": "Each view needs real support, and a planned example makes the body paragraph specific."
       },
       {
-        "do": "Write the introduction: paraphrase the topic, say both views exist, and give your opinion.",
-        "why": "This shows the examiner that you answered all parts of the question."
+        "do": "Write the introduction in two sentences: paraphrase both views, then give your opinion.",
+        "why": "The paraphrase shows you understood both views, and the opinion sentence shows your stance early."
       },
       {
-        "do": "Write body paragraph one for the first view. Give one reason, an explanation and an example.",
-        "why": "One paragraph per view keeps the essay balanced and easy to follow."
+        "do": "Write body one for the view you do not hold: topic sentence, explanation, example, then a result sentence that sums it up fairly.",
+        "why": "Giving this view a full, fair hearing first shows the examiner both sides before your own argument."
       },
       {
-        "do": "Write body paragraph two for the second view in the same way. Use a linking word such as 'However'.",
-        "why": "A link between the two paragraphs shows the reader you are comparing them."
+        "do": "Write body two for your view: topic sentence opening with 'Nevertheless', explanation, example and a result sentence that links back.",
+        "why": "The contrast word signals your turn, and the result sentence makes your stance the last word of the paragraph."
       },
       {
-        "do": "Write a conclusion that sums up both views and repeats your opinion. Add no new ideas.",
-        "why": "The conclusion is the last place the examiner checks for your opinion."
+        "do": "Write the conclusion in two sentences: synthesise both views and restate your stance, then add one forward-looking remark.",
+        "why": "The restatement keeps your opinion in the conclusion, and the forward-looking remark ends firmly without a new idea."
       },
       {
-        "do": "Check that both views got fair space and that your opinion appears twice.",
-        "why": "The most common error is forgetting the opinion, which limits your score."
+        "do": "Check that body one covers the view you do not hold, body two is yours, and your opinion appears twice.",
+        "why": "The most common errors are a missing opinion and the wrong body order, and both limit your score."
       }
     ],
     "tricks": [
       "Use balance phrases: 'On the one hand', 'On the other hand', 'Supporters of this view argue that'.",
-      "Give your opinion with a soft phrase: 'I believe the second view is more convincing because ...'.",
+      "Give your opinion with a soft phrase: 'I believe the view I hold is more convincing because ...'.",
       "Give both paragraphs a similar length. An unbalanced essay looks unfair.",
       "Relevant example: give one short, real-world example in a single sentence, such as 'In Finland, for instance, ...'. Keep it specific and true."
     ],
@@ -1485,33 +1485,34 @@
       "Using informal words such as 'kids'. Write 'children'. 'A lot of' is fine in speech, but in an essay prefer 'many' or 'a large number of' with countable nouns, and 'a great deal of' or 'much' with uncountable nouns."
     ],
     "checklist": [
-      "Do I have one paragraph for each view?",
+      "Do I have one paragraph for each view, with the view I hold in body two?",
       "Is my own opinion clear in the introduction and the conclusion?",
-      "Do both views have a reason, an explanation and an example?",
+      "Do both body paragraphs have a topic sentence, an explanation, an example and a result sentence?",
       "Is my conclusion free of new ideas?"
     ],
     "frames": [
       {
         "name": "Introduction",
         "lines": [
-          "People have different opinions about whether [view A] or [view B].",
           "While some argue that [view A], others believe that [view B].",
-          "This essay will discuss both views, and I will argue that [my opinion]."
+          "Although [view you do not hold] has some merit, I believe that [your opinion],",
+          "because [reason one] and [reason two]."
         ]
       },
       {
         "name": "Body paragraphs",
         "lines": [
-          "Supporters of [view A] argue that [main idea] because [reason].",
-          "On the other hand, those who favour [view B] point out that [main idea].",
-          "For example, in [country / place], [short real example]."
+          "Supporters of [view you do not hold] argue that [main idea] because [reason].",
+          "Nevertheless, I hold that [your view], because [reason].",
+          "For example, in [country / place], [short real example].",
+          "As a result, [result that links back to the paragraph's view]."
         ]
       },
       {
         "name": "Conclusion",
         "lines": [
-          "In conclusion, although [view A] has some merit, I believe that [my opinion].",
-          "To sum up, [view A] and [view B] both have strengths, but [my opinion] is more convincing.",
+          "In conclusion, although [view A] has some merit,",
+          "I believe that [your opinion], because [reason one] and [reason two] are stronger.",
           "Overall, it seems that [final thought about the topic]."
         ]
       }
@@ -1523,73 +1524,102 @@
       "why": "The strong sentence names both views clearly, uses a contrast word, and gives a reason for each side."
     },
     "demo": {
-      "prompt": "Some people think that children spend too much time on screens and should spend more time outdoors. Others believe that screens help children learn useful skills. Discuss both views and give your opinion.",
+      "prompt": "Some people think that computers are more reliable than human workers, while others argue that human labour is superior. Discuss both views and give your opinion.",
       "moves": [
         {
           "step": 1,
-          "say": "I underline the two views: 'too much time on screens' and 'screens help children learn'. I label them view A and view B, so I cover both."
+          "say": "I underline the two views: 'computers are more reliable' and 'human labour is superior'. I label them view A and view B."
         },
         {
           "step": 2,
-          "say": "I decide my opinion now. I think outdoor time matters more, so I favour view A, while accepting some value in view B."
+          "say": "I decide my opinion: I hold view B, that human judgement is superior. So view A goes first, explored fairly, and view B goes second, with my stance."
         },
         {
           "step": 3,
-          "say": "For view A, I choose one reason: screens replace exercise. For view B, I choose one reason: screens teach useful skills."
+          "say": "For view A, I plan one reason and one example: machines work without fatigue, as in bookkeeping and high-volume manufacturing."
+        },
+        {
+          "step": 3,
+          "say": "For view B, I plan one reason and one example: human judgement and empathy matter, as in medical diagnosis and senior management."
         },
         {
           "step": 4,
-          "say": "I write the introduction. I paraphrase the topic, name both views and give my opinion.",
-          "build": "Many people believe that children spend too much time in front of screens and too little time outdoors. Others argue that screens help children learn useful skills. In my view, outdoor time matters more, although screens have some educational value."
+          "say": "Introduction, paraphrase: I restate both views in my own words, so the examiner sees I understood the question.",
+          "build": "While some individuals contend that automation and computing systems outperform human workers, others assert that human labour remains indispensable."
+        },
+        {
+          "step": 4,
+          "say": "Introduction, thesis: I give my opinion, that human emotional intelligence and creativity remain superior, while granting machines precision.",
+          "build": "While some individuals contend that automation and computing systems outperform human workers, others assert that human labour remains indispensable. Although machines offer unparalleled operational precision, I believe that human emotional intelligence and creative adaptability remain fundamentally superior in the workforce."
         },
         {
           "step": 5,
-          "say": "Body paragraph one covers view A. I begin with a topic sentence that gives one reason.",
-          "build": "Many people believe that children spend too much time in front of screens and too little time outdoors. Others argue that screens help children learn useful skills. In my view, outdoor time matters more, although screens have some educational value. One reason to limit screens is that they replace physical activity."
+          "say": "Topic sentence: I name view A, that automated systems are more efficient and consistent.",
+          "build": "While some individuals contend that automation and computing systems outperform human workers, others assert that human labour remains indispensable. Although machines offer unparalleled operational precision, I believe that human emotional intelligence and creative adaptability remain fundamentally superior in the workforce. Proponents of automated systems primarily cite their superior efficiency and consistency."
         },
         {
           "step": 5,
-          "say": "I explain why this matters and add an example. A school playground gives children far more movement than a tablet does.",
-          "build": "Many people believe that children spend too much time in front of screens and too little time outdoors. Others argue that screens help children learn useful skills. In my view, outdoor time matters more, although screens have some educational value. One reason to limit screens is that they replace physical activity. This matters because children who play outside build strength and balance. For example, a school playground gives children far more movement than a tablet does."
+          "say": "Explanation: machines work without tiredness, bias or stress, unlike human workers.",
+          "build": "While some individuals contend that automation and computing systems outperform human workers, others assert that human labour remains indispensable. Although machines offer unparalleled operational precision, I believe that human emotional intelligence and creative adaptability remain fundamentally superior in the workforce. Proponents of automated systems primarily cite their superior efficiency and consistency. Unlike biological workers, algorithms and robotic systems can operate uninterrupted without suffering from fatigue, cognitive bias, or stress."
+        },
+        {
+          "step": 5,
+          "say": "Example: bookkeeping and high-volume manufacturing, where machines make near-zero errors.",
+          "build": "While some individuals contend that automation and computing systems outperform human workers, others assert that human labour remains indispensable. Although machines offer unparalleled operational precision, I believe that human emotional intelligence and creative adaptability remain fundamentally superior in the workforce. Proponents of automated systems primarily cite their superior efficiency and consistency. Unlike biological workers, algorithms and robotic systems can operate uninterrupted without suffering from fatigue, cognitive bias, or stress. In data-intensive fields like financial bookkeeping or high-volume manufacturing, computational processors execute complex operations with near-zero error margins."
+        },
+        {
+          "step": 5,
+          "say": "Result: I sum up view A fairly: machines are far more reliable for repetitive work.",
+          "build": "While some individuals contend that automation and computing systems outperform human workers, others assert that human labour remains indispensable. Although machines offer unparalleled operational precision, I believe that human emotional intelligence and creative adaptability remain fundamentally superior in the workforce. Proponents of automated systems primarily cite their superior efficiency and consistency. Unlike biological workers, algorithms and robotic systems can operate uninterrupted without suffering from fatigue, cognitive bias, or stress. In data-intensive fields like financial bookkeeping or high-volume manufacturing, computational processors execute complex operations with near-zero error margins. For this reason, algorithmic labour is widely regarded as far more reliable in repetitive execution."
         },
         {
           "step": 6,
-          "say": "Body paragraph two covers view B. I start with 'However' to show the contrast, then state its main idea.",
-          "build": "Many people believe that children spend too much time in front of screens and too little time outdoors. Others argue that screens help children learn useful skills. In my view, outdoor time matters more, although screens have some educational value. One reason to limit screens is that they replace physical activity. This matters because children who play outside build strength and balance. For example, a school playground gives children far more movement than a tablet does. However, supporters of screens argue that educational apps can teach reading and maths in an engaging way."
+          "say": "Topic sentence: with the contrast word 'Nevertheless', I turn to my view that people have capacities machines lack.",
+          "build": "While some individuals contend that automation and computing systems outperform human workers, others assert that human labour remains indispensable. Although machines offer unparalleled operational precision, I believe that human emotional intelligence and creative adaptability remain fundamentally superior in the workforce. Proponents of automated systems primarily cite their superior efficiency and consistency. Unlike biological workers, algorithms and robotic systems can operate uninterrupted without suffering from fatigue, cognitive bias, or stress. In data-intensive fields like financial bookkeeping or high-volume manufacturing, computational processors execute complex operations with near-zero error margins. For this reason, algorithmic labour is widely regarded as far more reliable in repetitive execution. Nevertheless, I hold that human professionals possess unique cognitive capacities that synthetic systems cannot replicate."
         },
         {
           "step": 6,
-          "say": "For paragraph two, I explain the benefit: apps let children practise at their own pace.",
-          "build": "Many people believe that children spend too much time in front of screens and too little time outdoors. Others argue that screens help children learn useful skills. In my view, outdoor time matters more, although screens have some educational value. One reason to limit screens is that they replace physical activity. This matters because children who play outside build strength and balance. For example, a school playground gives children far more movement than a tablet does. However, supporters of screens argue that educational apps can teach reading and maths in an engaging way. This is because apps let children practise at their own pace."
+          "say": "Explanation: nuanced problem-solving, ethics and empathy need human consciousness and context.",
+          "build": "While some individuals contend that automation and computing systems outperform human workers, others assert that human labour remains indispensable. Although machines offer unparalleled operational precision, I believe that human emotional intelligence and creative adaptability remain fundamentally superior in the workforce. Proponents of automated systems primarily cite their superior efficiency and consistency. Unlike biological workers, algorithms and robotic systems can operate uninterrupted without suffering from fatigue, cognitive bias, or stress. In data-intensive fields like financial bookkeeping or high-volume manufacturing, computational processors execute complex operations with near-zero error margins. For this reason, algorithmic labour is widely regarded as far more reliable in repetitive execution. Nevertheless, I hold that human professionals possess unique cognitive capacities that synthetic systems cannot replicate. Nuanced problem-solving, ethical judgement, and empathetic communication require human consciousness and contextual awareness."
         },
         {
           "step": 6,
-          "say": "For paragraph two, I add an example. A child can repeat a tricky sum until it is clear.",
-          "build": "Many people believe that children spend too much time in front of screens and too little time outdoors. Others argue that screens help children learn useful skills. In my view, outdoor time matters more, although screens have some educational value. One reason to limit screens is that they replace physical activity. This matters because children who play outside build strength and balance. For example, a school playground gives children far more movement than a tablet does. However, supporters of screens argue that educational apps can teach reading and maths in an engaging way. This is because apps let children practise at their own pace. For example, a child can repeat a tricky sum until it is clear."
+          "say": "Example: medical diagnosis and senior management, where ambiguous criteria defeat mechanical data.",
+          "build": "While some individuals contend that automation and computing systems outperform human workers, others assert that human labour remains indispensable. Although machines offer unparalleled operational precision, I believe that human emotional intelligence and creative adaptability remain fundamentally superior in the workforce. Proponents of automated systems primarily cite their superior efficiency and consistency. Unlike biological workers, algorithms and robotic systems can operate uninterrupted without suffering from fatigue, cognitive bias, or stress. In data-intensive fields like financial bookkeeping or high-volume manufacturing, computational processors execute complex operations with near-zero error margins. For this reason, algorithmic labour is widely regarded as far more reliable in repetitive execution. Nevertheless, I hold that human professionals possess unique cognitive capacities that synthetic systems cannot replicate. Nuanced problem-solving, ethical judgement, and empathetic communication require human consciousness and contextual awareness. In medical diagnostics and senior management, critical decisions often hinge on ambiguous qualitative criteria where mechanical data interpretation fails."
+        },
+        {
+          "step": 6,
+          "say": "Result: I link back: machines excel at computation, but humans remain central to compassionate decisions.",
+          "build": "While some individuals contend that automation and computing systems outperform human workers, others assert that human labour remains indispensable. Although machines offer unparalleled operational precision, I believe that human emotional intelligence and creative adaptability remain fundamentally superior in the workforce. Proponents of automated systems primarily cite their superior efficiency and consistency. Unlike biological workers, algorithms and robotic systems can operate uninterrupted without suffering from fatigue, cognitive bias, or stress. In data-intensive fields like financial bookkeeping or high-volume manufacturing, computational processors execute complex operations with near-zero error margins. For this reason, algorithmic labour is widely regarded as far more reliable in repetitive execution. Nevertheless, I hold that human professionals possess unique cognitive capacities that synthetic systems cannot replicate. Nuanced problem-solving, ethical judgement, and empathetic communication require human consciousness and contextual awareness. In medical diagnostics and senior management, critical decisions often hinge on ambiguous qualitative criteria where mechanical data interpretation fails. Therefore, while machines excel at computation, human labour remains the cornerstone of sophisticated and compassionate decision-making."
         },
         {
           "step": 7,
-          "say": "I sum up both views and repeat my opinion. This is only part of an essay, which should be at least 250 words.",
-          "build": "Many people believe that children spend too much time in front of screens and too little time outdoors. Others argue that screens help children learn useful skills. In my view, outdoor time matters more, although screens have some educational value. One reason to limit screens is that they replace physical activity. This matters because children who play outside build strength and balance. For example, a school playground gives children far more movement than a tablet does. However, supporters of screens argue that educational apps can teach reading and maths in an engaging way. This is because apps let children practise at their own pace. For example, a child can repeat a tricky sum until it is clear. In conclusion, although screens have some educational value, I believe that outdoor time matters more for children."
+          "say": "Conclusion, synthesis and restatement: I concede machines are fast and accurate, then restate that humans are irreplaceable.",
+          "build": "While some individuals contend that automation and computing systems outperform human workers, others assert that human labour remains indispensable. Although machines offer unparalleled operational precision, I believe that human emotional intelligence and creative adaptability remain fundamentally superior in the workforce. Proponents of automated systems primarily cite their superior efficiency and consistency. Unlike biological workers, algorithms and robotic systems can operate uninterrupted without suffering from fatigue, cognitive bias, or stress. In data-intensive fields like financial bookkeeping or high-volume manufacturing, computational processors execute complex operations with near-zero error margins. For this reason, algorithmic labour is widely regarded as far more reliable in repetitive execution. Nevertheless, I hold that human professionals possess unique cognitive capacities that synthetic systems cannot replicate. Nuanced problem-solving, ethical judgement, and empathetic communication require human consciousness and contextual awareness. In medical diagnostics and senior management, critical decisions often hinge on ambiguous qualitative criteria where mechanical data interpretation fails. Therefore, while machines excel at computation, human labour remains the cornerstone of sophisticated and compassionate decision-making. In conclusion, although computerised automation undeniably maximises operational speed and output accuracy, I maintain that humans are irreplaceable due to their critical thinking and interpersonal intuition."
+        },
+        {
+          "step": 7,
+          "say": "Conclusion, forward-looking remark: I end by urging human-machine collaboration rather than total robotic substitution.",
+          "build": "While some individuals contend that automation and computing systems outperform human workers, others assert that human labour remains indispensable. Although machines offer unparalleled operational precision, I believe that human emotional intelligence and creative adaptability remain fundamentally superior in the workforce. Proponents of automated systems primarily cite their superior efficiency and consistency. Unlike biological workers, algorithms and robotic systems can operate uninterrupted without suffering from fatigue, cognitive bias, or stress. In data-intensive fields like financial bookkeeping or high-volume manufacturing, computational processors execute complex operations with near-zero error margins. For this reason, algorithmic labour is widely regarded as far more reliable in repetitive execution. Nevertheless, I hold that human professionals possess unique cognitive capacities that synthetic systems cannot replicate. Nuanced problem-solving, ethical judgement, and empathetic communication require human consciousness and contextual awareness. In medical diagnostics and senior management, critical decisions often hinge on ambiguous qualitative criteria where mechanical data interpretation fails. Therefore, while machines excel at computation, human labour remains the cornerstone of sophisticated and compassionate decision-making. In conclusion, although computerised automation undeniably maximises operational speed and output accuracy, I maintain that humans are irreplaceable due to their critical thinking and interpersonal intuition. The future workplace should focus on human-machine collaboration rather than total robotic substitution."
         },
         {
           "step": 8,
-          "say": "I check that both views get fair space, one paragraph each. My opinion appears in the introduction and conclusion.",
-          "build": "Many people believe that children spend too much time in front of screens and too little time outdoors. Others argue that screens help children learn useful skills. In my view, outdoor time matters more, although screens have some educational value. One reason to limit screens is that they replace physical activity. This matters because children who play outside build strength and balance. For example, a school playground gives children far more movement than a tablet does. However, supporters of screens argue that educational apps can teach reading and maths in an engaging way. This is because apps let children practise at their own pace. For example, a child can repeat a tricky sum until it is clear. In conclusion, although screens have some educational value, I believe that outdoor time matters more for children. "
+          "say": "Check: this model has 204 words. The exam needs at least 250 words, so my own essay must be at least that long.",
+          "build": "While some individuals contend that automation and computing systems outperform human workers, others assert that human labour remains indispensable. Although machines offer unparalleled operational precision, I believe that human emotional intelligence and creative adaptability remain fundamentally superior in the workforce. Proponents of automated systems primarily cite their superior efficiency and consistency. Unlike biological workers, algorithms and robotic systems can operate uninterrupted without suffering from fatigue, cognitive bias, or stress. In data-intensive fields like financial bookkeeping or high-volume manufacturing, computational processors execute complex operations with near-zero error margins. For this reason, algorithmic labour is widely regarded as far more reliable in repetitive execution. Nevertheless, I hold that human professionals possess unique cognitive capacities that synthetic systems cannot replicate. Nuanced problem-solving, ethical judgement, and empathetic communication require human consciousness and contextual awareness. In medical diagnostics and senior management, critical decisions often hinge on ambiguous qualitative criteria where mechanical data interpretation fails. Therefore, while machines excel at computation, human labour remains the cornerstone of sophisticated and compassionate decision-making. In conclusion, although computerised automation undeniably maximises operational speed and output accuracy, I maintain that humans are irreplaceable due to their critical thinking and interpersonal intuition. The future workplace should focus on human-machine collaboration rather than total robotic substitution."
         }
       ],
-      "answer": "Many people believe that children spend too much time in front of screens and too little time outdoors. Others argue that screens help children learn useful skills. In my view, outdoor time matters more, although screens have some educational value. One reason to limit screens is that they replace physical activity. This matters because children who play outside build strength and balance. For example, a school playground gives children far more movement than a tablet does. However, supporters of screens argue that educational apps can teach reading and maths in an engaging way. This is because apps let children practise at their own pace. For example, a child can repeat a tricky sum until it is clear. In conclusion, although screens have some educational value, I believe that outdoor time matters more for children. "
+      "answer": "While some individuals contend that automation and computing systems outperform human workers, others assert that human labour remains indispensable. Although machines offer unparalleled operational precision, I believe that human emotional intelligence and creative adaptability remain fundamentally superior in the workforce. Proponents of automated systems primarily cite their superior efficiency and consistency. Unlike biological workers, algorithms and robotic systems can operate uninterrupted without suffering from fatigue, cognitive bias, or stress. In data-intensive fields like financial bookkeeping or high-volume manufacturing, computational processors execute complex operations with near-zero error margins. For this reason, algorithmic labour is widely regarded as far more reliable in repetitive execution. Nevertheless, I hold that human professionals possess unique cognitive capacities that synthetic systems cannot replicate. Nuanced problem-solving, ethical judgement, and empathetic communication require human consciousness and contextual awareness. In medical diagnostics and senior management, critical decisions often hinge on ambiguous qualitative criteria where mechanical data interpretation fails. Therefore, while machines excel at computation, human labour remains the cornerstone of sophisticated and compassionate decision-making. In conclusion, although computerised automation undeniably maximises operational speed and output accuracy, I maintain that humans are irreplaceable due to their critical thinking and interpersonal intuition. The future workplace should focus on human-machine collaboration rather than total robotic substitution."
     },
     "practice": [
       {
-        "prompt": "Write one introduction sentence that names both views and gives your opinion, for this invented question: 'Some people think that public libraries are no longer needed now that books are online. Others believe they are essential. Discuss both views and give your opinion.' Use the steps.",
-        "answer": "While some people think that libraries are no longer needed, others believe they are essential, and I argue that they still matter as places where communities meet.",
-        "why": "Step 4 writes the introduction. It names both views with a contrast word, then gives the opinion, so the examiner sees every part of the question covered early."
+        "prompt": "Write the first introduction sentence, which paraphrases both views, for this invented question: 'Some people think that public libraries are no longer needed now that books are online. Others believe they are essential. Discuss both views and give your opinion.' Use the steps.",
+        "answer": "While some people think that libraries are no longer needed, others believe they are essential.",
+        "why": "Step 4 writes the introduction in two sentences. This first sentence paraphrases both views with a contrast word, and the second gives your opinion."
       },
       {
-        "prompt": "The question is: 'Some people think that tourism harms small towns. Others believe that it helps them. Discuss both views and give your opinion.' The second body paragraph starts with this topic sentence: 'Tourists often enjoy visiting small towns and taking photographs.' Rewrite it so it covers view B, with a linking word. Use the steps.",
-        "answer": "However, others argue that tourism helps small towns by creating jobs and bringing money into local shops.",
-        "why": "Step 6 covers the second view with a linking word. The original describes tourists and states no view. The rewrite names view B and gives a reason the paragraph can develop."
+        "prompt": "The question is: 'Some people think that tourism harms small towns. Others believe that it helps them. Discuss both views and give your opinion.' You hold view B, that tourism helps small towns. The second body paragraph starts with this topic sentence: 'Tourists often enjoy visiting small towns and taking photographs.' Rewrite it so it states your view, with a contrast link. Use the steps.",
+        "answer": "Nevertheless, I hold that tourism helps small towns by creating jobs and bringing money into local shops.",
+        "why": "Step 6 writes body two, the view you hold, and opens with a contrast word. The original describes tourists and states no view. The rewrite states your view and gives a reason the paragraph can develop."
       }
     ]
   },
