@@ -540,20 +540,20 @@
         "why": "The biggest change is the main story of two pies, and it belongs in your overview."
       },
       {
-        "do": "Write the introduction by paraphrasing the title. Say what the pies show and when.",
-        "why": "A new wording of the title proves you understand the chart, without adding new facts."
+        "do": "Write the introduction: one sentence that paraphrases the title, saying what the pies show and when.",
+        "why": "One paraphrase sentence proves you understand the chart, without adding new facts or reasons."
       },
       {
-        "do": "Write the overview: the biggest slice, and the biggest change if there are two pies. No numbers.",
-        "why": "The overview is required, and it should give the clearest picture of the whole chart."
+        "do": "Write the overview in two sentences: the largest slice, then the biggest change. No numbers.",
+        "why": "The overview is required. It names the main points for two pies and states facts only, with no reasons."
       },
       {
-        "do": "Write body paragraph one: the largest slices, comparing each across the pies and naming its figures.",
-        "why": "Comparing the largest slices first keeps the report as one clear message instead of a list of percentages."
+        "do": "Write body paragraph one: the largest slices, housing and other costs, with their figures in both years.",
+        "why": "The largest slices come first, so the report opens with the biggest shares and their changes."
       },
       {
-        "do": "Write body paragraph two: the smaller slices and their changes, comparing them as you go.",
-        "why": "The smaller slices that shrank get their own paragraph, so each comparison is clear and the figures are easy to check."
+        "do": "Write body paragraph two: food and transport, the slices that shrank, with their figures and how they compare.",
+        "why": "The smaller slices get their own paragraph, so each comparison is clear and the figures easy to check."
       },
       {
         "do": "Check that the percentages you quote add up sensibly, and that each slice is matched to the right label.",
@@ -611,56 +611,72 @@
       "why": "The strong sentence ranks the slices, uses a phrase for share, and compares the two categories instead of just listing numbers."
     },
     "demo": {
-      "prompt": "Two pie charts show how a family's household spending was divided between housing, food, transport and other costs, as a percentage of the total, in 2000 and 2020. In 2000: housing 35%, food 25%, transport 15%, other 25%. In 2020: housing 45%, food 20%, transport 10%, other 25%. Write a comparison of the slices, using the steps.",
+      "prompt": "Two pie charts show how a family's household spending was divided between housing, food, transport and other costs, as a percentage of the total, in 2000 and 2020. In 2000: housing 35%, food 25%, transport 15%, other 25%. In 2020: housing 45%, food 20%, transport 10%, other 25%.",
       "moves": [
         {
           "step": 1,
-          "say": "I read the title first. The pies show household spending as a percentage of the total, for 2000 and 2020."
+          "say": "I read the prompt: two pies of household spending in 2000 and 2020, split into four categories, as percentages of the total."
         },
         {
           "step": 2,
-          "say": "I rank the slices in the 2000 pie first. Housing is the largest at 35%, and transport is the smallest at 15%."
-        },
-        {
-          "step": 2,
-          "say": "Within the 2000 pie, I pick the pair to compare. Housing is larger than food, so housing leads my comparison."
+          "say": "I rank the 2000 pie: housing is largest at 35%, and transport is smallest at 15%. I check the 2020 pie the same way."
         },
         {
           "step": 3,
-          "say": "Across the two pies, I pick the slice that changed most: housing rose from 35% to 45%. Food and transport shrank."
+          "say": "Across the pies, housing grew most, from 35% to 45%, while food and transport shrank. I group: housing and other costs in body one, food and transport in body two."
         },
         {
           "step": 4,
-          "say": "I paraphrase the title for my introduction. I say what the pies show, the spending categories, and the two years.",
+          "say": "Introduction, paraphrase: I restate the title, saying what the pies show, the four categories and the two years.",
           "build": "The two pie charts show how a family's household spending was divided between four categories in 2000 and 2020, as percentages."
         },
         {
           "step": 5,
-          "say": "The overview gives the biggest slice and the biggest change, with no numbers. Housing was the largest and grew most, so I say so.",
-          "build": "The two pie charts show how a family's household spending was divided between four categories in 2000 and 2020, as percentages. Overall, housing was the largest category and grew the most, while food and transport shrank."
+          "say": "Overview, largest slice: I say housing was the largest category in both years, with no figures.",
+          "build": "The two pie charts show how a family's household spending was divided between four categories in 2000 and 2020, as percentages. Overall, housing was the largest category in both years, while transport was the smallest in 2000 and in 2020."
+        },
+        {
+          "step": 5,
+          "say": "Overview, biggest change: I say housing's share grew more than any other category, with no figures.",
+          "build": "The two pie charts show how a family's household spending was divided between four categories in 2000 and 2020, as percentages. Overall, housing was the largest category in both years, while transport was the smallest in 2000 and in 2020. The most significant change was the rise in the share of housing, which grew more than any other category."
         },
         {
           "step": 6,
-          "say": "Now body paragraph one, on the largest slice. I start with housing in 2000, which led at 35%.",
-          "build": "The two pie charts show how a family's household spending was divided between four categories in 2000 and 2020, as percentages. Overall, housing was the largest category and grew the most, while food and transport shrank. In 2000, housing was the largest category at 35%, above food at 25%."
+          "say": "Body 1, housing in 2000: I give its 2000 share and compare it with food and other costs.",
+          "build": "The two pie charts show how a family's household spending was divided between four categories in 2000 and 2020, as percentages. Overall, housing was the largest category in both years, while transport was the smallest in 2000 and in 2020. The most significant change was the rise in the share of housing, which grew more than any other category. In 2000, housing accounted for the largest share of spending at 35%, ahead of food and other costs at 25% each."
         },
         {
           "step": 6,
-          "say": "For body paragraph one, I add the 2020 change. Housing rose to 45%, the biggest change of any slice.",
-          "build": "The two pie charts show how a family's household spending was divided between four categories in 2000 and 2020, as percentages. Overall, housing was the largest category and grew the most, while food and transport shrank. In 2000, housing was the largest category at 35%, above food at 25%. By 2020, housing had risen to 45%, the biggest change of any slice."
+          "say": "Body 1, housing in 2020: I give its rise, the biggest change of any slice.",
+          "build": "The two pie charts show how a family's household spending was divided between four categories in 2000 and 2020, as percentages. Overall, housing was the largest category in both years, while transport was the smallest in 2000 and in 2020. The most significant change was the rise in the share of housing, which grew more than any other category. In 2000, housing accounted for the largest share of spending at 35%, ahead of food and other costs at 25% each. By 2020, housing had grown to 45%, the biggest rise of any category."
+        },
+        {
+          "step": 6,
+          "say": "Body 1, other costs: I say the share stayed level and became the second largest by 2020.",
+          "build": "The two pie charts show how a family's household spending was divided between four categories in 2000 and 2020, as percentages. Overall, housing was the largest category in both years, while transport was the smallest in 2000 and in 2020. The most significant change was the rise in the share of housing, which grew more than any other category. In 2000, housing accounted for the largest share of spending at 35%, ahead of food and other costs at 25% each. By 2020, housing had grown to 45%, the biggest rise of any category. Other costs stayed at 25% in both years, becoming the second largest category by 2020."
         },
         {
           "step": 7,
-          "say": "For body paragraph two, I compare the slices that shrank. Food and transport both fell, so I put them in one sentence.",
-          "build": "The two pie charts show how a family's household spending was divided between four categories in 2000 and 2020, as percentages. Overall, housing was the largest category and grew the most, while food and transport shrank. In 2000, housing was the largest category at 35%, above food at 25%. By 2020, housing had risen to 45%, the biggest change of any slice. Food fell from 25% to 20%, while transport fell from 15% to 10%."
+          "say": "Body 2, food: I give its fall from 2000 to 2020, a drop of five points.",
+          "build": "The two pie charts show how a family's household spending was divided between four categories in 2000 and 2020, as percentages. Overall, housing was the largest category in both years, while transport was the smallest in 2000 and in 2020. The most significant change was the rise in the share of housing, which grew more than any other category. In 2000, housing accounted for the largest share of spending at 35%, ahead of food and other costs at 25% each. By 2020, housing had grown to 45%, the biggest rise of any category. Other costs stayed at 25% in both years, becoming the second largest category by 2020. Food fell from 25% in 2000 to 20% in 2020, a drop of five points."
+        },
+        {
+          "step": 7,
+          "say": "Body 2, transport: I say it was the smallest slice in both years, and give its figures.",
+          "build": "The two pie charts show how a family's household spending was divided between four categories in 2000 and 2020, as percentages. Overall, housing was the largest category in both years, while transport was the smallest in 2000 and in 2020. The most significant change was the rise in the share of housing, which grew more than any other category. In 2000, housing accounted for the largest share of spending at 35%, ahead of food and other costs at 25% each. By 2020, housing had grown to 45%, the biggest rise of any category. Other costs stayed at 25% in both years, becoming the second largest category by 2020. Food fell from 25% in 2000 to 20% in 2020, a drop of five points. Transport was the smallest category in both years, falling from 15% to 10%."
+        },
+        {
+          "step": 7,
+          "say": "Body 2, comparison: I link the 10 points lost by food and transport to the rise in housing.",
+          "build": "The two pie charts show how a family's household spending was divided between four categories in 2000 and 2020, as percentages. Overall, housing was the largest category in both years, while transport was the smallest in 2000 and in 2020. The most significant change was the rise in the share of housing, which grew more than any other category. In 2000, housing accounted for the largest share of spending at 35%, ahead of food and other costs at 25% each. By 2020, housing had grown to 45%, the biggest rise of any category. Other costs stayed at 25% in both years, becoming the second largest category by 2020. Food fell from 25% in 2000 to 20% in 2020, a drop of five points. Transport was the smallest category in both years, falling from 15% to 10%. The 10 percentage points lost by food and transport were matched by the rise in housing."
         },
         {
           "step": 8,
-          "say": "I check each percentage against its own pie and label. Real Task 1 needs at least 150 words, so this demo is only part of one.",
-          "build": "The two pie charts show how a family's household spending was divided between four categories in 2000 and 2020, as percentages. Overall, housing was the largest category and grew the most, while food and transport shrank. In 2000, housing was the largest category at 35%, above food at 25%. By 2020, housing had risen to 45%, the biggest change of any slice. Food fell from 25% to 20%, while transport fell from 15% to 10%."
+          "say": "Check: this model has 152 words. Real Task 1 needs at least 150 words, so my own report must be at least that long.",
+          "build": "The two pie charts show how a family's household spending was divided between four categories in 2000 and 2020, as percentages. Overall, housing was the largest category in both years, while transport was the smallest in 2000 and in 2020. The most significant change was the rise in the share of housing, which grew more than any other category. In 2000, housing accounted for the largest share of spending at 35%, ahead of food and other costs at 25% each. By 2020, housing had grown to 45%, the biggest rise of any category. Other costs stayed at 25% in both years, becoming the second largest category by 2020. Food fell from 25% in 2000 to 20% in 2020, a drop of five points. Transport was the smallest category in both years, falling from 15% to 10%. The 10 percentage points lost by food and transport were matched by the rise in housing."
         }
       ],
-      "answer": "The two pie charts show how a family's household spending was divided between four categories in 2000 and 2020, as percentages. Overall, housing was the largest category and grew the most, while food and transport shrank. In 2000, housing was the largest category at 35%, above food at 25%. By 2020, housing had risen to 45%, the biggest change of any slice. Food fell from 25% to 20%, while transport fell from 15% to 10%."
+      "answer": "The two pie charts show how a family's household spending was divided between four categories in 2000 and 2020, as percentages. Overall, housing was the largest category in both years, while transport was the smallest in 2000 and in 2020. The most significant change was the rise in the share of housing, which grew more than any other category. In 2000, housing accounted for the largest share of spending at 35%, ahead of food and other costs at 25% each. By 2020, housing had grown to 45%, the biggest rise of any category. Other costs stayed at 25% in both years, becoming the second largest category by 2020. Food fell from 25% in 2000 to 20% in 2020, a drop of five points. Transport was the smallest category in both years, falling from 15% to 10%. The 10 percentage points lost by food and transport were matched by the rise in housing."
     },
     "practice": [
       {
