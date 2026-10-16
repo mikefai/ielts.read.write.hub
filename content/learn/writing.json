@@ -1163,7 +1163,61 @@
       "weak": "I agree that children should learn a language.",
       "strong": "I strongly agree that primary school children should learn a foreign language, because it helps them think clearly and prepares them for a global world.",
       "why": "The strong sentence uses the key words from the question, states a clear position, and gives two reasons in advance."
-    }
+    },
+    "demo": {
+      "prompt": "Some people believe that city centres should be closed to private cars. To what extent do you agree?",
+      "moves": [
+        {
+          "step": 1,
+          "say": "I underline the key words: 'city centres', 'private cars' and 'closed'. The question says 'to what extent', so I need a clear position, not just yes or no."
+        },
+        {
+          "step": 2,
+          "say": "I choose my position: I partly agree. A ban would clean the air, but it only works with good public transport, so I cannot fully agree."
+        },
+        {
+          "step": 3,
+          "say": "I think of two reasons for my position. Reason one is cleaner air. Reason two is safer streets for children and cyclists."
+        },
+        {
+          "step": 4,
+          "say": "For reason one, I plan an explanation and an example. Fewer cars means fewer fumes, and a school on a busy road would benefit most."
+        },
+        {
+          "step": 5,
+          "say": "I write the introduction. I paraphrase the question, state my position and give the reason for it.",
+          "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air matters, but a ban works only when good public transport is available."
+        },
+        {
+          "step": 6,
+          "say": "Body paragraph one starts with a topic sentence. I state the reason clearly, so the examiner sees the point at once.",
+          "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air matters, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city."
+        },
+        {
+          "step": 6,
+          "say": "Next I explain the reason. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems.",
+          "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air matters, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems."
+        },
+        {
+          "step": 6,
+          "say": "Last, I add an example that the examiner can picture. A school on a busy road would have cleaner air at playtime.",
+          "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air matters, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems. For example, a school on a busy road would have cleaner air at playtime."
+        }
+      ],
+      "answer": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air matters, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems. For example, a school on a busy road would have cleaner air at playtime."
+    },
+    "practice": [
+      {
+        "prompt": "Write one introduction sentence that paraphrases the statement and states a clear position, for this invented question: 'Children should be taught to cook at school. To what extent do you agree?' Use the steps.",
+        "answer": "I strongly agree that schools should teach every child how to cook, because healthy eating habits help children for the rest of their lives.",
+        "why": "Step 5 writes the introduction. The answer paraphrases the statement in new words, states a clear position and gives a reason, so the examiner sees the view at once."
+      },
+      {
+        "prompt": "The question is: 'Adults should be required to retrain for new jobs every five years. To what extent do you agree?' This body paragraph topic sentence does not state a position: 'Retraining courses can be expensive, and some are held in the evenings.' Rewrite it with a clear position and a reason. Use the steps.",
+        "answer": "The first reason why I disagree is that compulsory retraining would take time and money from workers who are already busy.",
+        "why": "Step 6 needs a topic sentence that states the main idea of the paragraph. The original only describes courses. The rewrite states a clear position and gives a reason the paragraph can develop."
+      }
+    ]
   },
   {
     "id": "discussion",
@@ -1254,7 +1308,57 @@
       "weak": "Some people like home and some like the office.",
       "strong": "While some people prefer working from home for its flexibility, others believe that an office gives better support and teamwork.",
       "why": "The strong sentence names both views clearly, uses a contrast word, and gives a reason for each side."
-    }
+    },
+    "demo": {
+      "prompt": "Some people think that children spend too much time on screens and should spend more time outdoors. Others believe that screens help children learn useful skills. Discuss both views and give your opinion.",
+      "moves": [
+        {
+          "step": 1,
+          "say": "I underline the two views: 'too much time on screens' and 'screens help children learn'. I label them view A and view B, so I cover both."
+        },
+        {
+          "step": 2,
+          "say": "I decide my opinion now. I think outdoor time matters more, so I favour view A, while accepting some value in view B."
+        },
+        {
+          "step": 3,
+          "say": "For view A, I choose one reason: screens replace exercise. For view B, I choose one reason: screens teach useful skills."
+        },
+        {
+          "step": 4,
+          "say": "I write the introduction. I paraphrase the topic, name both views and give my opinion.",
+          "build": "Many people believe that children spend too much time in front of screens and too little time outdoors. Others argue that screens help children learn useful skills. In my view, outdoor time matters more, although screens have some educational value."
+        },
+        {
+          "step": 5,
+          "say": "Body paragraph one covers view A. I begin with a topic sentence that gives one reason.",
+          "build": "Many people believe that children spend too much time in front of screens and too little time outdoors. Others argue that screens help children learn useful skills. In my view, outdoor time matters more, although screens have some educational value. One reason to limit screens is that they replace physical activity."
+        },
+        {
+          "step": 5,
+          "say": "I explain why this matters and add an example. A school playground gives children far more movement than a tablet does.",
+          "build": "Many people believe that children spend too much time in front of screens and too little time outdoors. Others argue that screens help children learn useful skills. In my view, outdoor time matters more, although screens have some educational value. One reason to limit screens is that they replace physical activity. This matters because children who play outside build strength and balance. For example, a school playground gives children far more movement than a tablet does."
+        },
+        {
+          "step": 6,
+          "say": "Body paragraph two covers view B. I start with 'However' to show the contrast, then state its main idea.",
+          "build": "Many people believe that children spend too much time in front of screens and too little time outdoors. Others argue that screens help children learn useful skills. In my view, outdoor time matters more, although screens have some educational value. One reason to limit screens is that they replace physical activity. This matters because children who play outside build strength and balance. For example, a school playground gives children far more movement than a tablet does. However, supporters of screens argue that educational apps can teach reading and maths in an engaging way."
+        }
+      ],
+      "answer": "Many people believe that children spend too much time in front of screens and too little time outdoors. Others argue that screens help children learn useful skills. In my view, outdoor time matters more, although screens have some educational value. One reason to limit screens is that they replace physical activity. This matters because children who play outside build strength and balance. For example, a school playground gives children far more movement than a tablet does. However, supporters of screens argue that educational apps can teach reading and maths in an engaging way."
+    },
+    "practice": [
+      {
+        "prompt": "Write one introduction sentence that names both views and gives your opinion, for this invented question: 'Some people think that public libraries are no longer needed now that books are online. Others believe they are essential. Discuss both views and give your opinion.' Use the steps.",
+        "answer": "While some people think that libraries are no longer needed, others believe they are essential, and I argue that they still matter as places where communities meet.",
+        "why": "Step 4 writes the introduction. It names both views with a contrast word, then gives the opinion, so the examiner sees every part of the question covered early."
+      },
+      {
+        "prompt": "The question is: 'Some people think that tourism harms small towns. Others believe that it helps them. Discuss both views and give your opinion.' The second body paragraph starts with this topic sentence: 'Tourists often enjoy visiting small towns and taking photographs.' Rewrite it so it covers view B, with a linking word. Use the steps.",
+        "answer": "However, others argue that tourism helps small towns by creating jobs and bringing money into local shops.",
+        "why": "Step 6 covers the second view with a linking word. The original describes tourists and states no view. The rewrite names view B and gives a reason the paragraph can develop."
+      }
+    ]
   },
   {
     "id": "problem-solution",
@@ -1345,7 +1449,62 @@
       "weak": "There is too much traffic, so build more roads.",
       "strong": "One reason for traffic jams is that too many people drive to work, so a practical solution would be for city councils to improve public transport.",
       "why": "The strong sentence names a cause, matches it with a solution, and says who should act. This makes the argument logical."
-    }
+    },
+    "demo": {
+      "prompt": "Many people throw away large amounts of food. What are the causes of this problem, and what solutions can be suggested?",
+      "moves": [
+        {
+          "step": 1,
+          "say": "I underline the parts of the question: 'causes' and 'solutions'. I need both, so I plan one problem and one solution."
+        },
+        {
+          "step": 2,
+          "say": "I write the problem and its solution side by side. Problem: shops throw away food that looks imperfect. Solution: supermarkets should sell it at a lower price."
+        },
+        {
+          "step": 3,
+          "say": "I choose one example to support the solution: some shops already sell slightly misshapen vegetables at a discount."
+        },
+        {
+          "step": 4,
+          "say": "I write the introduction. I paraphrase the problem and say what the essay will cover.",
+          "build": "Large amounts of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions."
+        },
+        {
+          "step": 5,
+          "say": "Body paragraph one covers one problem. I start with a topic sentence that names the cause.",
+          "build": "Large amounts of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat."
+        },
+        {
+          "step": 5,
+          "say": "I explain the effect of this cause. Shops reject crooked vegetables, which leads to large waste.",
+          "build": "Large amounts of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat. This leads to large amounts of waste, because shops reject crooked vegetables even though they taste the same."
+        },
+        {
+          "step": 5,
+          "say": "Now I give the solution and say who should act. Supermarkets can sell these vegetables at a lower price.",
+          "build": "Large amounts of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat. This leads to large amounts of waste, because shops reject crooked vegetables even though they taste the same. A practical solution would be for supermarkets to sell these vegetables at a lower price."
+        },
+        {
+          "step": 5,
+          "say": "I end the paragraph with my example, so the solution feels believable to the reader.",
+          "build": "Large amounts of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat. This leads to large amounts of waste, because shops reject crooked vegetables even though they taste the same. A practical solution would be for supermarkets to sell these vegetables at a lower price. For example, some shops already sell slightly misshapen vegetables at a discount."
+        }
+      ],
+      "answer": "Large amounts of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat. This leads to large amounts of waste, because shops reject crooked vegetables even though they taste the same. A practical solution would be for supermarkets to sell these vegetables at a lower price. For example, some shops already sell slightly misshapen vegetables at a discount."
+    },
+    "practice": [
+      {
+        "prompt": "Write the introduction for this invented question: 'Many students feel stressed at university. What are the causes, and what solutions can universities offer?' Paraphrase the problem and say what the essay will cover. Use the steps.",
+        "answer": "Many students struggle with stress at university. This essay will examine the main causes and suggest practical solutions that universities can offer.",
+        "why": "Step 4 paraphrases the problem and says what the essay covers. The answer uses new words for feeling stressed and names both parts of the question: causes and solutions."
+      },
+      {
+        "prompt": "The question is: 'Traffic jams waste time and fuel. Why do they happen, and how can they be reduced?' This topic sentence for body paragraph one only describes how people feel: 'Traffic jams are frustrating for everyone who uses the roads.' Rewrite it to name one cause and link it to one solution. Use the steps.",
+        "answer": "One cause of traffic jams is that too many people drive alone to work, so a practical solution is to improve public transport.",
+        "why": "Step 5 gives body paragraph one one problem and its solution. The original only describes feelings. The rewrite names a cause and links it to a solution that addresses it."
+      }
+    ]
   },
   {
     "id": "two-part",
@@ -1436,7 +1595,57 @@
       "weak": "People live abroad for many reasons and it is good.",
       "strong": "Turning to the first question, many people live abroad mainly because they can find better jobs and higher salaries than at home.",
       "why": "The strong sentence uses a signpost to show which question it answers, and gives a specific reason that can be developed."
-    }
+    },
+    "demo": {
+      "prompt": "Why do many young people choose to rent rather than buy a home? Should governments build more rental housing?",
+      "moves": [
+        {
+          "step": 1,
+          "say": "I underline both questions and number them 1 and 2. Question one asks why, and question two asks whether governments should act."
+        },
+        {
+          "step": 2,
+          "say": "I give a short answer to each question. Question one: high house prices. Question two: yes, more rental homes would help."
+        },
+        {
+          "step": 3,
+          "say": "For question one, I add a reason and an example. Buying is very expensive, so young people rent while they save."
+        },
+        {
+          "step": 4,
+          "say": "I write the introduction. I paraphrase the topic and use the neutral line to say that I will answer both questions.",
+          "build": "Many young people now choose to rent rather than buy a home. This essay will answer two questions: why many young people rent, and whether governments should build more rental housing."
+        },
+        {
+          "step": 5,
+          "say": "Body paragraph one answers question one. I start with the reason in a topic sentence.",
+          "build": "Many young people now choose to rent rather than buy a home. This essay will answer two questions: why many young people rent, and whether governments should build more rental housing. The first reason is that buying a home is now very expensive."
+        },
+        {
+          "step": 5,
+          "say": "I explain the reason and add an example. Wages rise more slowly than house prices, so saving a deposit takes years.",
+          "build": "Many young people now choose to rent rather than buy a home. This essay will answer two questions: why many young people rent, and whether governments should build more rental housing. The first reason is that buying a home is now very expensive. This is because wages rise more slowly than house prices, so saving for a deposit can take many years. For example, a young couple in a city may rent for a decade before they buy."
+        },
+        {
+          "step": 6,
+          "say": "Body paragraph two answers question two. I signpost it with 'Turning to the second question' and then state my answer.",
+          "build": "Many young people now choose to rent rather than buy a home. This essay will answer two questions: why many young people rent, and whether governments should build more rental housing. The first reason is that buying a home is now very expensive. This is because wages rise more slowly than house prices, so saving for a deposit can take many years. For example, a young couple in a city may rent for a decade before they buy. Turning to the second question, I believe that governments should build more rental homes, since they offer stable housing to many people."
+        }
+      ],
+      "answer": "Many young people now choose to rent rather than buy a home. This essay will answer two questions: why many young people rent, and whether governments should build more rental housing. The first reason is that buying a home is now very expensive. This is because wages rise more slowly than house prices, so saving for a deposit can take many years. For example, a young couple in a city may rent for a decade before they buy. Turning to the second question, I believe that governments should build more rental homes, since they offer stable housing to many people."
+    },
+    "practice": [
+      {
+        "prompt": "Write the introduction for this invented question: 'Why do some schools start the day earlier? Is this a sensible change?' Paraphrase the topic and use the neutral line. Use the steps.",
+        "answer": "A growing number of schools now begin lessons earlier in the morning. This essay will answer two questions: why they make this change, and whether it is sensible.",
+        "why": "Step 4 paraphrases the topic and uses a neutral line. Both questions are named in the order they were asked, so the examiner sees that each part will be answered."
+      },
+      {
+        "prompt": "The question is: 'Why do many people cycle to work? Should cities build more cycle lanes?' This topic sentence for body paragraph two answers neither question: 'Cycling is an activity that many people enjoy at weekends.' Rewrite it to answer question two, with a signpost. Use the steps.",
+        "answer": "Turning to the second question, I believe that cities should build more cycle lanes, because they make cycling safer for riders.",
+        "why": "Step 6 needs a signpost to question two and a clear answer. The original describes weekend cycling and answers neither question, so the paragraph could not be developed."
+      }
+    ]
   },
   {
     "id": "advantages",
@@ -1527,6 +1736,56 @@
       "weak": "Working from home is good but it has some problems.",
       "strong": "Although working from home can feel lonely, this is a minor drawback compared with the time and money that workers save on travel.",
       "why": "The strong sentence uses a contrast word, says which side is smaller, and gives a specific reason why the other side is greater."
-    }
+    },
+    "demo": {
+      "prompt": "Many cities have introduced bike-sharing schemes. Do the advantages outweigh the disadvantages?",
+      "moves": [
+        {
+          "step": 1,
+          "say": "I check the wording. 'Do the advantages outweigh the disadvantages?' asks me which side is greater, so I must say so clearly."
+        },
+        {
+          "step": 2,
+          "say": "I list two advantages and two disadvantages. Advantages: cheap, quick short trips and less traffic. Disadvantages: bikes on pavements and a risk of accidents."
+        },
+        {
+          "step": 3,
+          "say": "I think the advantages are stronger, so I argue them first. The disadvantages come second, as the weaker side."
+        },
+        {
+          "step": 4,
+          "say": "I write the introduction. I paraphrase the topic and state which side I think is greater.",
+          "build": "In recent years, many cities have introduced bike-sharing schemes. In my view, the advantages outweigh the disadvantages, although bikes left on pavements remain a problem."
+        },
+        {
+          "step": 5,
+          "say": "Body paragraph one covers the stronger side. I start with a topic sentence about the main advantage.",
+          "build": "In recent years, many cities have introduced bike-sharing schemes. In my view, the advantages outweigh the disadvantages, although bikes left on pavements remain a problem. The main advantage is that bike-sharing offers cheap, quick trips over short distances."
+        },
+        {
+          "step": 5,
+          "say": "I explain the advantage and add an example to make it concrete for the reader.",
+          "build": "In recent years, many cities have introduced bike-sharing schemes. In my view, the advantages outweigh the disadvantages, although bikes left on pavements remain a problem. The main advantage is that bike-sharing offers cheap, quick trips over short distances. This means people can avoid buying a car for short journeys. For example, a commuter can ride a shared bike from the station to the office."
+        },
+        {
+          "step": 6,
+          "say": "Body paragraph two covers the weaker side. I use 'Although' to show the contrast and say why it matters less.",
+          "build": "In recent years, many cities have introduced bike-sharing schemes. In my view, the advantages outweigh the disadvantages, although bikes left on pavements remain a problem. The main advantage is that bike-sharing offers cheap, quick trips over short distances. This means people can avoid buying a car for short journeys. For example, a commuter can ride a shared bike from the station to the office. Although bikes left on pavements are a real problem, this is less serious, because cities can solve it with marked parking zones."
+        }
+      ],
+      "answer": "In recent years, many cities have introduced bike-sharing schemes. In my view, the advantages outweigh the disadvantages, although bikes left on pavements remain a problem. The main advantage is that bike-sharing offers cheap, quick trips over short distances. This means people can avoid buying a car for short journeys. For example, a commuter can ride a shared bike from the station to the office. Although bikes left on pavements are a real problem, this is less serious, because cities can solve it with marked parking zones."
+    },
+    "practice": [
+      {
+        "prompt": "Write the introduction for this invented question: 'Many supermarkets now use self-checkout tills. Do the advantages outweigh the disadvantages?' Paraphrase the topic and state which side is greater. Use the steps.",
+        "answer": "Self-checkout tills have spread quickly through supermarkets in recent years. In my view, the advantages outweigh the disadvantages, although some shoppers still find them confusing.",
+        "why": "Step 4 paraphrases the topic and states which side is greater. The answer uses new wording for the topic and gives the opinion early, so the examiner sees the position at once."
+      },
+      {
+        "prompt": "The question is: 'Many people now take short flights for holidays. Do the advantages outweigh the disadvantages?' Body paragraph two covers the weaker side, but this topic sentence states an advantage: 'Short flights are fast and popular with families.' Rewrite it to cover the weaker side, with a contrast word and why it matters less. Use the steps.",
+        "answer": "Although short flights add to carbon emissions, this disadvantage is less serious than the convenience they offer families.",
+        "why": "Step 6 covers the weaker side. The original states an advantage, so it belongs in body one. The rewrite opens with a contrast word, names a disadvantage, and says why it matters less."
+      }
+    ]
   }
 ]
