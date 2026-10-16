@@ -23,11 +23,15 @@ const good = (id = 'tfng') => ({
     { prompt: 'Use the steps again.', text: 'The sky is blue today.', options: ['TRUE', 'FALSE', 'NOT GIVEN'], answer: 'NOT GIVEN', why: 'Step 3 finds no line about grass.' },
   ],
 });
-const wgood = (id = 'opinion') => ({
-  ...good(id),
-  example: { prompt: 'p', weak: 'short', strong: 'a much longer stronger answer', why: w(10) },
-  frames: [{ name: 'A', lines: ['1', '2', '3'] }, { name: 'B', lines: ['1', '2', '3'] }],
-});
+const wgood = (id = 'opinion') => {
+  const n = {
+    ...good(id),
+    example: { prompt: 'p', weak: 'short', strong: 'a much longer stronger answer', why: w(10) },
+    frames: [{ name: 'A', lines: ['1', '2', '3'] }, { name: 'B', lines: ['1', '2', '3'] }],
+  };
+  n.demo.moves.splice(3, 0, { step: 4, say: 'I plan the answer.' }); // writing needs a move for every step
+  return n;
+};
 const v = (notes, req = ['tfng'], kind = 'reading') => validateNotes(notes, kind, req);
 const mod = (f, id) => { const n = good(id); f(n); return n; };
 const wm = f => { const n = wgood(); f(n); return n; };
@@ -58,7 +62,7 @@ test('writing frames required', () => {
   assert.match(v([n], ['opinion'], 'writing').join('\n'), /frames/);
 });
 test('writing exempt notes need no frames/example', () => {
-  const n = good('band-criteria'); delete n.example;
+  const n = wgood('band-criteria'); delete n.example; delete n.frames;
   assert.deepEqual(v([n], ['band-criteria'], 'writing'), []);
 });
 
@@ -82,6 +86,35 @@ test('writing demo needs 2 builds', () =>
   assert.match(v([wm(n => n.demo.moves.forEach((m, i) => { if (i < 3) delete m.build; }))], ['opinion'], 'writing').join('\n'), /demo needs 2\+ builds/));
 test('writing answer must equal last build', () =>
   assert.match(v([wm(n => n.demo.answer = 'FALSE')], ['opinion'], 'writing').join('\n'), /answer must equal last build/));
+test('writing with a step that has no move is rejected', () => {
+  const n = wgood();
+  n.steps.push({ do: 'Do a thing.', why: 'Because.' }, { do: 'Do a thing.', why: 'Because.' }, { do: 'Do a thing.', why: 'Because.' });
+  n.demo.moves = [
+    { step: 1, say: 'I read the question first.' },
+    { step: 2, say: 'I underline sky and blue.' },
+    { step: 3, say: 'I check the line.', build: 'TRUE' },
+    { step: 4, say: 'I plan the answer.' },
+    { step: 5, say: 'I write the answer.', build: 'TRUE' },
+    { step: 7, say: 'I check the answer.', build: 'TRUE' },
+  ];
+  assert.match(v([n], ['opinion'], 'writing').join('\n'), /step 6 has no demo move/);
+});
+test('reading note with a step that has no move is allowed', () => {
+  // good() already leaves step 4 without a move; reading keeps its "Not needed" convention
+  assert.deepEqual(v([good()]), []);
+});
+test('writing answer may differ from a trailing move without build', () => {
+  const n = wgood();
+  n.demo.moves = [
+    { step: 1, say: 'I read the question first.' },
+    { step: 2, say: 'I underline sky and blue.' },
+    { step: 3, say: 'I check the line.', build: 'TRUE' },
+    { step: 4, say: 'I plan the answer.' },
+    { step: 5, say: 'I write the answer.', build: 'TRUE' },
+    { step: 5, say: 'I look at it once more.' },
+  ];
+  assert.deepEqual(v([n], ['opinion'], 'writing'), []);
+});
 
 // practice rules (all notes)
 test('practice needs 2 items', () => assert.match(v([mod(n => n.practice.pop())]).join('\n'), /needs 2 practice/));

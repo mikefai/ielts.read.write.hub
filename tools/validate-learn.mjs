@@ -38,9 +38,11 @@ function checkDemoPractice(n, at, kind, stepCount, errs) {
     if (kind === 'reading') {
       if (!words(d.text)) errs.push(`${at}: demo needs text`);
     } else {
-      if (moves.filter(hasBuild).length < 2) errs.push(`${at}: demo needs 2+ builds`);
-      const last = moves.at(-1);
-      if ((isObj(last) ? last.build : undefined) !== d.answer) errs.push(`${at}: demo answer must equal last build`);
+      const covered = new Set(moves.filter(isObj).map(m => m.step));
+      for (let s = 1; s <= stepCount; s++) if (!covered.has(s)) errs.push(`${at}: step ${s} has no demo move`);
+      const builds = moves.filter(hasBuild);
+      if (builds.length < 2) errs.push(`${at}: demo needs 2+ builds`);
+      if (builds.at(-1)?.build !== d.answer) errs.push(`${at}: demo answer must equal last build`);
     }
   }
   const p = Array.isArray(n.practice) ? n.practice : [];
