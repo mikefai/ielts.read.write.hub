@@ -678,39 +678,39 @@
   {
     "id": "task1-table",
     "title": "Task 1: Tables",
-    "what": "A table has many numbers in rows and columns. You write a report of at least 150 words, but you must not read the table out. Pick the highest, the lowest and one surprising row or column, and compare them. The overview gives the main pattern with no numbers.",
+    "what": "A table has many numbers in rows and columns. You write a report of at least 150 words, but you must not read the table out. Pick the highest and the lowest categories, and the leading country in one category, then compare them. The overview gives the main pattern with no numbers.",
     "steps": [
       {
-        "do": "Read the title, row labels, column labels and units. Note what each row and column stands for.",
-        "why": "Tables can be read two ways, by row or by column. You need to know which comparison matters."
+        "do": "Read the title, row and column labels, and units. Note what each bar or row stands for, the countries and the year.",
+        "why": "These decide your paraphrase. Only the labels and units matter for the comparison, so check them first."
       },
       {
-        "do": "Find the highest and lowest figure in each column, and the row with the biggest total or the biggest change.",
-        "why": "These are the natural key features, and they give you the points to compare."
+        "do": "Rank the five categories by their share in each country. Note the leading ones and the smallest ones.",
+        "why": "Ranking shows which categories to compare. The top and bottom ranks are the key features."
       },
       {
-        "do": "Look for one surprise: a row that is different from the rest, or a figure that breaks the pattern.",
-        "why": "Mentioning the odd one shows the examiner you looked closely, not only at the obvious points."
+        "do": "Find the country that leads each big category, then group: top categories in body one, minor ones in body two.",
+        "why": "Grouping gives two clear comparisons. The overview names the leaders, and the body paragraphs give their figures."
       },
       {
-        "do": "Write the introduction by paraphrasing the table title, and say what the rows and columns show.",
-        "why": "A new wording of the title is the safe, accurate way to start."
+        "do": "Write the introduction: one sentence that paraphrases the title, naming the categories, the four countries and the year.",
+        "why": "One paraphrase sentence shows you understood the table, with no new facts."
       },
       {
-        "do": "Write the overview: the main pattern, such as which row is highest overall. No numbers.",
-        "why": "The overview is required, and a table needs a clear summary because it has so much data."
+        "do": "Write the overview in two sentences: the highest and lowest categories, then one country pattern. No numbers.",
+        "why": "The overview is required. It gives the main pattern, which the numbers in the body paragraphs then support."
       },
       {
-        "do": "Write body paragraph one: the highest and lowest figures, named with their numbers and the year.",
-        "why": "Grouping stops the report becoming a list. The extremes give the paragraph a clear first point to compare."
+        "do": "Write body paragraph one: the top-ranking categories, housing and food, with the leading country and its figures.",
+        "why": "The largest shares go together, so the reader sees them side by side with their figures."
       },
       {
-        "do": "Write body paragraph two: the rest of the rows, including the surprise, compared with their figures.",
-        "why": "A second group gives a second point of comparison, so the report covers more of the table without becoming a list."
+        "do": "Write body paragraph two: the lower-ranking categories, clothing, recreation and entertainment, with their figures.",
+        "why": "The minor categories get their own paragraph, so the report ends by comparing the smallest shares."
       },
       {
-        "do": "Check each number against the right row and column before you finish.",
-        "why": "In a table it is easy to read the wrong cell. A wrong figure counts as an error."
+        "do": "Check each figure against its own country, category and unit before you finish.",
+        "why": "In a comparison it is easy to read the wrong cell. A wrong figure counts as an error."
       }
     ],
     "tricks": [
@@ -726,8 +726,8 @@
       "Explaining the reasons for the numbers. The table shows what, not why."
     ],
     "checklist": [
-      "Does my overview give the main pattern with no numbers?",
-      "Did I include the highest, the lowest and one surprise?",
+      "Does my overview give the highest and lowest categories and one country pattern, with no numbers?",
+      "Did I name the leading country for each big category?",
       "Did I compare figures in the same sentence?",
       "Did I check each figure against its row, column and unit?"
     ],
@@ -764,47 +764,72 @@
       "why": "The strong sentence ranks the two items, names the measure and unit, and uses a contrast word to show the gap clearly."
     },
     "demo": {
-      "prompt": "Write an introduction, a ranking sentence and a contrast sentence for this invented table. Title: 'Visitors to four museums in one city, 2023 and 2024 (thousands)'. Central Museum: 120 in 2023, 130 in 2024. Harbour Museum: 45 in 2023, 40 in 2024. Science Centre: 90 in 2023, 150 in 2024. Castle: 60 in 2023, 55 in 2024. Use the steps.",
+      "prompt": "The bar chart compares the proportion of household expenditure on five categories in four European countries in 2020.",
       "moves": [
         {
           "step": 1,
-          "say": "I read the title, the row labels and the column labels first. The figures are visitors in thousands, for 2023 and 2024."
+          "say": "I read the prompt: a bar chart of household spending shares in four European countries in 2020. The measure is percentages, so the report uses them."
         },
         {
           "step": 2,
-          "say": "I find the highest and lowest figures. The highest in 2024 is the Science Centre at 150, and the lowest is Harbour Museum at 40."
+          "say": "I rank the five categories. Housing and food lead, while leisure and clothing are the smallest in every country."
         },
         {
           "step": 3,
-          "say": "I look for one surprise. The Science Centre rose by 60 thousand, which is far more than any other museum, so I will include it."
+          "say": "I pick a leader for each big category: the UK for housing, France for food. I group the rest: top categories in body one, minor ones in body two."
         },
         {
           "step": 4,
-          "say": "I paraphrase the title for my introduction. I say what the table shows, using my own words and no new facts.",
-          "build": "The table shows how many people visited four museums in one city in 2023 and 2024 (in thousands)."
+          "say": "Introduction, paraphrase: I restate the title in my own words, with the measure, the categories, the four nations and the year.",
+          "build": "The bar chart compares the proportion of household expenditure allocated to five distinct categories across four European nations in 2020."
         },
         {
           "step": 5,
-          "say": "The overview gives the main pattern with no numbers. Total visits rose, and the Science Centre grew most, so I name both.",
-          "build": "The table shows how many people visited four museums in one city in 2023 and 2024 (in thousands). Overall, total visits rose, with the Science Centre showing the largest growth."
+          "say": "Overview, most and least: I name the two biggest categories and the two smallest, with no figures.",
+          "build": "The bar chart compares the proportion of household expenditure allocated to five distinct categories across four European nations in 2020. Overall, housing and food accounted for the vast majority of consumer spending across all surveyed nations, whereas leisure and clothing consistently represented the smallest budgetary shares."
+        },
+        {
+          "step": 5,
+          "say": "Overview, country pattern: I name the country that leads in food and the one that leads in housing, with no figures.",
+          "build": "The bar chart compares the proportion of household expenditure allocated to five distinct categories across four European nations in 2020. Overall, housing and food accounted for the vast majority of consumer spending across all surveyed nations, whereas leisure and clothing consistently represented the smallest budgetary shares. Furthermore, French households dedicated the largest share of their expenditure to food, while the United Kingdom recorded the highest proportion spent on housing."
         },
         {
           "step": 6,
-          "say": "For body paragraph one, I write a ranking sentence. It names the highest and lowest figures from step two, with their numbers and the year.",
-          "build": "The table shows how many people visited four museums in one city in 2023 and 2024 (in thousands). Overall, total visits rose, with the Science Centre showing the largest growth. In 2024, the Science Centre had the most visitors at 150 thousand, while Harbour Museum had the fewest at 40 thousand."
+          "say": "Body 1, leader in housing: I give the UK as the top housing country, with its percentage.",
+          "build": "The bar chart compares the proportion of household expenditure allocated to five distinct categories across four European nations in 2020. Overall, housing and food accounted for the vast majority of consumer spending across all surveyed nations, whereas leisure and clothing consistently represented the smallest budgetary shares. Furthermore, French households dedicated the largest share of their expenditure to food, while the United Kingdom recorded the highest proportion spent on housing. Looking first at housing, the UK led all countries with 32% of total domestic spending directed toward accommodation."
+        },
+        {
+          "step": 6,
+          "say": "Body 1, comparison in housing: I name the next two countries and the lowest, each with its share.",
+          "build": "The bar chart compares the proportion of household expenditure allocated to five distinct categories across four European nations in 2020. Overall, housing and food accounted for the vast majority of consumer spending across all surveyed nations, whereas leisure and clothing consistently represented the smallest budgetary shares. Furthermore, French households dedicated the largest share of their expenditure to food, while the United Kingdom recorded the highest proportion spent on housing. Looking first at housing, the UK led all countries with 32% of total domestic spending directed toward accommodation. This was closely followed by France and Germany at 28% and 26% respectively, while Spain registered the lowest allocation at just 18%."
+        },
+        {
+          "step": 6,
+          "say": "Body 1, food contrast: I compare the two top food countries with the British figure, which is much lower.",
+          "build": "The bar chart compares the proportion of household expenditure allocated to five distinct categories across four European nations in 2020. Overall, housing and food accounted for the vast majority of consumer spending across all surveyed nations, whereas leisure and clothing consistently represented the smallest budgetary shares. Furthermore, French households dedicated the largest share of their expenditure to food, while the United Kingdom recorded the highest proportion spent on housing. Looking first at housing, the UK led all countries with 32% of total domestic spending directed toward accommodation. This was closely followed by France and Germany at 28% and 26% respectively, while Spain registered the lowest allocation at just 18%. Regarding food, Spain and France allocated the largest percentages (30% and 27%), whereas British consumers spent significantly less on groceries, at only 15%."
         },
         {
           "step": 7,
-          "say": "For body paragraph two, I write a contrast sentence. I put the surprise and the lowest museum together, so the two changes are easy to compare.",
-          "build": "The table shows how many people visited four museums in one city in 2023 and 2024 (in thousands). Overall, total visits rose, with the Science Centre showing the largest growth. In 2024, the Science Centre had the most visitors at 150 thousand, while Harbour Museum had the fewest at 40 thousand. Whereas the Science Centre rose from 90 to 150 thousand, Harbour Museum fell from 45 to 40 thousand."
+          "say": "Body 2, low-spending categories: I say clothing and recreation rarely went above 10% in any nation.",
+          "build": "The bar chart compares the proportion of household expenditure allocated to five distinct categories across four European nations in 2020. Overall, housing and food accounted for the vast majority of consumer spending across all surveyed nations, whereas leisure and clothing consistently represented the smallest budgetary shares. Furthermore, French households dedicated the largest share of their expenditure to food, while the United Kingdom recorded the highest proportion spent on housing. Looking first at housing, the UK led all countries with 32% of total domestic spending directed toward accommodation. This was closely followed by France and Germany at 28% and 26% respectively, while Spain registered the lowest allocation at just 18%. Regarding food, Spain and France allocated the largest percentages (30% and 27%), whereas British consumers spent significantly less on groceries, at only 15%. In terms of lower-cost sectors, spending on clothing and recreation rarely exceeded 10% in any nation."
+        },
+        {
+          "step": 7,
+          "say": "Body 2, exact figures: I compare German and Spanish entertainment, and show clothing is almost uniform.",
+          "build": "The bar chart compares the proportion of household expenditure allocated to five distinct categories across four European nations in 2020. Overall, housing and food accounted for the vast majority of consumer spending across all surveyed nations, whereas leisure and clothing consistently represented the smallest budgetary shares. Furthermore, French households dedicated the largest share of their expenditure to food, while the United Kingdom recorded the highest proportion spent on housing. Looking first at housing, the UK led all countries with 32% of total domestic spending directed toward accommodation. This was closely followed by France and Germany at 28% and 26% respectively, while Spain registered the lowest allocation at just 18%. Regarding food, Spain and France allocated the largest percentages (30% and 27%), whereas British consumers spent significantly less on groceries, at only 15%. In terms of lower-cost sectors, spending on clothing and recreation rarely exceeded 10% in any nation. German households spent marginally more on entertainment (9%) than their Spanish counterparts (5%), while clothing expenditure remained remarkably uniform across all four countries at roughly 6% to 7%."
+        },
+        {
+          "step": 7,
+          "say": "Body 2, smallest figure: I give the lowest single share, Spanish recreation spending.",
+          "build": "The bar chart compares the proportion of household expenditure allocated to five distinct categories across four European nations in 2020. Overall, housing and food accounted for the vast majority of consumer spending across all surveyed nations, whereas leisure and clothing consistently represented the smallest budgetary shares. Furthermore, French households dedicated the largest share of their expenditure to food, while the United Kingdom recorded the highest proportion spent on housing. Looking first at housing, the UK led all countries with 32% of total domestic spending directed toward accommodation. This was closely followed by France and Germany at 28% and 26% respectively, while Spain registered the lowest allocation at just 18%. Regarding food, Spain and France allocated the largest percentages (30% and 27%), whereas British consumers spent significantly less on groceries, at only 15%. In terms of lower-cost sectors, spending on clothing and recreation rarely exceeded 10% in any nation. German households spent marginally more on entertainment (9%) than their Spanish counterparts (5%), while clothing expenditure remained remarkably uniform across all four countries at roughly 6% to 7%. The smallest single recorded metric was Spanish recreation spending, which bottomed out at just 4%."
         },
         {
           "step": 8,
-          "say": "I check each number against its own row, column and unit, which is thousands. Real Task 1 needs at least 150 words, so this is only part of one.",
-          "build": "The table shows how many people visited four museums in one city in 2023 and 2024 (in thousands). Overall, total visits rose, with the Science Centre showing the largest growth. In 2024, the Science Centre had the most visitors at 150 thousand, while Harbour Museum had the fewest at 40 thousand. Whereas the Science Centre rose from 90 to 150 thousand, Harbour Museum fell from 45 to 40 thousand."
+          "say": "Check: this model has 191 words. Real Task 1 needs at least 150 words, so my own report must be at least that long.",
+          "build": "The bar chart compares the proportion of household expenditure allocated to five distinct categories across four European nations in 2020. Overall, housing and food accounted for the vast majority of consumer spending across all surveyed nations, whereas leisure and clothing consistently represented the smallest budgetary shares. Furthermore, French households dedicated the largest share of their expenditure to food, while the United Kingdom recorded the highest proportion spent on housing. Looking first at housing, the UK led all countries with 32% of total domestic spending directed toward accommodation. This was closely followed by France and Germany at 28% and 26% respectively, while Spain registered the lowest allocation at just 18%. Regarding food, Spain and France allocated the largest percentages (30% and 27%), whereas British consumers spent significantly less on groceries, at only 15%. In terms of lower-cost sectors, spending on clothing and recreation rarely exceeded 10% in any nation. German households spent marginally more on entertainment (9%) than their Spanish counterparts (5%), while clothing expenditure remained remarkably uniform across all four countries at roughly 6% to 7%. The smallest single recorded metric was Spanish recreation spending, which bottomed out at just 4%."
         }
       ],
-      "answer": "The table shows how many people visited four museums in one city in 2023 and 2024 (in thousands). Overall, total visits rose, with the Science Centre showing the largest growth. In 2024, the Science Centre had the most visitors at 150 thousand, while Harbour Museum had the fewest at 40 thousand. Whereas the Science Centre rose from 90 to 150 thousand, Harbour Museum fell from 45 to 40 thousand."
+      "answer": "The bar chart compares the proportion of household expenditure allocated to five distinct categories across four European nations in 2020. Overall, housing and food accounted for the vast majority of consumer spending across all surveyed nations, whereas leisure and clothing consistently represented the smallest budgetary shares. Furthermore, French households dedicated the largest share of their expenditure to food, while the United Kingdom recorded the highest proportion spent on housing. Looking first at housing, the UK led all countries with 32% of total domestic spending directed toward accommodation. This was closely followed by France and Germany at 28% and 26% respectively, while Spain registered the lowest allocation at just 18%. Regarding food, Spain and France allocated the largest percentages (30% and 27%), whereas British consumers spent significantly less on groceries, at only 15%. In terms of lower-cost sectors, spending on clothing and recreation rarely exceeded 10% in any nation. German households spent marginally more on entertainment (9%) than their Spanish counterparts (5%), while clothing expenditure remained remarkably uniform across all four countries at roughly 6% to 7%. The smallest single recorded metric was Spanish recreation spending, which bottomed out at just 4%."
     },
     "practice": [
       {
@@ -815,7 +840,7 @@
       {
         "prompt": "Invented table: 'Students who passed their exams at four schools, 2024 (%)'. School A: maths 62, English 70. School B: maths 85, English 58. School C: maths 74, English 73. School D: maths 48, English 66. Write one sentence contrasting School B's maths and English results. Use the steps.",
         "answer": "School B had the highest maths result of all four schools at 85%, but the lowest English result at 58%.",
-        "why": "Step 3 spots the surprise: School B is top in maths but bottom in English. Step 2 checks the highest and lowest figures in each column, and the answer uses both."
+        "why": "Step 3 finds a school that leads one subject but trails in another: School B is top in maths but bottom in English. Step 2 checks the highest and lowest figures in each column, and the answer uses both."
       }
     ]
   },
