@@ -379,8 +379,12 @@
         "why": "The overview is required. Without it, your Task Achievement score is limited."
       },
       {
-        "do": "Write two body paragraphs, one for each group. Use numbers only to support your key points.",
-        "why": "Numbers prove your points. Too many numbers hide the main message."
+        "do": "Write body paragraph one: the group that rose, cycling, with its figures and one contrast with cars.",
+        "why": "Numbers prove your points, so each paragraph should use only the figures it needs. Too many numbers hide the main message."
+      },
+      {
+        "do": "Write body paragraph two: the group that fell, cars, with its figures and how it compares with cycling.",
+        "why": "Each paragraph covers its own group, so the reader gets two clear comparisons rather than one long list."
       },
       {
         "do": "Check units, years and verbs. Make sure each number matches the chart.",
@@ -468,17 +472,17 @@
           "build": "The bar chart illustrates the percentage of people who travelled to work by bike or by car in a city in 2010 and 2020. Overall, cycling rose over the period, while car use fell. Cycling rose from 20% to 35%, whereas cars fell from 50% to 40%."
         },
         {
-          "step": 6,
+          "step": 7,
           "say": "Now body paragraph two. I start with a topic sentence on car use, which stayed ahead of cycling in both years.",
           "build": "The bar chart illustrates the percentage of people who travelled to work by bike or by car in a city in 2010 and 2020. Overall, cycling rose over the period, while car use fell. Cycling rose from 20% to 35%, whereas cars fell from 50% to 40%. Car use stayed ahead of cycling in both years."
         },
         {
-          "step": 6,
+          "step": 7,
           "say": "I add the 2020 figures for cars and cycling, so the reader sees the gap is still there.",
           "build": "The bar chart illustrates the percentage of people who travelled to work by bike or by car in a city in 2010 and 2020. Overall, cycling rose over the period, while car use fell. Cycling rose from 20% to 35%, whereas cars fell from 50% to 40%. Car use stayed ahead of cycling in both years. In 2020, cars still accounted for 40% of commuters, against 35% for cycling."
         },
         {
-          "step": 7,
+          "step": 8,
           "say": "I check units, years, verbs and numbers against the chart. Real Task 1 needs at least 150 words, so this demo is only part of one.",
           "build": "The bar chart illustrates the percentage of people who travelled to work by bike or by car in a city in 2010 and 2020. Overall, cycling rose over the period, while car use fell. Cycling rose from 20% to 35%, whereas cars fell from 50% to 40%. Car use stayed ahead of cycling in both years. In 2020, cars still accounted for 40% of commuters, against 35% for cycling."
         }
@@ -524,8 +528,12 @@
         "why": "The overview is required, and it should give the clearest picture of the whole chart."
       },
       {
-        "do": "Write body paragraphs. Start with the largest slices, then the smaller ones, comparing as you go.",
-        "why": "Comparing keeps the report as one clear message instead of a list of percentages."
+        "do": "Write body paragraph one: the largest slices, comparing each across the pies and naming its figures.",
+        "why": "Comparing the largest slices first keeps the report as one clear message instead of a list of percentages."
+      },
+      {
+        "do": "Write body paragraph two: the smaller slices and their changes, comparing them as you go.",
+        "why": "The smaller slices that shrank get their own paragraph, so each comparison is clear and the figures are easy to check."
       },
       {
         "do": "Check that the percentages you quote add up sensibly, and that each slice is matched to the right label.",
@@ -622,12 +630,12 @@
           "build": "The two pie charts show how a family's household spending was divided between four categories in 2000 and 2020, as percentages. Overall, housing was the largest category and grew the most, while food and transport shrank. In 2000, housing was the largest category at 35%, above food at 25%. By 2020, housing had risen to 45%, the biggest change of any slice."
         },
         {
-          "step": 6,
+          "step": 7,
           "say": "For body paragraph two, I compare the slices that shrank. Food and transport both fell, so I put them in one sentence.",
           "build": "The two pie charts show how a family's household spending was divided between four categories in 2000 and 2020, as percentages. Overall, housing was the largest category and grew the most, while food and transport shrank. In 2000, housing was the largest category at 35%, above food at 25%. By 2020, housing had risen to 45%, the biggest change of any slice. Food fell from 25% to 20%, while transport fell from 15% to 10%."
         },
         {
-          "step": 7,
+          "step": 8,
           "say": "I check each percentage against its own pie and label. Real Task 1 needs at least 150 words, so this demo is only part of one.",
           "build": "The two pie charts show how a family's household spending was divided between four categories in 2000 and 2020, as percentages. Overall, housing was the largest category and grew the most, while food and transport shrank. In 2000, housing was the largest category at 35%, above food at 25%. By 2020, housing had risen to 45%, the biggest change of any slice. Food fell from 25% to 20%, while transport fell from 15% to 10%."
         }
@@ -643,7 +651,7 @@
       {
         "prompt": "Two invented pie charts show the sources of a town's electricity in 2000 and 2020. In 2000: coal 40%, gas 30%, wind 10%, solar 20%. In 2020: coal 20%, gas 40%, wind 20%, solar 20%. Write one sentence comparing wind power across the two pies, using 'doubled'. Use the steps.",
         "answer": "The share of wind power doubled, from 10% in 2000 to 20% in 2020.",
-        "why": "Step 3 finds wind as a slice that changed between the pies, and 20% is exactly double 10%. Step 6 compares the same slice across both pies in one sentence."
+        "why": "Step 3 finds wind as a slice that changed between the pies, and 20% is exactly double 10%. Step 7 compares the same slice across both pies in one sentence."
       }
     ]
   },
@@ -673,8 +681,12 @@
         "why": "The overview is required, and a table needs a clear summary because it has so much data."
       },
       {
-        "do": "Write two body paragraphs. Group rows or columns that are alike and compare them with figures.",
-        "why": "Grouping stops the report becoming a list, and comparing is the skill being tested."
+        "do": "Write body paragraph one: the highest and lowest figures, named with their numbers and the year.",
+        "why": "Grouping stops the report becoming a list. The extremes give the paragraph a clear first point to compare."
+      },
+      {
+        "do": "Write body paragraph two: the rest of the rows, including the surprise, compared with their figures.",
+        "why": "A second group gives a second point of comparison, so the report covers more of the table without becoming a list."
       },
       {
         "do": "Check each number against the right row and column before you finish.",
@@ -762,12 +774,12 @@
           "build": "The table shows how many people visited four museums in one city in 2023 and 2024 (in thousands). Overall, total visits rose, with the Science Centre showing the largest growth. In 2024, the Science Centre had the most visitors at 150 thousand, while Harbour Museum had the fewest at 40 thousand."
         },
         {
-          "step": 6,
+          "step": 7,
           "say": "For body paragraph two, I write a contrast sentence. I put the surprise and the lowest museum together, so the two changes are easy to compare.",
           "build": "The table shows how many people visited four museums in one city in 2023 and 2024 (in thousands). Overall, total visits rose, with the Science Centre showing the largest growth. In 2024, the Science Centre had the most visitors at 150 thousand, while Harbour Museum had the fewest at 40 thousand. Whereas the Science Centre rose from 90 to 150 thousand, Harbour Museum fell from 45 to 40 thousand."
         },
         {
-          "step": 7,
+          "step": 8,
           "say": "I check each number against its own row, column and unit, which is thousands. Real Task 1 needs at least 150 words, so this is only part of one.",
           "build": "The table shows how many people visited four museums in one city in 2023 and 2024 (in thousands). Overall, total visits rose, with the Science Centre showing the largest growth. In 2024, the Science Centre had the most visitors at 150 thousand, while Harbour Museum had the fewest at 40 thousand. Whereas the Science Centre rose from 90 to 150 thousand, Harbour Museum fell from 45 to 40 thousand."
         }
@@ -813,8 +825,12 @@
         "why": "The overview is required, and for maps it should say what was built, removed or converted."
       },
       {
-        "do": "Write body paragraphs. Describe the main changes in the order of the map, using passive and position words.",
-        "why": "A clear order, such as west to east, helps the reader picture the map."
+        "do": "Write body paragraph one: the first main change, in the passive and past tense, with position words.",
+        "why": "A clear order helps the reader picture the map, so start with the biggest change and describe it fully."
+      },
+      {
+        "do": "Write body paragraph two: the remaining changes, in the order they appear on the map.",
+        "why": "The second paragraph covers what is left, so no change is missed and the report keeps the map's order."
       },
       {
         "do": "Check tense, directions and place names. Make sure everything in your report is on the maps.",
@@ -902,12 +918,12 @@
           "build": "The two maps show how a village changed between 1990 and 2020. Overall, the village became more built up, as houses replaced the farm. The farm to the north-east of the village was demolished and replaced by a housing estate."
         },
         {
-          "step": 6,
+          "step": 7,
           "say": "For body paragraph two, I describe the field to the south. It was turned into a car park, so I use the passive again.",
           "build": "The two maps show how a village changed between 1990 and 2020. Overall, the village became more built up, as houses replaced the farm. The farm to the north-east of the village was demolished and replaced by a housing estate. The field to the south of the village was turned into a car park."
         },
         {
-          "step": 7,
+          "step": 8,
           "say": "I check tenses, directions and place names against both maps. Real Task 1 needs at least 150 words, so this is only part of one.",
           "build": "The two maps show how a village changed between 1990 and 2020. Overall, the village became more built up, as houses replaced the farm. The farm to the north-east of the village was demolished and replaced by a housing estate. The field to the south of the village was turned into a car park."
         }
@@ -1094,8 +1110,12 @@
         "why": "One overview, not one per visual, is clearer. It is required for the whole report."
       },
       {
-        "do": "Write one body paragraph for each visual, using its own key features and figures.",
+        "do": "Write body paragraph one: the first visual, using its own key features and figures.",
         "why": "A paragraph per visual keeps the report organised and easy to follow."
+      },
+      {
+        "do": "Write body paragraph two: the second visual, using its own key features and figures.",
+        "why": "Each visual gets its own paragraph, so the examiner can see both sources covered clearly."
       },
       {
         "do": "Add one sentence that links the visuals, such as a pattern that appears in both.",
@@ -1183,17 +1203,17 @@
           "build": "The line graph and the table show the number of tourists and hotel income in a coastal town between 2015 and 2020. Overall, both the number of tourists and hotel income grew over the period. The number of tourists rose from 50 thousand in 2015 to 80 thousand in 2020."
         },
         {
-          "step": 5,
+          "step": 6,
           "say": "For body paragraph two, I write a sentence for the table, with its own figures. The income figures come from the table only.",
           "build": "The line graph and the table show the number of tourists and hotel income in a coastal town between 2015 and 2020. Overall, both the number of tourists and hotel income grew over the period. The number of tourists rose from 50 thousand in 2015 to 80 thousand in 2020. Hotel income rose from £4 million to £7 million over the same period."
         },
         {
-          "step": 6,
+          "step": 7,
           "say": "Last, I add one linking sentence. It shows the two visuals follow the same pattern, so the examiner sees the connection.",
           "build": "The line graph and the table show the number of tourists and hotel income in a coastal town between 2015 and 2020. Overall, both the number of tourists and hotel income grew over the period. The number of tourists rose from 50 thousand in 2015 to 80 thousand in 2020. Hotel income rose from £4 million to £7 million over the same period. Hotel income also grew, in line with the rise in tourists."
         },
         {
-          "step": 7,
+          "step": 8,
           "say": "I check each figure against its own visual, since the units differ: thousands of tourists and millions of pounds. Real Task 1 needs at least 150 words.",
           "build": "The line graph and the table show the number of tourists and hotel income in a coastal town between 2015 and 2020. Overall, both the number of tourists and hotel income grew over the period. The number of tourists rose from 50 thousand in 2015 to 80 thousand in 2020. Hotel income rose from £4 million to £7 million over the same period. Hotel income also grew, in line with the rise in tourists."
         }
@@ -1209,7 +1229,7 @@
       {
         "prompt": "Two invented visuals for one city. Cyclists rose from 20 thousand in 2018 to 35 thousand in 2023, and bus passengers fell from 90 thousand to 70 thousand over the same years. Write one linking sentence that contrasts the two trends, using 'whereas' and both sets of figures. Use the steps.",
         "answer": "Whereas the number of cyclists rose from 20 thousand to 35 thousand, bus passengers fell from 90 thousand to 70 thousand.",
-        "why": "Step 6 links the two visuals in one sentence. 'Whereas' contrasts cyclists, who rose from 20 to 35 thousand, with bus passengers, who fell from 90 to 70 thousand."
+        "why": "Step 7 links the two visuals in one sentence. 'Whereas' contrasts cyclists, who rose from 20 to 35 thousand, with bus passengers, who fell from 90 to 70 thousand."
       }
     ]
   },
@@ -1239,8 +1259,12 @@
         "why": "Stating your position early tells the examiner you have answered the question."
       },
       {
-        "do": "Write two body paragraphs. Start each with a topic sentence, then the explanation and the example.",
-        "why": "A topic sentence lets the reader see the point of the paragraph at once."
+        "do": "Write body paragraph one: reason one, with a topic sentence, an explanation and an example.",
+        "why": "A topic sentence lets the reader see the point of the paragraph at once. One developed reason keeps it focused."
+      },
+      {
+        "do": "Write body paragraph two: reason two, with its own topic sentence, explanation and example.",
+        "why": "Each paragraph develops one idea, so the second reason needs its own topic sentence and example."
       },
       {
         "do": "Write a short conclusion that repeats your position and main reasons. Add no new ideas.",
@@ -1347,27 +1371,27 @@
           "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air and safer streets matter, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems. For example, a school on a busy road would have cleaner air at playtime."
         },
         {
-          "step": 6,
+          "step": 7,
           "say": "Now body paragraph two. I start with a topic sentence: safer streets protect children and cyclists from traffic.",
           "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air and safer streets matter, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems. For example, a school on a busy road would have cleaner air at playtime. The second reason is that safer streets protect children and cyclists from traffic."
         },
         {
-          "step": 6,
+          "step": 7,
           "say": "For paragraph two, I explain the reason. Fewer cars on the road means fewer collisions, so children and cyclists are safer.",
           "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air and safer streets matter, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems. For example, a school on a busy road would have cleaner air at playtime. The second reason is that safer streets protect children and cyclists from traffic. Fewer cars on the road means fewer collisions, so children and cyclists face far less danger."
         },
         {
-          "step": 6,
+          "step": 7,
           "say": "For paragraph two, I add an example. A quiet street with fewer cars lets children cycle to school safely.",
           "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air and safer streets matter, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems. For example, a school on a busy road would have cleaner air at playtime. The second reason is that safer streets protect children and cyclists from traffic. Fewer cars on the road means fewer collisions, so children and cyclists face far less danger. For example, a quiet street with fewer cars lets children cycle to school without fear."
         },
         {
-          "step": 7,
+          "step": 8,
           "say": "I repeat my position and add no new idea. This is only part of an essay, which should be at least 250 words.",
           "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air and safer streets matter, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems. For example, a school on a busy road would have cleaner air at playtime. The second reason is that safer streets protect children and cyclists from traffic. Fewer cars on the road means fewer collisions, so children and cyclists face far less danger. For example, a quiet street with fewer cars lets children cycle to school without fear. In conclusion, I partly agree that private cars should be banned from city centres, because cleaner air and safer streets matter, but a ban needs good public transport."
         },
         {
-          "step": 8,
+          "step": 9,
           "say": "I check the word count. A real exam essay needs at least 250 words, so this demo is only part of one. My position agrees throughout.",
           "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air and safer streets matter, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems. For example, a school on a busy road would have cleaner air at playtime. The second reason is that safer streets protect children and cyclists from traffic. Fewer cars on the road means fewer collisions, so children and cyclists face far less danger. For example, a quiet street with fewer cars lets children cycle to school without fear. In conclusion, I partly agree that private cars should be banned from city centres, because cleaner air and safer streets matter, but a ban needs good public transport. "
         }
