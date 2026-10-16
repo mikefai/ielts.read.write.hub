@@ -2,6 +2,7 @@ import { mountDisplayMenu } from '../../assets/core/display.js';
 import { renderChart } from './chart.js';
 import { mockNext } from './mock.js';
 import { recordAttempt } from '../../assets/core/store.js';
+import { mountSaveBar } from '../../assets/core/answers.js';
 import { mountLive, mountPace, mountChartTools, mountToolbox, mountDraft, loadLast, saveLast, lastDetailsHtml, lastNote } from './tools-ui.js';
 
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
@@ -123,7 +124,11 @@ function run(task, roles, meta, guide, bank, dict) {
         <section class="card"><h2>Model answer, sentence by sentence</h2><p><button class="btn ghost" id="whyAll" type="button">Show all explanations</button></p>${model}</section></div>
       ${guide ? `<section class="card check"><h2>Check yourself against these</h2><h3>Common mistakes</h3>${list(guide.pitfalls)}<h3>What lifts an answer to Band 8+</h3>${list(guide.band8)}</section>` : ''}
       <section class="card check"><h2>Self-check against the four marking criteria</h2>${checks}
-        <p><button class="btn" id="save" type="button">Save to my progress</button> <a class="btn ghost" href="../">Back to Writing</a></p></section>`;
+        <p><button class="btn" id="save" type="button">Save to my progress</button> <a class="btn ghost" href="../">Back to Writing</a></p></section>
+      <section class="card"><h2>Keep your answer</h2><div id="savebar"></div></section>`;
+    const mockId = new URLSearchParams(location.search).get('mock');
+    mountSaveBar(app.querySelector('#savebar'), () => ({ id: `writing:${task.id}:${start}`, skill: 'writing', kind: mockId ? `mock exam, task ${task.task}` : `task ${task.task}`, title: task.title ?? meta.title, setId: task.id, mockId, at: start,
+      seconds: Math.round((Date.now() - start) / 1000), prompt: task.prompt, words: nowWords, paragraphs: paraList }), '../../../answers/');
     const setWhy = (b, open) => { b.setAttribute('aria-expanded', open); b.nextElementSibling.hidden = !open; };
     app.querySelectorAll('.why-btn').forEach(b => b.onclick = () => setWhy(b, b.getAttribute('aria-expanded') !== 'true'));
     const whyAll = app.querySelector('#whyAll');

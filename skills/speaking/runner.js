@@ -1,6 +1,7 @@
 import { mountDisplayMenu } from '../../assets/core/display.js';
 import { buildSteps } from './plan.js';
 import { recordAttempt } from '../../assets/core/store.js';
+import { mountSaveBar } from '../../assets/core/answers.js';
 
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 const mmss = s => `${s < 0 ? '+' : ''}${String(Math.floor(Math.abs(s) / 60)).padStart(2, '0')}:${String(Math.abs(s) % 60).padStart(2, '0')}`;
@@ -24,7 +25,7 @@ try {
 
 function run(mock) {
   const steps = buildSteps(mock), p2 = mock.part2, say = 'speechSynthesis' in window;
-  let i = 0, exam = false, timer = null;
+  let i = 0, exam = false, timer = null, prepNotes = '';
   const start = Date.now();
   const stop = () => { clearInterval(timer); if (say) speechSynthesis.cancel(); };
   const countdown = (el, secs, onEnd) => {
@@ -67,7 +68,7 @@ function run(mock) {
           <button class="tog" id="exam" type="button" aria-pressed="${exam}">Exam mode</button>
         </div><div id="model" class="model" hidden>${esc(model)}</div></section>
         ${exam ? '' : help(s)}</div>`;
-    const next = () => { i++; show(); }, t = app.querySelector('#timer');
+    const next = () => { prepNotes = app.querySelector('#notes')?.value || prepNotes; i++; show(); }, t = app.querySelector('#timer');
     if (t) countdown(t, s.kind === 'prep' ? c.prepSeconds : s.kind === 'talk' ? c.talkSeconds : 30, isQ ? null : next); // question timer is soft: it counts past zero
     const ta = app.querySelector('#notes'); if (ta) ta.value = notes;
     app.querySelector('#next').onclick = next;
@@ -79,7 +80,10 @@ function run(mock) {
   function finish() {
     app.innerHTML = `<header class="head"><div><p class="kicker">Self-assessment</p><h1>${esc(mock.title)}</h1></div></header>
       <section class="card check"><h2>How did it go? Tick what is true.</h2>${CRITERIA.map(([h, items]) => `<fieldset><legend>${h}</legend>${items.map(x => `<label><input type="checkbox"> ${x}</label>`).join('')}</fieldset>`).join('')}
-      <p><button class="btn" id="save" type="button">Save to my progress</button> <a class="btn ghost" href="../">Back to Speaking</a></p></section>`;
+      <p><button class="btn" id="save" type="button">Save to my progress</button> <a class="btn ghost" href="../">Back to Speaking</a></p></section>
+      <section class="card"><h2>Keep your notes and self-assessment</h2><div id="savebar"></div></section>`;
+    mountSaveBar(app.querySelector('#savebar'), () => ({ id: `speaking:${mock.id}:${start}`, skill: 'speaking', kind: 'mock interview', title: mock.title, setId: mock.id, at: start, seconds: Math.round((Date.now() - start) / 1000),
+      notes: prepNotes, ticks: [...app.querySelectorAll('.check input:checked')].map(c => c.parentElement.textContent.trim()) }), '../../../answers/');
     app.querySelector('#save').onclick = e => {
       recordAttempt({ type: 'speaking-mock', setId: mock.id, score: app.querySelectorAll('.check input:checked').length, total: 8, seconds: Math.round((Date.now() - start) / 1000) });
       e.target.textContent = 'Saved ✓'; e.target.disabled = true;

@@ -3,6 +3,7 @@ import { TYPES } from './types.js';
 import { markItem } from './marking.js';
 import { STEPS, COACH } from './coach.js';
 import { recordAttempt } from '../../../assets/core/store.js';
+import { mountSaveBar } from '../../../assets/core/answers.js';
 import { mountNavigator, addFlags, addStrike, goTo } from './tools-nav.js';
 import { mountAnnotations, mountFindBar, mountRuler, evidenceVerdict } from './tools-annotate.js';
 
@@ -86,14 +87,17 @@ export async function startSet({ type, mount, render, minutes }) {
     const answers = get();
     const results = set.items.map((it, i) => ({ it, a: answers[i], ok: markItem(it, answers[i], set.wordLimit) }));
     const score = results.filter(r => r.ok).length;
-    recordAttempt({ type, setId, score, total: set.items.length, seconds: Math.round((Date.now() - start) / 1000) });
+    const seconds = Math.round((Date.now() - start) / 1000);
+    recordAttempt({ type, setId, score, total: set.items.length, seconds });
     mount.querySelector('#items').parentElement.innerHTML = `<h2>Score ${score}/${set.items.length}</h2>` + results.map((r, i) => `
       <div class="rev ${r.ok ? 'ok' : 'bad'}"><p><strong>${i + 1}. ${r.ok ? '\u2713' : '\u2717'}</strong> ${esc(r.it.prompt)}</p>
         <p>Your answer: ${esc(r.a || '(blank)')} \u00b7 Correct: <strong>${esc(r.it.answer)}</strong></p>
         <p class="muted">Step ${r.it.step}: ${STEPS[r.it.step - 1]}</p>
         <p class="verdict">${esc(evidenceVerdict(passage, ann.getMarks(0), r.it.evidence))}</p>
         <button class="btn ghost" type="button" data-i="${i}">Show evidence in passage</button>${helpHtml(i, true)}</div>`).join('')
-      + `<p><a class="btn" href="../../index.html">Back to Reading</a> <a class="btn ghost" href="">Retry</a></p>`;
+      + `<div id="savebar"></div><p><a class="btn" href="../../index.html">Back to Reading</a> <a class="btn ghost" href="">Retry</a></p>`;
+    mountSaveBar(mount.querySelector('#savebar'), () => ({ id: `reading:${type}:${setId}:${start}`, skill: 'reading', kind: 'exercise', title: meta.title, setId, at: start, seconds, score, total: set.items.length,
+      items: results.map((r, i) => ({ n: i + 1, prompt: r.it.prompt, answer: r.a || '', correct: r.it.answer, ok: r.ok })) }), '../../../../answers/');
     mount.querySelectorAll('button[data-i]').forEach(b => b.onclick = () => paintPassage(set.items[b.dataset.i].evidence));
     wireHelp(mount, set.items);
   }

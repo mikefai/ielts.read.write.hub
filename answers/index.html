@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><link rel="icon" href="data:,"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My saved answers · IELTS Study Hub</title>
+<link rel="stylesheet" href="../assets/core/tokens.css"><link rel="stylesheet" href="../assets/core/base.css"><link rel="stylesheet" href="../assets/hub.css">
+<style>.arow{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center;margin:.6rem 0}.acard{padding:.8rem 1rem;margin:.8rem 0;background:var(--paper);border:1px solid var(--line);border-radius:12px}.acard h3{margin:0}.acard .meta{color:var(--muted);margin:.2rem 0}.acard pre{white-space:pre-wrap;overflow-wrap:anywhere;margin:.6rem 0 0}</style></head>
+<body><div class="wrap"><p><a class="back" href="../index.html">&larr; Hub</a></p>
+<header class="mast rise"><p class="kicker">Keep &amp; review</p><h1>My saved <em>answers.</em></h1>
+<p>Every exercise, test and mock you finish is saved in this browser. Download them to keep a copy for later review or to share with a teacher.</p></header>
+<div class="arow" id="top" hidden><button class="btn" id="dlTxt" type="button">Download all (.txt)</button><button class="btn ghost" id="dlJson" type="button">Download all (.json)</button></div>
+<main id="list" aria-live="polite"></main></div>
+<script type="module">
+import { mountDisplayMenu } from '../assets/core/display.js';
+import { listAnswers, removeAnswer, answerText, allAnswersText, answerFileName, downloadFile } from '../assets/core/answers.js';
+mountDisplayMenu(document.querySelector('.wrap > p'));
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+const list = document.getElementById('list');
+function draw() {
+  const recs = listAnswers();
+  document.getElementById('top').hidden = !recs.length;
+  list.innerHTML = recs.length ? recs.map(r => `<article class="acard"><h3>${esc(r.title ?? r.setId)}</h3>
+    <p class="meta">${esc(r.skill)}${r.kind ? ' &middot; ' + esc(r.kind) : ''} &middot; ${esc(new Date(r.at).toLocaleString())}${r.total ? ` &middot; ${r.score}/${r.total}` : ''}${r.words ? ` &middot; ${r.words} words` : ''}</p>
+    <div class="arow"><button class="btn" type="button" data-dl="${esc(r.id)}">Download (.txt)</button><button class="btn ghost" type="button" data-rm="${esc(r.id)}">Delete</button></div>
+    <details><summary>Preview</summary><pre>${esc(answerText(r))}</pre></details></article>`).join('')
+    : '<p class="empty">Nothing saved yet. Finish an exercise, test or mock and your answers appear here.</p>';
+}
+list.onclick = e => {
+  const dl = e.target.closest('[data-dl]'), rm = e.target.closest('[data-rm]');
+  if (dl) { const r = listAnswers().find(x => x.id === dl.dataset.dl); if (r) downloadFile(answerFileName(r), answerText(r)); }
+  if (rm && confirm('Delete this saved answer? This cannot be undone.')) { removeAnswer(rm.dataset.rm); draw(); }
+};
+document.getElementById('dlTxt').onclick = () => downloadFile('ielts-my-answers.txt', allAnswersText(listAnswers()));
+document.getElementById('dlJson').onclick = () => downloadFile('ielts-my-answers.json', JSON.stringify(listAnswers(), null, 2), 'application/json');
+draw();
+</script></body></html>
