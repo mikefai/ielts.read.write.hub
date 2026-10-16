@@ -867,31 +867,31 @@
     "steps": [
       {
         "do": "Read the title and the dates on each map. Note which map is earlier and which is later.",
-        "why": "The dates decide your tenses. Past dates need past tense, and future dates need 'will'."
+        "why": "The dates decide your tenses. A 1995-to-present pair uses past and present perfect forms, such as has been built."
       },
       {
-        "do": "Find what stayed the same, what was removed, what was built and what changed its use.",
-        "why": "These four types of change are the content of your report. Sorting them first makes writing easy."
+        "do": "Sort the changes: what was removed, what was built, what was converted, and what stayed the same.",
+        "why": "These types of change are the content of your report. Sorting them first makes writing easy."
       },
       {
-        "do": "Learn the map directions: north, south-east, next to, opposite, between, adjacent to. Check them against the compass.",
+        "do": "Learn the map directions: north, south-west, to the east of, inland, adjacent to. Check them against the compass.",
         "why": "A wrong direction is a factual error. Use the compass on the map, not a guess."
       },
       {
-        "do": "Write the introduction by paraphrasing the title. Say what the maps show and which years.",
-        "why": "It tells the reader what to expect, using your own words."
+        "do": "Write the introduction: one sentence that paraphrases the title, saying what the maps show and the years.",
+        "why": "One paraphrase sentence tells the reader what to expect, in your own words, with no new facts."
       },
       {
-        "do": "Write the overview: the main change in general, such as a village that became a town. No small details.",
-        "why": "The overview is required, and for maps it should say what was built, removed or converted."
+        "do": "Write the overview in two sentences: the degree of change, then the main removal and the main addition. No numbers.",
+        "why": "The overview is required. It names the big change and the main developments, without small details or directions."
       },
       {
-        "do": "Write body paragraph one: the first main change, in the passive and past tense, with position words.",
-        "why": "A clear order helps the reader picture the map, so start with the biggest change and describe it fully."
+        "do": "Write body paragraph one: the northern coast, with its removals, new facilities and nearby change, in the passive.",
+        "why": "One zone per paragraph lets the reader picture the map area by area. Passive verbs fit changes made to places."
       },
       {
-        "do": "Write body paragraph two: the remaining changes, in the order they appear on the map.",
-        "why": "The second paragraph covers what is left, so no change is missed and the report keeps the map's order."
+        "do": "Write body paragraph two: the southern and inland half, with its residential and road changes, in the passive.",
+        "why": "The opposite half of the map gets its own paragraph, so the report covers both zones evenly."
       },
       {
         "do": "Check tense, directions and place names. Make sure everything in your report is on the maps.",
@@ -928,7 +928,7 @@
       {
         "name": "Overview",
         "lines": [
-          "Overall, [place] changed from a [type] into a [type], with [number] major [additions / removals].",
+          "Overall, [place] changed from a [type] into a [type], with major [additions / removals].",
           "It is clear that the area became more [developed / residential / commercial], with new [buildings] replacing [old features].",
           "The most significant changes were the [construction of / removal of] [feature] and the [extension of] [feature]."
         ]
@@ -949,47 +949,72 @@
       "why": "The strong sentence uses the passive for the change, gives an exact compass position, and places the new feature in relation to another."
     },
     "demo": {
-      "prompt": "Write an introduction, an overview and one body sentence for two invented maps. Title: 'How a village changed, 1990 and 2020'. In 1990 a farm stood to the north-east of the village, and a field lay to the south. By 2020 the farm had been demolished and replaced by a housing estate, the field had become a car park, and the rest of the village stayed the same. Use the steps.",
+      "prompt": "The two maps show changes in the coastal town of Seabourne between 1995 and the present day.",
       "moves": [
         {
           "step": 1,
-          "say": "I check the dates first. The first map is from 1990 and the second is from 2020, so I use past tenses for the changes."
+          "say": "I check the dates: 1995 and the present day, so the changes use past and present perfect passive forms."
         },
         {
           "step": 2,
-          "say": "I sort the changes into types. The farm was removed and houses were built, and the field changed its use to a car park."
+          "say": "I sort the changes: the fish market and docks were removed, a marina and promenade were built, and beach was converted to a hotel."
         },
         {
           "step": 3,
-          "say": "I check the compass before I name any direction. The farm is north-east of the village, so I write 'to the north-east of'."
+          "say": "I check the directions: the docks and marina are north, the hotel is east of the marina, and the woodland is south-west."
         },
         {
           "step": 4,
-          "say": "I paraphrase the title for my introduction. I say which maps I am describing and which years they show.",
-          "build": "The two maps show how a village changed between 1990 and 2020."
+          "say": "Introduction, paraphrase: I restate the title, saying what the maps show, the town and the years.",
+          "build": "The two maps depict the architectural and infrastructural transformations that occurred in the coastal town of Seabourne between 1995 and the present day."
         },
         {
           "step": 5,
-          "say": "The overview gives the main change with no small details. Houses replaced the farm, so I say the village became more built up.",
-          "build": "The two maps show how a village changed between 1990 and 2020. Overall, the village became more built up, as houses replaced the farm."
+          "say": "Overview, degree of change: I say the town has modernised and expanded, with no figures or directions.",
+          "build": "The two maps depict the architectural and infrastructural transformations that occurred in the coastal town of Seabourne between 1995 and the present day. Overall, the town has undergone extensive modernisation and commercial expansion, transitioning from a quiet fishing village into an active tourist destination."
+        },
+        {
+          "step": 5,
+          "say": "Overview, main removal and addition: I name the removed maritime sites and the new recreational facilities.",
+          "build": "The two maps depict the architectural and infrastructural transformations that occurred in the coastal town of Seabourne between 1995 and the present day. Overall, the town has undergone extensive modernisation and commercial expansion, transitioning from a quiet fishing village into an active tourist destination. The most prominent developments include the removal of maritime industrial sites and the extensive construction of recreational facilities along the waterfront."
         },
         {
           "step": 6,
-          "say": "For body paragraph one, I describe the main change in the passive and past tense. 'Was demolished and replaced by' shows the farm is gone.",
-          "build": "The two maps show how a village changed between 1990 and 2020. Overall, the village became more built up, as houses replaced the farm. The farm to the north-east of the village was demolished and replaced by a housing estate."
+          "say": "Body 1, removal on the shoreline: I say the old fish market and docks were removed in the north.",
+          "build": "The two maps depict the architectural and infrastructural transformations that occurred in the coastal town of Seabourne between 1995 and the present day. Overall, the town has undergone extensive modernisation and commercial expansion, transitioning from a quiet fishing village into an active tourist destination. The most prominent developments include the removal of maritime industrial sites and the extensive construction of recreational facilities along the waterfront. In the northern sector, the original fish market and warehouse docks situated along the coast have been completely demolished."
+        },
+        {
+          "step": 6,
+          "say": "Body 1, new facilities: I say a marina and a promenade were built in their place.",
+          "build": "The two maps depict the architectural and infrastructural transformations that occurred in the coastal town of Seabourne between 1995 and the present day. Overall, the town has undergone extensive modernisation and commercial expansion, transitioning from a quiet fishing village into an active tourist destination. The most prominent developments include the removal of maritime industrial sites and the extensive construction of recreational facilities along the waterfront. In the northern sector, the original fish market and warehouse docks situated along the coast have been completely demolished. In their place, a large luxury marina and an open-air promenade have been constructed to accommodate leisure vessels."
+        },
+        {
+          "step": 6,
+          "say": "Body 1, adjacent infrastructure: I place the beachfront hotel to the east of the marina, with its pool.",
+          "build": "The two maps depict the architectural and infrastructural transformations that occurred in the coastal town of Seabourne between 1995 and the present day. Overall, the town has undergone extensive modernisation and commercial expansion, transitioning from a quiet fishing village into an active tourist destination. The most prominent developments include the removal of maritime industrial sites and the extensive construction of recreational facilities along the waterfront. In the northern sector, the original fish market and warehouse docks situated along the coast have been completely demolished. In their place, a large luxury marina and an open-air promenade have been constructed to accommodate leisure vessels. Immediately to the east of the new marina, a previously barren stretch of beach has been converted into a beachfront hotel complex complete with a private swimming pool."
         },
         {
           "step": 7,
-          "say": "For body paragraph two, I describe the field to the south. It was turned into a car park, so I use the passive again.",
-          "build": "The two maps show how a village changed between 1990 and 2020. Overall, the village became more built up, as houses replaced the farm. The farm to the north-east of the village was demolished and replaced by a housing estate. The field to the south of the village was turned into a car park."
+          "say": "Body 2, residential changes: I say the southern half and the inland area saw changes to housing and transport.",
+          "build": "The two maps depict the architectural and infrastructural transformations that occurred in the coastal town of Seabourne between 1995 and the present day. Overall, the town has undergone extensive modernisation and commercial expansion, transitioning from a quiet fishing village into an active tourist destination. The most prominent developments include the removal of maritime industrial sites and the extensive construction of recreational facilities along the waterfront. In the northern sector, the original fish market and warehouse docks situated along the coast have been completely demolished. In their place, a large luxury marina and an open-air promenade have been constructed to accommodate leisure vessels. Immediately to the east of the new marina, a previously barren stretch of beach has been converted into a beachfront hotel complex complete with a private swimming pool. Moving inland toward the southern half of the town, significant changes have been made to residential accommodation and transit links."
+        },
+        {
+          "step": 7,
+          "say": "Body 2, housing and tree removal: I say a woodland in the south-west was cleared for apartments and a car park.",
+          "build": "The two maps depict the architectural and infrastructural transformations that occurred in the coastal town of Seabourne between 1995 and the present day. Overall, the town has undergone extensive modernisation and commercial expansion, transitioning from a quiet fishing village into an active tourist destination. The most prominent developments include the removal of maritime industrial sites and the extensive construction of recreational facilities along the waterfront. In the northern sector, the original fish market and warehouse docks situated along the coast have been completely demolished. In their place, a large luxury marina and an open-air promenade have been constructed to accommodate leisure vessels. Immediately to the east of the new marina, a previously barren stretch of beach has been converted into a beachfront hotel complex complete with a private swimming pool. Moving inland toward the southern half of the town, significant changes have been made to residential accommodation and transit links. A grove of woodland situated in the south-west was cleared to make way for a block of residential apartments and a car park."
+        },
+        {
+          "step": 7,
+          "say": "Body 2, roads: I say the southern road was widened and a new roundabout links the housing and hotels.",
+          "build": "The two maps depict the architectural and infrastructural transformations that occurred in the coastal town of Seabourne between 1995 and the present day. Overall, the town has undergone extensive modernisation and commercial expansion, transitioning from a quiet fishing village into an active tourist destination. The most prominent developments include the removal of maritime industrial sites and the extensive construction of recreational facilities along the waterfront. In the northern sector, the original fish market and warehouse docks situated along the coast have been completely demolished. In their place, a large luxury marina and an open-air promenade have been constructed to accommodate leisure vessels. Immediately to the east of the new marina, a previously barren stretch of beach has been converted into a beachfront hotel complex complete with a private swimming pool. Moving inland toward the southern half of the town, significant changes have been made to residential accommodation and transit links. A grove of woodland situated in the south-west was cleared to make way for a block of residential apartments and a car park. Furthermore, the main southern road was widened, and a newly built roundabout now connects the residential sector directly to the hotel district."
         },
         {
           "step": 8,
-          "say": "I check tenses, directions and place names against both maps. Real Task 1 needs at least 150 words, so this is only part of one.",
-          "build": "The two maps show how a village changed between 1990 and 2020. Overall, the village became more built up, as houses replaced the farm. The farm to the north-east of the village was demolished and replaced by a housing estate. The field to the south of the village was turned into a car park."
+          "say": "Check: this model has 195 words. Real Task 1 needs at least 150 words, so my own report must be at least that long.",
+          "build": "The two maps depict the architectural and infrastructural transformations that occurred in the coastal town of Seabourne between 1995 and the present day. Overall, the town has undergone extensive modernisation and commercial expansion, transitioning from a quiet fishing village into an active tourist destination. The most prominent developments include the removal of maritime industrial sites and the extensive construction of recreational facilities along the waterfront. In the northern sector, the original fish market and warehouse docks situated along the coast have been completely demolished. In their place, a large luxury marina and an open-air promenade have been constructed to accommodate leisure vessels. Immediately to the east of the new marina, a previously barren stretch of beach has been converted into a beachfront hotel complex complete with a private swimming pool. Moving inland toward the southern half of the town, significant changes have been made to residential accommodation and transit links. A grove of woodland situated in the south-west was cleared to make way for a block of residential apartments and a car park. Furthermore, the main southern road was widened, and a newly built roundabout now connects the residential sector directly to the hotel district."
         }
       ],
-      "answer": "The two maps show how a village changed between 1990 and 2020. Overall, the village became more built up, as houses replaced the farm. The farm to the north-east of the village was demolished and replaced by a housing estate. The field to the south of the village was turned into a car park."
+      "answer": "The two maps depict the architectural and infrastructural transformations that occurred in the coastal town of Seabourne between 1995 and the present day. Overall, the town has undergone extensive modernisation and commercial expansion, transitioning from a quiet fishing village into an active tourist destination. The most prominent developments include the removal of maritime industrial sites and the extensive construction of recreational facilities along the waterfront. In the northern sector, the original fish market and warehouse docks situated along the coast have been completely demolished. In their place, a large luxury marina and an open-air promenade have been constructed to accommodate leisure vessels. Immediately to the east of the new marina, a previously barren stretch of beach has been converted into a beachfront hotel complex complete with a private swimming pool. Moving inland toward the southern half of the town, significant changes have been made to residential accommodation and transit links. A grove of woodland situated in the south-west was cleared to make way for a block of residential apartments and a car park. Furthermore, the main southern road was widened, and a newly built roundabout now connects the residential sector directly to the hotel district."
     },
     "practice": [
       {
@@ -998,9 +1023,9 @@
         "why": "Step 3 checks the compass position: the alley is to the west of the lake. Step 6 describes the change in the passive and past tense, 'was demolished and replaced by'."
       },
       {
-        "prompt": "Two invented maps of a seaside town, 1980 and 2010. In 1980 a car park stood to the north of the pier, and a small hotel stood to the south-east of the pier. In 2010 the car park had been converted into a marina, and the hotel was still there. Write one overview sentence with no compass direction and no small details. Use the steps.",
-        "answer": "Overall, the main change was the conversion of the car park into a marina, while the hotel stayed the same.",
-        "why": "Step 2 sorts the changes: one feature was converted and one stayed. Step 5 asks for the main change only, with no directions or small details, so the answer leaves out the compass positions."
+        "prompt": "Two invented maps of a seaside town, 1980 and 2010. In 1980 a car park stood to the north of the pier, and a small hotel stood to the south-east of the pier. In 2010 the car park had been converted into a marina, and the hotel was still there. Write the two overview sentences with no compass direction and no small details. Use the steps.",
+        "answer": "Overall, the main change was the conversion of the car park into a marina. The hotel by the pier stayed the same.",
+        "why": "Step 2 sorts the changes: one feature was converted and one stayed. Step 5 asks for two overview sentences, the main change and what stayed, with no directions or small details."
       }
     ]
   },
