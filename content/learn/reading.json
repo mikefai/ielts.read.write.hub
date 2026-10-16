@@ -26,14 +26,14 @@
     },
     "practice": [
       {
-        "prompt": "Sam is answering a True / False / Not Given question. Which step did he skip? Use the five steps to decide.",
+        "prompt": "Sam is answering a True / False / Not Given question. Which step did he skip? Use the five-step method to decide.",
         "text": "Sam skimmed the passage and labelled both paragraphs. He underlined 'supermarkets' in the question and predicted that 'began selling' would appear. He found the sentence in paragraph B and read the sentences around it. He wrote TRUE and moved on, without pointing to the exact words that prove it.",
         "options": ["Skim and label the topics", "Underline the keywords", "Predict the paraphrase", "Find it and read around it", "Confirm with a line"],
         "answer": "Confirm with a line",
         "why": "Step 5 asks you to point to the exact words that prove your answer. Sam found the right sentence but never pointed to the words that prove TRUE. He should have checked them before writing."
       },
       {
-        "prompt": "Priya's question asks whether rent rose. Which step did she skip? Use the five steps to decide.",
+        "prompt": "Priya's question asks whether rent rose. Which step did she skip? Use the five-step method to decide.",
         "text": "Priya found the word 'rent' in the second paragraph and wrote 'it rose' straight away. She did not read the sentence before or after it. The next sentence said the rent had fallen, so her answer was wrong.",
         "options": ["Skim and label the topics", "Underline the keywords", "Predict the paraphrase", "Find it and read around it", "Confirm with a line"],
         "answer": "Find it and read around it",
@@ -909,7 +909,7 @@
       "Did I count the words and stay inside the limit?"
     ],
     "demo": {
-      "prompt": "Diagram (a flow chart, read left to right): Box 1: logs are cut into chips → Box 2: the chips are mixed with water to form a [gap] → Box 3: the pulp is spread across a long wire [gap]. Write ONE WORD ONLY for each gap.",
+      "prompt": "Diagram (a flow chart, read left to right): Box 1: logs are cut into chips → Box 2: the chips are mixed with water to form a [gap] → Box 3: the material from Box 2 is spread across a long wire [gap]. Write ONE WORD ONLY for each gap.",
       "text": "Paper is made in three stages at the Mill Road plant. First, logs are cut into chips. Next, the chips are mixed with water to form a thick pulp. Finally, the pulp is spread across a long wire screen, which lets the water drain away.",
       "moves": [
         {
@@ -922,7 +922,7 @@
         },
         {
           "step": 3,
-          "say": "I see each gap needs a noun, a thing in the process. I think box 2 is a material, and box 3 is a thing the pulp is spread on."
+          "say": "I see each gap needs a noun, a thing in the process. I think box 2 is a material, and box 3 is a thing the material is spread on."
         },
         {
           "step": 4,
@@ -1532,12 +1532,12 @@
         },
         {
           "step": 4,
-          "say": "Option B copies arches and repair, but the passage gives safety as the reason, not repairs. So I reject B.",
+          "say": "Option B mentions repair, but the passage never gives repair as the reason, so I reject B on meaning.",
           "mark": "The council said that the decision was about safety, not money."
         },
         {
           "step": 5,
-          "say": "I see that option A matches the passage line. B copies more words, but its meaning does not fit, so I pick A by meaning.",
+          "say": "Option B shares the word arches with the passage, but shared words are not proof. I pick A because its meaning fits.",
           "mark": "During a routine check, engineers found serious cracks in its arches."
         },
         {

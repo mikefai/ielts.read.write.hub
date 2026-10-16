@@ -17,7 +17,7 @@
 .note .move p { margin: .3rem 0; }
 .note .move-label { display: inline-block; font-size: .8em; font-weight: 700; padding: .1rem .55rem; border: 1px solid var(--line); border-radius: 999px; }
 .note .quote { font-style: italic; overflow-wrap: anywhere; }
-.note .build { margin-top: .4rem; padding: .4rem .6rem; border-left: 4px solid var(--c, var(--accent)); overflow-wrap: anywhere; }
+.note .build { margin-top: .4rem; padding: .4rem .6rem; border-left: 4px solid var(--accent); overflow-wrap: anywhere; }
 .note .passage { padding: .6rem .8rem; background: var(--paper); border: 1px solid var(--line); border-radius: 10px; overflow-wrap: anywhere; }
 .note .practice { margin: .8rem 0; padding: .6rem .8rem; background: var(--paper); border: 1px solid var(--line); border-radius: 10px; overflow-wrap: anywhere; }
 .note .practice p { margin: .3rem 0; }

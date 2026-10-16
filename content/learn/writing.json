@@ -72,24 +72,24 @@
         {
           "step": 3,
           "say": "I swap 'bad' for 'harmful' and 'dirty' for 'polluted'. Both words are more precise, and the meaning stays the same.",
-          "build": "Many people think cars are harmful for cities. I agree because the air is polluted and there is a lot of traffic. Cars is causing many problems. Governments should do something about it."
+          "build": "Many people think cars are harmful to cities. I agree because the air is polluted and there is a lot of traffic. Cars is causing many problems. Governments should do something about it."
         },
         {
           "step": 4,
           "say": "Grammar has a clear error: 'Cars is causing'. 'Cars' is plural, so I change 'is' to 'are'. Nothing else needs changing.",
-          "build": "Many people think cars are harmful for cities. I agree because the air is polluted and there is a lot of traffic. Cars are causing many problems. Governments should do something about it."
+          "build": "Many people think cars are harmful to cities. I agree because the air is polluted and there is a lot of traffic. Cars are causing many problems. Governments should do something about it."
         },
         {
           "step": 6,
           "say": "To reach Band 7, I keep swapping vague words for precise ones. 'A lot of traffic' becomes 'heavy congestion', which is more exact.",
-          "build": "Many people think cars are harmful for cities. I agree because the air is polluted and there is heavy congestion. Cars are causing many problems. Governments should do something about it."
+          "build": "Many people think cars are harmful to cities. I agree because the air is polluted and there is heavy congestion. Cars are causing many problems. Governments should do something about it."
         }
       ],
-      "answer": "Many people think cars are harmful for cities. I agree because the air is polluted and there is heavy congestion. Cars are causing many problems. Governments should do something about it."
+      "answer": "Many people think cars are harmful to cities. I agree because the air is polluted and there is heavy congestion. Cars are causing many problems. Governments should do something about it."
     },
     "practice": [
       {
-        "prompt": "Which criterion is weak here? Choose one of the four criteria. Question: 'Do you think homework helps students learn?' Paragraph: 'I think homework is good. It helps students learn because they practise at home. Homework is good for students because it helps them learn more. Teachers give homework and students do it.' Use the steps.",
+        "prompt": "Which criterion is weak here? Choose one of the four criteria. Question: 'Do you think homework helps students learn?' Paragraph: 'I think homework is good. It helps students learn because they practise at home. Homework also teaches students to manage their time. Teachers give homework and students do it.' Use the steps.",
         "options": [
           "Task Achievement",
           "Coherence and Cohesion",
@@ -97,7 +97,7 @@
           "Grammatical Range and Accuracy"
         ],
         "answer": "Lexical Resource",
-        "why": "Step 3 finds the weak criterion: 'good' and 'students' repeat, and the words are very simple. The view is clear (step 1), the sentences link well (step 2), and the grammar is correct (step 4)."
+        "why": "Step 3 finds the weak criterion: 'good' is vague, 'students' repeats, and the words are very simple. The view is clear (step 1), the sentences link well (step 2), and the grammar is correct (step 4)."
       },
       {
         "prompt": "Which criterion is weak here? Choose one of the four criteria. Question: 'Some people think cars should be banned from city centres. Discuss.' Paragraph: 'Cars are very useful in modern life. They help people travel quickly to work, and they carry goods across long distances. Engines produce exhaust gases that affect the air in towns.' Use the steps.",
@@ -1466,7 +1466,7 @@
       "why": "The strong sentence names a cause, matches it with a solution, and says who should act. This makes the argument logical."
     },
     "demo": {
-      "prompt": "Many people throw away a great deal of food. What are the causes of this problem, and what solutions can be suggested?",
+      "prompt": "A great deal of food is wasted in many countries. What are the causes of this problem, and what solutions can be suggested?",
       "moves": [
         {
           "step": 1,
@@ -1492,7 +1492,7 @@
         },
         {
           "step": 5,
-          "say": "I explain the effect of this cause. Shops reject crooked vegetables, which leads to large waste.",
+          "say": "I explain the effect of this cause. Shops reject crooked vegetables that taste fine, so edible food ends up in bins.",
           "build": "Vast quantities of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat. This leads to considerable waste, because shops reject crooked vegetables even though they taste the same."
         },
         {
