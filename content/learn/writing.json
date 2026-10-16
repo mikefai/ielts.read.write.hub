@@ -1629,36 +1629,36 @@
     "what": "You are given a problem and asked for its causes, its solutions or both. Task 2 needs at least 250 words. The examiner wants every part of the question answered, with each problem matched to a solution that fits it.",
     "steps": [
       {
-        "do": "Read the question and check what it asks for: causes, effects, problems, solutions, or a mix. Underline each part.",
+        "do": "Read the question and check what it asks for: causes, solutions or both. Underline each part.",
         "why": "If you miss a part, your score for answering the question is limited."
       },
       {
-        "do": "Write down two problems or causes. Beside each one, write a solution that fixes it.",
-        "why": "A solution that does not match the problem looks like a weak argument."
+        "do": "List the causes first, then write solutions that answer them. Each solution should fix one of the causes you listed.",
+        "why": "A solution that does not answer a cause looks like a weak argument."
       },
       {
-        "do": "Choose one example for each problem and solution. A short real-world example is enough.",
+        "do": "Choose one example for each cause and each solution. A short real-world example is enough.",
         "why": "Examples make general advice feel believable."
       },
       {
-        "do": "Write the introduction: paraphrase the problem and say what the essay will cover.",
-        "why": "This tells the examiner how you will answer each part."
+        "do": "Write the introduction in two sentences: paraphrase the problem, then name the main causes and the main solutions.",
+        "why": "The second sentence is a roadmap, so the examiner knows which causes and solutions you will cover."
       },
       {
-        "do": "Write body paragraph one about problem one: the cause, the effect, then its solution and who should act.",
-        "why": "One problem and its solution per paragraph keeps the idea clear."
+        "do": "Write body one on the causes: topic sentence, explanation, example, then a result sentence on the consequence.",
+        "why": "Grouping the causes in one paragraph shows the examiner the diagnosis before the cure."
       },
       {
-        "do": "Write body paragraph two about problem two in the same way, with its own solution and why it works.",
-        "why": "Every problem then has a solution, a person who acts, and a reason it helps."
+        "do": "Write body two on the solutions: topic sentence, how solution one works, how solution two works, then a result sentence on the likely impact.",
+        "why": "Each solution explains how it fixes the causes, and the result sentence shows the likely impact."
       },
       {
-        "do": "Write a conclusion that sums up the problem and the main solution. Add no new ideas.",
-        "why": "A short, clear ending shows you stayed on topic."
+        "do": "Write the conclusion in two sentences: summarise the causes and solutions, then give a call to action.",
+        "why": "The summary shows you answered both parts, and the call to action ends firmly without a new idea."
       },
       {
-        "do": "Check that every problem has a matching solution and that you answered all parts of the question.",
-        "why": "A missing part is the most common reason for a low score here."
+        "do": "Check that body one names the causes, body two gives the solutions, and each solution answers a named cause.",
+        "why": "A missing part or a solution that answers no cause is the most common reason for a low score here."
       }
     ],
     "tricks": [
@@ -1677,8 +1677,8 @@
     ],
     "checklist": [
       "Did I answer every part of the question, such as causes and solutions?",
-      "Does each problem have a matching solution?",
-      "Did I say who should act and why it works?",
+      "Does each solution in body two answer a cause from body one?",
+      "Does body two say who should act, why each solution works, and end with a result sentence?",
       "Is my conclusion free of new ideas?"
     ],
     "frames": [
@@ -1686,24 +1686,26 @@
         "name": "Introduction",
         "lines": [
           "In recent years, [problem] has become a serious concern in many countries.",
-          "This essay will look at the main causes of [problem] and suggest some practical solutions.",
-          "The main reasons are [cause one] and [cause two], but these can be tackled by [solution]."
+          "This is driven mainly by [cause one] and [cause two],",
+          "but it can be eased through [solution one] and [solution two]."
         ]
       },
       {
-        "name": "Problem and solution",
+        "name": "Causes and solutions",
         "lines": [
           "One reason for this is that [cause], which leads to [effect].",
-          "A practical solution would be for [government / schools / companies] to [action].",
-          "This would help because [result]. For example, in [country / place], [short real example]."
+          "For example, in [country / place], [short real example].",
+          "A practical solution would be for [government / companies] to [action].",
+          "This works because [how it fixes the cause].",
+          "As a result, [likely impact on the problem]."
         ]
       },
       {
         "name": "Conclusion",
         "lines": [
-          "In conclusion, [problem] is mainly caused by [cause one] and [cause two].",
-          "However, if [solution] were put in place, this situation could improve.",
-          "To sum up, [final thought about the topic]."
+          "In conclusion, although [problem] is mainly caused by [cause one] and [cause two],",
+          "it can be overcome by [solution one] and [solution two].",
+          "Without decisive action, [consequence of inaction]."
         ]
       }
     ],
@@ -1714,88 +1716,102 @@
       "why": "The strong sentence names a cause, matches it with a solution, and says who should act. This makes the argument logical."
     },
     "demo": {
-      "prompt": "A great deal of food is wasted in many countries. What are the causes of this problem, and what solutions can be suggested?",
+      "prompt": "Many major cities suffer from severe traffic congestion. What are the primary causes of this issue, and what measures can be taken to solve it?",
       "moves": [
         {
           "step": 1,
-          "say": "I underline the parts of the question: 'causes' and 'solutions'. I need both, so I plan one problem and one solution."
+          "say": "I underline 'primary causes' and 'measures ... to solve it'. The question has two parts, so causes go in one body and solutions in the other."
         },
         {
           "step": 2,
-          "say": "I pair each problem with a solution. Problem: shops throw away food that looks imperfect. Solution: supermarkets should sell it cheaper. I note a second problem for paragraph two."
+          "say": "I list the causes first: car dependency and weak transit. Then solutions that answer them: congestion charges and rail investment, funded from those charges."
         },
         {
           "step": 3,
-          "say": "I choose one example to support the solution: some shops already sell slightly misshapen vegetables at a discount."
+          "say": "Cause example: suburban growth outpaces railways, pushing commuters onto saturated highways."
+        },
+        {
+          "step": 3,
+          "say": "Solution example: a city charges drivers entering the centre, then spends the revenue on light rail."
         },
         {
           "step": 4,
-          "say": "I write the introduction. I paraphrase the problem and say what the essay will cover.",
-          "build": "Vast quantities of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions."
+          "say": "Introduction, paraphrase: I restate the gridlock problem in my own words, so the examiner sees I understood it.",
+          "build": "Urban vehicular gridlock has emerged as one of the most pressing infrastructure dilemmas confronting metropolitan centres worldwide."
+        },
+        {
+          "step": 4,
+          "say": "Introduction, roadmap thesis: I name the main causes, inadequate transit and sprawl, and the main solutions, pricing and rail.",
+          "build": "Urban vehicular gridlock has emerged as one of the most pressing infrastructure dilemmas confronting metropolitan centres worldwide. This phenomenon is driven primarily by inadequate public transit and rapid urban sprawl, but it can be effectively mitigated through congestion pricing and heavy state investment in rail infrastructure."
         },
         {
           "step": 5,
-          "say": "Body paragraph one covers one problem. I start with a topic sentence that names the cause.",
-          "build": "Vast quantities of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat."
+          "say": "Topic sentence: I name the root cause, the dependence on private cars combined with weak transit.",
+          "build": "Urban vehicular gridlock has emerged as one of the most pressing infrastructure dilemmas confronting metropolitan centres worldwide. This phenomenon is driven primarily by inadequate public transit and rapid urban sprawl, but it can be effectively mitigated through congestion pricing and heavy state investment in rail infrastructure. The root cause of excessive traffic congestion is the widespread dependency on private vehicles coupled with deficient transit networks."
         },
         {
           "step": 5,
-          "say": "I explain the effect of this cause. Shops reject crooked vegetables that taste fine, so edible food ends up in bins.",
-          "build": "Vast quantities of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat. This leads to considerable waste, because shops reject crooked vegetables even though they taste the same."
+          "say": "Explanation: unreliable, crowded or poorly linked buses and trains make people choose their own cars.",
+          "build": "Urban vehicular gridlock has emerged as one of the most pressing infrastructure dilemmas confronting metropolitan centres worldwide. This phenomenon is driven primarily by inadequate public transit and rapid urban sprawl, but it can be effectively mitigated through congestion pricing and heavy state investment in rail infrastructure. The root cause of excessive traffic congestion is the widespread dependency on private vehicles coupled with deficient transit networks. When bus and commuter train networks are unreliable, crowded, or poorly integrated, commuters naturally prefer the comfort and direct routing of personal cars."
         },
         {
           "step": 5,
-          "say": "Now I give the solution and say who should act. Supermarkets can sell these vegetables at a lower price.",
-          "build": "Vast quantities of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat. This leads to considerable waste, because shops reject crooked vegetables even though they taste the same. A practical solution would be for supermarkets to sell these vegetables at a lower price."
+          "say": "Example: suburban growth outpaces railway building, so commuters are pushed onto busy highways.",
+          "build": "Urban vehicular gridlock has emerged as one of the most pressing infrastructure dilemmas confronting metropolitan centres worldwide. This phenomenon is driven primarily by inadequate public transit and rapid urban sprawl, but it can be effectively mitigated through congestion pricing and heavy state investment in rail infrastructure. The root cause of excessive traffic congestion is the widespread dependency on private vehicles coupled with deficient transit networks. When bus and commuter train networks are unreliable, crowded, or poorly integrated, commuters naturally prefer the comfort and direct routing of personal cars. For instance, rapid suburban expansion in metropolitan hubs often outpaces railway development, forcing suburban residents onto already saturated arterial highways."
         },
         {
           "step": 5,
-          "say": "I end the paragraph with my example, so the solution feels believable to the reader.",
-          "build": "Vast quantities of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat. This leads to considerable waste, because shops reject crooked vegetables even though they taste the same. A practical solution would be for supermarkets to sell these vegetables at a lower price. For example, some shops already sell slightly misshapen vegetables at a discount."
+          "say": "Result: this shortfall creates bottlenecks that last well beyond rush hour.",
+          "build": "Urban vehicular gridlock has emerged as one of the most pressing infrastructure dilemmas confronting metropolitan centres worldwide. This phenomenon is driven primarily by inadequate public transit and rapid urban sprawl, but it can be effectively mitigated through congestion pricing and heavy state investment in rail infrastructure. The root cause of excessive traffic congestion is the widespread dependency on private vehicles coupled with deficient transit networks. When bus and commuter train networks are unreliable, crowded, or poorly integrated, commuters naturally prefer the comfort and direct routing of personal cars. For instance, rapid suburban expansion in metropolitan hubs often outpaces railway development, forcing suburban residents onto already saturated arterial highways. This infrastructural shortfall creates bottlenecks that persist well beyond standard rush hours."
         },
         {
           "step": 6,
-          "say": "Now body paragraph two. I start with a topic sentence: confusing date labels make people throw food away.",
-          "build": "Vast quantities of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat. This leads to considerable waste, because shops reject crooked vegetables even though they taste the same. A practical solution would be for supermarkets to sell these vegetables at a lower price. For example, some shops already sell slightly misshapen vegetables at a discount. Another problem is that confusing date labels lead many people to throw food away."
+          "say": "Topic sentence: I set out two solutions, regulatory disincentives and infrastructure upgrades, to answer these causes.",
+          "build": "Urban vehicular gridlock has emerged as one of the most pressing infrastructure dilemmas confronting metropolitan centres worldwide. This phenomenon is driven primarily by inadequate public transit and rapid urban sprawl, but it can be effectively mitigated through congestion pricing and heavy state investment in rail infrastructure. The root cause of excessive traffic congestion is the widespread dependency on private vehicles coupled with deficient transit networks. When bus and commuter train networks are unreliable, crowded, or poorly integrated, commuters naturally prefer the comfort and direct routing of personal cars. For instance, rapid suburban expansion in metropolitan hubs often outpaces railway development, forcing suburban residents onto already saturated arterial highways. This infrastructural shortfall creates bottlenecks that persist well beyond standard rush hours. To resolve this crisis, municipal authorities must implement a combination of regulatory disincentives and infrastructure upgrades."
         },
         {
           "step": 6,
-          "say": "For paragraph two, I explain why. Many people think food is unsafe once its best before date has passed.",
-          "build": "Vast quantities of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat. This leads to considerable waste, because shops reject crooked vegetables even though they taste the same. A practical solution would be for supermarkets to sell these vegetables at a lower price. For example, some shops already sell slightly misshapen vegetables at a discount. Another problem is that confusing date labels lead many people to throw food away. Many people think food is unsafe once its best before date has passed, even when it is still safe to eat."
+          "say": "Explanation, solution one: congestion charges on vehicles entering central districts reduce non-essential traffic.",
+          "build": "Urban vehicular gridlock has emerged as one of the most pressing infrastructure dilemmas confronting metropolitan centres worldwide. This phenomenon is driven primarily by inadequate public transit and rapid urban sprawl, but it can be effectively mitigated through congestion pricing and heavy state investment in rail infrastructure. The root cause of excessive traffic congestion is the widespread dependency on private vehicles coupled with deficient transit networks. When bus and commuter train networks are unreliable, crowded, or poorly integrated, commuters naturally prefer the comfort and direct routing of personal cars. For instance, rapid suburban expansion in metropolitan hubs often outpaces railway development, forcing suburban residents onto already saturated arterial highways. This infrastructural shortfall creates bottlenecks that persist well beyond standard rush hours. To resolve this crisis, municipal authorities must implement a combination of regulatory disincentives and infrastructure upgrades. First, municipal governments should levy congestion charges on private vehicles entering central business districts, thereby reducing non-essential inner-city traffic."
         },
         {
           "step": 6,
-          "say": "For paragraph two, I give the solution and say why it works. Governments could separate safety dates from quality dates on labels.",
-          "build": "Vast quantities of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat. This leads to considerable waste, because shops reject crooked vegetables even though they taste the same. A practical solution would be for supermarkets to sell these vegetables at a lower price. For example, some shops already sell slightly misshapen vegetables at a discount. Another problem is that confusing date labels lead many people to throw food away. Many people think food is unsafe once its best before date has passed, even when it is still safe to eat. Governments could require labels that separate safety dates from quality dates, which helps people know what is safe to eat."
+          "say": "Explanation, solution two: the charge revenue funds light rail, giving commuters fast, cheap alternatives.",
+          "build": "Urban vehicular gridlock has emerged as one of the most pressing infrastructure dilemmas confronting metropolitan centres worldwide. This phenomenon is driven primarily by inadequate public transit and rapid urban sprawl, but it can be effectively mitigated through congestion pricing and heavy state investment in rail infrastructure. The root cause of excessive traffic congestion is the widespread dependency on private vehicles coupled with deficient transit networks. When bus and commuter train networks are unreliable, crowded, or poorly integrated, commuters naturally prefer the comfort and direct routing of personal cars. For instance, rapid suburban expansion in metropolitan hubs often outpaces railway development, forcing suburban residents onto already saturated arterial highways. This infrastructural shortfall creates bottlenecks that persist well beyond standard rush hours. To resolve this crisis, municipal authorities must implement a combination of regulatory disincentives and infrastructure upgrades. First, municipal governments should levy congestion charges on private vehicles entering central business districts, thereby reducing non-essential inner-city traffic. Concurrently, tax revenues derived from these levies should be channelled into high-capacity light-rail networks, ensuring that commuters have rapid, cost-effective alternatives."
         },
         {
           "step": 6,
-          "say": "For paragraph two, I end with an example. A carton of milk past its best before date may still be safe to drink.",
-          "build": "Vast quantities of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat. This leads to considerable waste, because shops reject crooked vegetables even though they taste the same. A practical solution would be for supermarkets to sell these vegetables at a lower price. For example, some shops already sell slightly misshapen vegetables at a discount. Another problem is that confusing date labels lead many people to throw food away. Many people think food is unsafe once its best before date has passed, even when it is still safe to eat. Governments could require labels that separate safety dates from quality dates, which helps people know what is safe to eat. For example, a carton of milk with a best before date of yesterday may still be perfectly safe to drink."
+          "say": "Result: if cities combine both measures, traffic density falls quickly and sustainably.",
+          "build": "Urban vehicular gridlock has emerged as one of the most pressing infrastructure dilemmas confronting metropolitan centres worldwide. This phenomenon is driven primarily by inadequate public transit and rapid urban sprawl, but it can be effectively mitigated through congestion pricing and heavy state investment in rail infrastructure. The root cause of excessive traffic congestion is the widespread dependency on private vehicles coupled with deficient transit networks. When bus and commuter train networks are unreliable, crowded, or poorly integrated, commuters naturally prefer the comfort and direct routing of personal cars. For instance, rapid suburban expansion in metropolitan hubs often outpaces railway development, forcing suburban residents onto already saturated arterial highways. This infrastructural shortfall creates bottlenecks that persist well beyond standard rush hours. To resolve this crisis, municipal authorities must implement a combination of regulatory disincentives and infrastructure upgrades. First, municipal governments should levy congestion charges on private vehicles entering central business districts, thereby reducing non-essential inner-city traffic. Concurrently, tax revenues derived from these levies should be channelled into high-capacity light-rail networks, ensuring that commuters have rapid, cost-effective alternatives. If cities execute this dual approach, traffic density can be reduced quickly and sustainably."
         },
         {
           "step": 7,
-          "say": "I sum up both problems and both solutions, and add no new ideas. This is only part of an essay, which should be at least 250 words.",
-          "build": "Vast quantities of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat. This leads to considerable waste, because shops reject crooked vegetables even though they taste the same. A practical solution would be for supermarkets to sell these vegetables at a lower price. For example, some shops already sell slightly misshapen vegetables at a discount. Another problem is that confusing date labels lead many people to throw food away. Many people think food is unsafe once its best before date has passed, even when it is still safe to eat. Governments could require labels that separate safety dates from quality dates, which helps people know what is safe to eat. For example, a carton of milk with a best before date of yesterday may still be perfectly safe to drink. In conclusion, shops that reject imperfect food and confusing date labels both cause waste, and cheaper imperfect food and clearer labels would help."
+          "say": "Conclusion, synthesis: I summarise the causes, car dependence and weak transit, and the solutions, charges and rail.",
+          "build": "Urban vehicular gridlock has emerged as one of the most pressing infrastructure dilemmas confronting metropolitan centres worldwide. This phenomenon is driven primarily by inadequate public transit and rapid urban sprawl, but it can be effectively mitigated through congestion pricing and heavy state investment in rail infrastructure. The root cause of excessive traffic congestion is the widespread dependency on private vehicles coupled with deficient transit networks. When bus and commuter train networks are unreliable, crowded, or poorly integrated, commuters naturally prefer the comfort and direct routing of personal cars. For instance, rapid suburban expansion in metropolitan hubs often outpaces railway development, forcing suburban residents onto already saturated arterial highways. This infrastructural shortfall creates bottlenecks that persist well beyond standard rush hours. To resolve this crisis, municipal authorities must implement a combination of regulatory disincentives and infrastructure upgrades. First, municipal governments should levy congestion charges on private vehicles entering central business districts, thereby reducing non-essential inner-city traffic. Concurrently, tax revenues derived from these levies should be channelled into high-capacity light-rail networks, ensuring that commuters have rapid, cost-effective alternatives. If cities execute this dual approach, traffic density can be reduced quickly and sustainably. To summarise, while urban gridlock stems from vehicle dependency and underfunded public transit, it can be overcome by imposing vehicular tariffs and expanding reliable rail services."
+        },
+        {
+          "step": 7,
+          "say": "Conclusion, call to action: without decisive planning, growing populations will leave streets permanently choked.",
+          "build": "Urban vehicular gridlock has emerged as one of the most pressing infrastructure dilemmas confronting metropolitan centres worldwide. This phenomenon is driven primarily by inadequate public transit and rapid urban sprawl, but it can be effectively mitigated through congestion pricing and heavy state investment in rail infrastructure. The root cause of excessive traffic congestion is the widespread dependency on private vehicles coupled with deficient transit networks. When bus and commuter train networks are unreliable, crowded, or poorly integrated, commuters naturally prefer the comfort and direct routing of personal cars. For instance, rapid suburban expansion in metropolitan hubs often outpaces railway development, forcing suburban residents onto already saturated arterial highways. This infrastructural shortfall creates bottlenecks that persist well beyond standard rush hours. To resolve this crisis, municipal authorities must implement a combination of regulatory disincentives and infrastructure upgrades. First, municipal governments should levy congestion charges on private vehicles entering central business districts, thereby reducing non-essential inner-city traffic. Concurrently, tax revenues derived from these levies should be channelled into high-capacity light-rail networks, ensuring that commuters have rapid, cost-effective alternatives. If cities execute this dual approach, traffic density can be reduced quickly and sustainably. To summarise, while urban gridlock stems from vehicle dependency and underfunded public transit, it can be overcome by imposing vehicular tariffs and expanding reliable rail services. Without decisive urban planning interventions, expanding populations will render city streets permanently choked."
         },
         {
           "step": 8,
-          "say": "I check that each problem has a matching solution and that I answered every part. A real essay needs at least 250 words.",
-          "build": "Vast quantities of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat. This leads to considerable waste, because shops reject crooked vegetables even though they taste the same. A practical solution would be for supermarkets to sell these vegetables at a lower price. For example, some shops already sell slightly misshapen vegetables at a discount. Another problem is that confusing date labels lead many people to throw food away. Many people think food is unsafe once its best before date has passed, even when it is still safe to eat. Governments could require labels that separate safety dates from quality dates, which helps people know what is safe to eat. For example, a carton of milk with a best before date of yesterday may still be perfectly safe to drink. In conclusion, shops that reject imperfect food and confusing date labels both cause waste, and cheaper imperfect food and clearer labels would help. "
+          "say": "Check: this model has 229 words. The exam needs at least 250 words, so my own essay must be at least that long.",
+          "build": "Urban vehicular gridlock has emerged as one of the most pressing infrastructure dilemmas confronting metropolitan centres worldwide. This phenomenon is driven primarily by inadequate public transit and rapid urban sprawl, but it can be effectively mitigated through congestion pricing and heavy state investment in rail infrastructure. The root cause of excessive traffic congestion is the widespread dependency on private vehicles coupled with deficient transit networks. When bus and commuter train networks are unreliable, crowded, or poorly integrated, commuters naturally prefer the comfort and direct routing of personal cars. For instance, rapid suburban expansion in metropolitan hubs often outpaces railway development, forcing suburban residents onto already saturated arterial highways. This infrastructural shortfall creates bottlenecks that persist well beyond standard rush hours. To resolve this crisis, municipal authorities must implement a combination of regulatory disincentives and infrastructure upgrades. First, municipal governments should levy congestion charges on private vehicles entering central business districts, thereby reducing non-essential inner-city traffic. Concurrently, tax revenues derived from these levies should be channelled into high-capacity light-rail networks, ensuring that commuters have rapid, cost-effective alternatives. If cities execute this dual approach, traffic density can be reduced quickly and sustainably. To summarise, while urban gridlock stems from vehicle dependency and underfunded public transit, it can be overcome by imposing vehicular tariffs and expanding reliable rail services. Without decisive urban planning interventions, expanding populations will render city streets permanently choked."
         }
       ],
-      "answer": "Vast quantities of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat. This leads to considerable waste, because shops reject crooked vegetables even though they taste the same. A practical solution would be for supermarkets to sell these vegetables at a lower price. For example, some shops already sell slightly misshapen vegetables at a discount. Another problem is that confusing date labels lead many people to throw food away. Many people think food is unsafe once its best before date has passed, even when it is still safe to eat. Governments could require labels that separate safety dates from quality dates, which helps people know what is safe to eat. For example, a carton of milk with a best before date of yesterday may still be perfectly safe to drink. In conclusion, shops that reject imperfect food and confusing date labels both cause waste, and cheaper imperfect food and clearer labels would help. "
+      "answer": "Urban vehicular gridlock has emerged as one of the most pressing infrastructure dilemmas confronting metropolitan centres worldwide. This phenomenon is driven primarily by inadequate public transit and rapid urban sprawl, but it can be effectively mitigated through congestion pricing and heavy state investment in rail infrastructure. The root cause of excessive traffic congestion is the widespread dependency on private vehicles coupled with deficient transit networks. When bus and commuter train networks are unreliable, crowded, or poorly integrated, commuters naturally prefer the comfort and direct routing of personal cars. For instance, rapid suburban expansion in metropolitan hubs often outpaces railway development, forcing suburban residents onto already saturated arterial highways. This infrastructural shortfall creates bottlenecks that persist well beyond standard rush hours. To resolve this crisis, municipal authorities must implement a combination of regulatory disincentives and infrastructure upgrades. First, municipal governments should levy congestion charges on private vehicles entering central business districts, thereby reducing non-essential inner-city traffic. Concurrently, tax revenues derived from these levies should be channelled into high-capacity light-rail networks, ensuring that commuters have rapid, cost-effective alternatives. If cities execute this dual approach, traffic density can be reduced quickly and sustainably. To summarise, while urban gridlock stems from vehicle dependency and underfunded public transit, it can be overcome by imposing vehicular tariffs and expanding reliable rail services. Without decisive urban planning interventions, expanding populations will render city streets permanently choked."
     },
     "practice": [
       {
-        "prompt": "Write the introduction for this invented question: 'Many students feel stressed at university. What are the causes, and what solutions can universities offer?' Paraphrase the problem and say what the essay will cover. Use the steps.",
-        "answer": "Many students struggle with stress at university. This essay will examine the main causes and suggest practical solutions that universities can offer.",
-        "why": "Step 4 paraphrases the problem and says what the essay covers. The answer uses new words for feeling stressed and names both parts of the question: causes and solutions."
+        "prompt": "Write the introduction for this invented question: 'Many students feel stressed at university. What are the causes, and what solutions can universities offer?' Paraphrase the problem, then name the main causes and solutions. Use the steps.",
+        "answer": "Many students struggle with stress at university. This is driven mainly by heavy workloads and isolation, but it can be eased by counselling and peer mentoring.",
+        "why": "Step 4 writes two sentences. The first paraphrases the problem, and the second is a roadmap naming two causes and two solutions, so the examiner sees the plan early."
       },
       {
-        "prompt": "The question is: 'Traffic jams waste time and fuel. Why do they happen, and how can they be reduced?' This topic sentence for body paragraph one only describes how people feel: 'Traffic jams are frustrating for everyone who uses the roads.' Rewrite it to name one cause and link it to one solution. Use the steps.",
-        "answer": "One cause of traffic jams is that too many people drive alone to work, so a practical solution is to improve public transport.",
-        "why": "Step 5 gives body paragraph one one problem and its solution. The original only describes feelings. The rewrite names a cause and links it to a solution that addresses it."
+        "prompt": "The question is: 'Traffic jams waste time and fuel. Why do they happen, and how can they be reduced?' This topic sentence for body paragraph one only describes how people feel: 'Traffic jams are frustrating for everyone who uses the roads.' Rewrite it as a topic sentence that names one cause, with no solution yet. Use the steps.",
+        "answer": "One cause of traffic jams is that too many people drive alone to work.",
+        "why": "Step 5 writes body one on the causes only, and solutions come in body two. The original only describes feelings. The rewrite names a cause as the topic sentence."
       }
     ]
   },
