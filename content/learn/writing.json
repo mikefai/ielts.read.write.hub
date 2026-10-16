@@ -1185,26 +1185,31 @@
         },
         {
           "step": 5,
-          "say": "I write the introduction. I paraphrase the question, state my position and give the reason for it.",
-          "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air matters, but a ban works only when good public transport is available."
+          "say": "I write the introduction. I paraphrase the question, state my position and give my two reasons.",
+          "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air and safer streets matter, but a ban works only when good public transport is available."
         },
         {
           "step": 6,
           "say": "Body paragraph one starts with a topic sentence. I state the reason clearly, so the examiner sees the point at once.",
-          "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air matters, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city."
+          "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air and safer streets matter, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city."
         },
         {
           "step": 6,
           "say": "Next I explain the reason. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems.",
-          "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air matters, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems."
+          "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air and safer streets matter, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems."
         },
         {
           "step": 6,
           "say": "Last, I add an example that the examiner can picture. A school on a busy road would have cleaner air at playtime.",
-          "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air matters, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems. For example, a school on a busy road would have cleaner air at playtime."
+          "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air and safer streets matter, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems. For example, a school on a busy road would have cleaner air at playtime."
+        },
+        {
+          "step": 7,
+          "say": "I repeat my position and add no new idea. This is only part of an essay, which should be at least 250 words.",
+          "build": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air and safer streets matter, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems. For example, a school on a busy road would have cleaner air at playtime. In conclusion, I partly agree that private cars should be banned from city centres, because cleaner air and safer streets matter, but a ban needs good public transport."
         }
       ],
-      "answer": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air matters, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems. For example, a school on a busy road would have cleaner air at playtime."
+      "answer": "A number of people feel that private cars should no longer be allowed in city centres. I partly agree, because cleaner air and safer streets matter, but a ban works only when good public transport is available. The first reason is that cleaner air improves people's health in the city. Traffic fumes can trigger asthma, so fewer cars would mean fewer breathing problems. For example, a school on a busy road would have cleaner air at playtime. In conclusion, I partly agree that private cars should be banned from city centres, because cleaner air and safer streets matter, but a ban needs good public transport."
     },
     "practice": [
       {
@@ -1343,9 +1348,19 @@
           "step": 6,
           "say": "Body paragraph two covers view B. I start with 'However' to show the contrast, then state its main idea.",
           "build": "Many people believe that children spend too much time in front of screens and too little time outdoors. Others argue that screens help children learn useful skills. In my view, outdoor time matters more, although screens have some educational value. One reason to limit screens is that they replace physical activity. This matters because children who play outside build strength and balance. For example, a school playground gives children far more movement than a tablet does. However, supporters of screens argue that educational apps can teach reading and maths in an engaging way."
+        },
+        {
+          "step": 6,
+          "say": "I add a reason and an example to paragraph two, as I did for paragraph one.",
+          "build": "Many people believe that children spend too much time in front of screens and too little time outdoors. Others argue that screens help children learn useful skills. In my view, outdoor time matters more, although screens have some educational value. One reason to limit screens is that they replace physical activity. This matters because children who play outside build strength and balance. For example, a school playground gives children far more movement than a tablet does. However, supporters of screens argue that educational apps can teach reading and maths in an engaging way. This is because apps let children practise at their own pace. For example, a child can repeat a tricky sum until it is clear."
+        },
+        {
+          "step": 7,
+          "say": "I sum up both views and repeat my opinion. This is only part of an essay, which should be at least 250 words.",
+          "build": "Many people believe that children spend too much time in front of screens and too little time outdoors. Others argue that screens help children learn useful skills. In my view, outdoor time matters more, although screens have some educational value. One reason to limit screens is that they replace physical activity. This matters because children who play outside build strength and balance. For example, a school playground gives children far more movement than a tablet does. However, supporters of screens argue that educational apps can teach reading and maths in an engaging way. This is because apps let children practise at their own pace. For example, a child can repeat a tricky sum until it is clear. In conclusion, although screens have some educational value, I believe that outdoor time matters more for children."
         }
       ],
-      "answer": "Many people believe that children spend too much time in front of screens and too little time outdoors. Others argue that screens help children learn useful skills. In my view, outdoor time matters more, although screens have some educational value. One reason to limit screens is that they replace physical activity. This matters because children who play outside build strength and balance. For example, a school playground gives children far more movement than a tablet does. However, supporters of screens argue that educational apps can teach reading and maths in an engaging way."
+      "answer": "Many people believe that children spend too much time in front of screens and too little time outdoors. Others argue that screens help children learn useful skills. In my view, outdoor time matters more, although screens have some educational value. One reason to limit screens is that they replace physical activity. This matters because children who play outside build strength and balance. For example, a school playground gives children far more movement than a tablet does. However, supporters of screens argue that educational apps can teach reading and maths in an engaging way. This is because apps let children practise at their own pace. For example, a child can repeat a tricky sum until it is clear. In conclusion, although screens have some educational value, I believe that outdoor time matters more for children."
     },
     "practice": [
       {
@@ -1451,7 +1466,7 @@
       "why": "The strong sentence names a cause, matches it with a solution, and says who should act. This makes the argument logical."
     },
     "demo": {
-      "prompt": "Many people throw away large amounts of food. What are the causes of this problem, and what solutions can be suggested?",
+      "prompt": "Many people throw away a great deal of food. What are the causes of this problem, and what solutions can be suggested?",
       "moves": [
         {
           "step": 1,
@@ -1459,7 +1474,7 @@
         },
         {
           "step": 2,
-          "say": "I write the problem and its solution side by side. Problem: shops throw away food that looks imperfect. Solution: supermarkets should sell it at a lower price."
+          "say": "I pair each problem with a solution. Problem: shops throw away food that looks imperfect. Solution: supermarkets should sell it cheaper. I note a second problem for paragraph two."
         },
         {
           "step": 3,
@@ -1468,30 +1483,35 @@
         {
           "step": 4,
           "say": "I write the introduction. I paraphrase the problem and say what the essay will cover.",
-          "build": "Large amounts of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions."
+          "build": "Vast quantities of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions."
         },
         {
           "step": 5,
           "say": "Body paragraph one covers one problem. I start with a topic sentence that names the cause.",
-          "build": "Large amounts of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat."
+          "build": "Vast quantities of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat."
         },
         {
           "step": 5,
           "say": "I explain the effect of this cause. Shops reject crooked vegetables, which leads to large waste.",
-          "build": "Large amounts of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat. This leads to large amounts of waste, because shops reject crooked vegetables even though they taste the same."
+          "build": "Vast quantities of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat. This leads to considerable waste, because shops reject crooked vegetables even though they taste the same."
         },
         {
           "step": 5,
           "say": "Now I give the solution and say who should act. Supermarkets can sell these vegetables at a lower price.",
-          "build": "Large amounts of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat. This leads to large amounts of waste, because shops reject crooked vegetables even though they taste the same. A practical solution would be for supermarkets to sell these vegetables at a lower price."
+          "build": "Vast quantities of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat. This leads to considerable waste, because shops reject crooked vegetables even though they taste the same. A practical solution would be for supermarkets to sell these vegetables at a lower price."
         },
         {
           "step": 5,
           "say": "I end the paragraph with my example, so the solution feels believable to the reader.",
-          "build": "Large amounts of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat. This leads to large amounts of waste, because shops reject crooked vegetables even though they taste the same. A practical solution would be for supermarkets to sell these vegetables at a lower price. For example, some shops already sell slightly misshapen vegetables at a discount."
+          "build": "Vast quantities of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat. This leads to considerable waste, because shops reject crooked vegetables even though they taste the same. A practical solution would be for supermarkets to sell these vegetables at a lower price. For example, some shops already sell slightly misshapen vegetables at a discount."
+        },
+        {
+          "step": 7,
+          "say": "I sum up the problem and main solution, and add no new ideas. This is only part of an essay, which should be at least 250 words.",
+          "build": "Vast quantities of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat. This leads to considerable waste, because shops reject crooked vegetables even though they taste the same. A practical solution would be for supermarkets to sell these vegetables at a lower price. For example, some shops already sell slightly misshapen vegetables at a discount. In conclusion, shops that reject imperfect food cause much of the waste, and selling it at a lower price would help."
         }
       ],
-      "answer": "Large amounts of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat. This leads to large amounts of waste, because shops reject crooked vegetables even though they taste the same. A practical solution would be for supermarkets to sell these vegetables at a lower price. For example, some shops already sell slightly misshapen vegetables at a discount."
+      "answer": "Vast quantities of edible food are wasted every year. This essay will examine the main causes of this problem and suggest practical solutions. One cause is that shops throw away food which looks imperfect but is safe to eat. This leads to considerable waste, because shops reject crooked vegetables even though they taste the same. A practical solution would be for supermarkets to sell these vegetables at a lower price. For example, some shops already sell slightly misshapen vegetables at a discount. In conclusion, shops that reject imperfect food cause much of the waste, and selling it at a lower price would help."
     },
     "practice": [
       {
@@ -1609,7 +1629,7 @@
         },
         {
           "step": 3,
-          "say": "For question one, I add a reason and an example. Buying is very expensive, so young people rent while they save."
+          "say": "For question one, I add a reason and an example. Buying is very expensive, so young people rent while they save. I will do the same for question two."
         },
         {
           "step": 4,
@@ -1619,20 +1639,25 @@
         {
           "step": 5,
           "say": "Body paragraph one answers question one. I start with the reason in a topic sentence.",
-          "build": "Many young people now choose to rent rather than buy a home. This essay will answer two questions: why many young people rent, and whether governments should build more rental housing. The first reason is that buying a home is now very expensive."
+          "build": "Many young people now choose to rent rather than buy a home. This essay will answer two questions: why many young people rent, and whether governments should build more rental housing. Turning to the first question, the main reason is that buying a home is now very expensive."
         },
         {
           "step": 5,
           "say": "I explain the reason and add an example. Wages rise more slowly than house prices, so saving a deposit takes years.",
-          "build": "Many young people now choose to rent rather than buy a home. This essay will answer two questions: why many young people rent, and whether governments should build more rental housing. The first reason is that buying a home is now very expensive. This is because wages rise more slowly than house prices, so saving for a deposit can take many years. For example, a young couple in a city may rent for a decade before they buy."
+          "build": "Many young people now choose to rent rather than buy a home. This essay will answer two questions: why many young people rent, and whether governments should build more rental housing. Turning to the first question, the main reason is that buying a home is now very expensive. This is because wages rise more slowly than house prices, so saving for a deposit can take many years. For example, a young couple in a city may rent for a decade before they buy."
         },
         {
           "step": 6,
           "say": "Body paragraph two answers question two. I signpost it with 'Turning to the second question' and then state my answer.",
-          "build": "Many young people now choose to rent rather than buy a home. This essay will answer two questions: why many young people rent, and whether governments should build more rental housing. The first reason is that buying a home is now very expensive. This is because wages rise more slowly than house prices, so saving for a deposit can take many years. For example, a young couple in a city may rent for a decade before they buy. Turning to the second question, I believe that governments should build more rental homes, since they offer stable housing to many people."
+          "build": "Many young people now choose to rent rather than buy a home. This essay will answer two questions: why many young people rent, and whether governments should build more rental housing. Turning to the first question, the main reason is that buying a home is now very expensive. This is because wages rise more slowly than house prices, so saving for a deposit can take many years. For example, a young couple in a city may rent for a decade before they buy. Turning to the second question, I believe that governments should build more rental homes, since they offer stable housing to many people."
+        },
+        {
+          "step": 7,
+          "say": "I give a short answer to each question and add no new idea. This is only part of an essay, which should be at least 250 words.",
+          "build": "Many young people now choose to rent rather than buy a home. This essay will answer two questions: why many young people rent, and whether governments should build more rental housing. Turning to the first question, the main reason is that buying a home is now very expensive. This is because wages rise more slowly than house prices, so saving for a deposit can take many years. For example, a young couple in a city may rent for a decade before they buy. Turning to the second question, I believe that governments should build more rental homes, since they offer stable housing to many people. In conclusion, buying a home is too expensive for many young people, so governments should build more rental homes."
         }
       ],
-      "answer": "Many young people now choose to rent rather than buy a home. This essay will answer two questions: why many young people rent, and whether governments should build more rental housing. The first reason is that buying a home is now very expensive. This is because wages rise more slowly than house prices, so saving for a deposit can take many years. For example, a young couple in a city may rent for a decade before they buy. Turning to the second question, I believe that governments should build more rental homes, since they offer stable housing to many people."
+      "answer": "Many young people now choose to rent rather than buy a home. This essay will answer two questions: why many young people rent, and whether governments should build more rental housing. Turning to the first question, the main reason is that buying a home is now very expensive. This is because wages rise more slowly than house prices, so saving for a deposit can take many years. For example, a young couple in a city may rent for a decade before they buy. Turning to the second question, I believe that governments should build more rental homes, since they offer stable housing to many people. In conclusion, buying a home is too expensive for many young people, so governments should build more rental homes."
     },
     "practice": [
       {
@@ -1771,9 +1796,14 @@
           "step": 6,
           "say": "Body paragraph two covers the weaker side. I use 'Although' to show the contrast and say why it matters less.",
           "build": "In recent years, many cities have introduced bike-sharing schemes. In my view, the advantages outweigh the disadvantages, although bikes left on pavements remain a problem. The main advantage is that bike-sharing offers cheap, quick trips over short distances. This means people can avoid buying a car for short journeys. For example, a commuter can ride a shared bike from the station to the office. Although bikes left on pavements are a real problem, this is less serious, because cities can solve it with marked parking zones."
+        },
+        {
+          "step": 7,
+          "say": "I repeat my position and main reason, and add no new idea. This is only part of an essay, which should be at least 250 words.",
+          "build": "In recent years, many cities have introduced bike-sharing schemes. In my view, the advantages outweigh the disadvantages, although bikes left on pavements remain a problem. The main advantage is that bike-sharing offers cheap, quick trips over short distances. This means people can avoid buying a car for short journeys. For example, a commuter can ride a shared bike from the station to the office. Although bikes left on pavements are a real problem, this is less serious, because cities can solve it with marked parking zones. In conclusion, the advantages of bike-sharing outweigh the disadvantages, mainly because it offers cheap, quick short trips."
         }
       ],
-      "answer": "In recent years, many cities have introduced bike-sharing schemes. In my view, the advantages outweigh the disadvantages, although bikes left on pavements remain a problem. The main advantage is that bike-sharing offers cheap, quick trips over short distances. This means people can avoid buying a car for short journeys. For example, a commuter can ride a shared bike from the station to the office. Although bikes left on pavements are a real problem, this is less serious, because cities can solve it with marked parking zones."
+      "answer": "In recent years, many cities have introduced bike-sharing schemes. In my view, the advantages outweigh the disadvantages, although bikes left on pavements remain a problem. The main advantage is that bike-sharing offers cheap, quick trips over short distances. This means people can avoid buying a car for short journeys. For example, a commuter can ride a shared bike from the station to the office. Although bikes left on pavements are a real problem, this is less serious, because cities can solve it with marked parking zones. In conclusion, the advantages of bike-sharing outweigh the disadvantages, mainly because it offers cheap, quick short trips."
     },
     "practice": [
       {
