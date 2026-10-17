@@ -68,6 +68,14 @@
       "Can I point to the line in the passage that proves my answer?",
       "Is my spelling copied exactly from the passage?",
       "Have I filled in every answer, even the ones I guessed?"
+    ],
+    "band8": [
+      { "typical": "Aims to get \"most of them\" right and is upset by every mistake.", "band8": "Aims for about 35 out of 40, which is about band 8. That allows about 5 mistakes in the whole paper, so about 1 or 2 per passage. Stay calm and keep moving." },
+      { "typical": "Spends 30 minutes on a hard passage 3 and rushes the rest.", "band8": "Treats 20 minutes per passage as a guide, not a wall. Only one 60-minute clock runs, so you can borrow time from an easy passage." },
+      { "typical": "Plans to copy answers somewhere else at the end.", "band8": "Types each answer on screen as soon as it is found. There is no transfer time, so nothing is left to copy." },
+      { "typical": "Uses every minute on new questions and never checks the gaps.", "band8": "Leaves about 2 minutes per passage to check gap answers for spelling and the word limit. These are marks you already earned." },
+      { "typical": "Reads the whole passage slowly before looking at the questions.", "band8": "Skims for a map, then goes to the questions. Reads closely only where the keywords lead, so time goes on the places that score." },
+      { "typical": "Stares at one hard question until the time runs out.", "band8": "Types a best guess, notes the question number, moves on, and returns only if time is left. One question is only one mark." }
     ]
   },
   {
@@ -150,6 +158,13 @@
       "If I chose Not Given, did I read the whole paragraph and find nothing?",
       "Did I check small words like all, only, never and always?",
       "Did I answer from the passage, not from what I already know?"
+    ],
+    "band8": [
+      { "typical": "Chooses False when the passage simply does not mention the idea.", "band8": "Before writing False, finds the line that says the opposite. If no line says it, the answer is Not Given." },
+      { "typical": "Decides after reading one sentence with the keyword.", "band8": "Reads the full paragraph first. The agreeing or opposite line is often one or two sentences away from the keyword." },
+      { "typical": "Answers True because the statement sounds sensible or matches real life.", "band8": "Answers only from the passage and points to the exact words that prove it. No proof means Not Given." },
+      { "typical": "Reads over words like \"all\", \"only\", \"always\" and \"most\".", "band8": "Highlights the strength word in the statement and checks the passage has the same strength, not a weaker one such as \"many\"." },
+      { "typical": "Treats a nearly matching detail as True.", "band8": "Checks each detail one by one: number, time, person, cause. One detail that is missing or different changes the answer." }
     ]
   },
   {
@@ -232,6 +247,13 @@
       "Can I point to the line where the writer agrees or disagrees?",
       "If I chose Not Given, did I read the whole paragraph and find no view?",
       "Did I answer from the passage, not from my own opinion?"
+    ],
+    "band8": [
+      { "typical": "Says Yes when the passage quotes an expert who agrees with the statement.", "band8": "Checks who holds the view. If it is an expert and the writer does not agree, the writer has not given that view." },
+      { "typical": "Treats facts and the writer's opinion as the same thing.", "band8": "Looks for the writer's own voice: \"I believe\", \"it is clear that\", \"unfortunately\". A fact alone does not show opinion." },
+      { "typical": "Chooses No when the writer does not discuss the point.", "band8": "Needs words that clearly reject the statement before writing No. A writer who is silent on the idea gives Not Given." },
+      { "typical": "Stops reading when the first sentence matches the statement.", "band8": "Reads on for \"however\" or \"but\", where the writer often changes their view. The final view is the one that counts." },
+      { "typical": "Ignores the strength of the writer's language.", "band8": "Compares \"might\", \"may\" and \"must\" carefully. A writer who says \"may help\" does not agree that something \"will solve\" a problem." }
     ]
   },
   {
@@ -317,6 +339,13 @@
       "Can I give a reason for every option I crossed out?",
       "Does my answer match the meaning of the passage, not only the words?",
       "Did I choose exactly the number of answers the question asks for?"
+    ],
+    "band8": [
+      { "typical": "Picks the option that contains words copied from the passage.", "band8": "Treats copied words as a warning. Checks that the whole option has the same meaning as the passage, not just the same words." },
+      { "typical": "Reads the options first and looks for a passage line to fit one.", "band8": "Finds the answer in the passage first, in your own words, and then looks for the option that matches it." },
+      { "typical": "Chooses an option that is true but answers a different question.", "band8": "Reads the stem again after choosing. The option must answer exactly what the question asks, not just be true in the passage." },
+      { "typical": "Keeps two options alive and picks by feeling.", "band8": "Finds the one word that makes each wrong option fail, such as \"all\", \"only\" or a wrong reason, and crosses it out with proof." },
+      { "typical": "Chooses a big main-idea option after reading one paragraph.", "band8": "For a main-idea question, checks the whole passage. A big option must be supported across the text, not by one detail." }
     ]
   },
   {
@@ -422,6 +451,13 @@
         "why": "Step 4: 'leave' and 'cloakroom' are the keywords, and the first sentence says visitors are asked to leave large bags. 'Bags in the cloakroom' is over the limit, and the cloakroom is where, not what. Answer: large bags.",
         "evidence": "are asked to leave large bags in the cloakroom"
       }
+    ],
+    "band8": [
+      { "typical": "Copies a long phrase near the keyword and hopes it contains the answer.", "band8": "Cuts the answer to only the words that answer the question, and checks it still fits the word limit." },
+      { "typical": "Writes a word that is nearby but answers a different question.", "band8": "Matches the question word first: who, when, where, how many. Then copies only the item of that type." },
+      { "typical": "Rewrites the answer in own words to make it sound better.", "band8": "Copies the passage words exactly, including spelling and plurals. The answer must match the passage form." },
+      { "typical": "Finds the first keyword in the passage and stops.", "band8": "Checks the whole sentence. If the keyword appears twice, picks the place that answers this exact question." },
+      { "typical": "Forgets to count words and numbers at the end.", "band8": "Counts every answer against the limit as it is typed. A hyphenated word counts as one; a correct answer that is too long scores zero." }
     ]
   },
   {
@@ -526,6 +562,13 @@
         "why": "Step 4: 'finishes' paraphrases 'ends', and the passage says the tour ends with an hour in the old lighthouse. 'An' means a vowel sound follows, and 'hour' starts with a silent h, so it fits.",
         "evidence": "The tour ends with an hour in the old lighthouse"
       }
+    ],
+    "band8": [
+      { "typical": "Searches for the missing word before reading the sentence.", "band8": "Reads the sentence with the gap first and decides the word type from the words around it. Then searches for a word of that type." },
+      { "typical": "Copies a word that fits the meaning but not the grammar.", "band8": "Reads the finished sentence in your head. If \"a\" comes before the gap, the answer must make sense after it." },
+      { "typical": "Takes the first word after the keyword.", "band8": "Reads the whole sentence in the passage and chooses the word that matches the meaning of the gap, not just the keyword." },
+      { "typical": "Changes the word form to fit the sentence.", "band8": "Copies the passage form exactly. If the grammar seems wrong, goes back and checks that you picked the right place." },
+      { "typical": "Leaves the word-limit check until the end and runs out of time.", "band8": "Checks the limit as you type each answer. Uses the final 2 minutes for spelling, not for fixing limits." }
     ]
   },
   {
@@ -630,6 +673,13 @@
         "why": "Steps 3 and 5: 'sales rose so fast' matches 'demand grew so fast', giving 'second'. 'Gone before' matches 'sold before noon'. Eight is the opening time, so it is wrong.",
         "evidence": "Most of the bread is sold before noon"
       }
+    ],
+    "band8": [
+      { "typical": "Reads the summary one gap at a time with no plan.", "band8": "Reads the whole summary first to get the topic, then finds the passage section it covers. The gaps become easy to place." },
+      { "typical": "Looks for the summary's exact words in the passage.", "band8": "Looks for the same idea in other words. Summaries are paraphrased, so searches for the meaning and the words next to it." },
+      { "typical": "Fills a gap with a word of the wrong type.", "band8": "Decides noun, verb, adjective or number before searching. The words around the gap narrow the choices a lot." },
+      { "typical": "Copies the answer from a sentence in a different part of the passage.", "band8": "Keeps to the part of the passage the summary covers, and moves forward as the gaps do." },
+      { "typical": "Writes the answer but never reads the finished sentence.", "band8": "Reads each finished sentence once. Checks grammar, meaning and word limit together before moving on." }
     ]
   },
   {
@@ -759,6 +809,13 @@
         "why": "Steps 3 and 4: every option fits the grammar, so meaning decides. The passage says the shop was closed for six weeks while the roof was repaired. 'Open' is the trap: the shop only reopened later.",
         "evidence": "The village shop was closed for six weeks"
       }
+    ],
+    "band8": [
+      { "typical": "Picks words from the list that look familiar from the passage.", "band8": "Matches meaning, not looks. Words from the passage are often traps; the correct word may be a paraphrase." },
+      { "typical": "Fills the gaps in order and gets stuck on the first hard one.", "band8": "Does the easy gaps first and crosses out those words. The list shrinks, so the hard gaps have fewer choices." },
+      { "typical": "Ignores the word type and guesses by meaning.", "band8": "Labels each gap noun, verb, adjective or adverb, and groups the list the same way. Wrong types drop out at once." },
+      { "typical": "Reads only the sentence with the gap.", "band8": "Reads the sentence before and after the gap. Link words show whether the idea adds, contrasts or gives a result." },
+      { "typical": "Uses a word twice or writes the word when the letter is required.", "band8": "Crosses out each list word when used and checks the instructions to see whether the answer is a letter or a word." }
     ]
   },
   {
@@ -863,6 +920,13 @@
         "why": "Step 4: 'most popular' matches 'best-selling', and the sentence says the service is a full wheel rebuild. 'Brake-check' is one word with a hyphen, but it is not the best seller, so it is wrong.",
         "evidence": "the shop's best-selling service is a full wheel rebuild"
       }
+    ],
+    "band8": [
+      { "typical": "Writes two words when the limit is one word only.", "band8": "Reads the limit first and picks the single word that fills the gap. Does not copy small words already in the notes." },
+      { "typical": "Reads the notes and the passage separately.", "band8": "Uses the note heading as a keyword to find the passage section, then looks beside it for the missing detail." },
+      { "typical": "Assumes all gaps in a table or flow chart follow the passage order.", "band8": "Checks the layout first. Notes usually follow the passage, but table cells and flow-chart boxes may not." },
+      { "typical": "Picks a number from the wrong sentence.", "band8": "Matches the nearby label (year, price, percentage) with the note heading before copying the number." },
+      { "typical": "Fills in an answer that repeats words already in the notes.", "band8": "Reads the gap with the words around it. The answer is the new information, so repeating the note's words is wrong." }
     ]
   },
   {
@@ -967,6 +1031,13 @@
         "why": "Steps 3 and 5: the gap is a verb after 'is', and the middle stage says the paste is 'stirred slowly for thirty minutes'. 'Crushed' is the box 1 action, not box 2, so it is wrong.",
         "evidence": "The paste is then stirred slowly for thirty minutes"
       }
+    ],
+    "band8": [
+      { "typical": "Reads the passage first and only then looks at the diagram.", "band8": "Studies the diagram first: the title, labels and arrows. Then reads the passage for the matching description." },
+      { "typical": "Puts a right word in the wrong box.", "band8": "Follows the arrows and the position of each box. Checks that the word describes that exact part of the diagram." },
+      { "typical": "Looks for the labels in page order in the passage.", "band8": "Remembers the passage follows the process, not the page layout. Moves through the text with the sequence words." },
+      { "typical": "Writes a descriptive phrase for each label.", "band8": "Writes the exact noun or verb the passage uses, within the word limit. Labels are short." },
+      { "typical": "Gives up when the passage uses an unfamiliar name.", "band8": "Uses the shape, position and nearby labels to work out which part is being described, then copies the name from the passage." }
     ]
   },
   {
@@ -1154,6 +1225,13 @@
       "Does my heading cover the whole paragraph, not one detail?",
       "Did I cross out each heading after using it?",
       "Did I check that the heading is not just a matching word from the text?"
+    ],
+    "band8": [
+      { "typical": "Matches a heading to a word in the first sentence.", "band8": "Reads the whole paragraph and picks the heading for its main point, not its first detail." },
+      { "typical": "Reads each paragraph in full, then compares with all the headings.", "band8": "Reads the headings first and highlights the key idea in each. Then reads each paragraph for its main point." },
+      { "typical": "Picks the heading that shares a word with the paragraph.", "band8": "Treats shared words with caution. Checks that the heading covers the whole paragraph, not one example." },
+      { "typical": "Starts with paragraph A and gets stuck.", "band8": "Does the easy paragraphs first and crosses out used headings. The hard paragraphs then have fewer choices." },
+      { "typical": "Leaves the task until the end and rushes.", "band8": "Does it before the detail questions. The map of main ideas helps you find later answers faster." }
     ]
   },
   {
@@ -1314,6 +1392,13 @@
       "Did I underline the key words and think of other words for them?",
       "Does the paragraph contain the exact detail, not only the topic?",
       "Did I skip hard statements and come back to them?"
+    ],
+    "band8": [
+      { "typical": "Reads paragraph A, then B, then C, hunting for each statement.", "band8": "Underlines the rare keywords in all the statements first, such as names, dates and numbers, then scans the passage for them." },
+      { "typical": "Chooses a paragraph because the topic is the same.", "band8": "Checks the paragraph has the exact detail, such as a reason, an example or a comparison. The topic alone is not enough." },
+      { "typical": "Expects the answers to be in order.", "band8": "Does each statement separately. Looks again at paragraphs already used if the instructions allow letters to repeat." },
+      { "typical": "Looks for the statement's exact words.", "band8": "Looks for the idea. \"A reason why\" may appear as \"because\", \"owing to\" or \"this led to\"." },
+      { "typical": "Spends five minutes on one statement.", "band8": "Skips it after a short try, marks it, and returns last. The other answers may rule out paragraphs for it." }
     ]
   },
   {
@@ -1477,6 +1562,13 @@
       "Did I underline every name or theory in the passage first?",
       "Does the verb of opinion match the statement?",
       "Did I check who a pronoun like \"he\" or \"she\" means?"
+    ],
+    "band8": [
+      { "typical": "Picks the first name near the topic.", "band8": "Finds who said or did it by following the verb. The same sentence can mention two names." },
+      { "typical": "Ignores the opinion verb.", "band8": "Underlines verbs such as \"argues\", \"doubts\" and \"supports\", because the statement depends on them." },
+      { "typical": "Loses track of who \"he\", \"she\" or \"they\" means.", "band8": "Goes back to the sentence before and checks which name the pronoun refers to before writing the letter." },
+      { "typical": "Reads the passage again for every statement.", "band8": "Marks every feature name in the passage first, then moves from each statement to the nearest marked name." },
+      { "typical": "Assumes each feature is used once.", "band8": "Reads the instructions. If letters can be used more than once, a feature can match several statements, and some may match none." }
     ]
   },
   {
@@ -1637,6 +1729,13 @@
       "Did I find a line in the passage that proves my answer?",
       "Did I cross out each ending after using it?",
       "Did I remember that the endings are not in passage order?"
+    ],
+    "band8": [
+      { "typical": "Reads all the endings, then guesses.", "band8": "Reads the start, finds the passage idea, completes the sentence in your own words, and then looks for the matching ending." },
+      { "typical": "Chooses a true ending that does not fit the grammar.", "band8": "Joins start and ending and reads the result. If the grammar breaks, rejects it even when the idea is true." },
+      { "typical": "Picks an ending that copies the passage words.", "band8": "Compares the meaning, not the words. A copied phrase can be attached to the wrong idea." },
+      { "typical": "Looks for the endings in the passage first.", "band8": "Remembers only the sentence starts follow the passage order. Uses the order for the starts and the meaning for the endings." },
+      { "typical": "Uses an ending twice or leaves hard ones to the end.", "band8": "Crosses out each ending as it is used. Does the clear sentences first so the last choices are few." }
     ]
   }
 ]
