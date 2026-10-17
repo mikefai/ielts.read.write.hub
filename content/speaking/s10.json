@@ -507,216 +507,225 @@
     }
   },
   "part3": {
-    "theme": "Consumerism and advertising",
-    "questions": [
+    "topics": [
       {
-        "q": "Why do people buy things they do not really need?",
-        "model": "I think a lot of it comes down to emotion rather than logic. Shopping gives people an instant buzz, and when everyone around them owns the latest gadget, they feel pressure to keep up appearances. Marketers exploit this by creating a sense of urgency with limited-time offers. In my view, we often confuse wants with needs, and only later realise that the thrill fades quickly. Learning to pause before paying could help people avoid a lot of unnecessary spending.",
-        "vocab": [
+        "theme": "Advertising and persuasion",
+        "questions": [
           {
-            "word": "instant buzz",
-            "band": 8,
-            "meaning": "a quick feeling of excitement",
-            "example": "Winning the game gave the whole team an instant buzz."
+            "q": "To what extent does advertising influence what people buy?",
+            "model": "To a large extent, I'd say it shapes our choices, often without us noticing. Catchy slogans and celebrity endorsements build brand loyalty over many years, so people reach for familiar names automatically. That said, consumers are becoming savvier, and many now read reviews before purchasing. So advertising can plant an idea, but I believe the final decision still rests with the buyer, particularly when money is tight. Ultimately, smart shoppers weigh up the evidence rather than trusting a catchy tune.",
+            "vocab": [
+              {
+                "word": "celebrity endorsements",
+                "band": 8,
+                "meaning": "famous people publicly supporting a product",
+                "example": "Celebrity endorsements make even ordinary trainers seem special."
+              },
+              {
+                "word": "brand loyalty",
+                "band": 8,
+                "meaning": "the habit of always buying the same company's products",
+                "example": "Brand loyalty keeps customers returning even when prices rise."
+              },
+              {
+                "word": "plant an idea",
+                "band": 8,
+                "meaning": "cause someone to start thinking about something",
+                "example": "One short advert can plant an idea in a viewer's mind."
+              },
+              {
+                "word": "money is tight",
+                "band": 7,
+                "meaning": "there is very little money to spend",
+                "example": "When money is tight, people check every single price carefully."
+              }
+            ],
+            "phrases": [
+              "To a large extent, I'd say ..., often without ...",
+              "That said, consumers are becoming ..., and many now ...",
+              "So ... can ..., but I believe the final decision still rests with ..."
+            ]
           },
           {
-            "word": "keep up appearances",
-            "band": 8,
-            "meaning": "pretend to be wealthier or more successful than you are",
-            "example": "Some families overspend just to keep up appearances in the neighbourhood."
+            "q": "Should advertising aimed at children be banned?",
+            "model": "Personally, I think there should be strict limits. Young children cannot tell the difference between entertainment and persuasion, so they end up pestering their parents for toys. Several countries already restrict junk food adverts during children's programmes, and the results have been encouraging. Of course, parents have a role to play as well, but regulation creates a level playing field and protects the most vulnerable viewers from aggressive marketing. In the long run, that protection would benefit families as well.",
+            "vocab": [
+              {
+                "word": "pestering their parents",
+                "band": 8,
+                "meaning": "repeatedly asking their parents for something until they give in",
+                "example": "Children keep pestering their parents for the newest games console."
+              },
+              {
+                "word": "level playing field",
+                "band": 8,
+                "meaning": "a fair situation where everyone has the same chance",
+                "example": "Rules on advertising create a level playing field for small businesses."
+              },
+              {
+                "word": "aggressive marketing",
+                "band": 8,
+                "meaning": "very forceful methods of selling a product",
+                "example": "Aggressive marketing of sugary drinks worries many doctors."
+              },
+              {
+                "word": "have a role to play",
+                "band": 7,
+                "meaning": "be partly responsible for dealing with something",
+                "example": "Teachers also have a role to play in explaining adverts."
+              }
+            ],
+            "phrases": [
+              "Personally, I think there should be ...",
+              "Several countries already ..., and the results have been ...",
+              "Of course, ... have a role to play as well, but ..."
+            ]
           },
           {
-            "word": "sense of urgency",
-            "band": 8,
-            "meaning": "a feeling that you must act immediately",
-            "example": "Countdown timers on websites create a sense of urgency."
-          },
-          {
-            "word": "limited-time offers",
-            "band": 7,
-            "meaning": "special deals that end after a short period",
-            "example": "Limited-time offers make shoppers panic and buy more than planned."
+            "q": "How far do you agree that influencers are more persuasive than traditional adverts?",
+            "model": "I'd say influencers are more persuasive for younger audiences, mainly because they come across as relatable rather than polished. Viewers feel they know them personally, so a recommendation feels like advice from a friend. The downside is that sponsorship isn't always disclosed, which can mislead followers. Traditional adverts still reach older generations and build brand recognition, so both will coexist, although the balance is tilting towards online platforms. In my experience, trust is what ultimately decides who wins.",
+            "vocab": [
+              {
+                "word": "come across as",
+                "band": 7,
+                "meaning": "give a particular impression to other people",
+                "example": "He comes across as confident, even when he feels nervous."
+              },
+              {
+                "word": "mislead followers",
+                "band": 7,
+                "meaning": "give people a false idea",
+                "example": "Hidden payments can mislead followers about an honest opinion."
+              },
+              {
+                "word": "brand recognition",
+                "band": 8,
+                "meaning": "how easily people identify a company or its logo",
+                "example": "Constant television exposure builds brand recognition very quickly."
+              },
+              {
+                "word": "the balance is tilting",
+                "band": 8,
+                "meaning": "the situation is slowly changing in one direction",
+                "example": "In shopping, the balance is tilting from high streets to screens."
+              }
+            ],
+            "phrases": [
+              "I'd say ... are more persuasive for ..., mainly because they ...",
+              "The downside is that ..., which can ...",
+              "... will coexist, although the balance is tilting towards ..."
+            ]
           }
-        ],
-        "phrases": [
-          "I think a lot of it comes down to ... rather than ...",
-          "Marketers exploit this by ...",
-          "In my view, we often confuse ... with ..."
         ]
       },
       {
-        "q": "To what extent does advertising influence what people buy?",
-        "model": "To a large extent, I'd say it shapes our choices, often without us noticing. Catchy slogans and celebrity endorsements build brand loyalty over many years, so people reach for familiar names automatically. That said, consumers are becoming savvier, and many now read reviews before purchasing. So advertising can plant an idea, but I believe the final decision still rests with the buyer, particularly when money is tight. Ultimately, smart shoppers weigh up the evidence rather than trusting a catchy tune.",
-        "vocab": [
+        "theme": "Buying habits and their effects",
+        "questions": [
           {
-            "word": "celebrity endorsements",
-            "band": 8,
-            "meaning": "famous people publicly supporting a product",
-            "example": "Celebrity endorsements make even ordinary trainers seem special."
+            "q": "Why do people buy things they do not really need?",
+            "model": "I think a lot of it comes down to emotion rather than logic. Shopping gives people an instant buzz, and when everyone around them owns the latest gadget, they feel pressure to keep up appearances. Marketers exploit this by creating a sense of urgency with limited-time offers. In my view, we often confuse wants with needs, and only later realise that the thrill fades quickly. Learning to pause before paying could help people avoid a lot of unnecessary spending.",
+            "vocab": [
+              {
+                "word": "instant buzz",
+                "band": 8,
+                "meaning": "a quick feeling of excitement",
+                "example": "Winning the game gave the whole team an instant buzz."
+              },
+              {
+                "word": "keep up appearances",
+                "band": 8,
+                "meaning": "pretend to be wealthier or more successful than you are",
+                "example": "Some families overspend just to keep up appearances in the neighbourhood."
+              },
+              {
+                "word": "sense of urgency",
+                "band": 8,
+                "meaning": "a feeling that you must act immediately",
+                "example": "Countdown timers on websites create a sense of urgency."
+              },
+              {
+                "word": "limited-time offers",
+                "band": 7,
+                "meaning": "special deals that end after a short period",
+                "example": "Limited-time offers make shoppers panic and buy more than planned."
+              }
+            ],
+            "phrases": [
+              "I think a lot of it comes down to ... rather than ...",
+              "Marketers exploit this by ...",
+              "In my view, we often confuse ... with ..."
+            ]
           },
           {
-            "word": "brand loyalty",
-            "band": 8,
-            "meaning": "the habit of always buying the same company's products",
-            "example": "Brand loyalty keeps customers returning even when prices rise."
+            "q": "What might be the environmental consequences of a consumer culture?",
+            "model": "Quite serious ones, I'm afraid. A throwaway culture means that clothes, phones and furniture are discarded long before they wear out, and that fills landfill sites at an alarming rate. Producing all those goods also drains natural resources and increases carbon emissions. On a positive note, secondhand markets and repair cafés are gaining ground, which suggests that attitudes may be shifting towards more sustainable habits. Personally, I believe manufacturers should design longer-lasting products.",
+            "vocab": [
+              {
+                "word": "throwaway culture",
+                "band": 8,
+                "meaning": "a society that quickly discards things instead of repairing them",
+                "example": "A throwaway culture produces mountains of rubbish every single week."
+              },
+              {
+                "word": "at an alarming rate",
+                "band": 7,
+                "meaning": "so fast that it causes worry",
+                "example": "Plastic waste is piling up at an alarming rate in the oceans."
+              },
+              {
+                "word": "drains natural resources",
+                "band": 8,
+                "meaning": "uses up water, minerals and other supplies from nature",
+                "example": "Mass production drains natural resources faster than they can recover."
+              },
+              {
+                "word": "gaining ground",
+                "band": 8,
+                "meaning": "becoming more popular or accepted",
+                "example": "Electric cars are gaining ground in most European cities."
+              }
+            ],
+            "phrases": [
+              "Quite serious ones, I'm afraid. A ... means that ...",
+              "... also drains ... and increases ...",
+              "On a positive note, ... are gaining ground, which suggests that ..."
+            ]
           },
           {
-            "word": "plant an idea",
-            "band": 8,
-            "meaning": "cause someone to start thinking about something",
-            "example": "One short advert can plant an idea in a viewer's mind."
-          },
-          {
-            "word": "money is tight",
-            "band": 7,
-            "meaning": "there is very little money to spend",
-            "example": "When money is tight, people check every single price carefully."
+            "q": "Do you think people will buy less in the future?",
+            "model": "I'd like to think so, though I'm not convinced. Younger generations are more eco-conscious and prefer experiences to possessions, which could curb excessive spending. On the other hand, one-click payment and next-day delivery make buying so effortless that restraint is difficult. Unless governments encourage sustainable consumption through taxes or labelling, I suspect we will carry on shopping as much as ever. Time will tell, but I remain cautiously optimistic about the next generation.",
+            "vocab": [
+              {
+                "word": "eco-conscious",
+                "band": 8,
+                "meaning": "caring about protecting the environment",
+                "example": "Eco-conscious shoppers often choose products with less packaging."
+              },
+              {
+                "word": "curb excessive spending",
+                "band": 8,
+                "meaning": "limit spending that goes beyond what is reasonable",
+                "example": "Strict credit limits can help to curb excessive spending."
+              },
+              {
+                "word": "one-click payment",
+                "band": 7,
+                "meaning": "a way of buying that needs only a single press",
+                "example": "One-click payment tempts customers to buy without any reflection."
+              },
+              {
+                "word": "sustainable consumption",
+                "band": 9,
+                "meaning": "buying and using things in a way that protects the planet",
+                "example": "Schools should teach pupils about sustainable consumption from an early age."
+              }
+            ],
+            "phrases": [
+              "I'd like to think so, though I'm not convinced.",
+              "On the other hand, ... make buying so ... that ...",
+              "Unless governments ..., I suspect we will ..."
+            ]
           }
-        ],
-        "phrases": [
-          "To a large extent, I'd say ..., often without ...",
-          "That said, consumers are becoming ..., and many now ...",
-          "So ... can ..., but I believe the final decision still rests with ..."
-        ]
-      },
-      {
-        "q": "Should advertising aimed at children be banned?",
-        "model": "Personally, I think there should be strict limits. Young children cannot tell the difference between entertainment and persuasion, so they end up pestering their parents for toys. Several countries already restrict junk food adverts during children's programmes, and the results have been encouraging. Of course, parents have a role to play as well, but regulation creates a level playing field and protects the most vulnerable viewers from aggressive marketing. In the long run, that protection would benefit families as well.",
-        "vocab": [
-          {
-            "word": "pestering their parents",
-            "band": 8,
-            "meaning": "repeatedly asking their parents for something until they give in",
-            "example": "Children keep pestering their parents for the newest games console."
-          },
-          {
-            "word": "level playing field",
-            "band": 8,
-            "meaning": "a fair situation where everyone has the same chance",
-            "example": "Rules on advertising create a level playing field for small businesses."
-          },
-          {
-            "word": "aggressive marketing",
-            "band": 8,
-            "meaning": "very forceful methods of selling a product",
-            "example": "Aggressive marketing of sugary drinks worries many doctors."
-          },
-          {
-            "word": "have a role to play",
-            "band": 7,
-            "meaning": "be partly responsible for dealing with something",
-            "example": "Teachers also have a role to play in explaining adverts."
-          }
-        ],
-        "phrases": [
-          "Personally, I think there should be ...",
-          "Several countries already ..., and the results have been ...",
-          "Of course, ... have a role to play as well, but ..."
-        ]
-      },
-      {
-        "q": "What might be the environmental consequences of a consumer culture?",
-        "model": "Quite serious ones, I'm afraid. A throwaway culture means that clothes, phones and furniture are discarded long before they wear out, and that fills landfill sites at an alarming rate. Producing all those goods also drains natural resources and increases carbon emissions. On a positive note, secondhand markets and repair cafés are gaining ground, which suggests that attitudes may be shifting towards more sustainable habits. Personally, I believe manufacturers should design longer-lasting products.",
-        "vocab": [
-          {
-            "word": "throwaway culture",
-            "band": 8,
-            "meaning": "a society that quickly discards things instead of repairing them",
-            "example": "A throwaway culture produces mountains of rubbish every single week."
-          },
-          {
-            "word": "at an alarming rate",
-            "band": 7,
-            "meaning": "so fast that it causes worry",
-            "example": "Plastic waste is piling up at an alarming rate in the oceans."
-          },
-          {
-            "word": "drains natural resources",
-            "band": 8,
-            "meaning": "uses up water, minerals and other supplies from nature",
-            "example": "Mass production drains natural resources faster than they can recover."
-          },
-          {
-            "word": "gaining ground",
-            "band": 8,
-            "meaning": "becoming more popular or accepted",
-            "example": "Electric cars are gaining ground in most European cities."
-          }
-        ],
-        "phrases": [
-          "Quite serious ones, I'm afraid. A ... means that ...",
-          "... also drains ... and increases ...",
-          "On a positive note, ... are gaining ground, which suggests that ..."
-        ]
-      },
-      {
-        "q": "How far do you agree that influencers are more persuasive than traditional adverts?",
-        "model": "I'd say influencers are more persuasive for younger audiences, mainly because they come across as relatable rather than polished. Viewers feel they know them personally, so a recommendation feels like advice from a friend. The downside is that sponsorship isn't always disclosed, which can mislead followers. Traditional adverts still reach older generations and build brand recognition, so both will coexist, although the balance is tilting towards online platforms. In my experience, trust is what ultimately decides who wins.",
-        "vocab": [
-          {
-            "word": "come across as",
-            "band": 7,
-            "meaning": "give a particular impression to other people",
-            "example": "He comes across as confident, even when he feels nervous."
-          },
-          {
-            "word": "mislead followers",
-            "band": 7,
-            "meaning": "give people a false idea",
-            "example": "Hidden payments can mislead followers about an honest opinion."
-          },
-          {
-            "word": "brand recognition",
-            "band": 8,
-            "meaning": "how easily people identify a company or its logo",
-            "example": "Constant television exposure builds brand recognition very quickly."
-          },
-          {
-            "word": "the balance is tilting",
-            "band": 8,
-            "meaning": "the situation is slowly changing in one direction",
-            "example": "In shopping, the balance is tilting from high streets to screens."
-          }
-        ],
-        "phrases": [
-          "I'd say ... are more persuasive for ..., mainly because they ...",
-          "The downside is that ..., which can ...",
-          "... will coexist, although the balance is tilting towards ..."
-        ]
-      },
-      {
-        "q": "Do you think people will buy less in the future?",
-        "model": "I'd like to think so, though I'm not convinced. Younger generations are more eco-conscious and prefer experiences to possessions, which could curb excessive spending. On the other hand, one-click payment and next-day delivery make buying so effortless that restraint is difficult. Unless governments encourage sustainable consumption through taxes or labelling, I suspect we will carry on shopping as much as ever. Time will tell, but I remain cautiously optimistic about the next generation.",
-        "vocab": [
-          {
-            "word": "eco-conscious",
-            "band": 8,
-            "meaning": "caring about protecting the environment",
-            "example": "Eco-conscious shoppers often choose products with less packaging."
-          },
-          {
-            "word": "curb excessive spending",
-            "band": 8,
-            "meaning": "limit spending that goes beyond what is reasonable",
-            "example": "Strict credit limits can help to curb excessive spending."
-          },
-          {
-            "word": "one-click payment",
-            "band": 7,
-            "meaning": "a way of buying that needs only a single press",
-            "example": "One-click payment tempts customers to buy without any reflection."
-          },
-          {
-            "word": "sustainable consumption",
-            "band": 9,
-            "meaning": "buying and using things in a way that protects the planet",
-            "example": "Schools should teach pupils about sustainable consumption from an early age."
-          }
-        ],
-        "phrases": [
-          "I'd like to think so, though I'm not convinced.",
-          "On the other hand, ... make buying so ... that ...",
-          "Unless governments ..., I suspect we will ..."
         ]
       }
     ]

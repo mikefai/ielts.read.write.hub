@@ -237,96 +237,105 @@
     }
   },
   "part3": {
-    "theme": "Learning new skills and lifelong learning",
-    "questions": [
+    "topics": [
       {
-        "q": "Why do some people find it hard to learn new skills as they get older?",
-        "model": "I think it mostly comes down to confidence and habit. Older people are often set in their ways, and they worry about looking foolish in front of younger classmates. They also juggle work and family, so there is little energy left for study. However, I don't believe age itself is the barrier. With patience and a supportive teacher, adults can master new abilities just as effectively. In my view, the real obstacle is the fear of failure, not a lack of ability.",
-        "vocab": [
-          { "word": "comes down to", "band": 7, "meaning": "is mainly decided by a particular factor", "example": "Staying fit usually comes down to regular habits, not expensive gyms." },
-          { "word": "set in their ways", "band": 8, "meaning": "unwilling to change long-held habits", "example": "My uncle is set in his ways and refuses to use a smartphone." },
-          { "word": "juggle work and family", "band": 8, "meaning": "manage the demands of a job and home life together", "example": "Many parents juggle work and family without any help at all." },
-          { "word": "fear of failure", "band": 7, "meaning": "anxiety about not succeeding", "example": "Fear of failure stops many talented people from trying something new." }
-        ],
-        "phrases": [
-          "I think it mostly comes down to ...",
-          "They also ..., so there is little ... left for ...",
-          "In my view, the real obstacle is ..., not ..."
+        "theme": "Learning throughout life",
+        "questions": [
+          {
+            "q": "Why do some people find it hard to learn new skills as they get older?",
+            "model": "I think it mostly comes down to confidence and habit. Older people are often set in their ways, and they worry about looking foolish in front of younger classmates. They also juggle work and family, so there is little energy left for study. However, I don't believe age itself is the barrier. With patience and a supportive teacher, adults can master new abilities just as effectively. In my view, the real obstacle is the fear of failure, not a lack of ability.",
+            "vocab": [
+              { "word": "comes down to", "band": 7, "meaning": "is mainly decided by a particular factor", "example": "Staying fit usually comes down to regular habits, not expensive gyms." },
+              { "word": "set in their ways", "band": 8, "meaning": "unwilling to change long-held habits", "example": "My uncle is set in his ways and refuses to use a smartphone." },
+              { "word": "juggle work and family", "band": 8, "meaning": "manage the demands of a job and home life together", "example": "Many parents juggle work and family without any help at all." },
+              { "word": "fear of failure", "band": 7, "meaning": "anxiety about not succeeding", "example": "Fear of failure stops many talented people from trying something new." }
+            ],
+            "phrases": [
+              "I think it mostly comes down to ...",
+              "They also ..., so there is little ... left for ...",
+              "In my view, the real obstacle is ..., not ..."
+            ]
+          },
+          {
+            "q": "What might happen to society if people stopped learning after leaving school?",
+            "model": "Society would almost certainly stagnate. Technology is advancing so rapidly that skills quickly become out of date, so workers who stop learning would soon fall behind and struggle to find jobs. Innovation would slow down as well, because new ideas depend on curious minds. On a personal level, people might lose their sense of purpose and become less open-minded. For these reasons, I think we should treat education as a lifelong journey rather than something that ends at eighteen.",
+            "vocab": [
+              { "word": "out of date", "band": 7, "meaning": "no longer modern or useful", "example": "Textbooks become out of date quickly in the field of medicine." },
+              { "word": "fall behind", "band": 7, "meaning": "fail to keep up with others or with change", "example": "Companies that ignore new technology soon fall behind their rivals." },
+              { "word": "sense of purpose", "band": 8, "meaning": "a feeling that your life has meaning and direction", "example": "Retired people often find a sense of purpose through volunteering." },
+              { "word": "lifelong journey", "band": 8, "meaning": "a process that continues throughout a person's whole life", "example": "Learning is a lifelong journey rather than a short race." }
+            ],
+            "phrases": [
+              "... would almost certainly ...",
+              "..., so workers who ... would soon ... and struggle to ...",
+              "For these reasons, I think we should treat ... as ... rather than ..."
+            ]
+          },
+          {
+            "q": "Which skills do you think will be most valuable for young people in the future?",
+            "model": "I would say adaptability and digital literacy will be crucial. Since many of today's jobs may be automated, young people will need to retrain several times during their careers. Alongside technical know-how, soft skills such as teamwork and critical thinking will set candidates apart, because machines cannot easily copy them. In my opinion, schools should therefore focus less on memorising facts and more on teaching students how to learn independently.",
+            "vocab": [
+              { "word": "digital literacy", "band": 8, "meaning": "the ability to use technology and online tools confidently", "example": "Digital literacy is now as basic as reading and writing." },
+              { "word": "soft skills", "band": 7, "meaning": "personal abilities such as communication and teamwork", "example": "Employers often value soft skills more than technical knowledge." },
+              { "word": "critical thinking", "band": 7, "meaning": "the ability to analyse information and judge it carefully", "example": "Critical thinking helps students spot misleading stories online." },
+              { "word": "set candidates apart", "band": 8, "meaning": "make some applicants noticeably better than the others", "example": "A year abroad can set candidates apart in a competitive interview." }
+            ],
+            "phrases": [
+              "I would say ... and ... will be crucial.",
+              "Alongside ..., ... such as ... will set ... apart, because ...",
+              "In my opinion, schools should therefore focus less on ... and more on ..."
+            ]
+          }
         ]
       },
       {
-        "q": "To what extent can online courses replace traditional classroom learning?",
-        "model": "To a certain extent, they can. Online courses are flexible, affordable and allow learners to study at their own pace from anywhere in the world. Nevertheless, they cannot fully replace face-to-face teaching, because many students need direct feedback and the motivation that comes from sharing a room with classmates. Personally, I believe a blended approach is ideal, with theory delivered online and practical sessions held in person. That way, learners enjoy the best of both worlds.",
-        "vocab": [
-          { "word": "at their own pace", "band": 7, "meaning": "at a speed that suits each individual", "example": "Online lessons let busy adults progress at their own pace." },
-          { "word": "direct feedback", "band": 7, "meaning": "immediate comments from a teacher about your work", "example": "Direct feedback helps students correct their mistakes much faster." },
-          { "word": "blended approach", "band": 8, "meaning": "a method combining online and in-person teaching", "example": "The university adopted a blended approach after the pandemic ended." },
-          { "word": "the best of both worlds", "band": 8, "meaning": "the advantages of two different options together", "example": "Working from home twice a week gives you the best of both worlds." }
-        ],
-        "phrases": [
-          "To a certain extent, they can. ... are flexible, ... and allow ...",
-          "Nevertheless, they cannot fully replace ..., because ...",
-          "Personally, I believe a ... approach is ideal, with ..."
-        ]
-      },
-      {
-        "q": "Should employers pay for their staff to receive further training?",
-        "model": "I strongly believe they should, because it is a sound investment. Well-trained employees are more productive and more likely to stay with the company, which saves money on recruitment. Furthermore, workers who feel valued tend to be far more loyal. Admittedly, small businesses may struggle to cover the cost, so the government could offer tax incentives to lighten the load. Overall, everyone gains when companies support professional development, including customers who receive a better service.",
-        "vocab": [
-          { "word": "sound investment", "band": 8, "meaning": "a sensible use of money that will bring future benefits", "example": "Buying quality tools is a sound investment for any carpenter." },
-          { "word": "tax incentives", "band": 8, "meaning": "reductions in tax that encourage a particular action", "example": "Tax incentives encourage firms to install solar panels on their roofs." },
-          { "word": "lighten the load", "band": 8, "meaning": "make a heavy burden easier to carry", "example": "Hiring an assistant would lighten the load for our manager." },
-          { "word": "professional development", "band": 7, "meaning": "training that helps you improve at your job", "example": "The firm gives every employee a day a month for professional development." }
-        ],
-        "phrases": [
-          "I strongly believe they should, because it is a ...",
-          "Admittedly, ... may struggle to ..., so ... could ...",
-          "Overall, everyone gains when ..., including ..."
-        ]
-      },
-      {
-        "q": "What might happen to society if people stopped learning after leaving school?",
-        "model": "Society would almost certainly stagnate. Technology is advancing so rapidly that skills quickly become out of date, so workers who stop learning would soon fall behind and struggle to find jobs. Innovation would slow down as well, because new ideas depend on curious minds. On a personal level, people might lose their sense of purpose and become less open-minded. For these reasons, I think we should treat education as a lifelong journey rather than something that ends at eighteen.",
-        "vocab": [
-          { "word": "out of date", "band": 7, "meaning": "no longer modern or useful", "example": "Textbooks become out of date quickly in the field of medicine." },
-          { "word": "fall behind", "band": 7, "meaning": "fail to keep up with others or with change", "example": "Companies that ignore new technology soon fall behind their rivals." },
-          { "word": "sense of purpose", "band": 8, "meaning": "a feeling that your life has meaning and direction", "example": "Retired people often find a sense of purpose through volunteering." },
-          { "word": "lifelong journey", "band": 8, "meaning": "a process that continues throughout a person's whole life", "example": "Learning is a lifelong journey rather than a short race." }
-        ],
-        "phrases": [
-          "... would almost certainly ...",
-          "..., so workers who ... would soon ... and struggle to ...",
-          "For these reasons, I think we should treat ... as ... rather than ..."
-        ]
-      },
-      {
-        "q": "Which skills do you think will be most valuable for young people in the future?",
-        "model": "I would say adaptability and digital literacy will be crucial. Since many of today's jobs may be automated, young people will need to retrain several times during their careers. Alongside technical know-how, soft skills such as teamwork and critical thinking will set candidates apart, because machines cannot easily copy them. In my opinion, schools should therefore focus less on memorising facts and more on teaching students how to learn independently.",
-        "vocab": [
-          { "word": "digital literacy", "band": 8, "meaning": "the ability to use technology and online tools confidently", "example": "Digital literacy is now as basic as reading and writing." },
-          { "word": "soft skills", "band": 7, "meaning": "personal abilities such as communication and teamwork", "example": "Employers often value soft skills more than technical knowledge." },
-          { "word": "critical thinking", "band": 7, "meaning": "the ability to analyse information and judge it carefully", "example": "Critical thinking helps students spot misleading stories online." },
-          { "word": "set candidates apart", "band": 8, "meaning": "make some applicants noticeably better than the others", "example": "A year abroad can set candidates apart in a competitive interview." }
-        ],
-        "phrases": [
-          "I would say ... and ... will be crucial.",
-          "Alongside ..., ... such as ... will set ... apart, because ...",
-          "In my opinion, schools should therefore focus less on ... and more on ..."
-        ]
-      },
-      {
-        "q": "How far is practical experience more useful than formal qualifications?",
-        "model": "It depends on the field. In careers like surgery or engineering, formal qualifications are non-negotiable because mistakes can be extremely costly. In creative industries, however, a strong portfolio often speaks louder than a certificate. Personally, I think hands-on experience teaches things no textbook can, such as working under pressure. Even so, qualifications open doors in the first place, so the ideal situation is to gain both side by side, learning on the job while studying.",
-        "vocab": [
-          { "word": "non-negotiable", "band": 8, "meaning": "absolutely required and not open to discussion", "example": "Safety checks are non-negotiable in the aviation industry." },
-          { "word": "speaks louder than", "band": 8, "meaning": "is more convincing than something else", "example": "In this trade, a good reputation speaks louder than any diploma." },
-          { "word": "hands-on experience", "band": 7, "meaning": "knowledge gained by actually doing the work yourself", "example": "Hands-on experience in a kitchen taught him more than any lecture." },
-          { "word": "learning on the job", "band": 7, "meaning": "gaining skills while actually doing the work", "example": "Learning on the job helped her feel confident within a few months." }
-        ],
-        "phrases": [
-          "It depends on the field. In ..., ... are non-negotiable because ...",
-          "In ..., however, a strong ... often speaks louder than ...",
-          "Even so, ... open doors in the first place, so the ideal situation is to ..."
+        "theme": "Courses, training and qualifications",
+        "questions": [
+          {
+            "q": "To what extent can online courses replace traditional classroom learning?",
+            "model": "To a certain extent, they can. Online courses are flexible, affordable and allow learners to study at their own pace from anywhere in the world. Nevertheless, they cannot fully replace face-to-face teaching, because many students need direct feedback and the motivation that comes from sharing a room with classmates. Personally, I believe a blended approach is ideal, with theory delivered online and practical sessions held in person. That way, learners enjoy the best of both worlds.",
+            "vocab": [
+              { "word": "at their own pace", "band": 7, "meaning": "at a speed that suits each individual", "example": "Online lessons let busy adults progress at their own pace." },
+              { "word": "direct feedback", "band": 7, "meaning": "immediate comments from a teacher about your work", "example": "Direct feedback helps students correct their mistakes much faster." },
+              { "word": "blended approach", "band": 8, "meaning": "a method combining online and in-person teaching", "example": "The university adopted a blended approach after the pandemic ended." },
+              { "word": "the best of both worlds", "band": 8, "meaning": "the advantages of two different options together", "example": "Working from home twice a week gives you the best of both worlds." }
+            ],
+            "phrases": [
+              "To a certain extent, they can. ... are flexible, ... and allow ...",
+              "Nevertheless, they cannot fully replace ..., because ...",
+              "Personally, I believe a ... approach is ideal, with ..."
+            ]
+          },
+          {
+            "q": "Should employers pay for their staff to receive further training?",
+            "model": "I strongly believe they should, because it is a sound investment. Well-trained employees are more productive and more likely to stay with the company, which saves money on recruitment. Furthermore, workers who feel valued tend to be far more loyal. Admittedly, small businesses may struggle to cover the cost, so the government could offer tax incentives to lighten the load. Overall, everyone gains when companies support professional development, including customers who receive a better service.",
+            "vocab": [
+              { "word": "sound investment", "band": 8, "meaning": "a sensible use of money that will bring future benefits", "example": "Buying quality tools is a sound investment for any carpenter." },
+              { "word": "tax incentives", "band": 8, "meaning": "reductions in tax that encourage a particular action", "example": "Tax incentives encourage firms to install solar panels on their roofs." },
+              { "word": "lighten the load", "band": 8, "meaning": "make a heavy burden easier to carry", "example": "Hiring an assistant would lighten the load for our manager." },
+              { "word": "professional development", "band": 7, "meaning": "training that helps you improve at your job", "example": "The firm gives every employee a day a month for professional development." }
+            ],
+            "phrases": [
+              "I strongly believe they should, because it is a ...",
+              "Admittedly, ... may struggle to ..., so ... could ...",
+              "Overall, everyone gains when ..., including ..."
+            ]
+          },
+          {
+            "q": "How far is practical experience more useful than formal qualifications?",
+            "model": "It depends on the field. In careers like surgery or engineering, formal qualifications are non-negotiable because mistakes can be extremely costly. In creative industries, however, a strong portfolio often speaks louder than a certificate. Personally, I think hands-on experience teaches things no textbook can, such as working under pressure. Even so, qualifications open doors in the first place, so the ideal situation is to gain both side by side, learning on the job while studying.",
+            "vocab": [
+              { "word": "non-negotiable", "band": 8, "meaning": "absolutely required and not open to discussion", "example": "Safety checks are non-negotiable in the aviation industry." },
+              { "word": "speaks louder than", "band": 8, "meaning": "is more convincing than something else", "example": "In this trade, a good reputation speaks louder than any diploma." },
+              { "word": "hands-on experience", "band": 7, "meaning": "knowledge gained by actually doing the work yourself", "example": "Hands-on experience in a kitchen taught him more than any lecture." },
+              { "word": "learning on the job", "band": 7, "meaning": "gaining skills while actually doing the work", "example": "Learning on the job helped her feel confident within a few months." }
+            ],
+            "phrases": [
+              "It depends on the field. In ..., ... are non-negotiable because ...",
+              "In ..., however, a strong ... often speaks louder than ...",
+              "Even so, ... open doors in the first place, so the ideal situation is to ..."
+            ]
+          }
         ]
       }
     ]

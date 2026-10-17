@@ -507,216 +507,225 @@
     }
   },
   "part3": {
-    "theme": "Tradition and culture",
-    "questions": [
+    "topics": [
       {
-        "q": "Why do some people feel it is important to preserve traditions?",
-        "model": "I think traditions act as an anchor in a rapidly changing world. They remind people where they come from and give communities a shared sense of belonging. For example, family rituals pass down values from one generation to the next. Without them, society could feel rather rootless. Personally, I believe we should keep the customs that bring people together and let go of those that have outlived their purpose, so that heritage stays alive rather than becoming a museum exhibit.",
-        "vocab": [
+        "theme": "Preserving traditions",
+        "questions": [
           {
-            "word": "shared sense of belonging",
-            "band": 8,
-            "meaning": "a feeling that a group of people all belong together",
-            "example": "Local sports clubs create a shared sense of belonging for newcomers."
+            "q": "Why do some people feel it is important to preserve traditions?",
+            "model": "I think traditions act as an anchor in a rapidly changing world. They remind people where they come from and give communities a shared sense of belonging. For example, family rituals pass down values from one generation to the next. Without them, society could feel rather rootless. Personally, I believe we should keep the customs that bring people together and let go of those that have outlived their purpose, so that heritage stays alive rather than becoming a museum exhibit.",
+            "vocab": [
+              {
+                "word": "shared sense of belonging",
+                "band": 8,
+                "meaning": "a feeling that a group of people all belong together",
+                "example": "Local sports clubs create a shared sense of belonging for newcomers."
+              },
+              {
+                "word": "pass down",
+                "band": 7,
+                "meaning": "give knowledge or customs to the next generation",
+                "example": "Many families pass down recipes from mother to daughter."
+              },
+              {
+                "word": "let go of",
+                "band": 7,
+                "meaning": "stop holding on to an idea or habit",
+                "example": "It is hard to let go of habits you learned as a child."
+              },
+              {
+                "word": "outlived their purpose",
+                "band": 9,
+                "meaning": "continued to exist after they stopped being useful",
+                "example": "Some rules have outlived their purpose and should simply be scrapped."
+              }
+            ],
+            "phrases": [
+              "I think traditions act as ... in a rapidly changing world.",
+              "For example, ... pass down ... from one generation to the next.",
+              "Personally, I believe we should keep ... and let go of ..."
+            ]
           },
           {
-            "word": "pass down",
-            "band": 7,
-            "meaning": "give knowledge or customs to the next generation",
-            "example": "Many families pass down recipes from mother to daughter."
+            "q": "Should governments fund the preservation of traditional festivals and heritage sites?",
+            "model": "Yes, up to a point. Heritage sites and festivals are part of the national story, and local communities rarely have the funds to maintain crumbling temples on their own. Public money can also create jobs for craftspeople and guides. Nevertheless, spending should be transparent, otherwise taxpayers may feel it is wasted. Personally, I'd back a partnership where the state covers essential repairs and private sponsors support events, so the burden is shared fairly.",
+            "vocab": [
+              {
+                "word": "up to a point",
+                "band": 8,
+                "meaning": "partly, but not completely",
+                "example": "I agree with her up to a point, but her plan is too expensive."
+              },
+              {
+                "word": "create jobs",
+                "band": 7,
+                "meaning": "produce new opportunities for employment",
+                "example": "The new festival will create jobs for musicians, cooks and drivers."
+              },
+              {
+                "word": "essential repairs",
+                "band": 8,
+                "meaning": "fixes that must be done to keep something safe or working",
+                "example": "The bridge was closed for months while essential repairs took place."
+              },
+              {
+                "word": "private sponsors",
+                "band": 8,
+                "meaning": "companies or individuals who pay to support an event",
+                "example": "Private sponsors paid for the lights at this year's lantern parade."
+              }
+            ],
+            "phrases": [
+              "Yes, up to a point. ... are part of the national story, and ...",
+              "Nevertheless, spending should be transparent, otherwise ...",
+              "Personally, I'd back a partnership where the state covers ... and ..."
+            ]
           },
           {
-            "word": "let go of",
-            "band": 7,
-            "meaning": "stop holding on to an idea or habit",
-            "example": "It is hard to let go of habits you learned as a child."
-          },
-          {
-            "word": "outlived their purpose",
-            "band": 9,
-            "meaning": "continued to exist after they stopped being useful",
-            "example": "Some rules have outlived their purpose and should simply be scrapped."
+            "q": "What might be lost if a country's traditional crafts die out?",
+            "model": "We would lose far more than just beautiful objects. Traditional crafts carry skills, stories and local knowledge that took centuries to develop, and once the last master dies, that expertise is almost impossible to rebuild. Communities might also lose a source of income and pride. To prevent this, schools could offer workshops, and consumers could be willing to pay a premium for handmade goods. It is really about valuing quality over speed.",
+            "vocab": [
+              {
+                "word": "local knowledge",
+                "band": 7,
+                "meaning": "practical understanding that people in one area have gained over time",
+                "example": "Fishermen use local knowledge to predict storms before they arrive."
+              },
+              {
+                "word": "pay a premium",
+                "band": 8,
+                "meaning": "pay extra for something of higher quality",
+                "example": "Many shoppers will pay a premium for coffee from a single farm."
+              },
+              {
+                "word": "handmade goods",
+                "band": 7,
+                "meaning": "products made by hand rather than in a factory",
+                "example": "The market sells handmade goods such as baskets and ceramic bowls."
+              },
+              {
+                "word": "a source of income",
+                "band": 7,
+                "meaning": "a way of earning money",
+                "example": "Tourism became a source of income for several mountain villages."
+              }
+            ],
+            "phrases": [
+              "We would lose far more than just ... Traditional ... carry ...",
+              "... and once the last master dies, that ... is almost impossible to ...",
+              "To prevent this, schools could ... , and consumers could ..."
+            ]
           }
-        ],
-        "phrases": [
-          "I think traditions act as ... in a rapidly changing world.",
-          "For example, ... pass down ... from one generation to the next.",
-          "Personally, I believe we should keep ... and let go of ..."
         ]
       },
       {
-        "q": "To what extent has globalisation weakened local cultures?",
-        "model": "To a large extent, I think it has. Global brands and streaming platforms spread the same fast food and pop songs everywhere, so local customs struggle to compete. Young people often copy foreign trends rather than learn their own folk music. However, globalisation also gives small cultures a worldwide audience, which can revive interest at home. On balance, I would say the threat is real but manageable if communities take pride in what makes them unique.",
-        "vocab": [
+        "theme": "Culture in a changing world",
+        "questions": [
           {
-            "word": "streaming platforms",
-            "band": 7,
-            "meaning": "websites or apps that deliver films and music online",
-            "example": "Streaming platforms have changed how teenagers discover new bands."
+            "q": "To what extent has globalisation weakened local cultures?",
+            "model": "To a large extent, I think it has. Global brands and streaming platforms spread the same fast food and pop songs everywhere, so local customs struggle to compete. Young people often copy foreign trends rather than learn their own folk music. However, globalisation also gives small cultures a worldwide audience, which can revive interest at home. On balance, I would say the threat is real but manageable if communities take pride in what makes them unique.",
+            "vocab": [
+              {
+                "word": "streaming platforms",
+                "band": 7,
+                "meaning": "websites or apps that deliver films and music online",
+                "example": "Streaming platforms have changed how teenagers discover new bands."
+              },
+              {
+                "word": "revive interest",
+                "band": 8,
+                "meaning": "make people interested in something again",
+                "example": "A popular film helped revive interest in traditional costume."
+              },
+              {
+                "word": "on balance",
+                "band": 8,
+                "meaning": "after considering all the points for and against",
+                "example": "On balance, the new law will help small farmers more than it harms them."
+              },
+              {
+                "word": "take pride in",
+                "band": 7,
+                "meaning": "feel satisfied and proud of something",
+                "example": "Craftspeople in this village take pride in every piece they carve."
+              }
+            ],
+            "phrases": [
+              "To a large extent, I think it has. ... spread the same ... everywhere, so ...",
+              "However, ... also gives ... , which can ...",
+              "On balance, I would say the threat is real but manageable if ..."
+            ]
           },
           {
-            "word": "revive interest",
-            "band": 8,
-            "meaning": "make people interested in something again",
-            "example": "A popular film helped revive interest in traditional costume."
+            "q": "How far do you agree that young people are less interested in tradition than older generations?",
+            "model": "I only partly agree. It's true that many teenagers prefer gaming and social media to attending ceremonies, but that doesn't mean they don't care. Plenty of them are proud of their roots and post festival videos that reach audiences their grandparents never could. The real issue is that traditions are sometimes presented in a rigid way. If elders were open to fresh ideas, I suspect the generation gap would shrink considerably.",
+            "vocab": [
+              {
+                "word": "proud of their roots",
+                "band": 8,
+                "meaning": "pleased about where their family and culture come from",
+                "example": "Immigrant children are often proud of their roots and speak two languages."
+              },
+              {
+                "word": "generation gap",
+                "band": 7,
+                "meaning": "a difference in attitudes between old and young people",
+                "example": "The generation gap shows up whenever my dad tries to use my phone."
+              },
+              {
+                "word": "open to fresh ideas",
+                "band": 8,
+                "meaning": "willing to consider new suggestions",
+                "example": "A good manager stays open to fresh ideas from the whole team."
+              },
+              {
+                "word": "the real issue is",
+                "band": 7,
+                "meaning": "the true cause of the problem is",
+                "example": "In my view, the real issue is that tickets cost far too much."
+              }
+            ],
+            "phrases": [
+              "I only partly agree. It's true that ... , but that doesn't mean ...",
+              "Plenty of them are ... and ... that reach audiences ...",
+              "If ... were open to ... , I suspect the ... would shrink considerably."
+            ]
           },
           {
-            "word": "on balance",
-            "band": 8,
-            "meaning": "after considering all the points for and against",
-            "example": "On balance, the new law will help small farmers more than it harms them."
-          },
-          {
-            "word": "take pride in",
-            "band": 7,
-            "meaning": "feel satisfied and proud of something",
-            "example": "Craftspeople in this village take pride in every piece they carve."
+            "q": "Is it right for tourism to turn sacred ceremonies into commercial attractions?",
+            "model": "It's a delicate issue. On the one hand, tourism brings in vital revenue that helps communities maintain their customs. On the other hand, when sacred rituals are staged for crowds with cameras, they risk losing their authenticity and meaning. In my view, the key is respect. Visitors should follow local etiquette, and hosts should decide which ceremonies are open to outsiders. With clear boundaries, culture can be shared without being turned into a cheap spectacle.",
+            "vocab": [
+              {
+                "word": "a delicate issue",
+                "band": 8,
+                "meaning": "a subject that needs careful handling",
+                "example": "Money is a delicate issue in many families, so we rarely discuss it."
+              },
+              {
+                "word": "vital revenue",
+                "band": 8,
+                "meaning": "income that is absolutely necessary",
+                "example": "Ticket sales are vital revenue for the small regional museum."
+              },
+              {
+                "word": "local etiquette",
+                "band": 8,
+                "meaning": "the polite behaviour expected in a particular place",
+                "example": "Tourists should read about local etiquette before visiting a temple."
+              },
+              {
+                "word": "clear boundaries",
+                "band": 7,
+                "meaning": "firm limits that everyone understands",
+                "example": "Clear boundaries stop visitors from wandering into private family areas."
+              }
+            ],
+            "phrases": [
+              "It's a delicate issue. On the one hand, ... On the other hand, ...",
+              "In my view, the key is respect. Visitors should ... and hosts should ...",
+              "With clear boundaries, ... can be shared without being ..."
+            ]
           }
-        ],
-        "phrases": [
-          "To a large extent, I think it has. ... spread the same ... everywhere, so ...",
-          "However, ... also gives ... , which can ...",
-          "On balance, I would say the threat is real but manageable if ..."
-        ]
-      },
-      {
-        "q": "Should governments fund the preservation of traditional festivals and heritage sites?",
-        "model": "Yes, up to a point. Heritage sites and festivals are part of the national story, and local communities rarely have the funds to maintain crumbling temples on their own. Public money can also create jobs for craftspeople and guides. Nevertheless, spending should be transparent, otherwise taxpayers may feel it is wasted. Personally, I'd back a partnership where the state covers essential repairs and private sponsors support events, so the burden is shared fairly.",
-        "vocab": [
-          {
-            "word": "up to a point",
-            "band": 8,
-            "meaning": "partly, but not completely",
-            "example": "I agree with her up to a point, but her plan is too expensive."
-          },
-          {
-            "word": "create jobs",
-            "band": 7,
-            "meaning": "produce new opportunities for employment",
-            "example": "The new festival will create jobs for musicians, cooks and drivers."
-          },
-          {
-            "word": "essential repairs",
-            "band": 8,
-            "meaning": "fixes that must be done to keep something safe or working",
-            "example": "The bridge was closed for months while essential repairs took place."
-          },
-          {
-            "word": "private sponsors",
-            "band": 8,
-            "meaning": "companies or individuals who pay to support an event",
-            "example": "Private sponsors paid for the lights at this year's lantern parade."
-          }
-        ],
-        "phrases": [
-          "Yes, up to a point. ... are part of the national story, and ...",
-          "Nevertheless, spending should be transparent, otherwise ...",
-          "Personally, I'd back a partnership where the state covers ... and ..."
-        ]
-      },
-      {
-        "q": "What might be lost if a country's traditional crafts die out?",
-        "model": "We would lose far more than just beautiful objects. Traditional crafts carry skills, stories and local knowledge that took centuries to develop, and once the last master dies, that expertise is almost impossible to rebuild. Communities might also lose a source of income and pride. To prevent this, schools could offer workshops, and consumers could be willing to pay a premium for handmade goods. It is really about valuing quality over speed.",
-        "vocab": [
-          {
-            "word": "local knowledge",
-            "band": 7,
-            "meaning": "practical understanding that people in one area have gained over time",
-            "example": "Fishermen use local knowledge to predict storms before they arrive."
-          },
-          {
-            "word": "pay a premium",
-            "band": 8,
-            "meaning": "pay extra for something of higher quality",
-            "example": "Many shoppers will pay a premium for coffee from a single farm."
-          },
-          {
-            "word": "handmade goods",
-            "band": 7,
-            "meaning": "products made by hand rather than in a factory",
-            "example": "The market sells handmade goods such as baskets and ceramic bowls."
-          },
-          {
-            "word": "a source of income",
-            "band": 7,
-            "meaning": "a way of earning money",
-            "example": "Tourism became a source of income for several mountain villages."
-          }
-        ],
-        "phrases": [
-          "We would lose far more than just ... Traditional ... carry ...",
-          "... and once the last master dies, that ... is almost impossible to ...",
-          "To prevent this, schools could ... , and consumers could ..."
-        ]
-      },
-      {
-        "q": "How far do you agree that young people are less interested in tradition than older generations?",
-        "model": "I only partly agree. It's true that many teenagers prefer gaming and social media to attending ceremonies, but that doesn't mean they don't care. Plenty of them are proud of their roots and post festival videos that reach audiences their grandparents never could. The real issue is that traditions are sometimes presented in a rigid way. If elders were open to fresh ideas, I suspect the generation gap would shrink considerably.",
-        "vocab": [
-          {
-            "word": "proud of their roots",
-            "band": 8,
-            "meaning": "pleased about where their family and culture come from",
-            "example": "Immigrant children are often proud of their roots and speak two languages."
-          },
-          {
-            "word": "generation gap",
-            "band": 7,
-            "meaning": "a difference in attitudes between old and young people",
-            "example": "The generation gap shows up whenever my dad tries to use my phone."
-          },
-          {
-            "word": "open to fresh ideas",
-            "band": 8,
-            "meaning": "willing to consider new suggestions",
-            "example": "A good manager stays open to fresh ideas from the whole team."
-          },
-          {
-            "word": "the real issue is",
-            "band": 7,
-            "meaning": "the true cause of the problem is",
-            "example": "In my view, the real issue is that tickets cost far too much."
-          }
-        ],
-        "phrases": [
-          "I only partly agree. It's true that ... , but that doesn't mean ...",
-          "Plenty of them are ... and ... that reach audiences ...",
-          "If ... were open to ... , I suspect the ... would shrink considerably."
-        ]
-      },
-      {
-        "q": "Is it right for tourism to turn sacred ceremonies into commercial attractions?",
-        "model": "It's a delicate issue. On the one hand, tourism brings in vital revenue that helps communities maintain their customs. On the other hand, when sacred rituals are staged for crowds with cameras, they risk losing their authenticity and meaning. In my view, the key is respect. Visitors should follow local etiquette, and hosts should decide which ceremonies are open to outsiders. With clear boundaries, culture can be shared without being turned into a cheap spectacle.",
-        "vocab": [
-          {
-            "word": "a delicate issue",
-            "band": 8,
-            "meaning": "a subject that needs careful handling",
-            "example": "Money is a delicate issue in many families, so we rarely discuss it."
-          },
-          {
-            "word": "vital revenue",
-            "band": 8,
-            "meaning": "income that is absolutely necessary",
-            "example": "Ticket sales are vital revenue for the small regional museum."
-          },
-          {
-            "word": "local etiquette",
-            "band": 8,
-            "meaning": "the polite behaviour expected in a particular place",
-            "example": "Tourists should read about local etiquette before visiting a temple."
-          },
-          {
-            "word": "clear boundaries",
-            "band": 7,
-            "meaning": "firm limits that everyone understands",
-            "example": "Clear boundaries stop visitors from wandering into private family areas."
-          }
-        ],
-        "phrases": [
-          "It's a delicate issue. On the one hand, ... On the other hand, ...",
-          "In my view, the key is respect. Visitors should ... and hosts should ...",
-          "With clear boundaries, ... can be shared without being ..."
         ]
       }
     ]

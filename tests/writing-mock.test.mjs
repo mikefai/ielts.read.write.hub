@@ -17,8 +17,13 @@ test('validateMocks accepts a mixed chart with 2-3 visuals', () => {
   assert.deepEqual(validateMocks(mocks, tasks(mixed(2))), []);
   assert.deepEqual(validateMocks(mocks, tasks(mixed(3))), []);
 });
-test('validateMocks flags a Task 1 that is not a mixed chart', () =>
-  assert.ok(validateMocks(mocks, tasks(bar)).some(e => e.includes('mixed'))));
+const two = [{ id: 'm1', task1: 'a', task2: 'x' }, { id: 'm2', task1: 'b', task2: 'x' }];
+const pair = (a, b) => ({ a: { chart: a }, b: { chart: b }, x: {} });
+test('validateMocks allows at most one mixed Task 1', () => {
+  assert.ok(validateMocks(two, pair(mixed(2), mixed(2))).some(e => /only one mock may use a mixed/.test(e)));
+  assert.deepEqual(validateMocks(two, pair(mixed(2), bar)), []);
+  assert.deepEqual(validateMocks(two, pair(bar, bar)), []);
+});
 test('validateMocks flags a mixed chart with fewer than 2 or more than 3 visuals', () => {
   for (const n of [1, 4]) assert.ok(validateMocks(mocks, tasks(mixed(n))).some(e => e.includes('2-3')));
 });

@@ -508,216 +508,225 @@
     }
   },
   "part3": {
-    "theme": "Media and entertainment",
-    "questions": [
+    "topics": [
       {
-        "q": "Why do so many people nowadays prefer streaming services to traditional television?",
-        "model": "I think it mainly comes down to convenience. Streaming platforms let viewers watch whatever they like, whenever they like, instead of being tied to a fixed schedule. They also offer a vast library of content at a reasonable monthly price, which is hard to beat. On the other hand, endless choice can lead to decision fatigue, and I know people who spend an hour scrolling before giving up. Personally, I still enjoy live broadcasts for big sporting events.",
-        "vocab": [
+        "theme": "Streaming and viewing habits",
+        "questions": [
           {
-            "word": "fixed schedule",
-            "band": 7,
-            "meaning": "set times that cannot be changed",
-            "example": "Working from home means I no longer follow a fixed schedule."
+            "q": "Why do so many people nowadays prefer streaming services to traditional television?",
+            "model": "I think it mainly comes down to convenience. Streaming platforms let viewers watch whatever they like, whenever they like, instead of being tied to a fixed schedule. They also offer a vast library of content at a reasonable monthly price, which is hard to beat. On the other hand, endless choice can lead to decision fatigue, and I know people who spend an hour scrolling before giving up. Personally, I still enjoy live broadcasts for big sporting events.",
+            "vocab": [
+              {
+                "word": "fixed schedule",
+                "band": 7,
+                "meaning": "set times that cannot be changed",
+                "example": "Working from home means I no longer follow a fixed schedule."
+              },
+              {
+                "word": "vast library of content",
+                "band": 8,
+                "meaning": "a very large collection of films and programmes",
+                "example": "The museum's website has a vast library of content for teachers."
+              },
+              {
+                "word": "hard to beat",
+                "band": 7,
+                "meaning": "so good that it is difficult to find anything better",
+                "example": "For value, a family ticket is hard to beat."
+              },
+              {
+                "word": "decision fatigue",
+                "band": 9,
+                "meaning": "tiredness caused by having to make too many choices",
+                "example": "Shopping for hours leaves me with decision fatigue and an empty wallet."
+              }
+            ],
+            "phrases": [
+              "I think it mainly comes down to ...",
+              "They also offer ... at a reasonable monthly price, which is hard to beat.",
+              "On the other hand, endless choice can lead to ..."
+            ]
           },
           {
-            "word": "vast library of content",
-            "band": 8,
-            "meaning": "a very large collection of films and programmes",
-            "example": "The museum's website has a vast library of content for teachers."
+            "q": "How far do you agree that cinemas will eventually be replaced by home streaming?",
+            "model": "I don't think cinemas will disappear completely, but they will have to adapt. Home streaming is cheaper and more comfortable, so many people no longer see the point of queuing for tickets. Even so, nothing quite matches the atmosphere of watching a premiere on the big screen with a crowd. I suspect cinemas will survive by offering something special, such as immersive screens and live events. In other words, they will move upmarket rather than vanish.",
+            "vocab": [
+              {
+                "word": "see the point of",
+                "band": 7,
+                "meaning": "understand the purpose or benefit of doing something",
+                "example": "Some drivers don't see the point of paying for parking in the city centre."
+              },
+              {
+                "word": "nothing quite matches",
+                "band": 8,
+                "meaning": "there is no real equal to something",
+                "example": "Nothing quite matches the feeling of finishing a long hike."
+              },
+              {
+                "word": "on the big screen",
+                "band": 7,
+                "meaning": "in a cinema rather than on a small device",
+                "example": "Epic adventure stories look far better on the big screen."
+              },
+              {
+                "word": "move upmarket",
+                "band": 8,
+                "meaning": "change to offer more expensive, higher-quality products",
+                "example": "Several high-street cafés have moved upmarket to attract wealthier customers."
+              }
+            ],
+            "phrases": [
+              "I don't think ... will disappear completely, but they will have to adapt.",
+              "Even so, nothing quite matches ...",
+              "In other words, they will ... rather than ..."
+            ]
           },
           {
-            "word": "hard to beat",
-            "band": 7,
-            "meaning": "so good that it is difficult to find anything better",
-            "example": "For value, a family ticket is hard to beat."
-          },
-          {
-            "word": "decision fatigue",
-            "band": 9,
-            "meaning": "tiredness caused by having to make too many choices",
-            "example": "Shopping for hours leaves me with decision fatigue and an empty wallet."
+            "q": "Do you think entertainment should aim to educate as well as amuse?",
+            "model": "Ideally, both. People mainly watch films and series to unwind, so purely escapist entertainment has its place. However, the most memorable stories often teach us something without feeling like a lecture. Historical dramas, for example, can bring the past to life in a way textbooks rarely manage. I think the best producers strike a balance, offering a gripping plot while quietly broadening the audience's outlook. If viewers learn something by accident, that is a bonus.",
+            "vocab": [
+              {
+                "word": "has its place",
+                "band": 7,
+                "meaning": "is useful or acceptable in the right situation",
+                "example": "A light comedy has its place after a stressful week."
+              },
+              {
+                "word": "bring the past to life",
+                "band": 8,
+                "meaning": "make history feel real and vivid",
+                "example": "Costumes and music help bring the past to life for young viewers."
+              },
+              {
+                "word": "strike a balance",
+                "band": 7,
+                "meaning": "find a fair middle position between two things",
+                "example": "It is hard to strike a balance between work and leisure."
+              },
+              {
+                "word": "gripping plot",
+                "band": 7,
+                "meaning": "a story so exciting that you cannot stop following it",
+                "example": "A gripping plot kept the whole audience silent until the final scene."
+              }
+            ],
+            "phrases": [
+              "Ideally, both. People mainly ... to unwind, so ... has its place.",
+              "... can bring the past to life in a way ... rarely manage.",
+              "I think the best ... strike a balance, offering ... while ..."
+            ]
           }
-        ],
-        "phrases": [
-          "I think it mainly comes down to ...",
-          "They also offer ... at a reasonable monthly price, which is hard to beat.",
-          "On the other hand, endless choice can lead to ..."
         ]
       },
       {
-        "q": "To what extent does the media influence what young people think and how they behave?",
-        "model": "To a large extent, I would say it does. Young people spend hours online, so the influencers and shows they follow shape their tastes, their fashion and even their opinions. A great deal of content sets unrealistic beauty standards, which can damage self-esteem. That said, teenagers aren't passive, and many are quite sceptical. In my view, media literacy lessons at school would help them avoid being swept along by every passing trend.",
-        "vocab": [
+        "theme": "The influence of the media",
+        "questions": [
           {
-            "word": "unrealistic beauty standards",
-            "band": 8,
-            "meaning": "ideas about appearance that almost nobody can match",
-            "example": "Advertising often promotes unrealistic beauty standards that make people feel inadequate."
+            "q": "To what extent does the media influence what young people think and how they behave?",
+            "model": "To a large extent, I would say it does. Young people spend hours online, so the influencers and shows they follow shape their tastes, their fashion and even their opinions. A great deal of content sets unrealistic beauty standards, which can damage self-esteem. That said, teenagers aren't passive, and many are quite sceptical. In my view, media literacy lessons at school would help them avoid being swept along by every passing trend.",
+            "vocab": [
+              {
+                "word": "unrealistic beauty standards",
+                "band": 8,
+                "meaning": "ideas about appearance that almost nobody can match",
+                "example": "Advertising often promotes unrealistic beauty standards that make people feel inadequate."
+              },
+              {
+                "word": "damage self-esteem",
+                "band": 8,
+                "meaning": "make a person feel less confident about themselves",
+                "example": "Constant online comparison can damage self-esteem in teenagers."
+              },
+              {
+                "word": "media literacy",
+                "band": 9,
+                "meaning": "the ability to question and understand what media tells you",
+                "example": "Media literacy helps students spot fake news before sharing it."
+              },
+              {
+                "word": "swept along by",
+                "band": 8,
+                "meaning": "carried away by a strong trend or feeling",
+                "example": "Many shoppers get swept along by the excitement of a sale."
+              }
+            ],
+            "phrases": [
+              "To a large extent, I would say it does.",
+              "A great deal of content ..., which can ...",
+              "In my view, ... would help them avoid being swept along by ..."
+            ]
           },
           {
-            "word": "damage self-esteem",
-            "band": 8,
-            "meaning": "make a person feel less confident about themselves",
-            "example": "Constant online comparison can damage self-esteem in teenagers."
+            "q": "Should governments control violent content in films and video games?",
+            "model": "I believe some regulation is necessary, particularly to protect young children. Age ratings already help parents decide what is suitable, but they are often ignored online. Repeated exposure to graphic violence may make aggression seem normal, so parents also need to talk openly with their children about what they watch. However, I wouldn't want governments to go too far, since heavy-handed censorship can restrict creative freedom. A sensible compromise is clear labelling combined with strict enforcement on platforms aimed at minors.",
+            "vocab": [
+              {
+                "word": "age ratings",
+                "band": 7,
+                "meaning": "official labels showing who a film is suitable for",
+                "example": "Age ratings on games are there to guide parents."
+              },
+              {
+                "word": "graphic violence",
+                "band": 8,
+                "meaning": "very detailed and realistic scenes of fighting or injury",
+                "example": "The film was criticised for its graphic violence in the opening scene."
+              },
+              {
+                "word": "heavy-handed censorship",
+                "band": 9,
+                "meaning": "harsh official control over what people may see",
+                "example": "Heavy-handed censorship often pushes people to look for banned material elsewhere."
+              },
+              {
+                "word": "creative freedom",
+                "band": 7,
+                "meaning": "the right of artists to express ideas as they wish",
+                "example": "Directors fight hard to protect their creative freedom."
+              }
+            ],
+            "phrases": [
+              "I believe some regulation is necessary, particularly to ...",
+              "However, I wouldn't want governments to go too far, since ...",
+              "A sensible compromise is ... combined with ..."
+            ]
           },
           {
-            "word": "media literacy",
-            "band": 9,
-            "meaning": "the ability to question and understand what media tells you",
-            "example": "Media literacy helps students spot fake news before sharing it."
-          },
-          {
-            "word": "swept along by",
-            "band": 8,
-            "meaning": "carried away by a strong trend or feeling",
-            "example": "Many shoppers get swept along by the excitement of a sale."
+            "q": "What might be the consequences of celebrities having so much influence over the public?",
+            "model": "One risk is that fans blindly copy whatever their idols do. When a famous face endorses a product, people often trust it without checking the facts, which advertisers can exploit. On the flip side, celebrities can use their fame for good by raising awareness of important causes, such as mental health. So the real issue is whether they act responsibly. I'd argue they should be held to a higher standard because so many people look up to them.",
+            "vocab": [
+              {
+                "word": "endorses a product",
+                "band": 8,
+                "meaning": "publicly says that a product is good, usually for payment",
+                "example": "A footballer who endorses a product can double its sales overnight."
+              },
+              {
+                "word": "raising awareness",
+                "band": 7,
+                "meaning": "helping more people to know about a problem",
+                "example": "The campaign succeeded in raising awareness of plastic pollution."
+              },
+              {
+                "word": "look up to",
+                "band": 7,
+                "meaning": "admire and respect someone",
+                "example": "Young players look up to successful athletes in their city."
+              },
+              {
+                "word": "held to a higher standard",
+                "band": 8,
+                "meaning": "expected to behave better than ordinary people",
+                "example": "Public figures should be held to a higher standard of honesty."
+              }
+            ],
+            "phrases": [
+              "One risk is that ...",
+              "On the flip side, ... can use their ... for good by ...",
+              "I'd argue they should be held to a higher standard because ..."
+            ]
           }
-        ],
-        "phrases": [
-          "To a large extent, I would say it does.",
-          "A great deal of content ..., which can ...",
-          "In my view, ... would help them avoid being swept along by ..."
-        ]
-      },
-      {
-        "q": "Should governments control violent content in films and video games?",
-        "model": "I believe some regulation is necessary, particularly to protect young children. Age ratings already help parents decide what is suitable, but they are often ignored online. Repeated exposure to graphic violence may make aggression seem normal, so parents also need to talk openly with their children about what they watch. However, I wouldn't want governments to go too far, since heavy-handed censorship can restrict creative freedom. A sensible compromise is clear labelling combined with strict enforcement on platforms aimed at minors.",
-        "vocab": [
-          {
-            "word": "age ratings",
-            "band": 7,
-            "meaning": "official labels showing who a film is suitable for",
-            "example": "Age ratings on games are there to guide parents."
-          },
-          {
-            "word": "graphic violence",
-            "band": 8,
-            "meaning": "very detailed and realistic scenes of fighting or injury",
-            "example": "The film was criticised for its graphic violence in the opening scene."
-          },
-          {
-            "word": "heavy-handed censorship",
-            "band": 9,
-            "meaning": "harsh official control over what people may see",
-            "example": "Heavy-handed censorship often pushes people to look for banned material elsewhere."
-          },
-          {
-            "word": "creative freedom",
-            "band": 7,
-            "meaning": "the right of artists to express ideas as they wish",
-            "example": "Directors fight hard to protect their creative freedom."
-          }
-        ],
-        "phrases": [
-          "I believe some regulation is necessary, particularly to ...",
-          "However, I wouldn't want governments to go too far, since ...",
-          "A sensible compromise is ... combined with ..."
-        ]
-      },
-      {
-        "q": "What might be the consequences of celebrities having so much influence over the public?",
-        "model": "One risk is that fans blindly copy whatever their idols do. When a famous face endorses a product, people often trust it without checking the facts, which advertisers can exploit. On the flip side, celebrities can use their fame for good by raising awareness of important causes, such as mental health. So the real issue is whether they act responsibly. I'd argue they should be held to a higher standard because so many people look up to them.",
-        "vocab": [
-          {
-            "word": "endorses a product",
-            "band": 8,
-            "meaning": "publicly says that a product is good, usually for payment",
-            "example": "A footballer who endorses a product can double its sales overnight."
-          },
-          {
-            "word": "raising awareness",
-            "band": 7,
-            "meaning": "helping more people to know about a problem",
-            "example": "The campaign succeeded in raising awareness of plastic pollution."
-          },
-          {
-            "word": "look up to",
-            "band": 7,
-            "meaning": "admire and respect someone",
-            "example": "Young players look up to successful athletes in their city."
-          },
-          {
-            "word": "held to a higher standard",
-            "band": 8,
-            "meaning": "expected to behave better than ordinary people",
-            "example": "Public figures should be held to a higher standard of honesty."
-          }
-        ],
-        "phrases": [
-          "One risk is that ...",
-          "On the flip side, ... can use their ... for good by ...",
-          "I'd argue they should be held to a higher standard because ..."
-        ]
-      },
-      {
-        "q": "How far do you agree that cinemas will eventually be replaced by home streaming?",
-        "model": "I don't think cinemas will disappear completely, but they will have to adapt. Home streaming is cheaper and more comfortable, so many people no longer see the point of queuing for tickets. Even so, nothing quite matches the atmosphere of watching a premiere on the big screen with a crowd. I suspect cinemas will survive by offering something special, such as immersive screens and live events. In other words, they will move upmarket rather than vanish.",
-        "vocab": [
-          {
-            "word": "see the point of",
-            "band": 7,
-            "meaning": "understand the purpose or benefit of doing something",
-            "example": "Some drivers don't see the point of paying for parking in the city centre."
-          },
-          {
-            "word": "nothing quite matches",
-            "band": 8,
-            "meaning": "there is no real equal to something",
-            "example": "Nothing quite matches the feeling of finishing a long hike."
-          },
-          {
-            "word": "on the big screen",
-            "band": 7,
-            "meaning": "in a cinema rather than on a small device",
-            "example": "Epic adventure stories look far better on the big screen."
-          },
-          {
-            "word": "move upmarket",
-            "band": 8,
-            "meaning": "change to offer more expensive, higher-quality products",
-            "example": "Several high-street cafés have moved upmarket to attract wealthier customers."
-          }
-        ],
-        "phrases": [
-          "I don't think ... will disappear completely, but they will have to adapt.",
-          "Even so, nothing quite matches ...",
-          "In other words, they will ... rather than ..."
-        ]
-      },
-      {
-        "q": "Do you think entertainment should aim to educate as well as amuse?",
-        "model": "Ideally, both. People mainly watch films and series to unwind, so purely escapist entertainment has its place. However, the most memorable stories often teach us something without feeling like a lecture. Historical dramas, for example, can bring the past to life in a way textbooks rarely manage. I think the best producers strike a balance, offering a gripping plot while quietly broadening the audience's outlook. If viewers learn something by accident, that is a bonus.",
-        "vocab": [
-          {
-            "word": "has its place",
-            "band": 7,
-            "meaning": "is useful or acceptable in the right situation",
-            "example": "A light comedy has its place after a stressful week."
-          },
-          {
-            "word": "bring the past to life",
-            "band": 8,
-            "meaning": "make history feel real and vivid",
-            "example": "Costumes and music help bring the past to life for young viewers."
-          },
-          {
-            "word": "strike a balance",
-            "band": 7,
-            "meaning": "find a fair middle position between two things",
-            "example": "It is hard to strike a balance between work and leisure."
-          },
-          {
-            "word": "gripping plot",
-            "band": 7,
-            "meaning": "a story so exciting that you cannot stop following it",
-            "example": "A gripping plot kept the whole audience silent until the final scene."
-          }
-        ],
-        "phrases": [
-          "Ideally, both. People mainly ... to unwind, so ... has its place.",
-          "... can bring the past to life in a way ... rarely manage.",
-          "I think the best ... strike a balance, offering ... while ..."
         ]
       }
     ]

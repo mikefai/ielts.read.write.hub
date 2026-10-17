@@ -1,99 +1,38 @@
 {
   "id": "w1-m2",
   "task": 1,
-  "title": "Water use in Dunmere",
-  "prompt": "The line graph shows total water consumption, in billion cubic metres, in two regions of Dunmere between 1990 and 2020, and the pie charts show water use by sector in 1995 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "title": "Student spending at Hartwell University",
+  "prompt": "The chart below shows the average monthly spending of first-year and final-year students at Hartwell University on five items. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
   "chart": {
-    "kind": "mixed",
-    "charts": [
+    "kind": "bar",
+    "title": "Average monthly spending by students, Hartwell University",
+    "unit": "US$",
+    "labels": [
+      "Rent",
+      "Food",
+      "Transport",
+      "Books",
+      "Entertainment"
+    ],
+    "series": [
       {
-        "kind": "line",
-        "title": "Water consumption in two regions of Dunmere, 1990-2020",
-        "unit": "billion cubic metres",
-        "source": "Adapted national water authority data",
-        "labels": [
-          "1990",
-          "1995",
-          "2000",
-          "2005",
-          "2010",
-          "2015",
-          "2020"
-        ],
-        "series": [
-          {
-            "name": "Northern region",
-            "values": [
-              18,
-              20,
-              22,
-              23,
-              23,
-              22,
-              21
-            ]
-          },
-          {
-            "name": "Southern region",
-            "values": [
-              9,
-              11,
-              14,
-              18,
-              24,
-              27,
-              30
-            ]
-          }
+        "name": "First-year students",
+        "values": [
+          420,
+          210,
+          90,
+          85,
+          150
         ]
       },
       {
-        "kind": "pie",
-        "title": "Water use by sector, Dunmere, 1995 and 2020",
-        "unit": "%",
-        "pies": [
-          {
-            "label": "1995",
-            "slices": [
-              {
-                "name": "Agriculture",
-                "value": 52
-              },
-              {
-                "name": "Industry",
-                "value": 28
-              },
-              {
-                "name": "Households",
-                "value": 14
-              },
-              {
-                "name": "Other",
-                "value": 6
-              }
-            ]
-          },
-          {
-            "label": "2020",
-            "slices": [
-              {
-                "name": "Agriculture",
-                "value": 41
-              },
-              {
-                "name": "Industry",
-                "value": 30
-              },
-              {
-                "name": "Households",
-                "value": 24
-              },
-              {
-                "name": "Other",
-                "value": 5
-              }
-            ]
-          }
+        "name": "Final-year students",
+        "values": [
+          480,
+          180,
+          130,
+          40,
+          95
         ]
       }
     ]
@@ -105,8 +44,8 @@
         "sentences": [
           {
             "role": "paraphrase",
-            "text": "The line graph shows how much water two regions of Dunmere consumed between 1990 and 2020, while the pie charts compare water use by sector in 1995 and 2020.",
-            "why": "Paraphrases both visuals in one sentence and links them with \"while\". \"Consumed\", \"compare\" and \"by sector\" avoid copying the prompt, which supports Task Achievement and Lexical Resource without giving any data."
+            "text": "The bar chart compares how much first-year and final-year students at Hartwell University spend each month on five types of expenditure.",
+            "why": "Paraphrases the prompt without copying: \"compares\" replaces \"shows\", \"spend each month\" replaces \"average monthly spending\" and \"types of expenditure\" replaces \"items\". It gives no data and no opinion."
           }
         ]
       },
@@ -115,13 +54,13 @@
         "sentences": [
           {
             "role": "overview-main",
-            "text": "Overall, water consumption rose over the period, with the southern region overtaking the northern region.",
-            "why": "States the main trend and one key contrast from the line graph. No figures appear, which is the Task Achievement requirement for an overview, and \"overtaking\" shows a change of rank clearly."
+            "text": "Overall, rent was the biggest expense for both groups of students, while books accounted for the smallest amount.",
+            "why": "Gives the clearest feature of the chart with a stable top and bottom item. \"While\" contrasts the two ends of the ranking, and the lack of figures meets the Task Achievement requirement for an overview."
           },
           {
             "role": "overview-second",
-            "text": "Meanwhile, agriculture remained the largest user of water, although its share fell as households used proportionally more.",
-            "why": "Gives a feature from the pie charts so the overview covers both visuals. \"Meanwhile\" joins the two features, and \"although\" shows a contrast without numbers, supporting Coherence and Cohesion."
+            "text": "Final-year students spent more on rent and transport but less on the other three items.",
+            "why": "The second overview point summarises the difference between the two groups. Grouping five categories into two patterns shows selection and comparison without using any numbers."
           }
         ]
       },
@@ -130,18 +69,23 @@
         "sentences": [
           {
             "role": "topic",
-            "text": "Turning to the line graph, the two regions followed very different paths.",
-            "why": "Signposts which visual this paragraph uses and states the main idea of a contrast. The opening phrase orients the reader and supports Coherence and Cohesion without repeating the overview."
+            "text": "Rent and transport were the only two items on which final-year students spent more.",
+            "why": "Topic sentence that groups the categories by direction of difference. It frames the paragraph with a clear selection and supports Coherence and Cohesion before any figures appear."
           },
           {
             "role": "key-figures",
-            "text": "Consumption in the south climbed steadily from 9 billion cubic metres in 1990 to 30 billion in 2020, overtaking the north between 2005 and 2010.",
-            "why": "Reports the start and end values with the trend verb \"climbed steadily\". The participle phrase marks the crossing, which the data confirm (18 against 23 in 2005, then 24 against 23 in 2010)."
+            "text": "Rent rose from $420 for first-years to $480 for final-years, while transport spending increased from $90 to $130.",
+            "why": "Reports both increases in one sentence with correct units. \"Rose from ... to\" and \"increased from ... to\" vary the verbs, and \"while\" links the two categories, supporting Lexical Resource and accuracy."
           },
           {
             "role": "comparison",
-            "text": "The north, by contrast, rose from 18 billion to a peak of 23 billion between 2005 and 2010, before declining to 21 billion in 2020.",
-            "why": "Contrasts the second line using \"by contrast\". \"Rose\", \"peak\" and \"declining\" capture the rise and fall, and reporting the turning point shows selection of key data, supporting Task Achievement and Lexical Resource."
+            "text": "However, rent cost more than three times as much as transport for both groups.",
+            "why": "Adds a comparison between categories rather than between groups. \"More than three times as much as\" is an accurate approximation (the ratios are about 4.7 and 3.7), showing grammatical range."
+          },
+          {
+            "role": "trend-detail",
+            "text": "The rise in transport, at $40, was smaller in dollar terms than the $60 increase in rent, but proportionally larger.",
+            "why": "Interprets the data with a concession structure. Comparing absolute and relative change shows analysis beyond description, and all the figures match the chart."
           }
         ]
       },
@@ -150,48 +94,53 @@
         "sentences": [
           {
             "role": "topic",
-            "text": "The pie charts show how the sectors changed between 1995 and 2020.",
-            "why": "Moves to the second visual with a clear signpost, giving a clean break between the two body paragraphs. It prepares the reader for the comparison and supports Coherence and Cohesion."
+            "text": "In contrast, final-year students spent less on food, books and entertainment.",
+            "why": "Opens the second group with \"in contrast\" to signal the opposite pattern. Naming all three categories in the topic sentence gives a clear paragraph focus and supports Coherence."
           },
           {
             "role": "key-figures",
-            "text": "Agriculture accounted for 52 per cent of water use in 1995 but only 41 per cent in 2020, whereas households rose from 14 per cent to 24 per cent.",
-            "why": "Uses \"whereas\" to contrast the two biggest changes in one sentence with accurate figures for both years. Choosing these two sectors rather than all four demonstrates selection, the core of Task Achievement."
+            "text": "Food spending dropped from $210 to $180, whereas books fell from $85 to just $40.",
+            "why": "Contrasts a small fall with a large one using \"whereas\". \"Dropped\" and \"fell\" avoid repeating a verb, and \"just\" signals the low final figure, giving accurate, varied trend language."
+          },
+          {
+            "role": "comparison",
+            "text": "Entertainment showed the largest decline in dollar terms, falling from $150 to $95.",
+            "why": "Selects the biggest dollar change among the three and ranks it with a superlative. The participle \"falling from ... to\" adds the figures without a new sentence, earning grammatical range."
           },
           {
             "role": "closing-detail",
-            "text": "Industry edged up from 28 per cent to 30 per cent, while other uses remained minor at 6 per cent and 5 per cent respectively.",
-            "why": "Adds the stable and small categories to complete the pie comparison. \"Edged up\" suits a small change, and \"respectively\" reports two years of figures concisely, supporting Lexical Resource and Grammatical Range."
+            "text": "Books, the smallest item for both groups, fell to less than half of the first-year figure.",
+            "why": "Closes by linking back to the overview point about books. The apposition adds the ranking, and \"less than half\" is a precise approximation because $40 is under half of $85."
           }
         ]
       }
     ]
   },
-  "guide": "task1-mixed",
+  "guide": "task1-chart",
   "analysis": [
-    "The instruction is to select and report the main features and make comparisons. With a line graph and two pie charts you must cover both kinds of visual, but you must still select: do not describe every point on the lines and every slice of the pies.",
-    "The visuals do different jobs. The line graph shows trends in two regions over thirty years; the pie charts show shares of one total in two years. Use trend language for the graph (climbed, peaked, declined) and proportion language for the pies (accounted for, share, per cent).",
-    "Paraphrase: \"water consumption\" becomes water use; \"line graph shows\" becomes illustrates; \"between 1990 and 2020\" becomes over thirty years; \"by sector\" becomes by type of user.",
-    "Key features: the south rises from 9 to 30 billion cubic metres and overtakes the north, which peaks at 23 billion and then falls to 21; agriculture drops from 52 to 41 per cent while households grow from 14 to 24 per cent.",
-    "Give one visual to each body paragraph and link them in the overview. The overview needs a feature from each visual and no numbers.",
-    "The two visuals use different years (the pies show 1995 and 2020, not 1990), so do not mix them. Also avoid claiming that rising household use caused the growth in the south; the data do not prove a link."
+    "The instruction is \"Summarise the information by selecting and reporting the main features, and make comparisons where relevant\". Selecting means you must leave some data out; reporting all ten bars is a Task Achievement weakness.",
+    "What must be covered: the pattern for the two groups across five categories, the largest and smallest items, and which items rose and which fell between first-year and final-year students.",
+    "Paraphrase: \"bar chart shows\" becomes compares or illustrates; \"average monthly spending\" becomes how much students spend each month; \"items\" becomes categories or types of expenditure; \"first-year and final-year\" can stay as group names.",
+    "Key features: rent is highest for both (420 and 480); books are lowest (85 and 40); rent and transport are higher for final-years; food, books and entertainment are lower.",
+    "Group by direction of difference, not by the order of the axis: Body 1 for rent and transport (higher), Body 2 for food, books and entertainment (lower).",
+    "The chart does not say why spending differs. Do not mention income, loans or the length of the course; only report what the data show."
   ],
   "plan": [
     {
       "paragraph": "Introduction",
-      "idea": "Paraphrase both visuals: water consumption in two regions of Dunmere over thirty years (line graph) and water use by sector in 1995 and 2020 (pie charts)."
+      "idea": "Paraphrase only: compares monthly spending by first-year and final-year students at Hartwell University on five types of expenditure. No data."
     },
     {
       "paragraph": "Overview",
-      "idea": "Consumption rose overall and the south overtook the north; agriculture stayed the biggest user while households gained share. No figures."
+      "idea": "Rent is the biggest expense for both groups and books the smallest. Final-years spend more on rent and transport but less on the other three. No figures."
     },
     {
       "paragraph": "Body 1",
-      "idea": "Line graph: south 9 to 30 billion cubic metres, passing the north between 2005 and 2010; north 18, peak 23, then 21."
+      "idea": "Rent $420 to $480 and transport $90 to $130. Rent over three times transport in both groups. Transport rise smaller in dollars, larger proportionally."
     },
     {
       "paragraph": "Body 2",
-      "idea": "Pie charts: agriculture 52 to 41 per cent; households 14 to 24 per cent; industry 28 to 30 per cent; other 6 and 5 per cent."
+      "idea": "Food $210 to $180, books $85 to $40, entertainment $150 to $95 (largest fall). Books less than half the first-year figure."
     }
   ]
 }

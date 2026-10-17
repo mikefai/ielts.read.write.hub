@@ -507,216 +507,225 @@
     }
   },
   "part3": {
-    "theme": "Role models and success",
-    "questions": [
+    "topics": [
       {
-        "q": "Why do young people often look up to celebrities rather than ordinary people?",
-        "model": "I think it mainly comes down to visibility. Celebrities are everywhere on screens, so teenagers feel they know them personally, whereas ordinary heroes rarely make the headlines. There is also a glamorous image that is hard to resist, and it makes success look effortless. However, this can give young people unrealistic expectations. Personally, I'd like the media to shine a spotlight on teachers, nurses and entrepreneurs, because their achievements are far more relatable.",
-        "vocab": [
+        "theme": "Role models",
+        "questions": [
           {
-            "word": "comes down to",
-            "band": 7,
-            "meaning": "is mainly decided by a particular factor",
-            "example": "Winning a debate often comes down to preparation and confidence."
+            "q": "Why do young people often look up to celebrities rather than ordinary people?",
+            "model": "I think it mainly comes down to visibility. Celebrities are everywhere on screens, so teenagers feel they know them personally, whereas ordinary heroes rarely make the headlines. There is also a glamorous image that is hard to resist, and it makes success look effortless. However, this can give young people unrealistic expectations. Personally, I'd like the media to shine a spotlight on teachers, nurses and entrepreneurs, because their achievements are far more relatable.",
+            "vocab": [
+              {
+                "word": "comes down to",
+                "band": 7,
+                "meaning": "is mainly decided by a particular factor",
+                "example": "Winning a debate often comes down to preparation and confidence."
+              },
+              {
+                "word": "make the headlines",
+                "band": 8,
+                "meaning": "be reported prominently in the news",
+                "example": "Local heroes rarely make the headlines unless something dramatic happens."
+              },
+              {
+                "word": "hard to resist",
+                "band": 7,
+                "meaning": "very tempting and difficult to say no to",
+                "example": "Fresh bread from that bakery is hard to resist on cold mornings."
+              },
+              {
+                "word": "shine a spotlight on",
+                "band": 8,
+                "meaning": "draw public attention to a person or issue",
+                "example": "The documentary shines a spotlight on the problem of plastic waste."
+              }
+            ],
+            "phrases": [
+              "I think it mainly comes down to ...",
+              "..., so teenagers feel ..., whereas ordinary heroes rarely ...",
+              "Personally, I'd like the media to shine a spotlight on ..."
+            ]
           },
           {
-            "word": "make the headlines",
-            "band": 8,
-            "meaning": "be reported prominently in the news",
-            "example": "Local heroes rarely make the headlines unless something dramatic happens."
+            "q": "Should parents or schools be responsible for providing role models?",
+            "model": "I think it should be a joint effort. Parents shape a child's values from the very beginning, so their everyday behaviour sets the tone at home. Schools, meanwhile, can help pupils broaden their horizons by inviting inspiring guests, such as local scientists or athletes, to speak to pupils. Ideally the two should work hand in hand. Otherwise, children may pick up their ideas of success from whatever is trending online, which could lead them astray.",
+            "vocab": [
+              {
+                "word": "sets the tone",
+                "band": 8,
+                "meaning": "establishes the general attitude or atmosphere",
+                "example": "A cheerful manager sets the tone for the whole team."
+              },
+              {
+                "word": "broaden their horizons",
+                "band": 8,
+                "meaning": "help them experience new ideas and places",
+                "example": "Travelling abroad can really broaden their horizons as teenagers."
+              },
+              {
+                "word": "hand in hand",
+                "band": 8,
+                "meaning": "closely together and connected",
+                "example": "Good teaching and strong parental support go hand in hand."
+              },
+              {
+                "word": "pick up",
+                "band": 7,
+                "meaning": "learn something casually without formal teaching",
+                "example": "Children pick up bad habits very quickly from adults around them."
+              }
+            ],
+            "phrases": [
+              "I think it should be a joint effort. ... shape ..., so ...",
+              "Ideally the two should work hand in hand.",
+              "Otherwise, children may pick up ... from ..."
+            ]
           },
           {
-            "word": "hard to resist",
-            "band": 7,
-            "meaning": "very tempting and difficult to say no to",
-            "example": "Fresh bread from that bakery is hard to resist on cold mornings."
-          },
-          {
-            "word": "shine a spotlight on",
-            "band": 8,
-            "meaning": "draw public attention to a person or issue",
-            "example": "The documentary shines a spotlight on the problem of plastic waste."
+            "q": "What might be the drawbacks of having a role model?",
+            "model": "The main danger is putting someone on a pedestal. If you idolise a person, you may ignore their flaws and be bitterly disappointed when they let you down. Some people also copy a role model's career path exactly, which can stop them from finding their own way. A healthier approach is to take inspiration from certain qualities, such as resilience or generosity, while still learning to think for yourself. That balance keeps admiration healthy.",
+            "vocab": [
+              {
+                "word": "on a pedestal",
+                "band": 8,
+                "meaning": "admired so much that you ignore their faults",
+                "example": "Fans often put their favourite singers on a pedestal."
+              },
+              {
+                "word": "let you down",
+                "band": 7,
+                "meaning": "disappoint you by failing to do what you expected",
+                "example": "My team let me down by missing the deadline again."
+              },
+              {
+                "word": "take inspiration from",
+                "band": 8,
+                "meaning": "use someone or something as a source of new ideas",
+                "example": "Many designers take inspiration from nature and old buildings."
+              },
+              {
+                "word": "think for yourself",
+                "band": 7,
+                "meaning": "form your own opinions rather than copy others",
+                "example": "Teachers should encourage pupils to think for themselves in class."
+              }
+            ],
+            "phrases": [
+              "The main danger is putting someone on a pedestal.",
+              "If you idolise ..., you may ... and be disappointed when ...",
+              "A healthier approach is to take inspiration from ..."
+            ]
           }
-        ],
-        "phrases": [
-          "I think it mainly comes down to ...",
-          "..., so teenagers feel ..., whereas ordinary heroes rarely ...",
-          "Personally, I'd like the media to shine a spotlight on ..."
         ]
       },
       {
-        "q": "To what extent is success measured by money?",
-        "model": "To a certain extent, money matters, because financial security gives people freedom and peace of mind. However, I'd argue it is a poor yardstick on its own. Someone can be rolling in money yet feel empty, while a teacher who inspires hundreds of pupils may lead a deeply fulfilling life. In my view, success is about reaching your own goals and having a positive impact on others, rather than chasing a bigger salary.",
-        "vocab": [
+        "theme": "Success and influencers",
+        "questions": [
           {
-            "word": "financial security",
-            "band": 7,
-            "meaning": "having enough steady money to avoid worry",
-            "example": "A permanent contract offers financial security for a young family."
+            "q": "Do you think social media influencers make good role models?",
+            "model": "Some do, but many don't. The positive ones use their large following to raise awareness of causes or to share practical skills. The problem is that most feeds are carefully curated, so followers see a polished, unrealistic version of life, and that can damage self-esteem. Besides, influencers are often paid to promote products, so their motives are not always sincere. I'd advise young people to take everything online with a pinch of salt.",
+            "vocab": [
+              {
+                "word": "raise awareness of",
+                "band": 7,
+                "meaning": "make more people notice and understand an issue",
+                "example": "The campaign aims to raise awareness of mental health among teenagers."
+              },
+              {
+                "word": "carefully curated",
+                "band": 9,
+                "meaning": "selected and arranged with great care to create an image",
+                "example": "Her carefully curated photos hide how messy her flat really is."
+              },
+              {
+                "word": "self-esteem",
+                "band": 7,
+                "meaning": "confidence in your own value and abilities",
+                "example": "Constant comparison with others can badly harm a teenager's self-esteem."
+              },
+              {
+                "word": "with a pinch of salt",
+                "band": 8,
+                "meaning": "without fully believing it",
+                "example": "You should always read online reviews with a pinch of salt."
+              }
+            ],
+            "phrases": [
+              "Some do, but many don't. The positive ones use ... to ...",
+              "The problem is that most ... are carefully curated, so ...",
+              "I'd advise young people to take ... with a pinch of salt."
+            ]
           },
           {
-            "word": "peace of mind",
-            "band": 7,
-            "meaning": "a calm feeling because you are not worried",
-            "example": "Good insurance gives travellers real peace of mind abroad."
+            "q": "To what extent is success measured by money?",
+            "model": "To a certain extent, money matters, because financial security gives people freedom and peace of mind. However, I'd argue it is a poor yardstick on its own. Someone can be rolling in money yet feel empty, while a teacher who inspires hundreds of pupils may lead a deeply fulfilling life. In my view, success is about reaching your own goals and having a positive impact on others, rather than chasing a bigger salary.",
+            "vocab": [
+              {
+                "word": "financial security",
+                "band": 7,
+                "meaning": "having enough steady money to avoid worry",
+                "example": "A permanent contract offers financial security for a young family."
+              },
+              {
+                "word": "peace of mind",
+                "band": 7,
+                "meaning": "a calm feeling because you are not worried",
+                "example": "Good insurance gives travellers real peace of mind abroad."
+              },
+              {
+                "word": "yardstick",
+                "band": 9,
+                "meaning": "a standard used to judge how good something is",
+                "example": "Exam results are not the only yardstick of a student's ability."
+              },
+              {
+                "word": "rolling in money",
+                "band": 8,
+                "meaning": "extremely rich",
+                "example": "They seem to be rolling in money since the company went public."
+              }
+            ],
+            "phrases": [
+              "To a certain extent, money matters, because ...",
+              "However, I'd argue it is a poor yardstick on its own.",
+              "In my view, success is about ..., rather than ..."
+            ]
           },
           {
-            "word": "yardstick",
-            "band": 9,
-            "meaning": "a standard used to judge how good something is",
-            "example": "Exam results are not the only yardstick of a student's ability."
-          },
-          {
-            "word": "rolling in money",
-            "band": 8,
-            "meaning": "extremely rich",
-            "example": "They seem to be rolling in money since the company went public."
+            "q": "How far do you agree that talent matters more than hard work?",
+            "model": "I only partly agree. Natural ability gives some people a head start, but it fizzles out without effort. Plenty of gifted students never fulfil their potential because they coast through school, while determined classmates overtake them through sheer persistence. Behind every medal there are years of gruelling training. So, while talent may open the door, it is hard work that keeps you in the room, and I'd say success is mostly perseverance.",
+            "vocab": [
+              {
+                "word": "a head start",
+                "band": 8,
+                "meaning": "an early advantage over other people",
+                "example": "Learning to swim early gave her a head start in triathlons."
+              },
+              {
+                "word": "fulfil their potential",
+                "band": 8,
+                "meaning": "become as successful as their abilities allow",
+                "example": "Good mentors help young artists fulfil their potential."
+              },
+              {
+                "word": "coast through",
+                "band": 9,
+                "meaning": "succeed without making much effort",
+                "example": "Some students coast through the first year and then struggle."
+              },
+              {
+                "word": "sheer persistence",
+                "band": 8,
+                "meaning": "nothing but continued determination",
+                "example": "He won the contract through sheer persistence rather than special talent."
+              }
+            ],
+            "phrases": [
+              "I only partly agree. ... gives some people a head start, but ...",
+              "Plenty of ... never ... because they ...",
+              "So, while ... may open the door, it is ... that keeps you in the room."
+            ]
           }
-        ],
-        "phrases": [
-          "To a certain extent, money matters, because ...",
-          "However, I'd argue it is a poor yardstick on its own.",
-          "In my view, success is about ..., rather than ..."
-        ]
-      },
-      {
-        "q": "Should parents or schools be responsible for providing role models?",
-        "model": "I think it should be a joint effort. Parents shape a child's values from the very beginning, so their everyday behaviour sets the tone at home. Schools, meanwhile, can help pupils broaden their horizons by inviting inspiring guests, such as local scientists or athletes, to speak to pupils. Ideally the two should work hand in hand. Otherwise, children may pick up their ideas of success from whatever is trending online, which could lead them astray.",
-        "vocab": [
-          {
-            "word": "sets the tone",
-            "band": 8,
-            "meaning": "establishes the general attitude or atmosphere",
-            "example": "A cheerful manager sets the tone for the whole team."
-          },
-          {
-            "word": "broaden their horizons",
-            "band": 8,
-            "meaning": "help them experience new ideas and places",
-            "example": "Travelling abroad can really broaden their horizons as teenagers."
-          },
-          {
-            "word": "hand in hand",
-            "band": 8,
-            "meaning": "closely together and connected",
-            "example": "Good teaching and strong parental support go hand in hand."
-          },
-          {
-            "word": "pick up",
-            "band": 7,
-            "meaning": "learn something casually without formal teaching",
-            "example": "Children pick up bad habits very quickly from adults around them."
-          }
-        ],
-        "phrases": [
-          "I think it should be a joint effort. ... shape ..., so ...",
-          "Ideally the two should work hand in hand.",
-          "Otherwise, children may pick up ... from ..."
-        ]
-      },
-      {
-        "q": "What might be the drawbacks of having a role model?",
-        "model": "The main danger is putting someone on a pedestal. If you idolise a person, you may ignore their flaws and be bitterly disappointed when they let you down. Some people also copy a role model's career path exactly, which can stop them from finding their own way. A healthier approach is to take inspiration from certain qualities, such as resilience or generosity, while still learning to think for yourself. That balance keeps admiration healthy.",
-        "vocab": [
-          {
-            "word": "on a pedestal",
-            "band": 8,
-            "meaning": "admired so much that you ignore their faults",
-            "example": "Fans often put their favourite singers on a pedestal."
-          },
-          {
-            "word": "let you down",
-            "band": 7,
-            "meaning": "disappoint you by failing to do what you expected",
-            "example": "My team let me down by missing the deadline again."
-          },
-          {
-            "word": "take inspiration from",
-            "band": 8,
-            "meaning": "use someone or something as a source of new ideas",
-            "example": "Many designers take inspiration from nature and old buildings."
-          },
-          {
-            "word": "think for yourself",
-            "band": 7,
-            "meaning": "form your own opinions rather than copy others",
-            "example": "Teachers should encourage pupils to think for themselves in class."
-          }
-        ],
-        "phrases": [
-          "The main danger is putting someone on a pedestal.",
-          "If you idolise ..., you may ... and be disappointed when ...",
-          "A healthier approach is to take inspiration from ..."
-        ]
-      },
-      {
-        "q": "How far do you agree that talent matters more than hard work?",
-        "model": "I only partly agree. Natural ability gives some people a head start, but it fizzles out without effort. Plenty of gifted students never fulfil their potential because they coast through school, while determined classmates overtake them through sheer persistence. Behind every medal there are years of gruelling training. So, while talent may open the door, it is hard work that keeps you in the room, and I'd say success is mostly perseverance.",
-        "vocab": [
-          {
-            "word": "a head start",
-            "band": 8,
-            "meaning": "an early advantage over other people",
-            "example": "Learning to swim early gave her a head start in triathlons."
-          },
-          {
-            "word": "fulfil their potential",
-            "band": 8,
-            "meaning": "become as successful as their abilities allow",
-            "example": "Good mentors help young artists fulfil their potential."
-          },
-          {
-            "word": "coast through",
-            "band": 9,
-            "meaning": "succeed without making much effort",
-            "example": "Some students coast through the first year and then struggle."
-          },
-          {
-            "word": "sheer persistence",
-            "band": 8,
-            "meaning": "nothing but continued determination",
-            "example": "He won the contract through sheer persistence rather than special talent."
-          }
-        ],
-        "phrases": [
-          "I only partly agree. ... gives some people a head start, but ...",
-          "Plenty of ... never ... because they ...",
-          "So, while ... may open the door, it is ... that keeps you in the room."
-        ]
-      },
-      {
-        "q": "Do you think social media influencers make good role models?",
-        "model": "Some do, but many don't. The positive ones use their large following to raise awareness of causes or to share practical skills. The problem is that most feeds are carefully curated, so followers see a polished, unrealistic version of life, and that can damage self-esteem. Besides, influencers are often paid to promote products, so their motives are not always sincere. I'd advise young people to take everything online with a pinch of salt.",
-        "vocab": [
-          {
-            "word": "raise awareness of",
-            "band": 7,
-            "meaning": "make more people notice and understand an issue",
-            "example": "The campaign aims to raise awareness of mental health among teenagers."
-          },
-          {
-            "word": "carefully curated",
-            "band": 9,
-            "meaning": "selected and arranged with great care to create an image",
-            "example": "Her carefully curated photos hide how messy her flat really is."
-          },
-          {
-            "word": "self-esteem",
-            "band": 7,
-            "meaning": "confidence in your own value and abilities",
-            "example": "Constant comparison with others can badly harm a teenager's self-esteem."
-          },
-          {
-            "word": "with a pinch of salt",
-            "band": 8,
-            "meaning": "without fully believing it",
-            "example": "You should always read online reviews with a pinch of salt."
-          }
-        ],
-        "phrases": [
-          "Some do, but many don't. The positive ones use ... to ...",
-          "The problem is that most ... are carefully curated, so ...",
-          "I'd advise young people to take ... with a pinch of salt."
         ]
       }
     ]

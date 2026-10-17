@@ -41,10 +41,13 @@ export function validateSpeaking(mock) {
   validateQ({ q: c.topic, model: part2?.model, vocab: part2?.vocab, phrases: part2?.phrases }, `${id} P2`, [200, 300], errs);
   if ((part2?.structure?.length ?? 0) < 4) errs.push(`${id}: Part 2 structure needs 4+ entries`);
   validateQ(part2?.roundingOff ?? {}, `${id} P2 rounding off`, [30, 60], errs);
-  const n3 = part3?.questions?.length ?? 0;
-  if (n3 < 5 || n3 > 6) errs.push(`${id}: Part 3 needs 5-6 questions`);
-  (part3?.questions ?? []).forEach((q, i) => validateQ(q, `${id} P3.${i + 1}`, [60, 110], errs));
-  if (part1?.topics && part3?.questions) { const min = estimateMinutes(mock); if (min < 11 || min > 14) errs.push(`${id}: estimated ${min.toFixed(1)} minutes, needs 11-14`); }
+  if (part3?.topics?.length !== 2) errs.push(`${id}: Part 3 needs 2 discussion topics`);
+  (part3?.topics ?? []).forEach((t, i) => {
+    const n = t.questions?.length ?? 0;
+    if (!nonEmpty(t.theme) || n < 2 || n > 3) errs.push(`${id}: Part 3 topic "${t.theme}" needs a theme and 2-3 questions`);
+    (t.questions ?? []).forEach((q, j) => validateQ(q, `${id} P3.${i + 1}.${j + 1}`, [60, 110], errs));
+  });
+  if (part1?.topics && part3?.topics?.every(t => t.questions)) { const min = estimateMinutes(mock); if (min < 11 || min > 14) errs.push(`${id}: estimated ${min.toFixed(1)} minutes, needs 11-14`); }
   return errs;
 }
 

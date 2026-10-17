@@ -507,216 +507,225 @@
     }
   },
   "part3": {
-    "theme": "Decision-making, risk and change",
-    "questions": [
+    "topics": [
       {
-        "q": "Why do some people find it hard to make important decisions?",
-        "model": "I think fear of failure is the main reason. When the stakes are high, people worry about making the wrong call and being judged by others, so they put things off indefinitely. Having too many options can also be paralysing, because every choice means giving something up. Personally, I believe breaking a big decision into smaller steps makes it far less daunting. It also helps to talk things through with someone you trust.",
-        "vocab": [
+        "theme": "Making decisions and taking risks",
+        "questions": [
           {
-            "word": "fear of failure",
-            "band": 7,
-            "meaning": "worry that you will not succeed",
-            "example": "Fear of failure stops many talented people from applying."
+            "q": "Why do some people find it hard to make important decisions?",
+            "model": "I think fear of failure is the main reason. When the stakes are high, people worry about making the wrong call and being judged by others, so they put things off indefinitely. Having too many options can also be paralysing, because every choice means giving something up. Personally, I believe breaking a big decision into smaller steps makes it far less daunting. It also helps to talk things through with someone you trust.",
+            "vocab": [
+              {
+                "word": "fear of failure",
+                "band": 7,
+                "meaning": "worry that you will not succeed",
+                "example": "Fear of failure stops many talented people from applying."
+              },
+              {
+                "word": "the stakes are high",
+                "band": 8,
+                "meaning": "there is a lot to win or lose",
+                "example": "In final exams, the stakes are high for every student."
+              },
+              {
+                "word": "put things off",
+                "band": 7,
+                "meaning": "delay doing something until later",
+                "example": "I tend to put things off when a task feels overwhelming."
+              },
+              {
+                "word": "talk things through",
+                "band": 7,
+                "meaning": "discuss a problem fully to understand it",
+                "example": "Couples should talk things through before moving to a new city."
+              }
+            ],
+            "phrases": [
+              "I think ... is the main reason. When ..., people worry about ...",
+              "Having too many options can also be ...",
+              "It also helps to talk things through with ..."
+            ]
           },
           {
-            "word": "the stakes are high",
-            "band": 8,
-            "meaning": "there is a lot to win or lose",
-            "example": "In final exams, the stakes are high for every student."
+            "q": "To what extent should people take risks in their careers?",
+            "model": "To a fair extent, I'd say, provided the risk is calculated. Playing it safe may guarantee a steady income, but it can also leave people stagnating in jobs they have outgrown. Taking a chance on a new field often pays off in the long run, as long as you have a financial cushion to fall back on. However, reckless gambles with no plan are rarely wise. The key is to weigh the potential rewards against what you could realistically lose.",
+            "vocab": [
+              {
+                "word": "playing it safe",
+                "band": 8,
+                "meaning": "avoiding risks and choosing the secure option",
+                "example": "Playing it safe will never make you a famous artist."
+              },
+              {
+                "word": "pays off in the long run",
+                "band": 8,
+                "meaning": "brings a good result after a long time",
+                "example": "Learning a second language pays off in the long run."
+              },
+              {
+                "word": "financial cushion",
+                "band": 8,
+                "meaning": "savings that protect you if money problems arise",
+                "example": "A financial cushion lets you survive a few months without income."
+              },
+              {
+                "word": "fall back on",
+                "band": 8,
+                "meaning": "use something as a safe alternative if plans fail",
+                "example": "It helps to have a second skill to fall back on."
+              }
+            ],
+            "phrases": [
+              "To a fair extent, I'd say, provided ...",
+              "... often pays off in the long run, as long as ...",
+              "The key is to weigh ... against ..."
+            ]
           },
           {
-            "word": "put things off",
-            "band": 7,
-            "meaning": "delay doing something until later",
-            "example": "I tend to put things off when a task feels overwhelming."
-          },
-          {
-            "word": "talk things through",
-            "band": 7,
-            "meaning": "discuss a problem fully to understand it",
-            "example": "Couples should talk things through before moving to a new city."
+            "q": "Should young people be encouraged to follow their passions or to choose stable careers?",
+            "model": "Ideally a bit of both. Passion keeps people motivated through tough times, but passion alone rarely pays the rent, so a realistic plan matters. I'd encourage young people to explore their interests while they build marketable skills, so that they have more than one string to their bow. Parents sometimes push their children towards secure professions, which is understandable, yet forcing someone into a career they dislike can lead to burnout. Ultimately, the decision should belong to the individual.",
+            "vocab": [
+              {
+                "word": "pays the rent",
+                "band": 7,
+                "meaning": "earns enough money for basic living costs",
+                "example": "Painting is my passion, but teaching pays the rent."
+              },
+              {
+                "word": "marketable skills",
+                "band": 8,
+                "meaning": "abilities that employers are willing to pay for",
+                "example": "Coding is one of the most marketable skills among graduates."
+              },
+              {
+                "word": "string to their bow",
+                "band": 9,
+                "meaning": "an extra skill or option you can use",
+                "example": "Speaking Mandarin is another string to their bow in business."
+              },
+              {
+                "word": "lead to burnout",
+                "band": 8,
+                "meaning": "cause total physical and mental exhaustion",
+                "example": "Working seventy hours a week will eventually lead to burnout."
+              }
+            ],
+            "phrases": [
+              "Ideally a bit of both. ... keeps people motivated, but ...",
+              "I'd encourage young people to ... while they ...",
+              "Ultimately, the decision should belong to ..."
+            ]
           }
-        ],
-        "phrases": [
-          "I think ... is the main reason. When ..., people worry about ...",
-          "Having too many options can also be ...",
-          "It also helps to talk things through with ..."
         ]
       },
       {
-        "q": "To what extent should people take risks in their careers?",
-        "model": "To a fair extent, I'd say, provided the risk is calculated. Playing it safe may guarantee a steady income, but it can also leave people stagnating in jobs they have outgrown. Taking a chance on a new field often pays off in the long run, as long as you have a financial cushion to fall back on. However, reckless gambles with no plan are rarely wise. The key is to weigh the potential rewards against what you could realistically lose.",
-        "vocab": [
+        "theme": "Coping with change",
+        "questions": [
           {
-            "word": "playing it safe",
-            "band": 8,
-            "meaning": "avoiding risks and choosing the secure option",
-            "example": "Playing it safe will never make you a famous artist."
+            "q": "What might be the consequences of living in a society that changes so quickly?",
+            "model": "Rapid change brings both opportunities and strains. On the plus side, new technologies create jobs and make daily life easier. On the downside, older workers may struggle to keep pace, and traditional communities can lose their identity. People may also feel overwhelmed when nothing stays the same for long. I think governments need to cushion the impact by funding retraining schemes and protecting cultural heritage, so that nobody gets left behind.",
+            "vocab": [
+              {
+                "word": "keep pace",
+                "band": 7,
+                "meaning": "stay level with others who are moving or developing fast",
+                "example": "Small shops often cannot keep pace with online retailers."
+              },
+              {
+                "word": "cushion the impact",
+                "band": 8,
+                "meaning": "make the harmful effects of something less severe",
+                "example": "Subsidies can cushion the impact of rising energy prices."
+              },
+              {
+                "word": "retraining schemes",
+                "band": 8,
+                "meaning": "programmes that teach workers new skills for new jobs",
+                "example": "Retraining schemes helped many miners find work in the tech sector."
+              },
+              {
+                "word": "gets left behind",
+                "band": 7,
+                "meaning": "fails to progress as quickly as others",
+                "example": "Nobody should be allowed to get left behind while the economy grows."
+              }
+            ],
+            "phrases": [
+              "Rapid change brings both ... and ... On the plus side, ...",
+              "On the downside, ... may struggle to ...",
+              "I think governments need to ... by funding ..., so that ..."
+            ]
           },
           {
-            "word": "pays off in the long run",
-            "band": 8,
-            "meaning": "brings a good result after a long time",
-            "example": "Learning a second language pays off in the long run."
+            "q": "Do you think people today are more or less afraid of change than in the past?",
+            "model": "Probably less, at least among younger generations. People used to stay in one town and one job for life, whereas today changing careers or moving abroad is almost the norm. Social media also exposes us to different lifestyles, which makes alternatives feel within reach. That said, uncertainty about the economy leaves many people clinging to what they know. So the fear hasn't vanished; it has simply shifted from change itself to the cost of getting it wrong.",
+            "vocab": [
+              {
+                "word": "almost the norm",
+                "band": 7,
+                "meaning": "nearly standard or usual behaviour",
+                "example": "Working from home is almost the norm in many companies now."
+              },
+              {
+                "word": "within reach",
+                "band": 7,
+                "meaning": "possible to achieve or obtain",
+                "example": "With a scholarship, a degree abroad is suddenly within reach."
+              },
+              {
+                "word": "clinging to",
+                "band": 8,
+                "meaning": "holding on tightly to something familiar",
+                "example": "Some villagers are clinging to old traditions in the face of modern life."
+              },
+              {
+                "word": "shifted from",
+                "band": 8,
+                "meaning": "moved or changed away from one thing to another",
+                "example": "Public concern has shifted from unemployment to the cost of housing."
+              }
+            ],
+            "phrases": [
+              "Probably less, at least among ... People used to ..., whereas today ...",
+              "That said, uncertainty about ... leaves many people ...",
+              "So the fear hasn't vanished; it has simply ..."
+            ]
           },
           {
-            "word": "financial cushion",
-            "band": 8,
-            "meaning": "savings that protect you if money problems arise",
-            "example": "A financial cushion lets you survive a few months without income."
-          },
-          {
-            "word": "fall back on",
-            "band": 8,
-            "meaning": "use something as a safe alternative if plans fail",
-            "example": "It helps to have a second skill to fall back on."
+            "q": "How far do you agree that making mistakes is essential for personal growth?",
+            "model": "I agree to a large extent. Mistakes force us to reflect and adapt, and many of my most valuable lessons came from getting things wrong. Successful entrepreneurs often describe early failures as stepping stones rather than disasters. However, some errors, such as medical blunders, carry serious consequences, so the idea doesn't apply everywhere. In everyday life, though, I think learning from experience builds resilience and a healthier attitude to risk over time.",
+            "vocab": [
+              {
+                "word": "to a large extent",
+                "band": 7,
+                "meaning": "mostly, but not completely",
+                "example": "The project succeeded to a large extent thanks to its volunteers."
+              },
+              {
+                "word": "stepping stones",
+                "band": 8,
+                "meaning": "steps that help you reach a bigger goal",
+                "example": "Part-time jobs can be useful stepping stones towards a career."
+              },
+              {
+                "word": "builds resilience",
+                "band": 7,
+                "meaning": "helps people recover well from difficulties",
+                "example": "Playing team sports builds resilience in teenagers who lose matches."
+              },
+              {
+                "word": "carry serious consequences",
+                "band": 7,
+                "meaning": "lead to very bad results",
+                "example": "Breaking safety rules on a building site can carry serious consequences."
+              }
+            ],
+            "phrases": [
+              "I agree to a large extent. ... force us to ...",
+              "... often describe early failures as ... rather than ...",
+              "In everyday life, though, I think ... builds ..."
+            ]
           }
-        ],
-        "phrases": [
-          "To a fair extent, I'd say, provided ...",
-          "... often pays off in the long run, as long as ...",
-          "The key is to weigh ... against ..."
-        ]
-      },
-      {
-        "q": "Should young people be encouraged to follow their passions or to choose stable careers?",
-        "model": "Ideally a bit of both. Passion keeps people motivated through tough times, but passion alone rarely pays the rent, so a realistic plan matters. I'd encourage young people to explore their interests while they build marketable skills, so that they have more than one string to their bow. Parents sometimes push their children towards secure professions, which is understandable, yet forcing someone into a career they dislike can lead to burnout. Ultimately, the decision should belong to the individual.",
-        "vocab": [
-          {
-            "word": "pays the rent",
-            "band": 7,
-            "meaning": "earns enough money for basic living costs",
-            "example": "Painting is my passion, but teaching pays the rent."
-          },
-          {
-            "word": "marketable skills",
-            "band": 8,
-            "meaning": "abilities that employers are willing to pay for",
-            "example": "Coding is one of the most marketable skills among graduates."
-          },
-          {
-            "word": "string to their bow",
-            "band": 9,
-            "meaning": "an extra skill or option you can use",
-            "example": "Speaking Mandarin is another string to their bow in business."
-          },
-          {
-            "word": "lead to burnout",
-            "band": 8,
-            "meaning": "cause total physical and mental exhaustion",
-            "example": "Working seventy hours a week will eventually lead to burnout."
-          }
-        ],
-        "phrases": [
-          "Ideally a bit of both. ... keeps people motivated, but ...",
-          "I'd encourage young people to ... while they ...",
-          "Ultimately, the decision should belong to ..."
-        ]
-      },
-      {
-        "q": "What might be the consequences of living in a society that changes so quickly?",
-        "model": "Rapid change brings both opportunities and strains. On the plus side, new technologies create jobs and make daily life easier. On the downside, older workers may struggle to keep pace, and traditional communities can lose their identity. People may also feel overwhelmed when nothing stays the same for long. I think governments need to cushion the impact by funding retraining schemes and protecting cultural heritage, so that nobody gets left behind.",
-        "vocab": [
-          {
-            "word": "keep pace",
-            "band": 7,
-            "meaning": "stay level with others who are moving or developing fast",
-            "example": "Small shops often cannot keep pace with online retailers."
-          },
-          {
-            "word": "cushion the impact",
-            "band": 8,
-            "meaning": "make the harmful effects of something less severe",
-            "example": "Subsidies can cushion the impact of rising energy prices."
-          },
-          {
-            "word": "retraining schemes",
-            "band": 8,
-            "meaning": "programmes that teach workers new skills for new jobs",
-            "example": "Retraining schemes helped many miners find work in the tech sector."
-          },
-          {
-            "word": "gets left behind",
-            "band": 7,
-            "meaning": "fails to progress as quickly as others",
-            "example": "Nobody should be allowed to get left behind while the economy grows."
-          }
-        ],
-        "phrases": [
-          "Rapid change brings both ... and ... On the plus side, ...",
-          "On the downside, ... may struggle to ...",
-          "I think governments need to ... by funding ..., so that ..."
-        ]
-      },
-      {
-        "q": "Do you think people today are more or less afraid of change than in the past?",
-        "model": "Probably less, at least among younger generations. People used to stay in one town and one job for life, whereas today changing careers or moving abroad is almost the norm. Social media also exposes us to different lifestyles, which makes alternatives feel within reach. That said, uncertainty about the economy leaves many people clinging to what they know. So the fear hasn't vanished; it has simply shifted from change itself to the cost of getting it wrong.",
-        "vocab": [
-          {
-            "word": "almost the norm",
-            "band": 7,
-            "meaning": "nearly standard or usual behaviour",
-            "example": "Working from home is almost the norm in many companies now."
-          },
-          {
-            "word": "within reach",
-            "band": 7,
-            "meaning": "possible to achieve or obtain",
-            "example": "With a scholarship, a degree abroad is suddenly within reach."
-          },
-          {
-            "word": "clinging to",
-            "band": 8,
-            "meaning": "holding on tightly to something familiar",
-            "example": "Some villagers are clinging to old traditions in the face of modern life."
-          },
-          {
-            "word": "shifted from",
-            "band": 8,
-            "meaning": "moved or changed away from one thing to another",
-            "example": "Public concern has shifted from unemployment to the cost of housing."
-          }
-        ],
-        "phrases": [
-          "Probably less, at least among ... People used to ..., whereas today ...",
-          "That said, uncertainty about ... leaves many people ...",
-          "So the fear hasn't vanished; it has simply ..."
-        ]
-      },
-      {
-        "q": "How far do you agree that making mistakes is essential for personal growth?",
-        "model": "I agree to a large extent. Mistakes force us to reflect and adapt, and many of my most valuable lessons came from getting things wrong. Successful entrepreneurs often describe early failures as stepping stones rather than disasters. However, some errors, such as medical blunders, carry serious consequences, so the idea doesn't apply everywhere. In everyday life, though, I think learning from experience builds resilience and a healthier attitude to risk over time.",
-        "vocab": [
-          {
-            "word": "to a large extent",
-            "band": 7,
-            "meaning": "mostly, but not completely",
-            "example": "The project succeeded to a large extent thanks to its volunteers."
-          },
-          {
-            "word": "stepping stones",
-            "band": 8,
-            "meaning": "steps that help you reach a bigger goal",
-            "example": "Part-time jobs can be useful stepping stones towards a career."
-          },
-          {
-            "word": "builds resilience",
-            "band": 7,
-            "meaning": "helps people recover well from difficulties",
-            "example": "Playing team sports builds resilience in teenagers who lose matches."
-          },
-          {
-            "word": "carry serious consequences",
-            "band": 7,
-            "meaning": "lead to very bad results",
-            "example": "Breaking safety rules on a building site can carry serious consequences."
-          }
-        ],
-        "phrases": [
-          "I agree to a large extent. ... force us to ...",
-          "... often describe early failures as ... rather than ...",
-          "In everyday life, though, I think ... builds ..."
         ]
       }
     ]

@@ -223,96 +223,105 @@
     }
   },
   "part3": {
-    "theme": "Travel and tourism",
-    "questions": [
+    "topics": [
       {
-        "q": "Why do so many people like to travel abroad nowadays?",
-        "model": "Mainly because travel has become far more accessible. Budget airlines and online booking have brought prices down, so a weekend abroad is within reach for many families. Beyond that, people crave new experiences and want to broaden their horizons, particularly after spending most of the week at a desk. Personally, I think seeing other cultures makes us more open-minded, although it's worth noting that some people simply travel for the photos.",
-        "vocab": [
-          { "word": "budget airlines", "band": 7, "meaning": "companies that sell very cheap flights with few extras", "example": "Budget airlines have made short city breaks affordable for students." },
-          { "word": "within reach", "band": 8, "meaning": "possible to achieve or afford", "example": "A university degree is now within reach for many more families." },
-          { "word": "broaden their horizons", "band": 8, "meaning": "experience new things and widen their knowledge", "example": "Studying overseas helps young people broaden their horizons in many ways." },
-          { "word": "open-minded", "band": 7, "meaning": "willing to accept new ideas and different ways of life", "example": "Travelling alone made her far more open-minded about other lifestyles." }
-        ],
-        "phrases": [
-          "Mainly because ... has become far more accessible.",
-          "Beyond that, people crave ... and want to ...",
-          "Personally, I think ... makes us more ..., although it's worth noting that ..."
+        "theme": "Travel choices",
+        "questions": [
+          {
+            "q": "Why do so many people like to travel abroad nowadays?",
+            "model": "Mainly because travel has become far more accessible. Budget airlines and online booking have brought prices down, so a weekend abroad is within reach for many families. Beyond that, people crave new experiences and want to broaden their horizons, particularly after spending most of the week at a desk. Personally, I think seeing other cultures makes us more open-minded, although it's worth noting that some people simply travel for the photos.",
+            "vocab": [
+              { "word": "budget airlines", "band": 7, "meaning": "companies that sell very cheap flights with few extras", "example": "Budget airlines have made short city breaks affordable for students." },
+              { "word": "within reach", "band": 8, "meaning": "possible to achieve or afford", "example": "A university degree is now within reach for many more families." },
+              { "word": "broaden their horizons", "band": 8, "meaning": "experience new things and widen their knowledge", "example": "Studying overseas helps young people broaden their horizons in many ways." },
+              { "word": "open-minded", "band": 7, "meaning": "willing to accept new ideas and different ways of life", "example": "Travelling alone made her far more open-minded about other lifestyles." }
+            ],
+            "phrases": [
+              "Mainly because ... has become far more accessible.",
+              "Beyond that, people crave ... and want to ...",
+              "Personally, I think ... makes us more ..., although it's worth noting that ..."
+            ]
+          },
+          {
+            "q": "Would you say independent travel is better than going on a package tour?",
+            "model": "It depends on the traveller. Package tours are stress-free because everything is arranged, which suits families and first-time visitors. On the other hand, independent travel gives you the freedom to wander off and follow your curiosity. Personally, I'd go for the latter, since the unplanned moments are usually the best ones, although I'd book the first night's accommodation just to avoid arriving with nowhere to stay. Either way, the best trips leave room for surprises.",
+            "vocab": [
+              { "word": "package tours", "band": 7, "meaning": "holidays where transport, hotels and activities are arranged for you", "example": "Package tours are popular with older travellers who dislike planning." },
+              { "word": "stress-free", "band": 7, "meaning": "without worry or difficulty", "example": "Booking everything through one agency made the trip completely stress-free." },
+              { "word": "wander off", "band": 8, "meaning": "walk away from the planned route without a fixed aim", "example": "I love to wander off and discover quiet back streets." },
+              { "word": "go for", "band": 7, "meaning": "choose a particular option", "example": "When it comes to dessert, I always go for something chocolatey." }
+            ],
+            "phrases": [
+              "It depends on the traveller. ... are ... because ...",
+              "On the other hand, ... gives you the freedom to ...",
+              "Personally, I'd go for the latter, since ..."
+            ]
+          },
+          {
+            "q": "What might travel look like in fifty years' time?",
+            "model": "It's hard to predict, but I suspect it will be greener and more automated. Electric planes and high-speed rail could cut emissions dramatically, while virtual reality might let people explore a destination before they even book. Space tourism may become a reality for the very wealthy too, though I doubt it will ever go mainstream. What I hope is that travel remains about real human encounters rather than just ticking off landmarks.",
+            "vocab": [
+              { "word": "high-speed rail", "band": 8, "meaning": "very fast trains that connect distant cities", "example": "High-speed rail has made day trips between major cities completely realistic." },
+              { "word": "cut emissions", "band": 8, "meaning": "reduce the harmful gases released into the air", "example": "Airlines are under pressure to cut emissions as quickly as possible." },
+              { "word": "go mainstream", "band": 8, "meaning": "become accepted and common among ordinary people", "example": "Electric cars have finally started to go mainstream in many countries." },
+              { "word": "ticking off", "band": 7, "meaning": "marking things as done on a list", "example": "Some tourists spend the whole trip ticking off famous sights from a list." }
+            ],
+            "phrases": [
+              "It's hard to predict, but I suspect it will be ...",
+              "... could cut emissions dramatically, while ... might let people ...",
+              "What I hope is that ... remains about ... rather than just ..."
+            ]
+          }
         ]
       },
       {
-        "q": "To what extent does tourism benefit the local economy?",
-        "model": "To a large extent, I'd say. Tourism creates jobs in hotels, restaurants and transport, and it injects money into smaller towns that might otherwise struggle. However, the benefits are not always shared fairly, because big chains often take most of the profits abroad. In my view, governments should encourage visitors to use locally owned businesses, so that the money stays in the community and residents genuinely benefit from the visitors who arrive.",
-        "vocab": [
-          { "word": "creates jobs", "band": 7, "meaning": "makes new employment available for people", "example": "A new factory creates jobs for hundreds of young people in the area." },
-          { "word": "injects money into", "band": 8, "meaning": "brings a large amount of money into a place or business", "example": "The festival injects money into the town every single summer." },
-          { "word": "take most of the profits", "band": 8, "meaning": "keep the largest part of the money earned", "example": "Large companies often take most of the profits from local farmers' hard work." },
-          { "word": "locally owned businesses", "band": 8, "meaning": "shops and firms run by people from the area", "example": "Locally owned businesses keep more of the money circulating in the neighbourhood." }
-        ],
-        "phrases": [
-          "To a large extent, I'd say. ... creates ..., and it ...",
-          "However, the benefits are not always shared fairly, because ...",
-          "In my view, governments should encourage ..., so that ..."
-        ]
-      },
-      {
-        "q": "What might be the negative effects of mass tourism on popular destinations?",
-        "model": "Overcrowding is the obvious one. Places like Venice are overrun with visitors, which pushes up rents and forces local people out of their own neighbourhoods. There is also the environmental cost, as litter and emissions can damage fragile coastlines. Some argue that tourists spoil the very places they come to admire. I'd say the solution is to limit numbers and charge entry fees, so that the damage is kept in check and the money funds conservation.",
-        "vocab": [
-          { "word": "overrun with", "band": 8, "meaning": "filled with too many people or things", "example": "The old square was overrun with tour groups by ten in the morning." },
-          { "word": "pushes up rents", "band": 8, "meaning": "causes the price of renting homes to rise", "example": "Demand from visitors pushes up rents in the historic centre." },
-          { "word": "fragile coastlines", "band": 8, "meaning": "seaside areas that are easily damaged", "example": "Rising numbers of boats are harming the fragile coastlines of the island." },
-          { "word": "kept in check", "band": 8, "meaning": "controlled so that it does not become too serious", "example": "Pollution must be kept in check if the beaches are to survive." }
-        ],
-        "phrases": [
-          "Overcrowding is the obvious one. Places like ... are overrun with ...",
-          "There is also the environmental cost, as ... can damage ...",
-          "I'd say the solution is to ..., so that the damage is kept in check."
-        ]
-      },
-      {
-        "q": "Should governments do more to protect historical sites from damage by visitors?",
-        "model": "Yes, I believe they should, because these places are irreplaceable. Once an ancient carving is worn away, no amount of money can bring it back. Governments could introduce timed tickets, ban flash photography and fund proper restoration work. Admittedly, that costs money, but heritage is part of a nation's identity, and future generations deserve to see it. In the long run, protecting these sites also keeps tourism alive, which benefits everyone.",
-        "vocab": [
-          { "word": "worn away", "band": 7, "meaning": "slowly damaged and removed by constant rubbing or weather", "example": "The stone steps have been worn away by centuries of footsteps." },
-          { "word": "timed tickets", "band": 8, "meaning": "entry passes that allow visitors in at a fixed hour", "example": "Timed tickets stop the gallery from getting overcrowded at midday." },
-          { "word": "restoration work", "band": 8, "meaning": "repairs that return an old building to its original state", "example": "Restoration work on the cathedral roof will take at least five years." },
-          { "word": "in the long run", "band": 7, "meaning": "over a long period of time in the future", "example": "Cheap repairs cost far more in the long run than proper ones." }
-        ],
-        "phrases": [
-          "Yes, I believe they should, because these places are ...",
-          "Governments could introduce ..., ban ... and fund ...",
-          "Admittedly, that costs money, but ... deserve to ..."
-        ]
-      },
-      {
-        "q": "What might travel look like in fifty years' time?",
-        "model": "It's hard to predict, but I suspect it will be greener and more automated. Electric planes and high-speed rail could cut emissions dramatically, while virtual reality might let people explore a destination before they even book. Space tourism may become a reality for the very wealthy too, though I doubt it will ever go mainstream. What I hope is that travel remains about real human encounters rather than just ticking off landmarks.",
-        "vocab": [
-          { "word": "high-speed rail", "band": 8, "meaning": "very fast trains that connect distant cities", "example": "High-speed rail has made day trips between major cities completely realistic." },
-          { "word": "cut emissions", "band": 8, "meaning": "reduce the harmful gases released into the air", "example": "Airlines are under pressure to cut emissions as quickly as possible." },
-          { "word": "go mainstream", "band": 8, "meaning": "become accepted and common among ordinary people", "example": "Electric cars have finally started to go mainstream in many countries." },
-          { "word": "ticking off", "band": 7, "meaning": "marking things as done on a list", "example": "Some tourists spend the whole trip ticking off famous sights from a list." }
-        ],
-        "phrases": [
-          "It's hard to predict, but I suspect it will be ...",
-          "... could cut emissions dramatically, while ... might let people ...",
-          "What I hope is that ... remains about ... rather than just ..."
-        ]
-      },
-      {
-        "q": "Would you say independent travel is better than going on a package tour?",
-        "model": "It depends on the traveller. Package tours are stress-free because everything is arranged, which suits families and first-time visitors. On the other hand, independent travel gives you the freedom to wander off and follow your curiosity. Personally, I'd go for the latter, since the unplanned moments are usually the best ones, although I'd book the first night's accommodation just to avoid arriving with nowhere to stay. Either way, the best trips leave room for surprises.",
-        "vocab": [
-          { "word": "package tours", "band": 7, "meaning": "holidays where transport, hotels and activities are arranged for you", "example": "Package tours are popular with older travellers who dislike planning." },
-          { "word": "stress-free", "band": 7, "meaning": "without worry or difficulty", "example": "Booking everything through one agency made the trip completely stress-free." },
-          { "word": "wander off", "band": 8, "meaning": "walk away from the planned route without a fixed aim", "example": "I love to wander off and discover quiet back streets." },
-          { "word": "go for", "band": 7, "meaning": "choose a particular option", "example": "When it comes to dessert, I always go for something chocolatey." }
-        ],
-        "phrases": [
-          "It depends on the traveller. ... are ... because ...",
-          "On the other hand, ... gives you the freedom to ...",
-          "Personally, I'd go for the latter, since ..."
+        "theme": "Tourism and its effects",
+        "questions": [
+          {
+            "q": "To what extent does tourism benefit the local economy?",
+            "model": "To a large extent, I'd say. Tourism creates jobs in hotels, restaurants and transport, and it injects money into smaller towns that might otherwise struggle. However, the benefits are not always shared fairly, because big chains often take most of the profits abroad. In my view, governments should encourage visitors to use locally owned businesses, so that the money stays in the community and residents genuinely benefit from the visitors who arrive.",
+            "vocab": [
+              { "word": "creates jobs", "band": 7, "meaning": "makes new employment available for people", "example": "A new factory creates jobs for hundreds of young people in the area." },
+              { "word": "injects money into", "band": 8, "meaning": "brings a large amount of money into a place or business", "example": "The festival injects money into the town every single summer." },
+              { "word": "take most of the profits", "band": 8, "meaning": "keep the largest part of the money earned", "example": "Large companies often take most of the profits from local farmers' hard work." },
+              { "word": "locally owned businesses", "band": 8, "meaning": "shops and firms run by people from the area", "example": "Locally owned businesses keep more of the money circulating in the neighbourhood." }
+            ],
+            "phrases": [
+              "To a large extent, I'd say. ... creates ..., and it ...",
+              "However, the benefits are not always shared fairly, because ...",
+              "In my view, governments should encourage ..., so that ..."
+            ]
+          },
+          {
+            "q": "What might be the negative effects of mass tourism on popular destinations?",
+            "model": "Overcrowding is the obvious one. Places like Venice are overrun with visitors, which pushes up rents and forces local people out of their own neighbourhoods. There is also the environmental cost, as litter and emissions can damage fragile coastlines. Some argue that tourists spoil the very places they come to admire. I'd say the solution is to limit numbers and charge entry fees, so that the damage is kept in check and the money funds conservation.",
+            "vocab": [
+              { "word": "overrun with", "band": 8, "meaning": "filled with too many people or things", "example": "The old square was overrun with tour groups by ten in the morning." },
+              { "word": "pushes up rents", "band": 8, "meaning": "causes the price of renting homes to rise", "example": "Demand from visitors pushes up rents in the historic centre." },
+              { "word": "fragile coastlines", "band": 8, "meaning": "seaside areas that are easily damaged", "example": "Rising numbers of boats are harming the fragile coastlines of the island." },
+              { "word": "kept in check", "band": 8, "meaning": "controlled so that it does not become too serious", "example": "Pollution must be kept in check if the beaches are to survive." }
+            ],
+            "phrases": [
+              "Overcrowding is the obvious one. Places like ... are overrun with ...",
+              "There is also the environmental cost, as ... can damage ...",
+              "I'd say the solution is to ..., so that the damage is kept in check."
+            ]
+          },
+          {
+            "q": "Should governments do more to protect historical sites from damage by visitors?",
+            "model": "Yes, I believe they should, because these places are irreplaceable. Once an ancient carving is worn away, no amount of money can bring it back. Governments could introduce timed tickets, ban flash photography and fund proper restoration work. Admittedly, that costs money, but heritage is part of a nation's identity, and future generations deserve to see it. In the long run, protecting these sites also keeps tourism alive, which benefits everyone.",
+            "vocab": [
+              { "word": "worn away", "band": 7, "meaning": "slowly damaged and removed by constant rubbing or weather", "example": "The stone steps have been worn away by centuries of footsteps." },
+              { "word": "timed tickets", "band": 8, "meaning": "entry passes that allow visitors in at a fixed hour", "example": "Timed tickets stop the gallery from getting overcrowded at midday." },
+              { "word": "restoration work", "band": 8, "meaning": "repairs that return an old building to its original state", "example": "Restoration work on the cathedral roof will take at least five years." },
+              { "word": "in the long run", "band": 7, "meaning": "over a long period of time in the future", "example": "Cheap repairs cost far more in the long run than proper ones." }
+            ],
+            "phrases": [
+              "Yes, I believe they should, because these places are ...",
+              "Governments could introduce ..., ban ... and fund ...",
+              "Admittedly, that costs money, but ... deserve to ..."
+            ]
+          }
         ]
       }
     ]

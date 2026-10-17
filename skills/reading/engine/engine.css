@@ -8,6 +8,7 @@
 .split { display: grid; grid-template-columns: 3fr 2fr; gap: 18px; align-items: stretch; }
 .passage { font: 400 1.14rem/1.8 var(--serif); padding: 28px 30px 28px 56px; background-image: linear-gradient(90deg, transparent 38px, #e6a39266 38px, #e6a39266 40px, transparent 40px); }
 .passage h2 { font: 400 1.9rem/1.15 var(--display); margin: 0 0 18px; }
+.passage p.kicker { font: 700 .8rem var(--sans); letter-spacing: .18em; text-transform: uppercase; margin: 0 0 6px; }
 .passage p { margin: 0 0 14px; position: relative; }
 .passage p strong { position: absolute; left: -44px; top: 2px; font: 700 .85rem var(--sans); width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; background: var(--ink); color: var(--paper); margin: 0; }
 .sheet { }

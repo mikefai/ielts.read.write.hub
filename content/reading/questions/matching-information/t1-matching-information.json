@@ -2,7 +2,7 @@
   "id": "t1-matching-information",
   "type": "matching-information",
   "passageId": "t1-p2",
-  "instructions": "Which section contains the following information? Write the correct letter, A-G. NB You may use any letter more than once.",
+  "instructions": "Reading Passage 2 has seven sections, A–G. Which section contains the following information? Write the correct letter, A–G.",
   "items": [
     {
       "id": "q1",

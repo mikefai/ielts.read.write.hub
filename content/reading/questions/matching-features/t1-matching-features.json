@@ -2,7 +2,7 @@
   "id": "t1-matching-features",
   "type": "matching-features",
   "passageId": "t1-p2",
-  "instructions": "Look at the following statements and the list of people below. Match each statement with the correct person. NB You may use any letter more than once.",
+  "instructions": "Look at the following statements and the list of people below. Match each statement with the correct person. NB You may use any person more than once.",
   "items": [
     {
       "id": "q1",

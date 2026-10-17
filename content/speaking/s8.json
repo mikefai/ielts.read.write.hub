@@ -222,96 +222,105 @@
     }
   },
   "part3": {
-    "theme": "Work-life balance and stress",
-    "questions": [
+    "topics": [
       {
-        "q": "Why do some people find it so hard to switch off from work?",
-        "model": "I think technology is the main culprit. Smartphones mean that emails and messages follow us home, so the boundary between the office and our personal lives has become blurred. Some people also feel pressure to prove their commitment, so they stay online out of fear of falling behind. Personally, I believe the real issue is a culture that rewards being constantly available. Unless workers learn to set boundaries, they will keep working around the clock and end up exhausted.",
-        "vocab": [
-          { "word": "the main culprit", "band": 8, "meaning": "the chief cause of a problem", "example": "Sugary drinks are often named as the main culprit behind rising obesity." },
-          { "word": "prove their commitment", "band": 8, "meaning": "show that they are serious and dedicated to their job", "example": "New employees often work late to prove their commitment to the firm." },
-          { "word": "set boundaries", "band": 7, "meaning": "decide clearly what you will and will not accept", "example": "It is healthy to set boundaries with clients who call at midnight." },
-          { "word": "around the clock", "band": 7, "meaning": "all day and all night without stopping", "example": "Emergency services operate around the clock throughout the festival." }
-        ],
-        "phrases": [
-          "I think ... is the main culprit.",
-          "Some people also feel pressure to ..., so they ...",
-          "Unless workers learn to ..., they will keep ... and end up ..."
+        "theme": "Stress and working hours",
+        "questions": [
+          {
+            "q": "Why do some people find it so hard to switch off from work?",
+            "model": "I think technology is the main culprit. Smartphones mean that emails and messages follow us home, so the boundary between the office and our personal lives has become blurred. Some people also feel pressure to prove their commitment, so they stay online out of fear of falling behind. Personally, I believe the real issue is a culture that rewards being constantly available. Unless workers learn to set boundaries, they will keep working around the clock and end up exhausted.",
+            "vocab": [
+              { "word": "the main culprit", "band": 8, "meaning": "the chief cause of a problem", "example": "Sugary drinks are often named as the main culprit behind rising obesity." },
+              { "word": "prove their commitment", "band": 8, "meaning": "show that they are serious and dedicated to their job", "example": "New employees often work late to prove their commitment to the firm." },
+              { "word": "set boundaries", "band": 7, "meaning": "decide clearly what you will and will not accept", "example": "It is healthy to set boundaries with clients who call at midnight." },
+              { "word": "around the clock", "band": 7, "meaning": "all day and all night without stopping", "example": "Emergency services operate around the clock throughout the festival." }
+            ],
+            "phrases": [
+              "I think ... is the main culprit.",
+              "Some people also feel pressure to ..., so they ...",
+              "Unless workers learn to ..., they will keep ... and end up ..."
+            ]
+          },
+          {
+            "q": "To what extent is stress a bigger problem now than it was in the past?",
+            "model": "To a large extent, yes, although it is hard to measure. Our grandparents faced hardship, but they rarely had to cope with constant notifications and job insecurity. Today the cost of living keeps rising, and many people are under enormous pressure to perform. On the other hand, we now talk about mental health far more openly, which reduces the stigma. So perhaps stress is not necessarily worse, but it is certainly more visible.",
+            "vocab": [
+              { "word": "job insecurity", "band": 8, "meaning": "the worry that you might lose your job at any time", "example": "Job insecurity affects workers in industries that rely on temporary contracts." },
+              { "word": "cost of living", "band": 7, "meaning": "the amount of money needed for basic daily expenses", "example": "The cost of living in big cities has soared over the last decade." },
+              { "word": "under enormous pressure", "band": 8, "meaning": "facing very strong demands that cause stress", "example": "Students are under enormous pressure to achieve top grades these days." },
+              { "word": "reduces the stigma", "band": 9, "meaning": "makes a subject less shameful in the eyes of society", "example": "Celebrity openness about therapy reduces the stigma around asking for help." }
+            ],
+            "phrases": [
+              "To a large extent, yes, although ...",
+              "... faced hardship, but they rarely had to cope with ...",
+              "So perhaps ... is not necessarily worse, but it is certainly more ..."
+            ]
+          },
+          {
+            "q": "Should employers be required by law to limit the hours their staff work?",
+            "model": "In my view, yes, at least for certain professions. Doctors and lorry drivers working excessive hours put lives at risk, so a legal cap is justified. However, rigid rules could frustrate people who enjoy their jobs or want to earn overtime. A sensible compromise would be a weekly maximum with some flexibility, together with penalties for companies that pressure staff to work unpaid extra hours. Without such protection, workers could easily be taken advantage of.",
+            "vocab": [
+              { "word": "excessive hours", "band": 8, "meaning": "far more working time than is reasonable or safe", "example": "Excessive hours in the kitchen drove many chefs to quit the profession." },
+              { "word": "put lives at risk", "band": 8, "meaning": "make people's safety uncertain or in danger", "example": "Tired pilots can put lives at risk if they miss a warning." },
+              { "word": "earn overtime", "band": 7, "meaning": "get extra pay for working beyond normal hours", "example": "Factory staff can earn overtime during the busy winter months." },
+              { "word": "a sensible compromise", "band": 8, "meaning": "a reasonable agreement where both sides give something up", "example": "Starting at ten and finishing at six was a sensible compromise for everyone." }
+            ],
+            "phrases": [
+              "In my view, yes, at least for ...",
+              "However, rigid rules could frustrate people who ...",
+              "A sensible compromise would be ..., together with ..."
+            ]
+          }
         ]
       },
       {
-        "q": "To what extent is stress a bigger problem now than it was in the past?",
-        "model": "To a large extent, yes, although it is hard to measure. Our grandparents faced hardship, but they rarely had to cope with constant notifications and job insecurity. Today the cost of living keeps rising, and many people are under enormous pressure to perform. On the other hand, we now talk about mental health far more openly, which reduces the stigma. So perhaps stress is not necessarily worse, but it is certainly more visible.",
-        "vocab": [
-          { "word": "job insecurity", "band": 8, "meaning": "the worry that you might lose your job at any time", "example": "Job insecurity affects workers in industries that rely on temporary contracts." },
-          { "word": "cost of living", "band": 7, "meaning": "the amount of money needed for basic daily expenses", "example": "The cost of living in big cities has soared over the last decade." },
-          { "word": "under enormous pressure", "band": 8, "meaning": "facing very strong demands that cause stress", "example": "Students are under enormous pressure to achieve top grades these days." },
-          { "word": "reduces the stigma", "band": 9, "meaning": "makes a subject less shameful in the eyes of society", "example": "Celebrity openness about therapy reduces the stigma around asking for help." }
-        ],
-        "phrases": [
-          "To a large extent, yes, although ...",
-          "... faced hardship, but they rarely had to cope with ...",
-          "So perhaps ... is not necessarily worse, but it is certainly more ..."
-        ]
-      },
-      {
-        "q": "Should employers be required by law to limit the hours their staff work?",
-        "model": "In my view, yes, at least for certain professions. Doctors and lorry drivers working excessive hours put lives at risk, so a legal cap is justified. However, rigid rules could frustrate people who enjoy their jobs or want to earn overtime. A sensible compromise would be a weekly maximum with some flexibility, together with penalties for companies that pressure staff to work unpaid extra hours. Without such protection, workers could easily be taken advantage of.",
-        "vocab": [
-          { "word": "excessive hours", "band": 8, "meaning": "far more working time than is reasonable or safe", "example": "Excessive hours in the kitchen drove many chefs to quit the profession." },
-          { "word": "put lives at risk", "band": 8, "meaning": "make people's safety uncertain or in danger", "example": "Tired pilots can put lives at risk if they miss a warning." },
-          { "word": "earn overtime", "band": 7, "meaning": "get extra pay for working beyond normal hours", "example": "Factory staff can earn overtime during the busy winter months." },
-          { "word": "a sensible compromise", "band": 8, "meaning": "a reasonable agreement where both sides give something up", "example": "Starting at ten and finishing at six was a sensible compromise for everyone." }
-        ],
-        "phrases": [
-          "In my view, yes, at least for ...",
-          "However, rigid rules could frustrate people who ...",
-          "A sensible compromise would be ..., together with ..."
-        ]
-      },
-      {
-        "q": "What might companies do to help employees maintain a healthy work-life balance?",
-        "model": "Firms could start by offering flexible schedules, so that parents and carers can fit work around family commitments. Generous annual leave also helps staff recharge, and managers should lead by example by actually taking their holidays. Some companies run wellbeing workshops, which are a nice gesture, but they achieve little if employees are still buried under unrealistic workloads. Real change begins with realistic targets and a culture of trust, because staff who feel respected are usually more productive anyway.",
-        "vocab": [
-          { "word": "flexible schedules", "band": 7, "meaning": "working hours that can be adjusted to suit the employee", "example": "Flexible schedules allow staff to avoid the rush-hour traffic." },
-          { "word": "lead by example", "band": 8, "meaning": "behave in the way you want others to behave", "example": "Good captains lead by example and train as hard as anyone." },
-          { "word": "unrealistic workloads", "band": 8, "meaning": "amounts of work that nobody could reasonably finish", "example": "Unrealistic workloads leave teachers marking papers until midnight." },
-          { "word": "recharge", "band": 7, "meaning": "rest so that you regain your energy", "example": "A week by the coast was exactly what I needed to recharge." }
-        ],
-        "phrases": [
-          "Firms could start by offering ..., so that ...",
-          "... also helps staff ..., and managers should lead by example by ...",
-          "Real change begins with ... and a culture of ..."
-        ]
-      },
-      {
-        "q": "How far does working from home help or harm people's work-life balance?",
-        "model": "It depends on the individual. Working from home removes the commute and gives people more control over their day, which can be a real boon for parents. However, when your living room doubles as an office, it becomes tough to draw a line between work and rest. Many remote workers find themselves answering emails late at night. I think the arrangement works best when it is combined with clear working hours and an occasional day in the office.",
-        "vocab": [
-          { "word": "a real boon", "band": 9, "meaning": "something that is very helpful and beneficial", "example": "Fast broadband has been a real boon for small rural businesses." },
-          { "word": "doubles as", "band": 8, "meaning": "has a second use in addition to its main one", "example": "Our kitchen table doubles as a desk during the week." },
-          { "word": "draw a line between", "band": 8, "meaning": "make a clear separation between two things", "example": "It's important to draw a line between friendship and business." },
-          { "word": "remote workers", "band": 7, "meaning": "employees who do their jobs away from a company office", "example": "Remote workers often meet in cafés to avoid feeling isolated." }
-        ],
-        "phrases": [
-          "It depends on the individual. ... can be a real boon for ...",
-          "However, when ... doubles as ..., it becomes tough to ...",
-          "I think the arrangement works best when it is combined with ..."
-        ]
-      },
-      {
-        "q": "Is it better to have a well-paid but demanding job, or a modest job with plenty of free time?",
-        "model": "Personally, I would opt for the modest job. A high salary is tempting, but it often comes at the expense of health and relationships, and no amount of money can buy back lost time. Having said that, I understand that people with big financial commitments, such as a mortgage, may have little choice. In the long run, though, I believe a satisfying life depends on striking a balance between ambition and contentment.",
-        "vocab": [
-          { "word": "opt for", "band": 7, "meaning": "choose one option over others", "example": "Most students opt for cheaper accommodation outside the city centre." },
-          { "word": "at the expense of", "band": 8, "meaning": "causing harm or loss to something else", "example": "Success at the expense of your family is rarely worth it." },
-          { "word": "financial commitments", "band": 8, "meaning": "regular payments such as rent or loans that you must make", "example": "Young couples with heavy financial commitments often can't afford to quit." },
-          { "word": "striking a balance", "band": 8, "meaning": "finding a fair middle point between two things", "example": "Striking a balance between saving and spending is harder than it sounds." }
-        ],
-        "phrases": [
-          "Personally, I would opt for ...",
-          "..., but it often comes at the expense of ...",
-          "In the long run, though, I believe ... depends on striking a balance between ... and ..."
+        "theme": "Balancing work and life",
+        "questions": [
+          {
+            "q": "What might companies do to help employees maintain a healthy work-life balance?",
+            "model": "Firms could start by offering flexible schedules, so that parents and carers can fit work around family commitments. Generous annual leave also helps staff recharge, and managers should lead by example by actually taking their holidays. Some companies run wellbeing workshops, which are a nice gesture, but they achieve little if employees are still buried under unrealistic workloads. Real change begins with realistic targets and a culture of trust, because staff who feel respected are usually more productive anyway.",
+            "vocab": [
+              { "word": "flexible schedules", "band": 7, "meaning": "working hours that can be adjusted to suit the employee", "example": "Flexible schedules allow staff to avoid the rush-hour traffic." },
+              { "word": "lead by example", "band": 8, "meaning": "behave in the way you want others to behave", "example": "Good captains lead by example and train as hard as anyone." },
+              { "word": "unrealistic workloads", "band": 8, "meaning": "amounts of work that nobody could reasonably finish", "example": "Unrealistic workloads leave teachers marking papers until midnight." },
+              { "word": "recharge", "band": 7, "meaning": "rest so that you regain your energy", "example": "A week by the coast was exactly what I needed to recharge." }
+            ],
+            "phrases": [
+              "Firms could start by offering ..., so that ...",
+              "... also helps staff ..., and managers should lead by example by ...",
+              "Real change begins with ... and a culture of ..."
+            ]
+          },
+          {
+            "q": "How far does working from home help or harm people's work-life balance?",
+            "model": "It depends on the individual. Working from home removes the commute and gives people more control over their day, which can be a real boon for parents. However, when your living room doubles as an office, it becomes tough to draw a line between work and rest. Many remote workers find themselves answering emails late at night. I think the arrangement works best when it is combined with clear working hours and an occasional day in the office.",
+            "vocab": [
+              { "word": "a real boon", "band": 9, "meaning": "something that is very helpful and beneficial", "example": "Fast broadband has been a real boon for small rural businesses." },
+              { "word": "doubles as", "band": 8, "meaning": "has a second use in addition to its main one", "example": "Our kitchen table doubles as a desk during the week." },
+              { "word": "draw a line between", "band": 8, "meaning": "make a clear separation between two things", "example": "It's important to draw a line between friendship and business." },
+              { "word": "remote workers", "band": 7, "meaning": "employees who do their jobs away from a company office", "example": "Remote workers often meet in cafés to avoid feeling isolated." }
+            ],
+            "phrases": [
+              "It depends on the individual. ... can be a real boon for ...",
+              "However, when ... doubles as ..., it becomes tough to ...",
+              "I think the arrangement works best when it is combined with ..."
+            ]
+          },
+          {
+            "q": "Is it better to have a well-paid but demanding job, or a modest job with plenty of free time?",
+            "model": "Personally, I would opt for the modest job. A high salary is tempting, but it often comes at the expense of health and relationships, and no amount of money can buy back lost time. Having said that, I understand that people with big financial commitments, such as a mortgage, may have little choice. In the long run, though, I believe a satisfying life depends on striking a balance between ambition and contentment.",
+            "vocab": [
+              { "word": "opt for", "band": 7, "meaning": "choose one option over others", "example": "Most students opt for cheaper accommodation outside the city centre." },
+              { "word": "at the expense of", "band": 8, "meaning": "causing harm or loss to something else", "example": "Success at the expense of your family is rarely worth it." },
+              { "word": "financial commitments", "band": 8, "meaning": "regular payments such as rent or loans that you must make", "example": "Young couples with heavy financial commitments often can't afford to quit." },
+              { "word": "striking a balance", "band": 8, "meaning": "finding a fair middle point between two things", "example": "Striking a balance between saving and spending is harder than it sounds." }
+            ],
+            "phrases": [
+              "Personally, I would opt for ...",
+              "..., but it often comes at the expense of ...",
+              "In the long run, though, I believe ... depends on striking a balance between ... and ..."
+            ]
+          }
         ]
       }
     ]

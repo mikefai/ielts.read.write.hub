@@ -1,90 +1,53 @@
 {
   "id": "w1-m1",
   "task": 1,
-  "title": "Household energy in four countries",
-  "prompt": "The bar chart shows the main source of energy used by households in four countries in 2023, and the table shows the average annual cost of household energy in each country in 2013 and 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "title": "Recycling rates in Ashford",
+  "prompt": "The graph below gives information about the percentage of four household materials that were recycled in the town of Ashford between 2000 and 2024. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
   "chart": {
-    "kind": "mixed",
-    "charts": [
+    "kind": "line",
+    "title": "Percentage of household materials recycled, Ashford, 2000 to 2024",
+    "unit": "%",
+    "labels": [
+      "2000",
+      "2008",
+      "2016",
+      "2024"
+    ],
+    "series": [
       {
-        "kind": "bar",
-        "title": "Main source of household energy, 2023",
-        "unit": "%",
-        "source": "Adapted national energy survey data",
-        "labels": [
-          "Norland",
-          "Valtia",
-          "Ostrea",
-          "Kelmar"
-        ],
-        "series": [
-          {
-            "name": "Gas",
-            "values": [
-              55,
-              28,
-              62,
-              20
-            ]
-          },
-          {
-            "name": "Electricity",
-            "values": [
-              30,
-              52,
-              24,
-              35
-            ]
-          },
-          {
-            "name": "Renewables",
-            "values": [
-              15,
-              20,
-              14,
-              45
-            ]
-          }
+        "name": "Glass",
+        "values": [
+          40,
+          52,
+          60,
+          64
         ]
       },
       {
-        "kind": "table",
-        "title": "Average annual household energy cost (US$)",
-        "source": "Adapted national energy survey data",
-        "corner": "Country",
-        "columns": [
-          "2013",
-          "2023"
-        ],
-        "rows": [
-          {
-            "label": "Norland",
-            "values": [
-              1150,
-              1380
-            ]
-          },
-          {
-            "label": "Valtia",
-            "values": [
-              1420,
-              1690
-            ]
-          },
-          {
-            "label": "Ostrea",
-            "values": [
-              980,
-              1260
-            ]
-          },
-          {
-            "label": "Kelmar",
-            "values": [
-              1210,
-              1240
-            ]
-          }
+        "name": "Paper",
+        "values": [
+          55,
+          62,
+          66,
+          58
+        ]
+      },
+      {
+        "name": "Plastic",
+        "values": [
+          8,
+          15,
+          32,
+          50
+        ]
+      },
+      {
+        "name": "Metal",
+        "values": [
+          30,
+          35,
+          41,
+          46
         ]
       }
     ]
@@ -96,8 +59,8 @@
         "sentences": [
           {
             "role": "paraphrase",
-            "text": "The bar chart compares the main energy sources used by households in four countries in 2023, while the table shows what an average household paid for energy in 2013 and 2023.",
-            "why": "Paraphrases both visuals in one sentence and joins them with \"while\". \"Compares\", \"main energy sources\" and \"what an average household paid\" avoid copying the prompt, supporting Task Achievement and Lexical Resource without data."
+            "text": "The line graph compares the proportion of four types of household waste that were recycled in Ashford in 2000, 2008, 2016 and 2024.",
+            "why": "Paraphrases the prompt without copying: \"compares\" replaces \"gives information about\", \"proportion\" replaces \"percentage\" and \"types of household waste\" replaces \"materials\". It states what, where and when with no data or opinion."
           }
         ]
       },
@@ -106,13 +69,13 @@
         "sentences": [
           {
             "role": "overview-main",
-            "text": "Overall, gas and electricity supplied most households in three of the countries, whereas Kelmar relied far more heavily on renewables.",
-            "why": "Gives the main pattern from the bar chart and a clear contrast, using \"whereas\" to separate Kelmar from the rest. It contains no figures, which is the Task Achievement requirement for an overview."
+            "text": "Overall, recycling rates rose for glass, plastic and metal, whereas paper was the only material to decline by the end of the period.",
+            "why": "Identifies the general trend and the one exception in a single sentence. \"Whereas\" separates the pattern from the exception, and the absence of numbers meets the key Task Achievement requirement for an overview."
           },
           {
             "role": "overview-second",
-            "text": "Energy bills rose in every country, and Valtia was the most expensive in both years.",
-            "why": "The second overview feature comes from the table, so both visuals are covered. It states a common trend and a stable rank without numbers, which supports Task Achievement and Coherence."
+            "text": "Plastic grew fastest, climbing from the lowest rate to well above metal, while glass finished as the most recycled material.",
+            "why": "The second overview point selects the biggest change and the final ranking. \"Fastest\", \"well above\" and \"the most recycled\" compare the lines without figures, showing selection and comparison."
           }
         ]
       },
@@ -121,23 +84,23 @@
         "sentences": [
           {
             "role": "topic",
-            "text": "Turning first to energy sources, gas was the most common choice in two countries.",
-            "why": "Opens the paragraph by naming the visual and grouping the data by pattern. \"Turning first to\" signposts the order and supports Coherence and Cohesion before any figures appear."
+            "text": "Glass and paper were the two most recycled materials throughout the period.",
+            "why": "Topic sentence that groups the two leading lines. \"Throughout the period\" is a general statement that frames the paragraph and supports Coherence before any figures are introduced."
           },
           {
             "role": "key-figures",
-            "text": "Gas supplied 62 per cent of households in Ostrea and 55 per cent in Norland, compared with only 20 per cent in Kelmar.",
-            "why": "Reports the two highest gas figures with units and adds the lowest one as a contrast. \"Compared with only\" shows a real comparison, and selecting these three values rather than all four demonstrates Task Achievement."
+            "text": "Paper recycling climbed from 55 per cent in 2000 to a peak of 66 per cent in 2016 before falling to 58 per cent in 2024.",
+            "why": "Gives the start, the peak and the final value in one sentence. \"Climbed from ... to ... before falling to\" is an accurate trend structure, and the correct unit supports accuracy and lexical range."
           },
           {
             "role": "comparison",
-            "text": "In contrast, electricity was the leading source in Valtia, at 52 per cent.",
-            "why": "Introduces the exception to the gas pattern with the linker \"in contrast\". The figure is exact and the phrase \"leading source\" is precise, so the paragraph shows range without listing every bar."
+            "text": "Glass, in contrast, rose steadily from 40 per cent to 64 per cent, which allowed it to overtake paper in the final year.",
+            "why": "\"In contrast\" sets up the comparison and the relative clause \"which allowed it to overtake paper\" links the two lines. It shows a rank change with exact figures and good grammatical range."
           },
           {
-            "role": "closing-detail",
-            "text": "Renewables were most widespread in Kelmar, where 45 per cent of households depended on them.",
-            "why": "Closes the bar chart with the standout figure and links back to the overview point about Kelmar. The relative clause \"where 45 per cent...\" adds grammatical range and accurate data."
+            "role": "trend-detail",
+            "text": "The gap between the two materials had narrowed to just six percentage points by 2016, before the lines crossed.",
+            "why": "A short supporting detail that explains the crossing. \"Percentage points\" is the correct unit for a difference between percentages, and the past perfect shows the narrowing happened first."
           }
         ]
       },
@@ -146,47 +109,53 @@
         "sentences": [
           {
             "role": "topic",
-            "text": "The table shows that energy became more expensive in all four countries between 2013 and 2023.",
-            "why": "Moves to the second visual with a clear signpost and states the shared trend. This gives a clean break between the paragraphs and supports Coherence and Cohesion."
+            "text": "Plastic and metal started from much lower levels, but both were recycled far more by 2024.",
+            "why": "Topic sentence for the second group. \"Started from much lower levels\" and \"far more by 2024\" preview both the starting position and the direction of change, supporting Coherence and Cohesion."
           },
           {
             "role": "key-figures",
-            "text": "Valtia's average annual bill rose from $1,420 to $1,690, the highest figure in both years.",
-            "why": "Reports the start and end values for the most expensive country using \"rose from ... to\". The final phrase adds a ranking comparison, and all figures match the table exactly."
+            "text": "Plastic recycling was negligible at 8 per cent in 2000, yet it increased sharply to 50 per cent by 2024, the biggest rise of any material.",
+            "why": "Pairs the start and end values with \"yet\" for contrast. The apposition \"the biggest rise of any material\" ranks the data and links back to the overview, earning accuracy and cohesion."
           },
           {
             "role": "comparison",
-            "text": "Ostrea saw the sharpest increase, from $980 to $1,260, whereas Kelmar's bill barely changed, edging up from $1,210 to $1,240.",
-            "why": "Contrasts the biggest and smallest changes in one sentence using \"whereas\". Choosing these two countries rather than all four shows selection, and \"sharpest\" and \"edging up\" are precise trend words."
+            "text": "Metal rose more gradually, from 30 per cent to 46 per cent, so plastic overtook it between 2016 and 2024.",
+            "why": "Contrasts the pace of two changes with \"more gradually\" and reports a rank change. The conjunction \"so\" shows the consequence, giving a flowing comparison rather than two separate statements."
+          },
+          {
+            "role": "closing-detail",
+            "text": "By 2024, only 18 percentage points separated the most recycled material from the least recycled.",
+            "why": "Closes the report with a final comparison of the highest and lowest values. The calculated difference shows control of the data, and the sentence adds a new point without a conclusion."
           }
         ]
       }
     ]
   },
-  "guide": "task1-mixed",
+  "guide": "task1-chart",
   "analysis": [
-    "The instruction is to select and report main features and make comparisons. You must cover both the bar chart and the table, but not every number: choose the highest, the lowest and the clearest contrasts.",
-    "The visuals do different jobs. The bar chart compares shares of households across countries in one year, so use comparison language. The table gives costs in two years, so use change language such as rose from ... to.",
-    "Paraphrase: \"main source of energy\" becomes leading energy type; \"households\" becomes homes; \"average annual cost\" becomes what an average household paid each year; \"shows\" becomes compares or illustrates.",
-    "Key features: gas leads in Ostrea (62%) and Norland (55%); electricity leads in Valtia (52%); renewables reach 45% in Kelmar; every bill rises, Valtia is highest, Ostrea rises most and Kelmar least.",
-    "Use one visual per body paragraph, and put a feature from each visual in the overview. Do not claim that the energy source causes the cost: the data do not prove a link between the two visuals."
+    "The instruction is \"Summarise the information by selecting and reporting the main features, and make comparisons where relevant\". With four lines and four dates, you must group and compare the materials, not narrate every point.",
+    "What must be covered: the direction of each material from 2000 to 2024, the one material that fell (paper), the fastest growth (plastic) and the change in rank at the top between paper and glass.",
+    "Paraphrase: \"graph\" becomes line graph; \"percentage recycled\" becomes proportion or rate of recycling; \"household materials\" becomes types of household waste; \"between 2000 and 2024\" becomes over the 24-year period.",
+    "Key features: plastic rises from 8 to 50, the biggest rise; glass overtakes paper in 2024 (64 against 58); paper peaks at 66 in 2016 and then falls; metal rises steadily from 30 to 46.",
+    "Group by similar behaviour: Body 1 for the two leaders (paper and glass), Body 2 for the two lower lines (plastic and metal) that grew from a lower base.",
+    "Do not explain why recycling changed (for example new laws or campaigns) because the graph does not say so, and do not predict rates after 2024."
   ],
   "plan": [
     {
       "paragraph": "Introduction",
-      "idea": "Paraphrase both visuals: main household energy sources in four countries in 2023 (bar chart) and average annual energy cost in 2013 and 2023 (table)."
+      "idea": "Paraphrase: the line graph compares the proportion of four types of household waste recycled in Ashford in 2000, 2008, 2016 and 2024. No data."
     },
     {
       "paragraph": "Overview",
-      "idea": "Gas and electricity dominate in most countries but Kelmar relies on renewables; costs rose everywhere and Valtia is the most expensive. No figures."
+      "idea": "Glass, plastic and metal rose while paper fell at the end. Plastic grew fastest and glass finished as the most recycled. No figures."
     },
     {
       "paragraph": "Body 1",
-      "idea": "Bar chart: gas 62% Ostrea and 55% Norland versus 20% Kelmar; electricity 52% in Valtia; renewables 45% in Kelmar."
+      "idea": "Paper 55 to a peak of 66 in 2016, then 58. Glass 40 to 64 and overtook paper in 2024. The gap was six points in 2016."
     },
     {
       "paragraph": "Body 2",
-      "idea": "Table: Valtia 1,420 to 1,690 (highest); Ostrea 980 to 1,260 (sharpest rise); Kelmar 1,210 to 1,240 (barely changed)."
+      "idea": "Plastic 8 to 50, the biggest rise. Metal 30 to 46, overtaken by plastic. Only 18 points between highest and lowest in 2024."
     }
   ]
 }

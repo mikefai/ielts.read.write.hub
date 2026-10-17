@@ -108,8 +108,8 @@
     "id": "w1-m1",
     "task": 1,
     "dir": "task1",
-    "title": "Mock 1 Task 1: Bar chart and table",
-    "blurb": "Mock exam 1, multiple visuals.",
+    "title": "Mock 1 Task 1: Line graph",
+    "blurb": "Mock exam 1, one visual.",
     "mock": "m1"
   },
   {
@@ -124,8 +124,8 @@
     "id": "w1-m2",
     "task": 1,
     "dir": "task1",
-    "title": "Mock 2 Task 1: Line graph and pie charts",
-    "blurb": "Mock exam 2, multiple visuals.",
+    "title": "Mock 2 Task 1: Bar chart",
+    "blurb": "Mock exam 2, one visual.",
     "mock": "m2"
   },
   {

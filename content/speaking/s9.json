@@ -508,216 +508,225 @@
     }
   },
   "part3": {
-    "theme": "The environment and conservation",
-    "questions": [
+    "topics": [
       {
-        "q": "Why do you think some people show little concern for the environment?",
-        "model": "I think many people feel the problem is too big for them to solve, so they simply look the other way. Others are preoccupied with making ends meet, and protecting nature seems like a luxury. In addition, the damage is often gradual, which makes it easy to ignore. Personally, I believe education and clearer information about the consequences could raise awareness and turn indifference into action. Until that changes, progress will stay slow.",
-        "vocab": [
+        "theme": "Responsibility for the environment",
+        "questions": [
           {
-            "word": "look the other way",
-            "band": 8,
-            "meaning": "deliberately ignore a problem",
-            "example": "Officials who look the other way allow illegal dumping to continue."
+            "q": "Why do you think some people show little concern for the environment?",
+            "model": "I think many people feel the problem is too big for them to solve, so they simply look the other way. Others are preoccupied with making ends meet, and protecting nature seems like a luxury. In addition, the damage is often gradual, which makes it easy to ignore. Personally, I believe education and clearer information about the consequences could raise awareness and turn indifference into action. Until that changes, progress will stay slow.",
+            "vocab": [
+              {
+                "word": "look the other way",
+                "band": 8,
+                "meaning": "deliberately ignore a problem",
+                "example": "Officials who look the other way allow illegal dumping to continue."
+              },
+              {
+                "word": "preoccupied with",
+                "band": 8,
+                "meaning": "so busy thinking about one thing that you ignore others",
+                "example": "Commuters are often preoccupied with deadlines and rarely notice pollution."
+              },
+              {
+                "word": "making ends meet",
+                "band": 8,
+                "meaning": "earning just enough money to pay for basic needs",
+                "example": "Many families are preoccupied with making ends meet, so recycling is not a priority."
+              },
+              {
+                "word": "raise awareness",
+                "band": 7,
+                "meaning": "help more people understand a problem",
+                "example": "Documentaries can raise awareness of how plastic harms marine life."
+              }
+            ],
+            "phrases": [
+              "I think many people feel ..., so they simply ...",
+              "Others are preoccupied with ..., and ... seems like a luxury.",
+              "Personally, I believe ... could raise awareness and ..."
+            ]
           },
           {
-            "word": "preoccupied with",
-            "band": 8,
-            "meaning": "so busy thinking about one thing that you ignore others",
-            "example": "Commuters are often preoccupied with deadlines and rarely notice pollution."
+            "q": "To what extent should individuals, rather than governments, be responsible for protecting the environment?",
+            "model": "To a certain extent, but I'd say governments carry the greater burden. Individuals can recycle and cut down on waste, yet only legislation can force large factories to curb their emissions. Without strict regulations, businesses tend to put profit first. That said, personal choices add up, and consumer pressure can push companies towards greener practices. So I think real progress needs both levels working together. Honestly, neither side can succeed entirely alone.",
+            "vocab": [
+              {
+                "word": "curb their emissions",
+                "band": 8,
+                "meaning": "limit the amount of harmful gas they release",
+                "example": "Cities are introducing charges to make drivers curb their emissions."
+              },
+              {
+                "word": "strict regulations",
+                "band": 7,
+                "meaning": "firm official rules that must be obeyed",
+                "example": "Strict regulations have cleaned up the rivers around the old factories."
+              },
+              {
+                "word": "put profit first",
+                "band": 8,
+                "meaning": "care more about making money than about anything else",
+                "example": "Some firms put profit first and ignore the damage they cause."
+              },
+              {
+                "word": "add up",
+                "band": 7,
+                "meaning": "gradually become a large total",
+                "example": "Small savings add up over the course of a whole year."
+              }
+            ],
+            "phrases": [
+              "To a certain extent, but I'd say ... carry the greater burden.",
+              "Without strict ..., businesses tend to ...",
+              "That said, personal choices add up, and ..."
+            ]
           },
           {
-            "word": "making ends meet",
-            "band": 8,
-            "meaning": "earning just enough money to pay for basic needs",
-            "example": "Many families are preoccupied with making ends meet, so recycling is not a priority."
-          },
-          {
-            "word": "raise awareness",
-            "band": 7,
-            "meaning": "help more people understand a problem",
-            "example": "Documentaries can raise awareness of how plastic harms marine life."
+            "q": "Is it right to ask people to pay more tax to protect the environment?",
+            "model": "I think it is reasonable, provided the money is spent transparently. Environmental damage costs everyone in the long run, so it makes sense for us all to contribute. For example, a small levy on plastic bags has dramatically reduced litter in many countries. However, the burden should fall mainly on heavy polluters rather than low-income families who are already struggling. Transparency would help citizens trust the system and accept the cost.",
+            "vocab": [
+              {
+                "word": "in the long run",
+                "band": 7,
+                "meaning": "over a long period of time, eventually",
+                "example": "Cheap shoes can cost more in the long run because they wear out fast."
+              },
+              {
+                "word": "a small levy",
+                "band": 8,
+                "meaning": "a modest extra charge added by the government",
+                "example": "A small levy on disposable cups encouraged people to bring their own."
+              },
+              {
+                "word": "heavy polluters",
+                "band": 8,
+                "meaning": "companies or people that cause a lot of pollution",
+                "example": "Heavy polluters should pay for cleaning the rivers they contaminate."
+              },
+              {
+                "word": "low-income families",
+                "band": 7,
+                "meaning": "households that earn very little money",
+                "example": "Low-income families spend a large share of their wages on energy bills."
+              }
+            ],
+            "phrases": [
+              "I think it is reasonable, provided ...",
+              "... costs everyone in the long run, so it makes sense for us all to ...",
+              "However, the burden should fall mainly on ... rather than ..."
+            ]
           }
-        ],
-        "phrases": [
-          "I think many people feel ..., so they simply ...",
-          "Others are preoccupied with ..., and ... seems like a luxury.",
-          "Personally, I believe ... could raise awareness and ..."
         ]
       },
       {
-        "q": "To what extent should individuals, rather than governments, be responsible for protecting the environment?",
-        "model": "To a certain extent, but I'd say governments carry the greater burden. Individuals can recycle and cut down on waste, yet only legislation can force large factories to curb their emissions. Without strict regulations, businesses tend to put profit first. That said, personal choices add up, and consumer pressure can push companies towards greener practices. So I think real progress needs both levels working together. Honestly, neither side can succeed entirely alone.",
-        "vocab": [
+        "theme": "Conservation and climate change",
+        "questions": [
           {
-            "word": "curb their emissions",
-            "band": 8,
-            "meaning": "limit the amount of harmful gas they release",
-            "example": "Cities are introducing charges to make drivers curb their emissions."
+            "q": "Should wildlife reserves and national parks receive more funding?",
+            "model": "Yes, I firmly believe they should. Many species are on the brink of extinction because their habitats are shrinking, and protected areas give them a fighting chance. Parks also draw tourists, so the investment often pays for itself. However, funding alone is not enough; rangers need proper training, and local communities must benefit, otherwise people will resent the restrictions. Personally, I would rather see taxes fund these places than luxury projects.",
+            "vocab": [
+              {
+                "word": "on the brink of extinction",
+                "band": 9,
+                "meaning": "very close to disappearing forever",
+                "example": "Several rare frogs are on the brink of extinction because of drought."
+              },
+              {
+                "word": "protected areas",
+                "band": 7,
+                "meaning": "places where law prevents damage to nature",
+                "example": "Protected areas have helped the number of tigers slowly recover."
+              },
+              {
+                "word": "fighting chance",
+                "band": 8,
+                "meaning": "a small but real opportunity to succeed",
+                "example": "Early treatment gave the injured eagle a fighting chance of survival."
+              },
+              {
+                "word": "pays for itself",
+                "band": 8,
+                "meaning": "earns back as much money as it costs",
+                "example": "A good cycling network pays for itself through healthier citizens."
+              }
+            ],
+            "phrases": [
+              "Yes, I firmly believe they should. Many ... are on the brink of ...",
+              "... give them a fighting chance.",
+              "However, funding alone is not enough; ... need ..."
+            ]
           },
           {
-            "word": "strict regulations",
-            "band": 7,
-            "meaning": "firm official rules that must be obeyed",
-            "example": "Strict regulations have cleaned up the rivers around the old factories."
+            "q": "What might happen if we fail to tackle climate change in the coming decades?",
+            "model": "The consequences could be severe. Rising sea levels may swallow low-lying coastal cities, and droughts and floods could wipe out entire harvests. This would trigger food shortages and force millions to leave their homes. It's a sobering thought, which is why I think governments must act decisively now rather than leave the problem to future generations. Sadly, the poorest countries would suffer first, even though they contribute least to the problem.",
+            "vocab": [
+              {
+                "word": "rising sea levels",
+                "band": 8,
+                "meaning": "the ocean getting higher over time",
+                "example": "Rising sea levels already threaten several small island nations."
+              },
+              {
+                "word": "wipe out",
+                "band": 8,
+                "meaning": "destroy completely",
+                "example": "A single severe frost can wipe out a farmer's entire apple crop."
+              },
+              {
+                "word": "food shortages",
+                "band": 7,
+                "meaning": "times when there is not enough food for people",
+                "example": "Food shortages led to rising prices and protests in the capital."
+              },
+              {
+                "word": "sobering thought",
+                "band": 8,
+                "meaning": "an idea that makes you feel serious and worried",
+                "example": "It is a sobering thought that glaciers could vanish within decades."
+              }
+            ],
+            "phrases": [
+              "The consequences could be severe. ... may swallow ..., and ...",
+              "This would trigger ... and force ...",
+              "It's a sobering thought, which is why I think ... must act ..."
+            ]
           },
           {
-            "word": "put profit first",
-            "band": 8,
-            "meaning": "care more about making money than about anything else",
-            "example": "Some firms put profit first and ignore the damage they cause."
-          },
-          {
-            "word": "add up",
-            "band": 7,
-            "meaning": "gradually become a large total",
-            "example": "Small savings add up over the course of a whole year."
+            "q": "How far can technology be relied upon to solve environmental problems?",
+            "model": "Technology can certainly help, but it is no silver bullet. Renewable energy, such as solar and wind power, is already reducing our dependence on fossil fuels, and electric vehicles are becoming mainstream. On the other hand, relying solely on innovation may encourage people to carry on consuming as before. In my view, we need to combine new technology with genuine changes in lifestyle. Otherwise, we risk postponing difficult decisions. That balance is the only realistic path forward.",
+            "vocab": [
+              {
+                "word": "silver bullet",
+                "band": 8,
+                "meaning": "a simple solution that fixes a complicated problem",
+                "example": "Nobody should expect a silver bullet for plastic pollution."
+              },
+              {
+                "word": "renewable energy",
+                "band": 7,
+                "meaning": "power from sources that do not run out, such as wind",
+                "example": "Renewable energy now supplies a third of the country's electricity."
+              },
+              {
+                "word": "dependence on fossil fuels",
+                "band": 8,
+                "meaning": "needing coal, oil and gas for most of our power",
+                "example": "Reducing our dependence on fossil fuels will take at least two decades."
+              },
+              {
+                "word": "changes in lifestyle",
+                "band": 7,
+                "meaning": "alterations to how people live and behave day to day",
+                "example": "Eating less meat is one of the easiest changes in lifestyle to make."
+              }
+            ],
+            "phrases": [
+              "Technology can certainly help, but it is no silver bullet.",
+              "On the other hand, relying solely on ... may encourage people to ...",
+              "In my view, we need to combine ... with genuine ..."
+            ]
           }
-        ],
-        "phrases": [
-          "To a certain extent, but I'd say ... carry the greater burden.",
-          "Without strict ..., businesses tend to ...",
-          "That said, personal choices add up, and ..."
-        ]
-      },
-      {
-        "q": "Should wildlife reserves and national parks receive more funding?",
-        "model": "Yes, I firmly believe they should. Many species are on the brink of extinction because their habitats are shrinking, and protected areas give them a fighting chance. Parks also draw tourists, so the investment often pays for itself. However, funding alone is not enough; rangers need proper training, and local communities must benefit, otherwise people will resent the restrictions. Personally, I would rather see taxes fund these places than luxury projects.",
-        "vocab": [
-          {
-            "word": "on the brink of extinction",
-            "band": 9,
-            "meaning": "very close to disappearing forever",
-            "example": "Several rare frogs are on the brink of extinction because of drought."
-          },
-          {
-            "word": "protected areas",
-            "band": 7,
-            "meaning": "places where law prevents damage to nature",
-            "example": "Protected areas have helped the number of tigers slowly recover."
-          },
-          {
-            "word": "fighting chance",
-            "band": 8,
-            "meaning": "a small but real opportunity to succeed",
-            "example": "Early treatment gave the injured eagle a fighting chance of survival."
-          },
-          {
-            "word": "pays for itself",
-            "band": 8,
-            "meaning": "earns back as much money as it costs",
-            "example": "A good cycling network pays for itself through healthier citizens."
-          }
-        ],
-        "phrases": [
-          "Yes, I firmly believe they should. Many ... are on the brink of ...",
-          "... give them a fighting chance.",
-          "However, funding alone is not enough; ... need ..."
-        ]
-      },
-      {
-        "q": "What might happen if we fail to tackle climate change in the coming decades?",
-        "model": "The consequences could be severe. Rising sea levels may swallow low-lying coastal cities, and droughts and floods could wipe out entire harvests. This would trigger food shortages and force millions to leave their homes. It's a sobering thought, which is why I think governments must act decisively now rather than leave the problem to future generations. Sadly, the poorest countries would suffer first, even though they contribute least to the problem.",
-        "vocab": [
-          {
-            "word": "rising sea levels",
-            "band": 8,
-            "meaning": "the ocean getting higher over time",
-            "example": "Rising sea levels already threaten several small island nations."
-          },
-          {
-            "word": "wipe out",
-            "band": 8,
-            "meaning": "destroy completely",
-            "example": "A single severe frost can wipe out a farmer's entire apple crop."
-          },
-          {
-            "word": "food shortages",
-            "band": 7,
-            "meaning": "times when there is not enough food for people",
-            "example": "Food shortages led to rising prices and protests in the capital."
-          },
-          {
-            "word": "sobering thought",
-            "band": 8,
-            "meaning": "an idea that makes you feel serious and worried",
-            "example": "It is a sobering thought that glaciers could vanish within decades."
-          }
-        ],
-        "phrases": [
-          "The consequences could be severe. ... may swallow ..., and ...",
-          "This would trigger ... and force ...",
-          "It's a sobering thought, which is why I think ... must act ..."
-        ]
-      },
-      {
-        "q": "How far can technology be relied upon to solve environmental problems?",
-        "model": "Technology can certainly help, but it is no silver bullet. Renewable energy, such as solar and wind power, is already reducing our dependence on fossil fuels, and electric vehicles are becoming mainstream. On the other hand, relying solely on innovation may encourage people to carry on consuming as before. In my view, we need to combine new technology with genuine changes in lifestyle. Otherwise, we risk postponing difficult decisions. That balance is the only realistic path forward.",
-        "vocab": [
-          {
-            "word": "silver bullet",
-            "band": 8,
-            "meaning": "a simple solution that fixes a complicated problem",
-            "example": "Nobody should expect a silver bullet for plastic pollution."
-          },
-          {
-            "word": "renewable energy",
-            "band": 7,
-            "meaning": "power from sources that do not run out, such as wind",
-            "example": "Renewable energy now supplies a third of the country's electricity."
-          },
-          {
-            "word": "dependence on fossil fuels",
-            "band": 8,
-            "meaning": "needing coal, oil and gas for most of our power",
-            "example": "Reducing our dependence on fossil fuels will take at least two decades."
-          },
-          {
-            "word": "changes in lifestyle",
-            "band": 7,
-            "meaning": "alterations to how people live and behave day to day",
-            "example": "Eating less meat is one of the easiest changes in lifestyle to make."
-          }
-        ],
-        "phrases": [
-          "Technology can certainly help, but it is no silver bullet.",
-          "On the other hand, relying solely on ... may encourage people to ...",
-          "In my view, we need to combine ... with genuine ..."
-        ]
-      },
-      {
-        "q": "Is it right to ask people to pay more tax to protect the environment?",
-        "model": "I think it is reasonable, provided the money is spent transparently. Environmental damage costs everyone in the long run, so it makes sense for us all to contribute. For example, a small levy on plastic bags has dramatically reduced litter in many countries. However, the burden should fall mainly on heavy polluters rather than low-income families who are already struggling. Transparency would help citizens trust the system and accept the cost.",
-        "vocab": [
-          {
-            "word": "in the long run",
-            "band": 7,
-            "meaning": "over a long period of time, eventually",
-            "example": "Cheap shoes can cost more in the long run because they wear out fast."
-          },
-          {
-            "word": "a small levy",
-            "band": 8,
-            "meaning": "a modest extra charge added by the government",
-            "example": "A small levy on disposable cups encouraged people to bring their own."
-          },
-          {
-            "word": "heavy polluters",
-            "band": 8,
-            "meaning": "companies or people that cause a lot of pollution",
-            "example": "Heavy polluters should pay for cleaning the rivers they contaminate."
-          },
-          {
-            "word": "low-income families",
-            "band": 7,
-            "meaning": "households that earn very little money",
-            "example": "Low-income families spend a large share of their wages on energy bills."
-          }
-        ],
-        "phrases": [
-          "I think it is reasonable, provided ...",
-          "... costs everyone in the long run, so it makes sense for us all to ...",
-          "However, the burden should fall mainly on ... rather than ..."
         ]
       }
     ]

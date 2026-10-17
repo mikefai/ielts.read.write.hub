@@ -1,5 +1,5 @@
 import { mountDisplayMenu } from '../../../assets/core/display.js';
-import { getJSON, esc, mmss, helpHtml, wireHelp, flashPara } from './runner.js';
+import { getJSON, esc, mmss, helpHtml, wireHelp, flashPara, rubric } from './runner.js';
 import { renderers } from './renderers.js';
 import { markItem } from './marking.js';
 import { bandFor } from './band.js';
@@ -32,13 +32,15 @@ export async function startTest({ mount, minutes = 60 }) {
   const ppanes = mount.querySelector('#ppanes'), qpanes = mount.querySelector('#qpanes');
   passages.forEach((ps, pi) => {
     const pp = document.createElement('article'); pp.className = 'card passage'; pp.hidden = pi > 0; pp.dataset.pid = ps.id;
-    pp.innerHTML = `<h2>${esc(ps.title)}</h2>` + ps.paragraphs.map(p => `<p data-label="${p.label}"><strong>${p.label}</strong> ${esc(p.text)}</p>`).join('');
+    pp.innerHTML = `<p class="kicker">Reading Passage ${pi + 1}</p><h2>${esc(ps.title)}</h2>` + ps.paragraphs.map(p => `<p data-label="${p.label}"><strong>${p.label}</strong> ${esc(p.text)}</p>`).join('');
     ppanes.append(pp);
-    const qp = document.createElement('section'); qp.className = 'card sheet'; qp.hidden = pi > 0; qpanes.append(qp);
+    const qp = document.createElement('section'); qp.className = 'card sheet'; qp.hidden = pi > 0;
+    qp.innerHTML = `<p class="muted">You should spend about 20 minutes on Questions ${ranges[pi][0]}–${ranges[pi][1]}, which are based on Reading Passage ${pi + 1} below.</p>`;
+    qpanes.append(qp);
     let from = ranges[pi][0];
     sets[pi].forEach(set => {
       const g = document.createElement('div'); g.className = 'group';
-      g.innerHTML = `<h3>Questions ${from}–${from + set.items.length - 1}</h3><p class="muted">${esc(set.instructions ?? '')}</p>`;
+      g.innerHTML = `<h3>Questions ${from}–${from + set.items.length - 1}</h3><p class="muted">${esc(rubric(set.instructions ?? '', pi + 1))}</p>`;
       const box = document.createElement('div'); box.className = 'gbox'; box.style.counterReset = `q ${from - 1}`;
       g.append(box); qp.append(g);
       const base = flat.length;

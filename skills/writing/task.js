@@ -48,11 +48,12 @@ function guidePanels(task, g) {
 function run(task, roles, meta, guide, bank, dict) {
   const minutes = task.task === 1 ? 20 : 40, minWords = task.task === 1 ? 150 : 250;
   const paras = task.model.paragraphs, last = loadLast(task.id);
+  const rub = t => t && !task.prompt.includes(t) ? `<p class="muted">${esc(t)}</p>` : ''; // exam rubric line, skipped if the prompt already says it
   app.innerHTML = `
     <header class="head"><div><p class="kicker">Task ${task.task} &middot; ${esc(task.essayType ?? meta.title)}</p><h1>${esc(task.title ?? meta.title)}</h1></div>
       <div class="timebox"><span id="timer" role="timer">${mmss(minutes * 60)}</span><p id="phase" class="phase" aria-live="polite"></p><span id="dispslot"></span></div></header>
     <div class="split">
-      <div class="left"><section class="card prompt"><h2>The task</h2><p>${esc(task.prompt)}</p>${task.chart ? `<div class="chart">${renderChart(task.chart)}</div><div class="kf"></div>` : ''}</section>
+      <div class="left"><section class="card prompt"><h2>The task</h2><p class="muted">You should spend about ${minutes} minutes on this task.</p>${rub(task.task === 2 && 'Write about the following topic:')}<p>${esc(task.prompt)}</p>${rub(task.task === 2 && 'Give reasons for your answer and include any relevant examples from your own knowledge or experience.')}${task.chart ? `<div class="chart">${renderChart(task.chart)}</div><div class="kf"></div>` : ''}<p class="muted">Write at least ${minWords} words.</p></section>
       ${guide ? `<section class="card guide"><h2>Understand and plan</h2>
         <div class="gtabs" role="group" aria-label="Guidance"><button type="button" data-g="analyse" aria-expanded="false">Analyse the question</button><button type="button" data-g="plan" aria-expanded="false">Plan your answer</button><button type="button" data-g="how" aria-expanded="false">How this ${task.task === 1 ? 'report' : 'essay'} works</button><button type="button" data-g="lang" aria-expanded="false">Language bank</button></div>
         <div class="gpanel" hidden></div><p><a href="../learn/#${task.guide}">Full study notes for this task type &rarr;</a></p></section>` : ''}

@@ -41,17 +41,20 @@ export function validateWriting(task, roles, guides) {
   return errs;
 }
 
-// tasks: id -> task object. Each mock = a mixed Task 1 (2-3 visuals) + a Task 2.
+// tasks: id -> task object. Each mock = a Task 1 + a Task 2; at most one mock has a mixed Task 1 (2-3 visuals).
 export function validateMocks(mocks, tasks) {
   const errs = [];
+  let nMixed = 0;
   for (const m of mocks) for (const k of ['task1', 'task2']) {
     const t = tasks[m[k]];
     if (!t) { errs.push(`mock ${m.id}: missing ${k} "${m[k]}"`); continue; }
     if (k === 'task1') {
-      if (t.chart?.kind !== 'mixed') errs.push(`mock ${m.id}: Task 1 must be a mixed chart`);
-      else if (t.chart.charts.length < 2 || t.chart.charts.length > 3) errs.push(`mock ${m.id}: Task 1 needs 2-3 visuals`);
+      if (t.chart?.kind !== 'mixed') continue;
+      nMixed++;
+      if (t.chart.charts.length < 2 || t.chart.charts.length > 3) errs.push(`mock ${m.id}: Task 1 needs 2-3 visuals`);
     }
   }
+  if (nMixed > 1) errs.push('mocks: only one mock may use a mixed Task 1 (the exam usually shows one visual)');
   return errs;
 }
 

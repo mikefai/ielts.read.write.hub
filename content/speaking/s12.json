@@ -237,96 +237,105 @@
     }
   },
   "part3": {
-    "theme": "Architecture and urban planning",
-    "questions": [
+    "topics": [
       {
-        "q": "Why do some cities choose to build very tall skyscrapers?",
-        "model": "I think it mostly comes down to land and prestige. Where space is scarce, building upwards is the only way to accommodate a growing population, so skyscrapers make practical sense. They also act as status symbols that signal economic success and attract foreign investment. However, there is a downside, because towering blocks can cast long shadows and make streets feel soulless. Personally, I believe cities should balance height with human-scale design, so that residents still feel connected to the neighbourhood around them.",
-        "vocab": [
-          { "word": "accommodate a growing population", "band": 8, "meaning": "provide enough homes and space for more and more people", "example": "The city must accommodate a growing population without losing its green areas." },
-          { "word": "status symbols", "band": 8, "meaning": "possessions that show wealth or high social position", "example": "For some businesses, a glass tower is one of the main status symbols." },
-          { "word": "foreign investment", "band": 7, "meaning": "money put into a country's economy by overseas companies", "example": "Foreign investment has created thousands of new jobs in the port district." },
-          { "word": "human-scale design", "band": 9, "meaning": "planning that keeps buildings and streets comfortable for people", "example": "Human-scale design makes a neighbourhood feel friendly rather than overwhelming to walk through." }
-        ],
-        "phrases": [
-          "I think it mostly comes down to ...",
-          "Where ... is scarce, ... is the only way to ...",
-          "Personally, I believe cities should balance ... with ..."
+        "theme": "Building and design",
+        "questions": [
+          {
+            "q": "Why do some cities choose to build very tall skyscrapers?",
+            "model": "I think it mostly comes down to land and prestige. Where space is scarce, building upwards is the only way to accommodate a growing population, so skyscrapers make practical sense. They also act as status symbols that signal economic success and attract foreign investment. However, there is a downside, because towering blocks can cast long shadows and make streets feel soulless. Personally, I believe cities should balance height with human-scale design, so that residents still feel connected to the neighbourhood around them.",
+            "vocab": [
+              { "word": "accommodate a growing population", "band": 8, "meaning": "provide enough homes and space for more and more people", "example": "The city must accommodate a growing population without losing its green areas." },
+              { "word": "status symbols", "band": 8, "meaning": "possessions that show wealth or high social position", "example": "For some businesses, a glass tower is one of the main status symbols." },
+              { "word": "foreign investment", "band": 7, "meaning": "money put into a country's economy by overseas companies", "example": "Foreign investment has created thousands of new jobs in the port district." },
+              { "word": "human-scale design", "band": 9, "meaning": "planning that keeps buildings and streets comfortable for people", "example": "Human-scale design makes a neighbourhood feel friendly rather than overwhelming to walk through." }
+            ],
+            "phrases": [
+              "I think it mostly comes down to ...",
+              "Where ... is scarce, ... is the only way to ...",
+              "Personally, I believe cities should balance ... with ..."
+            ]
+          },
+          {
+            "q": "To what extent should governments control what buildings look like?",
+            "model": "To some extent, I think regulation is justified. Planning rules can stop developers from putting up eyesores that spoil the character of a whole district, and safety standards protect residents. Nevertheless, too much control can stifle creativity and push up construction costs. In my view, authorities should set clear limits on height and materials but leave architects free to experiment within them. That way, a city can stay coherent without becoming dull or uniform.",
+            "vocab": [
+              { "word": "planning rules", "band": 7, "meaning": "official laws about what may be built and where", "example": "Strict planning rules prevent anyone from building a factory near the school." },
+              { "word": "eyesores", "band": 8, "meaning": "ugly buildings that spoil the look of an area", "example": "Several concrete eyesores were demolished to make room for a public square." },
+              { "word": "stifle creativity", "band": 9, "meaning": "prevent people from having or using original ideas", "example": "Too many rigid rules can stifle creativity in young design students." },
+              { "word": "push up construction costs", "band": 8, "meaning": "make building work more expensive", "example": "Rising steel prices can push up construction costs for the whole project." }
+            ],
+            "phrases": [
+              "To some extent, I think ... is justified.",
+              "Nevertheless, too much ... can ...",
+              "In my view, authorities should set clear limits on ... but leave ... free to ..."
+            ]
+          },
+          {
+            "q": "Is it better to build new towns or to redevelop existing areas?",
+            "model": "Generally I favour redeveloping existing areas because the infrastructure, such as roads and sewers, is already in place. Building from scratch eats up farmland and forces people to travel long distances. Admittedly, new towns can be carefully planned around public transport, which avoids the chaos of older districts. Even so, I think regenerating run-down neighbourhoods is more sustainable and gives struggling communities a real boost. Cost is the deciding factor for most governments anyway.",
+            "vocab": [
+              { "word": "infrastructure", "band": 8, "meaning": "the basic systems a place needs, such as roads, pipes and power", "example": "Poor infrastructure makes it hard for small businesses to grow in rural areas." },
+              { "word": "from scratch", "band": 7, "meaning": "starting completely new, with nothing already prepared", "example": "They built the whole research campus from scratch in only three years." },
+              { "word": "eats up farmland", "band": 8, "meaning": "uses large amounts of land that was used for growing food", "example": "Urban sprawl eats up farmland that once fed the surrounding villages." },
+              { "word": "run-down neighbourhoods", "band": 8, "meaning": "poor areas in bad condition because of neglect", "example": "Investment in run-down neighbourhoods can bring jobs and hope back to residents." }
+            ],
+            "phrases": [
+              "Generally I favour ... because ...",
+              "Admittedly, ... can be carefully planned around ..., which avoids ...",
+              "Even so, I think ... is more sustainable and gives ... a real boost."
+            ]
+          }
         ]
       },
       {
-        "q": "To what extent should governments control what buildings look like?",
-        "model": "To some extent, I think regulation is justified. Planning rules can stop developers from putting up eyesores that spoil the character of a whole district, and safety standards protect residents. Nevertheless, too much control can stifle creativity and push up construction costs. In my view, authorities should set clear limits on height and materials but leave architects free to experiment within them. That way, a city can stay coherent without becoming dull or uniform.",
-        "vocab": [
-          { "word": "planning rules", "band": 7, "meaning": "official laws about what may be built and where", "example": "Strict planning rules prevent anyone from building a factory near the school." },
-          { "word": "eyesores", "band": 8, "meaning": "ugly buildings that spoil the look of an area", "example": "Several concrete eyesores were demolished to make room for a public square." },
-          { "word": "stifle creativity", "band": 9, "meaning": "prevent people from having or using original ideas", "example": "Too many rigid rules can stifle creativity in young design students." },
-          { "word": "push up construction costs", "band": 8, "meaning": "make building work more expensive", "example": "Rising steel prices can push up construction costs for the whole project." }
-        ],
-        "phrases": [
-          "To some extent, I think ... is justified.",
-          "Nevertheless, too much ... can ...",
-          "In my view, authorities should set clear limits on ... but leave ... free to ..."
-        ]
-      },
-      {
-        "q": "Should historic neighbourhoods be protected even if the city needs more housing?",
-        "model": "It's a difficult balance, but I'd argue that protection should usually win. Once a heritage district is demolished, it can never be rebuilt, and it often draws tourists who support local businesses. Having said that, cities cannot ignore the housing shortage, which pushes rents sky-high. A sensible compromise would be to build upwards on nearby derelict sites instead, so that old streets survive and newcomers still find affordable homes nearby.",
-        "vocab": [
-          { "word": "heritage district", "band": 8, "meaning": "an area officially protected because of its history", "example": "The heritage district attracts visitors who enjoy its narrow lanes and old houses." },
-          { "word": "housing shortage", "band": 8, "meaning": "a situation where there are not enough homes for people", "example": "A housing shortage forces many young couples to live with their parents." },
-          { "word": "derelict sites", "band": 9, "meaning": "abandoned land or buildings that nobody is using", "example": "Derelict sites near the station could be turned into low-cost apartments." },
-          { "word": "having said that", "band": 7, "meaning": "used to introduce a point that contrasts with the previous one", "example": "I love old streets; having said that, I also value modern comforts." }
-        ],
-        "phrases": [
-          "It's a difficult balance, but I'd argue that ... should usually win.",
-          "Having said that, cities cannot ignore ...",
-          "A sensible compromise would be to ... instead, so that ..."
-        ]
-      },
-      {
-        "q": "What might cities look like in fifty years?",
-        "model": "I imagine they will be far greener and more compact. With climate change looming, architects are already experimenting with buildings covered in plants that absorb carbon, and rooftops that generate solar power. Cars will probably be banned from central areas, leaving pedestrian-friendly streets lined with cycle lanes. Of course, technology could also make cities more intrusive through constant surveillance, so planners must safeguard people's privacy. Overall, I'm cautiously optimistic that urban life will become healthier and more pleasant.",
-        "vocab": [
-          { "word": "generate solar power", "band": 7, "meaning": "produce electricity from sunlight", "example": "Many new schools now generate solar power to cut their electricity bills." },
-          { "word": "pedestrian-friendly", "band": 8, "meaning": "designed to be safe and pleasant for people walking", "example": "The old centre became pedestrian-friendly once cars were banned from its main street." },
-          { "word": "constant surveillance", "band": 8, "meaning": "being watched or monitored all the time", "example": "Many citizens worry about constant surveillance by cameras on every street corner." },
-          { "word": "cautiously optimistic", "band": 8, "meaning": "hopeful about the future but aware of possible problems", "example": "Experts are cautiously optimistic that air quality will improve over the next decade." }
-        ],
-        "phrases": [
-          "I imagine they will be far ... and more ...",
-          "With ... looming, architects are already experimenting with ...",
-          "Overall, I'm cautiously optimistic that ..."
-        ]
-      },
-      {
-        "q": "How far do green spaces improve life for people in crowded cities?",
-        "model": "I'd say they make a remarkable difference. Parks provide a refuge from noise and stress, and research suggests that even a short walk among trees can lift your spirits. They also encourage people to exercise and meet neighbours, which strengthens community ties. Furthermore, trees help lower summer temperatures in built-up areas. Of course, a park alone will not solve overcrowding, but it certainly makes dense neighbourhoods far more liveable for families and older residents.",
-        "vocab": [
-          { "word": "make a remarkable difference", "band": 8, "meaning": "have a surprisingly large positive effect", "example": "A few extra street lamps can make a remarkable difference to safety at night." },
-          { "word": "lift your spirits", "band": 7, "meaning": "make you feel happier and more positive", "example": "A bunch of fresh flowers can really lift your spirits on a grey day." },
-          { "word": "community ties", "band": 8, "meaning": "friendly links between people who live in the same area", "example": "Weekly street markets strengthen community ties among older and younger residents." },
-          { "word": "built-up areas", "band": 8, "meaning": "places densely covered with buildings and roads", "example": "Temperatures are noticeably higher in built-up areas than in the countryside." }
-        ],
-        "phrases": [
-          "I'd say they make a remarkable difference.",
-          "... provide a refuge from ..., and research suggests that ...",
-          "Of course, ... alone will not solve ..., but it certainly makes ..."
-        ]
-      },
-      {
-        "q": "Is it better to build new towns or to redevelop existing areas?",
-        "model": "Generally I favour redeveloping existing areas because the infrastructure, such as roads and sewers, is already in place. Building from scratch eats up farmland and forces people to travel long distances. Admittedly, new towns can be carefully planned around public transport, which avoids the chaos of older districts. Even so, I think regenerating run-down neighbourhoods is more sustainable and gives struggling communities a real boost. Cost is the deciding factor for most governments anyway.",
-        "vocab": [
-          { "word": "infrastructure", "band": 8, "meaning": "the basic systems a place needs, such as roads, pipes and power", "example": "Poor infrastructure makes it hard for small businesses to grow in rural areas." },
-          { "word": "from scratch", "band": 7, "meaning": "starting completely new, with nothing already prepared", "example": "They built the whole research campus from scratch in only three years." },
-          { "word": "eats up farmland", "band": 8, "meaning": "uses large amounts of land that was used for growing food", "example": "Urban sprawl eats up farmland that once fed the surrounding villages." },
-          { "word": "run-down neighbourhoods", "band": 8, "meaning": "poor areas in bad condition because of neglect", "example": "Investment in run-down neighbourhoods can bring jobs and hope back to residents." }
-        ],
-        "phrases": [
-          "Generally I favour ... because ...",
-          "Admittedly, ... can be carefully planned around ..., which avoids ...",
-          "Even so, I think ... is more sustainable and gives ... a real boost."
+        "theme": "Protecting and improving cities",
+        "questions": [
+          {
+            "q": "Should historic neighbourhoods be protected even if the city needs more housing?",
+            "model": "It's a difficult balance, but I'd argue that protection should usually win. Once a heritage district is demolished, it can never be rebuilt, and it often draws tourists who support local businesses. Having said that, cities cannot ignore the housing shortage, which pushes rents sky-high. A sensible compromise would be to build upwards on nearby derelict sites instead, so that old streets survive and newcomers still find affordable homes nearby.",
+            "vocab": [
+              { "word": "heritage district", "band": 8, "meaning": "an area officially protected because of its history", "example": "The heritage district attracts visitors who enjoy its narrow lanes and old houses." },
+              { "word": "housing shortage", "band": 8, "meaning": "a situation where there are not enough homes for people", "example": "A housing shortage forces many young couples to live with their parents." },
+              { "word": "derelict sites", "band": 9, "meaning": "abandoned land or buildings that nobody is using", "example": "Derelict sites near the station could be turned into low-cost apartments." },
+              { "word": "having said that", "band": 7, "meaning": "used to introduce a point that contrasts with the previous one", "example": "I love old streets; having said that, I also value modern comforts." }
+            ],
+            "phrases": [
+              "It's a difficult balance, but I'd argue that ... should usually win.",
+              "Having said that, cities cannot ignore ...",
+              "A sensible compromise would be to ... instead, so that ..."
+            ]
+          },
+          {
+            "q": "What might cities look like in fifty years?",
+            "model": "I imagine they will be far greener and more compact. With climate change looming, architects are already experimenting with buildings covered in plants that absorb carbon, and rooftops that generate solar power. Cars will probably be banned from central areas, leaving pedestrian-friendly streets lined with cycle lanes. Of course, technology could also make cities more intrusive through constant surveillance, so planners must safeguard people's privacy. Overall, I'm cautiously optimistic that urban life will become healthier and more pleasant.",
+            "vocab": [
+              { "word": "generate solar power", "band": 7, "meaning": "produce electricity from sunlight", "example": "Many new schools now generate solar power to cut their electricity bills." },
+              { "word": "pedestrian-friendly", "band": 8, "meaning": "designed to be safe and pleasant for people walking", "example": "The old centre became pedestrian-friendly once cars were banned from its main street." },
+              { "word": "constant surveillance", "band": 8, "meaning": "being watched or monitored all the time", "example": "Many citizens worry about constant surveillance by cameras on every street corner." },
+              { "word": "cautiously optimistic", "band": 8, "meaning": "hopeful about the future but aware of possible problems", "example": "Experts are cautiously optimistic that air quality will improve over the next decade." }
+            ],
+            "phrases": [
+              "I imagine they will be far ... and more ...",
+              "With ... looming, architects are already experimenting with ...",
+              "Overall, I'm cautiously optimistic that ..."
+            ]
+          },
+          {
+            "q": "How far do green spaces improve life for people in crowded cities?",
+            "model": "I'd say they make a remarkable difference. Parks provide a refuge from noise and stress, and research suggests that even a short walk among trees can lift your spirits. They also encourage people to exercise and meet neighbours, which strengthens community ties. Furthermore, trees help lower summer temperatures in built-up areas. Of course, a park alone will not solve overcrowding, but it certainly makes dense neighbourhoods far more liveable for families and older residents.",
+            "vocab": [
+              { "word": "make a remarkable difference", "band": 8, "meaning": "have a surprisingly large positive effect", "example": "A few extra street lamps can make a remarkable difference to safety at night." },
+              { "word": "lift your spirits", "band": 7, "meaning": "make you feel happier and more positive", "example": "A bunch of fresh flowers can really lift your spirits on a grey day." },
+              { "word": "community ties", "band": 8, "meaning": "friendly links between people who live in the same area", "example": "Weekly street markets strengthen community ties among older and younger residents." },
+              { "word": "built-up areas", "band": 8, "meaning": "places densely covered with buildings and roads", "example": "Temperatures are noticeably higher in built-up areas than in the countryside." }
+            ],
+            "phrases": [
+              "I'd say they make a remarkable difference.",
+              "... provide a refuge from ..., and research suggests that ...",
+              "Of course, ... alone will not solve ..., but it certainly makes ..."
+            ]
+          }
         ]
       }
     ]

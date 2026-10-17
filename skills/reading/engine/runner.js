@@ -10,6 +10,8 @@ import { mountAnnotations, mountFindBar, mountRuler, evidenceVerdict } from './t
 const base = new URL('../../../content/reading/', import.meta.url);
 export const getJSON = async p => { const r = await fetch(new URL(p, base)); if (!r.ok) throw new Error(`Cannot load ${p}`); return r.json(); };
 export const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+// exam rubric: "given in the passage" / "writer in the passage" name the passage in the full test
+export const rubric = (text, n) => text.replace(/(given|writer) in the passage/g, `$1 in Reading Passage ${n}`);
 export const mmss = s => `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`;
 
 // "Approach it again" analyses the trap, so it only appears after a first attempt (review screen)

@@ -506,181 +506,190 @@
     }
   },
   "part3": {
-    "theme": "Technology and society",
-    "questions": [
+    "topics": [
       {
-        "q": "How has technology changed the way people communicate?",
-        "model": "It has transformed communication completely. At the touch of a button, we can reach anyone on the planet, which helps friends and relatives who live far away bridge the gap. On the other hand, genuine face-to-face conversation has suffered, because many people would rather text than meet. Personally, I think technology should bring us closer rather than let us drift apart, so I put my phone away when friends visit.",
-        "vocab": [
+        "theme": "Technology in everyday life",
+        "questions": [
           {
-            "word": "at the touch of a button",
-            "band": 8,
-            "meaning": "instantly and very easily",
-            "example": "We can book a taxi at the touch of a button."
+            "q": "How has technology changed the way people communicate?",
+            "model": "It has transformed communication completely. At the touch of a button, we can reach anyone on the planet, which helps friends and relatives who live far away bridge the gap. On the other hand, genuine face-to-face conversation has suffered, because many people would rather text than meet. Personally, I think technology should bring us closer rather than let us drift apart, so I put my phone away when friends visit.",
+            "vocab": [
+              {
+                "word": "at the touch of a button",
+                "band": 8,
+                "meaning": "instantly and very easily",
+                "example": "We can book a taxi at the touch of a button."
+              },
+              {
+                "word": "bridge the gap",
+                "band": 8,
+                "meaning": "reduce a difference or distance between two things",
+                "example": "Video calls help grandparents bridge the gap with distant grandchildren."
+              },
+              {
+                "word": "face-to-face",
+                "band": 8,
+                "meaning": "in person, with both people in the same place",
+                "example": "Some delicate topics are better discussed face-to-face than by text."
+              },
+              {
+                "word": "drift apart",
+                "band": 8,
+                "meaning": "slowly become less close over time",
+                "example": "After graduation, many old classmates quietly drift apart."
+              }
+            ],
+            "phrases": [
+              "It has transformed...completely.",
+              "On the other hand, ...",
+              "Personally, I think technology should..."
+            ]
           },
           {
-            "word": "bridge the gap",
-            "band": 8,
-            "meaning": "reduce a difference or distance between two things",
-            "example": "Video calls help grandparents bridge the gap with distant grandchildren."
+            "q": "Do you think people rely too much on technology?",
+            "model": "I think many of us do. We rely on our phones for directions, memory and entertainment, so skills like reading maps or doing mental arithmetic are slowly fading. When the battery dies, some people are completely at a loss, which shows how fragile that dependence is. Checking a screen has become second nature, so I try to spend one day a week offline, and it reminds me how peaceful life can be without constant notifications.",
+            "vocab": [
+              {
+                "word": "rely on",
+                "band": 7,
+                "meaning": "depend on something or someone to function",
+                "example": "Many drivers now rely on satellite navigation in every journey."
+              },
+              {
+                "word": "at a loss",
+                "band": 8,
+                "meaning": "unsure what to do or say",
+                "example": "When the lights went out, the staff were at a loss."
+              },
+              {
+                "word": "second nature",
+                "band": 9,
+                "meaning": "something so familiar that you do it without thinking",
+                "example": "After years of practice, typing is second nature to her."
+              },
+              {
+                "word": "fragile",
+                "band": 8,
+                "meaning": "easily broken, weakened or damaged",
+                "example": "Trust between neighbours is fragile and takes years to rebuild."
+              }
+            ],
+            "phrases": [
+              "I think many of us...",
+              "...which shows how...",
+              "It has become second nature to..."
+            ]
           },
           {
-            "word": "face-to-face",
-            "band": 8,
-            "meaning": "in person, with both people in the same place",
-            "example": "Some delicate topics are better discussed face-to-face than by text."
-          },
-          {
-            "word": "drift apart",
-            "band": 8,
-            "meaning": "slowly become less close over time",
-            "example": "After graduation, many old classmates quietly drift apart."
+            "q": "What are the advantages of technology in the workplace?",
+            "model": "The biggest advantage is efficiency. Digital tools help to streamline tasks that once took days, such as sending documents or analysing data, and that can free up time for more creative work. Technology also lets people work remotely; a friend of mine leads a design team across three countries, which would have been impossible decades ago. There are downsides, such as longer working hours, but overall I believe the benefits outweigh the drawbacks for most companies.",
+            "vocab": [
+              {
+                "word": "streamline",
+                "band": 8,
+                "meaning": "make a process simpler and more efficient",
+                "example": "The new software helped us streamline our hiring process."
+              },
+              {
+                "word": "free up time",
+                "band": 8,
+                "meaning": "create extra time for other activities",
+                "example": "Automatic payments free up time for what really matters."
+              },
+              {
+                "word": "work remotely",
+                "band": 8,
+                "meaning": "do your job away from the office",
+                "example": "Several of my colleagues now work remotely from different countries."
+              },
+              {
+                "word": "outweigh the drawbacks",
+                "band": 9,
+                "meaning": "be more important or valuable than the disadvantages",
+                "example": "For most families, the benefits outweigh the drawbacks of the new system."
+              }
+            ],
+            "phrases": [
+              "The biggest advantage is...",
+              "A friend of mine...",
+              "Overall, I believe the benefits outweigh..."
+            ]
           }
-        ],
-        "phrases": [
-          "It has transformed...completely.",
-          "On the other hand, ...",
-          "Personally, I think technology should..."
         ]
       },
       {
-        "q": "Do you think people rely too much on technology?",
-        "model": "I think many of us do. We rely on our phones for directions, memory and entertainment, so skills like reading maps or doing mental arithmetic are slowly fading. When the battery dies, some people are completely at a loss, which shows how fragile that dependence is. Checking a screen has become second nature, so I try to spend one day a week offline, and it reminds me how peaceful life can be without constant notifications.",
-        "vocab": [
+        "theme": "Effects of rapid technological change",
+        "questions": [
           {
-            "word": "rely on",
-            "band": 7,
-            "meaning": "depend on something or someone to function",
-            "example": "Many drivers now rely on satellite navigation in every journey."
+            "q": "Do you think older people are at a disadvantage in a world dominated by technology?",
+            "model": "To some extent, yes. Many older people did not grow up with computers, so they can feel out of their depth when everything from banking to doctor's appointments moves online. This widens the digital divide between them and tech-savvy younger generations. However, I think it's a matter of support rather than ability. My grandmother struggled at first, but after a few patient lessons she learned to keep up with the family group chat.",
+            "vocab": [
+              {
+                "word": "out of their depth",
+                "band": 9,
+                "meaning": "in a situation too difficult for your knowledge or skills",
+                "example": "New employees often feel out of their depth in their first week."
+              },
+              {
+                "word": "digital divide",
+                "band": 8,
+                "meaning": "the gap between people who have good access to technology and those who do not",
+                "example": "Free internet in libraries helps narrow the digital divide."
+              },
+              {
+                "word": "tech-savvy",
+                "band": 8,
+                "meaning": "skilled and confident in using modern technology",
+                "example": "My tech-savvy nephew fixed the printer in two minutes."
+              },
+              {
+                "word": "keep up with",
+                "band": 7,
+                "meaning": "stay at the same level or speed as others or as change",
+                "example": "It is hard to keep up with how quickly phones change."
+              }
+            ],
+            "phrases": [
+              "To some extent, yes.",
+              "It's a matter of... rather than...",
+              "This widens the gap between..."
+            ]
           },
           {
-            "word": "at a loss",
-            "band": 8,
-            "meaning": "unsure what to do or say",
-            "example": "When the lights went out, the staff were at a loss."
-          },
-          {
-            "word": "second nature",
-            "band": 9,
-            "meaning": "something so familiar that you do it without thinking",
-            "example": "After years of practice, typing is second nature to her."
-          },
-          {
-            "word": "fragile",
-            "band": 8,
-            "meaning": "easily broken, weakened or damaged",
-            "example": "Trust between neighbours is fragile and takes years to rebuild."
+            "q": "What problems might arise from the rapid growth of technology?",
+            "model": "One serious problem is privacy, because companies collect huge amounts of personal data, and a single data breach can expose millions of people. Another is inequality, since people without access to devices fall behind. There's also the risk that machines will take over routine jobs. Governments therefore need to regulate technology carefully and invest in training. Young people especially need guidance, because they often share information online without considering the long-term consequences.",
+            "vocab": [
+              {
+                "word": "data breach",
+                "band": 8,
+                "meaning": "an incident where private information is stolen or exposed",
+                "example": "The bank apologised after a data breach affected thousands of customers."
+              },
+              {
+                "word": "fall behind",
+                "band": 7,
+                "meaning": "fail to keep up with others",
+                "example": "Students without a laptop can quickly fall behind in class."
+              },
+              {
+                "word": "take over",
+                "band": 7,
+                "meaning": "assume control of or replace something",
+                "example": "Robots may soon take over many tasks in warehouses."
+              },
+              {
+                "word": "regulate",
+                "band": 9,
+                "meaning": "control something using official rules",
+                "example": "Governments must regulate how companies store customers' personal information."
+              }
+            ],
+            "phrases": [
+              "One serious problem is...",
+              "Another is... since...",
+              "Governments therefore need to..."
+            ]
           }
-        ],
-        "phrases": [
-          "I think many of us...",
-          "...which shows how...",
-          "It has become second nature to..."
-        ]
-      },
-      {
-        "q": "What are the advantages of technology in the workplace?",
-        "model": "The biggest advantage is efficiency. Digital tools help to streamline tasks that once took days, such as sending documents or analysing data, and that can free up time for more creative work. Technology also lets people work remotely; a friend of mine leads a design team across three countries, which would have been impossible decades ago. There are downsides, such as longer working hours, but overall I believe the benefits outweigh the drawbacks for most companies.",
-        "vocab": [
-          {
-            "word": "streamline",
-            "band": 8,
-            "meaning": "make a process simpler and more efficient",
-            "example": "The new software helped us streamline our hiring process."
-          },
-          {
-            "word": "free up time",
-            "band": 8,
-            "meaning": "create extra time for other activities",
-            "example": "Automatic payments free up time for what really matters."
-          },
-          {
-            "word": "work remotely",
-            "band": 8,
-            "meaning": "do your job away from the office",
-            "example": "Several of my colleagues now work remotely from different countries."
-          },
-          {
-            "word": "outweigh the drawbacks",
-            "band": 9,
-            "meaning": "be more important or valuable than the disadvantages",
-            "example": "For most families, the benefits outweigh the drawbacks of the new system."
-          }
-        ],
-        "phrases": [
-          "The biggest advantage is...",
-          "A friend of mine...",
-          "Overall, I believe the benefits outweigh..."
-        ]
-      },
-      {
-        "q": "Do you think older people are at a disadvantage in a world dominated by technology?",
-        "model": "To some extent, yes. Many older people did not grow up with computers, so they can feel out of their depth when everything from banking to doctor's appointments moves online. This widens the digital divide between them and tech-savvy younger generations. However, I think it's a matter of support rather than ability. My grandmother struggled at first, but after a few patient lessons she learned to keep up with the family group chat.",
-        "vocab": [
-          {
-            "word": "out of their depth",
-            "band": 9,
-            "meaning": "in a situation too difficult for your knowledge or skills",
-            "example": "New employees often feel out of their depth in their first week."
-          },
-          {
-            "word": "digital divide",
-            "band": 8,
-            "meaning": "the gap between people who have good access to technology and those who do not",
-            "example": "Free internet in libraries helps narrow the digital divide."
-          },
-          {
-            "word": "tech-savvy",
-            "band": 8,
-            "meaning": "skilled and confident in using modern technology",
-            "example": "My tech-savvy nephew fixed the printer in two minutes."
-          },
-          {
-            "word": "keep up with",
-            "band": 7,
-            "meaning": "stay at the same level or speed as others or as change",
-            "example": "It is hard to keep up with how quickly phones change."
-          }
-        ],
-        "phrases": [
-          "To some extent, yes.",
-          "It's a matter of... rather than...",
-          "This widens the gap between..."
-        ]
-      },
-      {
-        "q": "What problems might arise from the rapid growth of technology?",
-        "model": "One serious problem is privacy, because companies collect huge amounts of personal data, and a single data breach can expose millions of people. Another is inequality, since people without access to devices fall behind. There's also the risk that machines will take over routine jobs. Governments therefore need to regulate technology carefully and invest in training. Young people especially need guidance, because they often share information online without considering the long-term consequences.",
-        "vocab": [
-          {
-            "word": "data breach",
-            "band": 8,
-            "meaning": "an incident where private information is stolen or exposed",
-            "example": "The bank apologised after a data breach affected thousands of customers."
-          },
-          {
-            "word": "fall behind",
-            "band": 7,
-            "meaning": "fail to keep up with others",
-            "example": "Students without a laptop can quickly fall behind in class."
-          },
-          {
-            "word": "take over",
-            "band": 7,
-            "meaning": "assume control of or replace something",
-            "example": "Robots may soon take over many tasks in warehouses."
-          },
-          {
-            "word": "regulate",
-            "band": 9,
-            "meaning": "control something using official rules",
-            "example": "Governments must regulate how companies store customers' personal information."
-          }
-        ],
-        "phrases": [
-          "One serious problem is...",
-          "Another is... since...",
-          "Governments therefore need to..."
         ]
       }
     ]

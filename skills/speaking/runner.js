@@ -43,7 +43,7 @@ function run(mock) {
   function intro() {
     app.innerHTML = `<header class="head"><div><p class="kicker">Speaking mock interview</p><h1>${esc(mock.title)}</h1></div></header>
       <section class="card"><h2>Three parts, about 11&ndash;14 minutes</h2>
-      <p><strong>Part 1</strong> &middot; short personal questions on three topics.<br><strong>Part 2</strong> &middot; a cue card: one minute to prepare, up to two minutes to talk.<br><strong>Part 3</strong> &middot; deeper questions on the Part 2 theme.</p>
+      <p><strong>Part 1</strong> &middot; short personal questions on three topics.<br><strong>Part 2</strong> &middot; a cue card: one minute to prepare, up to two minutes to talk.<br><strong>Part 3</strong> &middot; a discussion of two topics linked to Part 2.</p>
       <p>Speak your answers out loud. Vocabulary help and model answers are on; switch to Exam mode to hide them.</p>
       <div class="row"><button class="btn" id="go" type="button">Begin</button> <button class="tog" id="exam" type="button" aria-pressed="false">Exam mode</button></div></section>`;
     app.querySelector('#exam').onclick = e => { exam = !exam; e.target.setAttribute('aria-pressed', exam); };
@@ -56,6 +56,7 @@ function run(mock) {
     const s = steps[i], isQ = s.kind === 'question', c = p2.cue;
     const body = isQ ? `<h2>${esc(s.ref.q)}</h2>`
       : `<div class="cue"><p><strong>${esc(c.topic)}</strong></p><p>You should say:</p><ul>${c.bullets.map(b => `<li>${esc(b)}</li>`).join('')}</ul></div>` +
+        '<p class="muted">You will have to talk about the topic for 1 to 2 minutes. You have 1 minute to think about what you are going to say. You can make some notes to help you if you wish.</p>' +
         (s.kind === 'prep' ? '<p><label for="notes">Make notes while you prepare</label></p><textarea id="notes" rows="5"></textarea>' : '');
     const model = s.kind === 'talk' ? p2.model : isQ ? s.ref.model : '';
     app.innerHTML = `<header class="head"><div><p class="kicker">Part ${s.part} &middot; ${esc(s.label)} &middot; ${i + 1} / ${steps.length}</p><h1>${esc(mock.title)}</h1></div>

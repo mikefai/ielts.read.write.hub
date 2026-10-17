@@ -508,216 +508,225 @@
     }
   },
   "part3": {
-    "theme": "Community and helping others",
-    "questions": [
+    "topics": [
       {
-        "q": "Why do some people choose to volunteer while others do not?",
-        "model": "I think it largely comes down to personality and available time. People who are naturally empathetic often feel a strong urge to give back, whereas those with demanding jobs simply can't spare the hours. Upbringing matters too, because children who see their parents volunteering tend to follow suit as adults. Personally, I believe schools and families should encourage generosity much earlier, so that it becomes second nature. Over time, that habit could change a whole community.",
-        "vocab": [
+        "theme": "Volunteering and giving",
+        "questions": [
           {
-            "word": "comes down to",
-            "band": 7,
-            "meaning": "is mainly decided by a particular factor",
-            "example": "Success in exams often comes down to steady daily practice."
+            "q": "Why do some people choose to volunteer while others do not?",
+            "model": "I think it largely comes down to personality and available time. People who are naturally empathetic often feel a strong urge to give back, whereas those with demanding jobs simply can't spare the hours. Upbringing matters too, because children who see their parents volunteering tend to follow suit as adults. Personally, I believe schools and families should encourage generosity much earlier, so that it becomes second nature. Over time, that habit could change a whole community.",
+            "vocab": [
+              {
+                "word": "comes down to",
+                "band": 7,
+                "meaning": "is mainly decided by a particular factor",
+                "example": "Success in exams often comes down to steady daily practice."
+              },
+              {
+                "word": "give back",
+                "band": 7,
+                "meaning": "do something good for a community that has helped you",
+                "example": "Many graduates want to give back to the schools that shaped them."
+              },
+              {
+                "word": "follow suit",
+                "band": 8,
+                "meaning": "do the same thing that someone else has just done",
+                "example": "When one shop cut prices, the rest soon followed suit."
+              },
+              {
+                "word": "second nature",
+                "band": 8,
+                "meaning": "something you do so easily that you no longer think about it",
+                "example": "After years of driving, changing gears is second nature to her."
+              }
+            ],
+            "phrases": [
+              "I think it largely comes down to ...",
+              "..., whereas those ... simply can't ...",
+              "Personally, I believe ... should ..., so that it becomes ..."
+            ]
           },
           {
-            "word": "give back",
-            "band": 7,
-            "meaning": "do something good for a community that has helped you",
-            "example": "Many graduates want to give back to the schools that shaped them."
+            "q": "In what ways has the internet changed the way people give to charity?",
+            "model": "It has made giving far quicker and easier. Crowdfunding platforms, for instance, allow thousands of strangers to raise funds for a sick child within days, and social media helps appeals go viral. On the other hand, some argue that clicking a donate button is rather impersonal and may replace face-to-face support for those in need. Personally, I think the best approach is to combine both, so that technology supports genuine human contact.",
+            "vocab": [
+              {
+                "word": "crowdfunding platform",
+                "band": 8,
+                "meaning": "a website where many people give small amounts to one cause",
+                "example": "A crowdfunding platform helped the village rebuild its flooded school."
+              },
+              {
+                "word": "raise funds",
+                "band": 8,
+                "meaning": "collect money for a particular purpose",
+                "example": "Students often raise funds for charity by running a marathon."
+              },
+              {
+                "word": "go viral",
+                "band": 8,
+                "meaning": "spread very quickly and widely online",
+                "example": "Her short video about the shelter went viral overnight."
+              },
+              {
+                "word": "those in need",
+                "band": 7,
+                "meaning": "people who lack basic things such as food or shelter",
+                "example": "Local churches deliver hot meals to those in need every winter."
+              }
+            ],
+            "phrases": [
+              "It has made ... far quicker and easier. ..., for instance, allow ...",
+              "On the other hand, some argue that ...",
+              "Personally, I think the best approach is to ..."
+            ]
           },
           {
-            "word": "follow suit",
-            "band": 8,
-            "meaning": "do the same thing that someone else has just done",
-            "example": "When one shop cut prices, the rest soon followed suit."
-          },
-          {
-            "word": "second nature",
-            "band": 8,
-            "meaning": "something you do so easily that you no longer think about it",
-            "example": "After years of driving, changing gears is second nature to her."
+            "q": "Is it better to give money to charities or to give your time?",
+            "model": "Both are valuable, but I'd lean towards giving time. Money is useful, yet it can disappear into administration costs, whereas volunteering creates direct, visible change. Spending a weekend teaching kids to read, for example, can transform a life in a way a small donation rarely does, and it builds lasting relationships. Ideally, people should do a bit of both, depending on their circumstances and what is most needed. Giving your time also shows people that someone genuinely cares.",
+            "vocab": [
+              {
+                "word": "lean towards",
+                "band": 8,
+                "meaning": "slightly prefer one option over another",
+                "example": "I lean towards the second plan because it is cheaper."
+              },
+              {
+                "word": "administration costs",
+                "band": 8,
+                "meaning": "money spent on running an organisation rather than helping",
+                "example": "Donors worry when administration costs swallow half of every gift."
+              },
+              {
+                "word": "lasting relationships",
+                "band": 8,
+                "meaning": "close connections that continue for many years",
+                "example": "Volunteering together builds lasting relationships between people from different backgrounds."
+              },
+              {
+                "word": "depending on their circumstances",
+                "band": 7,
+                "meaning": "according to the particular situation each person is in",
+                "example": "Everyone gives differently, depending on their circumstances and their income."
+              }
+            ],
+            "phrases": [
+              "Both are valuable, but I'd lean towards ...",
+              "..., yet it can ..., whereas ... creates ...",
+              "Ideally, people should do a bit of both, depending on ..."
+            ]
           }
-        ],
-        "phrases": [
-          "I think it largely comes down to ...",
-          "..., whereas those ... simply can't ...",
-          "Personally, I believe ... should ..., so that it becomes ..."
         ]
       },
       {
-        "q": "In what ways has the internet changed the way people give to charity?",
-        "model": "It has made giving far quicker and easier. Crowdfunding platforms, for instance, allow thousands of strangers to raise funds for a sick child within days, and social media helps appeals go viral. On the other hand, some argue that clicking a donate button is rather impersonal and may replace face-to-face support for those in need. Personally, I think the best approach is to combine both, so that technology supports genuine human contact.",
-        "vocab": [
+        "theme": "Responsibility for helping others",
+        "questions": [
           {
-            "word": "crowdfunding platform",
-            "band": 8,
-            "meaning": "a website where many people give small amounts to one cause",
-            "example": "A crowdfunding platform helped the village rebuild its flooded school."
+            "q": "Should the government or individuals be responsible for helping people in need?",
+            "model": "Ideally it should be a shared responsibility. Governments have the resources to provide a safety net, such as healthcare and unemployment benefits, which charities simply cannot match. However, individuals fill the gaps by offering personal, flexible support. So I believe a combination of both works best for any healthy society. Without that balance, vulnerable people could easily slip through the cracks. In my experience, countries that combine both approaches seem noticeably fairer and more stable overall.",
+            "vocab": [
+              {
+                "word": "shared responsibility",
+                "band": 8,
+                "meaning": "a duty that several groups carry together",
+                "example": "Protecting the environment should be a shared responsibility for everyone."
+              },
+              {
+                "word": "safety net",
+                "band": 8,
+                "meaning": "a system that protects people when things go wrong",
+                "example": "Unemployment pay acts as a safety net for workers who lose their jobs."
+              },
+              {
+                "word": "unemployment benefits",
+                "band": 8,
+                "meaning": "money the state pays to people without a job",
+                "example": "Unemployment benefits give families time to find new work."
+              },
+              {
+                "word": "fill the gaps",
+                "band": 8,
+                "meaning": "provide what is missing in a system",
+                "example": "Volunteers often fill the gaps that public services leave behind."
+              }
+            ],
+            "phrases": [
+              "Ideally it should be ...",
+              "... have the resources to ..., which ... simply cannot match.",
+              "So I believe a combination of both works best for ..."
+            ]
           },
           {
-            "word": "raise funds",
-            "band": 8,
-            "meaning": "collect money for a particular purpose",
-            "example": "Students often raise funds for charity by running a marathon."
+            "q": "Do you think people in big cities are less willing to help strangers than those in small towns?",
+            "model": "There's some truth in that. In small towns everyone knows each other, so there's a strong sense of community and people look out for one another. City life is busier and more anonymous, so many people keep themselves to themselves. That said, I've met plenty of generous city dwellers, so it's not a rule. People are rarely unkind; they are just busy. A friendly greeting can quickly break the ice, whichever kind of place you live in.",
+            "vocab": [
+              {
+                "word": "sense of community",
+                "band": 7,
+                "meaning": "a feeling of belonging to a close group",
+                "example": "Local festivals create a strong sense of community in our district."
+              },
+              {
+                "word": "look out for",
+                "band": 7,
+                "meaning": "take care of and protect other people",
+                "example": "Good neighbours look out for each other during hard times."
+              },
+              {
+                "word": "keep themselves to themselves",
+                "band": 8,
+                "meaning": "avoid mixing with or talking to other people",
+                "example": "The couple upstairs keep themselves to themselves and rarely say hello."
+              },
+              {
+                "word": "break the ice",
+                "band": 8,
+                "meaning": "make people feel relaxed when they first meet",
+                "example": "A joke about the weather is a classic way to break the ice."
+              }
+            ],
+            "phrases": [
+              "There's some truth in that.",
+              "..., so there's a strong sense of ... and people look out for ...",
+              "That said, I've met plenty of ..., so it's not a rule."
+            ]
           },
           {
-            "word": "go viral",
-            "band": 8,
-            "meaning": "spread very quickly and widely online",
-            "example": "Her short video about the shelter went viral overnight."
-          },
-          {
-            "word": "those in need",
-            "band": 7,
-            "meaning": "people who lack basic things such as food or shelter",
-            "example": "Local churches deliver hot meals to those in need every winter."
+            "q": "What role can schools play in teaching young people to be community-minded?",
+            "model": "Schools can play a huge role. Organising regular volunteer projects, like cleaning up parks or visiting care homes, gives students first-hand experience of helping. Teachers can also instil a sense of responsibility through group work. If children learn early that small contributions matter, they are far more likely to grow into responsible, caring adults. I've seen this work well in my old school, where pupils still volunteer long after they graduate.",
+            "vocab": [
+              {
+                "word": "play a huge role",
+                "band": 7,
+                "meaning": "have a very important effect on something",
+                "example": "Parents play a huge role in shaping a child's reading habits."
+              },
+              {
+                "word": "first-hand experience",
+                "band": 8,
+                "meaning": "knowledge gained by doing something yourself",
+                "example": "Working in a hospital gave him first-hand experience of patient care."
+              },
+              {
+                "word": "instil a sense of",
+                "band": 9,
+                "meaning": "gradually teach someone to feel a quality such as duty",
+                "example": "Team sports can instil a sense of discipline in young people."
+              },
+              {
+                "word": "grow into",
+                "band": 7,
+                "meaning": "gradually become a certain kind of person",
+                "example": "She grew into a confident leader during her time at university."
+              }
+            ],
+            "phrases": [
+              "Schools can play a huge role. ...",
+              "If children learn early that ..., they are far more likely to ...",
+              "I've seen this work well in ..., where ..."
+            ]
           }
-        ],
-        "phrases": [
-          "It has made ... far quicker and easier. ..., for instance, allow ...",
-          "On the other hand, some argue that ...",
-          "Personally, I think the best approach is to ..."
-        ]
-      },
-      {
-        "q": "Should the government or individuals be responsible for helping people in need?",
-        "model": "Ideally it should be a shared responsibility. Governments have the resources to provide a safety net, such as healthcare and unemployment benefits, which charities simply cannot match. However, individuals fill the gaps by offering personal, flexible support. So I believe a combination of both works best for any healthy society. Without that balance, vulnerable people could easily slip through the cracks. In my experience, countries that combine both approaches seem noticeably fairer and more stable overall.",
-        "vocab": [
-          {
-            "word": "shared responsibility",
-            "band": 8,
-            "meaning": "a duty that several groups carry together",
-            "example": "Protecting the environment should be a shared responsibility for everyone."
-          },
-          {
-            "word": "safety net",
-            "band": 8,
-            "meaning": "a system that protects people when things go wrong",
-            "example": "Unemployment pay acts as a safety net for workers who lose their jobs."
-          },
-          {
-            "word": "unemployment benefits",
-            "band": 8,
-            "meaning": "money the state pays to people without a job",
-            "example": "Unemployment benefits give families time to find new work."
-          },
-          {
-            "word": "fill the gaps",
-            "band": 8,
-            "meaning": "provide what is missing in a system",
-            "example": "Volunteers often fill the gaps that public services leave behind."
-          }
-        ],
-        "phrases": [
-          "Ideally it should be ...",
-          "... have the resources to ..., which ... simply cannot match.",
-          "So I believe a combination of both works best for ..."
-        ]
-      },
-      {
-        "q": "Do you think people in big cities are less willing to help strangers than those in small towns?",
-        "model": "There's some truth in that. In small towns everyone knows each other, so there's a strong sense of community and people look out for one another. City life is busier and more anonymous, so many people keep themselves to themselves. That said, I've met plenty of generous city dwellers, so it's not a rule. People are rarely unkind; they are just busy. A friendly greeting can quickly break the ice, whichever kind of place you live in.",
-        "vocab": [
-          {
-            "word": "sense of community",
-            "band": 7,
-            "meaning": "a feeling of belonging to a close group",
-            "example": "Local festivals create a strong sense of community in our district."
-          },
-          {
-            "word": "look out for",
-            "band": 7,
-            "meaning": "take care of and protect other people",
-            "example": "Good neighbours look out for each other during hard times."
-          },
-          {
-            "word": "keep themselves to themselves",
-            "band": 8,
-            "meaning": "avoid mixing with or talking to other people",
-            "example": "The couple upstairs keep themselves to themselves and rarely say hello."
-          },
-          {
-            "word": "break the ice",
-            "band": 8,
-            "meaning": "make people feel relaxed when they first meet",
-            "example": "A joke about the weather is a classic way to break the ice."
-          }
-        ],
-        "phrases": [
-          "There's some truth in that.",
-          "..., so there's a strong sense of ... and people look out for ...",
-          "That said, I've met plenty of ..., so it's not a rule."
-        ]
-      },
-      {
-        "q": "What role can schools play in teaching young people to be community-minded?",
-        "model": "Schools can play a huge role. Organising regular volunteer projects, like cleaning up parks or visiting care homes, gives students first-hand experience of helping. Teachers can also instil a sense of responsibility through group work. If children learn early that small contributions matter, they are far more likely to grow into responsible, caring adults. I've seen this work well in my old school, where pupils still volunteer long after they graduate.",
-        "vocab": [
-          {
-            "word": "play a huge role",
-            "band": 7,
-            "meaning": "have a very important effect on something",
-            "example": "Parents play a huge role in shaping a child's reading habits."
-          },
-          {
-            "word": "first-hand experience",
-            "band": 8,
-            "meaning": "knowledge gained by doing something yourself",
-            "example": "Working in a hospital gave him first-hand experience of patient care."
-          },
-          {
-            "word": "instil a sense of",
-            "band": 9,
-            "meaning": "gradually teach someone to feel a quality such as duty",
-            "example": "Team sports can instil a sense of discipline in young people."
-          },
-          {
-            "word": "grow into",
-            "band": 7,
-            "meaning": "gradually become a certain kind of person",
-            "example": "She grew into a confident leader during her time at university."
-          }
-        ],
-        "phrases": [
-          "Schools can play a huge role. ...",
-          "If children learn early that ..., they are far more likely to ...",
-          "I've seen this work well in ..., where ..."
-        ]
-      },
-      {
-        "q": "Is it better to give money to charities or to give your time?",
-        "model": "Both are valuable, but I'd lean towards giving time. Money is useful, yet it can disappear into administration costs, whereas volunteering creates direct, visible change. Spending a weekend teaching kids to read, for example, can transform a life in a way a small donation rarely does, and it builds lasting relationships. Ideally, people should do a bit of both, depending on their circumstances and what is most needed. Giving your time also shows people that someone genuinely cares.",
-        "vocab": [
-          {
-            "word": "lean towards",
-            "band": 8,
-            "meaning": "slightly prefer one option over another",
-            "example": "I lean towards the second plan because it is cheaper."
-          },
-          {
-            "word": "administration costs",
-            "band": 8,
-            "meaning": "money spent on running an organisation rather than helping",
-            "example": "Donors worry when administration costs swallow half of every gift."
-          },
-          {
-            "word": "lasting relationships",
-            "band": 8,
-            "meaning": "close connections that continue for many years",
-            "example": "Volunteering together builds lasting relationships between people from different backgrounds."
-          },
-          {
-            "word": "depending on their circumstances",
-            "band": 7,
-            "meaning": "according to the particular situation each person is in",
-            "example": "Everyone gives differently, depending on their circumstances and their income."
-          }
-        ],
-        "phrases": [
-          "Both are valuable, but I'd lean towards ...",
-          "..., yet it can ..., whereas ... creates ...",
-          "Ideally, people should do a bit of both, depending on ..."
         ]
       }
     ]

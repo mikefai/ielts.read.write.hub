@@ -223,81 +223,90 @@
     }
   },
   "part3": {
-    "theme": "Education",
-    "questions": [
+    "topics": [
       {
-        "q": "What qualities make a good teacher?",
-        "model": "I think patience and passion matter most. A teacher who genuinely loves the subject can make even dry topics come alive, and a patient one gives students room to make mistakes. On top of that, good teachers cater to different learning styles, because not everybody picks up information in the same way. For instance, some pupils need visual examples, while others learn better through discussion. In the end, it is the human connection that students remember long after the exam.",
-        "vocab": [
-          { "word": "come alive", "band": 8, "meaning": "to become interesting, vivid and full of energy", "example": "History really comes alive when you visit the places in person." },
-          { "word": "cater to", "band": 8, "meaning": "to provide what a particular group of people needs", "example": "The school tries to cater to students with very different abilities." },
-          { "word": "learning styles", "band": 7, "meaning": "the different ways in which people prefer to study and remember", "example": "Some learning styles work better for visual thinkers than for listeners." },
-          { "word": "On top of that", "band": 7, "meaning": "in addition to what has just been said", "example": "On top of that, the course is completely free for all residents." }
-        ],
-        "phrases": [
-          "I think ... matter most.",
-          "On top of that, ...",
-          "In the end, it is ... that ..."
+        "theme": "Teachers and schools",
+        "questions": [
+          {
+            "q": "What qualities make a good teacher?",
+            "model": "I think patience and passion matter most. A teacher who genuinely loves the subject can make even dry topics come alive, and a patient one gives students room to make mistakes. On top of that, good teachers cater to different learning styles, because not everybody picks up information in the same way. For instance, some pupils need visual examples, while others learn better through discussion. In the end, it is the human connection that students remember long after the exam.",
+            "vocab": [
+              { "word": "come alive", "band": 8, "meaning": "to become interesting, vivid and full of energy", "example": "History really comes alive when you visit the places in person." },
+              { "word": "cater to", "band": 8, "meaning": "to provide what a particular group of people needs", "example": "The school tries to cater to students with very different abilities." },
+              { "word": "learning styles", "band": 7, "meaning": "the different ways in which people prefer to study and remember", "example": "Some learning styles work better for visual thinkers than for listeners." },
+              { "word": "On top of that", "band": 7, "meaning": "in addition to what has just been said", "example": "On top of that, the course is completely free for all residents." }
+            ],
+            "phrases": [
+              "I think ... matter most.",
+              "On top of that, ...",
+              "In the end, it is ... that ..."
+            ]
+          },
+          {
+            "q": "Is it better to study in a big class or a small class?",
+            "model": "Generally speaking, smaller classes are more effective because the teacher can give each student individual attention, and pupils feel less intimidated about asking questions. That said, large classes have their advantages, as they expose students to a wide range of perspectives. In my view, the ideal size depends on the subject, since practical lessons clearly need fewer students than lectures. Personally, I learned best in a group of about fifteen, where discussion felt natural and relaxed, and nobody could hide at the back.",
+            "vocab": [
+              { "word": "individual attention", "band": 8, "meaning": "time and care given to one person separately", "example": "Private tutors can give children plenty of individual attention." },
+              { "word": "a wide range of perspectives", "band": 8, "meaning": "many different ways of looking at the same issue", "example": "A diverse team brings a wide range of perspectives to every project." },
+              { "word": "That said", "band": 7, "meaning": "used to add a point that limits what was just said", "example": "That said, online lessons can still be lonely for some learners." },
+              { "word": "intimidated", "band": 8, "meaning": "feeling frightened or nervous because of someone or something", "example": "New employees often feel intimidated in their first meetings." }
+            ],
+            "phrases": [
+              "Generally speaking, ...",
+              "That said, ...",
+              "In my view, the ideal ... depends on ..."
+            ]
+          },
+          {
+            "q": "Should schools focus more on exams or on practical skills?",
+            "model": "Ideally, schools should strike a balance, but at present many lean heavily on exams. Students end up learning by rote without really understanding the material, and they leave school unprepared for real work. I believe teaching skills like problem-solving and communication would serve them better, although exams still matter as a fair way to measure progress. A mix of both would equip young people with the tools they need for university and the workplace.",
+            "vocab": [
+              { "word": "strike a balance", "band": 8, "meaning": "to find a fair middle point between two competing things", "example": "It is hard to strike a balance between work and family." },
+              { "word": "lean heavily on", "band": 9, "meaning": "to depend very much on one thing", "example": "Some universities lean heavily on final exams for grading." },
+              { "word": "learning by rote", "band": 8, "meaning": "memorising facts by repetition without understanding them", "example": "Learning by rote may help you pass tests but rarely lasts." },
+              { "word": "problem-solving", "band": 8, "meaning": "the ability to find answers to difficult situations", "example": "Employers look for strong problem-solving skills in graduates." }
+            ],
+            "phrases": [
+              "Ideally, ... should strike a balance, but ...",
+              "I believe ... would serve them better.",
+              "A mix of both would ..."
+            ]
+          }
         ]
       },
       {
-        "q": "Is it better to study in a big class or a small class?",
-        "model": "Generally speaking, smaller classes are more effective because the teacher can give each student individual attention, and pupils feel less intimidated about asking questions. That said, large classes have their advantages, as they expose students to a wide range of perspectives. In my view, the ideal size depends on the subject, since practical lessons clearly need fewer students than lectures. Personally, I learned best in a group of about fifteen, where discussion felt natural and relaxed, and nobody could hide at the back.",
-        "vocab": [
-          { "word": "individual attention", "band": 8, "meaning": "time and care given to one person separately", "example": "Private tutors can give children plenty of individual attention." },
-          { "word": "a wide range of perspectives", "band": 8, "meaning": "many different ways of looking at the same issue", "example": "A diverse team brings a wide range of perspectives to every project." },
-          { "word": "That said", "band": 7, "meaning": "used to add a point that limits what was just said", "example": "That said, online lessons can still be lonely for some learners." },
-          { "word": "intimidated", "band": 8, "meaning": "feeling frightened or nervous because of someone or something", "example": "New employees often feel intimidated in their first meetings." }
-        ],
-        "phrases": [
-          "Generally speaking, ...",
-          "That said, ...",
-          "In my view, the ideal ... depends on ..."
-        ]
-      },
-      {
-        "q": "Should schools focus more on exams or on practical skills?",
-        "model": "Ideally, schools should strike a balance, but at present many lean heavily on exams. Students end up learning by rote without really understanding the material, and they leave school unprepared for real work. I believe teaching skills like problem-solving and communication would serve them better, although exams still matter as a fair way to measure progress. A mix of both would equip young people with the tools they need for university and the workplace.",
-        "vocab": [
-          { "word": "strike a balance", "band": 8, "meaning": "to find a fair middle point between two competing things", "example": "It is hard to strike a balance between work and family." },
-          { "word": "lean heavily on", "band": 9, "meaning": "to depend very much on one thing", "example": "Some universities lean heavily on final exams for grading." },
-          { "word": "learning by rote", "band": 8, "meaning": "memorising facts by repetition without understanding them", "example": "Learning by rote may help you pass tests but rarely lasts." },
-          { "word": "problem-solving", "band": 8, "meaning": "the ability to find answers to difficult situations", "example": "Employers look for strong problem-solving skills in graduates." }
-        ],
-        "phrases": [
-          "Ideally, ... should strike a balance, but ...",
-          "I believe ... would serve them better.",
-          "A mix of both would ..."
-        ]
-      },
-      {
-        "q": "What are the advantages and disadvantages of learning online?",
-        "model": "The main advantage is flexibility. Students can fit lessons around their jobs, and people in remote villages can take courses from top universities at a fraction of the cost. On the downside, it takes a great deal of self-discipline, because a phone can easily pull you away from your studies. There is also less face-to-face interaction, so learners can feel isolated. On balance, I think online study works best as a supplement to classroom teaching rather than a replacement.",
-        "vocab": [
-          { "word": "at a fraction of the cost", "band": 8, "meaning": "for a much lower price than the usual one", "example": "You can learn Spanish from native speakers at a fraction of the cost." },
-          { "word": "On the downside", "band": 8, "meaning": "used to introduce a disadvantage or negative point", "example": "On the downside, living near the airport means constant noise." },
-          { "word": "self-discipline", "band": 8, "meaning": "the ability to make yourself do things without being forced", "example": "Training for a marathon demands real self-discipline and patience." },
-          { "word": "face-to-face interaction", "band": 8, "meaning": "direct communication between people who are in the same place", "example": "Children still need plenty of face-to-face interaction to develop social skills." }
-        ],
-        "phrases": [
-          "The main advantage is ...",
-          "On the downside, ...",
-          "On balance, I think ... works best as ..."
-        ]
-      },
-      {
-        "q": "Do you think university education should be free for everyone?",
-        "model": "In an ideal world, yes, because education benefits the whole society, not just the individual. Free tuition would create a level playing field for talented students from poor families. Having said that, governments have limited budgets, so a more realistic option might be generous scholarships and low-interest loans, which would widen access without placing a huge burden on taxpayers. It would also encourage more families to see university as a realistic goal for their children.",
-        "vocab": [
-          { "word": "level playing field", "band": 9, "meaning": "a situation in which everyone has a fair and equal chance", "example": "Anonymous exams help create a level playing field for all candidates." },
-          { "word": "widen access", "band": 8, "meaning": "to make something available to more people", "example": "The new law aims to widen access to higher education." },
-          { "word": "Having said that", "band": 7, "meaning": "used to introduce a contrasting point after agreeing", "example": "Having said that, I understand why some people disagree with the plan." },
-          { "word": "scholarships", "band": 8, "meaning": "money given to a student to pay for their studies", "example": "Several scholarships are available for students with excellent grades." }
-        ],
-        "phrases": [
-          "In an ideal world, ...",
-          "Having said that, ...",
-          "a more realistic option might be ..."
+        "theme": "Online and university study",
+        "questions": [
+          {
+            "q": "What are the advantages and disadvantages of learning online?",
+            "model": "The main advantage is flexibility. Students can fit lessons around their jobs, and people in remote villages can take courses from top universities at a fraction of the cost. On the downside, it takes a great deal of self-discipline, because a phone can easily pull you away from your studies. There is also less face-to-face interaction, so learners can feel isolated. On balance, I think online study works best as a supplement to classroom teaching rather than a replacement.",
+            "vocab": [
+              { "word": "at a fraction of the cost", "band": 8, "meaning": "for a much lower price than the usual one", "example": "You can learn Spanish from native speakers at a fraction of the cost." },
+              { "word": "On the downside", "band": 8, "meaning": "used to introduce a disadvantage or negative point", "example": "On the downside, living near the airport means constant noise." },
+              { "word": "self-discipline", "band": 8, "meaning": "the ability to make yourself do things without being forced", "example": "Training for a marathon demands real self-discipline and patience." },
+              { "word": "face-to-face interaction", "band": 8, "meaning": "direct communication between people who are in the same place", "example": "Children still need plenty of face-to-face interaction to develop social skills." }
+            ],
+            "phrases": [
+              "The main advantage is ...",
+              "On the downside, ...",
+              "On balance, I think ... works best as ..."
+            ]
+          },
+          {
+            "q": "Do you think university education should be free for everyone?",
+            "model": "In an ideal world, yes, because education benefits the whole society, not just the individual. Free tuition would create a level playing field for talented students from poor families. Having said that, governments have limited budgets, so a more realistic option might be generous scholarships and low-interest loans, which would widen access without placing a huge burden on taxpayers. It would also encourage more families to see university as a realistic goal for their children.",
+            "vocab": [
+              { "word": "level playing field", "band": 9, "meaning": "a situation in which everyone has a fair and equal chance", "example": "Anonymous exams help create a level playing field for all candidates." },
+              { "word": "widen access", "band": 8, "meaning": "to make something available to more people", "example": "The new law aims to widen access to higher education." },
+              { "word": "Having said that", "band": 7, "meaning": "used to introduce a contrasting point after agreeing", "example": "Having said that, I understand why some people disagree with the plan." },
+              { "word": "scholarships", "band": 8, "meaning": "money given to a student to pay for their studies", "example": "Several scholarships are available for students with excellent grades." }
+            ],
+            "phrases": [
+              "In an ideal world, ...",
+              "Having said that, ...",
+              "a more realistic option might be ..."
+            ]
+          }
         ]
       }
     ]
