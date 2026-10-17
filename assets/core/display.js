@@ -36,7 +36,16 @@ export function mountDisplayMenu(container) {
     out.textContent = Math.round(clampScale(loadPref('fontScale', 1)) * 100) + '%';
     chk.checked = !!loadPref('hideTimer', false);
   };
-  const set = open => { pop.hidden = !open; btn.setAttribute('aria-expanded', String(open)); };
+  // open towards whichever side has room: the button sits at the left on some pages, in a right-hand header on others
+  // then nudge it back inside the viewport (narrow phones)
+  const place = () => {
+    pop.style.left = ''; pop.style.right = '';
+    if (pop.getBoundingClientRect().left < 8) { pop.style.left = '0'; pop.style.right = 'auto'; }
+    const r = pop.getBoundingClientRect(), vw = document.documentElement.clientWidth;
+    const shift = r.right > vw - 8 ? vw - 8 - r.right : r.left < 8 ? 8 - r.left : 0;
+    if (shift) { pop.style.left = `${pop.offsetLeft + shift}px`; pop.style.right = 'auto'; }
+  };
+  const set = open => { pop.hidden = !open; btn.setAttribute('aria-expanded', String(open)); if (open) place(); };
   btn.addEventListener('click', () => set(pop.hidden));
   wrap.addEventListener('keydown', e => { if (e.key === 'Escape' && !pop.hidden) { set(false); btn.focus(); } });
   document.addEventListener('click', e => { if (!wrap.contains(e.target)) set(false); });
