@@ -17,6 +17,12 @@
 .note .move p { margin: .3rem 0; }
 .note .move-label { display: inline-block; font-size: .8em; font-weight: 700; padding: .1rem .55rem; border: 1px solid var(--line); border-radius: 999px; }
 .note .quote { font-style: italic; overflow-wrap: anywhere; }
+.note .b8-list { list-style: none; padding-left: 0; }
+.note .b8 { margin: .6rem 0; padding: .6rem .8rem; background: var(--paper); border: 1px solid var(--line); border-left: 5px solid var(--accent); border-radius: 10px; overflow-wrap: anywhere; }
+.note .b8 p { margin: .3rem 0; }
+.note .b8 .typical { color: var(--muted); }
+.note .b8 .band8 { font-weight: 700; }
+.note .chip { display: inline-block; margin-bottom: .2rem; font-size: .8em; font-weight: 700; padding: .1rem .55rem; border: 1px solid var(--line); border-radius: 999px; }
 .note .build { margin-top: .4rem; padding: .4rem .6rem; border-left: 4px solid var(--accent); overflow-wrap: anywhere; }
 .note .passage { padding: .6rem .8rem; background: var(--paper); border: 1px solid var(--line); border-radius: 10px; overflow-wrap: anywhere; }
 .note .practice { margin: .8rem 0; padding: .6rem .8rem; background: var(--paper); border: 1px solid var(--line); border-radius: 10px; overflow-wrap: anywhere; }

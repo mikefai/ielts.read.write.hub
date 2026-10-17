@@ -158,3 +158,39 @@ test('non-string build is reported', () =>
   assert.match(v([wm(n => n.demo.moves[2].build = 5)], ['opinion'], 'writing').join('\n'), /"opinion": demo move 3 build must be text/));
 test('whitespace-only build does not count toward 2 builds', () =>
   assert.match(v([wm(n => n.demo.moves.forEach((m, i) => { if (i < 3) m.build = '  '; }))], ['opinion'], 'writing').join('\n'), /demo needs 2\+ builds/));
+
+// band8 rules
+const withB8 = (f, kind = 'reading', id = 'tfng') => {
+  const n = kind === 'reading' ? good(id) : wgood(id);
+  n.band8 = Array.from({ length: 4 }, () => ({ typical: 'Typical line.', band8: 'Band eight line.' }));
+  if (kind !== 'reading') n.band8.forEach(b => b.criterion = 'Task Achievement');
+  f?.(n);
+  return n;
+};
+const vb = (n, kind = 'reading', req = ['tfng'], opts) => validateNotes([n], kind, req, opts).join('\n');
+test('valid band8 on reading gives no band8 errors', () => assert.doesNotMatch(vb(withB8()), /band8/));
+test('band8 needs 4-6 items', () => assert.match(vb(withB8(n => n.band8.pop())), /"tfng": band8 needs 4-6/));
+test('band8 over 6 items is rejected', () =>
+  assert.match(vb(withB8(n => n.band8.push({ typical: 'a', band8: 'b' }, { typical: 'a', band8: 'b' }, { typical: 'a', band8: 'b' }))), /band8 needs 4-6/));
+test('band8 text over 35 words', () => assert.match(vb(withB8(n => n.band8[0].band8 = w(36))), /band8.*35 words/));
+test('band8 text must not be empty', () => assert.match(vb(withB8(n => n.band8[0].typical = ' ')), /band8.*empty/));
+test('reading band8 must not have criterion', () =>
+  assert.match(vb(withB8(n => n.band8[0].criterion = 'Lexical Resource')), /band8.*criterion/));
+test('writing band8 criterion must be in the list', () =>
+  assert.match(vb(withB8(n => n.band8[0].criterion = 'Vocabulary', 'writing', 'opinion'), 'writing', ['opinion']), /band8.*criterion/));
+test('writing band8 criterion is required', () =>
+  assert.match(vb(withB8(n => delete n.band8[0].criterion, 'writing', 'opinion'), 'writing', ['opinion']), /band8.*criterion/));
+test('speaking band8 criterion must be a speaking criterion', () =>
+  assert.match(vb(withB8(n => n.band8[0].criterion = 'Task Achievement', 'speaking', 'tfng'), 'speaking', ['tfng']), /band8.*criterion/));
+test('speaking band8 accepts Pronunciation', () =>
+  assert.doesNotMatch(vb(withB8(n => n.band8.forEach(b => b.criterion = 'Pronunciation'), 'speaking', 'tfng'), 'speaking', ['tfng']), /band8/));
+test('missing band8 is fine when not required', () => assert.doesNotMatch(vb(good()), /band8/));
+test('requireBand8 reports a missing band8', () => {
+  const n = good();
+  assert.match(vb(n, 'reading', ['tfng'], { requireBand8: true }), /"tfng": band8/);
+});
+test('CRITERIA lists the writing and speaking criteria', async () => {
+  const { CRITERIA } = await import('../tools/validate-learn.mjs');
+  assert.equal(CRITERIA.writing.length, 5);
+  assert.deepEqual(CRITERIA.speaking, ['Fluency and Coherence', 'Lexical Resource', 'Grammatical Range and Accuracy', 'Pronunciation']);
+});

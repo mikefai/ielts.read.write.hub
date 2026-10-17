@@ -53,12 +53,20 @@ export function renderPractice(n) {
     + '</details></div>').join(''));
 }
 
+export function renderBand8(n) {
+  if (!n.band8?.length) return '';
+  return sec('From band 6.5 to band 8', `<ul class="b8-list">${n.band8.map(b => `<li class="b8">`
+    + (b.criterion ? `<span class="chip">${esc(b.criterion)}</span>` : '')
+    + `<p class="typical"><b>Typical 6.5:</b> ${esc(b.typical)}</p><p class="band8"><b>Band 8:</b> ${esc(b.band8)}</p></li>`).join('')}</ul>`);
+}
+
 export function renderNote(n) {
   return `<article class="note"><h1>${esc(n.title)}</h1>`
     + sec('What this is', `<p>${esc(n.what)}</p>`)
     + (n.demo ? renderPaired(n)
       : sec('Do it in this order', `<ol>${n.steps.map(s => `<li class="step"><b>${esc(s.do)}</b><span>${esc(s.why)}</span></li>`).join('')}</ol>`))
     + renderPractice(n)
+    + renderBand8(n)
     + (n.tricks?.length ? sec('Tricks', list(n.tricks, 'trick', 'Trick')) : '')
     + (n.traps?.length ? sec('Traps to avoid', list(n.traps, 'trap', 'Trap')) : '')
     + example(n.example)

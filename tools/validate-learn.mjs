@@ -5,6 +5,27 @@ import { TYPES } from '../skills/reading/engine/types.js';
 
 const words = s => String(s ?? '').trim().split(/\s+/).filter(Boolean).length;
 const WRITING_EXEMPT = ['band-criteria', 'timing-and-planning', 'grammar-fixes'];
+export const CRITERIA = {
+  writing: ['Task Achievement', 'Task Response', 'Coherence and Cohesion', 'Lexical Resource', 'Grammatical Range and Accuracy'],
+  speaking: ['Fluency and Coherence', 'Lexical Resource', 'Grammatical Range and Accuracy', 'Pronunciation'],
+};
+
+function checkBand8(n, at, kind, requireBand8, errs) {
+  const b = n.band8;
+  if (b === undefined && !requireBand8) return;
+  if (!Array.isArray(b) || b.length < 4 || b.length > 6) { errs.push(`${at}: band8 needs 4-6 items (has ${Array.isArray(b) ? b.length : 0})`); return; }
+  const list = CRITERIA[kind];
+  b.forEach((it, i) => {
+    const pa = `${at}: band8 item ${i + 1}`;
+    if (!(it !== null && typeof it === 'object')) { errs.push(`${pa} is not an object`); return; }
+    for (const f of ['typical', 'band8']) {
+      if (typeof it[f] !== 'string' || !words(it[f])) errs.push(`${pa} ${f} is empty`);
+      else if (words(it[f]) > 35) errs.push(`${pa} ${f} is over 35 words`);
+    }
+    if (!list) { if (it.criterion !== undefined) errs.push(`${pa} criterion is not used in reading`); }
+    else if (!list.includes(it.criterion)) errs.push(`${pa} criterion must be one of: ${list.join(', ')}`);
+  });
+}
 
 function checkDemoPractice(n, at, kind, stepCount, errs) {
   const isObj = x => x !== null && typeof x === 'object';
@@ -65,7 +86,7 @@ function checkDemoPractice(n, at, kind, stepCount, errs) {
   });
 }
 
-export function validateNotes(notes, kind, requiredIds) {
+export function validateNotes(notes, kind, requiredIds, { requireBand8 = false } = {}) {
   const errs = [], seen = new Set();
   for (const id of requiredIds) if (!notes.some(n => n.id === id)) errs.push(`${kind}: missing note "${id}"`);
   for (const n of notes) {
@@ -93,6 +114,7 @@ export function validateNotes(notes, kind, requiredIds) {
       if (fr.length < 2 || fr.some(f => (f.lines?.length ?? 0) < 3)) errs.push(`${at}: frames needs 2+ frames of 3+ lines`);
     }
     checkDemoPractice(n, at, kind, steps.length, errs);
+    checkBand8(n, at, kind, requireBand8, errs);
   }
   return errs;
 }

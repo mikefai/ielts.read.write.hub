@@ -134,3 +134,26 @@ test('paired note keeps both headings once and no standalone steps list', async 
   assert.equal(h.split('Do it in this order').length, 2);
   assert.equal(h.split("Watch how it's done").length, 2);
 });
+
+const b8 = (n = 4) => Array.from({ length: n }, (_, i) => ({ typical: `typical${i}`, band8: `band8-${i}` }));
+test('renderNote shows the band 8 section after practice', () => {
+  const h = renderNote(demoNote({ band8: b8(4) }));
+  assert.ok(h.includes('From band 6.5 to band 8'));
+  assert.equal(h.split('class="b8"').length - 1, 4);
+  assert.ok(h.indexOf('Your turn') < h.indexOf('From band 6.5 to band 8'));
+  assert.ok(h.indexOf('From band 6.5 to band 8') < h.indexOf('Tricks'));
+});
+test('renderNote shows criterion chip and both band 8 lines', () => {
+  const h = renderNote(note({ band8: [{ criterion: 'Lexical Resource', typical: 'T-LINE', band8: 'B-LINE' }] }));
+  assert.ok(h.includes('<span class="chip">Lexical Resource</span>'));
+  assert.ok(h.includes('<p class="typical"><b>Typical 6.5:</b> T-LINE</p>'));
+  assert.ok(h.includes('<p class="band8"><b>Band 8:</b> B-LINE</p>'));
+});
+test('renderNote escapes band 8 text', () => {
+  const h = renderNote(note({ band8: [{ typical: 'a < b & "c"', band8: 'x' }, ...b8(3)] }));
+  assert.ok(h.includes('a &lt; b &amp; &quot;c&quot;'));
+  assert.ok(!h.includes('a < b'));
+});
+test('renderNote omits band 8 section when absent or empty', () => {
+  for (const o of [{}, { band8: [] }]) assert.ok(!renderNote(note(o)).includes('band 8'));
+});
