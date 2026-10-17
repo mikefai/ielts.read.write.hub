@@ -194,3 +194,10 @@ test('CRITERIA lists the writing and speaking criteria', async () => {
   assert.equal(CRITERIA.writing.length, 5);
   assert.deepEqual(CRITERIA.speaking, ['Fluency and Coherence', 'Lexical Resource', 'Grammatical Range and Accuracy', 'Pronunciation']);
 });
+
+test('speaking start-here needs no example or frames; parts need frames', () => {
+  const s = wgood('start-here'); delete s.example; delete s.frames;
+  assert.deepEqual(v([s], ['start-here'], 'speaking'), []);
+  const p = wgood('part1'); delete p.frames;
+  assert.match(v([p], ['part1'], 'speaking').join('\n'), /frames/);
+});

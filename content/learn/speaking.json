@@ -1,0 +1,572 @@
+[
+ {
+  "id": "start-here",
+  "title": "Start here: how the Speaking test works",
+  "what": "Speaking is a face-to-face interview with an examiner, 11 to 14 minutes long, and it is recorded. There are three parts. You are not tested on whether your opinions are right, only on how well you speak.",
+  "steps": [
+   {
+    "do": "Remember the shape: three parts, 11 to 14 minutes, one examiner, face to face. The conversation is recorded.",
+    "why": "Knowing the shape removes surprises, so your nerves have less to work with."
+   },
+   {
+    "do": "Part 1 lasts 4 to 5 minutes. The examiner asks short questions about familiar topics such as home, work, study and hobbies.",
+    "why": "These are everyday questions, so you can sound natural from the first minute."
+   },
+   {
+    "do": "Part 2: you get one minute to prepare and may make notes. Then you talk for up to 2 minutes and the examiner stops you.",
+    "why": "You do not need to finish a plan. You need to keep talking until you are stopped."
+   },
+   {
+    "do": "After your talk, expect 1 or 2 short follow-up questions on the same topic.",
+    "why": "They are a quick check, so short, clear answers are enough."
+   },
+   {
+    "do": "Part 3 lasts 4 to 5 minutes. The examiner asks abstract questions linked to your Part 2 topic.",
+    "why": "Here you give opinions and explain ideas, which shows your higher-level language."
+   },
+   {
+    "do": "Learn the four criteria: Fluency and Coherence, Lexical Resource, Grammatical Range and Accuracy, and Pronunciation.",
+    "why": "Each criterion is worth a quarter of your Speaking score, so none can be ignored."
+   },
+   {
+    "do": "Be honest and natural. Say what you really think, in your own words, and ask for a repeat if you did not hear.",
+    "why": "The examiner scores your English, not your opinions, and memorised answers sound flat."
+   }
+  ],
+  "tricks": [
+   "Practise with your phone recorder. Listen back once for clear sounds and once for ideas.",
+   "If you need a second to think, say \"That is an interesting question\" and then answer.",
+   "Treat the examiner as a friendly stranger. Look at them and speak to them, not to the table."
+  ],
+  "traps": [
+   "Learning a long answer by heart. Examiners notice it, and it breaks if the question changes.",
+   "Stopping after one short sentence. Add a reason and a small example.",
+   "Giving up when you make a mistake. Fix it quickly and keep going."
+  ],
+  "checklist": [
+   "Can I explain the three parts and their timings in my own words?",
+   "Do I know the four criteria?",
+   "Have I recorded myself speaking this week?"
+  ],
+  "demo": {
+   "prompt": "Explain the Speaking test to a friend who has never seen it.",
+   "moves": [
+    {
+     "step": 1,
+     "say": "I start with the big picture: one examiner, face to face, recorded.",
+     "build": "The Speaking test is a face-to-face chat with one examiner, and it is recorded."
+    },
+    {
+     "step": 2,
+     "say": "Part 1 is short and about everyday topics.",
+     "build": "The Speaking test is a face-to-face chat with one examiner, and it is recorded. In Part 1, which takes four to five minutes, they ask about familiar things like your home or hobbies."
+    },
+    {
+     "step": 3,
+     "say": "Part 2 is the long turn, with notes.",
+     "build": "The Speaking test is a face-to-face chat with one examiner, and it is recorded. In Part 1, which takes four to five minutes, they ask about familiar things like your home or hobbies. In Part 2 you get a minute to prepare with notes, then talk for up to two minutes until the examiner stops you."
+    },
+    {
+     "step": 4,
+     "say": "Then the short follow-up questions.",
+     "build": "The Speaking test is a face-to-face chat with one examiner, and it is recorded. In Part 1, which takes four to five minutes, they ask about familiar things like your home or hobbies. In Part 2 you get a minute to prepare with notes, then talk for up to two minutes until the examiner stops you. After that there are one or two quick follow-up questions."
+    },
+    {
+     "step": 5,
+     "say": "Part 3 moves to bigger ideas.",
+     "build": "The Speaking test is a face-to-face chat with one examiner, and it is recorded. In Part 1, which takes four to five minutes, they ask about familiar things like your home or hobbies. In Part 2 you get a minute to prepare with notes, then talk for up to two minutes until the examiner stops you. After that there are one or two quick follow-up questions. Part 3 lasts four to five minutes and is a discussion of more abstract ideas linked to your topic."
+    },
+    {
+     "step": 6,
+     "say": "I finish with what is marked.",
+     "build": "The Speaking test is a face-to-face chat with one examiner, and it is recorded. In Part 1, which takes four to five minutes, they ask about familiar things like your home or hobbies. In Part 2 you get a minute to prepare with notes, then talk for up to two minutes until the examiner stops you. After that there are one or two quick follow-up questions. Part 3 lasts four to five minutes and is a discussion of more abstract ideas linked to your topic. You are marked on fluency, vocabulary, grammar and pronunciation, not on whether your opinions are right."
+    },
+    {
+     "step": 7,
+     "say": "The last point is the most reassuring.",
+     "build": "The Speaking test is a face-to-face chat with one examiner, and it is recorded. In Part 1, which takes four to five minutes, they ask about familiar things like your home or hobbies. In Part 2 you get a minute to prepare with notes, then talk for up to two minutes until the examiner stops you. After that there are one or two quick follow-up questions. Part 3 lasts four to five minutes and is a discussion of more abstract ideas linked to your topic. You are marked on fluency, vocabulary, grammar and pronunciation, not on whether your opinions are right. So the best plan is to relax and speak naturally."
+    }
+   ],
+   "answer": "The Speaking test is a face-to-face chat with one examiner, and it is recorded. In Part 1, which takes four to five minutes, they ask about familiar things like your home or hobbies. In Part 2 you get a minute to prepare with notes, then talk for up to two minutes until the examiner stops you. After that there are one or two quick follow-up questions. Part 3 lasts four to five minutes and is a discussion of more abstract ideas linked to your topic. You are marked on fluency, vocabulary, grammar and pronunciation, not on whether your opinions are right. So the best plan is to relax and speak naturally."
+  },
+  "practice": [
+   {
+    "prompt": "How long can your Part 2 talk be, and what happens at the end?",
+    "answer": "Up to 2 minutes. The examiner stops you, then asks 1 or 2 follow-up questions.",
+    "why": "Step 3 and step 4 give the timing. Keep talking until you are stopped, because stopping early wastes your best chance to show range."
+   },
+   {
+    "prompt": "A friend says, \"I will learn one perfect answer for each part.\" Give them advice in two sentences.",
+    "answer": "A learned answer sounds unnatural and may not fit the question. It is better to practise ideas and flexible phrases so you can answer anything naturally.",
+    "why": "Step 7 says to be natural. Fluency is judged by how you speak, and a memorised answer can lose marks."
+   }
+  ],
+  "band8": [
+   {
+    "criterion": "Fluency and Coherence",
+    "typical": "You treat the test as three separate tasks and feel tired by Part 3.",
+    "band8": "You see it as one 11 to 14 minute conversation and keep the same relaxed pace from the first question to the last."
+   },
+   {
+    "criterion": "Fluency and Coherence",
+    "typical": "You pause for a long time to find the perfect word.",
+    "band8": "You use a short phrase such as \"Let me think\" and carry on, or explain the idea in other words."
+   },
+   {
+    "criterion": "Lexical Resource",
+    "typical": "You repeat the same simple words, like good, bad and very.",
+    "band8": "You collect topic words and use them naturally, choosing the exact word for your meaning instead of an extra \"very\"."
+   },
+   {
+    "criterion": "Grammatical Range and Accuracy",
+    "typical": "You use only short, simple sentences to stay safe.",
+    "band8": "You mix simple and complex sentences freely and fix small slips as you go, without stopping the flow."
+   },
+   {
+    "criterion": "Pronunciation",
+    "typical": "You speak quickly and quietly when you are nervous.",
+    "band8": "You speak at a steady pace, stress the important words and finish each word, so the examiner understands you easily throughout."
+   }
+  ]
+ },
+ {
+  "id": "part1",
+  "title": "Part 1: Introduction and interview",
+  "what": "The examiner asks short questions about familiar topics for 4 to 5 minutes. Each answer should be about 20 to 30 seconds, so one to three sentences. Aim for natural speech, not a learned script.",
+  "steps": [
+   {
+    "do": "Listen to the whole question and notice the tense. If it is about the past, answer in the past.",
+    "why": "The right tense shows control of grammar and answers what was asked."
+   },
+   {
+    "do": "Answer directly in your first sentence. Say yes, no, or what you prefer, in a full sentence.",
+    "why": "A direct start sounds confident and keeps the answer on topic."
+   },
+   {
+    "do": "Add one reason. Use \"because\" or \"mainly because\" to explain your answer.",
+    "why": "A reason turns a short reply into a developed answer."
+   },
+   {
+    "do": "Add a small example from your life, such as a place, a person or a habit.",
+    "why": "Specific detail is easier to say and sounds real."
+   },
+   {
+    "do": "Stop after about 20 to 30 seconds. Wait for the next question.",
+    "why": "A short natural answer lets the examiner cover more topics, and you avoid rambling."
+   }
+  ],
+  "tricks": [
+   "Start in different ways sometimes, such as \"I would say\" or \"Honestly\". Different openings stop you sounding like a script.",
+   "If you do not know, give an honest answer and a reason. \"Not really, because...\" is fine.",
+   "Change the pattern: sometimes example first, then reason. Variety sounds natural."
+  ],
+  "traps": [
+   "Answering with one word. Always give at least one reason.",
+   "Repeating the question word for word at the start of every answer.",
+   "Talking for a minute. Part 1 is quick, so long answers waste time."
+  ],
+  "checklist": [
+   "Did I answer the question directly?",
+   "Did I give a reason and a small example?",
+   "Did I use the correct tense?"
+  ],
+  "frames": [
+   {
+    "name": "Direct answer, reason, example",
+    "lines": [
+     "[Yes / Not really], I [enjoy / prefer / usually] [answer].",
+     "That is mainly because [reason].",
+     "For example, [small example from your life]."
+    ]
+   },
+   {
+    "name": "Past or habit questions",
+    "lines": [
+     "When I was younger, I used to [habit].",
+     "I think it was because [reason].",
+     "These days, I [what you do now]."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Do you enjoy cooking?",
+   "weak": "Yes, I like cooking.",
+   "strong": "Yes, quite a lot, mainly because it helps me relax after work. At weekends I usually try a new recipe, last week it was a vegetable soup.",
+   "why": "The strong answer starts directly, gives a reason and adds a small example. It is still short enough for Part 1."
+  },
+  "demo": {
+   "prompt": "Do you enjoy cooking?",
+   "moves": [
+    {
+     "step": 1,
+     "say": "It is a present question about me, so I use the present tense."
+    },
+    {
+     "step": 2,
+     "say": "I answer directly in the first sentence.",
+     "build": "Yes, quite a lot."
+    },
+    {
+     "step": 3,
+     "say": "Now I add a reason with \"mainly because\".",
+     "build": "Yes, quite a lot. It is mainly because it helps me relax after a long day."
+    },
+    {
+     "step": 4,
+     "say": "Then a small, real example.",
+     "build": "Yes, quite a lot. It is mainly because it helps me relax after a long day. At weekends I usually try a new recipe, and last week I made a vegetable soup."
+    },
+    {
+     "step": 5,
+     "say": "That is about 25 seconds, so I stop here."
+    }
+   ],
+   "answer": "Yes, quite a lot. It is mainly because it helps me relax after a long day. At weekends I usually try a new recipe, and last week I made a vegetable soup."
+  },
+  "practice": [
+   {
+    "prompt": "Where do you live? Answer with a direct answer, a reason and an example.",
+    "answer": "I live in a flat in the city centre, mainly because it is close to my work. For example, I can walk to the office in ten minutes.",
+    "why": "Step 2 gives the direct answer, step 3 the reason and step 4 the example. It is two sentences, so it fits Part 1."
+   },
+   {
+    "prompt": "Did you enjoy school? Answer using the past tense.",
+    "answer": "Mostly, yes. I enjoyed it because my friends were there. I remember our English lessons, they were my favourite.",
+    "why": "Step 1 reminds you to use the past tense. The answer gives a reason and a small memory, and stops quickly."
+   }
+  ],
+  "band8": [
+   {
+    "criterion": "Fluency and Coherence",
+    "typical": "You answer in one short sentence and wait for the next question.",
+    "band8": "You give a direct answer, a reason and a small example in two or three sentences, then stop at about 20 to 30 seconds."
+   },
+   {
+    "criterion": "Fluency and Coherence",
+    "typical": "You use the same opening, \"Yes, I like...\", for every question.",
+    "band8": "You vary how you start: \"Honestly\", \"I would say\", or the example first. It sounds like a real conversation."
+   },
+   {
+    "criterion": "Lexical Resource",
+    "typical": "You use general words like nice, good and interesting.",
+    "band8": "You choose a more precise word, such as relaxing, convenient or rewarding, that fits the exact topic."
+   },
+   {
+    "criterion": "Grammatical Range and Accuracy",
+    "typical": "You answer a past question in the present tense.",
+    "band8": "You match the tense to the question and use forms like \"used to\" and the present perfect when they fit."
+   },
+   {
+    "criterion": "Pronunciation",
+    "typical": "You say each sentence in the same flat voice.",
+    "band8": "You stress the key word in each sentence and let your voice rise and fall, which makes you easy to follow."
+   }
+  ]
+ },
+ {
+  "id": "part2",
+  "title": "Part 2: The long turn",
+  "what": "You get a topic card, one minute to prepare with notes, then talk for up to 2 minutes. The examiner stops you, then asks 1 or 2 follow-up questions. The goal is to keep talking in a clear order.",
+  "steps": [
+   {
+    "do": "Read the card and the prompts at once. Check the tense: most cards ask about the past or a regular thing.",
+    "why": "The prompts are your outline. The tense decides the grammar you need."
+   },
+   {
+    "do": "Use the minute to write keywords, not sentences. Put one or two words next to each prompt.",
+    "why": "Keywords keep you on track, and there is no time to write full sentences."
+   },
+   {
+    "do": "Start with a short opening that names the topic, then follow the prompts in the card order.",
+    "why": "Following the order gives you a clear structure without extra planning."
+   },
+   {
+    "do": "For each prompt, add detail: what, where, who, how you felt and why it mattered.",
+    "why": "Detail helps you fill two minutes naturally and shows range."
+   },
+   {
+    "do": "If you run out of ideas, add a feeling, a comparison or a small story. Keep talking until the examiner says stop.",
+    "why": "Stopping early loses time to show your English. The examiner will stop you."
+   },
+   {
+    "do": "Answer the 1 or 2 follow-up questions with a short, direct answer plus a reason.",
+    "why": "These are quick, so short and clear answers fit."
+   }
+  ],
+  "tricks": [
+   "Choose a topic you can describe in detail, not the most impressive one. A simple real memory is easier to extend.",
+   "Use your keywords as signposts: \"First...\", \"Another thing was...\", \"What I remember most is...\".",
+   "Practise with a timer for two minutes, then record it and count how many prompts you covered."
+  ],
+  "traps": [
+   "Spending the whole minute writing full sentences. You will read them and sound stiff.",
+   "Talking about only the first prompt and forgetting the rest.",
+   "Stopping before the examiner stops you, even if it feels long."
+  ],
+  "checklist": [
+   "Did I write only keywords for each prompt?",
+   "Did I follow the order of the prompts?",
+   "Did I keep talking until the examiner stopped me?"
+  ],
+  "frames": [
+   {
+    "name": "Opening and first prompt",
+    "lines": [
+     "I would like to talk about [topic].",
+     "It was [when and where], and [who was there].",
+     "What I remember most is [detail]."
+    ]
+   },
+   {
+    "name": "Feelings and ending",
+    "lines": [
+     "At the time I felt [feeling], because [reason].",
+     "Looking back, [why it mattered].",
+     "That is why [short closing sentence]."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Describe a place where you go to relax.",
+   "weak": "I go to the park. It is nice and quiet. I walk there on Sundays. I like it.",
+   "strong": "I would like to talk about a small park near my home. I go there on Sunday mornings, usually with a coffee. What I enjoy most is the lake, because the water is calm and I can switch off completely.",
+   "why": "The strong version names the topic, follows the prompts and adds detail and a reason. The weak one is four flat facts and would run out quickly."
+  },
+  "demo": {
+   "prompt": "Describe a place where you go to relax. You should say where it is, how often you go, what you do there, and explain why it helps you relax.",
+   "moves": [
+    {
+     "step": 1,
+     "say": "The card is in the present, so I plan present tense."
+    },
+    {
+     "step": 2,
+     "say": "My notes are only keywords: park, Sundays, walk and coffee, calm lake."
+    },
+    {
+     "step": 3,
+     "say": "I open by naming the topic, then answer the first prompt.",
+     "build": "I would like to talk about a small park near my home, about ten minutes on foot."
+    },
+    {
+     "step": 3,
+     "say": "Second prompt, how often.",
+     "build": "I would like to talk about a small park near my home, about ten minutes on foot. I go there most Sunday mornings, and sometimes after work in the summer."
+    },
+    {
+     "step": 4,
+     "say": "Third prompt, with detail about what I do.",
+     "build": "I would like to talk about a small park near my home, about ten minutes on foot. I go there most Sunday mornings, and sometimes after work in the summer. Usually I walk around the lake with a coffee, and if the weather is good I read on a bench."
+    },
+    {
+     "step": 4,
+     "say": "Fourth prompt, the reason and a feeling.",
+     "build": "I would like to talk about a small park near my home, about ten minutes on foot. I go there most Sunday mornings, and sometimes after work in the summer. Usually I walk around the lake with a coffee, and if the weather is good I read on a bench. The reason it relaxes me is that the water is very calm and there is almost no traffic noise, so I can switch off completely."
+    },
+    {
+     "step": 5,
+     "say": "I still have time, so I add a comparison and keep going.",
+     "build": "I would like to talk about a small park near my home, about ten minutes on foot. I go there most Sunday mornings, and sometimes after work in the summer. Usually I walk around the lake with a coffee, and if the weather is good I read on a bench. The reason it relaxes me is that the water is very calm and there is almost no traffic noise, so I can switch off completely. It is a big contrast with my week, which is full of meetings and screens. By Sunday afternoon I feel like a different person."
+    },
+    {
+     "step": 6,
+     "say": "The examiner stops me. For the follow-up I answer briefly with a reason: yes, because it is free and quiet."
+    }
+   ],
+   "answer": "I would like to talk about a small park near my home, about ten minutes on foot. I go there most Sunday mornings, and sometimes after work in the summer. Usually I walk around the lake with a coffee, and if the weather is good I read on a bench. The reason it relaxes me is that the water is very calm and there is almost no traffic noise, so I can switch off completely. It is a big contrast with my week, which is full of meetings and screens. By Sunday afternoon I feel like a different person."
+  },
+  "practice": [
+   {
+    "prompt": "Card: Describe a teacher who helped you. Write the keywords you would note in your minute.",
+    "answer": "Who: Mr Kaya, maths. When: age 14. What he did: extra lessons, patient. Why it mattered: I passed, felt confident.",
+    "why": "Step 2 asks for keywords next to each prompt. The notes are short, and they follow the card order."
+   },
+   {
+    "prompt": "The examiner asks after your talk: \"Would you recommend this place to others?\" Give a short answer.",
+    "answer": "Yes, definitely, especially to busy people. It is free, quiet and easy to reach, so it is an easy way to take a break.",
+    "why": "Step 6 wants a short, direct answer plus a reason. This fits in a few seconds."
+   }
+  ],
+  "band8": [
+   {
+    "criterion": "Fluency and Coherence",
+    "typical": "You spend the minute writing full sentences, then read them in a stiff voice.",
+    "band8": "You note one or two keywords per prompt and speak from them, so your talk sounds natural and flows from point to point."
+   },
+   {
+    "criterion": "Fluency and Coherence",
+    "typical": "You finish in a minute and stop, or repeat yourself to fill time.",
+    "band8": "You keep talking until the examiner stops you by adding a feeling, a comparison or a small story, with no long gaps."
+   },
+   {
+    "criterion": "Lexical Resource",
+    "typical": "You describe a place as nice, quiet and beautiful.",
+    "band8": "You paint the scene with specific words, such as a calm lake or a shaded bench, and use a few natural expressions for feelings."
+   },
+   {
+    "criterion": "Grammatical Range and Accuracy",
+    "typical": "You describe the past and present with one simple tense.",
+    "band8": "You switch between tenses accurately, for example the past for the memory and the present for how you feel now."
+   },
+   {
+    "criterion": "Pronunciation",
+    "typical": "You rush through the details and drop the ends of words.",
+    "band8": "You slow down on key details, stress the words that matter and pause between ideas, so every point is clear."
+   },
+   {
+    "criterion": "Fluency and Coherence",
+    "typical": "You answer the follow-up questions with a single word.",
+    "band8": "You give a direct answer plus a short reason, in one or two sentences, and then wait for the next question."
+   }
+  ]
+ },
+ {
+  "id": "part3",
+  "title": "Part 3: Two-way discussion",
+  "what": "Part 3 lasts 4 to 5 minutes. The examiner asks abstract questions linked to your Part 2 topic, about society and ideas, not about you. Give an opinion, explain it, then compare or imagine.",
+  "steps": [
+   {
+    "do": "Listen for the question type: opinion, comparison, past and future, or cause and effect.",
+    "why": "The type tells you which language to use."
+   },
+   {
+    "do": "Give your view in the first sentence. You may say \"I think\", \"In my view\" or \"It depends\".",
+    "why": "A clear opinion starts the answer well."
+   },
+   {
+    "do": "Explain why with a reason, and keep it general: people, society, the country, not just you.",
+    "why": "Part 3 is abstract. General reasons match the question."
+   },
+   {
+    "do": "Add depth: compare past and present, give a result, or imagine the future.",
+    "why": "Comparing and speculating show a wide range of grammar."
+   },
+   {
+    "do": "Use hedging like \"tends to\", \"might\" and \"in many cases\" to sound careful.",
+    "why": "Hedging is natural when you discuss big ideas and avoids sounding too certain."
+   },
+   {
+    "do": "Stop with a short link back to the question. Do not tell a long personal story.",
+    "why": "A tidy ending keeps the answer focused, and the examiner can ask the next question."
+   }
+  ],
+  "tricks": [
+   "Use \"It depends\" then give two cases. It is easy and sounds mature.",
+   "Use \"Some people... while others...\" to show both sides, then give your view.",
+   "If the question is hard, repeat it in your own words to buy time: \"So you are asking whether...\""
+  ],
+  "traps": [
+   "Answering with a personal story. Part 3 needs general ideas.",
+   "Giving a yes or no and nothing else.",
+   "Using only \"I think\" every time. Mix your phrases."
+  ],
+  "checklist": [
+   "Did I give a clear opinion?",
+   "Did I explain it with a general reason?",
+   "Did I compare or speculate once?"
+  ],
+  "frames": [
+   {
+    "name": "Opinion with reason",
+    "lines": [
+     "In my view, [opinion].",
+     "The main reason is that [general reason].",
+     "As a result, [consequence for people or society]."
+    ]
+   },
+   {
+    "name": "Compare and speculate",
+    "lines": [
+     "Compared with the past, [what has changed].",
+     "I would say this is mainly because [reason].",
+     "In the future, it might [possible change], although [other side]."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Why do some people find it hard to relax?",
+   "weak": "Because they are busy. They have work.",
+   "strong": "I think it is mainly because work follows people home these days. Phones keep them connected, so it can be hard to switch off. In my view, it tends to be worse for people in big cities.",
+   "why": "The strong answer gives an opinion, a general reason and a result, with hedging. The weak one is two bare facts."
+  },
+  "demo": {
+   "prompt": "Do you think people today have less free time than in the past?",
+   "moves": [
+    {
+     "step": 1,
+     "say": "This is a comparison question, so I plan past versus present."
+    },
+    {
+     "step": 2,
+     "say": "I give my view first, with some care.",
+     "build": "I would say it depends, but in many cases people feel they have less free time."
+    },
+    {
+     "step": 3,
+     "say": "Now the general reason.",
+     "build": "I would say it depends, but in many cases people feel they have less free time. The main reason is that work is no longer limited to the office, because phones keep people connected all the time."
+    },
+    {
+     "step": 4,
+     "say": "Add depth with a comparison.",
+     "build": "I would say it depends, but in many cases people feel they have less free time. The main reason is that work is no longer limited to the office, because phones keep people connected all the time. In the past, once people left their job, they could really switch off, whereas now they often check messages in the evening."
+    },
+    {
+     "step": 5,
+     "say": "A hedge and a possible result.",
+     "build": "I would say it depends, but in many cases people feel they have less free time. The main reason is that work is no longer limited to the office, because phones keep people connected all the time. In the past, once people left their job, they could really switch off, whereas now they often check messages in the evening. This tends to affect their health, and it might lead to more stress in the long run."
+    },
+    {
+     "step": 6,
+     "say": "I link back and stop.",
+     "build": "I would say it depends, but in many cases people feel they have less free time. The main reason is that work is no longer limited to the office, because phones keep people connected all the time. In the past, once people left their job, they could really switch off, whereas now they often check messages in the evening. This tends to affect their health, and it might lead to more stress in the long run. So overall, I think free time has become harder to protect."
+    }
+   ],
+   "answer": "I would say it depends, but in many cases people feel they have less free time. The main reason is that work is no longer limited to the office, because phones keep people connected all the time. In the past, once people left their job, they could really switch off, whereas now they often check messages in the evening. This tends to affect their health, and it might lead to more stress in the long run. So overall, I think free time has become harder to protect."
+  },
+  "practice": [
+   {
+    "prompt": "Add a hedge to this sentence: \"Young people spend too much time online.\"",
+    "answer": "In many cases, young people tend to spend a lot of time online.",
+    "why": "Step 5 uses hedging. \"In many cases\" and \"tend to\" make the idea careful instead of absolute."
+   },
+   {
+    "prompt": "Why is it important for cities to have parks? Give a view and a general reason.",
+    "answer": "In my view, parks are essential because they give crowded cities space to breathe. As a result, residents are usually healthier and less stressed.",
+    "why": "Step 2 gives a view, step 3 a general reason and a result. It talks about residents, not about yourself."
+   }
+  ],
+  "band8": [
+   {
+    "criterion": "Fluency and Coherence",
+    "typical": "You say \"I think\" and then pause while you search for a reason.",
+    "band8": "You give your view, then use a linking phrase such as \"The main reason is\" or \"This is because\" to move smoothly into your explanation."
+   },
+   {
+    "criterion": "Fluency and Coherence",
+    "typical": "You answer with a story about your own family.",
+    "band8": "You widen the answer to people, society or the country, and use a brief example only to support the general point."
+   },
+   {
+    "criterion": "Lexical Resource",
+    "typical": "You repeat \"important\" and \"problem\" for every topic.",
+    "band8": "You use topic-specific words and a few precise terms, such as essential, widespread or a growing trend, in the right places."
+   },
+   {
+    "criterion": "Grammatical Range and Accuracy",
+    "typical": "You use only present simple and \"will\" when you talk about the future.",
+    "band8": "You compare past and present with the right tenses and use conditionals and modals such as might and would to speculate."
+   },
+   {
+    "criterion": "Grammatical Range and Accuracy",
+    "typical": "You state every idea as a fact, for example \"People are lazy\".",
+    "band8": "You use hedges such as tends to, in many cases and it seems that, and you stay accurate when ideas become complex."
+   },
+   {
+    "criterion": "Pronunciation",
+    "typical": "You use the same flat tone for every answer.",
+    "band8": "You use rising and falling intonation to show contrast, such as \"some people... while others...\", so your ideas are easy to follow."
+   }
+  ]
+ }
+]

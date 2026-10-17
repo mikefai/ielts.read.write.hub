@@ -107,7 +107,7 @@ export function validateNotes(notes, kind, requiredIds, { requireBand8 = false }
     const ex = n.example;
     if (kind === 'reading') {
       if (n.id !== 'start-here' && !(ex?.evidence && ex?.text?.includes(ex.evidence))) errs.push(`${at}: example evidence not in text`);
-    } else if (!WRITING_EXEMPT.includes(n.id)) {
+    } else if (!(kind === 'speaking' ? n.id === 'start-here' : WRITING_EXEMPT.includes(n.id))) {
       if (!ex || !(words(ex.strong) > words(ex.weak))) errs.push(`${at}: example strong must be longer than weak`);
       if (words(ex?.why) < 10) errs.push(`${at}: example why needs 10+ words`);
       const fr = n.frames ?? [];
@@ -126,14 +126,15 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const req = {
     reading: ['start-here', ...TYPES.map(t => t.id)],
     writing: [...Object.keys(guides instanceof Error ? {} : guides), ...WRITING_EXEMPT],
+    speaking: ['start-here', 'part1', 'part2', 'part3'],
   };
   const errs = [];
   if (guides instanceof Error) errs.push(`guides.json: ${guides.message}`);
-  for (const kind of ['reading', 'writing']) {
+  for (const kind of ['reading', 'writing', 'speaking']) {
     const notes = load(`learn/${kind}.json`);
     const ok = Array.isArray(notes);
     if (!ok) errs.push(`${kind}: cannot read content/learn/${kind}.json (${notes.message ?? 'not an array'})`);
-    errs.push(...validateNotes(ok ? notes : [], kind, req[kind]));
+    errs.push(...validateNotes(ok ? notes : [], kind, req[kind], { requireBand8: true }));
   }
   console.log(`${errs.length} errors`); errs.forEach(e => console.log(' ', e));
   process.exit(errs.length ? 1 : 0);
