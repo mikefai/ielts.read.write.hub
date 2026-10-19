@@ -4,7 +4,7 @@ import { renderers } from './renderers.js';
 import { markItem } from './marking.js';
 import { bandFor } from './band.js';
 import { STEPS } from './coach.js';
-import { recordAttempt } from '../../../assets/core/store.js';
+import { recordAttempt, recordMistakes } from '../../../assets/core/store.js';
 import { mountSaveBar } from '../../../assets/core/answers.js';
 import { mountNavigator, addFlags, addStrike, mountPassagePace, goTo } from './tools-nav.js';
 import { mountAnnotations, mountFindBar, mountRuler, reviewPassageHtml, evidenceVerdict } from './tools-annotate.js';
@@ -46,7 +46,7 @@ export async function startTest({ mount, minutes = 60 }) {
       const base = flat.length;
       getters.push(renderers[set.type](set, box, from - 1));
       box.querySelectorAll('.q, .box').forEach((el, i) => { el.insertAdjacentHTML('beforeend', helpHtml(base + i)); navItems.push({ el, passageIndex: pi, number: from + i }); });
-      set.items.forEach(it => flat.push({ it, wl: set.wordLimit, p: pi }));
+      set.items.forEach((it, k) => flat.push({ it, wl: set.wordLimit, p: pi, set, k }));
       from += set.items.length;
     });
   });
@@ -85,6 +85,7 @@ export async function startTest({ mount, minutes = 60 }) {
     const marks = passages.map((_, pi) => ann.getMarks(pi)); ann.destroy();
     const seconds = Math.round((Date.now() - start) / 1000);
     recordAttempt({ type: 'full-test', setId: id, score, total: flat.length, seconds });
+    sets.flat().forEach(set => recordMistakes({ type: set.type, setId: set.id, marks: res.filter(r => r.set === set).map(r => [r.k, r.ok]) }));
     mount.innerHTML = `<section class="card sheet"><h2>${score}/${flat.length}</h2>
       <p><strong>Approximate band ${bandFor(score)}</strong> <span class="muted">(estimate from a published raw-score table, not an official IELTS result)</span></p>
       <div id="savebar"></div><p><a class="btn" href="../">Back to Reading</a> <a class="btn ghost" href="">Retake</a></p></section>` +

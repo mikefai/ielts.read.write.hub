@@ -11,7 +11,9 @@
 import { mountDisplayMenu } from '../../assets/core/display.js';
 mountDisplayMenu(document.querySelector('.wrap > p'));
 import { TYPES } from './engine/types.js';
-import { getProgress } from '../../assets/core/store.js';
+import { getProgress, getMistakes } from '../../assets/core/store.js';
+const wrong = Object.values(getMistakes()).flat().length;
+if (wrong) document.querySelector('.skills').insertAdjacentHTML('beforeend', `<a class="skill wide" style="--c:#d9441e" href="mistakes/"><span class="num">&#8635;</span><div><h3>Redo my mistakes (${wrong})</h3><p>Only the questions you got wrong, with their passages. Answer one correctly and it leaves this list</p></div><span class="go" aria-hidden="true">&rarr;</span></a>`);
 const at = getProgress().attempts;
 document.getElementById('tiles').innerHTML = TYPES.map((t, i) => {
   const a = at.filter(x => x.type === t.id), sc = a.reduce((s, x) => s + x.score, 0), tot = a.reduce((s, x) => s + x.total, 0);
