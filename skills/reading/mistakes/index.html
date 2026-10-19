@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><link rel="icon" href="data:,"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Redo my mistakes · IELTS Reading</title>
+<link rel="stylesheet" href="../../../assets/core/tokens.css"><link rel="stylesheet" href="../../../assets/core/base.css">
+<link rel="stylesheet" href="../engine/engine.css"></head>
+<body><div class="wrap"><p><a class="back" href="../">&larr; Reading</a></p><div id="app" class="rise"></div></div>
+<script type="module">
+import { mountDisplayMenu } from '../../../assets/core/display.js';
+import { getJSON, esc, flashPara } from '../engine/runner.js';
+import { renderers } from '../engine/renderers.js';
+import { markItem } from '../engine/marking.js';
+import { TYPES } from '../engine/types.js';
+import { getMistakes, recordMistakes } from '../../../assets/core/store.js';
+
+const app = document.getElementById('app');
+const entries = Object.entries(getMistakes());
+app.innerHTML = `<header class="bar"><div><p class="kicker">Reading</p><h1>Redo my mistakes</h1></div><span id="dispslot"></span></header><div id="sets"></div>`;
+mountDisplayMenu(app.querySelector('#dispslot'));
+const box = app.querySelector('#sets');
+let blocks;
+try {
+  // each entry: one question set, re-rendered with only its wrong items next to its passage
+  blocks = await Promise.all(entries.map(async ([key, idx]) => {
+    const [type, setId] = key.split(':');
+    const set = await getJSON(`questions/${type}/${setId}.json`), passage = await getJSON(`passages/${set.passageId}.json`);
+    return { type, setId, set, passage, idx: idx.filter(i => set.items[i]) };
+  }));
+} catch (e) { box.innerHTML = `<p class="card">Could not load your mistakes (${esc(e.message)}).</p>`; throw e; }
+
+if (!blocks.length) box.innerHTML = `<p class="card">No mistakes to redo. Questions you get wrong in Reading exercises and tests appear here.</p><p><a class="btn" href="../">Back to Reading</a></p>`;
+else {
+  blocks.forEach(b => {
+    const el = document.createElement('div'); el.className = 'split';
+    el.innerHTML = `<article class="card passage"><h2>${esc(b.passage.title)}</h2>${b.passage.paragraphs.map(p => `<p data-label="${p.label}"><strong>${p.label}</strong> ${esc(p.text)}</p>`).join('')}</article>
+      <section class="card"><p class="kicker">${esc(TYPES.find(t => t.id === b.type)?.title ?? b.type)}</p><p class="muted">${esc(b.set.instructions ?? '')}</p><div class="items" style="counter-reset: q"></div></section>`;
+    box.append(el);
+    b.get = renderers[b.type]({ ...b.set, items: b.idx.map(i => b.set.items[i]) }, el.querySelector('.items'));
+    el.addEventListener('showpara', e => flashPara(el, e.detail));
+  });
+  box.insertAdjacentHTML('beforeend', '<p><button class="btn" id="submit" type="button">Submit</button></p>');
+  box.querySelector('#submit').onclick = () => {
+    box.innerHTML = blocks.map(b => {
+      const a = b.get(), res = b.idx.map((i, k) => ({ it: b.set.items[i], a: a[k], ok: markItem(b.set.items[i], a[k], b.set.wordLimit), i }));
+      recordMistakes({ type: b.type, setId: b.setId, marks: res.map(r => [r.i, r.ok]) });
+      return `<section class="card"><h2>${esc(b.passage.title)}</h2>` + res.map(r => `
+        <div class="rev ${r.ok ? 'ok' : 'bad'}"><p><strong>${r.ok ? '\u2713' : '\u2717'}</strong> ${esc(r.it.prompt)}</p>
+          <p>Your answer: ${esc(r.a || '(blank)')} \u00b7 Correct: <strong>${esc(r.it.answer)}</strong></p>
+          <p class="muted">Evidence (paragraph ${esc(r.it.evidence.paragraph)}): <em>\u201c${esc(r.it.evidence.quote)}\u201d</em></p></div>`).join('') + '</section>';
+    }).join('') + `<p><a class="btn" href="../">Back to Reading</a> <a class="btn ghost" href="">Redo what is left</a></p>`;
+  };
+}
+</script></body></html>

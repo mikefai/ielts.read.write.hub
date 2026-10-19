@@ -2,7 +2,7 @@ import { mountDisplayMenu } from '../../../assets/core/display.js';
 import { TYPES } from './types.js';
 import { markItem } from './marking.js';
 import { STEPS, COACH } from './coach.js';
-import { recordAttempt } from '../../../assets/core/store.js';
+import { recordAttempt, recordMistakes } from '../../../assets/core/store.js';
 import { mountSaveBar } from '../../../assets/core/answers.js';
 import { mountNavigator, addFlags, addStrike, goTo } from './tools-nav.js';
 import { mountAnnotations, mountFindBar, mountRuler, evidenceVerdict } from './tools-annotate.js';
@@ -91,6 +91,7 @@ export async function startSet({ type, mount, render, minutes }) {
     const score = results.filter(r => r.ok).length;
     const seconds = Math.round((Date.now() - start) / 1000);
     recordAttempt({ type, setId, score, total: set.items.length, seconds });
+    recordMistakes({ type, setId, marks: results.map((r, i) => [i, r.ok]) });
     mount.querySelector('#items').parentElement.innerHTML = `<h2>Score ${score}/${set.items.length}</h2>` + results.map((r, i) => `
       <div class="rev ${r.ok ? 'ok' : 'bad'}"><p><strong>${i + 1}. ${r.ok ? '\u2713' : '\u2717'}</strong> ${esc(r.it.prompt)}</p>
         <p>Your answer: ${esc(r.a || '(blank)')} \u00b7 Correct: <strong>${esc(r.it.answer)}</strong></p>
