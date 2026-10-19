@@ -109,7 +109,7 @@ function run(task, roles, meta, guide, bank, dict) {
     onDiscard: () => { slots().forEach(t => t.value = ''); $('#freeText').value = ''; live.flush(); } });
 
   $('#done').onclick = () => {
-    clearInterval(tick); live.cancel(); draft.stop();
+    clearInterval(tick); live.cancel(); app.removeEventListener('input', live); draft.stop(); // review checkboxes fire input too
     const paraList = getParas(), nowWords = paraList.join(' ').split(/\s+/).filter(Boolean).length;
     const lastLine = lastNote(last, nowWords);
     saveLast(task.id, { at: Date.now(), words: nowWords, paragraphs: paraList });

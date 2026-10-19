@@ -25,11 +25,11 @@ try {
 
 function run(mock) {
   const steps = buildSteps(mock), p2 = mock.part2, say = 'speechSynthesis' in window;
-  let i = 0, exam = false, timer = null, prepNotes = '';
+  let i = 0, exam = false, timer = null, prepNotes = '', left = 0;
   const start = Date.now();
   const stop = () => { clearInterval(timer); if (say) speechSynthesis.cancel(); };
   const countdown = (el, secs, onEnd) => {
-    let left = secs; el.textContent = mmss(left);
+    left = secs; el.textContent = mmss(left);
     timer = setInterval(() => { left--; el.textContent = mmss(left); el.classList.toggle('late', left <= 0); if (onEnd && left === 0) { clearInterval(timer); onEnd(); } }, 1000);
   };
 
@@ -50,7 +50,7 @@ function run(mock) {
     app.querySelector('#go').onclick = () => show();
   }
 
-  function show(notes = '') {
+  function show(notes = '', resume) {
     stop();
     if (i >= steps.length) return finish();
     const s = steps[i], isQ = s.kind === 'question', c = p2.cue;
@@ -70,10 +70,10 @@ function run(mock) {
         </div><div id="model" class="model" hidden>${esc(model)}</div></section>
         ${exam ? '' : help(s)}</div>`;
     const next = () => { prepNotes = app.querySelector('#notes')?.value || prepNotes; i++; show(); }, t = app.querySelector('#timer');
-    if (t) countdown(t, s.kind === 'prep' ? c.prepSeconds : s.kind === 'talk' ? c.talkSeconds : 30, isQ ? null : next); // question timer is soft: it counts past zero
+    if (t) countdown(t, resume ?? (s.kind === 'prep' ? c.prepSeconds : s.kind === 'talk' ? c.talkSeconds : 30), isQ ? null : next); // question timer is soft: it counts past zero
     const ta = app.querySelector('#notes'); if (ta) ta.value = notes;
     app.querySelector('#next').onclick = next;
-    app.querySelector('#exam').onclick = () => { exam = !exam; show(ta?.value); };
+    app.querySelector('#exam').onclick = () => { exam = !exam; show(ta?.value, left); }; // keep the clock running across the re-render
     app.querySelector('#hear')?.addEventListener('click', () => { speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(s.ref.q)); });
     app.querySelector('#mdl')?.addEventListener('click', e => { const m = app.querySelector('#model'); m.hidden = !m.hidden; e.target.setAttribute('aria-expanded', !m.hidden); e.target.textContent = m.hidden ? 'Show model answer' : 'Hide model answer'; });
   }
