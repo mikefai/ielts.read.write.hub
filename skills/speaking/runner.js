@@ -26,6 +26,9 @@ try {
 function run(mock) {
   const steps = buildSteps(mock), p2 = mock.part2, say = 'speechSynthesis' in window;
   let i = 0, exam = false, timer = null, prepNotes = '', left = 0;
+  const canRec = 'MediaRecorder' in window && !!navigator.mediaDevices?.getUserMedia;
+  let rec = null, clip = ''; // in-memory only: the object URL is revoked when the step ends
+  const drop = () => { if (rec) { rec.onstop = null; if (rec.state !== 'inactive') rec.stop(); rec.stream.getTracks().forEach(t => t.stop()); rec = null; } if (clip) URL.revokeObjectURL(clip); clip = ''; };
   const start = Date.now();
   const stop = () => { clearInterval(timer); if (say) speechSynthesis.cancel(); };
   const countdown = (el, secs, onEnd) => {
@@ -64,17 +67,37 @@ function run(mock) {
       <div class="split ${exam ? 'solo' : ''}"><section class="card step">${body}
         <div class="row">
           ${isQ && say ? '<button class="btn ghost" id="hear" type="button">Hear the examiner</button>' : ''}
+          ${canRec && (isQ || s.kind === 'talk') ? `<button class="btn ghost" id="rec" type="button">${rec ? 'Stop' : clip ? 'Record again' : 'Record'}</button>` : ''}
           ${model && !exam ? '<button class="btn ghost" id="mdl" type="button" aria-expanded="false">Show model answer</button>' : ''}
           <button class="btn" id="next" type="button">${s.kind === 'cue' ? 'Start preparing' : s.kind === 'prep' ? 'Start talking' : i === steps.length - 1 ? 'Finish' : 'Next'}</button>
           <button class="tog" id="exam" type="button" aria-pressed="${exam}">Exam mode</button>
-        </div><div id="model" class="model" hidden>${esc(model)}</div></section>
+        </div><audio id="clip" controls ${clip ? `src="${clip}"` : 'hidden'}></audio><div id="model" class="model" hidden>${esc(model)}</div></section>
         ${exam ? '' : help(s)}</div>`;
-    const next = () => { prepNotes = app.querySelector('#notes')?.value || prepNotes; i++; show(); }, t = app.querySelector('#timer');
+    const next = () => { drop(); prepNotes = app.querySelector('#notes')?.value || prepNotes; i++; show(); }, t = app.querySelector('#timer');
     if (t) countdown(t, resume ?? (s.kind === 'prep' ? c.prepSeconds : s.kind === 'talk' ? c.talkSeconds : 30), isQ ? null : next); // question timer is soft: it counts past zero
     const ta = app.querySelector('#notes'); if (ta) ta.value = notes;
     app.querySelector('#next').onclick = next;
     app.querySelector('#exam').onclick = () => { exam = !exam; show(ta?.value, left); }; // keep the clock running across the re-render
     app.querySelector('#hear')?.addEventListener('click', () => { speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(s.ref.q)); });
+    app.querySelector('#rec')?.addEventListener('click', async e => {
+      if (rec) return rec.stop();
+      const at = i; e.target.disabled = true;
+      try {
+        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        if (at !== i) return stream.getTracks().forEach(t => t.stop()); // student moved on while the mic prompt was open
+        const r = rec = new MediaRecorder(stream), parts = [];
+        r.ondataavailable = ev => parts.push(ev.data);
+        r.onstop = () => {
+          stream.getTracks().forEach(t => t.stop()); rec = null;
+          if (clip) URL.revokeObjectURL(clip);
+          clip = URL.createObjectURL(new Blob(parts, { type: r.mimeType }));
+          const a = app.querySelector('#clip'), b = app.querySelector('#rec'); // re-query: Exam mode may have re-rendered the step
+          a.src = clip; a.hidden = false; b.textContent = 'Record again';
+        };
+        r.start(); app.querySelector('#rec').textContent = 'Stop';
+      } catch { app.querySelector('#rec').outerHTML = '<span class="muted">Microphone unavailable, so recording is off.</span>'; }
+      finally { const b = app.querySelector('#rec'); if (b) b.disabled = false; }
+    });
     app.querySelector('#mdl')?.addEventListener('click', e => { const m = app.querySelector('#model'); m.hidden = !m.hidden; e.target.setAttribute('aria-expanded', !m.hidden); e.target.textContent = m.hidden ? 'Show model answer' : 'Hide model answer'; });
   }
 
