@@ -6,111 +6,6 @@
   "items": [
     {
       "id": "q1",
-      "prompt": "A description of how an early investigator ensured that earlier learning could not help him remember.",
-      "answer": "A",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "evidence": {
-        "paragraph": "A",
-        "quote": "so that prior knowledge could not assist recall"
-      },
-      "step": 2,
-      "how": "Think about which part of a text introduces the first experiments. Underline early investigator and could not help, and scan the opening paragraphs for a method designed to remove any advantage from existing knowledge.",
-      "again": "The meaningless syllables in paragraph A were chosen to prevent earlier knowledge from supporting recall. Later paragraphs describe other experiments, but none explains how the material was made neutral."
-    },
-    {
-      "id": "q2",
-      "prompt": "A reference to a creature being trained to locate food.",
-      "answer": "B",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "evidence": {
-        "paragraph": "B",
-        "quote": "trained rats to find a food reward in a maze"
-      },
-      "step": 2,
-      "how": "Underline creature and food in the prompt, then scan for a paragraph that describes an animal being taught a task. Expect a specific species to replace the general word creature.",
-      "again": "Rats and a food reward in a maze match creature and locate food. Only one paragraph involves animals at all, so the others can be ruled out quickly once the specific species is noticed."
-    },
-    {
-      "id": "q3",
-      "prompt": "Evidence that a brief period of sleep can have benefits similar to extra study time.",
-      "answer": "C",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "evidence": {
-        "paragraph": "C",
-        "quote": "a short sleep can sometimes prove as useful as additional hours of revision"
-      },
-      "step": 3,
-      "how": "Look for a paragraph comparing a short sleep with more studying. Underline brief sleep and extra study time, and expect revision or learning to appear as synonyms for study.",
-      "again": "Paragraph C ends with the writer suggesting that a short sleep may be as valuable as more hours of revision. Other paragraphs discuss longer or complete nights of sleep, which is a different point."
-    },
-    {
-      "id": "q4",
-      "prompt": "An explanation of why unpleasant memories may be kept for an unusually long time.",
-      "answer": "D",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "evidence": {
-        "paragraph": "D",
-        "quote": "the brain tags material linked with strong feeling as important for survival"
-      },
-      "step": 4,
-      "how": "Underline unpleasant memories and kept, then scan for a paragraph offering a reason rather than merely a result. Expect emotion and survival to appear in different words from the prompt.",
-      "again": "The reason given in paragraph D is that strongly felt material is marked as important. A result alone would not be enough, because the prompt asks for an explanation of why such memories persist."
-    },
-    {
-      "id": "q5",
-      "prompt": "A claim that the harm done by missing sleep cannot be cancelled by sleeping more afterwards.",
-      "answer": "E",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "evidence": {
-        "paragraph": "E",
-        "quote": "yet the sleepless students still remembered around forty per cent fewer words"
-      },
-      "step": 3,
-      "how": "Find the paragraph about going without sleep. Underline harm and cannot be cancelled, and look for a sentence showing that later rest did not undo the effect on learning.",
-      "again": "Paragraph E reports that recovery nights did not restore recall, which matches the claim that extra sleep afterwards cannot cancel the damage. Paragraph G warns about cramming, but does not discuss recovery sleep."
-    },
-    {
-      "id": "q6",
       "prompt": "Details of a trial of a method intended to improve memory in later life.",
       "answer": "F",
       "options": [
@@ -131,7 +26,28 @@
       "again": "Pink noise played during sleep is the technique being tested on older volunteers in paragraph F. The word later life points to the discussion of age, which narrows the search to a single paragraph."
     },
     {
-      "id": "q7",
+      "id": "q2",
+      "prompt": "An explanation of why unpleasant memories may be kept for an unusually long time.",
+      "answer": "D",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "evidence": {
+        "paragraph": "D",
+        "quote": "the brain tags material linked with strong feeling as important for survival"
+      },
+      "step": 4,
+      "how": "Underline unpleasant memories and kept, then scan for a paragraph offering a reason rather than merely a result. Expect emotion and survival to appear in different words from the prompt.",
+      "again": "The reason given in paragraph D is that strongly felt material is marked as important. A result alone would not be enough, because the prompt asks for an explanation of why such memories persist."
+    },
+    {
+      "id": "q3",
       "prompt": "A criticism of the kinds of people who have taken part in many studies.",
       "answer": "G",
       "options": [
@@ -150,6 +66,90 @@
       "step": 4,
       "how": "Think about where a writer usually weighs the weaknesses of a field. Underline criticism and kinds of people, then look for a comment about who the participants were.",
       "again": "Paragraph G observes that participants are often students who may not represent everyone. Other paragraphs mention volunteers or adults only to report results, not to question how typical those people are."
+    },
+    {
+      "id": "q4",
+      "prompt": "A reference to a creature being trained to locate food.",
+      "answer": "B",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "evidence": {
+        "paragraph": "B",
+        "quote": "trained rats to find a food reward in a maze"
+      },
+      "step": 2,
+      "how": "Underline creature and food in the prompt, then scan for a paragraph that describes an animal being taught a task. Expect a specific species to replace the general word creature.",
+      "again": "Rats and a food reward in a maze match creature and locate food. Only one paragraph involves animals at all, so the others can be ruled out quickly once the specific species is noticed."
+    },
+    {
+      "id": "q5",
+      "prompt": "A description of how an early investigator ensured that earlier learning could not help him remember.",
+      "answer": "A",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "evidence": {
+        "paragraph": "A",
+        "quote": "so that prior knowledge could not assist recall"
+      },
+      "step": 2,
+      "how": "Think about which part of a text introduces the first experiments. Underline early investigator and could not help, and scan the opening paragraphs for a method designed to remove any advantage from existing knowledge.",
+      "again": "The meaningless syllables in paragraph A were chosen to prevent earlier knowledge from supporting recall. Later paragraphs describe other experiments, but none explains how the material was made neutral."
+    },
+    {
+      "id": "q6",
+      "prompt": "A claim that the harm done by missing sleep cannot be cancelled by sleeping more afterwards.",
+      "answer": "E",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "evidence": {
+        "paragraph": "E",
+        "quote": "yet the sleepless students still remembered around forty per cent fewer words"
+      },
+      "step": 3,
+      "how": "Find the paragraph about going without sleep. Underline harm and cannot be cancelled, and look for a sentence showing that later rest did not undo the effect on learning.",
+      "again": "Paragraph E reports that recovery nights did not restore recall, which matches the claim that extra sleep afterwards cannot cancel the damage. Paragraph G warns about cramming, but does not discuss recovery sleep."
+    },
+    {
+      "id": "q7",
+      "prompt": "Evidence that a brief period of sleep can have benefits similar to extra study time.",
+      "answer": "C",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "evidence": {
+        "paragraph": "C",
+        "quote": "a short sleep can sometimes prove as useful as additional hours of revision"
+      },
+      "step": 3,
+      "how": "Look for a paragraph comparing a short sleep with more studying. Underline brief sleep and extra study time, and expect revision or learning to appear as synonyms for study.",
+      "again": "Paragraph C ends with the writer suggesting that a short sleep may be as valuable as more hours of revision. Other paragraphs discuss longer or complete nights of sleep, which is a different point."
     }
   ]
 }

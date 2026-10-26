@@ -8,10 +8,10 @@
       "id": "q1",
       "prompt": "Why does the writer mention frost on a window in paragraph B?",
       "options": [
-        "To show that an attractive product need not come from a creative agent",
-        "To suggest that natural processes are more beautiful than human art",
         "To prove that machines cannot produce anything moving",
-        "To argue that audiences are easily deceived by patterns"
+        "To suggest that natural processes are more beautiful than human art",
+        "To argue that audiences are easily deceived by patterns",
+        "To show that an attractive product need not come from a creative agent"
       ],
       "answer": "To show that an attractive product need not come from a creative agent",
       "evidence": {
@@ -26,10 +26,10 @@
       "id": "q2",
       "prompt": "What weakness does the writer identify in Okafor's view?",
       "options": [
-        "It cannot be examined through experiments",
         "It makes the word creative depend on the preferences of the judge",
-        "It overlooks the role of critics and institutions",
-        "It assumes that human minds can be inspected"
+        "It cannot be examined through experiments",
+        "It assumes that human minds can be inspected",
+        "It overlooks the role of critics and institutions"
       ],
       "answer": "It makes the word creative depend on the preferences of the judge",
       "evidence": {
@@ -45,9 +45,9 @@
       "prompt": "How does Maret regard the discussion of inner experience?",
       "options": [
         "As the most important issue in the whole debate",
-        "As a topic that science will soon resolve",
         "As less relevant than how people decide to treat the work",
-        "As a sign that the earlier thinkers share the same assumptions"
+        "As a sign that the earlier thinkers share the same assumptions",
+        "As a topic that science will soon resolve"
       ],
       "answer": "As less relevant than how people decide to treat the work",
       "evidence": {
@@ -62,9 +62,9 @@
       "id": "q4",
       "prompt": "Why does the writer find Solheim's distinction the most useful?",
       "options": [
-        "It shows that no machine will ever be genuinely creative",
-        "It proves that outcomes are irrelevant to creativity",
         "It allows a limited kind of creativity to be granted to machines",
+        "It proves that outcomes are irrelevant to creativity",
+        "It shows that no machine will ever be genuinely creative",
         "It removes the need for any social judgement of art"
       ],
       "answer": "It allows a limited kind of creativity to be granted to machines",

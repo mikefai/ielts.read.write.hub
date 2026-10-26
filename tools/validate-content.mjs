@@ -7,6 +7,7 @@ export const TYPES = ['tfng', 'ynng', 'mcq', 'short-answer', 'sentence-completio
 const NEEDS_OPTIONS = ['mcq', 'summary-wordbank', 'matching-headings', 'matching-information', 'matching-features', 'matching-endings'];
 
 const COMPLETION = ['notes-completion', 'summary-completion', 'sentence-completion', 'short-answer'];
+const MATCHING = ['matching-headings', 'matching-information', 'matching-features', 'matching-endings'];
 const COPY_CHECKED = ['tfng', 'ynng', 'matching-information', 'matching-features'];
 const toks = s => s.toLowerCase().replace(/[^a-z0-9\s'-]/g, ' ').split(/\s+/).filter(Boolean);
 
@@ -51,6 +52,10 @@ export function validate(passage, set) {
     if (!(it.step >= 1 && it.step <= 5)) errs.push(`${tag}: step must be 1-5`);
     if (it.answer === undefined || it.answer === '') errs.push(`${tag}: missing answer`);
     if (NEEDS_OPTIONS.includes(set.type) && !it.options?.includes(it.answer)) errs.push(`${tag}: answer not among options`);
+  }
+  if (MATCHING.includes(set.type)) {
+    const at = (set.items ?? []).map(i => i.options?.indexOf(i.answer));
+    if (at.length >= 4 && at.every((v, k) => k === 0 || v > at[k - 1])) errs.push(`${set.id}: answers run in option order, which gives them away; shuffle the options (or the items)`);
   }
   if (set.type === 'matching-headings') {
     const a = (set.items ?? []).map(i => i.answer), n = set.items?.[0]?.options?.length ?? 0;

@@ -51,7 +51,13 @@ test('matching headings: answers unique and options >= items + 2', () => {
   const mk = (n, ans) => ({ id: 's', type: 'matching-headings', items: Array.from({ length: 6 }, (_, i) => item(i + 1, { answer: ans(i), options: opts(n) })) });
   assert.match(validate(passage, mk(9, () => 'H0')).join('|'), /heading used twice/);
   assert.match(validate(passage, mk(7, i => `H${i}`)).join('|'), /needs at least 8 headings/);
-  assert.deepEqual(validate(passage, mk(8, i => `H${i}`)), []);
+  assert.deepEqual(validate(passage, mk(8, i => `H${[3, 0, 5, 1, 4, 2][i]}`)), []);
+});
+test('matching answers must not run in option order', () => {
+  const passage = { id: 'p', paragraphs: [{ label: 'A', text: 'q' }] };
+  const opts = Array.from({ length: 8 }, (_, i) => `H${i}`);
+  const set = { id: 's', type: 'matching-headings', items: Array.from({ length: 6 }, (_, i) => item(i + 1, { answer: `H${i}`, options: opts })) };
+  assert.match(validate(passage, set).join('|'), /option order/);
 });
 test('completion sets need wordLimit 1-3', () => {
   const g = fixture('m1'); delete g.sets['m1-summary-completion-0'].wordLimit;

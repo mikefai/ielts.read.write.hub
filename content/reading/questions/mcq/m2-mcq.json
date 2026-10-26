@@ -9,9 +9,9 @@
       "prompt": "According to the writer, how do trees reduce the temperature of a city?",
       "options": [
         "They block sunlight and also release water vapour that absorbs heat from the air",
-        "They reflect heat back into the atmosphere through their bark and leaves",
+        "They lower the temperature of the soil so that pavements stay cool",
         "They absorb pollution that would otherwise trap warmth near the ground",
-        "They lower the temperature of the soil so that pavements stay cool"
+        "They reflect heat back into the atmosphere through their bark and leaves"
       ],
       "answer": "They block sunlight and also release water vapour that absorbs heat from the air",
       "evidence": {
@@ -26,10 +26,10 @@
       "id": "q2",
       "prompt": "What do the researchers in paragraph C report about the trees that give most cooling?",
       "options": [
-        "They grow quickly and reach a great height within a few years",
         "They have wide, thick crowns and are planted close together",
+        "They have slender trunks and are planted singly along main roads",
         "They are native to temperate regions and need little watering",
-        "They have slender trunks and are planted singly along main roads"
+        "They grow quickly and reach a great height within a few years"
       ],
       "answer": "They have wide, thick crowns and are planted close together",
       "evidence": {
@@ -45,9 +45,9 @@
       "prompt": "What conclusion did the authors of the European study reach?",
       "options": [
         "Parks should be enlarged so that every resident lives close to one",
-        "Wealthy districts should pay for planting in poorer neighbourhoods",
+        "Older dwellings should be demolished to make room for more avenues",
         "New planting should begin in the hottest and most crowded areas",
-        "Older dwellings should be demolished to make room for more avenues"
+        "Wealthy districts should pay for planting in poorer neighbourhoods"
       ],
       "answer": "New planting should begin in the hottest and most crowded areas",
       "evidence": {
@@ -62,10 +62,10 @@
       "id": "q4",
       "prompt": "What is the main purpose of paragraph E?",
       "options": [
-        "To argue that cities should stop planting trees altogether",
         "To show that trees are too expensive for most municipal budgets",
         "To point out limitations of tree planting that supporters often ignore",
-        "To compare different species according to their water requirements"
+        "To compare different species according to their water requirements",
+        "To argue that cities should stop planting trees altogether"
       ],
       "answer": "To point out limitations of tree planting that supporters often ignore",
       "evidence": {

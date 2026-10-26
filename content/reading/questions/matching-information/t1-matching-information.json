@@ -6,27 +6,6 @@
   "items": [
     {
       "id": "q1",
-      "prompt": "A reference to the way early researchers linked boredom with concerns about productivity.",
-      "answer": "A",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "evidence": {
-        "paragraph": "A",
-        "quote": "notably errors and absenteeism, were of obvious interest to employers"
-      },
-      "step": 2,
-      "how": "Think about where a text would normally mention the history of a topic, then scan the opening sections for the period when boredom was first studied. Underline productivity-related words such as work, employers and output.",
-      "again": "The historical overview is in paragraph A, where industrial monotony is linked with errors and absenteeism. Later sections concern current researchers, so a reference to early research should not be matched to them."
-    },
-    {
-      "id": "q2",
       "prompt": "An explanation of why one and the same dull job can strike different people so differently.",
       "answer": "C",
       "options": [
@@ -47,9 +26,9 @@
       "again": "Check the example of cataloguing documents, where understanding the purpose changes the experience. Section B also discusses differing reactions, but to different surroundings rather than to the same task, which is a near miss."
     },
     {
-      "id": "q3",
-      "prompt": "An admission that the conditions of a study were unlike those of real life.",
-      "answer": "E",
+      "id": "q2",
+      "prompt": "A reference to the way early researchers linked boredom with concerns about productivity.",
+      "answer": "A",
       "options": [
         "A",
         "B",
@@ -60,15 +39,15 @@
         "G"
       ],
       "evidence": {
-        "paragraph": "E",
-        "quote": "genuine exploration usually carries costs, whereas pressing a button on a tablet carries none"
+        "paragraph": "A",
+        "quote": "notably errors and absenteeism, were of obvious interest to employers"
       },
-      "step": 4,
-      "how": "Look for a section in which a researcher comments on the limitations of her own experiment. Underline conditions, study and real life, and expect words such as artificial, setting or outside the laboratory.",
-      "again": "Both D and E describe the same study, but only E contains the researcher conceding a weakness. D describes the design of the experiment without evaluating how closely it resembles ordinary life."
+      "step": 2,
+      "how": "Think about where a text would normally mention the history of a topic, then scan the opening sections for the period when boredom was first studied. Underline productivity-related words such as work, employers and output.",
+      "again": "The historical overview is in paragraph A, where industrial monotony is linked with errors and absenteeism. Later sections concern current researchers, so a reference to early research should not be matched to them."
     },
     {
-      "id": "q4",
+      "id": "q3",
       "prompt": "A doubt that behaviour reliably reveals what a person is feeling.",
       "answer": "F",
       "options": [
@@ -87,6 +66,27 @@
       "step": 4,
       "how": "Underline behaviour and feeling in the prompt, then scan for a section where a researcher questions what observations show about inner experience. Expect synonyms such as states, actions or clicks.",
       "again": "Section E reports that behaviour changed after a boring task, but accepts it as evidence. Only F questions the inference itself, saying that switching between clips could reflect several different internal states."
+    },
+    {
+      "id": "q4",
+      "prompt": "An admission that the conditions of a study were unlike those of real life.",
+      "answer": "E",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "evidence": {
+        "paragraph": "E",
+        "quote": "genuine exploration usually carries costs, whereas pressing a button on a tablet carries none"
+      },
+      "step": 4,
+      "how": "Look for a section in which a researcher comments on the limitations of her own experiment. Underline conditions, study and real life, and expect words such as artificial, setting or outside the laboratory.",
+      "again": "Both D and E describe the same study, but only E contains the researcher conceding a weakness. D describes the design of the experiment without evaluating how closely it resembles ordinary life."
     }
   ]
 }
