@@ -1,0 +1,35 @@
+{
+  "id": "p10",
+  "title": "Building Up: The Economics of the Tall City",
+  "band": 7.5,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Tall buildings are often seen as symbols of prestige, but economists tend to regard height as a response to scarcity. Where land is scarce and the price of an extra square metre is high, developers can share the expense of a site among many floors, and the higher the price of land, the more storeys a project is likely to include. Height became practical in the nineteenth century, when the steel frame replaced load-bearing masonry walls and the safe passenger lift made upper floors as attractive to tenants as lower ones. Chicago, rebuilding rapidly after a fire in 1871, became the testing ground, and a ten-storey office building completed there in 1885 is often regarded as the first skyscraper. Until then, the commercial value of a room fell with every flight of stairs that visitors had to climb."
+    },
+    {
+      "label": "B",
+      "text": "The case for tall cities rests mainly on the benefits of proximity. When firms locate close together, they share a pool of skilled labour, draw on specialised suppliers and pick up ideas informally through chance meetings in cafés and corridors. Economists describe these advantages as agglomeration effects. Studies of several large cities suggest that when the number of jobs in an area doubles, output per worker rises by a few per cent, which is a small figure for any one firm but a large one for an entire economy. The evidence is strongest for industries such as finance, advertising and software, where face-to-face contact helps teams to exchange knowledge that is difficult to write down. Because such benefits fade quickly with distance, many of the most productive firms are prepared to pay a premium to occupy offices within a few minutes' walk of their competitors."
+    },
+    {
+      "label": "C",
+      "text": "Height, however, is far from free. Construction costs per square metre rise steeply beyond a certain number of storeys, because taller structures need heavier reinforcement to resist wind, additional fire-safety stairwells and more powerful pumps to lift water to the upper floors. Lift shafts also consume floor space: in the tallest towers they may occupy as much as a third of the area at the base. Developers also face longer construction periods, during which they pay interest on borrowed money without receiving any rent. Builders therefore tend to stop adding storeys at the point where the extra rent no longer covers the extra expense, and that point is lower in cities where borrowing is costly or where the ground is soft."
+    },
+    {
+      "label": "D",
+      "text": "The market is not the only limit on height. Planning authorities in many cities restrict building heights in order to protect views of historic landmarks, preserve daylight in streets and prevent new towers from overwhelming older neighbourhoods. Heritage groups, in turn, argue that a skyline once altered cannot be restored, and that the character of a city is a form of public property which no individual owner has the right to spend. These aims are widely shared, but economists point out that rules of this kind have a price. If the supply of floor space cannot grow upwards, it must either spread outwards onto farmland or become more expensive, and both outcomes burden residents. Comparisons between cities suggest that those with the tightest limits tend to have the highest housing costs, although other factors, such as population growth and interest rates, also play a part."
+    },
+    {
+      "label": "E",
+      "text": "Critics of tall buildings raise objections that are harder to measure in money. Towers cast long shadows, funnel strong winds towards pedestrians and often present blank, impersonal frontages at street level, which can drain the life from a neighbourhood. Their environmental record is mixed. Glass-walled offices need large amounts of energy for cooling, and lifts run all day; yet dense districts allow most residents to walk, cycle or take public transport, so the energy used per person for travel is usually far lower than in sprawling suburbs. Which effect prevails depends on how a building is designed and where it stands."
+    },
+    {
+      "label": "F",
+      "text": "Height is not the only route to density. Mid-rise blocks of five to eight storeys, arranged around courtyards, can house as many people per hectare as a scattering of isolated towers, and they cost less to build because they need neither exceptional reinforcement nor high-speed lifts. Such districts keep shops and cafés at street level and allow sunlight to reach the pavements. Paris, built largely at this scale, is often cited as proof that high density and an attractive street life can coexist. Supporters of this model, sometimes called gentle density, concede that it cannot match the sheer floor area of a cluster of skyscrapers on the most valuable land, yet they argue that few cities actually need to build at that extreme."
+    },
+    {
+      "label": "G",
+      "text": "In the end, there is no single ideal height for a city. The right balance depends on the price of land, the strength of local demand, the cost of construction and the values a community wishes to protect. What the evidence does show is that both extremes carry risks: a city that forbids height may price out its own workers, while one that builds without restraint may sacrifice the street-level quality that made it attractive in the first place. Careful planning is therefore a matter of weighing these gains and losses openly, district by district, rather than applying one rule to everything."
+    }
+  ]
+}

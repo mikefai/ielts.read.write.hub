@@ -52,3 +52,6 @@ a.skill:hover { transform: translate(-3px, -3px); box-shadow: 10px 10px 0 var(--
 .bars .bar { height: 10px; background: var(--line); border-radius: 5px; overflow: hidden; } .bars .bar i { display: block; height: 100%; background: var(--accent-ink); }
 #next:empty, #bytype:empty { display: none; }
 @media (max-width: 600px) { .bars li { grid-template-columns: 1fr auto; } .bars .bar { grid-column: 1 / -1; order: 3; } }
+
+/* sub-headings inside a hub section (question-type or task groups) */
+.group-title { font: 400 1.3rem var(--display); margin: 26px 0 8px; color: var(--accent-ink); }

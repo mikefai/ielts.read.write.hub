@@ -1,0 +1,35 @@
+{
+  "id": "p9",
+  "title": "Reading the Rings: How Trees Date the Past",
+  "band": 7.5,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Most trees growing in temperate climates add a new layer of wood beneath the bark every year, and in a cut trunk that layer shows up as a ring. The pale, fast-growing wood formed in spring is followed by a darker, denser band in late summer, so that one pale band and one dark band together mark a single year. Counting rings has long been a way to estimate the age of a felled tree, but the science of dendrochronology, which dates events from ring patterns, relies on something subtler than counting. The width of each ring reflects the conditions of the year in which it grew. A warm, wet summer may produce a broad ring, whereas a drought or a late frost may produce a very narrow one."
+    },
+    {
+      "label": "B",
+      "text": "Because trees of the same species in the same region respond to the same weather, their rings tend to share a distinctive sequence of broad and narrow years, rather like the bars of a printed code. The technique emerged in the early twentieth century, when an astronomer began to compare the ring widths of old pines in the hope of finding evidence of cycles in solar activity. He soon noticed that trunks from different sites showed the same pattern, and that a sample whose date was unknown could be matched against one whose date was certain. This procedure, known as cross-dating, remains the foundation of the discipline. It also protects researchers against the errors that arise when a tree has skipped a year of growth, since the surrounding pattern shows at once that a ring is absent."
+    },
+    {
+      "label": "C",
+      "text": "Dating a sample involves five stages. First, a researcher removes a pencil-thin core from the trunk using an increment borer, a hollow drill that leaves the tree unharmed. Second, the core is mounted on a wooden strip and sanded until every ring boundary is clearly visible. Third, the widths of the rings are measured under a microscope, usually to the nearest hundredth of a millimetre. Fourth, the resulting sequence of broad and narrow rings is slid along a master chronology, a reference record of known dates, until the two patterns coincide. Finally, each ring in the sample is assigned a calendar year, counted back from the outermost ring in the case of a living tree."
+    },
+    {
+      "label": "D",
+      "text": "A single living tree rarely records more than a few centuries, so researchers extend the record backwards by linking timbers whose rings overlap. The inner rings of a living oak, for example, may match the outer rings of a beam taken from a nineteenth-century barn; the inner rings of that beam can in turn be matched with those of a timber from a medieval hall, and so on. Using this approach, laboratories in Europe have assembled continuous oak chronologies stretching back more than ten thousand years, and similar records exist for pines in the American south-west. Each addition is accepted only when the overlapping section is long enough for the match to be statistically convincing, which usually means at least fifty rings."
+    },
+    {
+      "label": "E",
+      "text": "The uses of ring records extend well beyond establishing the age of old timber. Radiocarbon dates are corrected against ring sequences, because the proportion of carbon-14 in the atmosphere has varied over time, and a ring of known date provides a fixed point against which the variation can be measured. Ring widths also help scientists to reconstruct past climates, although the method has limits. In a severe drought a tree may fail to form a ring at all, leaving a missing year in the record. Trees on damp, level ground tend to produce rings of nearly uniform width, which researchers call complacent rings, because they carry little information about the weather. Sensitive trees on dry, steep slopes are far more useful. In the tropics the difficulty is greater still, since many species grow throughout the year and so lack clear annual rings altogether."
+    },
+    {
+      "label": "F",
+      "text": "Researchers disagree about where the method's greatest value lies. Dr Elena Marsh maintains that ring patterns are most dependable as a calendar, a way of fixing the dates of buildings, ships and other human activity, and she warns that reading temperatures directly from ring widths invites error, because moisture, soil and competition from neighbouring trees all leave their mark. Professor Samuel Ferreira is more optimistic. He argues that at cold northern sites, where temperature is the main limit on growth, the width and density of the late-summer band together provide a reliable guide to past summers. Dr Amara Nwosu takes a different view again. She suggests that the next major advance will come from analysing the chemical composition of the wood, in particular the atoms of oxygen and carbon laid down in each ring, which respond to conditions that width alone cannot reveal."
+    },
+    {
+      "label": "G",
+      "text": "None of these positions excludes the others, and the most persuasive studies of recent years have borrowed from all three. A ring sequence can date a timber with precision, but it cannot by itself explain why a particular decade was cold or why an old building was abandoned. For that reason, the strongest results come from combining ring evidence with other independent records, such as ice cores, lake sediments and written accounts of harvests and storms. Where several kinds of evidence agree, historians can be far more confident in their conclusions; where they disagree, the discrepancy itself often points to a question worth investigating."
+    }
+  ]
+}

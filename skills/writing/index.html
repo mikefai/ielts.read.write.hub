@@ -7,14 +7,18 @@
 <p>60 minutes, two tasks. Build each answer one sentence at a time, then compare with a model.</p><div class="nine" style="background:#1d3a8a" aria-hidden="true">2</div></header>
 <section class="skills rise" style="margin-bottom:28px"><a class="skill wide" style="--c:#1d3a8a" href="learn/"><span class="num">&#9998;</span><div><h3>Study notes</h3><p>How to plan, write and check every Task 1 and Task 2 type</p></div><span class="go" aria-hidden="true">&rarr;</span></a></section>
 <h2 class="section-title" id="mocks">Mock exams (60 min)</h2><ol id="mocklist" class="toc rise"></ol>
-<h2 class="section-title">Task 1 &middot; Report (150+ words, 20 min)</h2><ol id="t1" class="toc rise"></ol>
-<h2 class="section-title">Task 2 &middot; Essay (250+ words, 40 min)</h2><ol id="t2" class="toc rise"></ol></div>
+<h2 class="section-title">Task 1 &middot; Report (150+ words, 20 min)</h2><div id="t1" class="rise"></div>
+<h2 class="section-title">Task 2 &middot; Essay (250+ words, 40 min)</h2><div id="t2" class="rise"></div></div>
 <script type="module">
 import { mountDisplayMenu } from '../../assets/core/display.js';
 mountDisplayMenu(document.querySelector('.wrap > p'));
 const list = await (await fetch('../../content/writing/index.json')).json();
 const row = (t, i) => `<li><a style="--c:#1d3a8a" href="task/?id=${t.id}"><span class="n">${String(i + 1).padStart(2, '0')}</span><span><h3>${t.title}</h3><p>${t.blurb}</p></span><span class="acc">Task ${t.task}</span></a></li>`;
-for (const n of [1, 2]) document.getElementById('t' + n).innerHTML = list.filter(t => t.task === n && !t.mock).map(row).join('');
+// one sub-heading per group, in the order the groups first appear in index.json
+for (const n of [1, 2]) {
+  const items = list.filter(t => t.task === n && !t.mock), groups = [...new Set(items.map(t => t.group))];
+  document.getElementById('t' + n).innerHTML = groups.map(g => `<h3 class="group-title">${g}</h3><ol class="toc">${items.filter(t => t.group === g).map(row).join('')}</ol>`).join('');
+}
 const mocks = await (await fetch('../../content/writing/mocks.json')).json();
 document.getElementById('mocklist').innerHTML = mocks.map((m, i) => `<li><a style="--c:#1d3a8a" href="task/?id=${m.task1}&mock=${m.id}"><span class="n">${String(i + 1).padStart(2, '0')}</span><span><h3>${m.title}</h3><p>Task 1 (20 min) then Task 2 (40 min)</p></span><span class="acc">Mock</span></a></li>`).join('');
 </script></body></html>

@@ -1,0 +1,69 @@
+{
+  "id": "p10-sentence-completion",
+  "type": "sentence-completion",
+  "passageId": "p10",
+  "wordLimit": 1,
+  "instructions": "Complete the sentences below. Choose ONE WORD ONLY from the passage for each answer.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "Economists call the advantages of firms locating close together ____ effects.",
+      "answer": "agglomeration",
+      "evidence": {
+        "paragraph": "B",
+        "quote": "Economists describe these advantages as agglomeration effects"
+      },
+      "step": 3,
+      "how": "Find the sentence that gives a technical name to the benefits of proximity. The gap sits directly before the word effects, so predict a long academic noun.",
+      "again": "Check that the word you chose is the name of the effects, not one of the benefits themselves. Skilled labour and suppliers are advantages, while the label for them comes in the next sentence."
+    },
+    {
+      "id": "q2",
+      "prompt": "Taller structures need heavier ____ to resist wind.",
+      "answer": "reinforcement",
+      "evidence": {
+        "paragraph": "C",
+        "quote": "taller structures need heavier reinforcement to resist wind"
+      },
+      "step": 4,
+      "how": "Scan the paragraph on costs for wind. The stem keeps the adjective heavier, so look for the noun that the writer places after it in the same clause.",
+      "again": "Make sure your noun is what the structure needs and not one of the later items in the list. Stairwells and pumps follow the same verb but are not described as heavier."
+    },
+    {
+      "id": "q3",
+      "prompt": "Builders stop adding storeys when the extra rent no longer covers the extra ____.",
+      "answer": "expense",
+      "evidence": {
+        "paragraph": "C",
+        "quote": "the extra rent no longer covers the extra expense"
+      },
+      "step": 3,
+      "how": "Find the sentence that begins with builders therefore. The gap completes a comparison between rent and what must be paid, so predict a noun for money spent.",
+      "again": "Check that you did not choose interest or costs from earlier sentences. Each of those appears in the paragraph, but only one noun completes the exact phrase the stem repeats."
+    },
+    {
+      "id": "q4",
+      "prompt": "Planning authorities restrict heights to protect views of historic ____.",
+      "answer": "landmarks",
+      "evidence": {
+        "paragraph": "D",
+        "quote": "protect views of historic landmarks"
+      },
+      "step": 3,
+      "how": "Look for planning authorities in the paragraph on limits. The gap follows the adjective historic, so predict the kind of place whose views people want to protect.",
+      "again": "Confirm that you chose the thing that is viewed and not a neighbourhood. Older neighbourhoods are mentioned in the same sentence, but the stem asks what the views are of."
+    },
+    {
+      "id": "q5",
+      "prompt": "Glass-walled offices need large amounts of energy for ____.",
+      "answer": "cooling",
+      "evidence": {
+        "paragraph": "E",
+        "quote": "Glass-walled offices need large amounts of energy for cooling"
+      },
+      "step": 3,
+      "how": "Find the environmental record in the paragraph about critics. The stem copies the opening of the sentence, so read on to the purpose that follows the word for.",
+      "again": "Check that you took the purpose of the energy and not the all-day use of lifts mentioned after the semicolon. Lifts are a second energy cost, but the sentence stem names a different one."
+    }
+  ]
+}

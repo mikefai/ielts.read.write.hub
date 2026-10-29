@@ -1,0 +1,81 @@
+{
+  "id": "p9-notes-completion",
+  "type": "notes-completion",
+  "passageId": "p9",
+  "wordLimit": 1,
+  "instructions": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "A single living tree seldom records more than a few ____.",
+      "answer": "centuries",
+      "evidence": {
+        "paragraph": "D",
+        "quote": "rarely records more than a few centuries"
+      },
+      "step": 3,
+      "how": "Find the paragraph about extending the record backwards. Predict a unit of time, then look for the sentence that explains why one living tree is not enough.",
+      "again": "Read your word back in the sentence and check that it names a span of time. Decades or millennia would fit the grammar, but only one unit matches the limit the writer states."
+    },
+    {
+      "id": "q2",
+      "prompt": "Chronologies are extended by linking timbers whose rings ____.",
+      "answer": "overlap",
+      "evidence": {
+        "paragraph": "D",
+        "quote": "linking timbers whose rings overlap"
+      },
+      "step": 3,
+      "how": "Look for the method used to push the record further back. The gap needs a verb describing how the rings of two timbers relate to each other.",
+      "again": "Test the word against the example of the oak and the barn beam. Both timbers cover a shared stretch of years, which the verb must describe exactly rather than loosely."
+    },
+    {
+      "id": "q3",
+      "prompt": "A new match is accepted only if it is statistically ____.",
+      "answer": "convincing",
+      "evidence": {
+        "paragraph": "D",
+        "quote": "for the match to be statistically convincing"
+      },
+      "step": 3,
+      "how": "Find the sentence that sets a condition for accepting each addition. The gap follows an adverb, so predict an adjective that describes the quality of the match.",
+      "again": "Confirm that your adjective follows statistically in the passage. The nearby figure of fifty rings is a numerical detail and does not fill a gap that needs a describing word."
+    },
+    {
+      "id": "q4",
+      "prompt": "Radiocarbon dates are corrected because atmospheric carbon-14 has ____ over time.",
+      "answer": "varied",
+      "evidence": {
+        "paragraph": "E",
+        "quote": "has varied over time"
+      },
+      "step": 3,
+      "how": "Locate the sentence about radiocarbon in the paragraph on uses. The stem keeps the phrase over time, so look for the verb that the writer attaches to it.",
+      "again": "Check the tense and form of the verb you chose. The passage uses a present perfect form, and a base form of the same verb would not fit the stem's grammar."
+    },
+    {
+      "id": "q5",
+      "prompt": "In a severe drought a tree may leave a ____ year in the record.",
+      "answer": "missing",
+      "evidence": {
+        "paragraph": "E",
+        "quote": "leaving a missing year in the record"
+      },
+      "step": 3,
+      "how": "Find the limits of the method and look for drought. Predict the adjective that describes a year for which the tree formed no ring at all.",
+      "again": "Check that you did not copy absent from the earlier paragraph. That word appears elsewhere, but the sentence about drought uses a different adjective that fits the note exactly."
+    },
+    {
+      "id": "q6",
+      "prompt": "Rings of nearly uniform width are called ____ rings.",
+      "answer": "complacent",
+      "evidence": {
+        "paragraph": "E",
+        "quote": "which researchers call complacent rings"
+      },
+      "step": 3,
+      "how": "Look for trees on damp, level ground and the term that researchers use for their rings. Underline the technical word placed immediately before rings.",
+      "again": "Make sure you picked the term for the uniform rings and not sensitive. The two terms appear in neighbouring sentences and describe trees at the two ends of the usefulness scale."
+    }
+  ]
+}

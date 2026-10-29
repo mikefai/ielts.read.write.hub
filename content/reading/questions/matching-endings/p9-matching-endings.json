@@ -1,0 +1,113 @@
+{
+  "id": "p9-matching-endings",
+  "type": "matching-endings",
+  "passageId": "p9",
+  "instructions": "Complete each sentence with the correct ending from the list. There are two more endings than you need.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "Dr Elena Marsh argued that ring patterns are most dependable as...",
+      "answer": "a calendar for fixing the dates of human activity",
+      "options": [
+        "a guide to past summer temperatures when density is also measured",
+        "a calendar for fixing the dates of human activity",
+        "the chemical composition of the wood itself",
+        "combining ring evidence with other independent records",
+        "the absence of clear annual rings in many species",
+        "a direct measure of rainfall anywhere in the world",
+        "counting rings alone without comparing different samples"
+      ],
+      "evidence": {
+        "paragraph": "F",
+        "quote": "ring patterns are most dependable as a calendar, a way of fixing the dates of buildings, ships and other human activity"
+      },
+      "step": 3,
+      "how": "Find the first researcher named in the paragraph on disagreement. Match the stem's phrase most dependable to the claim she makes, then compare it with the endings.",
+      "again": "Test the temperature ending against her warning in the same sentence. Two endings concern climate, and she rejects the idea of reading temperatures directly, so read her full position."
+    },
+    {
+      "id": "q2",
+      "prompt": "Professor Samuel Ferreira claimed that, at cold northern sites, ring width and density can serve as...",
+      "answer": "a guide to past summer temperatures when density is also measured",
+      "options": [
+        "a guide to past summer temperatures when density is also measured",
+        "a calendar for fixing the dates of human activity",
+        "the chemical composition of the wood itself",
+        "combining ring evidence with other independent records",
+        "the absence of clear annual rings in many species",
+        "a direct measure of rainfall anywhere in the world",
+        "counting rings alone without comparing different samples"
+      ],
+      "evidence": {
+        "paragraph": "F",
+        "quote": "the width and density of the late-summer band together provide a reliable guide to past summers"
+      },
+      "step": 3,
+      "how": "Locate Ferreira in the same paragraph and read what he says about cold sites. Note which two features of the ring he combines, then look for the matching ending.",
+      "again": "Check that the ending mentions density, as he does. A different ending talks about rainfall in general, which the passage never links to his argument and which no researcher claims."
+    },
+    {
+      "id": "q3",
+      "prompt": "Dr Amara Nwosu proposed that future progress depends on analysing...",
+      "answer": "the chemical composition of the wood itself",
+      "options": [
+        "a guide to past summer temperatures when density is also measured",
+        "a calendar for fixing the dates of human activity",
+        "the chemical composition of the wood itself",
+        "combining ring evidence with other independent records",
+        "the absence of clear annual rings in many species",
+        "a direct measure of rainfall anywhere in the world",
+        "counting rings alone without comparing different samples"
+      ],
+      "evidence": {
+        "paragraph": "F",
+        "quote": "the next major advance will come from analysing the chemical composition of the wood"
+      },
+      "step": 3,
+      "how": "Find Nwosu's position and underline what she says the next advance will come from. The ending must name the thing analysed rather than a method of counting.",
+      "again": "Compare it with the ending about counting rings alone. That ending sounds technical, yet nothing in her argument supports it, and it describes a practice the writer treats as too simple."
+    },
+    {
+      "id": "q4",
+      "prompt": "The writer notes that tree-ring dating in tropical regions is held back by...",
+      "answer": "the absence of clear annual rings in many species",
+      "options": [
+        "a guide to past summer temperatures when density is also measured",
+        "a calendar for fixing the dates of human activity",
+        "the chemical composition of the wood itself",
+        "combining ring evidence with other independent records",
+        "the absence of clear annual rings in many species",
+        "a direct measure of rainfall anywhere in the world",
+        "counting rings alone without comparing different samples"
+      ],
+      "evidence": {
+        "paragraph": "E",
+        "quote": "many species grow throughout the year and so lack clear annual rings altogether"
+      },
+      "step": 3,
+      "how": "Search the passage for the tropics rather than for a named researcher. Read the whole sentence, because the reason is given after the word since.",
+      "again": "Check that your ending refers to the rings themselves. Another ending mentions rainfall, but the writer ties the difficulty to one biological feature of tropical species."
+    },
+    {
+      "id": "q5",
+      "prompt": "The final paragraph concludes that the strongest results come from...",
+      "answer": "combining ring evidence with other independent records",
+      "options": [
+        "a guide to past summer temperatures when density is also measured",
+        "a calendar for fixing the dates of human activity",
+        "the chemical composition of the wood itself",
+        "combining ring evidence with other independent records",
+        "the absence of clear annual rings in many species",
+        "a direct measure of rainfall anywhere in the world",
+        "counting rings alone without comparing different samples"
+      ],
+      "evidence": {
+        "paragraph": "G",
+        "quote": "the strongest results come from combining ring evidence with other independent records"
+      },
+      "step": 3,
+      "how": "Go to the closing paragraph and find the sentence that begins with for that reason. Match its main clause to one of the endings.",
+      "again": "Notice that the ending must describe combining sources, not relying on one. The researchers in the previous paragraph each favour a single approach, which is why none of their views fits here."
+    }
+  ]
+}

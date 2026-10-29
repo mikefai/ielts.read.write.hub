@@ -6,18 +6,19 @@
 <header class="mast rise"><p class="kicker">Skill 01</p><h1>Read. <em>Locate.</em> Prove.</h1>
 <p>60 minutes, 3 passages, 40 questions in the real test. Take the full test, or pick a question type to practise.</p><div class="nine" aria-hidden="true">40</div></header>
 <section class="skills rise" style="margin-bottom:28px"><a class="skill wide" style="--c:#d9441e" href="learn/"><span class="num">&#9998;</span><div><h3>Study notes</h3><p>Study notes: how to answer every question type, step by step</p></div><span class="go" aria-hidden="true">&rarr;</span></a><a class="skill wide" style="--c:#d9441e" href="test/?id=t1"><span class="num">60&prime;</span><div><h3>Full test</h3><p>3 passages &middot; 40 questions &middot; 60 minutes, built like the real exam</p></div><span class="go" aria-hidden="true">&rarr;</span></a><a class="skill wide" style="--c:#d9441e" href="test/?id=m1"><span class="num">60&prime;</span><div><h3>Mock Exam 1</h3><p>3 passages &middot; 40 questions &middot; 60 minutes &middot; True/False/Not Given, summary completion, matching</p></div><span class="go" aria-hidden="true">&rarr;</span></a><a class="skill wide" style="--c:#d9441e" href="test/?id=m2"><span class="num">60&prime;</span><div><h3>Mock Exam 2</h3><p>3 passages &middot; 40 questions &middot; 60 minutes &middot; matching headings, sentence and summary completion</p></div><span class="go" aria-hidden="true">&rarr;</span></a></section>
-<ol id="tiles" class="toc rise"></ol></div>
+<div id="tiles" class="rise"></div></div>
 <script type="module">
 import { mountDisplayMenu } from '../../assets/core/display.js';
 mountDisplayMenu(document.querySelector('.wrap > p'));
-import { TYPES } from './engine/types.js';
+import { TYPES, GROUPS } from './engine/types.js';
 import { getProgress, getMistakes } from '../../assets/core/store.js';
 const wrong = Object.values(getMistakes()).flat().length;
 if (wrong) document.querySelector('.skills').insertAdjacentHTML('beforeend', `<a class="skill wide" style="--c:#d9441e" href="mistakes/"><span class="num">&#8635;</span><div><h3>Redo my mistakes (${wrong})</h3><p>Only the questions you got wrong, with their passages. Answer one correctly and it leaves this list</p></div><span class="go" aria-hidden="true">&rarr;</span></a>`);
 const at = getProgress().attempts;
-document.getElementById('tiles').innerHTML = TYPES.map((t, i) => {
+const tile = (t, i) => {
   const a = at.filter(x => x.type === t.id), sc = a.reduce((s, x) => s + x.score, 0), tot = a.reduce((s, x) => s + x.total, 0);
-  return `<li><a style="--c:${t.accent}" href="types/${t.id}/"><span class="n">${String(i + 1).padStart(2, '0')}</span><span><h3>${t.title}</h3><p>${t.blurb}</p></span><span class="acc">${tot ? Math.round(100 * sc / tot) + '% accuracy' : 'Not attempted'}</span></a></li>`;
-}).join('');
+  return `<li><a style="--c:${t.accent}" href="types/${t.id}/"><span class="n">${String(i + 1).padStart(2, '0')}</span><span><h3>${t.title}</h3><p>${t.blurb} ${t.sets.length} set${t.sets.length > 1 ? 's' : ''}</p></span><span class="acc">${tot ? Math.round(100 * sc / tot) + '% accuracy' : 'Not attempted'}</span></a></li>`;
+};
+document.getElementById('tiles').innerHTML = GROUPS.map(g => `<h2 class="section-title">${g.title}</h2><p class="muted">${g.blurb}</p><ol class="toc">${TYPES.filter(t => t.group === g.id).map(tile).join('')}</ol>`).join('');
 </script></body></html>
 

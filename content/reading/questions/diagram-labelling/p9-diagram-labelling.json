@@ -1,0 +1,73 @@
+{
+  "id": "p9-diagram-labelling",
+  "type": "diagram-labelling",
+  "passageId": "p9",
+  "instructions": "Complete the labels in the flow chart of the dating process. Write NO MORE THAN TWO WORDS from the passage for each answer.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "Stage 1: a thin core is taken from the trunk with an ____",
+      "answer": "increment borer",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "C",
+        "quote": "using an increment borer"
+      },
+      "step": 4,
+      "how": "Find the paragraph that lists the stages and read the first one. Underline the tool the researcher uses to remove the core, and note that the label needs a two-word name.",
+      "again": "Check that you copied the full name of the tool rather than the description that follows it. The trap is the explanatory phrase about a hollow drill, which describes the tool but is not its name."
+    },
+    {
+      "id": "q2",
+      "prompt": "Stage 2: the mounted core is ____ until the rings are clearly visible",
+      "answer": "sanded",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "C",
+        "quote": "sanded until every ring boundary is clearly visible"
+      },
+      "step": 4,
+      "how": "Locate the second stage and ask what is done to the core after it has been fixed to its support. The gap needs a past participle describing that treatment.",
+      "again": "Confirm that your word describes the treatment of the core and not the strip it is fixed to. The wooden strip is mentioned in the same sentence and could tempt a careless reader."
+    },
+    {
+      "id": "q3",
+      "prompt": "Stage 3: the width of each ring is measured under a ____",
+      "answer": "microscope",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "C",
+        "quote": "measured under a microscope"
+      },
+      "step": 4,
+      "how": "Move to the third stage and find the instrument used for measuring. Keep the stem's key verb in mind and look for the noun that follows the phrase under a.",
+      "again": "Make sure you chose the instrument and not the unit of measurement given later in the sentence. The millimetre fits the topic of measuring but cannot fill a gap that follows under a."
+    },
+    {
+      "id": "q4",
+      "prompt": "Stage 4: the sequence of rings is slid along a ____ until the patterns match",
+      "answer": "master chronology",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "C",
+        "quote": "slid along a master chronology"
+      },
+      "step": 4,
+      "how": "Find the fourth stage, where the new pattern is compared with an existing one. Look for the two-word term that names the reference record against which the sample is slid.",
+      "again": "Check that you gave the full two-word term from the sentence. The definition after the comma, a reference record, explains the term but is not the label the diagram asks for."
+    },
+    {
+      "id": "q5",
+      "prompt": "Stage 5: every ring is assigned a ____",
+      "answer": "calendar year",
+      "wordLimit": 2,
+      "evidence": {
+        "paragraph": "C",
+        "quote": "each ring in the sample is assigned a calendar year"
+      },
+      "step": 4,
+      "how": "Read the final stage and find what is given to each ring once the patterns coincide. The label completes the same verb as the stem, so look for it directly after assigned.",
+      "again": "Confirm that you included both words of the answer. Counting back from the outermost ring is a further detail about living trees, and it is not what is assigned to each ring."
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "w2-problem-solution2",
+  "task": 2,
+  "essayType": "Problem and solution (problems and solutions)",
+  "title": "Food waste in households",
+  "prompt": "Households in many countries throw away large amounts of food. What problems does this cause, and what can be done to reduce it?",
+  "model": {
+    "paragraphs": [
+      {
+        "name": "Introduction",
+        "sentences": [
+          {
+            "role": "background",
+            "text": "Discarded food has become a growing concern in modern societies, where supermarkets and homes alike routinely throw away edible products.",
+            "why": "Neutral background that frames the issue without copying the question. Discarded food and edible products are precise paraphrases, and where supermarkets and homes alike shows range."
+          },
+          {
+            "role": "thesis",
+            "text": "This practice damages both the environment and household finances, but it can be reduced through better planning by consumers and clearer rules for retailers.",
+            "why": "A roadmap thesis that answers both questions in one sentence: the problems, then the solutions. Both and but organise the sentence, so the reader knows the plan for Coherence."
+          }
+        ]
+      },
+      {
+        "name": "Body 1",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "The most serious consequence of food waste is its contribution to environmental damage.",
+            "why": "A clear topic sentence that ranks the main problem. The most serious consequence of is a strong academic phrase, and the paragraph is limited to one theme for Coherence."
+          },
+          {
+            "role": "explanation",
+            "text": "When food decomposes in landfill sites, it releases methane, a greenhouse gas that traps far more heat than carbon dioxide, while the water and energy used to produce the food are lost as well.",
+            "why": "Explains the mechanism with a time clause and an appositive, a greenhouse gas that traps more heat. Technical vocabulary and two linked problems show Lexical Resource and development."
+          },
+          {
+            "role": "example",
+            "text": "For instance, a single wasted loaf represents the wheat, fuel and transport that were needed to bake and deliver it, all of which were spent for no benefit.",
+            "why": "A concrete example that makes the idea easy to picture. The list wheat, fuel and transport is parallel, and the relative clause all of which adds complex grammar accurately."
+          },
+          {
+            "role": "effect",
+            "text": "Waste also costs families money, because each discarded item is a purchase that provided no nourishment.",
+            "why": "Adds the second problem from the thesis in one clear sentence. Because gives the reason, and the contrast between a purchase and no nourishment makes the financial loss easy to see."
+          }
+        ]
+      },
+      {
+        "name": "Body 2",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "To tackle this problem, action is needed from both individuals and retailers.",
+            "why": "Moves from problems to solutions with an infinitive of purpose. Both individuals and retailers matches the thesis, so the second paragraph is clearly linked to the plan."
+          },
+          {
+            "role": "explanation",
+            "text": "Households can reduce waste by planning meals, writing shopping lists and storing food correctly, which prevents impulse purchases and early spoilage.",
+            "why": "Gives the first solution as three parallel gerunds and explains its effect with which prevents. The solution is practical and the explanation shows how it addresses the problem."
+          },
+          {
+            "role": "example",
+            "text": "Supermarkets, meanwhile, could be required to donate unsold but safe products to charities, as legislation in France already requires.",
+            "why": "Gives the second solution with a modal passive and supports it with a real example. Meanwhile changes the actor, and the reference to France makes the proposal credible."
+          },
+          {
+            "role": "effect",
+            "text": "If both measures were adopted widely, less food would reach landfill and more would feed people who need it.",
+            "why": "A second conditional that predicts the outcome. It links back to the environmental and social problems and shows accurate control of if-clauses for Grammatical Range and Accuracy."
+          }
+        ]
+      },
+      {
+        "name": "Conclusion",
+        "sentences": [
+          {
+            "role": "summary",
+            "text": "In summary, food waste harms the environment and wastes money, yet it can be reduced if households plan more carefully and retailers are obliged to donate surplus stock.",
+            "why": "Restates the problems and solutions in new words using yet and if. It matches the thesis exactly, so the answer is consistent, and it brings in no new ideas."
+          },
+          {
+            "role": "judgement",
+            "text": "Governments should therefore combine public information campaigns with firm legislation to make these habits the norm.",
+            "why": "Ends with a recommendation that unites both solutions. Therefore signals the conclusion, and combine with firm legislation is precise vocabulary that gives a confident, formal finish."
+          }
+        ]
+      }
+    ]
+  },
+  "guide": "problem-solution",
+  "analysis": [
+    "The instruction asks two things: what problems does food waste cause, and what can be done to reduce it. Both questions need a full paragraph each.",
+    "Follow the order rule: Body 1 covers the problems, Body 2 the solutions. Do not mix them in pairs, because separate paragraphs make the structure easy for the examiner to follow.",
+    "Paraphrase: \"throw away\" becomes discard; \"large amounts of food\" becomes substantial quantities of edible products; \"reduce it\" becomes cut food waste or minimise it.",
+    "Choose two problems (environment and money) and two solutions (household planning and rules for retailers). Two developed ideas are better than four listed ones.",
+    "Keep solutions linked to the problems. Meal planning cuts spending, and donation rules keep surplus food out of landfill, which is where methane is released.",
+    "Turkish L1 watch: students often write \"food wastes\" or \"a lot of foods\" because Turkish treats these differently. Check: food is uncountable (food waste, much food), and a loaf or a purchase is countable.",
+    "The question does not ask for the history of food waste or for blame. Stay with problems and solutions."
+  ],
+  "plan": [
+    {
+      "paragraph": "Introduction",
+      "idea": "Food waste is a growing concern. Thesis: it harms the environment and household budgets, but better planning and clearer retailer rules can reduce it."
+    },
+    {
+      "paragraph": "Body 1",
+      "idea": "Problems: methane from landfill and wasted resources; example of a loaf; families lose money on food they never eat."
+    },
+    {
+      "paragraph": "Body 2",
+      "idea": "Solutions: meal plans, shopping lists, correct storage; supermarkets required to donate unsold food, as in France; less landfill, more people fed."
+    },
+    {
+      "paragraph": "Conclusion",
+      "idea": "Waste harms the environment and budgets but can be cut by households and retailers. Governments should combine campaigns with firm legislation."
+    }
+  ]
+}

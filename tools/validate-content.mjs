@@ -1,6 +1,7 @@
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { TYPES as HUB_TYPES } from '../skills/reading/engine/types.js';
 
 export const TYPES = ['tfng', 'ynng', 'mcq', 'short-answer', 'sentence-completion', 'summary-completion',
   'matching-headings', 'matching-information', 'matching-features', 'matching-endings', 'diagram-labelling', 'notes-completion', 'summary-wordbank'];
@@ -145,6 +146,11 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
     sets[set.id] = set;
     try { errs.push(...validate(JSON.parse(readFileSync(join(root, 'passages', set.passageId + '.json'), 'utf8')), set)); }
     catch (e) { errs.push(`${f}: ${e.message}`); }
+  }
+  for (const t of HUB_TYPES) {
+    const have = Object.values(sets).filter(x => x.type === t.id).map(x => x.id);
+    for (const id of have) if (!t.sets.includes(id)) errs.push(`${id}: missing from sets of "${t.id}" in skills/reading/engine/types.js`);
+    for (const id of t.sets) if (!have.includes(id)) errs.push(`${t.id}: lists set "${id}" but no such question file exists`);
   }
   for (const t of tests) errs.push(...validateTest(t, sets, passages));
   console.log(`${errs.length} errors`); errs.forEach(e => console.log(' ', e));

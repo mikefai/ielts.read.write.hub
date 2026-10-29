@@ -1,0 +1,172 @@
+{
+  "id": "w1-table2",
+  "task": 1,
+  "title": "Five universities compared",
+  "prompt": "The table below gives information about five universities in 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "chart": {
+    "kind": "table",
+    "title": "Student numbers, international students, graduate employment and fees at five universities, 2023",
+    "source": "Adapted university data",
+    "corner": "University",
+    "columns": [
+      "Students (thousands)",
+      "International students (%)",
+      "Graduates in work within six months (%)",
+      "Annual fees ($ thousand)"
+    ],
+    "rows": [
+      {
+        "label": "Ashford",
+        "values": [
+          32.5,
+          11,
+          84,
+          8.5
+        ]
+      },
+      {
+        "label": "Brightwell",
+        "values": [
+          12.8,
+          34,
+          93,
+          21.0
+        ]
+      },
+      {
+        "label": "Carrow",
+        "values": [
+          21.0,
+          22,
+          88,
+          14.5
+        ]
+      },
+      {
+        "label": "Dunhill",
+        "values": [
+          8.6,
+          41,
+          95,
+          24.0
+        ]
+      },
+      {
+        "label": "Eastfield",
+        "values": [
+          17.3,
+          17,
+          79,
+          10.2
+        ]
+      }
+    ]
+  },
+  "model": {
+    "paragraphs": [
+      {
+        "name": "Introduction",
+        "sentences": [
+          {
+            "role": "paraphrase",
+            "text": "The table compares five universities in terms of student numbers, the proportion of international students, graduate employment and annual fees in 2023.",
+            "why": "Paraphrases the table by naming all four measures in one sentence. In terms of and the proportion of replace the original wording, and no figures appear, which suits an introduction."
+          }
+        ]
+      },
+      {
+        "name": "Overview",
+        "sentences": [
+          {
+            "role": "overview-main",
+            "text": "Overall, the smaller universities tended to charge higher fees, attract more international students and achieve better graduate employment.",
+            "why": "States the pattern linking the columns, which is the key insight in a table. Tended to is accurately cautious because the link is strong but not perfect, and no numbers are given."
+          },
+          {
+            "role": "overview-second",
+            "text": "Ashford was the largest and cheapest institution, whereas Dunhill was the smallest and the most expensive, with the best employment record.",
+            "why": "Selects the two extreme rows and contrasts them with whereas, which shows selection instead of a list. The superlatives are all correct, and the sentence supports Task Achievement and Coherence."
+          }
+        ]
+      },
+      {
+        "name": "Body 1",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "Ashford, Carrow and Eastfield were the three largest institutions, and all of them charged fewer than $15,000 a year.",
+            "why": "Groups three rows by size and fees, so the paragraph has one theme. Fewer than $15,000 is accurate for 8.5, 14.5 and 10.2 thousand, and the currency symbol is placed correctly."
+          },
+          {
+            "role": "key-figures",
+            "text": "Ashford, with 32,500 students, was the biggest university and also the cheapest, at $8,500 a year.",
+            "why": "Gives the exact top figures with units and two superlatives. The participial phrase with 32,500 students adds grammatical range, and converting thousands to full numbers is accurate."
+          },
+          {
+            "role": "comparison",
+            "text": "It also had the lowest proportion of international students, at only 11 per cent, and the second lowest graduate employment rate, at 84 per cent.",
+            "why": "Moves across the row to link three columns for one university. Second lowest is verified against the table, and only signals a small figure without adding opinion."
+          },
+          {
+            "role": "trend-detail",
+            "text": "Eastfield had the weakest employment record of the five, with 79 per cent of graduates finding work within six months, compared with 88 per cent at Carrow.",
+            "why": "Compares Eastfield with its group neighbour using compared with. The weakest and both percentages are correct, and the sentence uses within six months to match the column heading precisely."
+          }
+        ]
+      },
+      {
+        "name": "Body 2",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "In contrast, Brightwell and Dunhill were much smaller but considerably more expensive.",
+            "why": "A contrast topic sentence that introduces the second group and links back to the overview. Much smaller but considerably more expensive packs two comparisons into one clear idea."
+          },
+          {
+            "role": "key-figures",
+            "text": "Dunhill, the smallest institution with 8,600 students, charged the highest fees, at $24,000, and had the greatest share of international students, at 41 per cent.",
+            "why": "Packs three superlatives for one university into one sentence with a non-defining clause. Each figure is accurate and carries its unit, which supports Task Achievement and range."
+          },
+          {
+            "role": "comparison",
+            "text": "Its graduates were also the most successful, with 95 per cent in work within six months.",
+            "why": "A short sentence that completes the Dunhill picture and uses also to link back. The most successful is a fair report of the highest employment figure and adds no unsupported explanation."
+          },
+          {
+            "role": "closing-detail",
+            "text": "Brightwell showed a similar pattern, with 12,800 students, 34 per cent from abroad and a graduate employment rate of 93 per cent.",
+            "why": "Finishes with a comparison between Brightwell and Dunhill using a similar pattern. A with phrase gives three data points in a list, with correct parallel structure for Grammatical Range."
+          }
+        ]
+      }
+    ]
+  },
+  "guide": "task1-table",
+  "analysis": [
+    "The instruction is to select and report the main features and make comparisons. The table has 20 cells; describing each in turn is the most common reason table answers stall at Band 6.",
+    "Read in both directions. Down each column, find the highest and lowest. Across each row, see how the measures relate. The insight here is that small universities charge more, recruit more students from abroad and place more graduates in work.",
+    "Group rows that behave alike: Ashford, Carrow and Eastfield (large, cheaper) against Brightwell and Dunhill (small, expensive). This gives two body paragraphs without listing five rows.",
+    "Paraphrase: \"gives information about\" becomes compares; \"universities\" can become institutions; \"in 2023\" stays at the end of the sentence.",
+    "Units differ by column: thousands of students, per cent, per cent, thousands of dollars. Attach the right unit to every figure and write $24,000 or 24 thousand dollars, not \"24\".",
+    "Turkish L1 watch: students often write \"the Dunhill\" or \"Dunhill university\" and omit articles before superlatives (\"was biggest university\"). Check: no article before a name, but \"the biggest\" needs the.",
+    "There is no time trend, so use one tense, past simple, and do not write \"increased\" or \"fell\". Do not explain why small universities charge more."
+  ],
+  "plan": [
+    {
+      "paragraph": "Introduction",
+      "idea": "Paraphrase only: the table compares five universities on student numbers, international students, graduate employment and fees in 2023."
+    },
+    {
+      "paragraph": "Overview",
+      "idea": "Smaller universities charged more, had more international students and better employment. Ashford largest and cheapest; Dunhill smallest and dearest. No figures."
+    },
+    {
+      "paragraph": "Body 1",
+      "idea": "Ashford 32,500 students, $8,500, 11 per cent international, 84 per cent employed. Eastfield weakest employment, 79 per cent, against Carrow 88 per cent."
+    },
+    {
+      "paragraph": "Body 2",
+      "idea": "Dunhill 8,600 students, $24,000, 41 per cent international, 95 per cent employed. Brightwell similar: 12,800 students, 34 per cent, 93 per cent."
+    }
+  ]
+}

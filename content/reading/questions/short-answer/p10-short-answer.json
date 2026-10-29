@@ -1,0 +1,87 @@
+{
+  "id": "p10-short-answer",
+  "type": "short-answer",
+  "passageId": "p10",
+  "wordLimit": 3,
+  "instructions": "Answer the questions. Write NO MORE THAN THREE WORDS from the passage for each answer.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "What do economists regard height in buildings as a response to?",
+      "answer": "scarcity",
+      "wordLimit": 3,
+      "evidence": {
+        "paragraph": "A",
+        "quote": "economists tend to regard height as a response to scarcity"
+      },
+      "step": 2,
+      "how": "Underline economists and height in the question, then find the opening sentence that links them. Look for the noun that completes the phrase a response to.",
+      "again": "Check that you gave the general cause and not the example that follows. The price of land is explained as a consequence of the cause, so it is not what economists name first."
+    },
+    {
+      "id": "q2",
+      "prompt": "What replaced load-bearing masonry walls in the nineteenth century?",
+      "answer": "the steel frame",
+      "accept": [
+        "steel frame",
+        "a steel frame"
+      ],
+      "wordLimit": 3,
+      "evidence": {
+        "paragraph": "A",
+        "quote": "the steel frame replaced load-bearing masonry walls"
+      },
+      "step": 4,
+      "how": "Find the sentence about the nineteenth century and read the subject of the verb that mentions masonry walls. Copy it exactly, including any article that comes with it.",
+      "again": "Confirm that you named the thing that replaced the walls and not the lift mentioned straight afterwards. The lift is a second invention that makes upper floors attractive, but it replaces nothing."
+    },
+    {
+      "id": "q3",
+      "prompt": "In which two places might chance meetings spread ideas between firms?",
+      "answer": "cafés and corridors",
+      "accept": [
+        "corridors and cafés",
+        "cafes and corridors",
+        "corridors and cafes"
+      ],
+      "wordLimit": 3,
+      "evidence": {
+        "paragraph": "B",
+        "quote": "chance meetings in cafés and corridors"
+      },
+      "step": 4,
+      "how": "Look in the paragraph on proximity for chance meetings. The question asks for two places, so copy the pair that follows the preposition and keep within three words.",
+      "again": "Check that you chose places where meetings happen, not the benefits of sharing labour or suppliers listed earlier in the sentence. Those items are resources and cannot answer where."
+    },
+    {
+      "id": "q4",
+      "prompt": "What may lift shafts occupy in the tallest towers?",
+      "answer": "a third",
+      "accept": [
+        "one third",
+        "a third of the area"
+      ],
+      "wordLimit": 3,
+      "evidence": {
+        "paragraph": "C",
+        "quote": "as much as a third of the area at the base"
+      },
+      "step": 4,
+      "how": "Find lift shafts in the paragraph about costs and read what the writer says about the space they use. Expect a fraction rather than a number of floors.",
+      "again": "Make sure you took the fraction of the area at the base, not a figure for the whole building. The words as much as signal an upper limit, which the stem reflects with may."
+    },
+    {
+      "id": "q5",
+      "prompt": "What name is given to the model that relies on mid-rise blocks?",
+      "answer": "gentle density",
+      "wordLimit": 3,
+      "evidence": {
+        "paragraph": "F",
+        "quote": "sometimes called gentle density"
+      },
+      "step": 3,
+      "how": "Scan the final paragraphs for mid-rise blocks and look for a term introduced with a naming phrase such as sometimes called. Copy the two words that follow it.",
+      "again": "Check that you used the label given to the model and not a description of its features. Courtyards and street-level shops describe the districts but are not the term the question wants."
+    }
+  ]
+}

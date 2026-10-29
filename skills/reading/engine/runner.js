@@ -52,6 +52,7 @@ export async function startSet({ type, mount, render, minutes }) {
   mount.innerHTML = `
     <header class="bar"><h1>${esc(meta.title)}</h1><span id="timer" role="timer" aria-live="off">${mmss(minutes * 60)}</span><span id="dispslot"></span></header>
     <p><a class="back" href="../../learn/#${type}">Study the notes for this question type &rarr;</a></p>
+    ${meta.sets.length > 1 ? `<p class="muted">Sets: ${meta.sets.map((id, i) => id === setId ? `<strong>${i + 1}</strong>` : `<a href="?set=${id}">${i + 1}</a>`).join(' &middot; ')}</p>` : ''}
     <details class="coach card"><summary>How to find the answer</summary><ol>${COACH.map(([a, b]) => `<li><strong>${a}</strong> ${b}</li>`).join('')}</ol></details>
     <div class="split"><article class="card passage" id="passage"></article>
       <section class="card"><p class="muted">${esc(set.instructions ?? '')}</p><div id="items"></div><button class="btn" id="submit" type="button">Submit</button></section></div>`;

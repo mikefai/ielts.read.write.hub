@@ -1,0 +1,146 @@
+{
+  "id": "p10-summary-wordbank",
+  "type": "summary-wordbank",
+  "passageId": "p10",
+  "instructions": "Complete the summary using the list of words, A-I, below.",
+  "items": [
+    {
+      "id": "q1",
+      "prompt": "Planning authorities ____ building heights to protect landmarks, daylight and older neighbourhoods.",
+      "answer": "restrict",
+      "options": [
+        "cheaper",
+        "expensive",
+        "extreme",
+        "familiar",
+        "ignore",
+        "restrict",
+        "shadows",
+        "taller",
+        "walk"
+      ],
+      "evidence": {
+        "paragraph": "D",
+        "quote": "Planning authorities in many cities restrict building heights"
+      },
+      "step": 3,
+      "how": "Read the opening of the paragraph on limits. Decide what kind of word the gap needs, a verb in the present tense, and what planners do to heights in order to protect views.",
+      "again": "Test the other verb in the list by placing it in the sentence. A verb of overlooking would defeat the purpose the sentence states, so check meaning as well as grammar."
+    },
+    {
+      "id": "q2",
+      "prompt": "If floor space cannot grow upwards, housing may become more ____.",
+      "answer": "expensive",
+      "options": [
+        "cheaper",
+        "expensive",
+        "extreme",
+        "familiar",
+        "ignore",
+        "restrict",
+        "shadows",
+        "taller",
+        "walk"
+      ],
+      "evidence": {
+        "paragraph": "D",
+        "quote": "it must either spread outwards onto farmland or become more expensive"
+      },
+      "step": 3,
+      "how": "Find the sentence about floor space that cannot grow upwards. The gap follows more, so choose an adjective that describes the second outcome the writer lists.",
+      "again": "Compare the adjectives in the list and reject the one that describes cost in the opposite direction. Then confirm the remaining word matches the burden on residents in the next clause."
+    },
+    {
+      "id": "q3",
+      "prompt": "Towers can cast long ____ and funnel strong winds towards people at street level.",
+      "answer": "shadows",
+      "options": [
+        "cheaper",
+        "expensive",
+        "extreme",
+        "familiar",
+        "ignore",
+        "restrict",
+        "shadows",
+        "taller",
+        "walk"
+      ],
+      "evidence": {
+        "paragraph": "E",
+        "quote": "Towers cast long shadows, funnel strong winds towards pedestrians"
+      },
+      "step": 3,
+      "how": "Look at the paragraph on critics and the sentence that begins with towers. The gap follows the adjective long, so choose the plural noun that fits that description.",
+      "again": "Check that your noun is something a tower casts. Another listed noun is a form of travel on foot, which fits the next paragraph's theme but cannot be cast by a building."
+    },
+    {
+      "id": "q4",
+      "prompt": "Residents of dense districts can usually ____ instead of driving.",
+      "answer": "walk",
+      "options": [
+        "cheaper",
+        "expensive",
+        "extreme",
+        "familiar",
+        "ignore",
+        "restrict",
+        "shadows",
+        "taller",
+        "walk"
+      ],
+      "evidence": {
+        "paragraph": "E",
+        "quote": "dense districts allow most residents to walk, cycle or take public transport"
+      },
+      "step": 3,
+      "how": "Find the sentence that explains why energy use per person for travel is lower. The gap needs a base-form verb that appears first in a list of ways of getting around.",
+      "again": "Make sure the verb you pick is one of the ways to travel named in the passage. A listed adjective may look similar in length but cannot follow the word can."
+    },
+    {
+      "id": "q5",
+      "prompt": "Mid-rise blocks can house as many people as isolated towers but are ____ to build.",
+      "answer": "cheaper",
+      "options": [
+        "cheaper",
+        "expensive",
+        "extreme",
+        "familiar",
+        "ignore",
+        "restrict",
+        "shadows",
+        "taller",
+        "walk"
+      ],
+      "evidence": {
+        "paragraph": "F",
+        "quote": "they cost less to build because they need neither exceptional reinforcement"
+      },
+      "step": 3,
+      "how": "Read the first sentence of the paragraph on alternatives. The stem paraphrases a comparison of building costs, so predict a comparative adjective for the mid-rise option.",
+      "again": "Check the direction of the comparison. The list also contains a comparative that would fit the grammar, but it describes height rather than cost and does not match the writer's point."
+    },
+    {
+      "id": "q6",
+      "prompt": "Supporters of gentle density argue that few cities actually need to build at that ____.",
+      "answer": "extreme",
+      "options": [
+        "cheaper",
+        "expensive",
+        "extreme",
+        "familiar",
+        "ignore",
+        "restrict",
+        "shadows",
+        "taller",
+        "walk"
+      ],
+      "evidence": {
+        "paragraph": "F",
+        "quote": "few cities actually need to build at that extreme"
+      },
+      "step": 3,
+      "how": "Find the last sentence of the paragraph on alternatives. The gap follows that, referring back to the sheer floor area of a cluster of skyscrapers on the most valuable land.",
+      "again": "Check that your word can follow the phrase build at that. Two adjectives in the list are possible, but only one names the highest end of a scale, which is what the writer implies."
+    }
+  ]
+}

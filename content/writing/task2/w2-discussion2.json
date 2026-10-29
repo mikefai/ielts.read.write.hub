@@ -1,0 +1,119 @@
+{
+  "id": "w2-discussion2",
+  "task": 2,
+  "essayType": "Discussion (both views and opinion)",
+  "title": "Starting school early or late",
+  "prompt": "Some people think that children should begin formal education at an early age, while others believe that they should not start school until they are older. Discuss both views and give your own opinion.",
+  "model": {
+    "paragraphs": [
+      {
+        "name": "Introduction",
+        "sentences": [
+          {
+            "role": "background",
+            "text": "While some people contend that formal schooling should begin as early as possible, others maintain that children should be allowed to mature first.",
+            "why": "Paraphrases both views in one sentence using contend and maintain, so nothing is copied from the question. It gives neutral background and shows Lexical Resource and Grammatical Range through while."
+          },
+          {
+            "role": "thesis",
+            "text": "Although an early start offers some academic advantages, I believe that children develop better when formal lessons begin later.",
+            "why": "A concession thesis that covers both views and states the opinion clearly. Although admits the opposing side, and I believe with develop better answers the question fully for Task Response."
+          }
+        ]
+      },
+      {
+        "name": "Body 1",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "Advocates of early schooling argue that young children learn language and basic numeracy with remarkable speed.",
+            "why": "A topic sentence that attributes the view to its supporters and names two benefits. The reporting verb argue keeps the tone objective and the idea is limited to a clear, single point."
+          },
+          {
+            "role": "explanation",
+            "text": "Because their brains are especially receptive in the first years of life, structured activities can build a foundation in reading and counting before any gaps in ability appear.",
+            "why": "Explains the reason with a cause clause and a precise result. Receptive and foundation are academic word choices, and the sentence fairly develops a view the writer does not hold."
+          },
+          {
+            "role": "example",
+            "text": "For instance, children who attend organised pre-school programmes often enter primary education already able to recognise letters and follow simple instructions.",
+            "why": "A believable example of children who attend pre-school. A relative clause and a participle phrase add range, and often keeps the generalisation sensible instead of absolute."
+          },
+          {
+            "role": "effect",
+            "text": "This head start can help them keep pace with lessons and may be particularly valuable for families who cannot provide such support at home.",
+            "why": "Draws a fair conclusion about the benefit and who gains most. Can and may hedge appropriately, which shows the writer treating the opposing view seriously rather than dismissing it."
+          }
+        ]
+      },
+      {
+        "name": "Body 2",
+        "sentences": [
+          {
+            "role": "topic",
+            "text": "Nevertheless, I believe that postponing formal instruction allows children to develop the social and emotional skills on which later learning depends.",
+            "why": "Turns to the writer's own view with Nevertheless and states it as the topic sentence. On which later learning depends is a strong relative structure that supports Grammatical Range."
+          },
+          {
+            "role": "explanation",
+            "text": "Young children need time to play, which teaches them to cooperate, to manage frustration and to express their feelings, and these abilities cannot be taught from a textbook.",
+            "why": "Explains why play matters with three parallel infinitives. The list is accurate and balanced, and the final clause gives the reason formal lessons cannot replace play for Coherence."
+          },
+          {
+            "role": "example",
+            "text": "In several northern European countries, for example, children begin formal lessons at around the age of seven, yet they perform strongly in international comparisons.",
+            "why": "A concrete example drawn from countries rather than one person. The contrast with yet shows the point, and careful wording like several and around avoids unsupported exact claims."
+          },
+          {
+            "role": "effect",
+            "text": "Such results suggest that an early academic start is not essential and that patience can protect children's motivation and enjoyment of learning.",
+            "why": "Links the example to the argument with Such results suggest. The cautious verb is correct for evidence of this kind, and the sentence ends on the value that supports the thesis."
+          }
+        ]
+      },
+      {
+        "name": "Conclusion",
+        "sentences": [
+          {
+            "role": "summary",
+            "text": "In conclusion, although early schooling can accelerate basic skills, a later start gives children the maturity and enthusiasm they need to learn successfully.",
+            "why": "Restates both sides and the opinion in new words, not a copy of the thesis. Although keeps the balance, and maturity and enthusiasm summarise the main reasons from the body paragraphs."
+          },
+          {
+            "role": "judgement",
+            "text": "Education systems should therefore prioritise play-based learning in the early years before introducing a formal curriculum.",
+            "why": "Ends with a clear recommendation consistent with the thesis and introduces no new idea. Therefore signals a logical conclusion, and prioritise is precise, formal vocabulary for Lexical Resource."
+          }
+        ]
+      }
+    ]
+  },
+  "guide": "discussion",
+  "analysis": [
+    "The instruction is \"Discuss both views and give your own opinion\". That is three jobs: explain the case for an early start, explain the case for a later start, and state your own view clearly.",
+    "Follow the order rule: Body 1 is the view you do NOT hold, treated fairly; Body 2 is the view you hold, with your stance. This keeps your argument strongest at the end.",
+    "Paraphrase in the introduction: \"begin formal education\" becomes start formal schooling; \"at an early age\" becomes as early as possible; \"until they are older\" becomes until they have matured.",
+    "Position: a later start is better, with an honest concession that early learning can speed up basic skills. State it in the thesis, repeat it in Body 2, and keep it unchanged in the conclusion.",
+    "Make the examples believable and cautious. Say \"in several countries\" or \"around the age of seven\" rather than inventing statistics.",
+    "Turkish L1 watch: students often translate \"at early age\" or \"in the early ages\" and drop the article in \"from the beginning of school\". Check: at an early age, in the early years, at the age of seven.",
+    "The question does not ask which age is exact or how schools should be funded. Stay with the two views and your opinion."
+  ],
+  "plan": [
+    {
+      "paragraph": "Introduction",
+      "idea": "Paraphrase both views. Thesis: although an early start has academic advantages, children develop better when lessons begin later."
+    },
+    {
+      "paragraph": "Body 1",
+      "idea": "View held by others: young children learn language and numeracy fast. Example: pre-school programmes. Result: a head start, especially for families without support at home."
+    },
+    {
+      "paragraph": "Body 2",
+      "idea": "My view: play develops social and emotional skills. Example: northern European countries with a later start still perform strongly. Result: patience protects motivation."
+    },
+    {
+      "paragraph": "Conclusion",
+      "idea": "Early schooling helps basic skills but a later start brings maturity and enthusiasm. Prioritise play-based learning first."
+    }
+  ]
+}
