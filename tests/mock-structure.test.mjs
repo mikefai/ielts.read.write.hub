@@ -23,8 +23,13 @@ function fixture(id, words = 2400) {
   return { test, sets, passages };
 }
 
-test('unknown test id has no structure', () =>
-  assert.match(validateTest({ id: 'zz', minutes: 60, passages: [] }, {}).join('|'), /no structure/));
+test('a test with no STRUCTURE entry is still checked generically', () => {
+  assert.match(validateTest({ id: 'zz', minutes: 60, passages: [] }, {}).join('|'), /3 passages/);
+  const f = fixture('m1'); f.test.id = 'zz';
+  assert.deepEqual(validateTest(f.test, f.sets, f.passages), []);
+  f.sets['m1-tfng-0'].items.pop();
+  assert.match(validateTest(f.test, f.sets, f.passages).join('|'), /40/);
+});
 test('valid m1 fixture passes', () => {
   const f = fixture('m1');
   assert.deepEqual(validateTest(f.test, f.sets, f.passages), []);

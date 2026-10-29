@@ -89,8 +89,8 @@ const MOCK_REQUIRED = ['tfng', 'matching-headings', 'summary-completion'];
 
 export function validateTest(test, sets, passages = {}) {
   const errs = [];
-  const structure = STRUCTURE[test.id];
-  if (!structure) return [`${test.id}: no structure registered`];
+  // a new test needs no STRUCTURE entry: its own groups are the structure, and the generic rules below still apply
+  const structure = STRUCTURE[test.id] ?? (test.passages ?? []).map(p => p.groups.map(g => [g.type, sets[g.setId]?.items.length]));
   const mock = !LEGACY.includes(test.id);
   if (test.minutes !== 60) errs.push(`${test.id}: minutes must be 60`);
   if (test.passages?.length !== 3) errs.push(`${test.id}: needs 3 passages`);
@@ -131,7 +131,12 @@ const walk = d => readdirSync(d).flatMap(f => statSync(join(d, f)).isDirectory()
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const root = join(dirname(fileURLToPath(import.meta.url)), '..', 'content', 'reading');
   const errs = [];
-  const tests = existsSync(join(root, 'tests')) ? walk(join(root, 'tests')).map(f => JSON.parse(readFileSync(f, 'utf8'))) : [];
+  const testFiles = existsSync(join(root, 'tests')) ? walk(join(root, 'tests')).filter(f => !f.endsWith('index.json')) : [];
+  const tests = testFiles.map(f => JSON.parse(readFileSync(f, 'utf8')));
+  const listed = JSON.parse(readFileSync(join(root, 'tests', 'index.json'), 'utf8'));
+  for (const t of tests) if (!listed.includes(t.id)) errs.push(`${t.id}: missing from content/reading/tests/index.json, so the hub will not show it`);
+  for (const id of listed) if (!tests.some(t => t.id === id)) errs.push(`tests/index.json lists "${id}" but no such test file exists`);
+  for (const t of tests) if (!t.title || !t.blurb) errs.push(`${t.id}: needs a title and a blurb for the hub card`);
   const testPassages = new Set(tests.filter(t => LEGACY.includes(t.id)).flatMap(t => t.passages.map(p => p.passageId)));
   const mockPassages = new Set(tests.filter(t => !LEGACY.includes(t.id)).flatMap(t => t.passages.map(p => p.passageId)));
   const passages = {};

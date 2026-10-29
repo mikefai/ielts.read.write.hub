@@ -2,6 +2,7 @@
   "id": "t1",
   "title": "Practice Test 1",
   "minutes": 60,
+  "blurb": "3 passages · 40 questions · 60 minutes, built like the real exam",
   "passages": [
     {
       "passageId": "t1-p1",

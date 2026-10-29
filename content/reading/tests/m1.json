@@ -2,6 +2,7 @@
   "id": "m1",
   "title": "Mock Exam 1",
   "minutes": 60,
+  "blurb": "3 passages · 40 questions · 60 minutes · True/False/Not Given, summary completion, matching",
   "passages": [
     {
       "passageId": "m1-p1",

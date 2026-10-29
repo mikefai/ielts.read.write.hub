@@ -8,7 +8,8 @@ Static site, no build step. Serve it over http (ES modules do not load from file
 - Tests: `node --test tests/*.test.mjs`
 - Method guide: `docs/content/ielts-academic-method-guide.md`
 
-- Full test: `skills/reading/test/?id=t1` (mirrors a real test: 3 passages, 40 questions, 60 minutes). Add a test as `content/reading/tests/<id>.json`; `node tools/validate-content.mjs` enforces the structure.
+- Full test: `skills/reading/test/?id=t1` (mirrors a real test: 3 passages, 40 questions, 60 minutes).
+- Build a test: `node tools/sets.mjs --free` lists passages and the question sets no test uses yet. Then `node tools/new-test.mjs <id> "<title>" "<blurb>" <sets> <sets> <sets>` (one comma-separated list of set ids per passage) writes `content/reading/tests/<id>.json`, adds it to `tests/index.json` (which feeds the hub) and validates it. A test needs 3 passages, exactly 40 questions and 2,150-2,750 words, and must include tfng, matching-headings and summary-completion. Add an entry to `STRUCTURE` in `tools/validate-content.mjs` only if you want its group order and sizes pinned.
 
 ## Mock exams
 
