@@ -61,3 +61,6 @@ input.gap:focus, select:focus { border-bottom-color: var(--accent); outline: non
 .passage { font-size: calc(clamp(1.14rem, .5vw + .88rem, 1.45rem) * var(--uiscale, 1)); }
 .split > section.card:not(.passage), #qpanes { font-size: calc(clamp(1rem, .3vw + .85rem, 1.2rem) * var(--uiscale, 1)); }
 .bar #submit { background: var(--ink); color: var(--paper); border-color: var(--paper); } .bar #submit:hover { background: var(--accent); color: var(--on-accent-soft); }
+
+/* phones: the label gutter and a 30px heading leave too little width for the text */
+@media (max-width: 700px) { .passage { font-size: calc(1.05rem * var(--uiscale, 1)); padding-right: 14px; } .passage h2 { font-size: 1.45rem; } }
